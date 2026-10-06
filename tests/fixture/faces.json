@@ -1,0 +1,48 @@
+{
+  "faces": [
+    {
+      "slug": "stjarna",
+      "name": "Stjärna",
+      "subtitle": "Zodiac Stars",
+      "category": "Stylish",
+      "pitch": "Your sign, written in real stars.",
+      "short": "Your zodiac constellation in real stars.",
+      "full": ["First paragraph.", "Second paragraph."],
+      "settings": [{"name": "Sign", "values": "Aries to Pisces"}],
+      "store_url": "https://apps.garmin.com/apps/00000000-0000-4000-8000-000000000001",
+      "images": [
+        {"file": "img/stjarna/01_hero.jpg", "alt": "Stjärna: the face on the watch", "w": 720, "h": 720},
+        {"file": "img/stjarna/02_features.jpg", "alt": "Stjärna: what every part of the dial shows", "w": 720, "h": 720},
+        {"file": "img/stjarna/03_themes.jpg", "alt": "Stjärna: the twelve signs", "w": 720, "h": 720},
+        {"file": "img/stjarna/04_devices.jpg", "alt": "Stjärna: both kinds of screen", "w": 720, "h": 720},
+        {"file": "img/stjarna/05_detail.jpg", "alt": "Stjärna: the stars through the day", "w": 720, "h": 720}
+      ],
+      "icon": {"file": "img/stjarna/icon_500.jpg", "w": 500, "h": 500},
+      "hero": {"file": "img/stjarna/hero_1440x720.jpg", "w": 1440, "h": 720}
+    },
+    {
+      "slug": "lykt",
+      "name": "Lykt <script>alert(1)</script>",
+      "subtitle": "Jack-o'-Lantern",
+      "category": "Fun",
+      "pitch": "Every carved hole has a job.",
+      "short": "A \"carved\" pumpkin & a candle.",
+      "full": ["The time is the grin.", "Five pumpkins & a candle."],
+      "settings": [{"name": "Candle follows", "values": "Body Battery, battery, steps"}],
+      "store_url": "https://apps.garmin.com/apps/00000000-0000-4000-8000-000000000002",
+      "images": [
+        {"file": "img/lykt/01_hero.jpg", "alt": "Lykt: the face on the watch", "w": 720, "h": 720},
+        {"file": "img/lykt/02_features.jpg", "alt": "Lykt: what every part of the dial shows", "w": 720, "h": 720},
+        {"file": "img/lykt/03_themes.jpg", "alt": "Lykt: the five pumpkins", "w": 720, "h": 720},
+        {"file": "img/lykt/04_devices.jpg", "alt": "Lykt: both kinds of screen", "w": 720, "h": 720},
+        {"file": "img/lykt/05_detail.jpg", "alt": "Lykt: the candle through the day", "w": 720, "h": 720}
+      ],
+      "icon": {"file": "img/lykt/icon_500.jpg", "w": 500, "h": 500},
+      "hero": {"file": "img/lykt/hero_1440x720.jpg", "w": 1440, "h": 720}
+    }
+  ],
+  "watches": [
+    {"line": "fēnix", "names": ["fēnix® 6 Pro", "fēnix® 7"]},
+    {"line": "Venu", "names": ["Venu® 2S"]}
+  ]
+}
