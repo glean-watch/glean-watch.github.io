@@ -13,7 +13,7 @@ import build  # noqa: E402
 
 FIXTURE = Path(__file__).resolve().parent / "fixture" / "faces.json"
 # Pages a later task adds; until then the nav may point at them.
-LATER = ("/help/", "/privacy/")
+LATER = ()
 
 
 def make_site(data=None):
@@ -109,6 +109,41 @@ class BuildTest(unittest.TestCase):
                                                        encoding="utf-8")
         build.build(self.site)
         self.assertFalse((self.site / "faces" / "lykt").exists())
+
+    def test_help_privacy_and_404_are_written(self):
+        for p in ("help/index.html", "privacy/index.html", "404.html"):
+            self.assertIn(p, self.pages)
+
+    def test_help_lists_every_watch(self):
+        help_ = self.pages["help/index.html"]
+        for line in self.data["watches"]:
+            self.assertIn("<h3>%s</h3>" % line["line"], help_)
+            for n in line["names"]:
+                self.assertIn("<li>%s</li>" % n, help_)
+        self.assertIn('id="watches"', help_)
+        self.assertIn("The 3 watches", help_)
+
+    def test_the_nav_marks_the_current_page(self):
+        self.assertIn('href="/help/" aria-current="page"', self.pages["help/index.html"])
+        self.assertIn('href="/privacy/" aria-current="page"', self.pages["privacy/index.html"])
+        self.assertNotIn('aria-current="page">Faces', self.pages["404.html"])
+
+    def test_the_sitemap(self):
+        xml = (self.site / "sitemap.xml").read_text(encoding="utf-8")
+        for p in ("", "faces/stjarna/", "faces/lykt/", "help/", "privacy/"):
+            self.assertIn("<loc>%s%s</loc>" % (build.BASE, p), xml)
+        self.assertNotIn("404", xml)
+
+    def test_robots_points_at_the_sitemap(self):
+        self.assertEqual((self.site / "robots.txt").read_text(encoding="utf-8"),
+                         "User-agent: *\nAllow: /\nSitemap: %ssitemap.xml\n" % build.BASE)
+
+    def test_a_removed_face_leaves_the_sitemap(self):
+        data = dict(self.data, faces=self.data["faces"][:1])
+        (self.site / "data" / "faces.json").write_text(json.dumps(data, ensure_ascii=False),
+                                                       encoding="utf-8")
+        build.build(self.site)
+        self.assertNotIn("faces/lykt/", (self.site / "sitemap.xml").read_text(encoding="utf-8"))
 
     def test_an_unsafe_slug_is_refused(self):
         data = json.loads(FIXTURE.read_text(encoding="utf-8"))

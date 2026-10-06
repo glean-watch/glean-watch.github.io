@@ -87,6 +87,40 @@ def face_page(site, data, face):
                 "faces/%s/" % face["slug"], face["hero"]["file"], main)
 
 
+def watches_html(data):
+    return "\n".join("<section><h3>%s</h3><ul>%s</ul></section>"
+                     % (esc(line["line"]), "".join("<li>%s</li>" % esc(n) for n in line["names"]))
+                     for line in data["watches"])
+
+
+def help_page(site, data):
+    main = template(site, "help").substitute(watches=watches_html(data),
+                                             watch_count=watch_count(data))
+    return page(site, "help", "Help · Glean",
+                "Installing a Glean watch face, changing its settings, and the watches it runs on.",
+                "help/", data["faces"][0]["hero"]["file"], main)
+
+
+def privacy_page(site, data):
+    return page(site, "privacy", "Privacy · Glean",
+                "What Glean's watch faces and this site do with your data: nothing leaves your watch.",
+                "privacy/", data["faces"][0]["hero"]["file"], template(site, "privacy").substitute())
+
+
+def not_found(site, data):
+    return page(site, None, "Not found · Glean", "This page does not exist.", "404.html",
+                data["faces"][0]["hero"]["file"], template(site, "404").substitute())
+
+
+def sitemap(paths):
+    urls = "".join("  <url><loc>%s</loc></url>\n" % esc(BASE + p) for p in paths)
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n%s</urlset>\n' % urls)
+
+
+ROBOTS = "User-agent: *\nAllow: /\nSitemap: %ssitemap.xml\n" % BASE
+
+
 def _write(path, text):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_bytes(text.encode("utf-8"))
@@ -111,7 +145,13 @@ def build(site=HERE):
     _write(site / "index.html", home(site, data))
     for f in data["faces"]:
         _write(faces_dir / f["slug"] / "index.html", face_page(site, data, f))
-    return [""] + ["faces/%s/" % s for s in slugs]
+    _write(site / "help" / "index.html", help_page(site, data))
+    _write(site / "privacy" / "index.html", privacy_page(site, data))
+    _write(site / "404.html", not_found(site, data))
+    paths = [""] + ["faces/%s/" % s for s in slugs] + ["help/", "privacy/"]
+    _write(site / "sitemap.xml", sitemap(paths))
+    _write(site / "robots.txt", ROBOTS)
+    return paths
 
 
 if __name__ == "__main__":
