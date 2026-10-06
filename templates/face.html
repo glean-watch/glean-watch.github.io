@@ -8,9 +8,20 @@
   </div>
   <a class="store" href="$store_url">Get it on the Connect IQ Store</a>
 </section>
-<ul class="strip" role="list" aria-label="Pictures of $name">
-$strip
-</ul>
+<section class="gallery" aria-roledescription="carousel" aria-label="Pictures of $name">
+  <div class="stage">
+    <ul class="slides" role="list">
+$slides
+    </ul>
+    <button class="arrow prev" type="button" aria-label="Previous picture" hidden>‹</button>
+    <button class="arrow next" type="button" aria-label="Next picture" hidden>›</button>
+    <span class="count" hidden>1 / $count</span>
+  </div>
+  <p class="caption" aria-live="polite">$caption</p>
+  <ol class="thumbs" role="list">
+$thumbs
+  </ol>
+</section>
 <section class="face-text">
   <p class="lead">$short</p>
 $full

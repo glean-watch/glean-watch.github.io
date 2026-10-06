@@ -15,6 +15,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="/assets/fonts/space-grotesk.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/gallery.js" defer></script>
 </head>
 <body>
 <header class="top">
@@ -36,13 +37,28 @@
   </div>
   <a class="store" href="https://apps.garmin.com/apps/63b592d0-0d28-4bc2-902c-68d28caf92a1">Get it on the Connect IQ Store</a>
 </section>
-<ul class="strip" role="list" aria-label="Pictures of Eng">
-<li><a href="/img/eng/01_hero.jpg"><img src="/img/eng/01_hero.jpg" width="720" height="720" alt="Eng: the face on the watch"></a></li>
-<li><a href="/img/eng/02_features.jpg"><img src="/img/eng/02_features.jpg" width="720" height="720" alt="Eng: what every part of the dial shows" loading="lazy"></a></li>
-<li><a href="/img/eng/03_themes.jpg"><img src="/img/eng/03_themes.jpg" width="720" height="720" alt="Eng: the five skies" loading="lazy"></a></li>
-<li><a href="/img/eng/04_devices.jpg"><img src="/img/eng/04_devices.jpg" width="720" height="720" alt="Eng: both kinds of screen and always-on" loading="lazy"></a></li>
-<li><a href="/img/eng/05_detail.jpg"><img src="/img/eng/05_detail.jpg" width="720" height="720" alt="Eng: the bloom through the day" loading="lazy"></a></li>
-</ul>
+<section class="gallery" aria-roledescription="carousel" aria-label="Pictures of Eng">
+  <div class="stage">
+    <ul class="slides" role="list">
+<li class="slide" id="shot-1" aria-roledescription="slide" aria-label="1 of 5" data-caption="The face on the watch"><a href="/img/eng/01_hero.jpg"><img src="/img/eng/01_hero.jpg" width="720" height="720" alt="Eng: the face on the watch"></a></li>
+<li class="slide" id="shot-2" aria-roledescription="slide" aria-label="2 of 5" data-caption="What every part of the dial shows"><a href="/img/eng/02_features.jpg"><img src="/img/eng/02_features.jpg" width="720" height="720" alt="Eng: what every part of the dial shows" loading="lazy"></a></li>
+<li class="slide" id="shot-3" aria-roledescription="slide" aria-label="3 of 5" data-caption="The five skies"><a href="/img/eng/03_themes.jpg"><img src="/img/eng/03_themes.jpg" width="720" height="720" alt="Eng: the five skies" loading="lazy"></a></li>
+<li class="slide" id="shot-4" aria-roledescription="slide" aria-label="4 of 5" data-caption="Both kinds of screen and always-on"><a href="/img/eng/04_devices.jpg"><img src="/img/eng/04_devices.jpg" width="720" height="720" alt="Eng: both kinds of screen and always-on" loading="lazy"></a></li>
+<li class="slide" id="shot-5" aria-roledescription="slide" aria-label="5 of 5" data-caption="The bloom through the day"><a href="/img/eng/05_detail.jpg"><img src="/img/eng/05_detail.jpg" width="720" height="720" alt="Eng: the bloom through the day" loading="lazy"></a></li>
+    </ul>
+    <button class="arrow prev" type="button" aria-label="Previous picture" hidden>‹</button>
+    <button class="arrow next" type="button" aria-label="Next picture" hidden>›</button>
+    <span class="count" hidden>1 / 5</span>
+  </div>
+  <p class="caption" aria-live="polite">The face on the watch</p>
+  <ol class="thumbs" role="list">
+<li><a class="thumb" href="#shot-1" aria-label="Picture 1: The face on the watch"><img src="/img/eng/01_hero.jpg" width="720" height="720" alt=""></a></li>
+<li><a class="thumb" href="#shot-2" aria-label="Picture 2: What every part of the dial shows"><img src="/img/eng/02_features.jpg" width="720" height="720" alt=""></a></li>
+<li><a class="thumb" href="#shot-3" aria-label="Picture 3: The five skies"><img src="/img/eng/03_themes.jpg" width="720" height="720" alt=""></a></li>
+<li><a class="thumb" href="#shot-4" aria-label="Picture 4: Both kinds of screen and always-on"><img src="/img/eng/04_devices.jpg" width="720" height="720" alt=""></a></li>
+<li><a class="thumb" href="#shot-5" aria-label="Picture 5: The bloom through the day"><img src="/img/eng/05_detail.jpg" width="720" height="720" alt=""></a></li>
+  </ol>
+</section>
 <section class="face-text">
   <p class="lead">A lavender field that flowers with your Body Battery, under a sky that follows the sun.</p>
 <p>Eng is a meadow of lavender running to the hills. Its bloom is your Body Battery: rested, the rows are in flower all the way to the horizon; as the day spends your energy the colour goes back down the field and the rows return to bud. You read it the way you read a real field, and a small legend underneath says what the bloom is measuring and how far it has come.</p>

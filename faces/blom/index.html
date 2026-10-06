@@ -15,6 +15,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="/assets/fonts/space-grotesk.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/gallery.js" defer></script>
 </head>
 <body>
 <header class="top">
@@ -36,13 +37,28 @@
   </div>
   <a class="store" href="https://apps.garmin.com/apps/b38ae2eb-8473-41dc-ab4c-05b8a378204d">Get it on the Connect IQ Store</a>
 </section>
-<ul class="strip" role="list" aria-label="Pictures of Blom">
-<li><a href="/img/blom/01_hero.jpg"><img src="/img/blom/01_hero.jpg" width="720" height="720" alt="Blom: the face on the watch"></a></li>
-<li><a href="/img/blom/02_features.jpg"><img src="/img/blom/02_features.jpg" width="720" height="720" alt="Blom: what every part of the dial shows" loading="lazy"></a></li>
-<li><a href="/img/blom/03_themes.jpg"><img src="/img/blom/03_themes.jpg" width="720" height="720" alt="Blom: the five skies" loading="lazy"></a></li>
-<li><a href="/img/blom/04_devices.jpg"><img src="/img/blom/04_devices.jpg" width="720" height="720" alt="Blom: both kinds of screen and always-on" loading="lazy"></a></li>
-<li><a href="/img/blom/05_detail.jpg"><img src="/img/blom/05_detail.jpg" width="720" height="720" alt="Blom: the blossom through the day" loading="lazy"></a></li>
-</ul>
+<section class="gallery" aria-roledescription="carousel" aria-label="Pictures of Blom">
+  <div class="stage">
+    <ul class="slides" role="list">
+<li class="slide" id="shot-1" aria-roledescription="slide" aria-label="1 of 5" data-caption="The face on the watch"><a href="/img/blom/01_hero.jpg"><img src="/img/blom/01_hero.jpg" width="720" height="720" alt="Blom: the face on the watch"></a></li>
+<li class="slide" id="shot-2" aria-roledescription="slide" aria-label="2 of 5" data-caption="What every part of the dial shows"><a href="/img/blom/02_features.jpg"><img src="/img/blom/02_features.jpg" width="720" height="720" alt="Blom: what every part of the dial shows" loading="lazy"></a></li>
+<li class="slide" id="shot-3" aria-roledescription="slide" aria-label="3 of 5" data-caption="The five skies"><a href="/img/blom/03_themes.jpg"><img src="/img/blom/03_themes.jpg" width="720" height="720" alt="Blom: the five skies" loading="lazy"></a></li>
+<li class="slide" id="shot-4" aria-roledescription="slide" aria-label="4 of 5" data-caption="Both kinds of screen and always-on"><a href="/img/blom/04_devices.jpg"><img src="/img/blom/04_devices.jpg" width="720" height="720" alt="Blom: both kinds of screen and always-on" loading="lazy"></a></li>
+<li class="slide" id="shot-5" aria-roledescription="slide" aria-label="5 of 5" data-caption="The blossom through the day"><a href="/img/blom/05_detail.jpg"><img src="/img/blom/05_detail.jpg" width="720" height="720" alt="Blom: the blossom through the day" loading="lazy"></a></li>
+    </ul>
+    <button class="arrow prev" type="button" aria-label="Previous picture" hidden>‹</button>
+    <button class="arrow next" type="button" aria-label="Next picture" hidden>›</button>
+    <span class="count" hidden>1 / 5</span>
+  </div>
+  <p class="caption" aria-live="polite">The face on the watch</p>
+  <ol class="thumbs" role="list">
+<li><a class="thumb" href="#shot-1" aria-label="Picture 1: The face on the watch"><img src="/img/blom/01_hero.jpg" width="720" height="720" alt=""></a></li>
+<li><a class="thumb" href="#shot-2" aria-label="Picture 2: What every part of the dial shows"><img src="/img/blom/02_features.jpg" width="720" height="720" alt=""></a></li>
+<li><a class="thumb" href="#shot-3" aria-label="Picture 3: The five skies"><img src="/img/blom/03_themes.jpg" width="720" height="720" alt=""></a></li>
+<li><a class="thumb" href="#shot-4" aria-label="Picture 4: Both kinds of screen and always-on"><img src="/img/blom/04_devices.jpg" width="720" height="720" alt=""></a></li>
+<li><a class="thumb" href="#shot-5" aria-label="Picture 5: The blossom through the day"><img src="/img/blom/05_detail.jpg" width="720" height="720" alt=""></a></li>
+  </ol>
+</section>
 <section class="face-text">
   <p class="lead">A cherry branch that blooms with your Body Battery, under a sky that follows the sun.</p>
 <p>Blom is a branch of cherry blossom across the sky. Its flowers are your Body Battery: rested, every one of the eighteen is open; as the day spends your energy they close from the tips inward, and each one that closes lets a petal fall onto the grass. You read it at a glance, and a small legend underneath says what the blossom is measuring and how far along it is.</p>

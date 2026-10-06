@@ -14,6 +14,7 @@ import build  # noqa: E402
 FIXTURE = Path(__file__).resolve().parent / "fixture" / "faces.json"
 # Pages a later task adds; until then the nav may point at them.
 LATER = ()
+GALLERY_TAG = '<script src="/assets/gallery.js" defer></script>'
 
 
 def make_site(data=None):
@@ -66,7 +67,8 @@ class BuildTest(unittest.TestCase):
     def test_text_is_escaped(self):
         lykt = self.pages["faces/lykt/index.html"]
         for name, text in self.pages.items():
-            self.assertNotIn("<script", text, name)
+            # The gallery's own file is the one script; nothing inline.
+            self.assertNotIn("<script", text.replace(GALLERY_TAG, ""), name)
         self.assertIn("Lykt &lt;script&gt;alert(1)&lt;/script&gt;", lykt)
         self.assertIn('content="A &quot;carved&quot; pumpkin &amp; a candle."', lykt)
         self.assertIn("Jack-o&#x27;-Lantern", lykt)
@@ -83,7 +85,7 @@ class BuildTest(unittest.TestCase):
     def test_the_face_page(self):
         lykt = self.pages["faces/lykt/index.html"]
         self.assertIn('href="https://apps.garmin.com/apps/00000000-0000-4000-8000-000000000002"', lykt)
-        self.assertEqual(lykt.count('<li><a href="/img/lykt/0'), 5)
+        self.assertEqual(lykt.count('<a href="/img/lykt/0'), 5)  # each slide opens full size
         self.assertIn("<th scope=\"row\">Candle follows</th>", lykt)
         self.assertIn("Works on 3 watches", lykt)
 
@@ -109,6 +111,31 @@ class BuildTest(unittest.TestCase):
                                                        encoding="utf-8")
         build.build(self.site)
         self.assertFalse((self.site / "faces" / "lykt").exists())
+
+    def test_the_gallery(self):
+        lykt = self.pages["faces/lykt/index.html"]
+        self.assertIn('<section class="gallery" aria-roledescription="carousel"', lykt)
+        slides = re.findall(r'<li class="slide" id="(shot-\d)"', lykt)
+        self.assertEqual(slides, ["shot-1", "shot-2", "shot-3", "shot-4", "shot-5"])
+        thumbs = re.findall(r'<a class="thumb" href="#(shot-\d)"', lykt)
+        self.assertEqual(thumbs, slides)  # every thumbnail points at a slide that exists
+        self.assertIn('aria-label="2 of 5"', lykt)
+
+    def test_the_gallery_works_without_the_script(self):
+        # The arrows and the counter mean nothing until gallery.js runs.
+        lykt = self.pages["faces/lykt/index.html"]
+        self.assertIn('<button class="arrow prev" type="button" aria-label="Previous picture" hidden>', lykt)
+        self.assertIn('<button class="arrow next" type="button" aria-label="Next picture" hidden>', lykt)
+        self.assertIn('<span class="count" hidden>1 / 5</span>', lykt)
+
+    def test_the_caption_is_the_listing_caption(self):
+        lykt = self.pages["faces/lykt/index.html"]
+        self.assertIn('<p class="caption" aria-live="polite">The face on the watch</p>', lykt)
+        self.assertIn('data-caption="The five pumpkins"', lykt)
+
+    def test_the_script_loads_on_face_pages_only(self):
+        for name, text in self.pages.items():
+            self.assertEqual(GALLERY_TAG in text, name.startswith("faces/"), name)
 
     def test_help_privacy_and_404_are_written(self):
         for p in ("help/index.html", "privacy/index.html", "404.html"):

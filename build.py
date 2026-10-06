@@ -17,6 +17,8 @@ from string import Template
 BASE = "https://glean-watch.github.io/"
 HERE = Path(__file__).resolve().parent
 EAGER = 3  # the cards above the fold load at once, the rest lazily
+# The face pages' gallery: the site's one script, its own file, nothing inline.
+GALLERY_JS = '<script src="/assets/gallery.js" defer></script>'
 
 
 def esc(s):
@@ -31,14 +33,14 @@ def template(site, name):
     return Template((Path(site) / "templates" / (name + ".html")).read_text(encoding="utf-8"))
 
 
-def page(site, current, title, description, path, og_image, main):
+def page(site, current, title, description, path, og_image, main, scripts=""):
     """A whole page around `main`; `path` and `og_image` are relative to BASE."""
     nav = {k: (' aria-current="page"' if k == current else "")
            for k in ("faces", "help", "privacy")}
     return template(site, "base").substitute(
         title=esc(title), description=esc(description), canonical=esc(BASE + path),
         og_image=esc(BASE + og_image), main=main, nav_faces=nav["faces"],
-        nav_help=nav["help"], nav_privacy=nav["privacy"])
+        nav_help=nav["help"], nav_privacy=nav["privacy"], scripts=scripts)
 
 
 def img(pic, alt, lazy, cls=None):
@@ -71,20 +73,36 @@ def full_title(face):
     return face["name"] + (" – " + face["subtitle"] if face["subtitle"] else "")
 
 
+def caption(shot):
+    """'Lykt: the five pumpkins' -> 'The five pumpkins': the listing's caption,
+    which the export put after the name in the alt text."""
+    text = shot["alt"].partition(": ")[2] or shot["alt"]
+    return text[:1].upper() + text[1:]
+
+
 def face_page(site, data, face):
-    strip = "\n".join('<li><a href="/%s">%s</a></li>' % (esc(s["file"]), img(s, s["alt"], i > 0))
-                      for i, s in enumerate(face["images"]))
+    shots, n = face["images"], len(face["images"])
+    # Each slide opens its picture full size; each thumbnail is a link to its
+    # slide, so the gallery still works where gallery.js does not run.
+    slides = "\n".join(
+        '<li class="slide" id="shot-%d" aria-roledescription="slide" aria-label="%d of %d" '
+        'data-caption="%s"><a href="/%s">%s</a></li>'
+        % (i + 1, i + 1, n, esc(caption(s)), esc(s["file"]), img(s, s["alt"], i > 0))
+        for i, s in enumerate(shots))
+    thumbs = "\n".join(
+        '<li><a class="thumb" href="#shot-%d" aria-label="Picture %d: %s">%s</a></li>'
+        % (i + 1, i + 1, esc(caption(s)), img(s, "", False)) for i, s in enumerate(shots))
     rows = "\n".join('<tr><th scope="row">%s</th><td>%s</td></tr>'
                      % (esc(r["name"]), esc(r["values"])) for r in face["settings"])
     main = template(site, "face").substitute(
         name=esc(face["name"]), category=esc(face["category"]),
         subtitle=('<p class="sub">%s</p>' % esc(face["subtitle"])) if face["subtitle"] else "",
         store_url=esc(face["store_url"]), icon=img(face["icon"], "", False, "icon"),
-        strip=strip, short=esc(face["short"]),
-        full="\n".join("<p>%s</p>" % esc(p) for p in face["full"]),
+        slides=slides, thumbs=thumbs, count=n, caption=esc(caption(shots[0])),
+        short=esc(face["short"]), full="\n".join("<p>%s</p>" % esc(p) for p in face["full"]),
         settings=rows, watch_count=watch_count(data))
     return page(site, "faces", "%s · Glean" % full_title(face), face["short"],
-                "faces/%s/" % face["slug"], face["hero"]["file"], main)
+                "faces/%s/" % face["slug"], face["hero"]["file"], main, GALLERY_JS)
 
 
 def watches_html(data):
