@@ -35,9 +35,12 @@ h1, h2, h3 { font-family: var(--display); color: var(--ink); line-height: 1.15; 
 .top, main, .foot { max-width: var(--width); margin: 0 auto; padding-left: var(--gutter); padding-right: var(--gutter); }
 .top { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 1rem; padding-top: 1.25rem; padding-bottom: 1.25rem; }
 .wordmark { font: 600 1.25rem/1 var(--display); letter-spacing: .2em; text-decoration: none; }
-.top nav { display: flex; gap: 1.25rem; }
+.top nav { display: flex; align-items: center; gap: 1.25rem; }
 .top nav a { color: var(--muted); text-decoration: none; }
 .top nav a[aria-current="page"], .top nav a:hover { color: var(--ink); }
+.kofi { display: flex; padding: .3rem; margin: -.3rem; }
+.kofi svg { width: 1.5rem; height: 1.5rem; fill: currentColor; }
+.kofi .heart { fill: #ff5e5b; }
 
 .intro { padding: 2rem 0 1.5rem; }
 .intro h1 { font-size: clamp(1.9rem, 4vw, 2.8rem); margin: 0 0 .5rem; letter-spacing: -.01em; }

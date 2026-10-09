@@ -155,6 +155,14 @@ class BuildTest(unittest.TestCase):
         self.assertIn('href="/privacy/" aria-current="page"', self.pages["privacy/index.html"])
         self.assertNotIn('aria-current="page">Faces', self.pages["404.html"])
 
+    def test_the_nav_carries_ko_fi(self):
+        # An icon alone, so the link's name is its label; the drawing is hidden.
+        for name, text in self.pages.items():
+            nav = re.search(r'<nav aria-label="Main">(.*?)</nav>', text, re.S).group(1)
+            self.assertRegex(nav, r'<a class="kofi" href="https://ko-fi\.com/glean" '
+                                  r'aria-label="[^"]+"', name)
+            self.assertIn('<svg viewBox="0 0 24 24" aria-hidden="true"', nav, name)
+
     def test_the_sitemap(self):
         xml = (self.site / "sitemap.xml").read_text(encoding="utf-8")
         for p in ("", "faces/stjarna/", "faces/lykt/", "help/", "privacy/"):
