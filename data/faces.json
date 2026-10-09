@@ -1,6 +1,166 @@
 {
   "faces": [
     {
+      "slug": "rad",
+      "name": "Rad",
+      "subtitle": "Big Time & Data",
+      "category": "Digital",
+      "pitch": "Big time, at a glance.",
+      "short": "The time on one line in large figures in the style of road signs, with the date and two readings in large type under it: all of it readable without glasses.",
+      "full": [
+        "Rad sets the time on a single line, as wide as the round screen allows at its height, in condensed figures in the style of road signs: lettering made to be read at a distance and at speed. The hours are white, the colon and the minutes the colour of your theme.",
+        "Around it, the things you check every day are large too. The date sits above the time in your watch's own language, battery and alerts above it. Under the time, two readings stand in rounded chips, each with its icon: heart rate and steps to start, or the weather, Body Battery, calories, distance, sunrise and sunset or any of fifteen sources. The chips size themselves to what they hold. Below them a short bar fills as your steps meet their goal, or floors, intensity minutes, Body Battery, battery or stress.",
+        "Six themes in the colours of road signs: Yellow, Green, Blue, Orange, White and Paper, dark figures on a white ground for anyone who reads better that way. 12 and 24 hour time, without a leading zero in 12 hour. The always-on mode keeps the time at the same size in a light weight."
+      ],
+      "settings": [
+        {
+          "name": "Theme",
+          "values": "Yellow, Green, Blue, Orange, White, Paper"
+        },
+        {
+          "name": "Minutes in the theme colour",
+          "values": "on / off"
+        },
+        {
+          "name": "Left reading, right reading",
+          "values": "any of fifteen sources, or off"
+        },
+        {
+          "name": "Goal bar",
+          "values": "steps, floors, intensity minutes, Body Battery, battery, stress, off"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/e0257489-a615-410b-9420-e08135d77fcc",
+      "images": [
+        {
+          "file": "img/rad/01_hero.jpg",
+          "alt": "Rad: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/rad/02_features.jpg",
+          "alt": "Rad: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/rad/03_themes.jpg",
+          "alt": "Rad: the six themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/rad/04_devices.jpg",
+          "alt": "Rad: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/rad/05_detail.jpg",
+          "alt": "Rad: the goal bar through a day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/rad/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/rad/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "stor",
+      "name": "Stor",
+      "subtitle": "Extra Large Numbers",
+      "category": "Simple",
+      "pitch": "Read it without glasses.",
+      "short": "The time in figures as tall as your watch allows, hours over minutes, so you can read it at arm's length without your glasses.",
+      "full": [
+        "Stor puts the time in the largest figures a round screen can hold: the hours on one line, the minutes on the next, each nearly a third of the screen's height. Heavy, open figures in a modern grotesque, white on black, with the minutes in a colour of your choice, read at a glance across a room, in the car or first thing in the morning before your glasses are on.",
+        "Everything else stays out of the way. A thin bar between the two lines fills as your steps meet their goal, so progress needs no reading at all; it can follow floors, intensity minutes, Body Battery, battery or stress instead, or be switched off. Battery and alerts sit at the top. The date sits at the foot in your watch's own language, or put one reading there instead: heart rate, the weather, steps or any of fifteen sources.",
+        "Six themes: Coral, Amber, Mint, Sky, Mono and Paper, dark figures on a white ground for anyone who reads better that way, and for a bright day on a memory-in-pixel screen. 12 and 24 hour time, without a leading zero in 12 hour. The always-on mode keeps the same figures at the same size in a hairline weight, large enough to read in the dark."
+      ],
+      "settings": [
+        {
+          "name": "Theme",
+          "values": "Coral, Amber, Mint, Sky, Mono, Paper"
+        },
+        {
+          "name": "Minutes in the theme colour",
+          "values": "on / off"
+        },
+        {
+          "name": "Goal bar",
+          "values": "steps, floors, intensity minutes, Body Battery, battery, stress, off"
+        },
+        {
+          "name": "Bottom line",
+          "values": "the date, any of fifteen sources, or off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/40dc7cdf-47e4-4a5c-aeec-ef009f08044e",
+      "images": [
+        {
+          "file": "img/stor/01_hero.jpg",
+          "alt": "Stor: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/stor/02_features.jpg",
+          "alt": "Stor: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/stor/03_themes.jpg",
+          "alt": "Stor: the six themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/stor/04_devices.jpg",
+          "alt": "Stor: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/stor/05_detail.jpg",
+          "alt": "Stor: the goal bar through a day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/stor/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/stor/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
       "slug": "logg",
       "name": "Logg",
       "subtitle": "Terminal Data Readout",
