@@ -15,6 +15,8 @@ FIXTURE = Path(__file__).resolve().parent / "fixture" / "faces.json"
 # Pages a later task adds; until then the nav may point at them.
 LATER = ()
 GALLERY_TAG = '<script src="/assets/gallery.js" defer></script>'
+# The site's icon, written beside the pages by the export.
+ICON_FILES = ("favicon.ico", "apple-touch-icon.png")
 
 
 def make_site(data=None):
@@ -32,6 +34,8 @@ def make_site(data=None):
             p = tmp / pic["file"]
             p.parent.mkdir(parents=True, exist_ok=True)
             p.write_bytes(b"")
+    for name in ICON_FILES:
+        (tmp / name).write_bytes(b"")
     return tmp, data
 
 
@@ -81,6 +85,11 @@ class BuildTest(unittest.TestCase):
             self.assertRegex(text, r'<link rel="canonical" href="%s' % re.escape(build.BASE))
             self.assertRegex(text, r'property="og:image" content="%simg/' % re.escape(build.BASE))
         self.assertIn('content="%sfaces/lykt/"' % build.BASE, self.pages["faces/lykt/index.html"])
+
+    def test_every_page_carries_the_icon(self):
+        for name, text in self.pages.items():
+            self.assertIn('<link rel="icon" href="/favicon.ico">', text, name)
+            self.assertIn('<link rel="apple-touch-icon" href="/apple-touch-icon.png">', text, name)
 
     def test_the_face_page(self):
         lykt = self.pages["faces/lykt/index.html"]
