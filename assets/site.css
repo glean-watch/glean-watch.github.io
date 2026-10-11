@@ -38,8 +38,8 @@ h1, h2, h3 { font-family: var(--display); color: var(--ink); line-height: 1.15; 
 .top nav { display: flex; align-items: center; gap: 1.25rem; }
 .top nav a { color: var(--muted); text-decoration: none; }
 .top nav a[aria-current="page"], .top nav a:hover { color: var(--ink); }
-.kofi { display: flex; padding: .3rem; margin: -.3rem; }
-.kofi svg { width: 1.5rem; height: 1.5rem; fill: currentColor; }
+.kofi, .facebook { display: flex; padding: .3rem; margin: -.3rem; }
+.kofi svg, .facebook svg { width: 1.5rem; height: 1.5rem; fill: currentColor; }
 .kofi .heart { fill: #ff5e5b; }
 
 .intro { padding: 2rem 0 1.5rem; }
