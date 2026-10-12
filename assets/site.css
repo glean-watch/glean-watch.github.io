@@ -32,15 +32,20 @@ a { color: var(--ink); }
 a:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; border-radius: 4px; }
 h1, h2, h3 { font-family: var(--display); color: var(--ink); line-height: 1.15; font-weight: 500; }
 
-.top, main, .foot { max-width: var(--width); margin: 0 auto; padding-left: var(--gutter); padding-right: var(--gutter); }
+.top, .tabs, main, .foot { max-width: var(--width); margin: 0 auto; padding-left: var(--gutter); padding-right: var(--gutter); }
 .top { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 1rem; padding-top: 1.25rem; padding-bottom: 1.25rem; }
 .wordmark { font: 600 1.25rem/1 var(--display); letter-spacing: .2em; text-decoration: none; }
-.top nav { display: flex; align-items: center; gap: 1.25rem; }
+.top nav { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 1.25rem; }
 .top nav a { color: var(--muted); text-decoration: none; }
 .top nav a[aria-current="page"], .top nav a:hover { color: var(--ink); }
 .kofi, .facebook, .instagram { display: flex; padding: .3rem; margin: -.3rem; }
 .kofi svg, .facebook svg, .instagram svg { width: 1.5rem; height: 1.5rem; fill: currentColor; }
 .kofi .heart { fill: #ff5e5b; }
+
+.tabs { display: flex; gap: 1.75rem; border-bottom: 1px solid var(--rule); }
+.tabs a { padding: .55rem 0; margin-bottom: -1px; border-bottom: 3px solid transparent; color: var(--muted); text-decoration: none; font: 500 1.1rem/1.2 var(--display); }
+.tabs a:hover { color: var(--ink); }
+.tabs a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--ink); }
 
 .intro { padding: 2rem 0 1.5rem; }
 .intro h1 { font-size: clamp(1.9rem, 4vw, 2.8rem); margin: 0 0 .5rem; letter-spacing: -.01em; }
@@ -53,6 +58,10 @@ h1, h2, h3 { font-family: var(--display); color: var(--ink); line-height: 1.15; 
 .card .cat { margin-top: .9rem; font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
 .card .name { font: 500 1.3rem/1.2 var(--display); color: var(--ink); margin: .2rem 0; }
 .card .pitch { color: var(--body); font-size: .95rem; padding-bottom: 1.1rem; }
+
+.soon-more { margin: 0 0 3rem; }
+details.works summary { cursor: pointer; color: var(--ink); }
+details.works .watches { margin-top: .25rem; }
 
 .crumb { font-size: .85rem; color: var(--muted); padding: .5rem 0 1rem; }
 .crumb a { color: var(--muted); }
@@ -109,6 +118,7 @@ h1, h2, h3 { font-family: var(--display); color: var(--ink); line-height: 1.15; 
 
 @media (max-width: 900px) { .grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 480px) {
+  .top nav { gap: .6rem 1rem; }
   .grid { grid-template-columns: 1fr; }
   .face-head { flex-wrap: wrap; }
   .store { width: 100%; text-align: center; }

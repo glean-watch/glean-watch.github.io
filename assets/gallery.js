@@ -1,4 +1,4 @@
-// The face page's picture gallery: arrows, a counter, the caption and the
+// An item page's picture gallery: arrows, a counter, the caption and the
 // thumbnails, over a strip of slides that already swipes and snaps without
 // this script. Nothing plays by itself; reduced motion scrolls instantly.
 (function () {
@@ -8,6 +8,9 @@
   document.querySelectorAll(".gallery").forEach(function (g) {
     var track = g.querySelector(".slides");
     var slides = g.querySelectorAll(".slide");
+    if (slides.length < 2) {
+      return;  // one picture: no arrows, no counter, nothing to move between
+    }
     var thumbs = g.querySelectorAll(".thumb");
     var prev = g.querySelector(".prev");
     var next = g.querySelector(".next");
