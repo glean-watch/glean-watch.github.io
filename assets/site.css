@@ -63,8 +63,10 @@ h1, h2, h3 { font-family: var(--display); color: var(--ink); line-height: 1.15; 
 details.works summary { cursor: pointer; color: var(--ink); }
 details.works .watches { margin-top: .25rem; }
 
-.crumb { font-size: .85rem; color: var(--muted); padding: .5rem 0 1rem; }
-.crumb a { color: var(--muted); }
+.back { display: inline-flex; align-items: center; gap: .4rem; margin: 1rem 0; padding: .4rem .95rem .4rem .75rem; border-radius: 999px; background: var(--card); color: var(--ink); font-size: .9rem; text-decoration: none; box-shadow: 0 1px 2px rgba(31, 28, 24, .08); }
+.back:hover { box-shadow: 0 3px 10px rgba(31, 28, 24, .14); }
+.back svg { width: 1.1rem; height: 1.1rem; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; transition: transform .15s; }
+.back:hover svg { transform: translateX(-2px); }
 .face-head { display: flex; align-items: center; gap: 1rem; background: var(--card); border-radius: 14px; padding: 1rem; }
 .face-head .icon { width: 72px; height: 72px; border-radius: 16px; flex: none; }
 .face-id { flex: 1; min-width: 0; }
@@ -128,6 +130,6 @@ details.works .watches { margin-top: .25rem; }
   .arrow { width: 38px; height: 38px; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .card a, .thumb { transition: none; }
-  .card a:hover { transform: none; }
+  .card a, .thumb, .back svg { transition: none; }
+  .card a:hover, .back:hover svg { transform: none; }
 }

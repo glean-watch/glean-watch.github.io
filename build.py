@@ -172,7 +172,7 @@ def item_page(site, data, section, item):
         '<li><a class="thumb" href="#shot-%d" aria-label="Picture %d: %s">%s</a></li>'
         % (i + 1, i + 1, esc(caption(s)), img(s, "", False)) for i, s in enumerate(shots))
     main = template(site, "item").substitute(
-        section_href="/" + TAB[section], section_title=section.capitalize(),
+        section_href="/" + TAB[section], section=section,
         name=esc(item["name"]), label=esc(label(section, item)),
         subtitle=('<p class="sub">%s</p>' % esc(item["subtitle"])) if item["subtitle"] else "",
         store_url=esc(item["store_url"]), icon=img(item["icon"], "", False, "icon"),

@@ -15,6 +15,10 @@ FIXTURE = Path(__file__).resolve().parent / "fixture" / "faces.json"
 # Pages a later task adds; until then the nav may point at them.
 LATER = ()
 GALLERY_TAG = '<script src="/assets/gallery.js" defer></script>'
+# An item page's way back to its list: an arrow drawn inline, hidden from
+# screen readers, so the link's name is "All faces".
+BACK = (r'<a class="back" href="%s"><svg viewBox="0 0 24 24" aria-hidden="true" '
+        r'focusable="false"><path [^>]+/></svg>All %s</a>')
 # The site's icon, written beside the pages by the export.
 ICON_FILES = ("favicon.ico", "apple-touch-icon.png")
 
@@ -153,9 +157,10 @@ class BuildTest(unittest.TestCase):
             self.assertIn('<a href="/">see the faces</a>', p)
             self.assertNotIn('class="card"', p)
 
-    def test_the_breadcrumb_and_404_lead_to_the_faces(self):
-        self.assertIn('<nav class="crumb" aria-label="Breadcrumb"><a href="/">Faces</a> ›',
-                      self.pages["faces/lykt/index.html"])
+    def test_the_back_button_and_404_lead_to_the_faces(self):
+        lykt = self.pages["faces/lykt/index.html"]
+        self.assertRegex(lykt, BACK % ("/", "faces"))
+        self.assertNotIn('class="crumb"', lykt)  # the tabs say where you are
         self.assertIn('<a href="/">See every face</a>', self.pages["404.html"])
 
     def test_non_ascii_survives(self):
@@ -324,8 +329,7 @@ class AppsTest(unittest.TestCase):
 
     def test_the_app_page(self):
         p = self.pages["apps/waymark/index.html"]
-        self.assertIn('<nav class="crumb" aria-label="Breadcrumb"><a href="/apps/">Apps</a> › '
-                      '<span aria-current="page">Waymark</span></nav>', p)
+        self.assertRegex(p, BACK % ("/apps/", "apps"))
         self.assertIn('<p class="cat">Data field · Outdoor</p>', p)
         self.assertIn('href="https://apps.garmin.com/apps/00000000-0000-4000-8000-000000000101"', p)
         self.assertNotIn("<h2>Settings</h2>", p)
@@ -348,7 +352,7 @@ class AppsTest(unittest.TestCase):
 
     def test_the_game_page(self):
         p = self.pages["games/tile-hop/index.html"]
-        self.assertIn('<a href="/games/">Games</a> › <span aria-current="page">Tile Hop</span>', p)
+        self.assertRegex(p, BACK % ("/games/", "games"))
         self.assertIn('<p class="cat">App · Games</p>', p)
         self.assertIn('<th scope="row">Speed</th>', p)
         self.assertIn("<summary>Works on 1 watch</summary>", p)
