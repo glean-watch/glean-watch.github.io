@@ -161,6 +161,637 @@
       }
     },
     {
+      "slug": "dack",
+      "name": "Däck",
+      "subtitle": "Tyre Analog",
+      "category": "Analog",
+      "pitch": "Choose your compound.",
+      "short": "An analog face drawn as a racing wheel: the tyre's coloured band fills with your steps, the date is moulded into the sidewall.",
+      "full": [
+        "Däck is an analog face drawn as a racing wheel seen from the side. The tyre runs out to the edge of the glass, its coloured band filling from twelve o'clock as your steps fill their goal; it can follow floors, intensity minutes, Body Battery, battery or stress instead. The date, in your watch's own language, is moulded into the sidewall at six.",
+        "Inside the rim, the wheel cover is the dial: hour marks, two hands outlined so they read over everything, and a hexagonal centre-lock nut ringed in the compound's colour. Three readings sit at nine, three and six o'clock, each any of fifteen sources: heart rate, the weather and Body Battery to start, or steps, calories, distance, floors, intensity minutes, stress, pressure, elevation, the next sunrise or sunset, notifications or battery. Battery and alerts sit at twelve.",
+        "The five themes are the five tyre compounds: Soft (red), Medium (yellow), Hard (white), Intermediate (green) and Wet (blue). The always-on mode keeps the lit band as a hairline, the hour marks and the hands' outlines."
+      ],
+      "settings": [
+        {
+          "name": "Readings at 9, 3, 6",
+          "values": "any of fifteen sources, or off"
+        },
+        {
+          "name": "Tyre band",
+          "values": "steps, floors, intensity minutes, Body Battery, battery, stress"
+        },
+        {
+          "name": "Compound",
+          "values": "Soft, Medium, Hard, Intermediate, Wet"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/8cf53b1b-4387-47e5-a369-016b2129b914",
+      "images": [
+        {
+          "file": "img/dack/01_hero.jpg",
+          "alt": "Däck: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/dack/02_features.jpg",
+          "alt": "Däck: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/dack/03_themes.jpg",
+          "alt": "Däck: the five themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/dack/04_devices.jpg",
+          "alt": "Däck: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/dack/05_detail.jpg",
+          "alt": "Däck: the band through a day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/dack/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/dack/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "bana",
+      "name": "Bana",
+      "subtitle": "Circuit Map",
+      "category": "Fun",
+      "pitch": "One lap an hour.",
+      "short": "A circuit map round your dial: a car laps it once an hour, its trail marks the minutes, and the time sits in the infield.",
+      "full": [
+        "Bana draws a race circuit round your dial, with a long straight across the top, esses down the right, a chicane along the bottom and kerbs at the corners. A car laps it once an hour: it stands on the chequered line at the top of every hour, a quarter of the way round at a quarter past, and the lap so far is lit behind it. The circuit is invented, not any real track.",
+        "The time sits in the infield in Tomorrow, with three readings under it, each any of fifteen sources: heart rate, steps and the weather to start, or calories, distance, floors, intensity minutes, Body Battery, stress, pressure, elevation, the next sunrise or sunset, notifications or battery. When a reading runs long, the row steps down a size together. Battery and alerts sit above the circuit, and the date, in your watch's own language, below it.",
+        "Five themes: Night, Grass, Day (light), Neon and Mono. The always-on mode keeps the circuit as a hairline, the car and the time in a light cut."
+      ],
+      "settings": [
+        {
+          "name": "Readings 1 to 3",
+          "values": "any of fifteen sources, or off"
+        },
+        {
+          "name": "Theme",
+          "values": "Night, Grass, Day, Neon, Mono"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/ab963c7e-a785-41ff-ac7b-f75a40e603db",
+      "images": [
+        {
+          "file": "img/bana/01_hero.jpg",
+          "alt": "Bana: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/bana/02_features.jpg",
+          "alt": "Bana: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/bana/03_themes.jpg",
+          "alt": "Bana: the five themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/bana/04_devices.jpg",
+          "alt": "Bana: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/bana/05_detail.jpg",
+          "alt": "Bana: the car round the hour",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/bana/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/bana/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "varv",
+      "name": "Varv",
+      "subtitle": "Timing Screen",
+      "category": "Digital",
+      "pitch": "Purple sectors, all day.",
+      "short": "A race timing screen: the time on a slanted panel, your goals as three sectors that turn purple when met, and the day as a lap.",
+      "full": [
+        "Varv reads like the timing screen on a race broadcast. The time sits on a slanted panel in Exo 2 Italic, a stripe in the theme's colour at its end. Above it, the lap: today's day of the year over the days in it, LAP 276/365 on the third of October.",
+        "Under the time, three sectors, one for each of your goals: steps, floors and intensity minutes by default. A sector turns purple when its goal is met, green while you are ahead of the pace that meets it by ten at night, and yellow when you are behind; intensity minutes are paced across the week. Each sector's icon, in the same colour, sits over its value. Two more readings below are any of fifteen sources: heart rate and the weather to start, or calories, distance, floors, Body Battery, stress, pressure, elevation, the next sunrise or sunset, notifications or battery. The date, in your watch's own language, sits on a slanted tag at the bottom.",
+        "Five themes: Studio, Carbon, Day (light), Teal and Neon. The always-on mode keeps the time in a light cut and the sectors as outlines in their colours."
+      ],
+      "settings": [
+        {
+          "name": "Sectors 1 to 3",
+          "values": "steps, floors, intensity minutes, or off"
+        },
+        {
+          "name": "Left and right",
+          "values": "any of fifteen sources, or off"
+        },
+        {
+          "name": "Theme",
+          "values": "Studio, Carbon, Day, Teal, Neon"
+        },
+        {
+          "name": "Lap of the year",
+          "values": "on / off"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/6e42f8f3-aeb7-4b3f-b324-caec95771a53",
+      "images": [
+        {
+          "file": "img/varv/01_hero.jpg",
+          "alt": "Varv: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/varv/02_features.jpg",
+          "alt": "Varv: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/varv/03_themes.jpg",
+          "alt": "Varv: the five themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/varv/04_devices.jpg",
+          "alt": "Varv: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/varv/05_detail.jpg",
+          "alt": "Varv: the sectors through a day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/varv/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/varv/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "ratt",
+      "name": "Ratt",
+      "subtitle": "Racing Wheel Dash",
+      "category": "Digital",
+      "pitch": "Lights out on your wrist.",
+      "short": "The centre of a racing steering wheel: fifteen shift lights that light with your steps, the time on a dash screen, and carbon all round.",
+      "full": [
+        "Ratt puts the centre of a racing steering wheel on your wrist. Across the top, fifteen shift lights, five green, five red and five blue, come on one by one as your steps fill their goal; at the goal all fifteen are lit. They can follow floors, intensity minutes, Body Battery, battery or stress instead.",
+        "In the middle sits the dash screen: the time large in Oxanium, with two readings above it and two below, divided by hairlines like a real dash. Each reading is any of fifteen sources: heart rate, the weather, steps and Body Battery to start, or calories, distance, floors, intensity minutes, stress, pressure, elevation, the next sunrise or sunset, notifications or battery. Around the screen, carbon weave and the rubber of the grips, stitched in the theme's colour. Under the screen, the date in your watch's own language, then battery and alerts.",
+        "Five themes: Carbon, Volt, Cobalt, Ember and Mono, which lights the shift lights in white. On memory-in-pixel screens the carbon is drawn as hatching in the 64 colours. The always-on mode keeps the time in a light cut and the lit shift lights as rings."
+      ],
+      "settings": [
+        {
+          "name": "Upper left, upper right",
+          "values": "any of fifteen sources, or off"
+        },
+        {
+          "name": "Lower left, lower right",
+          "values": "any of fifteen sources, or off"
+        },
+        {
+          "name": "Shift lights",
+          "values": "steps, floors, intensity minutes, Body Battery, battery, stress"
+        },
+        {
+          "name": "Theme",
+          "values": "Carbon, Volt, Cobalt, Ember, Mono"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/27ee3f8c-cfe0-4fe1-a025-7acf4e0c2084",
+      "images": [
+        {
+          "file": "img/ratt/01_hero.jpg",
+          "alt": "Ratt: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/ratt/02_features.jpg",
+          "alt": "Ratt: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/ratt/03_themes.jpg",
+          "alt": "Ratt: the five themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/ratt/04_devices.jpg",
+          "alt": "Ratt: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/ratt/05_detail.jpg",
+          "alt": "Ratt: the shift lights through a day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/ratt/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/ratt/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "glimt",
+      "name": "Glimt",
+      "subtitle": "Gradient Greeting",
+      "category": "Stylish",
+      "pitch": "Good morning, every morning.",
+      "short": "A soft greeting and the time in a blue, violet and rose gradient, your steps round the rim, and four readings as rounded chips.",
+      "full": [
+        "Glimt greets you. Good morning, good afternoon, good evening or good night, depending on the hour, and under it the time in Plus Jakarta Sans, both in a gradient that runs from blue through violet to rose.",
+        "Round the rim, your steps fill an arc in the same gradient from twelve o'clock, a little more of the colour showing as you walk; it can follow floors, intensity minutes, Body Battery or battery instead. Four readings sit in rounded chips, each any of fifteen sources: heart rate, steps, Body Battery and the weather to start, or calories, distance, floors, intensity minutes, stress, pressure, elevation, the next sunrise or sunset, notifications or battery. The date, in your watch's own language, sits in a pill at the bottom, with a small twinkle beside it.",
+        "Five themes: Night, Day (light), Aurora, Sunset and Frost, each with its own gradient. On memory-in-pixel screens the gradient is drawn in three steps from the 64 colours. The always-on mode keeps the time in a soft, dim gradient. The greeting can be turned off."
+      ],
+      "settings": [
+        {
+          "name": "Chips 1 to 4",
+          "values": "any of fifteen sources, or off"
+        },
+        {
+          "name": "Rim",
+          "values": "steps, floors, intensity minutes, Body Battery, battery, stress"
+        },
+        {
+          "name": "Theme",
+          "values": "Night, Day, Aurora, Sunset, Frost"
+        },
+        {
+          "name": "Greeting",
+          "values": "on / off"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/463a7ee1-d093-4c0d-a2b6-c4649257140d",
+      "images": [
+        {
+          "file": "img/glimt/01_hero.jpg",
+          "alt": "Glimt: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/glimt/02_features.jpg",
+          "alt": "Glimt: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/glimt/03_themes.jpg",
+          "alt": "Glimt: the five themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/glimt/04_devices.jpg",
+          "alt": "Glimt: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/glimt/05_detail.jpg",
+          "alt": "Glimt: the greeting through a day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/glimt/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/glimt/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "kod",
+      "name": "Kod",
+      "subtitle": "The Minute as a Diff",
+      "category": "Geek",
+      "pitch": "Every minute, a commit.",
+      "short": "The time as a code change: the minute just gone removed on a red line, now added on a green one, with your data as bullet lines below.",
+      "full": [
+        "Kod shows the time the way a developer reads changes: as a diff. Under a hunk header carrying the date, the minute that has just gone is removed on a red line and the current one is added on a green one, larger, in Geist Mono. It follows your 12 or 24 hour setting, so at the top of the hour 11:00 removes 10:59.",
+        "Below, three bullet lines, each any of fifteen sources: heart rate, steps and the weather to start, or calories, distance, floors, intensity minutes, Body Battery, stress, pressure, elevation, the next sunrise or sunset, notifications or battery. A source with a goal adds a five-cell stat of plus and minus signs, and its bullet turns green when the goal is met.",
+        "Under a prompt with a steady cursor, your Body Battery reads as the context you have left: or battery, steps, floors, intensity minutes or stress, or nothing. Battery and alerts sit at the top.",
+        "Five themes: Graphite, Paper (a light editor), Midnight, Mono and Neon. On memory-in-pixel screens every theme is drawn for 64 colours. The always-on mode keeps the added minute and the prompt."
+      ],
+      "settings": [
+        {
+          "name": "Lines 1 to 3",
+          "values": "any of fifteen sources, or off"
+        },
+        {
+          "name": "Context left",
+          "values": "Body Battery, battery, steps, floors, intensity minutes, stress, or off"
+        },
+        {
+          "name": "Theme",
+          "values": "Graphite, Paper, Midnight, Mono, Neon"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/ff805e75-ee0c-4f13-8e74-e4d84e8a52cf",
+      "images": [
+        {
+          "file": "img/kod/01_hero.jpg",
+          "alt": "Kod: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/kod/02_features.jpg",
+          "alt": "Kod: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/kod/03_themes.jpg",
+          "alt": "Kod: the five themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/kod/04_devices.jpg",
+          "alt": "Kod: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/kod/05_detail.jpg",
+          "alt": "Kod: the hour, a goal met and the light theme",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/kod/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/kod/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "tanke",
+      "name": "Tanke",
+      "subtitle": "Thinking Terminal",
+      "category": "Geek",
+      "pitch": "Always thinking.",
+      "short": "A terminal that thinks: the time in a rounded box, a spinner with a new verb every minute, and your goals as a to-do list that ticks itself off.",
+      "full": [
+        "Tanke is a terminal session on your wrist, one where something is always thinking. The time sits in a rounded box with the date, in Red Hat Mono, on warm black with a terracotta accent.",
+        "Under it, an asterisk spinner turns a frame a minute beside a verb: Pondering, Brewing, Noodling, Percolating, twenty-four of them, a new one every minute and never the same twice running.",
+        "Your goals hang off it as a to-do list. Each line is a checkbox, an icon, your progress and the goal your watch keeps: steps, floors and weekly intensity minutes to start, or Body Battery, battery or stress. A goal you meet is ticked and struck through; the first one still open is the one in progress. At the bottom, a prompt box with a steady cursor, and battery and alerts at the top.",
+        "Five themes: Clay, Ivory (a light terminal), Sage, Iris and Mono. On memory-in-pixel screens every theme is drawn for 64 colours. The always-on mode keeps the time and the thinking line. The cursor does not blink, because a blink would wake the watch every second."
+      ],
+      "settings": [
+        {
+          "name": "To-dos 1 to 3",
+          "values": "steps, floors, intensity minutes, Body Battery, battery, stress, or off"
+        },
+        {
+          "name": "Theme",
+          "values": "Clay, Ivory, Sage, Iris, Mono"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/e4ef6fe2-13b5-4265-ba3a-c4ea1f537ca2",
+      "images": [
+        {
+          "file": "img/tanke/01_hero.jpg",
+          "alt": "Tanke: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/tanke/02_features.jpg",
+          "alt": "Tanke: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/tanke/03_themes.jpg",
+          "alt": "Tanke: the five themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/tanke/04_devices.jpg",
+          "alt": "Tanke: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/tanke/05_detail.jpg",
+          "alt": "Tanke: the to-do list through a day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/tanke/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/tanke/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "horisont",
+      "name": "Horisont",
+      "subtitle": "Planet Horizon Minimal",
+      "category": "Stylish",
+      "pitch": "Your steps, lighting a world.",
+      "short": "A dark planet rises across your dial, its horizon lit by your steps, under the time in a wide, heavy face, black and white.",
+      "full": [
+        "Horisont puts the edge of a world on your wrist. A dark planet rises from the bottom of the dial and its horizon is a thin line of light, glowing against black space and a scatter of stars.",
+        "The horizon is your progress. It lights from the left as your steps add up, glow and all, with a flare at the leading edge like the sun coming up over a planet seen from orbit. Meet your goal and it is lit end to end. It can follow floors, intensity minutes, Body Battery or battery instead.",
+        "Above it, the time in Unbounded, a wide and heavy face, with the date in your watch's own language and battery and alerts. On the planet's dark side, three readings you choose from fifteen: heart rate, Body Battery and the weather to start, or steps, calories, distance, floors, intensity minutes, stress, pressure, elevation, the next sunrise or sunset, notifications or battery.",
+        "Five themes: Void, black and white, and Solar, Ice, Nebula and Mars, which tint the light. On memory-in-pixel screens every theme is drawn for 64 colours. The always-on mode keeps the time and the lit horizon as a hairline."
+      ],
+      "settings": [
+        {
+          "name": "Horizon",
+          "values": "steps, floors, intensity minutes, Body Battery, battery, stress"
+        },
+        {
+          "name": "Readings 1 to 3",
+          "values": "any of fifteen sources, or off"
+        },
+        {
+          "name": "Theme",
+          "values": "Void, Solar, Ice, Nebula, Mars"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/9d8bc83a-141c-4e70-92d1-bef2fdf6b323",
+      "images": [
+        {
+          "file": "img/horisont/01_hero.jpg",
+          "alt": "Horisont: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/horisont/02_features.jpg",
+          "alt": "Horisont: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/horisont/03_themes.jpg",
+          "alt": "Horisont: the five themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/horisont/04_devices.jpg",
+          "alt": "Horisont: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/horisont/05_detail.jpg",
+          "alt": "Horisont: the horizon at three moments of a day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/horisont/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/horisont/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
       "slug": "logg",
       "name": "Logg",
       "subtitle": "Terminal Data Readout",
@@ -477,6 +1108,102 @@
       }
     },
     {
+      "slug": "klotter",
+      "name": "Klotter",
+      "subtitle": "Doodle Notebook",
+      "category": "Fun",
+      "pitch": "Colour in your goals.",
+      "short": "A doodled notebook page whose star, lightning bolt and flame get coloured in as your goals fill, and turn into stickers.",
+      "full": [
+        "Klotter is a page from a school notebook on your watch: squared paper, a red margin line, a smiley and a spiral scribbled in the corners, and the time written large in a marker hand over a yellow highlighter stripe.",
+        "Under the time are three doodles, outlined in pen, and they are your goals. The star is your steps, the lightning bolt your Body Battery and the flame your intensity minutes. Each one is coloured in with marker from the bottom up as its goal fills, and when a goal is met the doodle turns into a sticker: coloured in solid, edged in white, with a little sparkle. Each doodle's reading is written under it.",
+        "The date sits above the time in your watch's own language, underlined by hand, with battery and alerts at the top.",
+        "Five papers: a white notebook in blue pen, brown kraft in black marker, a chalkboard, a blueprint and a midnight page with neon markers. Every doodle can follow steps, Body Battery, intensity minutes, floors, battery or stress.",
+        "On memory-in-pixel screens the notebook is white paper, which reads best in sunlight, and every page is drawn for 64 colours. The always-on mode keeps the three doodles' outlines and the time."
+      ],
+      "settings": [
+        {
+          "name": "The star colours in",
+          "values": "steps, Body Battery, intensity minutes,"
+        },
+        {
+          "name": "with",
+          "values": "floors, battery, stress"
+        },
+        {
+          "name": "The lightning colours",
+          "values": "Body Battery, steps, intensity minutes,"
+        },
+        {
+          "name": "in with",
+          "values": "floors, battery, stress"
+        },
+        {
+          "name": "The flame colours in",
+          "values": "intensity minutes, steps, Body Battery,"
+        },
+        {
+          "name": "with",
+          "values": "floors, battery, stress"
+        },
+        {
+          "name": "Paper",
+          "values": "Notebook, Kraft, Chalkboard, Blueprint, Midnight"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/0c0251ef-a0fa-42fd-bb2b-ce98333c4e80",
+      "images": [
+        {
+          "file": "img/klotter/01_hero.jpg",
+          "alt": "Klotter: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/klotter/02_features.jpg",
+          "alt": "Klotter: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/klotter/03_themes.jpg",
+          "alt": "Klotter: the five papers",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/klotter/04_devices.jpg",
+          "alt": "Klotter: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/klotter/05_detail.jpg",
+          "alt": "Klotter: the page through the day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/klotter/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/klotter/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
       "slug": "hoppa",
       "name": "Hoppa",
       "subtitle": "Pixel Platformer",
@@ -555,6 +1282,253 @@
       },
       "hero": {
         "file": "img/hoppa/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "raket",
+      "name": "Raket",
+      "subtitle": "Rocket to the Moon",
+      "category": "Fun",
+      "pitch": "Walk your rocket to the moon.",
+      "short": "A rocket flies round the dial from the Earth to the moon as you walk, and lands when your step goal is met.",
+      "full": [
+        "Raket is a space mission on your watch. The Earth sits at the lower left of the dial and the moon at the upper right, and a little rocket flies between them round the edge: that flight is your step goal. Each morning the rocket waits on the launch pad; as you walk it climbs over the top of the dial, a trail of puffs behind it and a dotted path ahead, and when the goal is met it lands beside the moon in a sparkle.",
+        "The moon is drawn in its real phase, tonight's, worked out on the watch. Stars and a ringed planet fill the rest of the sky.",
+        "The time is set large in Bungee, a bold signage typeface, with the date above it in your watch's own language. Two readings sit under the time, heart rate and steps to start with, then battery and alerts.",
+        "Five missions: classic navy with a red rocket, retro teal, galaxy violet, Mars rust and night black. The rocket can fly on steps, Body Battery, intensity minutes, floors or battery instead.",
+        "On memory-in-pixel screens every mission is drawn for 64 colours; on AMOLED everything is anti-aliased. The always-on mode keeps the path ahead as dots, the rocket's outline, the Earth and the moon, and the time."
+      ],
+      "settings": [
+        {
+          "name": "Rocket flies on",
+          "values": "steps, Body Battery, intensity minutes, floors, battery"
+        },
+        {
+          "name": "Mission",
+          "values": "Classic, Retro, Galaxy, Mars, Night"
+        },
+        {
+          "name": "Left and right reading",
+          "values": "heart rate, stress, weather, sunrise/sunset, Body Battery, steps, intensity minutes, floors, calories, distance, elevation, pressure, battery, notifications, or off"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/c64aebe3-c061-4687-9df8-934c88772820",
+      "images": [
+        {
+          "file": "img/raket/01_hero.jpg",
+          "alt": "Raket: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/raket/02_features.jpg",
+          "alt": "Raket: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/raket/03_themes.jpg",
+          "alt": "Raket: the five missions",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/raket/04_devices.jpg",
+          "alt": "Raket: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/raket/05_detail.jpg",
+          "alt": "Raket: the flight through the day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/raket/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/raket/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "kompis",
+      "name": "Kompis",
+      "subtitle": "Pocket Pet",
+      "category": "Cartoon",
+      "pitch": "A pet that lives on your watch.",
+      "short": "A little pet that lives on your watch: its hearts fill with your steps, and its mood follows your Body Battery.",
+      "full": [
+        "Kompis is a small round creature with pointed ears and a sprout on its head, and it lives on your watch. Five hearts sit under it, and they are your step goal: each heart is a fifth of the goal, filling half a heart at a time. When all five are full, Kompis throws its arms up and confetti falls.",
+        "Its mood is your Body Battery. Rested, it bounces with its eyes shut tight and its mouth wide open; as the day goes on it is happy, then tired, with heavy eyelids, and worn out, with a drop of sweat, when your battery runs low. At bedtime it goes to sleep, from the sleep time in your Garmin profile to your wake time, and wakes up with you. Sleep can be turned off.",
+        "The time is set large in Baloo 2, a round and friendly typeface, with the date above it in your watch's own language. Two readings sit beside the pet, heart rate and steps to start with, and battery and alerts at the foot.",
+        "Five colours of Kompis: mint, peach, berry, sky and lemon. The hearts can fill with steps, Body Battery, intensity minutes, floors or battery instead, and the mood can follow any of them but stress.",
+        "On memory-in-pixel screens Kompis is drawn for 64 colours; on AMOLED it is anti-aliased. The always-on mode shows Kompis asleep, as a fine outline, and the time."
+      ],
+      "settings": [
+        {
+          "name": "Hearts fill with",
+          "values": "steps, Body Battery, intensity minutes, floors, battery"
+        },
+        {
+          "name": "Mood follows",
+          "values": "Body Battery, steps, intensity minutes, floors, battery"
+        },
+        {
+          "name": "Kompis colour",
+          "values": "Mint, Peach, Berry, Sky, Lemon"
+        },
+        {
+          "name": "Left and right reading",
+          "values": "heart rate, stress, weather, sunrise/sunset, Body Battery, steps, intensity minutes, floors, calories, distance, elevation, pressure, battery, notifications, or off"
+        },
+        {
+          "name": "Sleeps when you sleep",
+          "values": "on / off"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/0cae7be6-1682-42ee-b504-b4f42488e5d8",
+      "images": [
+        {
+          "file": "img/kompis/01_hero.jpg",
+          "alt": "Kompis: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/kompis/02_features.jpg",
+          "alt": "Kompis: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/kompis/03_themes.jpg",
+          "alt": "Kompis: the five colours",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/kompis/04_devices.jpg",
+          "alt": "Kompis: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/kompis/05_detail.jpg",
+          "alt": "Kompis: Kompis through the day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/kompis/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/kompis/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "parla",
+      "name": "Pärla",
+      "subtitle": "Pearl & Rose Gold",
+      "category": "Analog",
+      "pitch": "Mother-of-pearl, rose gold, every day.",
+      "short": "A jewellery analog: mother-of-pearl, rose-gold hands, cut stones at the hours and a pearl that rides to your step goal.",
+      "full": [
+        "Pärla is a dress watch for every day. The dial is mother-of-pearl, its nacre laid in soft rings of pearl, blush and pale blue; round it runs a rose-gold chapter ring and minute track, with a cut stone at each hour and a crown of three at twelve. The hands are dauphine, faceted along their ridge so one side catches the light and the other falls into shadow, and they turn on a pearl set in rose gold.",
+        "At six a sub-dial carries a pearl along its arc toward your step goal, with the count at its centre; at three a small window holds heart rate, or any reading you choose. Under the crown, the date in your watch's own language, and battery and alerts.",
+        "Five dials: pearl, blush, champagne with yellow gold, a black Tahitian pearl, and sapphire with white gold. The sub-dial can follow steps, Body Battery, stress, intensity minutes, floors or battery.",
+        "The lettering is Cormorant Garamond. On memory-in-pixel screens the light dials are drawn as clean white, pink and cream plates that read best in sunlight; on AMOLED the nacre and the hands are anti-aliased. The always-on mode keeps the hands and a stone at each quarter."
+      ],
+      "settings": [
+        {
+          "name": "Sub-dial follows",
+          "values": "steps, Body Battery, stress, intensity minutes, floors, battery"
+        },
+        {
+          "name": "Dial",
+          "values": "Pearl, Blush, Champagne, Tahiti, Sapphire"
+        },
+        {
+          "name": "Window at three",
+          "values": "heart rate, stress, weather, sunrise/sunset, Body Battery, steps, intensity minutes, floors, calories, distance, elevation, pressure, battery, notifications, or off"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/0f607d6e-7e7f-4e98-b6d7-35527eaea9c2",
+      "images": [
+        {
+          "file": "img/parla/01_hero.jpg",
+          "alt": "Pärla: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/parla/02_features.jpg",
+          "alt": "Pärla: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/parla/03_themes.jpg",
+          "alt": "Pärla: the five dials",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/parla/04_devices.jpg",
+          "alt": "Pärla: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/parla/05_detail.jpg",
+          "alt": "Pärla: the sub-dial through the day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/parla/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/parla/hero_1440x720.jpg",
         "w": 1440,
         "h": 720
       }
@@ -639,6 +1613,252 @@
       },
       "hero": {
         "file": "img/stjarna/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "fjaril",
+      "name": "Fjäril",
+      "subtitle": "Butterfly",
+      "category": "Animal",
+      "pitch": "Your energy, in stained glass.",
+      "short": "A stained-glass butterfly whose wings light up with your Body Battery.",
+      "full": [
+        "Fjäril is a butterfly over the time, its wings made like stained glass: panes of colour between dark veins, white spots round the margin. The panes are your Body Battery. Rested, every pane is lit; as the day spends your energy they go dark from the tips of the forewings down, the same on both sides, until only the glass by the body still glows. You read it at a glance.",
+        "The time is set large in Quicksand, a soft rounded typeface. Under it the date, in your watch's own language, shares a line with battery and alerts, and three readings sit at the bottom: heart rate, steps and stress to start with.",
+        "Five butterflies: a monarch's orange, a morpho's blue, rose, lilac and a swallowtail's citrine, each on a dark dial of a colour the wing is not. The wings can follow Body Battery, steps, stress, intensity minutes, floors or battery.",
+        "On memory-in-pixel screens every butterfly is drawn for 64 colours; on AMOLED every pane is anti-aliased. The always-on mode keeps the wings' outline, the lit panes as fine outlines and the time."
+      ],
+      "settings": [
+        {
+          "name": "Wings follow",
+          "values": "Body Battery, stress, steps, intensity minutes, floors, battery"
+        },
+        {
+          "name": "Wings",
+          "values": "Monarch, Morpho, Rose, Lilac, Citrine"
+        },
+        {
+          "name": "Left, middle and",
+          "values": "heart rate, stress, weather,"
+        },
+        {
+          "name": "right reading",
+          "values": "sunrise/sunset, Body Battery, steps, intensity minutes, floors, calories, distance, elevation, pressure, battery, notifications, or off"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/76efb80e-6635-4e44-920f-8f20ca9a3908",
+      "images": [
+        {
+          "file": "img/fjaril/01_hero.jpg",
+          "alt": "Fjäril: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/fjaril/02_features.jpg",
+          "alt": "Fjäril: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/fjaril/03_themes.jpg",
+          "alt": "Fjäril: the five butterflies",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/fjaril/04_devices.jpg",
+          "alt": "Fjäril: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/fjaril/05_detail.jpg",
+          "alt": "Fjäril: the wings through the day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/fjaril/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/fjaril/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "krans",
+      "name": "Krans",
+      "subtitle": "Floral Wreath",
+      "category": "Nature",
+      "pitch": "Your steps, in bloom.",
+      "short": "A wreath of roses and blossoms round the dial that opens a flower for every twelfth of your step goal.",
+      "full": [
+        "Krans is a wreath of flowers round the edge of your watch. A vine of leaves carries twelve flowers, one for every hour: roses at twelve, three, six and nine, smaller blossoms between them. They are your step goal. Each morning the wreath starts in bud; as you walk the flowers open one by one, clockwise from twelve, and the wreath is in full bloom when the goal is met.",
+        "Inside the wreath the time is set large in Bodoni Moda, a classic high-contrast serif, with the date above it in your watch's own language. Three readings sit under the time, heart rate, steps and Body Battery to start with, and battery and alerts at the foot.",
+        "Five wreaths: blush roses on plum, dusty rose on ivory, white roses on sage, champagne on midnight blue, and a bright wildflower mix. The flowers can follow your steps, Body Battery, intensity minutes, floors or battery instead.",
+        "On memory-in-pixel screens every wreath is drawn for 64 colours, and ivory turns to a white dial that reads best in sunlight; on AMOLED every petal is anti-aliased. The always-on mode keeps the vine, the open flowers as fine outlines and the time."
+      ],
+      "settings": [
+        {
+          "name": "Flowers follow",
+          "values": "steps, Body Battery, stress, intensity minutes, floors, battery"
+        },
+        {
+          "name": "Wreath",
+          "values": "Blush, Ivory, Sage, Midnight, Wildflower"
+        },
+        {
+          "name": "Left, middle and",
+          "values": "heart rate, stress, weather,"
+        },
+        {
+          "name": "right reading",
+          "values": "sunrise/sunset, Body Battery, steps, intensity minutes, floors, calories, distance, elevation, pressure, battery, notifications, or off"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/eb0f8f8a-06ff-494b-8d80-c1846b4b550b",
+      "images": [
+        {
+          "file": "img/krans/01_hero.jpg",
+          "alt": "Krans: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/krans/02_features.jpg",
+          "alt": "Krans: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/krans/03_themes.jpg",
+          "alt": "Krans: the five wreaths",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/krans/04_devices.jpg",
+          "alt": "Krans: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/krans/05_detail.jpg",
+          "alt": "Krans: the wreath through the day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/krans/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/krans/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "lov",
+      "name": "Löv",
+      "subtitle": "Autumn Leaves",
+      "category": "Nature",
+      "pitch": "Your energy, in autumn leaves.",
+      "short": "A maple bough whose autumn leaves are your Body Battery, under a sky that follows the sun.",
+      "full": [
+        "Löv is a maple bough across an autumn sky. Its leaves are your Body Battery: rested, all eighteen are on the bough in red, orange and gold; as the day spends your energy they fall from the tips inward, and every leaf that falls drifts down to the hill below. You read it at a glance, and a small legend underneath says what the leaves are measuring and how far along they are.",
+        "The hill holds four readings: stress, heart rate, the weather, and the next sunrise or sunset, each marked by its icon. Battery and alerts sit with the date at the top.",
+        "The sky follows the sun: a misty dawn, a crisp blue day, an amber dusk and a starry night, when the leaves turn to moonlit colours. Or keep one of five skies: dawn, day, dusk, night or golden.",
+        "The numerals are Fraunces, a soft serif. On memory-in-pixel screens every sky is drawn for 64 colours, dithered by hand; on AMOLED it is a smooth gradient. The always-on mode keeps the bough, its leaves and the time.",
+        "Free, for the season."
+      ],
+      "settings": [
+        {
+          "name": "Leaves follow",
+          "values": "Body Battery, stress, steps, intensity minutes, floors, battery"
+        },
+        {
+          "name": "Sky",
+          "values": "Follows the sun, Dawn, Day, Dusk, Night, Golden"
+        },
+        {
+          "name": "First to fourth reading",
+          "values": "stress, heart rate, weather, sunrise/sunset, Body Battery, steps, intensity minutes, floors, calories, distance, elevation, pressure, battery, notifications, or off"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/0a7c0496-925f-4748-846b-efa5f1fb032e",
+      "images": [
+        {
+          "file": "img/lov/01_hero.jpg",
+          "alt": "Löv: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/lov/02_features.jpg",
+          "alt": "Löv: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/lov/03_themes.jpg",
+          "alt": "Löv: the five skies",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/lov/04_devices.jpg",
+          "alt": "Löv: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/lov/05_detail.jpg",
+          "alt": "Löv: the bough through the day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/lov/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/lov/hero_1440x720.jpg",
         "w": 1440,
         "h": 720
       }
@@ -1187,6 +2407,581 @@
       },
       "hero": {
         "file": "img/hav/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "fjell",
+      "name": "Fjell",
+      "subtitle": "",
+      "category": "Nature",
+      "pitch": "Watch the snow come down as you move.",
+      "short": "A mountain that fills with snow as you move, under a sky that follows the sun.",
+      "full": [
+        "At breakfast the peaks are bare rock. As your step goal fills, the snowline comes down the mountain; a goal met is a range under full snow. You read it the way you read a real mountain, by how far down the white comes, and a small legend underneath says what the snow is measuring and how far along you are.",
+        "The valley holds the four readings an outdoor day asks for: elevation, heart rate, the weather, and the next sunrise or sunset, each marked by its icon. Battery and alerts sit with the date at the top.",
+        "The sky follows the sun: dawn after sunrise, blue through the day, dusk before sunset and a starry night after it. Or keep one of six skies: dusk, dawn, day, night, alpenglow, or an arctic sky with the aurora low over the range.",
+        "On memory-in-pixel screens every sky is drawn for 64 colours, dithered by hand rather than rounded; on AMOLED it is a smooth gradient. The always-on mode keeps the skyline and the time, at 3% of pixels lit."
+      ],
+      "settings": [
+        {
+          "name": "Snowline follows",
+          "values": "steps, intensity minutes, floors, Body Battery, stress, battery"
+        },
+        {
+          "name": "Sky",
+          "values": "Follows the sun, Dusk, Dawn, Day, Night, Alpenglow, Arctic"
+        },
+        {
+          "name": "First to fourth reading",
+          "values": "elevation, heart rate, weather, sunrise/sunset, pressure, steps, battery, calories, distance, floors, intensity minutes, Body Battery, stress, notifications, or off"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        },
+        {
+          "name": "Contour lines",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/8a1f9e33-a78e-4199-9a36-929aad1278a0",
+      "images": [
+        {
+          "file": "img/fjell/01_hero.jpg",
+          "alt": "Fjell: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/fjell/02_features.jpg",
+          "alt": "Fjell: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/fjell/03_themes.jpg",
+          "alt": "Fjell: the six skies",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/fjell/04_devices.jpg",
+          "alt": "Fjell: both watches and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/fjell/05_detail.jpg",
+          "alt": "Fjell: the snowline through the day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/fjell/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/fjell/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "klar",
+      "name": "Klar",
+      "subtitle": "",
+      "category": "Simple",
+      "pitch": "Read the time at a glance, in any light.",
+      "short": "The time, as large as your screen allows. Readable at a glance, in any light.",
+      "full": [
+        "Klar stacks the hours over the minutes so the numerals can be twice as tall as a single line allows: heavy, clear digits you can read at arm's length, on the move, without your glasses.",
+        "Colour the minutes in one of five colours, or keep the stack in one. Either side of the time, one reading each, marked by its icon: steps and heart rate to start, or any of fifteen sources. Battery and alerts at the top, date and weather at the bottom, and nothing else.",
+        "On memory-in-pixel screens Klar is black on white: a reflective screen reads best with a bright ground in daylight. On AMOLED it is white on black. The always-on mode keeps the stack, smaller, at 4% of pixels lit."
+      ],
+      "settings": [
+        {
+          "name": "Left / right reading",
+          "values": "steps, heart rate, weather, sunrise/sunset, battery, Body Battery, calories, distance, floors, intensity minutes, stress, elevation, pressure, notifications, or off"
+        },
+        {
+          "name": "Minutes colour",
+          "values": "Amber, Green, Red, Blue, Pink, Same as hours"
+        },
+        {
+          "name": "Colour the minutes",
+          "values": "on / off"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Weather",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        },
+        {
+          "name": "Leading zero on hour",
+          "values": "on / off (12-hour mode)"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/18e99568-59eb-489e-a938-07a75631c946",
+      "images": [
+        {
+          "file": "img/klar/01_hero.jpg",
+          "alt": "Klar: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/klar/02_features.jpg",
+          "alt": "Klar: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/klar/03_themes.jpg",
+          "alt": "Klar: the six minute colours",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/klar/04_devices.jpg",
+          "alt": "Klar: both watches and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/klar/05_detail.jpg",
+          "alt": "Klar: both polarities and always-on",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/klar/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/klar/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "artefact",
+      "name": "Artefact",
+      "subtitle": "",
+      "category": "Retro",
+      "pitch": "A vintage instrument for your wrist.",
+      "short": "Nixie tubes, a VU meter and neon lamps: a vintage instrument for your wrist.",
+      "full": [
+        "Four nixie tubes stand in their sockets in a machined brass case. Each numeral is bent wire glowing outward from the cathode, with the nine unlit cathodes visible behind it, exactly as inside a real tube. The neon colon between them pulses every second.",
+        "Below the tubes, a working VU meter: a backlit scale from 0 to 100 with a red zone, and a needle that tracks your step goal, or Body Battery, stress, floors, intensity minutes or battery. Either side, four neon lamps light when your phone is connected, messages are waiting, an alarm is set or do-not-disturb is on. The date is engraved on a brass plaque above the tubes, and a second plaque below carries the reading of your choice: battery, heart rate, weather, sunset and more.",
+        "Five tube colours (neon orange, magic-eye green, argon blue, violet and white) and three case finishes (brass, blackened steel and copper), chosen independently. The always-on mode keeps the numerals as thin wire, at 1% of pixels lit."
+      ],
+      "settings": [
+        {
+          "name": "Meter reads",
+          "values": "steps, battery, Body Battery, stress, floors, intensity minutes"
+        },
+        {
+          "name": "Plaque shows",
+          "values": "battery, heart rate, steps, weather, sunrise/sunset, elevation, pressure, calories, distance, floors, intensity minutes, Body Battery, stress, notifications, or off"
+        },
+        {
+          "name": "Tube colour",
+          "values": "Neon orange, Magic eye green, Argon blue, Violet, White"
+        },
+        {
+          "name": "Case finish",
+          "values": "Brass, Blackened steel, Copper"
+        },
+        {
+          "name": "Indicator lamps",
+          "values": "on / off"
+        },
+        {
+          "name": "Unlit cathodes",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/e2f48b87-1ff3-4a43-95e1-78746b8eef8e",
+      "images": [
+        {
+          "file": "img/artefact/01_hero.jpg",
+          "alt": "Artefact: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/artefact/02_features.jpg",
+          "alt": "Artefact: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/artefact/03_themes.jpg",
+          "alt": "Artefact: the five tube colours",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/artefact/04_devices.jpg",
+          "alt": "Artefact: both watches and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/artefact/05_detail.jpg",
+          "alt": "Artefact: the three case finishes",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/artefact/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/artefact/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "ringar",
+      "name": "Ringar",
+      "subtitle": "",
+      "category": "Simple",
+      "pitch": "Your day in three calm rings.",
+      "short": "Your day in three calm goal rings, around a large, clear time.",
+      "full": [
+        "Three goal rings frame a large, calm time. Choose what each ring tracks: steps, intensity minutes, floors, Body Battery, stress or battery. Every ring is labelled: its icon and its reading sit in the ring's own colour, just below the time, so you always know which ring is which.",
+        "Above the time: the date and the weather from your phone. Below: battery, and your notifications, do-not-disturb and alarm, shown only when they have something to say.",
+        "Eight colour themes, from Nordic calm to Vivid. The always-on mode is designed for the screen, not dimmed down: your progress and the time, at 8% of pixels lit.",
+        "The numerals are drawn for each screen size, never scaled."
+      ],
+      "settings": [
+        {
+          "name": "Outer / middle / inner ring",
+          "values": "steps, intensity minutes, floors, Body Battery, stress, battery"
+        },
+        {
+          "name": "Colour theme",
+          "values": "Nordic, Monochrome, Warm, Fjord, Forest, Berry, Vivid, Sand"
+        },
+        {
+          "name": "Ring key",
+          "values": "on / off"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Weather",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/f0183af5-19aa-4365-b475-ff54184c7358",
+      "images": [
+        {
+          "file": "img/ringar/01_hero.jpg",
+          "alt": "Ringar: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/ringar/02_features.jpg",
+          "alt": "Ringar: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/ringar/03_themes.jpg",
+          "alt": "Ringar: the eight themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/ringar/04_devices.jpg",
+          "alt": "Ringar: both watches and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/ringar/05_detail.jpg",
+          "alt": "Ringar: the rings through a day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/ringar/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/ringar/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "datum",
+      "name": "Datum",
+      "subtitle": "",
+      "category": "Digital",
+      "pitch": "Every number you need, at a glance.",
+      "short": "Twelve live readings around a large, clear time, every one of them yours.",
+      "full": [
+        "Everything at a glance, and nothing decorative. A large condensed time, hours in white and minutes in your accent colour, with the date and live seconds beneath it. Around it, six data fields you choose, each marked by its icon, and two bezel gauges for your steps, battery, Body Battery, floors, intensity minutes or stress, with their readings under each arc.",
+        "Weather and the next sunrise or sunset are among the sources. Battery, notifications, do-not-disturb and alarm sit at the bottom, shown only when they have something to say.",
+        "Six accent colours. The always-on mode keeps the time and the date.",
+        "Its numerals are cut for each screen size, never scaled."
+      ],
+      "settings": [
+        {
+          "name": "Six fields",
+          "values": "heart rate, calories, intensity minutes, elevation, weather, sunrise/sunset, steps, pressure, distance, floors, notifications, battery, Body Battery, stress, or off"
+        },
+        {
+          "name": "Left / right bezel gauge",
+          "values": "steps, battery, Body Battery, intensity minutes, floors, stress"
+        },
+        {
+          "name": "Accent colour",
+          "values": "Cyan, Orange, Green, Blue, Pink, Yellow"
+        },
+        {
+          "name": "Grid rules",
+          "values": "on / off"
+        },
+        {
+          "name": "Seconds",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/7ffe041a-d31e-42de-b0e3-ee42c552a43e",
+      "images": [
+        {
+          "file": "img/datum/01_hero.jpg",
+          "alt": "Datum: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/datum/02_features.jpg",
+          "alt": "Datum: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/datum/03_themes.jpg",
+          "alt": "Datum: the six accents",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/datum/04_devices.jpg",
+          "alt": "Datum: both watches and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/datum/05_detail.jpg",
+          "alt": "Datum: three set-ups: everyday, outdoor, training",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/datum/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/datum/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "blackline",
+      "name": "Blackline",
+      "subtitle": "",
+      "category": "Digital",
+      "pitch": "A tactical instrument for your wrist.",
+      "short": "A tactical instrument: stencil readout, heading tape, six data fields.",
+      "full": [
+        "An instrument face. A live heading tape across the top, a seven-segment stencil readout cut from polygons, and six data fields you choose, each marked by its icon: heart rate, steps, elevation, Body Battery, weather, the next sunrise or sunset, and more.",
+        "Around the lower rim, a daylight arc runs from sunrise to sunset and fills as the day goes, so you can see how much light is left at a glance. Below the readings: battery, and your notifications, do-not-disturb and alarm, shown only when they have something to say.",
+        "The unlit segments are drawn, faintly, the way a real display shows them. Six readout colours, including night vision green and a red that keeps your night vision. The always-on mode keeps just the readout and the date.",
+        "Each readout colour is tuned by hand for memory-in-pixel screens and set in full colour on AMOLED."
+      ],
+      "settings": [
+        {
+          "name": "Six fields (two rows of three)",
+          "values": "heart rate, steps, elevation, Body Battery, weather, sunrise/sunset, pressure, battery, calories, distance, floors, intensity minutes, stress, notifications, or off"
+        },
+        {
+          "name": "Readout colour",
+          "values": "Amber, Night vision, Red, Ice, Khaki, White"
+        },
+        {
+          "name": "Heading tape",
+          "values": "on / off"
+        },
+        {
+          "name": "Unlit segments",
+          "values": "on / off"
+        },
+        {
+          "name": "Daylight arc",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/53ce7595-115e-47e3-a31d-775dd78aefaf",
+      "images": [
+        {
+          "file": "img/blackline/01_hero.jpg",
+          "alt": "Blackline: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/blackline/02_features.jpg",
+          "alt": "Blackline: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/blackline/03_themes.jpg",
+          "alt": "Blackline: the six readout colours",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/blackline/04_devices.jpg",
+          "alt": "Blackline: both watches and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/blackline/05_detail.jpg",
+          "alt": "Blackline: day, dusk and night",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/blackline/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/blackline/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "atelier",
+      "name": "Atelier",
+      "subtitle": "",
+      "category": "Analog",
+      "pitch": "A fine watch, on your smartwatch.",
+      "short": "A fine watch dial for your wrist: sunburst guilloche, three registers, a day-date window.",
+      "full": [
+        "A dress watch, drawn for a smartwatch. A sunburst guilloche dial, applied rhodium indices on a railroad track, polished dauphine hands, and three registers: your steps (or any goal) at nine, a power reserve for your battery at three, and small seconds sweeping at six.",
+        "Under twelve, your name or initials in engraved capitals, and a day-date window with a bevelled frame.",
+        "Six dial colours: Midnight, Slate, Champagne, Racing green, Salmon and Glacier. The always-on mode keeps the hands and four indices, in outline, at 1% of pixels lit.",
+        "On memory-in-pixel screens every colour is chosen from the 64 the screen can show; on AMOLED it is full colour."
+      ],
+      "settings": [
+        {
+          "name": "Activity register (at nine)",
+          "values": "steps, intensity minutes, floors, Body Battery, stress, battery"
+        },
+        {
+          "name": "Register at six",
+          "values": "small seconds, or a goal"
+        },
+        {
+          "name": "Dial colour",
+          "values": "Midnight, Slate, Champagne, Racing green, Salmon, Glacier"
+        },
+        {
+          "name": "Signature",
+          "values": "your text, under twelve"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/64a6bb80-3f9e-456b-9f1b-748a4fe858d4",
+      "images": [
+        {
+          "file": "img/atelier/01_hero.jpg",
+          "alt": "Atelier: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/atelier/02_features.jpg",
+          "alt": "Atelier: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/atelier/03_themes.jpg",
+          "alt": "Atelier: the six dial colours",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/atelier/04_devices.jpg",
+          "alt": "Atelier: both watches and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/atelier/05_detail.jpg",
+          "alt": "Atelier: AMOLED, memory-in-pixel and always-on",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/atelier/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/atelier/hero_1440x720.jpg",
         "w": 1440,
         "h": 720
       }
