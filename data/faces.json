@@ -3552,5 +3552,145 @@
         "Enduro™ 3"
       ]
     }
+  ],
+  "apps": [
+    {
+      "slug": "one-more-step",
+      "name": "One More Step",
+      "subtitle": "Walk the World Achievements",
+      "category": "Travel",
+      "pitch": "Walk around the world, one day at a time.",
+      "short": "The distance your watch measures every day adds up into a journey around the equator, 40,075 km, with 33 famous lengths to pass on the way.",
+      "full": [
+        "One More Step adds the distance your watch measures every day into a journey around the equator: 40,075 km (24,901 mi). The journey starts the first time you open it. When a lap is done the next one begins; nothing is ever reset.",
+        "The glance shows your lap and how far into it you are. The app shows the distance left as a ring around the screen's edge, and the month you will get round at your pace so far. The details hold your total, laps, average day, start date and how far to your next goal.",
+        "On the way are 33 famous lengths, from the Golden Gate Bridge (2.7 km) on your first day to the Suez Canal, the Camino de Santiago, the Nile and the whole Great Wall of China, then on to Verne's twenty thousand leagues: twice round the world. When your total reaches one, the app opens on a card that says so: \"You've travelled the Suez Canal, 193 km\". From the details, swipe up or press down for the whole list: what you have done, what is next and how far, and what is still ahead.",
+        "It counts the daily distance your watch already works out from your steps. Recorded walks and runs are part of it, so nothing is counted twice, and only what you walk from the first time you open it counts. The ETA needs one full day first; until then it says \"ETA calculating\" and how many hours are left. Distance is in km or mi, as your watch is set.",
+        "The watch keeps 7 days of history, and the app reads it every 6 hours. If it cannot for more than 7 days (the watch switched off), those days are lost; nothing is guessed in their place. Only steps count: cycling and swimming do not. Removing the app deletes the journey; watch apps have no backup. Everything stays on your watch: no account, no phone app, nothing sent anywhere.",
+        "One lap at 7 km a day is about 15 years. The ring is the long view, the goals the weeks and months between, and today's walk the short one."
+      ],
+      "settings": [],
+      "store_url": "https://apps.garmin.com/apps/7716395c-9dd2-4f95-a386-9d0b529667bb",
+      "images": [
+        {
+          "file": "img/one-more-step/01_hero.jpg",
+          "alt": "One More Step: the ring on the watch, and the wordmark",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/one-more-step/02_features.jpg",
+          "alt": "One More Step: the ring, with what each part of it says",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/one-more-step/03_goals.jpg",
+          "alt": "One More Step: a goal reached, and the list of goals",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/one-more-step/04_devices.jpg",
+          "alt": "One More Step: a memory-in-pixel and an AMOLED watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/one-more-step/05_glance.jpg",
+          "alt": "One More Step: the glance and the details",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/one-more-step/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/one-more-step/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      },
+      "kind": "Widget",
+      "watches": [
+        {
+          "line": "fēnix",
+          "names": [
+            "fēnix® 6 Pro / 6 Sapphire / 6 Pro Solar / 6 Pro Dual Power / quatix® 6",
+            "fēnix® 7 / quatix® 7",
+            "fēnix® 7 Pro",
+            "fēnix® 7 Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 7S",
+            "fēnix® 7S Pro",
+            "fēnix® 7X / tactix® 7 / quatix® 7X Solar / Enduro™ 2",
+            "fēnix® 7X Pro",
+            "fēnix® 7X Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 8 43mm",
+            "fēnix® 8 47mm / 51mm / tactix® 8 47mm / 51mm / quatix® 8 47mm / 51mm",
+            "fēnix® 8 Pro 47mm / 51mm / MicroLED / quatix® 8 Pro 47mm / 51mm",
+            "fēnix® 8 Solar 47mm",
+            "fēnix® 8 Solar 51mm / tactix® 8 Solar 51mm",
+            "fēnix® 9 43mm",
+            "fēnix® 9 47mm / 51mm",
+            "fēnix® 9 Pro 43mm",
+            "fēnix® 9 Pro 47mm",
+            "fēnix® 9 Pro 51mm",
+            "fēnix® 9 Pro Solar 47mm",
+            "fēnix® 9 Pro Solar 51mm"
+          ]
+        },
+        {
+          "line": "epix",
+          "names": [
+            "epix™ (Gen 2) / quatix® 7 Sapphire",
+            "epix™ Pro (Gen 2) 42mm",
+            "epix™ Pro (Gen 2) 47mm / quatix® 7 Pro",
+            "epix™ Pro (Gen 2) 51mm / D2™ Mach 1 Pro / tactix® 7 – AMOLED Edition"
+          ]
+        },
+        {
+          "line": "Forerunner",
+          "names": [
+            "Forerunner® 165",
+            "Forerunner® 165 Music",
+            "Forerunner® 255",
+            "Forerunner® 255 Music",
+            "Forerunner® 255s",
+            "Forerunner® 255s Music",
+            "Forerunner® 265",
+            "Forerunner® 265s",
+            "Forerunner® 955 / Solar",
+            "Forerunner® 965"
+          ]
+        },
+        {
+          "line": "Venu",
+          "names": [
+            "Venu® 2",
+            "Venu® 2 Plus",
+            "Venu® 2S",
+            "Venu® 3",
+            "Venu® 3S",
+            "Venu® 4 41mm",
+            "Venu® 4 45mm / D2™ Air X15"
+          ]
+        },
+        {
+          "line": "vívoactive",
+          "names": [
+            "vívoactive® 5",
+            "vívoactive® 6"
+          ]
+        },
+        {
+          "line": "Enduro",
+          "names": [
+            "Enduro™ 3"
+          ]
+        }
+      ]
+    }
   ]
 }
