@@ -161,6 +161,495 @@
       }
     },
     {
+      "slug": "vila",
+      "name": "Vila",
+      "subtitle": "E-Ink Sleep Screen",
+      "category": "Stylish",
+      "pitch": "Time, at rest.",
+      "short": "An e-reader's sleep screen on your wrist: a large serif time over an engraved hourglass whose sand runs from top to bottom as you walk.",
+      "full": [
+        "Vila is the screen an e-ink reader shows while it rests: an engraving in one ink on paper, and the time in a book serif above it. The engraving is an hourglass, every part of it drawn in lines as an engraver would cut it: two plates outlined and shaded, turned posts hatched down one side, the glass in fine contours with its shading, and the sand in close hatching.",
+        "The sand is the progress. In the morning it fills the top bulb; as your steps fill their goal it runs down into the bottom one, a thin stream falling between them, until the top is empty and a heap stands in the bottom bulb. It can follow floors, intensity minutes, Body Battery, battery or stress instead.",
+        "The time is set large in EB Garamond, with the date under it in your watch's own language and battery and alerts above it. Two readings stand either side of the hourglass's waist, heart rate and the weather to start, or any of fifteen sources.",
+        "Five papers: Paper, Warm light, Sepia, Night (white lines on black) and Indigo. A memory-in-pixel screen is already reflective, as e-ink is. The always-on mode keeps the time and the hourglass's outline."
+      ],
+      "settings": [
+        {
+          "name": "Left reading, right reading",
+          "values": "any of fifteen sources, or off"
+        },
+        {
+          "name": "Sand",
+          "values": "steps, floors, intensity minutes, Body Battery, battery, stress"
+        },
+        {
+          "name": "Theme",
+          "values": "Paper, Warm light, Sepia, Night, Indigo"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/d4c08102-f4ce-4321-8a79-e36e8ce201e5",
+      "images": [
+        {
+          "file": "img/vila/01_hero.jpg",
+          "alt": "Vila: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/vila/02_features.jpg",
+          "alt": "Vila: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/vila/03_themes.jpg",
+          "alt": "Vila: the five papers",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/vila/04_devices.jpg",
+          "alt": "Vila: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/vila/05_detail.jpg",
+          "alt": "Vila: the sand through a day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/vila/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/vila/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "sida",
+      "name": "Sida",
+      "subtitle": "E-Reader Page",
+      "category": "Simple",
+      "pitch": "The time, in words.",
+      "short": "The page of an e-reader on your wrist: the time written out as a sentence in a book serif, a running head, a progress bar and the page of the year.",
+      "full": [
+        "Sida reads like the page of an e-ink reader. In the middle, set in Literata in centred lines, the time is written out as a sentence: \"It is eight minutes past ten in the morning.\" \"It is a quarter to noon.\" \"It is midnight.\" The lines are wrapped to the round screen, every minute of the day.",
+        "Around the page, the reader's own furniture. At the top, battery and alerts, then the date as the running head, in your watch's own language. At the foot, two readings, steps and heart rate to start, or any of fifteen sources; under them a hairline progress bar with chapter marks that fills with your step goal (or floors, intensity minutes, Body Battery, battery or stress); and a last line that reads as the page of the year, \"Page 276 of 365\", or the time in figures, or the minutes left in the hour.",
+        "Five pages: Paper, Warm light (an amber tint, as a reader's front light at night), Sepia, Slate and Dark. A memory-in-pixel screen is already reflective, as e-ink is. The always-on mode keeps the sentence, dim, on black. The sentence is in English."
+      ],
+      "settings": [
+        {
+          "name": "Footer left, footer right",
+          "values": "any of fifteen sources, or off"
+        },
+        {
+          "name": "Progress bar",
+          "values": "steps, floors, intensity minutes, Body Battery, battery, stress"
+        },
+        {
+          "name": "Bottom line",
+          "values": "page of the year, time in figures, minutes left in the hour"
+        },
+        {
+          "name": "Theme",
+          "values": "Paper, Warm light, Sepia, Slate, Dark"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/f4f019d0-fa5c-4dec-9aba-3171c4465bd4",
+      "images": [
+        {
+          "file": "img/sida/01_hero.jpg",
+          "alt": "Sida: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/sida/02_features.jpg",
+          "alt": "Sida: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/sida/03_themes.jpg",
+          "alt": "Sida: the five pages",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/sida/04_devices.jpg",
+          "alt": "Sida: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/sida/05_detail.jpg",
+          "alt": "Sida: the page through a day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/sida/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/sida/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "vik",
+      "name": "Vik",
+      "subtitle": "Norse Bay at Dusk",
+      "category": "Fantasy",
+      "pitch": "Row home by nightfall.",
+      "short": "A northern bay at dusk under the branches of the world tree, with a longship that rows across the water as your steps come in.",
+      "full": [
+        "Vik is a bay in the far north at the end of the day. Far mountains stand in haze with mist at their feet, the near hills are dark, the water is still with streaks of light on it, and across the whole sky spread the branches of the world tree, a shade paler than the dusk.",
+        "On the water a longship with a striped sail and shields along its side rows from the west shore to the east as your steps fill their goal: it sets out in the morning and makes landfall at the goal. It can follow floors, intensity minutes, Body Battery, battery or stress instead.",
+        "The time stands over the sky in Kurale, a serif with a hand-cut edge, the date under it in your watch's own language and battery and alerts above it. Two readings sit on the water, each any of fifteen sources, heart rate and the weather to start. Along the bottom, a red health bar and a yellow stamina bar, Body Battery and battery by default.",
+        "Five themes: Meadow, Night, Mist, Ember and Frost. On memory-in-pixel screens the sky is dithered in the 64 colours. The always-on mode keeps the time, the shore and the longship as fine lines."
+      ],
+      "settings": [
+        {
+          "name": "Left reading, right reading",
+          "values": "any of fifteen sources, or off"
+        },
+        {
+          "name": "Longship",
+          "values": "steps, floors, intensity minutes, Body Battery, battery, stress"
+        },
+        {
+          "name": "Health bar, stamina bar",
+          "values": "steps, floors, intensity minutes, Body Battery, battery, stress"
+        },
+        {
+          "name": "Theme",
+          "values": "Meadow, Night, Mist, Ember, Frost"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/8317cf48-15db-4f28-8a18-46727ff929b2",
+      "images": [
+        {
+          "file": "img/vik/01_hero.jpg",
+          "alt": "Vik: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/vik/02_features.jpg",
+          "alt": "Vik: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/vik/03_themes.jpg",
+          "alt": "Vik: the five themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/vik/04_devices.jpg",
+          "alt": "Vik: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/vik/05_detail.jpg",
+          "alt": "Vik: the longship through a day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/vik/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/vik/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "skold",
+      "name": "Sköld",
+      "subtitle": "Viking Shield Analog",
+      "category": "Fantasy",
+      "pitch": "Raise your shield.",
+      "short": "A round Viking shield on your wrist: oak boards and an iron boss, steel hands, and the 24 runes of the futhark lighting up round the rim as you walk.",
+      "full": [
+        "Sköld is a round shield, made to fit a round watch. Seven boards of dark wood with their grain, knots and seams; an iron rim with its lip catching the light; a nail head at every hour; an iron dome at the centre; and two steel hands, each a blade outlined in black.",
+        "Engraved in the rim are the 24 runes of the elder futhark, in their order, each drawn as the straight strokes it was cut with. They are the progress: one by one they glow like embers as your steps fill their goal, from twelve clockwise, until the whole rim is alight. They can follow floors, intensity minutes, Body Battery, battery or stress instead.",
+        "Three readings are carved into the boards at nine, three and six, each any of fifteen sources: heart rate, the weather and Body Battery to start, or steps, calories, distance, floors, intensity minutes, stress, pressure, elevation, the next sunrise or sunset, notifications or battery. The date, in your watch's own language, and battery and alerts sit under twelve.",
+        "Five paints: Oak (bare wood), Blood, Raven, Frost (with an icy glow) and Moss, each painting every other board. The always-on mode keeps the lit runes as fine lines, the hands' outlines and the boss."
+      ],
+      "settings": [
+        {
+          "name": "At nine, at three, at six",
+          "values": "any of fifteen sources, or off"
+        },
+        {
+          "name": "Runes",
+          "values": "steps, floors, intensity minutes, Body Battery, battery, stress"
+        },
+        {
+          "name": "Paint",
+          "values": "Oak, Blood, Raven, Frost, Moss"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/dd76a14b-5aba-4900-85dd-87aaf6783c29",
+      "images": [
+        {
+          "file": "img/skold/01_hero.jpg",
+          "alt": "Sköld: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/skold/02_features.jpg",
+          "alt": "Sköld: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/skold/03_themes.jpg",
+          "alt": "Sköld: the five paints",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/skold/04_devices.jpg",
+          "alt": "Sköld: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/skold/05_detail.jpg",
+          "alt": "Sköld: the runes through a day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/skold/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/skold/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "stad",
+      "name": "Stad",
+      "subtitle": "City Map HUD",
+      "category": "Geek",
+      "pitch": "Your city. Your stats.",
+      "short": "A game's HUD over a city map: five stars for your stress, your steps as cash, health and armour bars, and an arrow that heads for the minute.",
+      "full": [
+        "Stad turns your watch into the heads-up display of an open-world game. The whole dial is a map of an invented city: blocks between wide streets, a park, a boulevard, a highway sweeping round the west side, a beach and the sea.",
+        "Over it, everything you need, outlined in black so it reads on any street. Five stars across the top fill with your stress. The time sits in the middle in Big Shoulders Display, with your steps under it as cash: 8,420 steps is $8,420. Two arcs along the bottom are your health and armour, Body Battery and battery by default. The player's arrow stands below the centre and turns to point at the minute, and two blips on the map carry any reading you like.",
+        "Every gauge can be changed: the stars and the bars follow steps, floors, intensity minutes, Body Battery, battery or stress; the cash is steps, calories, floors or intensity minutes; the blips take any of fifteen sources, the weather and heart rate to start. The date is in your watch's own language, with battery and alerts below the arrow.",
+        "Five themes: Street, Night, Sunset, Atlas (a light map) and Mono. The always-on mode keeps the time in a light cut and the arrow's outline."
+      ],
+      "settings": [
+        {
+          "name": "Left blip, right blip",
+          "values": "any of fifteen sources, or off"
+        },
+        {
+          "name": "Cash",
+          "values": "steps, calories, floors, intensity minutes"
+        },
+        {
+          "name": "Stars",
+          "values": "stress, steps, floors, intensity minutes, Body Battery, battery"
+        },
+        {
+          "name": "Health bar, armour bar",
+          "values": "steps, floors, intensity minutes, Body Battery, battery, stress"
+        },
+        {
+          "name": "Theme",
+          "values": "Street, Night, Sunset, Atlas, Mono"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/4dc0b03f-fa20-4039-9d1e-b8254f70751b",
+      "images": [
+        {
+          "file": "img/stad/01_hero.jpg",
+          "alt": "Stad: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/stad/02_features.jpg",
+          "alt": "Stad: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/stad/03_themes.jpg",
+          "alt": "Stad: the five themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/stad/04_devices.jpg",
+          "alt": "Stad: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/stad/05_detail.jpg",
+          "alt": "Stad: the stars through a day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/stad/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/stad/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
+      "slug": "kust",
+      "name": "Kust",
+      "subtitle": "Neon Sunset Coast",
+      "category": "Retro",
+      "pitch": "Neon at sundown.",
+      "short": "A neon sunset over the sea: the time in glowing tubes, palms either side, and a sun that sets as your steps come in.",
+      "full": [
+        "Kust puts a neon coast on your wrist. The sky runs from violet through pink to orange, a slatted sun sits on the horizon, the sea lies dark below it with the sun broken across the water, and two palms lean in from the edge.",
+        "The time glows at the top in Tilt Neon, a light core in a coloured glow, like a sign on a beachfront hotel. The sun is the progress: it stands clear of the sea in the morning and sinks into it as your steps fill their goal, until only its top is left above the water. It can follow floors, intensity minutes, Body Battery, battery or stress instead.",
+        "Three readings stand on the sea like neon signs, each any of fifteen sources: heart rate, steps and the weather to start, or calories, distance, floors, intensity minutes, Body Battery, stress, pressure, elevation, the next sunrise or sunset, notifications or battery. The date sits above the time in your watch's own language, under battery and alerts.",
+        "Five themes: Sunset, Dusk, Midnight, Flamingo and Tropic. On memory-in-pixel screens the sky is dithered in the 64 colours. The always-on mode keeps the time in its glow colour, the horizon and the sun's outline."
+      ],
+      "settings": [
+        {
+          "name": "Left sign, middle sign, right sign",
+          "values": "any of fifteen sources, or off"
+        },
+        {
+          "name": "Sun",
+          "values": "steps, floors, intensity minutes, Body Battery, battery, stress"
+        },
+        {
+          "name": "Theme",
+          "values": "Sunset, Dusk, Midnight, Flamingo, Tropic"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/b8545723-36f1-440f-98eb-5ac2a23350f6",
+      "images": [
+        {
+          "file": "img/kust/01_hero.jpg",
+          "alt": "Kust: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/kust/02_features.jpg",
+          "alt": "Kust: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/kust/03_themes.jpg",
+          "alt": "Kust: the five themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/kust/04_devices.jpg",
+          "alt": "Kust: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/kust/05_detail.jpg",
+          "alt": "Kust: the sun through a day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/kust/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/kust/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      }
+    },
+    {
       "slug": "dack",
       "name": "Däck",
       "subtitle": "Tyre Analog",
