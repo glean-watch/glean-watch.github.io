@@ -12,7 +12,8 @@ header: a grid of cards (the faces' is the home page, the others are at
 /apps/ and /games/) and a page per item at /<section>/<slug>/. faces.json
 may leave apps and games out; a section with nothing in it says its first
 are on the way, and names nothing. An app or game also carries its kind
-("Data field") and its own watches.
+("Data field") and its own watches; a face carries its own watches only
+when it runs on fewer than the help page lists.
 """
 import html
 import json
@@ -147,9 +148,10 @@ def settings_html(item):
 
 
 def works(section, item, data):
-    """Where an item runs. Every face runs on every watch in the help's list;
-    an app or game runs on its own, listed in place."""
-    if section == "faces":
+    """Where an item runs. A face runs on every watch in the help's list
+    unless it carries its own, as an app or game always does: those are
+    listed in place."""
+    if "watches" not in item:
         return ('<p class="works"><a href="/help/#watches">%s</a></p>'
                 % works_on(watch_count(data["watches"])))
     # Its own h2, so the product lines' h3s sit under it, not under Settings.

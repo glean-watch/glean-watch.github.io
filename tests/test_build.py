@@ -365,6 +365,20 @@ class AppsTest(unittest.TestCase):
         self.assertIn('<p class="works"><a href="/help/#watches">Works on 3 watches</a></p>', lykt)
         self.assertIn("<h2>Settings</h2>", lykt)
 
+    def test_a_face_with_fewer_watches_lists_its_own(self):
+        data = json.loads(FIXTURE.read_text(encoding="utf-8"))
+        lykt = next(f for f in data["faces"] if f["slug"] == "lykt")
+        lykt["watches"] = [{"line": "Venu", "names": ["Venu® 2S"]}]
+        site, _ = make_site(data)
+        build.build(site)
+        got = pages(site)
+        p = got["faces/lykt/index.html"]
+        self.assertIn("<summary>Works on 1 watch</summary>", p)
+        self.assertIn("<li>Venu® 2S</li>", p)
+        self.assertNotIn('href="/help/#watches"', p)
+        self.assertIn('<p class="works"><a href="/help/#watches">Works on 3 watches</a></p>',
+                      got["faces/stjarna/index.html"])
+
     def test_the_sitemap_lists_them(self):
         xml = (self.site / "sitemap.xml").read_text(encoding="utf-8")
         for p in ("apps/waymark/", "games/tile-hop/"):
