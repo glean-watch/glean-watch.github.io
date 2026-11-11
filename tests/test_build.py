@@ -142,7 +142,7 @@ class BuildTest(unittest.TestCase):
         home = self.pages["index.html"]
         self.assertIn("<title>Glean · Watch faces, apps and games for Garmin watches</title>", home)
         self.assertIn("<h1>Watch faces worth a second look.</h1>", home)
-        self.assertIn("<p>All faces are free on the Connect IQ Store.</p>", home)
+        self.assertIn("<p>On the Connect IQ Store.</p>", home)
         self.assertLess(home.index("/faces/stjarna/"), home.index("/faces/lykt/"))
         self.assertIn("Your sign, written in real stars.", home)
         self.assertEqual(home.count('<li class="card">'), 2)  # every face

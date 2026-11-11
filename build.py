@@ -33,9 +33,9 @@ SLUG = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
 # A section's tab once it has something in it: the headline, the line
 # under it, the page's title and its description.
 INTRO = {
-    "faces": ("Watch faces worth a second look.", "All faces are free on the Connect IQ Store.",
+    "faces": ("Watch faces worth a second look.", "On the Connect IQ Store.",
               "Glean · Watch faces, apps and games for Garmin watches",
-              "Watch faces for Garmin watches, all free on the Connect IQ Store."),
+              "Watch faces for Garmin watches, on the Connect IQ Store."),
     "apps": ("Apps", "", "Apps · Glean",
              "Glean's apps for Garmin watches, on the Connect IQ Store."),
     "games": ("Games", "", "Games · Glean",
