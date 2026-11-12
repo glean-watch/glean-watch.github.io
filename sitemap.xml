@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://glean-watch.github.io/</loc></url>
+  <url><loc>https://glean-watch.github.io/faces/frost/</loc></url>
+  <url><loc>https://glean-watch.github.io/faces/kofta/</loc></url>
+  <url><loc>https://glean-watch.github.io/faces/gran/</loc></url>
+  <url><loc>https://glean-watch.github.io/faces/lage/</loc></url>
   <url><loc>https://glean-watch.github.io/faces/rad/</loc></url>
   <url><loc>https://glean-watch.github.io/faces/stor/</loc></url>
   <url><loc>https://glean-watch.github.io/faces/vila/</loc></url>
