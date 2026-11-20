@@ -202,7 +202,7 @@ def help_page(site, data):
 
 def privacy_page(site, data):
     return page(site, "privacy", "Privacy · Glean",
-                "What Glean's watch faces and this site do with your data: nothing leaves your watch.",
+                "What Glean's faces, apps and this site do with your data: nothing leaves your watch but a rounded place for the stargazing forecast.",
                 "privacy/", data["faces"][0]["hero"]["file"], template(site, "privacy").substitute())
 
 

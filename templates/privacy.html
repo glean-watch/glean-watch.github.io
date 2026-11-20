@@ -1,6 +1,6 @@
 <article class="prose">
 <h1>Privacy</h1>
-<p class="updated">Last updated 25 October 2026.</p>
+<p class="updated">Last updated 20 November 2026.</p>
 
 <h2>The watch faces</h2>
 <p>Glean's faces collect nothing and send nothing. None of them has network access: they never connect to the internet, to a server of mine or to anyone else's. Everything a face shows is read on the watch and drawn on the watch.</p>
@@ -20,6 +20,21 @@
   <dt>Background</dt>
   <dd>A short run on the watch every 6 hours that counts the days it has not counted yet, so no day is lost while you leave the app closed.</dd>
 </dl>
+
+<h2 id="stargazing">Stargazing Forecast</h2>
+<p>Stargazing Forecast is the one Glean app that goes online, and only for the weather. To fetch the forecast for your place, it sends that place, rounded to 0.01 degrees (about a kilometre), to the 7Timer! astronomy forecast service, through your phone's connection, once every three hours and when you open the app. Nothing else is sent: no name, no account, no identifier of you or your watch. The request is an ordinary web request, so 7Timer!'s server sees it as any website sees a visit. The forecast and your last place are kept in the app's own storage on the watch; removing the app deletes them. The Sun, the Moon and the Milky Way are worked out on the watch.</p>
+<p>It asks for three permissions:</p>
+<dl>
+  <dt>Positioning</dt>
+  <dd>Where you are, for the forecast and the sky. It takes the place of the watch's weather reading first, then of your last activity, and only when the watch knows neither does it ask for one GPS fix while the app is open.</dd>
+  <dt>Communications</dt>
+  <dd>The forecast request described above, made through your phone.</dd>
+  <dt>Background</dt>
+  <dd>A short run on the watch every 3 hours that fetches the next forecast, so the glance is up to date without opening the app.</dd>
+</dl>
+
+<h2 id="ring-match">Gem Crush</h2>
+<p>Gem Crush collects nothing, sends nothing and asks for no permissions. It reads today's steps on the watch to count your charges, and keeps the round you left open, your best scores and your daily streak in the game's own storage on the watch. Removing the game deletes them.</p>
 
 <h2>This website</h2>
 <p>This site sets no cookies, runs no analytics and loads nothing from any other site: its fonts and pictures are served from here. GitHub, which hosts it, keeps standard server logs, such as visitors' IP addresses, under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>

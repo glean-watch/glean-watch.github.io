@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://glean-watch.github.io/</loc></url>
+  <url><loc>https://glean-watch.github.io/faces/norrsken/</loc></url>
+  <url><loc>https://glean-watch.github.io/faces/ormbunke/</loc></url>
+  <url><loc>https://glean-watch.github.io/faces/dyning/</loc></url>
+  <url><loc>https://glean-watch.github.io/faces/gren/</loc></url>
+  <url><loc>https://glean-watch.github.io/faces/dag/</loc></url>
+  <url><loc>https://glean-watch.github.io/faces/visare/</loc></url>
+  <url><loc>https://glean-watch.github.io/faces/tavla/</loc></url>
   <url><loc>https://glean-watch.github.io/faces/prognos/</loc></url>
   <url><loc>https://glean-watch.github.io/faces/ruta/</loc></url>
   <url><loc>https://glean-watch.github.io/faces/dygn/</loc></url>
@@ -54,7 +61,9 @@
   <url><loc>https://glean-watch.github.io/faces/atelier/</loc></url>
   <url><loc>https://glean-watch.github.io/apps/</loc></url>
   <url><loc>https://glean-watch.github.io/apps/one-more-step/</loc></url>
+  <url><loc>https://glean-watch.github.io/apps/stargazing/</loc></url>
   <url><loc>https://glean-watch.github.io/games/</loc></url>
+  <url><loc>https://glean-watch.github.io/games/ring-match/</loc></url>
   <url><loc>https://glean-watch.github.io/help/</loc></url>
   <url><loc>https://glean-watch.github.io/privacy/</loc></url>
 </urlset>

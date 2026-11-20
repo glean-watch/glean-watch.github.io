@@ -1,6 +1,1610 @@
 {
   "faces": [
     {
+      "slug": "norrsken",
+      "name": "Norrsken",
+      "subtitle": "Aurora & Northern Lights, Big Numbers",
+      "category": "Nature",
+      "pitch": "The northern lights, at a glance.",
+      "short": "Big, easy-to-read numbers over a glowing aurora borealis: the northern lights over snowy mountains, with the date, two readings of your choice and a goal bar.",
+      "full": [
+        "Aurora borealis watch face with big numbers: the northern lights glowing green and violet over snowy mountain peaks, behind a large, easy-to-read time, the date and the data you check every day.",
+        "The time sits on a single line, as wide as the round screen allows, in condensed figures made to be read at a glance: the hours white, the colon and the minutes the colour of your theme. Every figure is drawn over a dark outline, so it stays sharp on the brightest curtain of light.",
+        "Above the time, the date in your watch's own language with the seconds ticking beside it, and battery and alerts at the top. Under it, two readings in rounded chips, each with its icon: heart rate and steps to start, or the weather, the day's high and low, Body Battery, stress, calories, distance, floors, sunrise and sunset, elevation, VO2 max, sleep score and more, twenty sources in all. A short bar fills as you meet your steps goal, or floors, intensity minutes, Body Battery, battery or stress.",
+        "Four themes from the night sky: Aurora green, Violet, Ice and Snow, or switch the northern lights off for a plain black dial. 12-hour or 24-hour time or as your watch is set. On memory-in-pixel screens the seconds keep running with your wrist down; the always-on mode keeps the time at the same size in a light weight, on black.",
+        "Touch and hold a reading or the goal bar to open its glance on your watch, or the date for your calendar. Temperatures follow your watch, or pick °C or °F."
+      ],
+      "settings": [
+        {
+          "name": "Theme",
+          "values": "Aurora, Violet, Ice, Snow"
+        },
+        {
+          "name": "Show the northern lights",
+          "values": "on / off"
+        },
+        {
+          "name": "Minutes in the theme colour",
+          "values": "on / off"
+        },
+        {
+          "name": "Left reading, right reading",
+          "values": "any of twenty sources, or off"
+        },
+        {
+          "name": "Goal bar",
+          "values": "steps, floors, intensity minutes, Body Battery, battery, stress, off"
+        },
+        {
+          "name": "Show date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        },
+        {
+          "name": "Seconds",
+          "values": "on / off"
+        },
+        {
+          "name": "Temperature",
+          "values": "as the watch, °C, °F"
+        },
+        {
+          "name": "Time format",
+          "values": "as the watch, 12-hour, 24-hour"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/f8127377-86a9-4f74-a42e-818d92b4212d",
+      "images": [
+        {
+          "file": "img/norrsken/01_hero.jpg",
+          "alt": "Norrsken: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/norrsken/02_features.jpg",
+          "alt": "Norrsken: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/norrsken/03_themes.jpg",
+          "alt": "Norrsken: the four themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/norrsken/04_devices.jpg",
+          "alt": "Norrsken: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/norrsken/05_detail.jpg",
+          "alt": "Norrsken: the goal bar through a day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/norrsken/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/norrsken/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      },
+      "watches": [
+        {
+          "line": "fēnix",
+          "names": [
+            "fēnix® 7 / quatix® 7",
+            "fēnix® 7 Pro",
+            "fēnix® 7 Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 7S",
+            "fēnix® 7S Pro",
+            "fēnix® 7X / tactix® 7 / quatix® 7X Solar / Enduro™ 2",
+            "fēnix® 7X Pro",
+            "fēnix® 7X Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 8 43mm",
+            "fēnix® 8 47mm / 51mm / tactix® 8 47mm / 51mm / quatix® 8 47mm / 51mm",
+            "fēnix® 8 Pro 47mm / 51mm / MicroLED / quatix® 8 Pro 47mm / 51mm",
+            "fēnix® 8 Solar 47mm",
+            "fēnix® 8 Solar 51mm / tactix® 8 Solar 51mm",
+            "fēnix® 9 43mm",
+            "fēnix® 9 47mm / 51mm",
+            "fēnix® 9 Pro 43mm",
+            "fēnix® 9 Pro 47mm",
+            "fēnix® 9 Pro 51mm",
+            "fēnix® 9 Pro Solar 47mm",
+            "fēnix® 9 Pro Solar 51mm",
+            "fēnix® E"
+          ]
+        },
+        {
+          "line": "epix",
+          "names": [
+            "epix™ (Gen 2) / quatix® 7 Sapphire",
+            "epix™ Pro (Gen 2) 42mm",
+            "epix™ Pro (Gen 2) 47mm / quatix® 7 Pro",
+            "epix™ Pro (Gen 2) 51mm / D2™ Mach 1 Pro / tactix® 7 – AMOLED Edition"
+          ]
+        },
+        {
+          "line": "Forerunner",
+          "names": [
+            "Forerunner® 70",
+            "Forerunner® 165",
+            "Forerunner® 165 Music",
+            "Forerunner® 170",
+            "Forerunner® 170 Music",
+            "Forerunner® 255",
+            "Forerunner® 255 Music",
+            "Forerunner® 255s",
+            "Forerunner® 255s Music",
+            "Forerunner® 265",
+            "Forerunner® 265s",
+            "Forerunner® 570 42mm",
+            "Forerunner® 570 47mm",
+            "Forerunner® 955 / Solar",
+            "Forerunner® 965",
+            "Forerunner® 970"
+          ]
+        },
+        {
+          "line": "Venu",
+          "names": [
+            "Venu® 2",
+            "Venu® 2 Plus",
+            "Venu® 2S",
+            "Venu® 3",
+            "Venu® 3S",
+            "Venu® 4 41mm",
+            "Venu® 4 45mm / D2™ Air X15"
+          ]
+        },
+        {
+          "line": "vívoactive",
+          "names": [
+            "vívoactive® 5",
+            "vívoactive® 6"
+          ]
+        },
+        {
+          "line": "Enduro",
+          "names": [
+            "Enduro™ 3",
+            "Enduro™ 4"
+          ]
+        },
+        {
+          "line": "Approach",
+          "names": [
+            "Approach® S50",
+            "Approach® S70 42mm",
+            "Approach® S70 47mm",
+            "Approach® S72 43mm",
+            "Approach® S72 47mm"
+          ]
+        },
+        {
+          "line": "D2",
+          "names": [
+            "D2™ Air X10",
+            "D2™ Mach 1",
+            "D2™ Mach 2",
+            "D2™ Mach 2 Pro"
+          ]
+        },
+        {
+          "line": "Descent",
+          "names": [
+            "Descent™ G2",
+            "Descent™ Mk3 43mm / Mk3i 43mm",
+            "Descent™ Mk3i 51mm"
+          ]
+        },
+        {
+          "line": "MARQ",
+          "names": [
+            "MARQ® (Gen 2) Athlete / Adventurer / Captain / Golfer / Carbon Edition / Commander - Carbon Edition",
+            "MARQ® (Gen 2) Aviator",
+            "MARQ® (Gen 3) Athlete / Adventurer / Aviator / Commander / Golfer / Diver"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ormbunke",
+      "name": "Ormbunke",
+      "subtitle": "Fractal Fern, Green Light",
+      "category": "Nature",
+      "pitch": "A fern of green light.",
+      "short": "A fractal fern of green light, its leaflets repeating toward the tip, beside a clean column of the time, the date and four readings of your choice.",
+      "full": [
+        "Ormbunke is a fractal fern of green light, each frond made of leaflets that repeat and shrink toward the tip, with a clean column of the day beside it.",
+        "The time in large italic figures, the minutes in the colour of your theme and the seconds beside them. Above it two readings, under it the date in your watch's language and two more readings. All four are yours to choose from twenty sources: heart rate, steps, calories, Body Battery, the weather, the day's high and low, sunrise and sunset, elevation, VO2 max, sleep score and more, or none. Along the left edge a gauge fills with your Body Battery, or steps, stress, recovery, sleep score or the battery. Battery and alerts at the top.",
+        "Every line starts on one edge and is drawn over a dark outline, so the fern never gets in the way of the figures, whatever you choose to show.",
+        "Three themes that sit with the fern: Fern, Moss and Pollen, or switch the fern off for a plain black dial. The time in 12-hour or 24-hour or as your watch is set, with or without a leading zero. The seconds can be hidden, and on memory-in-pixel screens they keep running with your wrist down. The always-on mode draws the fern in fine lines, with the time and the date.",
+        "Touch and hold a reading or the gauge to open its glance on your watch, or the date for your calendar. Temperatures follow your watch, or pick °C or °F."
+      ],
+      "settings": [
+        {
+          "name": "Theme",
+          "values": "Fern, Moss, Pollen"
+        },
+        {
+          "name": "Show the fern",
+          "values": "on / off"
+        },
+        {
+          "name": "Time format",
+          "values": "as the watch, 12-hour, 24-hour"
+        },
+        {
+          "name": "Leading zero",
+          "values": "on / off"
+        },
+        {
+          "name": "Seconds",
+          "values": "on / off"
+        },
+        {
+          "name": "Reading at the top, left",
+          "values": "any of twenty sources, or off"
+        },
+        {
+          "name": "Reading at the top, right",
+          "values": "any of twenty sources, or off"
+        },
+        {
+          "name": "First reading",
+          "values": "any of twenty sources, or off"
+        },
+        {
+          "name": "Second reading",
+          "values": "any of twenty sources, or off"
+        },
+        {
+          "name": "Gauge along the edge",
+          "values": "steps, Body Battery, battery, floors, active minutes, stress, recovery, sleep score, or off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        },
+        {
+          "name": "Temperature",
+          "values": "as the watch, °C, °F"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/7e38088c-b4dd-4828-b469-b6613c56daa4",
+      "images": [
+        {
+          "file": "img/ormbunke/01_hero.jpg",
+          "alt": "Ormbunke: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/ormbunke/02_features.jpg",
+          "alt": "Ormbunke: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/ormbunke/03_themes.jpg",
+          "alt": "Ormbunke: the three themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/ormbunke/04_devices.jpg",
+          "alt": "Ormbunke: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/ormbunke/05_detail.jpg",
+          "alt": "Ormbunke: the dial through the day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/ormbunke/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/ormbunke/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      },
+      "watches": [
+        {
+          "line": "fēnix",
+          "names": [
+            "fēnix® 7 / quatix® 7",
+            "fēnix® 7 Pro",
+            "fēnix® 7 Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 7S",
+            "fēnix® 7S Pro",
+            "fēnix® 7X / tactix® 7 / quatix® 7X Solar / Enduro™ 2",
+            "fēnix® 7X Pro",
+            "fēnix® 7X Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 8 43mm",
+            "fēnix® 8 47mm / 51mm / tactix® 8 47mm / 51mm / quatix® 8 47mm / 51mm",
+            "fēnix® 8 Pro 47mm / 51mm / MicroLED / quatix® 8 Pro 47mm / 51mm",
+            "fēnix® 8 Solar 47mm",
+            "fēnix® 8 Solar 51mm / tactix® 8 Solar 51mm",
+            "fēnix® 9 43mm",
+            "fēnix® 9 47mm / 51mm",
+            "fēnix® 9 Pro 43mm",
+            "fēnix® 9 Pro 47mm",
+            "fēnix® 9 Pro 51mm",
+            "fēnix® 9 Pro Solar 47mm",
+            "fēnix® 9 Pro Solar 51mm",
+            "fēnix® E"
+          ]
+        },
+        {
+          "line": "epix",
+          "names": [
+            "epix™ (Gen 2) / quatix® 7 Sapphire",
+            "epix™ Pro (Gen 2) 42mm",
+            "epix™ Pro (Gen 2) 47mm / quatix® 7 Pro",
+            "epix™ Pro (Gen 2) 51mm / D2™ Mach 1 Pro / tactix® 7 – AMOLED Edition"
+          ]
+        },
+        {
+          "line": "Forerunner",
+          "names": [
+            "Forerunner® 70",
+            "Forerunner® 165",
+            "Forerunner® 165 Music",
+            "Forerunner® 170",
+            "Forerunner® 170 Music",
+            "Forerunner® 255",
+            "Forerunner® 255 Music",
+            "Forerunner® 255s",
+            "Forerunner® 255s Music",
+            "Forerunner® 265",
+            "Forerunner® 265s",
+            "Forerunner® 570 42mm",
+            "Forerunner® 570 47mm",
+            "Forerunner® 955 / Solar",
+            "Forerunner® 965",
+            "Forerunner® 970"
+          ]
+        },
+        {
+          "line": "Venu",
+          "names": [
+            "Venu® 2",
+            "Venu® 2 Plus",
+            "Venu® 2S",
+            "Venu® 3",
+            "Venu® 3S",
+            "Venu® 4 41mm",
+            "Venu® 4 45mm / D2™ Air X15"
+          ]
+        },
+        {
+          "line": "vívoactive",
+          "names": [
+            "vívoactive® 5",
+            "vívoactive® 6"
+          ]
+        },
+        {
+          "line": "Enduro",
+          "names": [
+            "Enduro™ 3",
+            "Enduro™ 4"
+          ]
+        },
+        {
+          "line": "Approach",
+          "names": [
+            "Approach® S50",
+            "Approach® S70 42mm",
+            "Approach® S70 47mm",
+            "Approach® S72 43mm",
+            "Approach® S72 47mm"
+          ]
+        },
+        {
+          "line": "D2",
+          "names": [
+            "D2™ Air X10",
+            "D2™ Mach 1",
+            "D2™ Mach 2",
+            "D2™ Mach 2 Pro"
+          ]
+        },
+        {
+          "line": "Descent",
+          "names": [
+            "Descent™ G2",
+            "Descent™ Mk3 43mm / Mk3i 43mm",
+            "Descent™ Mk3i 51mm"
+          ]
+        },
+        {
+          "line": "MARQ",
+          "names": [
+            "MARQ® (Gen 2) Athlete / Adventurer / Captain / Golfer / Carbon Edition / Commander - Carbon Edition",
+            "MARQ® (Gen 2) Aviator",
+            "MARQ® (Gen 3) Athlete / Adventurer / Aviator / Commander / Golfer / Diver"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dyning",
+      "name": "Dyning",
+      "subtitle": "Fractal Wave, Teal Light",
+      "category": "Nature",
+      "pitch": "A wave of teal light.",
+      "short": "A breaking wave of teal light, its crest curling into fractal foam, beside a clean column of the time, the date and four readings of your choice.",
+      "full": [
+        "Dyning is a breaking wave of teal light, its crest curling over into fractal foam and spray, with a clean column of the day beside it.",
+        "The time in large italic figures, the minutes in the colour of your theme and the seconds beside them. Above it two readings, under it the date in your watch's language and two more readings. All four are yours to choose from twenty sources: heart rate, steps, calories, Body Battery, the weather, the day's high and low, sunrise and sunset, elevation, VO2 max, sleep score and more, or none. Along the left edge a gauge fills with your Body Battery, or steps, stress, recovery, sleep score or the battery. Battery and alerts at the top.",
+        "Every line starts on one edge and is drawn over a dark outline, so the wave never gets in the way of the figures, whatever you choose to show.",
+        "Three themes that sit with the wave: Surf, Ice and Foam, or switch the wave off for a plain black dial. The time in 12-hour or 24-hour or as your watch is set, with or without a leading zero. The seconds can be hidden, and on memory-in-pixel screens they keep running with your wrist down. The always-on mode draws the wave in fine lines, with the time and the date.",
+        "Touch and hold a reading or the gauge to open its glance on your watch, or the date for your calendar. Temperatures follow your watch, or pick °C or °F."
+      ],
+      "settings": [
+        {
+          "name": "Theme",
+          "values": "Surf, Ice, Foam"
+        },
+        {
+          "name": "Show the wave",
+          "values": "on / off"
+        },
+        {
+          "name": "Time format",
+          "values": "as the watch, 12-hour, 24-hour"
+        },
+        {
+          "name": "Leading zero",
+          "values": "on / off"
+        },
+        {
+          "name": "Seconds",
+          "values": "on / off"
+        },
+        {
+          "name": "Reading at the top, left",
+          "values": "any of twenty sources, or off"
+        },
+        {
+          "name": "Reading at the top, right",
+          "values": "any of twenty sources, or off"
+        },
+        {
+          "name": "First reading",
+          "values": "any of twenty sources, or off"
+        },
+        {
+          "name": "Second reading",
+          "values": "any of twenty sources, or off"
+        },
+        {
+          "name": "Gauge along the edge",
+          "values": "Body Battery, steps, battery, floors, active minutes, stress, recovery, sleep score, or off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        },
+        {
+          "name": "Temperature",
+          "values": "as the watch, °C, °F"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/8541edac-6ee5-4cf3-868d-8676454a1c39",
+      "images": [
+        {
+          "file": "img/dyning/01_hero.jpg",
+          "alt": "Dyning: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/dyning/02_features.jpg",
+          "alt": "Dyning: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/dyning/03_themes.jpg",
+          "alt": "Dyning: the three themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/dyning/04_devices.jpg",
+          "alt": "Dyning: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/dyning/05_detail.jpg",
+          "alt": "Dyning: the dial through the day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/dyning/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/dyning/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      },
+      "watches": [
+        {
+          "line": "fēnix",
+          "names": [
+            "fēnix® 7 / quatix® 7",
+            "fēnix® 7 Pro",
+            "fēnix® 7 Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 7S",
+            "fēnix® 7S Pro",
+            "fēnix® 7X / tactix® 7 / quatix® 7X Solar / Enduro™ 2",
+            "fēnix® 7X Pro",
+            "fēnix® 7X Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 8 43mm",
+            "fēnix® 8 47mm / 51mm / tactix® 8 47mm / 51mm / quatix® 8 47mm / 51mm",
+            "fēnix® 8 Pro 47mm / 51mm / MicroLED / quatix® 8 Pro 47mm / 51mm",
+            "fēnix® 8 Solar 47mm",
+            "fēnix® 8 Solar 51mm / tactix® 8 Solar 51mm",
+            "fēnix® 9 43mm",
+            "fēnix® 9 47mm / 51mm",
+            "fēnix® 9 Pro 43mm",
+            "fēnix® 9 Pro 47mm",
+            "fēnix® 9 Pro 51mm",
+            "fēnix® 9 Pro Solar 47mm",
+            "fēnix® 9 Pro Solar 51mm",
+            "fēnix® E"
+          ]
+        },
+        {
+          "line": "epix",
+          "names": [
+            "epix™ (Gen 2) / quatix® 7 Sapphire",
+            "epix™ Pro (Gen 2) 42mm",
+            "epix™ Pro (Gen 2) 47mm / quatix® 7 Pro",
+            "epix™ Pro (Gen 2) 51mm / D2™ Mach 1 Pro / tactix® 7 – AMOLED Edition"
+          ]
+        },
+        {
+          "line": "Forerunner",
+          "names": [
+            "Forerunner® 70",
+            "Forerunner® 165",
+            "Forerunner® 165 Music",
+            "Forerunner® 170",
+            "Forerunner® 170 Music",
+            "Forerunner® 255",
+            "Forerunner® 255 Music",
+            "Forerunner® 255s",
+            "Forerunner® 255s Music",
+            "Forerunner® 265",
+            "Forerunner® 265s",
+            "Forerunner® 570 42mm",
+            "Forerunner® 570 47mm",
+            "Forerunner® 955 / Solar",
+            "Forerunner® 965",
+            "Forerunner® 970"
+          ]
+        },
+        {
+          "line": "Venu",
+          "names": [
+            "Venu® 2",
+            "Venu® 2 Plus",
+            "Venu® 2S",
+            "Venu® 3",
+            "Venu® 3S",
+            "Venu® 4 41mm",
+            "Venu® 4 45mm / D2™ Air X15"
+          ]
+        },
+        {
+          "line": "vívoactive",
+          "names": [
+            "vívoactive® 5",
+            "vívoactive® 6"
+          ]
+        },
+        {
+          "line": "Enduro",
+          "names": [
+            "Enduro™ 3",
+            "Enduro™ 4"
+          ]
+        },
+        {
+          "line": "Approach",
+          "names": [
+            "Approach® S50",
+            "Approach® S70 42mm",
+            "Approach® S70 47mm",
+            "Approach® S72 43mm",
+            "Approach® S72 47mm"
+          ]
+        },
+        {
+          "line": "D2",
+          "names": [
+            "D2™ Air X10",
+            "D2™ Mach 1",
+            "D2™ Mach 2",
+            "D2™ Mach 2 Pro"
+          ]
+        },
+        {
+          "line": "Descent",
+          "names": [
+            "Descent™ G2",
+            "Descent™ Mk3 43mm / Mk3i 43mm",
+            "Descent™ Mk3i 51mm"
+          ]
+        },
+        {
+          "line": "MARQ",
+          "names": [
+            "MARQ® (Gen 2) Athlete / Adventurer / Captain / Golfer / Carbon Edition / Commander - Carbon Edition",
+            "MARQ® (Gen 2) Aviator",
+            "MARQ® (Gen 3) Athlete / Adventurer / Aviator / Commander / Golfer / Diver"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gren",
+      "name": "Gren",
+      "subtitle": "Fractal Tree, Ember Light",
+      "category": "Nature",
+      "pitch": "A tree of ember light.",
+      "short": "A fractal tree of ember light, branching into fine glowing twigs, beside a clean column of the time, the date and four readings of your choice.",
+      "full": [
+        "Gren is a fractal tree of ember light, its branches splitting again and again into fine glowing twigs, with a clean column of the day beside it.",
+        "The time in large italic figures, the minutes in the colour of your theme and the seconds beside them. Above it two readings, under it the date in your watch's language and two more readings. All four are yours to choose from twenty sources: heart rate, steps, calories, Body Battery, the weather, the day's high and low, sunrise and sunset, elevation, VO2 max, sleep score and more, or none. Along the left edge a gauge fills with your Body Battery, or steps, stress, recovery, sleep score or the battery. Battery and alerts at the top.",
+        "Every line starts on one edge and is drawn over a dark outline, so the tree never gets in the way of the figures, whatever you choose to show.",
+        "Three themes that sit with the tree: Ember, Amber and Ash, or switch the tree off for a plain black dial. The time in 12-hour or 24-hour or as your watch is set, with or without a leading zero. The seconds can be hidden, and on memory-in-pixel screens they keep running with your wrist down. The always-on mode draws the tree in fine lines, with the time and the date.",
+        "Touch and hold a reading or the gauge to open its glance on your watch, or the date for your calendar. Temperatures follow your watch, or pick °C or °F."
+      ],
+      "settings": [
+        {
+          "name": "Theme",
+          "values": "Ember, Amber, Ash"
+        },
+        {
+          "name": "Show the tree",
+          "values": "on / off"
+        },
+        {
+          "name": "Time format",
+          "values": "as the watch, 12-hour, 24-hour"
+        },
+        {
+          "name": "Leading zero",
+          "values": "on / off"
+        },
+        {
+          "name": "Seconds",
+          "values": "on / off"
+        },
+        {
+          "name": "Reading at the top, left",
+          "values": "any of twenty sources, or off"
+        },
+        {
+          "name": "Reading at the top, right",
+          "values": "any of twenty sources, or off"
+        },
+        {
+          "name": "First reading",
+          "values": "any of twenty sources, or off"
+        },
+        {
+          "name": "Second reading",
+          "values": "any of twenty sources, or off"
+        },
+        {
+          "name": "Gauge along the edge",
+          "values": "Body Battery, steps, battery, floors, active minutes, stress, recovery, sleep score, or off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        },
+        {
+          "name": "Temperature",
+          "values": "as the watch, °C, °F"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/cc25538b-9abd-4db4-bee1-e92cc834d2bd",
+      "images": [
+        {
+          "file": "img/gren/01_hero.jpg",
+          "alt": "Gren: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/gren/02_features.jpg",
+          "alt": "Gren: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/gren/03_themes.jpg",
+          "alt": "Gren: the three themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/gren/04_devices.jpg",
+          "alt": "Gren: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/gren/05_detail.jpg",
+          "alt": "Gren: the dial through the day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/gren/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/gren/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      },
+      "watches": [
+        {
+          "line": "fēnix",
+          "names": [
+            "fēnix® 7 / quatix® 7",
+            "fēnix® 7 Pro",
+            "fēnix® 7 Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 7S",
+            "fēnix® 7S Pro",
+            "fēnix® 7X / tactix® 7 / quatix® 7X Solar / Enduro™ 2",
+            "fēnix® 7X Pro",
+            "fēnix® 7X Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 8 43mm",
+            "fēnix® 8 47mm / 51mm / tactix® 8 47mm / 51mm / quatix® 8 47mm / 51mm",
+            "fēnix® 8 Pro 47mm / 51mm / MicroLED / quatix® 8 Pro 47mm / 51mm",
+            "fēnix® 8 Solar 47mm",
+            "fēnix® 8 Solar 51mm / tactix® 8 Solar 51mm",
+            "fēnix® 9 43mm",
+            "fēnix® 9 47mm / 51mm",
+            "fēnix® 9 Pro 43mm",
+            "fēnix® 9 Pro 47mm",
+            "fēnix® 9 Pro 51mm",
+            "fēnix® 9 Pro Solar 47mm",
+            "fēnix® 9 Pro Solar 51mm",
+            "fēnix® E"
+          ]
+        },
+        {
+          "line": "epix",
+          "names": [
+            "epix™ (Gen 2) / quatix® 7 Sapphire",
+            "epix™ Pro (Gen 2) 42mm",
+            "epix™ Pro (Gen 2) 47mm / quatix® 7 Pro",
+            "epix™ Pro (Gen 2) 51mm / D2™ Mach 1 Pro / tactix® 7 – AMOLED Edition"
+          ]
+        },
+        {
+          "line": "Forerunner",
+          "names": [
+            "Forerunner® 70",
+            "Forerunner® 165",
+            "Forerunner® 165 Music",
+            "Forerunner® 170",
+            "Forerunner® 170 Music",
+            "Forerunner® 255",
+            "Forerunner® 255 Music",
+            "Forerunner® 255s",
+            "Forerunner® 255s Music",
+            "Forerunner® 265",
+            "Forerunner® 265s",
+            "Forerunner® 570 42mm",
+            "Forerunner® 570 47mm",
+            "Forerunner® 955 / Solar",
+            "Forerunner® 965",
+            "Forerunner® 970"
+          ]
+        },
+        {
+          "line": "Venu",
+          "names": [
+            "Venu® 2",
+            "Venu® 2 Plus",
+            "Venu® 2S",
+            "Venu® 3",
+            "Venu® 3S",
+            "Venu® 4 41mm",
+            "Venu® 4 45mm / D2™ Air X15"
+          ]
+        },
+        {
+          "line": "vívoactive",
+          "names": [
+            "vívoactive® 5",
+            "vívoactive® 6"
+          ]
+        },
+        {
+          "line": "Enduro",
+          "names": [
+            "Enduro™ 3",
+            "Enduro™ 4"
+          ]
+        },
+        {
+          "line": "Approach",
+          "names": [
+            "Approach® S50",
+            "Approach® S70 42mm",
+            "Approach® S70 47mm",
+            "Approach® S72 43mm",
+            "Approach® S72 47mm"
+          ]
+        },
+        {
+          "line": "D2",
+          "names": [
+            "D2™ Air X10",
+            "D2™ Mach 1",
+            "D2™ Mach 2",
+            "D2™ Mach 2 Pro"
+          ]
+        },
+        {
+          "line": "Descent",
+          "names": [
+            "Descent™ G2",
+            "Descent™ Mk3 43mm / Mk3i 43mm",
+            "Descent™ Mk3i 51mm"
+          ]
+        },
+        {
+          "line": "MARQ",
+          "names": [
+            "MARQ® (Gen 2) Athlete / Adventurer / Captain / Golfer / Carbon Edition / Commander - Carbon Edition",
+            "MARQ® (Gen 2) Aviator",
+            "MARQ® (Gen 3) Athlete / Adventurer / Aviator / Commander / Golfer / Diver"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dag",
+      "name": "Dag",
+      "subtitle": "Day Clock, Easy Read",
+      "category": "Utility",
+      "pitch": "Know the day at a glance.",
+      "short": "A day clock for your wrist: the day of the week in full and in big letters, whether it is morning, afternoon, evening or night, the time and the date.",
+      "full": [
+        "Dag is a day clock: it tells you not just the time, but what day it is and which part of the day you are in. In the middle of the dial, as big as the round screen holds it, the day of the week in full: WEDNESDAY. Under it, in the colour of your theme, MORNING, AFTERNOON, EVENING or NIGHT.",
+        "Above them the time, in large figures in the style of road signs; below them the date with the year, in big clear type, and one reading with its icon: the weather to start, or heart rate, steps, Body Battery, sunrise and sunset or any of twenty sources, VO2 max and sleep score among them, or none. Battery and alerts at the top.",
+        "The day and the date are in your watch's language, and the parts of the day are in English, Polish, German, French, Spanish, Italian, Dutch, Portuguese, Slovak and Czech. Morning runs from five to noon, afternoon to five, evening to nine, and night until morning.",
+        "Everything is large, plain and high in contrast, for anyone who likes to know the day at a glance, and for anyone setting up a watch for a parent or a grandparent. Six themes in the colours of road signs: Yellow, Green, Blue, Orange, White and Paper, dark letters on a light ground for anyone who reads better that way. The time in 12-hour or 24-hour or as your watch is set, with or without a leading zero, the seconds beside it, or hidden for a dial that shows only the day. On memory-in-pixel screens the seconds keep running with your wrist down. The always-on mode keeps the day, the part of the day and the time.",
+        "Touch and hold the reading to open its glance on your watch, or the day or the date for your calendar. Temperatures follow your watch, or pick °C or °F."
+      ],
+      "settings": [
+        {
+          "name": "Theme",
+          "values": "Yellow, Green, Blue, Orange, White, Paper"
+        },
+        {
+          "name": "Part of the day",
+          "values": "on / off"
+        },
+        {
+          "name": "Time",
+          "values": "on / off"
+        },
+        {
+          "name": "Time format",
+          "values": "as the watch, 12-hour, 24-hour"
+        },
+        {
+          "name": "Leading zero",
+          "values": "on / off"
+        },
+        {
+          "name": "Seconds",
+          "values": "on / off"
+        },
+        {
+          "name": "Year",
+          "values": "on / off"
+        },
+        {
+          "name": "Reading at the bottom",
+          "values": "any of twenty sources, or off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        },
+        {
+          "name": "Temperature",
+          "values": "as the watch, °C, °F"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/b75dbb45-3b80-4a65-8542-ce03c9215de4",
+      "images": [
+        {
+          "file": "img/dag/01_hero.jpg",
+          "alt": "Dag: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/dag/02_features.jpg",
+          "alt": "Dag: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/dag/03_themes.jpg",
+          "alt": "Dag: the six themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/dag/04_devices.jpg",
+          "alt": "Dag: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/dag/05_detail.jpg",
+          "alt": "Dag: the dial through the week",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/dag/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/dag/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      },
+      "watches": [
+        {
+          "line": "fēnix",
+          "names": [
+            "fēnix® 6 Pro / 6 Sapphire / 6 Pro Solar / 6 Pro Dual Power / quatix® 6",
+            "fēnix® 6S Pro / 6S Sapphire / 6S Pro Solar / 6S Pro Dual Power",
+            "fēnix® 6X Pro / 6X Sapphire / 6X Pro Solar / tactix® Delta Sapphire / Delta Solar / Delta Solar - Ballistics Edition / quatix® 6X / 6X Solar / 6X Dual Power",
+            "fēnix® 7 / quatix® 7",
+            "fēnix® 7 Pro",
+            "fēnix® 7 Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 7S",
+            "fēnix® 7S Pro",
+            "fēnix® 7X / tactix® 7 / quatix® 7X Solar / Enduro™ 2",
+            "fēnix® 7X Pro",
+            "fēnix® 7X Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 8 43mm",
+            "fēnix® 8 47mm / 51mm / tactix® 8 47mm / 51mm / quatix® 8 47mm / 51mm",
+            "fēnix® 8 Pro 47mm / 51mm / MicroLED / quatix® 8 Pro 47mm / 51mm",
+            "fēnix® 8 Solar 47mm",
+            "fēnix® 8 Solar 51mm / tactix® 8 Solar 51mm",
+            "fēnix® 9 43mm",
+            "fēnix® 9 47mm / 51mm",
+            "fēnix® 9 Pro 43mm",
+            "fēnix® 9 Pro 47mm",
+            "fēnix® 9 Pro 51mm",
+            "fēnix® 9 Pro Solar 47mm",
+            "fēnix® 9 Pro Solar 51mm",
+            "fēnix® E"
+          ]
+        },
+        {
+          "line": "epix",
+          "names": [
+            "epix™ (Gen 2) / quatix® 7 Sapphire",
+            "epix™ Pro (Gen 2) 42mm",
+            "epix™ Pro (Gen 2) 47mm / quatix® 7 Pro",
+            "epix™ Pro (Gen 2) 51mm / D2™ Mach 1 Pro / tactix® 7 – AMOLED Edition"
+          ]
+        },
+        {
+          "line": "Forerunner",
+          "names": [
+            "Forerunner® 70",
+            "Forerunner® 165",
+            "Forerunner® 165 Music",
+            "Forerunner® 170",
+            "Forerunner® 170 Music",
+            "Forerunner® 255",
+            "Forerunner® 255 Music",
+            "Forerunner® 255s",
+            "Forerunner® 255s Music",
+            "Forerunner® 265",
+            "Forerunner® 265s",
+            "Forerunner® 570 42mm",
+            "Forerunner® 570 47mm",
+            "Forerunner® 955 / Solar",
+            "Forerunner® 965",
+            "Forerunner® 970"
+          ]
+        },
+        {
+          "line": "Venu",
+          "names": [
+            "Venu® 2",
+            "Venu® 2 Plus",
+            "Venu® 2S",
+            "Venu® 3",
+            "Venu® 3S",
+            "Venu® 4 41mm",
+            "Venu® 4 45mm / D2™ Air X15"
+          ]
+        },
+        {
+          "line": "vívoactive",
+          "names": [
+            "vívoactive® 5",
+            "vívoactive® 6"
+          ]
+        },
+        {
+          "line": "Enduro",
+          "names": [
+            "Enduro™ 3",
+            "Enduro™ 4"
+          ]
+        },
+        {
+          "line": "Approach",
+          "names": [
+            "Approach® S50",
+            "Approach® S70 42mm",
+            "Approach® S70 47mm",
+            "Approach® S72 43mm",
+            "Approach® S72 47mm"
+          ]
+        },
+        {
+          "line": "D2",
+          "names": [
+            "D2™ Air X10",
+            "D2™ Mach 1",
+            "D2™ Mach 2",
+            "D2™ Mach 2 Pro"
+          ]
+        },
+        {
+          "line": "Descent",
+          "names": [
+            "Descent™ G2",
+            "Descent™ Mk2 / Mk2i",
+            "Descent™ Mk2 S",
+            "Descent™ Mk3 43mm / Mk3i 43mm",
+            "Descent™ Mk3i 51mm"
+          ]
+        },
+        {
+          "line": "MARQ",
+          "names": [
+            "MARQ® (Gen 2) Athlete / Adventurer / Captain / Golfer / Carbon Edition / Commander - Carbon Edition",
+            "MARQ® (Gen 2) Aviator",
+            "MARQ® (Gen 3) Athlete / Adventurer / Aviator / Commander / Golfer / Diver",
+            "MARQ® Adventurer",
+            "MARQ® Athlete",
+            "MARQ® Aviator",
+            "MARQ® Captain / MARQ® Captain: American Magic Edition",
+            "MARQ® Commander",
+            "MARQ® Driver",
+            "MARQ® Expedition",
+            "MARQ® Golfer"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "visare",
+      "name": "Visare",
+      "subtitle": "Big Numbers Analog, Easy Read",
+      "category": "Analog",
+      "pitch": "Analog, without glasses.",
+      "short": "An analog face for reading without glasses: twelve big numerals, a broad white hour hand and a long minute hand in colour that you will never mix up.",
+      "full": [
+        "Visare is an analog watch face made to be read without glasses. Twelve big numerals in the style of road signs stand round the dial, white on black, as large as the round screen holds them, with sixty minute marks at the edge.",
+        "The two hands cannot be taken for each other. The hour hand is short, broad and white; the minute hand is long, slimmer and the colour of your theme. Each has a thin outline in the colour of the dial, so it stands out clearly wherever it crosses a numeral or a reading. A slim seconds hand with a round counterweight ticks or sweeps, or stays off; on memory-in-pixel screens it keeps running with your wrist down. Turn on adaptive hands and a hand opens to an outline where it crosses a reading, so nothing is ever hidden.",
+        "Inside the numerals, the day and date in your watch's own language above the centre, and two readings with their icons, one above the centre and one below: heart rate and battery to start, or steps, the weather, Body Battery, sunrise and sunset or any of twenty sources, VO2 max and sleep score among them, or none. A small digital time can go under them, in 12-hour or 24-hour or as your watch is set, with or without a leading zero.",
+        "Prefer a calmer dial? Show only 12, 3, 6 and 9 with bold bars between, or bars all round. Six themes in the colours of road signs: Yellow, Green, Blue, Orange, White and Paper, black numerals on a light dial for anyone who reads better that way. The always-on mode keeps the numerals and both hands at full size in a light weight.",
+        "Touch and hold a reading to open its glance on your watch, or the date for your calendar. Temperatures follow your watch, or pick °C or °F."
+      ],
+      "settings": [
+        {
+          "name": "Theme",
+          "values": "Yellow, Green, Blue, Orange, White, Paper"
+        },
+        {
+          "name": "Numerals",
+          "values": "all twelve, 12 3 6 9, bars"
+        },
+        {
+          "name": "Minute hand in the theme colour",
+          "values": "on / off"
+        },
+        {
+          "name": "Seconds hand",
+          "values": "off, ticking, sweeping"
+        },
+        {
+          "name": "Adaptive hands",
+          "values": "on / off"
+        },
+        {
+          "name": "The two readings",
+          "values": "any of twenty sources, or off"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Digital time",
+          "values": "on / off"
+        },
+        {
+          "name": "Digital time format",
+          "values": "as the watch, 12-hour, 24-hour"
+        },
+        {
+          "name": "Leading zero",
+          "values": "on / off"
+        },
+        {
+          "name": "Temperature",
+          "values": "as the watch, °C, °F"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/9e9eb02c-ea2c-4668-ad19-cbaa82fff534",
+      "images": [
+        {
+          "file": "img/visare/01_hero.jpg",
+          "alt": "Visare: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/visare/02_features.jpg",
+          "alt": "Visare: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/visare/03_themes.jpg",
+          "alt": "Visare: the six themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/visare/04_devices.jpg",
+          "alt": "Visare: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/visare/05_detail.jpg",
+          "alt": "Visare: the three numeral styles",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/visare/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/visare/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      },
+      "watches": [
+        {
+          "line": "fēnix",
+          "names": [
+            "fēnix® 6 Pro / 6 Sapphire / 6 Pro Solar / 6 Pro Dual Power / quatix® 6",
+            "fēnix® 6S Pro / 6S Sapphire / 6S Pro Solar / 6S Pro Dual Power",
+            "fēnix® 6X Pro / 6X Sapphire / 6X Pro Solar / tactix® Delta Sapphire / Delta Solar / Delta Solar - Ballistics Edition / quatix® 6X / 6X Solar / 6X Dual Power",
+            "fēnix® 7 / quatix® 7",
+            "fēnix® 7 Pro",
+            "fēnix® 7 Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 7S",
+            "fēnix® 7S Pro",
+            "fēnix® 7X / tactix® 7 / quatix® 7X Solar / Enduro™ 2",
+            "fēnix® 7X Pro",
+            "fēnix® 7X Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 8 43mm",
+            "fēnix® 8 47mm / 51mm / tactix® 8 47mm / 51mm / quatix® 8 47mm / 51mm",
+            "fēnix® 8 Pro 47mm / 51mm / MicroLED / quatix® 8 Pro 47mm / 51mm",
+            "fēnix® 8 Solar 47mm",
+            "fēnix® 8 Solar 51mm / tactix® 8 Solar 51mm",
+            "fēnix® 9 43mm",
+            "fēnix® 9 47mm / 51mm",
+            "fēnix® 9 Pro 43mm",
+            "fēnix® 9 Pro 47mm",
+            "fēnix® 9 Pro 51mm",
+            "fēnix® 9 Pro Solar 47mm",
+            "fēnix® 9 Pro Solar 51mm",
+            "fēnix® E"
+          ]
+        },
+        {
+          "line": "epix",
+          "names": [
+            "epix™ (Gen 2) / quatix® 7 Sapphire",
+            "epix™ Pro (Gen 2) 42mm",
+            "epix™ Pro (Gen 2) 47mm / quatix® 7 Pro",
+            "epix™ Pro (Gen 2) 51mm / D2™ Mach 1 Pro / tactix® 7 – AMOLED Edition"
+          ]
+        },
+        {
+          "line": "Forerunner",
+          "names": [
+            "Forerunner® 70",
+            "Forerunner® 165",
+            "Forerunner® 165 Music",
+            "Forerunner® 170",
+            "Forerunner® 170 Music",
+            "Forerunner® 255",
+            "Forerunner® 255 Music",
+            "Forerunner® 255s",
+            "Forerunner® 255s Music",
+            "Forerunner® 265",
+            "Forerunner® 265s",
+            "Forerunner® 570 42mm",
+            "Forerunner® 570 47mm",
+            "Forerunner® 955 / Solar",
+            "Forerunner® 965",
+            "Forerunner® 970"
+          ]
+        },
+        {
+          "line": "Venu",
+          "names": [
+            "Venu® 2",
+            "Venu® 2 Plus",
+            "Venu® 2S",
+            "Venu® 3",
+            "Venu® 3S",
+            "Venu® 4 41mm",
+            "Venu® 4 45mm / D2™ Air X15"
+          ]
+        },
+        {
+          "line": "vívoactive",
+          "names": [
+            "vívoactive® 5",
+            "vívoactive® 6"
+          ]
+        },
+        {
+          "line": "Enduro",
+          "names": [
+            "Enduro™ 3",
+            "Enduro™ 4"
+          ]
+        },
+        {
+          "line": "Approach",
+          "names": [
+            "Approach® S50",
+            "Approach® S70 42mm",
+            "Approach® S70 47mm",
+            "Approach® S72 43mm",
+            "Approach® S72 47mm"
+          ]
+        },
+        {
+          "line": "D2",
+          "names": [
+            "D2™ Air X10",
+            "D2™ Mach 1",
+            "D2™ Mach 2",
+            "D2™ Mach 2 Pro"
+          ]
+        },
+        {
+          "line": "Descent",
+          "names": [
+            "Descent™ G2",
+            "Descent™ Mk2 / Mk2i",
+            "Descent™ Mk2 S",
+            "Descent™ Mk3 43mm / Mk3i 43mm",
+            "Descent™ Mk3i 51mm"
+          ]
+        },
+        {
+          "line": "MARQ",
+          "names": [
+            "MARQ® (Gen 2) Athlete / Adventurer / Captain / Golfer / Carbon Edition / Commander - Carbon Edition",
+            "MARQ® (Gen 2) Aviator",
+            "MARQ® (Gen 3) Athlete / Adventurer / Aviator / Commander / Golfer / Diver",
+            "MARQ® Adventurer",
+            "MARQ® Athlete",
+            "MARQ® Aviator",
+            "MARQ® Captain / MARQ® Captain: American Magic Edition",
+            "MARQ® Commander",
+            "MARQ® Driver",
+            "MARQ® Expedition",
+            "MARQ® Golfer"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tavla",
+      "name": "Tavla",
+      "subtitle": "Big Time & Data, Easy Read",
+      "category": "Digital",
+      "pitch": "Your whole day, in big type.",
+      "short": "The time on one line in large figures, four readings in big type on tiles under it and your day's goal round the rim: everything readable without glasses.",
+      "full": [
+        "Tavla is a board for your wrist, made to be read at arm's length without glasses. The time stands on one line in condensed figures in the style of road signs, lettering made to be read at a distance. The hours are white, the colon and the minutes the colour of your theme.",
+        "Under the time, four readings sit on four tiles, each with its icon and a large value: heart rate, steps, the weather and Body Battery to start, or any of twenty sources, VO2 max and sleep score among them, or none. A reading with a goal, such as steps, floors or intensity minutes, gets a bar under its value that fills as you go. Every tile is as wide as the round screen allows, and a big number stays big: past ten thousand it reads 18.5k rather than shrinking.",
+        "Round the edge, a ring fills clockwise from twelve as your steps meet their goal, or floors, intensity minutes, Body Battery, battery, stress, recovery time or sleep score, so you can see how your day is going without reading a single number. Battery and alerts at the top, the date in your watch's own language at the bottom.",
+        "Six themes in the colours of road signs: Yellow, Green, Blue, Orange, White and Paper, dark figures on a light ground for anyone who reads better that way. The time in 12-hour or 24-hour or as your watch is set, with or without a leading zero, and the seconds beside the minutes, which keep running with your wrist down on memory-in-pixel screens. The always-on mode keeps the time at the same size in a light weight, with the date.",
+        "Touch and hold a tile to open its glance on your watch, the time or the ring for the ring's, or the date for your calendar. Temperatures follow your watch, or pick °C or °F."
+      ],
+      "settings": [
+        {
+          "name": "Theme",
+          "values": "Yellow, Green, Blue, Orange, White, Paper"
+        },
+        {
+          "name": "Minutes in the theme colour",
+          "values": "on / off"
+        },
+        {
+          "name": "The four readings",
+          "values": "any of twenty sources, or off"
+        },
+        {
+          "name": "Ring round the edge",
+          "values": "steps, floors, intensity minutes, Body Battery, battery, stress, recovery time, sleep score, off"
+        },
+        {
+          "name": "Goal bars under readings",
+          "values": "on / off"
+        },
+        {
+          "name": "Time format",
+          "values": "as the watch, 12-hour, 24-hour"
+        },
+        {
+          "name": "Leading zero",
+          "values": "on / off"
+        },
+        {
+          "name": "Seconds",
+          "values": "on / off"
+        },
+        {
+          "name": "Date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        },
+        {
+          "name": "Temperature",
+          "values": "as the watch, °C, °F"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/418761bd-2471-4a72-a270-be1ec5c873dd",
+      "images": [
+        {
+          "file": "img/tavla/01_hero.jpg",
+          "alt": "Tavla: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/tavla/02_features.jpg",
+          "alt": "Tavla: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/tavla/03_themes.jpg",
+          "alt": "Tavla: the six themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/tavla/04_devices.jpg",
+          "alt": "Tavla: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/tavla/05_detail.jpg",
+          "alt": "Tavla: the goal ring through a day",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/tavla/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/tavla/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      },
+      "watches": [
+        {
+          "line": "fēnix",
+          "names": [
+            "fēnix® 6 Pro / 6 Sapphire / 6 Pro Solar / 6 Pro Dual Power / quatix® 6",
+            "fēnix® 6S Pro / 6S Sapphire / 6S Pro Solar / 6S Pro Dual Power",
+            "fēnix® 6X Pro / 6X Sapphire / 6X Pro Solar / tactix® Delta Sapphire / Delta Solar / Delta Solar - Ballistics Edition / quatix® 6X / 6X Solar / 6X Dual Power",
+            "fēnix® 7 / quatix® 7",
+            "fēnix® 7 Pro",
+            "fēnix® 7 Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 7S",
+            "fēnix® 7S Pro",
+            "fēnix® 7X / tactix® 7 / quatix® 7X Solar / Enduro™ 2",
+            "fēnix® 7X Pro",
+            "fēnix® 7X Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 8 43mm",
+            "fēnix® 8 47mm / 51mm / tactix® 8 47mm / 51mm / quatix® 8 47mm / 51mm",
+            "fēnix® 8 Pro 47mm / 51mm / MicroLED / quatix® 8 Pro 47mm / 51mm",
+            "fēnix® 8 Solar 47mm",
+            "fēnix® 8 Solar 51mm / tactix® 8 Solar 51mm",
+            "fēnix® 9 43mm",
+            "fēnix® 9 47mm / 51mm",
+            "fēnix® 9 Pro 43mm",
+            "fēnix® 9 Pro 47mm",
+            "fēnix® 9 Pro 51mm",
+            "fēnix® 9 Pro Solar 47mm",
+            "fēnix® 9 Pro Solar 51mm",
+            "fēnix® E"
+          ]
+        },
+        {
+          "line": "epix",
+          "names": [
+            "epix™ (Gen 2) / quatix® 7 Sapphire",
+            "epix™ Pro (Gen 2) 42mm",
+            "epix™ Pro (Gen 2) 47mm / quatix® 7 Pro",
+            "epix™ Pro (Gen 2) 51mm / D2™ Mach 1 Pro / tactix® 7 – AMOLED Edition"
+          ]
+        },
+        {
+          "line": "Forerunner",
+          "names": [
+            "Forerunner® 70",
+            "Forerunner® 165",
+            "Forerunner® 165 Music",
+            "Forerunner® 170",
+            "Forerunner® 170 Music",
+            "Forerunner® 255",
+            "Forerunner® 255 Music",
+            "Forerunner® 255s",
+            "Forerunner® 255s Music",
+            "Forerunner® 265",
+            "Forerunner® 265s",
+            "Forerunner® 570 42mm",
+            "Forerunner® 570 47mm",
+            "Forerunner® 955 / Solar",
+            "Forerunner® 965",
+            "Forerunner® 970"
+          ]
+        },
+        {
+          "line": "Venu",
+          "names": [
+            "Venu® 2",
+            "Venu® 2 Plus",
+            "Venu® 2S",
+            "Venu® 3",
+            "Venu® 3S",
+            "Venu® 4 41mm",
+            "Venu® 4 45mm / D2™ Air X15"
+          ]
+        },
+        {
+          "line": "vívoactive",
+          "names": [
+            "vívoactive® 5",
+            "vívoactive® 6"
+          ]
+        },
+        {
+          "line": "Enduro",
+          "names": [
+            "Enduro™ 3",
+            "Enduro™ 4"
+          ]
+        },
+        {
+          "line": "Approach",
+          "names": [
+            "Approach® S50",
+            "Approach® S70 42mm",
+            "Approach® S70 47mm",
+            "Approach® S72 43mm",
+            "Approach® S72 47mm"
+          ]
+        },
+        {
+          "line": "D2",
+          "names": [
+            "D2™ Air X10",
+            "D2™ Mach 1",
+            "D2™ Mach 2",
+            "D2™ Mach 2 Pro"
+          ]
+        },
+        {
+          "line": "Descent",
+          "names": [
+            "Descent™ G2",
+            "Descent™ Mk2 / Mk2i",
+            "Descent™ Mk2 S",
+            "Descent™ Mk3 43mm / Mk3i 43mm",
+            "Descent™ Mk3i 51mm"
+          ]
+        },
+        {
+          "line": "MARQ",
+          "names": [
+            "MARQ® (Gen 2) Athlete / Adventurer / Captain / Golfer / Carbon Edition / Commander - Carbon Edition",
+            "MARQ® (Gen 2) Aviator",
+            "MARQ® (Gen 3) Athlete / Adventurer / Aviator / Commander / Golfer / Diver",
+            "MARQ® Adventurer",
+            "MARQ® Athlete",
+            "MARQ® Aviator",
+            "MARQ® Captain / MARQ® Captain: American Magic Edition",
+            "MARQ® Commander",
+            "MARQ® Driver",
+            "MARQ® Expedition",
+            "MARQ® Golfer"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "prognos",
       "name": "Prognos",
       "subtitle": "Forecast Horizon Data Face",
@@ -7574,7 +9178,6 @@
         "The hill holds four readings: stress, heart rate, the weather, and the next sunrise or sunset, each marked by its icon. Battery and alerts sit with the date at the top.",
         "The sky follows the sun: a misty dawn, a crisp blue day, an amber dusk and a starry night, when the leaves turn to moonlit colours. Or keep one of five skies: dawn, day, dusk, night or golden.",
         "The numerals are Fraunces, a soft serif. On memory-in-pixel screens every sky is drawn for 64 colours, dithered by hand; on AMOLED it is a smooth gradient. The always-on mode keeps the bough, its leaves and the time.",
-        "Free, for the season.",
         "Touch and hold a reading to open your watch's own glance for it, the legend for the gauge's, the date for your calendar. The seconds tick at the end of the legend, or switch them off. Temperatures follow your watch, or pick °C or °F."
       ],
       "settings": [
@@ -10829,7 +12432,8 @@
         "On the way are 33 famous lengths, from the Golden Gate Bridge (2.7 km) on your first day to the Suez Canal, the Camino de Santiago, the Nile and the whole Great Wall of China, then on to Verne's twenty thousand leagues: twice round the world. When your total reaches one, the app opens on a card that says so: \"You've travelled the Suez Canal, 193 km\". From the details, swipe up or press down for the whole list: what you have done, what is next and how far, and what is still ahead.",
         "It counts the daily distance your watch already works out from your steps. Recorded walks and runs are part of it, so nothing is counted twice, and only what you walk from the first time you open it counts. The ETA needs one full day first; until then it says \"ETA calculating\" and how many hours are left. Distance is in km or mi, as your watch is set.",
         "The watch keeps 7 days of history, and the app reads it every 6 hours. If it cannot for more than 7 days (the watch switched off), those days are lost; nothing is guessed in their place. Only steps count: cycling and swimming do not. Removing the app deletes the journey; watch apps have no backup. Everything stays on your watch: no account, no phone app, nothing sent anywhere.",
-        "One lap at 7 km a day is about 15 years. The ring is the long view, the goals the weeks and months between, and today's walk the short one."
+        "One lap at 7 km a day is about 15 years. The ring is the long view, the goals the weeks and months between, and today's walk the short one.",
+        "In English, Polish, German, French, Spanish, Italian, Dutch, Portuguese, Slovak and Czech."
       ],
       "settings": [],
       "store_url": "https://apps.garmin.com/apps/7716395c-9dd2-4f95-a386-9d0b529667bb",
@@ -10992,6 +12596,394 @@
           "line": "D2",
           "names": [
             "D2™ Air",
+            "D2™ Air X10",
+            "D2™ Mach 1",
+            "D2™ Mach 2",
+            "D2™ Mach 2 Pro"
+          ]
+        },
+        {
+          "line": "Descent",
+          "names": [
+            "Descent™ G2",
+            "Descent™ Mk2 / Mk2i",
+            "Descent™ Mk2 S",
+            "Descent™ Mk3 43mm / Mk3i 43mm",
+            "Descent™ Mk3i 51mm"
+          ]
+        },
+        {
+          "line": "MARQ",
+          "names": [
+            "MARQ® (Gen 2) Athlete / Adventurer / Captain / Golfer / Carbon Edition / Commander - Carbon Edition",
+            "MARQ® (Gen 2) Aviator",
+            "MARQ® (Gen 3) Athlete / Adventurer / Aviator / Commander / Golfer / Diver",
+            "MARQ® Adventurer",
+            "MARQ® Athlete",
+            "MARQ® Aviator",
+            "MARQ® Captain / MARQ® Captain: American Magic Edition",
+            "MARQ® Commander",
+            "MARQ® Driver",
+            "MARQ® Expedition",
+            "MARQ® Golfer"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "stargazing",
+      "name": "Stargazing Forecast",
+      "subtitle": "Night Sky",
+      "category": "Celestial",
+      "pitch": "Is tonight worth going out?",
+      "short": "Is tonight worth going out? A verdict and the best hours for deep sky, the Milky Way and the planets, on your wrist and a glance away.",
+      "full": [
+        "Stargazing Forecast answers one question: is tonight worth going out for, and when? Garmin's weather says \"partly cloudy\". An observer needs more: is it dark, is the Moon in the way, is the air clear and steady, and in which hours does all of that line up?",
+        "The glance gives the verdict for your favourite kind of sky: Go, Maybe or Stay in, and the best window. It is the verdict the app last worked out, and it says when if that was hours ago: opening the app brings it up to date. Open the app for tonight and the next two nights, each with three verdicts side by side:",
+        "Deep sky: galaxies, nebulae and star fields. Wants astronomical darkness, the Moon down or thin, a clear and transparent sky. Milky Way: the same conditions, and the galactic core above the horizon. Planets: clear and steady air. The Moon hardly matters, so a bright night can still be a good one.",
+        "A timeline runs dusk to dawn with the clouds, the Moon and the dark hours, and the best window for each mode marked on it. The details page adds the Moon's rise and set and its phase, the temperature, the wind, and whether dew is likely on your optics.",
+        "The sky is worked out on the watch: the Sun, the Moon and the Milky Way's core for wherever you are. The weather comes from a forecast model for your place, fetched through your phone every three hours, and the last forecast is kept, so the app is never empty once it has loaded.",
+        "It is careful by design. A \"Go\" needs at least an hour of good conditions; when the forecast is missing, old or incomplete, the app says so and does not guess. Midnight sun, polar night and a Milky Way core that never rises are reported as what they are.",
+        "Needs a phone connection for the forecast. It takes where you are from the watch's weather and, when the watch knows no place, from one GPS fix. No ads, no subscription. In English, Polish, German, French, Spanish, Italian, Dutch, Portuguese, Slovak and Czech.",
+        "Forecast: 7Timer!"
+      ],
+      "settings": [],
+      "store_url": "https://apps.garmin.com/apps/6e784ce3-7cb7-4926-aed9-13911a425bd9",
+      "images": [
+        {
+          "file": "img/stargazing/01_hero.jpg",
+          "alt": "Stargazing Forecast: the night summary on a watch, and the name",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/stargazing/02_verdicts.jpg",
+          "alt": "Stargazing Forecast: three verdicts for one night",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/stargazing/03_timeline.jpg",
+          "alt": "Stargazing Forecast: the night, dusk to dawn, with the best windows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/stargazing/04_glance.jpg",
+          "alt": "Stargazing Forecast: the glance, and the details page",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/stargazing/05_devices.jpg",
+          "alt": "Stargazing Forecast: a button watch and a touch watch",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/stargazing/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/stargazing/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      },
+      "kind": "Widget",
+      "watches": [
+        {
+          "line": "fēnix",
+          "names": [
+            "fēnix® 6 Pro / 6 Sapphire / 6 Pro Solar / 6 Pro Dual Power / quatix® 6",
+            "fēnix® 6S Pro / 6S Sapphire / 6S Pro Solar / 6S Pro Dual Power",
+            "fēnix® 6X Pro / 6X Sapphire / 6X Pro Solar / tactix® Delta Sapphire / Delta Solar / Delta Solar - Ballistics Edition / quatix® 6X / 6X Solar / 6X Dual Power",
+            "fēnix® 7 / quatix® 7",
+            "fēnix® 7 Pro",
+            "fēnix® 7 Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 7S",
+            "fēnix® 7S Pro",
+            "fēnix® 7X / tactix® 7 / quatix® 7X Solar / Enduro™ 2",
+            "fēnix® 7X Pro",
+            "fēnix® 7X Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 8 43mm",
+            "fēnix® 8 47mm / 51mm / tactix® 8 47mm / 51mm / quatix® 8 47mm / 51mm",
+            "fēnix® 8 Pro 47mm / 51mm / MicroLED / quatix® 8 Pro 47mm / 51mm",
+            "fēnix® 8 Solar 47mm",
+            "fēnix® 8 Solar 51mm / tactix® 8 Solar 51mm",
+            "fēnix® 9 43mm",
+            "fēnix® 9 47mm / 51mm",
+            "fēnix® 9 Pro 43mm",
+            "fēnix® 9 Pro 47mm",
+            "fēnix® 9 Pro 51mm",
+            "fēnix® 9 Pro Solar 47mm",
+            "fēnix® 9 Pro Solar 51mm",
+            "fēnix® E"
+          ]
+        },
+        {
+          "line": "epix",
+          "names": [
+            "epix™ (Gen 2) / quatix® 7 Sapphire",
+            "epix™ Pro (Gen 2) 42mm",
+            "epix™ Pro (Gen 2) 47mm / quatix® 7 Pro",
+            "epix™ Pro (Gen 2) 51mm / D2™ Mach 1 Pro / tactix® 7 – AMOLED Edition"
+          ]
+        },
+        {
+          "line": "Forerunner",
+          "names": [
+            "Forerunner® 70",
+            "Forerunner® 165",
+            "Forerunner® 165 Music",
+            "Forerunner® 170",
+            "Forerunner® 170 Music",
+            "Forerunner® 255",
+            "Forerunner® 255 Music",
+            "Forerunner® 255s",
+            "Forerunner® 255s Music",
+            "Forerunner® 265",
+            "Forerunner® 265s",
+            "Forerunner® 570 42mm",
+            "Forerunner® 570 47mm",
+            "Forerunner® 955 / Solar",
+            "Forerunner® 965",
+            "Forerunner® 970"
+          ]
+        },
+        {
+          "line": "Venu",
+          "names": [
+            "Venu® 2",
+            "Venu® 2 Plus",
+            "Venu® 2S",
+            "Venu® 3",
+            "Venu® 3S",
+            "Venu® 4 41mm",
+            "Venu® 4 45mm / D2™ Air X15"
+          ]
+        },
+        {
+          "line": "vívoactive",
+          "names": [
+            "vívoactive® 5",
+            "vívoactive® 6"
+          ]
+        },
+        {
+          "line": "Enduro",
+          "names": [
+            "Enduro™ 3",
+            "Enduro™ 4"
+          ]
+        },
+        {
+          "line": "Approach",
+          "names": [
+            "Approach® S50",
+            "Approach® S70 42mm",
+            "Approach® S70 47mm",
+            "Approach® S72 43mm",
+            "Approach® S72 47mm"
+          ]
+        },
+        {
+          "line": "D2",
+          "names": [
+            "D2™ Air X10",
+            "D2™ Mach 1",
+            "D2™ Mach 2",
+            "D2™ Mach 2 Pro"
+          ]
+        },
+        {
+          "line": "Descent",
+          "names": [
+            "Descent™ G2",
+            "Descent™ Mk2 / Mk2i",
+            "Descent™ Mk2 S",
+            "Descent™ Mk3 43mm / Mk3i 43mm",
+            "Descent™ Mk3i 51mm"
+          ]
+        },
+        {
+          "line": "MARQ",
+          "names": [
+            "MARQ® (Gen 2) Athlete / Adventurer / Captain / Golfer / Carbon Edition / Commander - Carbon Edition",
+            "MARQ® (Gen 2) Aviator",
+            "MARQ® (Gen 3) Athlete / Adventurer / Aviator / Commander / Golfer / Diver",
+            "MARQ® Adventurer",
+            "MARQ® Athlete",
+            "MARQ® Aviator",
+            "MARQ® Captain / MARQ® Captain: American Magic Edition",
+            "MARQ® Commander",
+            "MARQ® Driver",
+            "MARQ® Expedition",
+            "MARQ® Golfer"
+          ]
+        }
+      ]
+    }
+  ],
+  "games": [
+    {
+      "slug": "ring-match",
+      "name": "Gem Crush",
+      "subtitle": "Puzzle Game",
+      "category": "Games",
+      "pitch": "Match three on rings that turn.",
+      "short": "Match three on rings that turn: four rings of gems round your dial, one board a day for everyone, and your steps charge the specials.",
+      "full": [
+        "Gem Crush is a match-three puzzle made for a round watch. The gems sit on four rings around the middle of your dial, and a move turns one ring, by finger or with the buttons. Line up three alike, around a ring or straight out from the middle, and they clear; the gems outside fall in, and every cascade scores more than the last. Four in a line leave a gem that clears its whole spoke, five a gem that clears its whole ring.",
+        "Your walking powers it. Every 1,000 steps you take today is a charge, up to ten a day, and a charge clears a whole ring at once. The walk to the bus stop makes the wait there more fun.",
+        "One board a day, the same for everyone, with 25 moves and a streak to keep. Free play beside it, 30 moves a round, as many rounds as you like. A round takes a minute or two and stops whenever you do: close it mid-move and it is there when you come back.",
+        "No lives, no energy, no ads, nothing to buy inside. Five gem shapes, each its own colour, so the board reads in sunlight and for colour-blind players. A buzz when a cascade chains. In English, Polish, German, French, Spanish, Italian, Dutch, Portuguese, Slovak and Czech."
+      ],
+      "settings": [],
+      "store_url": "https://apps.garmin.com/apps/b5c8235e-9529-4c6c-b3eb-60b5e7c3fda3",
+      "images": [
+        {
+          "file": "img/ring-match/01_hero.jpg",
+          "alt": "Gem Crush: the board on a watch, and the wordmark",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/ring-match/02_features.jpg",
+          "alt": "Gem Crush: turn a ring, line up three",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/ring-match/03_daily.jpg",
+          "alt": "Gem Crush: the start screen: one board a day, free play",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/ring-match/04_devices.jpg",
+          "alt": "Gem Crush: a button watch and a touch watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/ring-match/05_steps.jpg",
+          "alt": "Gem Crush: steps charge a ring clear; no lives, no ads",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/ring-match/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/ring-match/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      },
+      "kind": "App",
+      "watches": [
+        {
+          "line": "fēnix",
+          "names": [
+            "fēnix® 6 Pro / 6 Sapphire / 6 Pro Solar / 6 Pro Dual Power / quatix® 6",
+            "fēnix® 6S Pro / 6S Sapphire / 6S Pro Solar / 6S Pro Dual Power",
+            "fēnix® 6X Pro / 6X Sapphire / 6X Pro Solar / tactix® Delta Sapphire / Delta Solar / Delta Solar - Ballistics Edition / quatix® 6X / 6X Solar / 6X Dual Power",
+            "fēnix® 7 / quatix® 7",
+            "fēnix® 7 Pro",
+            "fēnix® 7 Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 7S",
+            "fēnix® 7S Pro",
+            "fēnix® 7X / tactix® 7 / quatix® 7X Solar / Enduro™ 2",
+            "fēnix® 7X Pro",
+            "fēnix® 7X Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 8 43mm",
+            "fēnix® 8 47mm / 51mm / tactix® 8 47mm / 51mm / quatix® 8 47mm / 51mm",
+            "fēnix® 8 Pro 47mm / 51mm / MicroLED / quatix® 8 Pro 47mm / 51mm",
+            "fēnix® 8 Solar 47mm",
+            "fēnix® 8 Solar 51mm / tactix® 8 Solar 51mm",
+            "fēnix® 9 43mm",
+            "fēnix® 9 47mm / 51mm",
+            "fēnix® 9 Pro 43mm",
+            "fēnix® 9 Pro 47mm",
+            "fēnix® 9 Pro 51mm",
+            "fēnix® 9 Pro Solar 47mm",
+            "fēnix® 9 Pro Solar 51mm",
+            "fēnix® E"
+          ]
+        },
+        {
+          "line": "epix",
+          "names": [
+            "epix™ (Gen 2) / quatix® 7 Sapphire",
+            "epix™ Pro (Gen 2) 42mm",
+            "epix™ Pro (Gen 2) 47mm / quatix® 7 Pro",
+            "epix™ Pro (Gen 2) 51mm / D2™ Mach 1 Pro / tactix® 7 – AMOLED Edition"
+          ]
+        },
+        {
+          "line": "Forerunner",
+          "names": [
+            "Forerunner® 70",
+            "Forerunner® 165",
+            "Forerunner® 165 Music",
+            "Forerunner® 170",
+            "Forerunner® 170 Music",
+            "Forerunner® 255",
+            "Forerunner® 255 Music",
+            "Forerunner® 255s",
+            "Forerunner® 255s Music",
+            "Forerunner® 265",
+            "Forerunner® 265s",
+            "Forerunner® 570 42mm",
+            "Forerunner® 570 47mm",
+            "Forerunner® 955 / Solar",
+            "Forerunner® 965",
+            "Forerunner® 970"
+          ]
+        },
+        {
+          "line": "Venu",
+          "names": [
+            "Venu® 2",
+            "Venu® 2 Plus",
+            "Venu® 2S",
+            "Venu® 3",
+            "Venu® 3S",
+            "Venu® 4 41mm",
+            "Venu® 4 45mm / D2™ Air X15"
+          ]
+        },
+        {
+          "line": "vívoactive",
+          "names": [
+            "vívoactive® 5",
+            "vívoactive® 6"
+          ]
+        },
+        {
+          "line": "Enduro",
+          "names": [
+            "Enduro™ 3",
+            "Enduro™ 4"
+          ]
+        },
+        {
+          "line": "Approach",
+          "names": [
+            "Approach® S50",
+            "Approach® S70 42mm",
+            "Approach® S70 47mm",
+            "Approach® S72 43mm",
+            "Approach® S72 47mm"
+          ]
+        },
+        {
+          "line": "D2",
+          "names": [
             "D2™ Air X10",
             "D2™ Mach 1",
             "D2™ Mach 2",
