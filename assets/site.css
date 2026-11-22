@@ -102,6 +102,8 @@ details.works .watches { margin-top: .25rem; }
 .settings th, .settings td { text-align: left; vertical-align: top; padding: .55rem 0; border-top: 1px solid var(--rule); }
 .settings th { width: 38%; padding-right: 1rem; color: var(--ink); font-weight: 600; }
 .works { margin-top: 1.5rem; }
+.more { margin-top: 3.5rem; border-top: 1px solid var(--rule); padding-top: 2rem; }
+.more h2 { font-size: 1.4rem; margin: 0 0 1.25rem; }
 
 .prose h1 { font-size: 2.2rem; margin: 1.5rem 0 1rem; }
 .prose h2 { font-size: 1.4rem; margin: 2.25rem 0 .5rem; }

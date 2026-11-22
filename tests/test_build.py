@@ -15,6 +15,16 @@ FIXTURE = Path(__file__).resolve().parent / "fixture" / "faces.json"
 # Pages a later task adds; until then the nav may point at them.
 LATER = ()
 GALLERY_TAG = '<script src="/assets/gallery.js" defer></script>'
+# The site's other scripts: the analytics beacon (a file of Cloudflare's) and
+# structured data, which is JSON, not code.
+BEACON = re.compile(r'<script type="module" src="https://static\.cloudflareinsights\.com/[^"]+"[^>]*></script>')
+LDJSON = re.compile(r'<script type="application/ld\+json">(.*?)</script>', re.S)
+
+
+def ld(text):
+    """The structured data on a page, as JSON, or None."""
+    m = LDJSON.search(text)
+    return json.loads(m.group(1)) if m else None
 # An item page's way back to its list: an arrow drawn inline, hidden from
 # screen readers, so the link's name is "All faces".
 BACK = (r'<a class="back" href="%s"><svg viewBox="0 0 24 24" aria-hidden="true" '
@@ -111,8 +121,12 @@ class BuildTest(unittest.TestCase):
     def test_text_is_escaped(self):
         lykt = self.pages["faces/lykt/index.html"]
         for name, text in self.pages.items():
-            # The gallery's own file is the one script; nothing inline.
-            self.assertNotIn("<script", text.replace(GALLERY_TAG, ""), name)
+            # The gallery's own file is the one script; nothing inline but
+            # structured data, whose values cannot close its tag.
+            for m in LDJSON.finditer(text):
+                self.assertNotRegex(m.group(1), "[<>&]", name)
+            rest = LDJSON.sub("", BEACON.sub("", text.replace(GALLERY_TAG, "")))
+            self.assertNotIn("<script", rest, name)
         self.assertIn("Lykt &lt;script&gt;alert(1)&lt;/script&gt;", lykt)
         self.assertIn('content="A &quot;carved&quot; pumpkin &amp; a candle."', lykt)
         self.assertIn("Jack-o&#x27;-Lantern", lykt)
@@ -140,9 +154,15 @@ class BuildTest(unittest.TestCase):
 
     def test_the_home_page(self):
         home = self.pages["index.html"]
-        self.assertIn("<title>Glean · Watch faces, apps and games for Garmin watches</title>", home)
+        self.assertIn("<title>Garmin Watch Faces, Apps and Games · Glean</title>", home)
         self.assertIn("<h1>Watch faces worth a second look.</h1>", home)
-        self.assertIn("<p>On the Connect IQ Store.</p>", home)
+        # The words a search matches: the count and the watches' lines.
+        self.assertIn("<p>2 watch faces for Garmin fēnix, Venu and more, on the Connect IQ Store.</p>", home)
+        self.assertIn('content="2 watch faces for Garmin fēnix, Venu and more:', home)
+        graph = {n["@type"]: n for n in ld(home)["@graph"]}
+        self.assertEqual(graph["WebSite"]["url"], build.BASE)
+        self.assertIn("https://www.facebook.com/gleanwatchfaces", graph["Organization"]["sameAs"])
+        self.assertNotIn("site-verification", home)  # no tag until its value is filled in
         self.assertLess(home.index("/faces/stjarna/"), home.index("/faces/lykt/"))
         self.assertIn("Your sign, written in real stars.", home)
         self.assertEqual(home.count('<li class="card">'), 2)  # every face
@@ -150,7 +170,7 @@ class BuildTest(unittest.TestCase):
     def test_coming_soon_names_nothing(self):
         for section in ("apps", "games"):
             p = self.pages["%s/index.html" % section]
-            self.assertIn("<title>%s · Glean</title>" % section.capitalize(), p)
+            self.assertIn("<title>%s</title>" % build.esc(build.INTRO[section][2]), p)
             self.assertIn("<h1>%s</h1>" % section.capitalize(), p)
             self.assertIn("<p>The first Glean %s are on their way.</p>" % section, p)
             self.assertIn("to hear when they land.", p)
@@ -260,6 +280,26 @@ class BuildTest(unittest.TestCase):
             self.assertIn("<loc>%s%s</loc>" % (build.BASE, p), xml)
         self.assertNotIn("faces/</loc>", xml)
         self.assertNotIn("404", xml)
+        # An item's pictures under its page, for image search.
+        self.assertIn("<loc>%sfaces/lykt/</loc><image:image><image:loc>%simg/lykt/01_"
+                      % (build.BASE, build.BASE), xml)
+
+    def test_the_face_page_says_what_it_is(self):
+        lykt = self.pages["faces/lykt/index.html"]
+        self.assertRegex(lykt, r"<title>Lykt [^<]*· Garmin watch face · Glean</title>")
+        self.assertIn(' watch face: the five pumpkins"', lykt)
+        graph = ld(lykt)["@graph"]
+        self.assertEqual(graph[0]["installUrl"],
+                         "https://apps.garmin.com/apps/00000000-0000-4000-8000-000000000002")
+        self.assertEqual([c["item"] for c in graph[1]["itemListElement"]],
+                         [build.BASE, build.BASE + "faces/lykt/"])
+        # On to the other faces, so no page is reached from the grid alone.
+        self.assertIn('<h2>More faces</h2>', lykt)
+        self.assertIn('href="/faces/stjarna/"', lykt.split('class="more"')[1])
+
+    def test_the_404_is_not_indexed(self):
+        self.assertIn('<meta name="robots" content="noindex">', self.pages["404.html"])
+        self.assertNotIn('content="noindex"', self.pages["index.html"])
 
     def test_robots_points_at_the_sitemap(self):
         self.assertEqual((self.site / "robots.txt").read_text(encoding="utf-8"),
@@ -339,7 +379,12 @@ class AppsTest(unittest.TestCase):
         self.assertNotIn("<li>fēnix® 7</li>", p)  # the app's own watches, not the site's
         self.assertIn('href="/apps/" aria-current="page"', p)
         self.assertIn(GALLERY_TAG, p)
-        self.assertIn("<title>Waymark · Glean</title>", p)
+        self.assertIn("<title>Waymark · Garmin data field · Glean</title>", p)
+        self.assertIn('alt="Waymark data field: picture 1"', p)
+        app = ld(p)["@graph"][0]
+        self.assertEqual((app["@type"], app["applicationCategory"], app["operatingSystem"]),
+                         ("SoftwareApplication", "LifestyleApplication", "Garmin Connect IQ"))
+        self.assertNotIn('class="more"', p)  # the only app has nothing to point on to
 
     def test_one_picture_has_no_controls(self):
         p = self.pages["apps/waymark/index.html"]

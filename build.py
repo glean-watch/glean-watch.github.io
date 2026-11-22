@@ -41,16 +41,32 @@ SECTIONS = ("faces", "apps", "games")
 TAB = {"faces": "", "apps": "apps/", "games": "games/"}  # each tab's page; the faces' is home
 SLUG = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
 # A section's tab once it has something in it: the headline, the line
-# under it, the page's title and its description.
+# under it, the page's title and its description. The line and the
+# description name the count and the first product lines of the help's
+# watch list ({n}, {lines}): people search "fenix 8 watch face", so the
+# words a search matches are on the page, not only in the store.
 INTRO = {
-    "faces": ("Watch faces worth a second look.", "On the Connect IQ Store.",
-              "Glean · Watch faces, apps and games for Garmin watches",
-              "Watch faces for Garmin watches, on the Connect IQ Store."),
-    "apps": ("Apps", "", "Apps · Glean",
-             "Glean's apps for Garmin watches, on the Connect IQ Store."),
-    "games": ("Games", "", "Games · Glean",
-              "Glean's games for Garmin watches, on the Connect IQ Store."),
+    "faces": ("Watch faces worth a second look.",
+              "{n} watch faces for Garmin {lines} and more, on the Connect IQ Store.",
+              "Garmin Watch Faces, Apps and Games · Glean",
+              "{n} watch faces for Garmin {lines} and more: nature, data, analog and "
+              "digital dials, with apps and games, all on the Connect IQ Store."),
+    "apps": ("Apps", "", "Garmin Apps and Widgets · Glean",
+             "Glean's apps and widgets for Garmin {lines} and more, on the Connect IQ Store."),
+    "games": ("Games", "", "Garmin Watch Games · Glean",
+              "Glean's games for Garmin {lines} and more, on the Connect IQ Store."),
 }
+# What an item is, in the words people search with: a page's title, its
+# pictures' alt text and its structured data say it.
+NOUN = {"faces": "watch face", "games": "watch game"}  # an app says its kind
+# The search engines' site-ownership tags, each written on the home page once
+# its value is filled in (Search Console, Bing Webmaster Tools). The values
+# are public by design: each only proves who may read the site's reports.
+VERIFY = {"google-site-verification": "", "msvalidate.01": ""}
+# Glean elsewhere, for the structured data's sameAs.
+SAME_AS = ("https://www.facebook.com/gleanwatchfaces", "https://www.instagram.com/gleanwatchfaces/",
+           "https://ko-fi.com/glean")
+RELATED = 3  # the "more" cards under an item, one row of the grid
 
 
 def esc(s):
@@ -65,15 +81,40 @@ def template(site, name):
     return Template((Path(site) / "templates" / (name + ".html")).read_text(encoding="utf-8"))
 
 
-def page(site, current, title, description, path, og_image, main, scripts="", legal=""):
+def page(site, current, title, description, path, og_image, main, scripts="", legal="", head=""):
     """A whole page around `main`; `path` and `og_image` are relative to BASE.
     `current` is what to mark: a section's tab, "help", "privacy" or None.
-    `legal` is the footer's line of sales pages, empty while nothing sells."""
+    `legal` is the footer's line of sales pages, empty while nothing sells.
+    `head` is more of the head: structured data, a robots or ownership tag."""
     nav = {("tab_" if k in SECTIONS else "nav_") + k:
            (' aria-current="page"' if k == current else "") for k in SECTIONS + ("help", "privacy")}
     return template(site, "base").substitute(
         title=esc(title), description=esc(description), canonical=esc(BASE + path),
-        og_image=esc(BASE + og_image), main=main, scripts=scripts, legal=legal, **nav)
+        og_image=esc(BASE + og_image), main=main, scripts=scripts, legal=legal, head=head, **nav)
+
+
+def jsonld(graph):
+    """Structured data for search engines: data, not code, so the one inline
+    <script> the site allows. Every <, > and & is written as its \\u escape,
+    so no value can close the tag."""
+    text = json.dumps({"@context": "https://schema.org", "@graph": graph},
+                      ensure_ascii=False, separators=(",", ":"), sort_keys=True)
+    for c in "<>&":
+        text = text.replace(c, "\\u%04x" % ord(c))
+    return '<script type="application/ld+json">%s</script>' % text
+
+
+ORG = {"@type": "Organization", "@id": BASE + "#org", "name": "Glean", "url": BASE}
+
+
+def lines_named(data, k=5):
+    """'fēnix, epix, Forerunner, Venu, vívoactive': the help's first product lines."""
+    return ", ".join(w["line"] for w in data["watches"][:k])
+
+
+def noun(section, item):
+    """'watch face', 'widget', 'data field', 'watch game'."""
+    return NOUN.get(section) or item["kind"].lower()
 
 
 def legal_line(data):
@@ -154,6 +195,15 @@ def section_page(site, data, section):
     on the way. The faces' tab is the home page."""
     records = items(data, section)
     heading, line, title, description = INTRO[section]
+    words = {"n": len(records), "lines": lines_named(data)}
+    line, description = line.format(**words), description.format(**words)
+    head = ""
+    if section == "faces":
+        head = "\n".join(['<meta name="%s" content="%s">' % (esc(k), esc(v))
+                          for k, v in sorted(VERIFY.items()) if v]
+                         + [jsonld([dict(ORG, logo=BASE + "apple-touch-icon.png", sameAs=list(SAME_AS)),
+                                    {"@type": "WebSite", "@id": BASE + "#website", "name": "Glean",
+                                     "url": BASE, "publisher": {"@id": BASE + "#org"}}])])
     if records:
         main = template(site, "section").substitute(
             heading=esc(heading), line=("<p>%s</p>" % esc(line)) if line else "",
@@ -162,7 +212,7 @@ def section_page(site, data, section):
         description = "Glean's first %s for Garmin watches are on their way." % section
         main = template(site, "soon").substitute(heading=esc(heading), soon=soon(section))
     return page(site, section, title, description, TAB[section],
-                data["faces"][0]["hero"]["file"], main, legal=legal_line(data))
+                data["faces"][0]["hero"]["file"], main, legal=legal_line(data), head=head)
 
 
 def watch_count(lines):
@@ -206,15 +256,58 @@ def works(section, item, data):
             % (works_on(watch_count(item["watches"])), watches_html(item["watches"])))
 
 
+def related(data, section, item, k=RELATED):
+    """Up to `k` other items of the section, its own category first, then
+    the newest: the links on from an item page, so every page is reached
+    from more than its list."""
+    others = [r for r in items(data, section) if r["slug"] != item["slug"]]
+    same = [r for r in others if r["category"] == item["category"]]
+    return (same + [r for r in others if r not in same])[:k]
+
+
+def item_head(section, item, path):
+    """An item's structured data: what it is, and where it sits in the site."""
+    url = BASE + path
+    app = {"@type": "SoftwareApplication", "@id": url + "#app", "name": item["name"],
+           "description": item["short"], "url": url,
+           "image": [BASE + s["file"] for s in item["images"]],
+           "applicationCategory": "GameApplication" if section == "games" else "LifestyleApplication",
+           "applicationSubCategory": label(section, item),
+           "operatingSystem": "Garmin Connect IQ", "installUrl": item["store_url"], "publisher": ORG}
+    if item["subtitle"]:
+        app["alternateName"] = full_title(item)
+    crumbs = {"@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": section.capitalize(), "item": BASE + TAB[section]},
+        {"@type": "ListItem", "position": 2, "name": item["name"], "item": url}]}
+    return jsonld([app, crumbs])
+
+
+def more_html(data, section, item):
+    """The cards of a few other items, or nothing when the section has one."""
+    others = related(data, section, item)
+    if not others:
+        return ""
+    return ('<section class="more">\n<h2>More %s</h2>\n%s\n</section>'
+            % (section, grid(section, others, eager=0)))
+
+
 def item_page(site, data, section, item):
     shots, n = item["images"], len(item["images"])
+    what = noun(section, item)
+
+    def alt(s):
+        """'Gren watch face: the three themes', for image search as much as
+        for a screen reader."""
+        c = caption(s)
+        return "%s %s: %s" % (item["name"], what, c[:1].lower() + c[1:])
+
     # Each slide opens its picture full size; each thumbnail is a link to its
     # slide, so the gallery still works where gallery.js does not run. One
     # picture has nothing to move between, so no thumbnails.
     slides = "\n".join(
         '<li class="slide" id="shot-%d" aria-roledescription="slide" aria-label="%d of %d" '
         'data-caption="%s"><a href="/%s">%s</a></li>'
-        % (i + 1, i + 1, n, esc(caption(s)), esc(s["file"]), img(s, s["alt"], i > 0))
+        % (i + 1, i + 1, n, esc(caption(s)), esc(s["file"]), img(s, alt(s), i > 0))
         for i, s in enumerate(shots))
     thumbs = "\n".join(
         '<li><a class="thumb" href="#shot-%d" aria-label="Picture %d: %s">%s</a></li>'
@@ -227,9 +320,14 @@ def item_page(site, data, section, item):
         slides=slides, count=n, caption=esc(caption(shots[0])),
         thumbs=('  <ol class="thumbs" role="list">\n%s\n  </ol>' % thumbs) if n > 1 else "",
         short=esc(item["short"]), full="\n".join("<p>%s</p>" % esc(p) for p in item["full"]),
-        settings=settings_html(item), works=works(section, item, data))
-    return page(site, section, "%s · Glean" % full_title(item), item["short"],
-                "%s/%s/" % (section, item["slug"]), item["hero"]["file"], main, GALLERY_JS, legal_line(data))
+        settings=settings_html(item), works=works(section, item, data),
+        more=more_html(data, section, item))
+    path = "%s/%s/" % (section, item["slug"])
+    # "Gren – Fractal Tree, Ember Light · Garmin watch face · Glean": the
+    # words a search matches come before the brand, which matches nothing.
+    return page(site, section, "%s · Garmin %s · Glean" % (full_title(item), what), item["short"],
+                path, item["hero"]["file"], main, GALLERY_JS, legal_line(data),
+                item_head(section, item, path))
 
 
 def watches_html(lines):
@@ -254,13 +352,22 @@ def privacy_page(site, data):
 
 def not_found(site, data):
     return page(site, None, "Not found · Glean", "This page does not exist.", "404.html",
-                data["faces"][0]["hero"]["file"], template(site, "404").substitute(), "", legal_line(data))
+                data["faces"][0]["hero"]["file"], template(site, "404").substitute(), "", legal_line(data),
+                '<meta name="robots" content="noindex">')
 
 
-def sitemap(paths):
-    urls = "".join("  <url><loc>%s</loc></url>\n" % esc(BASE + p) for p in paths)
+def sitemap(paths, images=None):
+    """Every page, and under an item's page its pictures, so image search
+    finds them by the page they belong to."""
+    images = images or {}
+    urls = "".join(
+        "  <url><loc>%s</loc>%s</url>\n"
+        % (esc(BASE + p), "".join("<image:image><image:loc>%s</image:loc></image:image>"
+                                  % esc(BASE + f) for f in images.get(p, ())))
+        for p in paths)
     return ('<?xml version="1.0" encoding="UTF-8"?>\n'
-            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n%s</urlset>\n' % urls)
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+            'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n%s</urlset>\n' % urls)
 
 
 ROBOTS = "User-agent: *\nAllow: /\nSitemap: %ssitemap.xml\n" % BASE
@@ -329,7 +436,7 @@ def build(site=HERE):
     site = Path(site)
     data = load(site)
     check(site, data)
-    paths = []
+    paths, images = [], {}
     for section in SECTIONS:
         records = items(data, section)
         _prune(site / section, {r["slug"] for r in records})
@@ -338,6 +445,7 @@ def build(site=HERE):
         for r in records:
             _write(site / section / r["slug"] / "index.html", item_page(site, data, section, r))
             paths.append("%s/%s/" % (section, r["slug"]))
+            images[paths[-1]] = [s["file"] for s in r["images"]]
     _write(site / "help" / "index.html", help_page(site, data))
     _write(site / "privacy" / "index.html", privacy_page(site, data))
     _write(site / "404.html", not_found(site, data))
@@ -353,7 +461,7 @@ def build(site=HERE):
             paths.append(name + "/")
         elif (site / name).exists():
             shutil.rmtree(site / name)
-    _write(site / "sitemap.xml", sitemap(paths))
+    _write(site / "sitemap.xml", sitemap(paths, images))
     _write(site / "robots.txt", ROBOTS)
     return paths
 
