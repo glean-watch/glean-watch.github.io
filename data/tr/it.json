@@ -1,0 +1,700 @@
+{
+  "julnatt": {
+    "name": "Julnatt",
+    "subtitle": "Albero di Natale, countdown Natale",
+    "full": [
+      "Quadrante natalizio con numeri grandi: una piazza innevata la Vigilia di Natale, un enorme albero di Natale acceso di luci dorate, vecchie case con finestre calde tutt'intorno, dietro un'ora grande e facile da leggere, la data e i dati che guardi ogni giorno.",
+      "L'ora sta su una sola riga, larga quanto lo schermo rotondo consente, in cifre strette fatte per essere lette a colpo d'occhio: le ore in bianco, i due punti e i minuti nel colore del tema. Ogni cifra ha un contorno scuro e resta nitida sulle luci e sulla neve.",
+      "Sopra l'ora, la data nella lingua dell'orologio con i secondi accanto, e in alto batteria e avvisi. Sotto, due dati in pastiglie arrotondate: per cominciare un conto alla rovescia per Natale, un piccolo pacco e i giorni che mancano, e la frequenza cardiaca. Oppure scegli il meteo, la massima e la minima del giorno, i passi, la Body Battery, lo stress, le calorie, la distanza, i piani, alba e tramonto, l'altitudine, il VO2 max, il punteggio del sonno e altro, venti fonti in tutto. Una breve barra si riempie con l'obiettivo di passi, o di piani, minuti di intensità, Body Battery, batteria o stress.",
+      "Quattro temi della notte: Oro, Rosso, Verde e Ghiaccio, oppure spegni l'immagine per un quadrante nero. Ora a 12 o 24 ore o come l'orologio. Sugli schermi MIP i secondi continuano a polso abbassato; la modalità sempre attiva mantiene l'ora alla stessa dimensione in un tratto sottile, sul nero.",
+      "Tieni premuto un dato o la barra per aprirne l'anteprima sull'orologio, la data o il conto alla rovescia per il calendario. Temperature come sull'orologio, oppure in °C o °F."
+    ]
+  },
+  "snemand": {
+    "name": "Snemand",
+    "subtitle": "Pupazzo di neve, countdown di Natale",
+    "full": [
+      "Quadrante coi pupazzi di neve per l'inverno e il Natale: una famiglia di pupazzi di neve sta nella neve in basso a destra del quadrante, uno alto col cilindro tra due piccoli con berretti e sciarpe rosse a maglia, accanto a un'ora grande e chiara e ai dati che guardi ogni giorno.",
+      "L'ora è in cifre grassetto corsivo con i secondi accanto, i minuti nel colore del tema, e sotto la data nella lingua dell'orologio. Ogni riga ha un contorno scuro e resta nitida accanto all'immagine.",
+      "Quattro dati, ciascuno con la sua icona: per cominciare meteo e frequenza cardiaca in alto, passi e un conto alla rovescia per Natale in basso, un piccolo pacco e i giorni che mancano. Conta fino a Natale, alla Vigilia o a San Silvestro, oppure metti al suo posto una delle venti fonti: Body Battery, stress, calorie, distanza, piani, alba e tramonto, altitudine, massima e minima del giorno, VO2 max, punteggio del sonno e altro. Un indicatore lungo il bordo sinistro si riempie con la Body Battery, i passi o un altro obiettivo.",
+      "Tre temi, Ghiaccio, Rosso e Bianco, oppure nascondi il pupazzo di neve per un quadrante nero. Ora a 12 o 24 ore o come l'orologio, con o senza zero iniziale. Sugli schermi MIP i secondi continuano a polso abbassato; nella modalità sempre attiva accanto all'ora resta un disegno tenue del pupazzo di neve.",
+      "Tieni premuto un dato o l'indicatore per aprirne l'anteprima sull'orologio, la data o il conto alla rovescia per il calendario. Temperature come sull'orologio, oppure in °C o °F."
+    ]
+  },
+  "tomte": {
+    "name": "Tomte",
+    "subtitle": "Babbo Natale, conto alla rovescia Natale",
+    "full": [
+      "Quadrante di Babbo Natale per le feste: un allegro Babbo Natale col cappello rosso ride dall'angolo in basso a destra del quadrante, accanto a un'ora grande e chiara e ai dati che guardi ogni giorno.",
+      "L'ora è in cifre grassetto corsivo con i secondi accanto, i minuti nel colore del tema, e sotto la data nella lingua dell'orologio. Ogni riga ha un contorno scuro e resta nitida accanto all'immagine.",
+      "Quattro dati, ciascuno con la sua icona: per cominciare meteo e frequenza cardiaca in alto, passi e un conto alla rovescia per Natale in basso, un piccolo pacco e i giorni che mancano. Conta fino a Natale, alla Vigilia o a San Silvestro, oppure metti al suo posto una delle venti fonti: Body Battery, stress, calorie, distanza, piani, alba e tramonto, altitudine, massima e minima del giorno, VO2 max, punteggio del sonno e altro. Un indicatore lungo il bordo sinistro si riempie con la Body Battery, i passi o un altro obiettivo.",
+      "Tre temi, Rosso, Oro e Verde, oppure nascondi Babbo Natale per un quadrante nero. Ora a 12 o 24 ore o come l'orologio, con o senza zero iniziale. Sugli schermi MIP i secondi continuano a polso abbassato; nella modalità sempre attiva accanto all'ora resta un disegno tenue del cappello di Babbo Natale.",
+      "Tieni premuto un dato o l'indicatore per aprirne l'anteprima sull'orologio, la data o il conto alla rovescia per il calendario. Temperature come sull'orologio, oppure in °C o °F."
+    ]
+  },
+  "knut": {
+    "name": "Knut",
+    "subtitle": "Quadrante dati, ora grande e settimana",
+    "full": [
+      "Quadrante dati con numeri grandi e facili da leggere: tutto quello che controlli in una giornata su un solo quadrante, disposto come un cruscotto e avvolto da un cordino intrecciato sul bordo.",
+      "Un'ora grande in cifre nitide e squadrate, con il numero della settimana ISO a sinistra e i secondi a destra. Sopra, ieri, oggi e domani, il giorno di oggi incorniciato nel colore del tema; sotto, il mese e l'anno, o qualche parola tua.",
+      "Sei dati, ognuno con la sua icona e ognuno a scelta tra venti fonti: passi, frequenza cardiaca e meteo per iniziare, Body Battery, calorie e piani in basso, oppure distanza, minuti di intensità, stress, massima e minima del giorno, alba e tramonto, altitudine, pressione, notifiche, respirazione, Pulse Ox, tempo di recupero, VO2 max e punteggio del sonno. Due archi lungo il cordino si riempiono con i tuoi obiettivi: i passi in alto con la percentuale accanto, la batteria in basso, oppure piani, minuti di intensità, Body Battery, stress, recupero o sonno.",
+      "Otto temi: turchese, lime, ambra, corallo, viola, ghiaccio, rosa e acciaio. Le ore e i minuti ognuno in bianco, colore del tema, grigio o grigio scuro. Ora a 12 o 24 ore o come impostato sull'orologio; temperature come l'orologio, o in °C o °F. Il cordino si può spegnere per un quadrante nero pulito.",
+      "Display sempre attivo in tre livelli: solo l'ora, l'ora con data e batteria, o anche i dati, sempre con meno di un decimo dello schermo acceso. Sugli schermi MIP i secondi continuano anche a polso abbassato.",
+      "Tieni premuto un dato o un arco per aprirne il glance sull'orologio, o i giorni per il calendario."
+    ]
+  },
+  "norrsken": {
+    "name": "Norrsken",
+    "subtitle": "Aurora boreale, numeri grandi",
+    "full": [
+      "Quadrante aurora boreale con numeri grandi: l’aurora polare, verde e viola, sopra cime innevate, dietro un’ora grande e facile da leggere, la data e i dati che guardi ogni giorno.",
+      "L’ora sta su una sola riga, larga quanto lo schermo rotondo consente, in cifre strette che si leggono con un’occhiata: le ore in bianco, i due punti e i minuti nel colore del tuo tema. Ogni cifra ha un contorno scuro e resta nitida anche sulla cortina di luce più brillante.",
+      "Sopra l’ora, la data nella lingua del tuo orologio con i secondi accanto, e in alto batteria e notifiche. Sotto, due dati in capsule arrotondate, ciascuno con la sua icona: frequenza cardiaca e passi per iniziare, oppure il meteo, massima e minima del giorno, Body Battery, stress, calorie, distanza, piani, alba e tramonto, altitudine, VO2 max, punteggio del sonno e altro, venti fonti in tutto. Una breve barra si riempie con il tuo obiettivo di passi, o di piani, minuti di intensità, Body Battery, batteria o stress.",
+      "Quattro temi dal cielo notturno: Aurora, Viola, Ghiaccio e Neve, oppure spegni l’aurora per un quadrante nero e pulito. Ora a 12 o 24 ore o come impostato sull’orologio. Sugli schermi MIP i secondi continuano anche a polso abbassato; la modalità sempre attiva mantiene l’ora della stessa grandezza in un tratto leggero, sul nero.",
+      "Tieni premuto un dato o la barra dell’obiettivo per aprirne il glance sull’orologio, o la data per il calendario. Le temperature seguono l’orologio, oppure scegli °C o °F."
+    ]
+  },
+  "ormbunke": {
+    "name": "Ormbunke",
+    "subtitle": "Felce frattale, luce verde",
+    "full": [
+      "Ormbunke è una felce frattale di luce verde: ogni fronda è fatta di foglioline che si ripetono e si rimpiccioliscono verso la punta, accanto a una colonna chiara per la giornata.",
+      "L’ora in grandi cifre corsive, i minuti nel colore del tuo tema e i secondi accanto. Sopra, due dati; sotto, la data nella lingua del tuo orologio e altri due dati. Tutti e quattro li scegli tra venti fonti: frequenza cardiaca, passi, calorie, Body Battery, meteo, massima e minima del giorno, alba e tramonto, altitudine, VO2 max, punteggio del sonno e altro, oppure nessuna. Lungo il bordo sinistro un indicatore si riempie con la tua Body Battery, oppure con passi, stress, recupero, punteggio del sonno o batteria. Batteria e notifiche in alto.",
+      "Ogni riga parte dallo stesso bordo ed è disegnata su un contorno scuro, così la felce non copre mai le cifre, qualunque cosa tu mostri.",
+      "Tre temi in armonia con la felce: Felce, Muschio e Polline, oppure spegni la felce per un quadrante nero e pulito. L’ora nel formato 12 o 24 ore o come impostato sull’orologio, con o senza zero iniziale. I secondi si possono nascondere e sugli schermi MIP continuano a scorrere anche con il polso abbassato. La modalità always-on disegna la felce a linee sottili, con l’ora e la data.",
+      "Tieni premuto un dato o l’indicatore per aprirne il glance sull’orologio, oppure la data per il calendario. Temperature come sull’orologio, oppure scegli °C o °F."
+    ]
+  },
+  "dyning": {
+    "name": "Dyning",
+    "subtitle": "Onda frattale, luce turchese",
+    "full": [
+      "Dyning è un’onda che si frange, fatta di luce turchese: la sua cresta si arriccia in schiuma e spruzzi frattali, accanto a una colonna chiara per la giornata.",
+      "L’ora in grandi cifre corsive, i minuti nel colore del tuo tema e i secondi accanto. Sopra, due dati; sotto, la data nella lingua del tuo orologio e altri due dati. Tutti e quattro li scegli tra venti fonti: frequenza cardiaca, passi, calorie, Body Battery, meteo, massima e minima del giorno, alba e tramonto, altitudine, VO2 max, punteggio del sonno e altro, oppure nessuna. Lungo il bordo sinistro un indicatore si riempie con la tua Body Battery, oppure con passi, stress, recupero, punteggio del sonno o batteria. Batteria e notifiche in alto.",
+      "Ogni riga parte dallo stesso bordo ed è disegnata su un contorno scuro, così l’onda non copre mai le cifre, qualunque cosa tu mostri.",
+      "Tre temi in armonia con l’onda: Risacca, Ghiaccio e Schiuma, oppure spegni l’onda per un quadrante nero e pulito. L’ora nel formato 12 o 24 ore o come impostato sull’orologio, con o senza zero iniziale. I secondi si possono nascondere e sugli schermi MIP continuano a scorrere anche con il polso abbassato. La modalità always-on disegna l’onda a linee sottili, con l’ora e la data.",
+      "Tieni premuto un dato o l’indicatore per aprirne il glance sull’orologio, oppure la data per il calendario. Temperature come sull’orologio, oppure scegli °C o °F."
+    ]
+  },
+  "gren": {
+    "name": "Gren",
+    "subtitle": "Albero frattale, luce di brace",
+    "full": [
+      "Gren è un albero frattale di luce di brace: i suoi rami si dividono ancora e ancora in sottili rametti luminosi, accanto a una colonna chiara per la giornata.",
+      "L’ora in grandi cifre corsive, i minuti nel colore del tuo tema e i secondi accanto. Sopra, due dati; sotto, la data nella lingua del tuo orologio e altri due dati. Tutti e quattro li scegli tra venti fonti: frequenza cardiaca, passi, calorie, Body Battery, meteo, massima e minima del giorno, alba e tramonto, altitudine, VO2 max, punteggio del sonno e altro, oppure nessuna. Lungo il bordo sinistro un indicatore si riempie con la tua Body Battery, oppure con passi, stress, recupero, punteggio del sonno o batteria. Batteria e notifiche in alto.",
+      "Ogni riga parte dallo stesso bordo ed è disegnata su un contorno scuro, così l’albero non copre mai le cifre, qualunque cosa tu mostri.",
+      "Tre temi in armonia con l’albero: Brace, Ambra e Cenere, oppure spegni l’albero per un quadrante nero e pulito. L’ora nel formato 12 o 24 ore o come impostato sull’orologio, con o senza zero iniziale. I secondi si possono nascondere e sugli schermi MIP continuano a scorrere anche con il polso abbassato. La modalità always-on disegna l’albero a linee sottili, con l’ora e la data.",
+      "Tieni premuto un dato o l’indicatore per aprirne il glance sull’orologio, oppure la data per il calendario. Temperature come sull’orologio, oppure scegli °C o °F."
+    ]
+  },
+  "dag": {
+    "name": "Dag",
+    "subtitle": "Orologio del giorno, facile da leggere",
+    "full": [
+      "Dag è un orologio del giorno: non ti dice solo l'ora, ma che giorno è e in quale momento della giornata ti trovi. Al centro del quadrante, grande quanto lo schermo rotondo lo contiene, il giorno della settimana per intero: MERCOLEDÌ. Sotto, nel colore del tuo tema, MATTINA, POMERIGGIO, SERA o NOTTE.",
+      "Sopra c'è l'ora, in grandi cifre nello stile dei cartelli stradali; sotto la data con l'anno, in caratteri grandi e chiari, e un dato con la sua icona: il meteo per iniziare, oppure frequenza cardiaca, passi, Body Battery, alba e tramonto o una qualsiasi di venti fonti, tra cui VO2 max e punteggio del sonno, o nessuna. Batteria e avvisi in alto.",
+      "Il giorno e la data sono nella lingua dell'orologio, e i momenti della giornata in italiano, inglese, polacco, tedesco, francese, spagnolo, olandese, portoghese, slovacco e ceco. La mattina va dalle cinque a mezzogiorno, il pomeriggio fino alle cinque, la sera fino alle nove e la notte fino al mattino.",
+      "Tutto è grande, semplice e ad alto contrasto, per chi ama sapere il giorno a colpo d'occhio, e per chi prepara un orologio per un genitore o un nonno. Sei temi nei colori dei cartelli stradali: Giallo, Verde, Blu, Arancione, Bianco e Carta, lettere scure su fondo chiaro per chi legge meglio così. L'ora a 12 o 24 ore o come è impostato l'orologio, con o senza zero iniziale, con i secondi accanto, oppure nascosta per un quadrante che mostra solo il giorno. Sugli schermi memory-in-pixel i secondi continuano a scorrere con il polso abbassato. La modalità sempre attiva mantiene il giorno, il momento della giornata e l'ora.",
+      "Tieni premuto il dato per aprire il suo riepilogo sull'orologio, o il giorno o la data per il calendario. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "visare": {
+    "name": "Visare",
+    "subtitle": "Analogico a numeri grandi, facile",
+    "full": [
+      "Visare è un quadrante analogico fatto per essere letto senza occhiali. Dodici grandi numeri nello stile dei cartelli stradali stanno intorno al quadrante, bianchi su nero, grandi quanto lo schermo rotondo li può contenere, con sessanta tacche dei minuti sul bordo.",
+      "Le due lancette non si possono confondere. La lancetta delle ore è corta, larga e bianca; quella dei minuti è lunga, più sottile e nel colore del tuo tema. Ognuna ha un sottile contorno nel colore del quadrante, così risalta chiaramente ovunque incroci un numero o un dato. Una sottile lancetta dei secondi con un contrappeso rotondo scatta o scorre, oppure resta spenta; sugli schermi memory-in-pixel continua a correre con il polso abbassato. Attiva le lancette adattive e una lancetta si apre in un contorno dove incrocia un dato, così niente resta mai nascosto.",
+      "Dentro i numeri, il giorno e la data nella lingua dell'orologio sopra il centro, e due dati con le loro icone, uno sopra il centro e uno sotto: frequenza cardiaca e batteria per iniziare, oppure passi, meteo, Body Battery, alba e tramonto o una qualsiasi di venti fonti, tra cui VO2 max e punteggio del sonno, o nessuna. Sotto può andare una piccola ora digitale, a 12 o 24 ore o come è impostato l'orologio, con o senza zero iniziale.",
+      "Preferisci un quadrante più calmo? Mostra solo 12, 3, 6 e 9 con barre marcate in mezzo, oppure barre tutto intorno. Sei temi nei colori dei cartelli stradali: Giallo, Verde, Blu, Arancione, Bianco e Carta, numeri neri su un quadrante chiaro per chi legge meglio così. La modalità sempre attiva mantiene i numeri ed entrambe le lancette a grandezza piena in un tratto leggero.",
+      "Tieni premuto un dato per aprire il suo riepilogo sull'orologio, o la data per il calendario. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "tavla": {
+    "name": "Tavla",
+    "subtitle": "Ora grande e dati, facile da leggere",
+    "full": [
+      "Tavla è un tabellone per il polso, fatto per essere letto a un braccio di distanza senza occhiali. L'ora sta su una riga in cifre condensate nello stile dei cartelli stradali, lettere fatte per essere lette da lontano. Le ore sono bianche, i due punti e i minuti nel colore del tuo tema.",
+      "Sotto l'ora, quattro dati stanno su quattro riquadri, ognuno con la sua icona e un valore grande: frequenza cardiaca, passi, meteo e Body Battery per iniziare, oppure una qualsiasi di venti fonti, tra cui VO2 max e punteggio del sonno, o nessuna. Un dato con un obiettivo, come passi, piani o minuti di intensità, ha una barra sotto il valore che si riempie man mano. Ogni riquadro è largo quanto lo schermo rotondo permette, e un numero grande resta grande: oltre diecimila si legge 18.5k invece di rimpicciolirsi.",
+      "Lungo il bordo, un anello si riempie in senso orario dalle dodici man mano che i passi raggiungono il loro obiettivo, oppure piani, minuti di intensità, Body Battery, batteria, stress, tempo di recupero o punteggio del sonno, così vedi come va la giornata senza leggere un solo numero. Batteria e avvisi in alto, la data nella lingua dell'orologio in basso.",
+      "Sei temi nei colori dei cartelli stradali: Giallo, Verde, Blu, Arancione, Bianco e Carta, cifre scure su fondo chiaro per chi legge meglio così. L'ora a 12 o 24 ore o come è impostato l'orologio, con o senza zero iniziale, e i secondi accanto ai minuti, che sugli schermi memory-in-pixel continuano a scorrere con il polso abbassato. La modalità sempre attiva mantiene l'ora della stessa grandezza in un tratto leggero, con la data.",
+      "Tieni premuto un riquadro per aprire il suo riepilogo sull'orologio, l'ora o l'anello per quello dell'anello, o la data per il calendario. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "prognos": {
+    "name": "Prognos",
+    "subtitle": "Quadrante dati con previsioni",
+    "full": [
+      "In Prognos il paesaggio è la previsione. Sulla metà inferiore del quadrante sta una collina, e il suo crinale è la temperatura delle prossime dodici ore dal meteo dell'orologio: l'ora più calda la più alta, la più fredda la più bassa. Sotto il crinale sono scritte la temperatura e l'ora tra tre, sei e nove ore, e brevi strisce di pioggia cadono sulle ore probabilmente bagnate.",
+      "Sopra, nel cielo: la data e il tuo stato, un'ora grande con i secondi accanto, tre dati con le loro icone (frequenza cardiaca, passi e Body Battery di serie) e altri due (massima e minima del giorno e la prossima alba o il prossimo tramonto). Ogni dato può mostrare una qualsiasi di venti fonti, tra cui VO2 max e punteggio del sonno, oppure niente.",
+      "La previsione viene dall'ultima sincronizzazione meteo del telefono; finché non ce n'è una la collina è un orizzonte piatto senza scritte, mai un'ipotesi.",
+      "Rendilo tuo: cinque temi (Crepuscolo, Notte, Alba, Tempesta e Mono), pioggia attiva o no, ora a 12 o 24 ore o come è impostato l'orologio, uno zero iniziale, i secondi e la data e lo stato attivi o no. Sugli schermi memory- in-pixel ogni tema è disegnato per 64 colori e i secondi continuano a scorrere con il polso abbassato. La modalità sempre attiva mantiene l'ora, la linea del crinale e la data.",
+      "Tieni premuto un dato per aprire il suo riepilogo sull'orologio, la data per il calendario, o la collina per il meteo. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "ruta": {
+    "name": "Ruta",
+    "subtitle": "Quadrante dati a riquadri",
+    "full": [
+      "Ruta è fatto per essere letto a colpo d'occhio, a un braccio di distanza. Il quadrante è fatto di riquadri a tinta piatta divisi da sottili linee nere, e ogni riquadro contiene una sola cosa in cifre grandi quanto il riquadro permette, in un carattere alto e condensato.",
+      "In alto, la data e il tuo stato. Sotto, l'ora ha un riquadro tutto suo, con i secondi accanto e una barra sotto che si riempie con i tuoi passi (o Body Battery, minuti di intensità, piani, stress, batteria, tempo di recupero o punteggio del sonno). Più in basso, tre riquadri con un'icona sopra un valore grande (passi, frequenza cardiaca e Body Battery di serie) e altri due con l'icona accanto (il meteo e la prossima alba o il prossimo tramonto). Ogni riquadro può mostrare una qualsiasi di venti fonti, tra cui VO2 max e punteggio del sonno, oppure niente.",
+      "Rendilo tuo: cinque temi (Pop, Pastello, Mono, Notte con riquadri scuri e cifre colorate, e Sport in nero e giallo segnaletico), ora a 12 o 24 ore o come è impostato l'orologio, uno zero iniziale, i secondi e la data e lo stato attivi o no. Sugli schermi memory-in-pixel ogni riquadro è uno dei 64 colori propri dello schermo, quindi niente retino, e i secondi continuano a scorrere con il polso abbassato. La modalità sempre attiva mantiene l'ora, la data e la barra.",
+      "Tieni premuto un riquadro per aprire il suo riepilogo sull'orologio, l'ora per quello della barra, o la data per il calendario. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "dygn": {
+    "name": "Dygn",
+    "subtitle": "Quadrante dati con anello del giorno",
+    "full": [
+      "Dygn mostra tutta la giornata a colpo d'occhio. Lungo il bordo corre un anello di 24 ore con il mezzogiorno in alto: la notte è scura, la luce di oggi è accesa calda dall'alba a mezzogiorno al tramonto, una linea chiara copre la luce già passata, e il sole (la luna dopo il buio) sta all'ora attuale.",
+      "Lo sfondo è il cielo, colorato secondo dove si trova davvero il sole: notte, alba, giorno e crepuscolo, con un morbido alone intorno al sole. Al centro, un'ora grande con i secondi accanto, la data e il tuo stato, il meteo con massima e minima del giorno, tre dati con le loro icone (frequenza cardiaca, passi e Body Battery di serie) e l'alba e il tramonto di oggi in fondo. Ogni dato può mostrare una qualsiasi di venti fonti, tra cui VO2 max e punteggio del sonno, oppure niente; in fondo può mostrare invece la luce rimasta.",
+      "Gli orari del sole vengono dalla posizione meteo dell'orologio o dalla tua ultima attività; senza nessuna delle due l'anello è disegnato spento, mai un'ipotesi.",
+      "Rendilo tuo: cinque temi (Cielo, che segue il sole, Notte, Alba, Crepuscolo e Mono), ora a 12 o 24 ore o come è impostato l'orologio, uno zero iniziale, i secondi e la data e lo stato attivi o no. Sugli schermi memory-in-pixel ogni cielo è disegnato per 64 colori e i secondi continuano a scorrere con il polso abbassato. La modalità sempre attiva mantiene l'anello, il sole e l'ora.",
+      "Tieni premuto un dato per aprire il suo riepilogo sull'orologio, la data per il calendario, o l'anello per alba e tramonto. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "karta": {
+    "name": "Karta",
+    "subtitle": "Quadrante dati con mappa topo",
+    "full": [
+      "Karta ti mette al polso i dati di un'intera giornata e mantiene ogni numero facile da leggere. Lo sfondo è una mappa topografica di notte: curve di livello intorno a due cime, tenui sotto il testo e più marcate verso il bordo, con una curva direttrice ogni quattro.",
+      "Sopra la mappa c'è un'ora grande, con i secondi accanto, e sotto quattro dati in due colonne, ognuno un'icona colorata e un valore grande: frequenza cardiaca, Body Battery, passi e la prossima alba o il prossimo tramonto di serie. Altri due stanno sulla riga in alto (altitudine e pressione barometrica), e uno in fondo (il meteo), con batteria e avvisi accanto alla data. Ognuno dei sette può mostrare una qualsiasi di venti fonti, tra cui VO2 max e punteggio del sonno, oppure niente.",
+      "Lungo il bordo un arco si riempie dalle dodici con i tuoi passi, con un punto in testa; chiudi l'anello all'obiettivo. Può seguire invece Body Battery, minuti di intensità, piani, stress, batteria, tempo di recupero o punteggio del sonno.",
+      "Rendilo tuo: cinque temi (Foresta, Ghiacciaio, Deserto, Notte e Ardesia), quattro mappe (Vette, Cresta, Valle e Costa) o nessuna, ora a 12 o 24 ore o come è impostato l'orologio, uno zero iniziale, i secondi attivi o no, e la data e lo stato attivi o no. Sugli schermi memory-in-pixel ogni tema è disegnato per 64 colori e i secondi continuano a scorrere con il polso abbassato. La modalità sempre attiva mantiene l'ora, la data e l'indicatore.",
+      "Tieni premuto un dato per aprire il suo riepilogo sull'orologio, la data per il calendario, o il bordo per quello dell'indicatore. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "frost": {
+    "name": "Frost",
+    "subtitle": "Analogico con fiocco di neve",
+    "full": [
+      "Frost è un quadrante analogico per tutto l'inverno, non solo per Natale. Il quadrante è una lastra di ghiaccio, profonda sul bordo e più chiara al centro, con la brina che si insinua dal vetro, e le ore sono segnate da piccoli cristalli a sei braccia.",
+      "Al centro un fiocco di neve cresce durante la giornata. Le sue sei braccia si allungano man mano che i passi si sommano, rami laterali spuntano mentre avanzano, e all'obiettivo si accende ogni punta. Scegli invece Body Battery, minuti di intensità, piani, stress o batteria con cui farlo crescere.",
+      "Quattro dati stanno sulle diagonali, un'icona sopra ogni valore: frequenza cardiaca, meteo, Body Battery e la prossima alba o il prossimo tramonto di serie, oppure una qualsiasi di diciotto fonti, o nessuna. Il giorno e la data aspettano in una finestrella a ore tre, nella lingua dell'orologio, e batteria e avvisi sotto le dodici. Aggiungi una piccola ora digitale sopra le sei, a 12 o 24 ore o come è impostato l'orologio.",
+      "Le lancette a lancia hanno un contorno per leggersi sopra tutto, con una linea di ghiaccio al centro, e una lancetta dei secondi con un fiocco di neve come contrappeso può scattare o scorrere; sugli orologi memory-in-pixel continua a scattare anche con il polso abbassato.",
+      "Rendilo tuo: cinque quadranti (Ghiacciaio, Mezzanotte, Aurora, Argento e Rosa), cristalli, numeri arabi o romani ai quarti (in Cinzel), brina sul bordo piena, leggera o nessuna, e lancette argento, ghiaccio o nel colore d'accento. Sugli schermi memory-in-pixel ogni quadrante è disegnato per 64 colori. La modalità sempre attiva mantiene i cristalli, il fiocco di neve e le lancette in contorno.",
+      "Tieni premuto un dato per aprire il suo riepilogo sull'orologio, o la data per il calendario. Le temperature seguono l'orologio, oppure scegli °C o °F.",
+      "Le lancette possono aprirsi in un contorno dove incrociano un dato o una finestrella, così niente resta nascosto sotto."
+    ]
+  },
+  "kofta": {
+    "name": "Kofta",
+    "subtitle": "Maglione di Natale",
+    "full": [
+      "Kofta veste il tuo orologio con un maglione di Natale. Tutto il quadrante è una maglia Fair Isle, ogni punto una piccola V, dal collo a coste in alto all'orlo in basso, e l'ora è lavorata a maglia proprio dentro, in grandi cifre a punti grossi.",
+      "Sul petto corre una fascia di renne, che si lavora da sola con il passare della giornata: punto dopo punto, riga dopo riga dal basso, man mano che i passi si sommano. I punti non ancora lavorati aspettano in un filo tenue, così vedi quanto manca; raggiungi l'obiettivo e la fascia è finita. Scegli invece Body Battery, minuti di intensità, piani, stress o batteria con cui lavorarla.",
+      "Sotto l'ora, la data nella lingua dell'orologio con batteria e avvisi, poi tre dati, un'icona sopra ogni valore: frequenza cardiaca, meteo e Body Battery di serie, oppure una qualsiasi di diciotto fonti, o nessuna.",
+      "Rendilo tuo: cinque maglioni (rosso classico, verde bosco, blu nordico, avena e uno kitsch, apposta), cinque motivi (renne, fiocchi di neve, alberi, cuori o stelle), punti a maglia o uno schema piatto, un zigzag sull'orlo o una costa semplice. L'ora a 12 o 24 ore o come è impostato l'orologio, con o senza zero iniziale. I secondi scorrono in fondo alla riga sotto, oppure disattivali.",
+      "Sugli schermi memory-in-pixel ogni maglione è lavorato in 64 colori. La modalità sempre attiva mantiene solo l'ora lavorata a maglia, come i suoi punti.",
+      "Tieni premuto un dato per aprire il suo riepilogo sull'orologio, o la data per il calendario. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "gran": {
+    "name": "Gran",
+    "subtitle": "Conto alla rovescia dell'albero",
+    "full": [
+      "Gran è un albero di Natale in una notte di neve, e ogni sua luce significa qualcosa. Ventiquattro lampadine pendono dalla ghirlanda e si accendono una alla volta man mano che i passi si sommano, dal ramo più basso verso la cima. Raggiungi l'obiettivo e si accende la stella. Scegli invece Body Battery, minuti di intensità, piani, stress o batteria, e l'albero segue quello.",
+      "Sotto l'albero, accanto ai pacchi, i giorni che mancano a Natale, oppure alla Vigilia o a San Silvestro, se preferisci. Nel giorno stesso una stella prende il posto del numero. Accanto, a che punto sono arrivate le luci.",
+      "Quattro dati stanno ai lati dell'albero, un'icona sopra ogni valore: frequenza cardiaca, meteo, Body Battery e la prossima alba o il prossimo tramonto di serie, oppure una qualsiasi di diciotto fonti, o nessuna. La data, nella lingua dell'orologio, sta in alto con batteria e avvisi.",
+      "Rendilo tuo: cinque temi (Mezzanotte, Nevicata, Nordico, Oro e Caramella), quattro colori di luci (multicolore, bianco caldo, oro o blu), neve che cade leggera, fitta o niente, neve sui rami oppure no. L'ora è in Fraunces, un morbido serif da libro di fiabe, a 12 o 24 ore o come è impostato l'orologio, con o senza zero iniziale. I secondi stanno piccoli accanto, oppure disattivali.",
+      "Sugli schermi memory-in-pixel ogni tema è disegnato per 64 colori. La modalità sempre attiva mantiene l'ora, l'albero in contorno e solo le lampadine accese, così l'indicatore si legge anche con il polso abbassato.",
+      "Tieni premuto un dato per aprire il suo riepilogo sull'orologio, o la data per il calendario. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "lage": {
+    "name": "Lage Pro",
+    "subtitle": "Cruscotto dati",
+    "full": [
+      "La maggior parte dei quadranti con dati ti mostra numeri e ti lascia giudicarli. Un battito a riposo di 62 va bene? 3.400 passi alle due del pomeriggio sono in linea? Lage mostra la stessa ricchezza di dati e dà a ogni dato un giudizio.",
+      "L'ora sta al centro in grandi cifre condensate, le ore in argento sopra i minuti nel colore del tuo tema. A sinistra, il tuo corpo: Body Battery, stress e frequenza cardiaca, ognuno con una freccia e quanto si è mosso nelle ultime tre ore, con la sua linea disegnata sotto, in verde quando il livello è buono, corallo quando non lo è. A destra, i tuoi obiettivi: passi, minuti di intensità e piani, ognuno con una barra e una tacca bianca dove dovresti essere a quest'ora, così \"+840\" vuol dire avanti e \"-1.2k\" indietro. La tua giornata va dal tuo orario di sveglia a quello di sonno, e i minuti di intensità contano sulla settimana, come li conta Garmin.",
+      "Sotto l'ora, un grafico delle ultime 4, 12 o 24 ore di frequenza cardiaca, Body Battery, stress, pressione o altitudine, con il massimo e il minimo. Sotto ancora, il meteo attuale e quando arriva la pioggia, oppure la prossima alba o il prossimo tramonto. Batteria e avvisi e la data nella lingua dell'orologio stanno in alto. I secondi stanno piccoli sotto i minuti, e una tacca sul bordo accende ciascuno mentre guardi; un'impostazione li spegne entrambi.",
+      "Ogni dato prende una qualsiasi di venti fonti: punteggio del sonno, pulsossimetro, tempo di recupero, VO2 max, respirazione, calorie, distanza e altro. Tieni premuto un dato su uno schermo touch per aprire la schermata dell'orologio per quel dato. Cinque temi: Ghiacciaio, Oro, Viola, Oceano e Argento. La modalità sempre attiva mantiene l'ora a grandezza piena in un tratto leggero."
+    ]
+  },
+  "rad": {
+    "name": "Rad",
+    "subtitle": "Ora grande e dati",
+    "full": [
+      "Rad mette l'ora su una sola riga, larga quanto lo schermo rotondo permette alla sua altezza, in cifre condensate nello stile dei cartelli stradali: lettere fatte per essere lette da lontano e in velocità. Le ore sono bianche, i due punti e i minuti nel colore del tuo tema.",
+      "Intorno, anche ciò che controlli ogni giorno è grande. La data sta sopra l'ora nella lingua dell'orologio, batteria e avvisi sopra ancora. Sotto l'ora, due dati stanno in etichette arrotondate, ognuno con la sua icona: frequenza cardiaca e passi per iniziare, oppure meteo, Body Battery, calorie, distanza, alba e tramonto o una qualsiasi di venti fonti. Le etichette si adattano a ciò che contengono. Sotto, una breve barra si riempie man mano che i passi raggiungono il loro obiettivo, oppure piani, minuti di intensità, Body Battery, batteria o stress.",
+      "Sei temi nei colori dei cartelli stradali: Giallo, Verde, Blu, Arancione, Bianco e Carta, cifre scure su fondo bianco per chi legge meglio così. Ora a 12 e 24 ore, senza zero iniziale nel formato 12 ore. La modalità sempre attiva mantiene l'ora della stessa grandezza in un tratto leggero."
+    ]
+  },
+  "stor": {
+    "name": "Stor",
+    "subtitle": "Numeri extra grandi",
+    "full": [
+      "Stor mette l'ora nelle cifre più grandi che uno schermo rotondo può contenere: le ore su una riga, i minuti sulla successiva, ognuna alta quasi un terzo dello schermo. Cifre pesanti e aperte in un grottesco moderno, bianco su nero, con i minuti in un colore a tua scelta, che si leggono a colpo d'occhio dall'altra parte della stanza, in auto o appena svegli prima di mettere gli occhiali.",
+      "Tutto il resto si fa da parte. Una sottile barra tra le due righe si riempie man mano che i passi raggiungono il loro obiettivo, così il progresso non richiede nessuna lettura; può seguire invece piani, minuti di intensità, Body Battery, batteria o stress, oppure essere disattivata. Batteria e avvisi stanno in alto. La data sta in fondo nella lingua dell'orologio, oppure metti lì un dato: frequenza cardiaca, meteo, passi o una qualsiasi di venti fonti.",
+      "Sei temi: Corallo, Ambra, Menta, Cielo, Mono e Carta, cifre scure su fondo bianco per chi legge meglio così, e per una giornata luminosa su uno schermo memory-in-pixel. Ora a 12 e 24 ore, senza zero iniziale nel formato 12 ore. La modalità sempre attiva mantiene le stesse cifre della stessa grandezza in un tratto sottilissimo, abbastanza grandi da leggerle al buio."
+    ]
+  },
+  "vila": {
+    "name": "Vila",
+    "subtitle": "Schermo di riposo e-ink",
+    "full": [
+      "Vila è lo schermo che un lettore e-ink mostra mentre riposa: un'incisione a un solo inchiostro su carta, e l'ora in un serif da libro sopra. L'incisione è una clessidra, ogni sua parte disegnata a linee come la inciderebbe un incisore: due piatti contornati e ombreggiati, colonnine tornite tratteggiate su un lato, il vetro in contorni sottili con la sua ombra, e la sabbia in un fitto tratteggio.",
+      "La sabbia è il progresso. Al mattino riempie l'ampolla superiore; man mano che i passi riempiono il loro obiettivo scende in quella inferiore, un filo sottile che cade tra le due, finché la parte alta è vuota e un mucchietto sta in quella bassa. Può seguire invece piani, minuti di intensità, Body Battery, batteria o stress.",
+      "L'ora è grande in EB Garamond, con la data sotto nella lingua dell'orologio e batteria e avvisi sopra. Due dati stanno ai lati della strozzatura della clessidra, frequenza cardiaca e meteo per iniziare, oppure una qualsiasi di quindici fonti.",
+      "Cinque carte: Carta, Luce calda, Seppia, Notte (linee bianche su nero) e Indaco. Uno schermo memory-in-pixel è già riflettente, come l'e-ink. La modalità sempre attiva mantiene l'ora e il contorno della clessidra."
+    ]
+  },
+  "vik": {
+    "name": "Vik",
+    "subtitle": "Baia nordica al crepuscolo",
+    "full": [
+      "Vik è una baia del grande nord alla fine del giorno. Montagne lontane stanno nella foschia con la nebbia ai piedi, le colline vicine sono scure, l'acqua è immobile con strisce di luce, e su tutto il cielo si allargano i rami dell'albero del mondo, una sfumatura più chiari del crepuscolo.",
+      "Sull'acqua un drakkar con una vela a strisce e scudi lungo il fianco rema dalla riva ovest a quella est man mano che i passi riempiono il loro obiettivo: salpa al mattino e tocca terra all'obiettivo. Può seguire invece piani, minuti di intensità, Body Battery, batteria o stress.",
+      "L'ora sta sopra il cielo in Kurale, un serif dal bordo intagliato a mano, la data sotto nella lingua dell'orologio e batteria e avvisi sopra. Due dati stanno sull'acqua, ognuno una qualsiasi di quindici fonti, frequenza cardiaca e meteo per iniziare. In basso, una barra rossa della salute e una gialla della resistenza, di serie Body Battery e batteria.",
+      "Cinque temi: Prato, Notte, Foschia, Brace e Brina. Sugli schermi memory-in- pixel il cielo ha un retino nei 64 colori. La modalità sempre attiva mantiene l'ora, la riva e il drakkar come linee sottili.",
+      "Tieni premuto un dato o una barra per aprire il riepilogo dell'orologio per quel dato, il drakkar per quello del suo obiettivo, la data per il calendario. I secondi scorrono su una targhetta dopo la data, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "skold": {
+    "name": "Sköld",
+    "subtitle": "Scudo vichingo analogico",
+    "full": [
+      "Sköld è uno scudo rotondo, fatto per un orologio rotondo. Sette assi di legno scuro con venature, nodi e giunture; un bordo di ferro con il labbro che prende la luce; una testa di chiodo a ogni ora; una cupola di ferro al centro; e due lancette d'acciaio, ognuna una lama con il contorno nero.",
+      "Incise nel bordo ci sono le 24 rune del futhark antico, nel loro ordine, ognuna disegnata con i tratti dritti con cui veniva intagliata. Sono il progresso: una alla volta brillano come braci man mano che i passi riempiono il loro obiettivo, dalle dodici in senso orario, finché tutto il bordo è acceso. Possono seguire invece piani, minuti di intensità, Body Battery, batteria o stress.",
+      "Tre dati sono intagliati nelle assi a ore nove, tre e sei, ognuno una qualsiasi di quindici fonti: frequenza cardiaca, meteo e Body Battery per iniziare, oppure passi, calorie, distanza, piani, minuti di intensità, stress, pressione, altitudine, la prossima alba o il prossimo tramonto, notifiche o batteria. La data, nella lingua dell'orologio, e batteria e avvisi stanno sotto le dodici.",
+      "Cinque pitture: Quercia (legno nudo), Sangue, Corvo, Brina (con un bagliore gelido) e Muschio, ognuna dipinge un'asse sì e una no. La modalità sempre attiva mantiene le rune accese come linee sottili, i contorni delle lancette e l'umbone.",
+      "Tieni premuto un dato per aprire il riepilogo dell'orologio per quel dato, il bordo delle rune per quello del suo obiettivo, la data per il calendario. Una lancetta dei secondi nel colore d'accento, oppure disattivala. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "stad": {
+    "name": "Stad",
+    "subtitle": "HUD con mappa della città",
+    "full": [
+      "Stad trasforma il tuo orologio nell'HUD di un gioco open world. Tutto il quadrante è la mappa di una città inventata: isolati tra ampie strade, un parco, un viale, una superstrada che curva lungo il lato ovest, una spiaggia e il mare.",
+      "Sopra, tutto ciò che ti serve, con un contorno nero così si legge su qualsiasi strada. Cinque stelle in alto si riempiono con il tuo stress. L'ora sta al centro in Big Shoulders Display, con i passi sotto come contanti: 8.420 passi sono $8,420. Due archi in basso sono la salute e l'armatura, di serie Body Battery e batteria. La freccia del giocatore sta sotto il centro e gira per indicare il minuto, e due segnali sulla mappa portano qualsiasi dato tu voglia.",
+      "Ogni indicatore si può cambiare: le stelle e le barre seguono passi, piani, minuti di intensità, Body Battery, batteria o stress; i contanti sono passi, calorie, piani o minuti di intensità; i segnali prendono una qualsiasi di quindici fonti, meteo e frequenza cardiaca per iniziare. La data è nella lingua dell'orologio, con batteria e avvisi sotto la freccia.",
+      "Cinque temi: Strada, Notte, Tramonto, Atlante (una mappa chiara) e Mono. La modalità sempre attiva mantiene l'ora in un taglio leggero e il contorno della freccia.",
+      "Tieni premuto un segnale, i contanti, le stelle o una barra per aprire il riepilogo dell'orologio per ciò che mostra, la data per il calendario. I secondi scorrono su una targhetta accanto all'ora, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "kust": {
+    "name": "Kust",
+    "subtitle": "Costa al neon al tramonto",
+    "full": [
+      "Kust ti mette al polso una costa al neon. Il cielo va dal viola al rosa all'arancione, un sole a fasce sta sull'orizzonte, il mare scuro sotto con il sole spezzato sull'acqua, e due palme si sporgono dal bordo.",
+      "L'ora brilla in alto in Tilt Neon, un nucleo chiaro in un alone colorato, come l'insegna di un hotel sul lungomare. Il sole è il progresso: al mattino sta sopra il mare e ci affonda man mano che i passi riempiono il loro obiettivo, finché resta fuori dall'acqua solo la sua cima. Può seguire invece piani, minuti di intensità, Body Battery, batteria o stress.",
+      "Tre dati stanno sul mare come insegne al neon, ognuno una qualsiasi di quindici fonti: frequenza cardiaca, passi e meteo per iniziare, oppure calorie, distanza, piani, minuti di intensità, Body Battery, stress, pressione, altitudine, la prossima alba o il prossimo tramonto, notifiche o batteria. La data sta sopra l'ora nella lingua dell'orologio, sotto batteria e avvisi.",
+      "Cinque temi: Tramonto, Crepuscolo, Mezzanotte, Fenicottero e Tropico. Sugli schermi memory-in-pixel il cielo ha un retino nei 64 colori. La modalità sempre attiva mantiene l'ora nel colore del suo alone, l'orizzonte e il contorno del sole.",
+      "Tieni premuta un'insegna per aprire il riepilogo dell'orologio per quel dato, il tramonto per quello del suo obiettivo, la data per il calendario. I secondi brillano piccoli sul mare, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "dack": {
+    "name": "Däck",
+    "subtitle": "Analogico a pneumatico",
+    "full": [
+      "Däck è un quadrante analogico disegnato come una ruota da corsa vista di lato. Lo pneumatico arriva fino al bordo del vetro, e la sua banda colorata si riempie dalle dodici man mano che i passi riempiono il loro obiettivo; può seguire invece piani, minuti di intensità, Body Battery, batteria o stress. La data, nella lingua dell'orologio, è stampata sul fianco a ore sei.",
+      "Dentro il cerchio, il copricerchio è il quadrante: indici delle ore, due lancette con il contorno così si leggono sopra tutto, e un dado esagonale di bloccaggio centrale cerchiato nel colore della mescola. Tre dati stanno a ore nove, tre e sei, ognuno una qualsiasi di quindici fonti: frequenza cardiaca, meteo e Body Battery per iniziare, oppure passi, calorie, distanza, piani, minuti di intensità, stress, pressione, altitudine, la prossima alba o il prossimo tramonto, notifiche o batteria. Batteria e avvisi stanno a ore dodici.",
+      "I cinque temi sono le cinque mescole: Morbida (rossa), Media (gialla), Dura (bianca), Intermedia (verde) e Da bagnato (blu). La modalità sempre attiva mantiene la banda accesa come una linea sottilissima, gli indici delle ore e i contorni delle lancette.",
+      "Tieni premuto un dato per aprire il riepilogo dell'orologio per quel dato, la banda per quello del suo obiettivo, la data per il calendario. Una lancetta dei secondi nel colore della mescola, oppure disattivala. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "bana": {
+    "name": "Bana",
+    "subtitle": "Mappa del circuito",
+    "full": [
+      "Bana disegna un circuito intorno al quadrante, con un lungo rettilineo in alto, delle esse sulla destra, una chicane lungo il fondo e i cordoli nelle curve. Una macchina lo percorre una volta all'ora: sta sulla linea a scacchi in cima a ogni ora, a un quarto del giro alle e un quarto, e il giro fatto finora è acceso dietro di lei. Il circuito è inventato, non è nessuna pista reale.",
+      "L'ora sta nell'infield in Tomorrow, con tre dati sotto, ognuno una qualsiasi di quindici fonti: frequenza cardiaca, passi e meteo per iniziare, oppure calorie, distanza, piani, minuti di intensità, Body Battery, stress, pressione, altitudine, la prossima alba o il prossimo tramonto, notifiche o batteria. Quando un dato è troppo lungo, l'intera riga scende di una misura insieme. Batteria e avvisi stanno sopra il circuito, e la data, nella lingua dell'orologio, sotto.",
+      "Cinque temi: Notte, Erba, Giorno (chiaro), Neon e Mono. La modalità sempre attiva mantiene il circuito come una linea sottilissima, la macchina e l'ora in un taglio leggero.",
+      "Tieni premuto un dato per aprire il riepilogo dell'orologio per quel dato, la data per il calendario. I secondi scorrono dopo la data, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "varv": {
+    "name": "Varv",
+    "subtitle": "Schermo dei tempi",
+    "full": [
+      "Varv si legge come lo schermo dei tempi di una diretta di gara. L'ora sta su un pannello inclinato in Exo 2 Italic, con una striscia nel colore del tema alla fine. Sopra, il giro: il giorno dell'anno di oggi sui giorni dell'anno, LAP 276/365 il tre ottobre.",
+      "Sotto l'ora, tre settori, uno per ciascuno dei tuoi obiettivi: passi, piani e minuti di intensità di serie. Un settore diventa viola quando il suo obiettivo è raggiunto, verde finché sei avanti rispetto al ritmo che lo raggiunge entro le dieci di sera, e giallo quando sei indietro; i minuti di intensità hanno il ritmo distribuito sulla settimana. L'icona di ogni settore, nello stesso colore, sta sopra il suo valore. Altri due dati sotto sono una qualsiasi di quindici fonti: frequenza cardiaca e meteo per iniziare, oppure calorie, distanza, piani, Body Battery, stress, pressione, altitudine, la prossima alba o il prossimo tramonto, notifiche o batteria. La data, nella lingua dell'orologio, sta su un'etichetta inclinata in basso.",
+      "Cinque temi: Studio, Carbonio, Giorno (chiaro), Verde acqua e Neon. La modalità sempre attiva mantiene l'ora in un taglio leggero e i settori come contorni nei loro colori.",
+      "Tieni premuto un settore per aprire il riepilogo dell'orologio per il suo obiettivo, un dato per il suo, la data per il calendario. I secondi scorrono sull'etichetta della data, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "ratt": {
+    "name": "Ratt",
+    "subtitle": "Display da volante da corsa",
+    "full": [
+      "Ratt mette al polso il centro di un volante da corsa. In alto, quindici luci di cambiata, cinque verdi, cinque rosse e cinque blu, si accendono una dopo l'altra man mano che i passi riempiono il loro obiettivo; all'obiettivo sono accese tutte e quindici. Possono seguire invece piani, minuti di intensità, Body Battery, batteria o stress.",
+      "Al centro sta lo schermo del display: l'ora grande in Oxanium, con due dati sopra e due sotto, divisi da linee sottili come su un vero display. Ogni dato è una qualsiasi di quindici fonti: frequenza cardiaca, meteo, passi e Body Battery per iniziare, oppure calorie, distanza, piani, minuti di intensità, stress, pressione, altitudine, la prossima alba o il prossimo tramonto, notifiche o batteria. Intorno allo schermo, trama di carbonio e la gomma delle impugnature, cucita nel colore del tema. Sotto lo schermo, la data nella lingua dell'orologio, poi batteria e avvisi.",
+      "Cinque temi: Carbonio, Volt, Cobalto, Brace e Mono, che accende le luci di cambiata in bianco. Sugli schermi memory-in-pixel il carbonio è disegnato come tratteggio nei 64 colori. La modalità sempre attiva mantiene l'ora in un taglio leggero e le luci accese come anelli.",
+      "Tieni premuto un dato per aprire il riepilogo dell'orologio per quel dato, le luci di cambiata per quello del loro obiettivo, la data per il calendario. I secondi scorrono su un piccolo schermo dopo la data, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "glimt": {
+    "name": "Glimt",
+    "subtitle": "Saluto in sfumatura",
+    "full": [
+      "Glimt ti saluta. Buongiorno, buon pomeriggio, buonasera o buonanotte, a seconda dell'ora, e sotto l'ora in Plus Jakarta Sans, entrambi in una sfumatura che va dal blu al viola fino al rosa.",
+      "Lungo il bordo, i tuoi passi riempiono un arco nella stessa sfumatura a partire dalle dodici, mostrando un po' più di colore man mano che cammini; può seguire invece piani, minuti di intensità, Body Battery o batteria. Quattro dati stanno in etichette arrotondate, ognuna una qualsiasi di quindici fonti: frequenza cardiaca, passi, Body Battery e meteo per iniziare, oppure calorie, distanza, piani, minuti di intensità, stress, pressione, altitudine, la prossima alba o il prossimo tramonto, notifiche o batteria. La data, nella lingua dell'orologio, sta in una pillola in basso, con un piccolo scintillio accanto.",
+      "Cinque temi: Notte, Giorno (chiaro), Aurora, Tramonto e Brina, ognuno con la sua sfumatura. Sugli schermi memory-in-pixel la sfumatura è disegnata in tre passi dai 64 colori. La modalità sempre attiva mantiene l'ora in una sfumatura morbida e tenue. Il saluto si può disattivare.",
+      "Tieni premuto un dato per aprire il riepilogo dell'orologio per quel dato, il bordo per quello del suo obiettivo, la data per il calendario. I secondi stanno piccoli accanto all'ora, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "kod": {
+    "name": "Kod",
+    "subtitle": "Il minuto come diff",
+    "full": [
+      "Kod mostra l'ora come uno sviluppatore legge le modifiche: come un diff. Sotto un'intestazione di hunk con la data, il minuto appena passato viene rimosso su una riga rossa e quello attuale aggiunto su una verde, più grande, in Geist Mono. Segue l'impostazione a 12 o 24 ore, così allo scoccare dell'ora 11:00 rimuove 10:59.",
+      "Sotto, tre righe puntate, ognuna una qualsiasi di quindici fonti: frequenza cardiaca, passi e meteo per iniziare, oppure calorie, distanza, piani, minuti di intensità, Body Battery, stress, pressione, altitudine, la prossima alba o il prossimo tramonto, notifiche o batteria. Una fonte con un obiettivo aggiunge una statistica di cinque celle con segni più e meno, e il suo punto diventa verde quando l'obiettivo è raggiunto.",
+      "Sotto un prompt con un cursore fisso, la tua Body Battery si legge come il contesto che ti resta: oppure batteria, passi, piani, minuti di intensità o stress, o niente. Batteria e avvisi stanno in alto.",
+      "Cinque temi: Grafite, Carta (un editor chiaro), Mezzanotte, Mono e Neon. Sugli schermi memory-in-pixel ogni tema è disegnato per 64 colori. La modalità sempre attiva mantiene il minuto aggiunto e il prompt.",
+      "Tieni premuta una riga per aprire il riepilogo dell'orologio per quel dato, il contesto rimasto per quello della sua fonte, l'intestazione di hunk per il calendario. I secondi scorrono al prompt, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "tanke": {
+    "name": "Tanke",
+    "subtitle": "Terminale pensante",
+    "full": [
+      "Tanke è una sessione di terminale al polso, una in cui qualcosa sta sempre pensando. L'ora sta in un riquadro arrotondato con la data, in Red Hat Mono, su un nero caldo con un accento terracotta.",
+      "Sotto, uno spinner ad asterisco gira di un fotogramma al minuto accanto a un verbo: Ponderando, Infondendo, Divagando, Filtrando, ventiquattro in tutto, uno nuovo ogni minuto e mai lo stesso due volte di fila.",
+      "I tuoi obiettivi ne pendono come una lista di cose da fare. Ogni riga è una casella, un'icona, il tuo progresso e l'obiettivo che tiene l'orologio: passi, piani e minuti di intensità settimanali per iniziare, oppure Body Battery, batteria o stress. Un obiettivo raggiunto viene spuntato e barrato; il primo ancora aperto è quello in corso. In fondo, un riquadro di prompt con un cursore fisso, e batteria e avvisi in alto.",
+      "Cinque temi: Argilla, Avorio (un terminale chiaro), Salvia, Iris e Mono. Sugli schermi memory-in-pixel ogni tema è disegnato per 64 colori. La modalità sempre attiva mantiene l'ora e la riga che pensa. Il cursore non lampeggia, perché un lampeggio sveglierebbe l'orologio ogni secondo.",
+      "Tieni premuta una voce per aprire il riepilogo dell'orologio per quel dato, il riquadro intorno all'ora per il calendario. I secondi scorrono al prompt, oppure disattivali."
+    ]
+  },
+  "horisont": {
+    "name": "Horisont",
+    "subtitle": "Orizzonte planetario minimal",
+    "full": [
+      "Horisont mette al polso il bordo di un mondo. Un pianeta scuro sorge dal fondo del quadrante e il suo orizzonte è una sottile linea di luce, che brilla contro lo spazio nero e una manciata di stelle.",
+      "L'orizzonte è il tuo progresso. Si accende da sinistra man mano che i passi si sommano, con il suo bagliore, e un lampo sul bordo che avanza, come il sole che sorge su un pianeta visto dall'orbita. Raggiungi l'obiettivo ed è acceso da un capo all'altro. Può seguire invece piani, minuti di intensità, Body Battery o batteria.",
+      "Sopra, l'ora in Unbounded, un carattere largo e pesante, con la data nella lingua dell'orologio e batteria e avvisi. Sul lato in ombra del pianeta, tre dati scelti tra quindici: frequenza cardiaca, Body Battery e meteo per iniziare, oppure passi, calorie, distanza, piani, minuti di intensità, stress, pressione, altitudine, la prossima alba o il prossimo tramonto, notifiche o batteria.",
+      "Cinque temi: Vuoto, in bianco e nero, e Solare, Ghiaccio, Nebulosa e Marte, che tingono la luce. Sugli schermi memory-in-pixel ogni tema è disegnato per 64 colori. La modalità sempre attiva mantiene l'ora e l'orizzonte acceso come una linea sottilissima.",
+      "Tieni premuto un dato per aprire il riepilogo dell'orologio per quel dato, l'orizzonte per quello del suo obiettivo, la data per il calendario. I secondi stanno piccoli sotto l'ora, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "logg": {
+    "name": "Logg",
+    "subtitle": "Lettura dati da terminale",
+    "full": [
+      "Logg trasforma il tuo orologio in un terminale. Sette righe scendono in una colonna, ognuna con una chiave di tre lettere, un valore e qualcosa per leggerlo: una barra di dieci celle per tutto ciò che ha un obiettivo, che si riempie man mano, oppure le ultime due ore come sparkline per frequenza cardiaca, pressione barometrica e altitudine.",
+      "Ogni riga può mostrare una qualsiasi di quindici fonti: frequenza cardiaca, passi, Body Battery, stress, pressione, altitudine, meteo, calorie, distanza, piani, minuti di intensità, la prossima alba o il prossimo tramonto, notifiche o batteria, oppure niente. Le righe più in basso hanno meno celle, così niente esce dallo schermo rotondo.",
+      "Sopra, l'ora in JetBrains Mono, il giorno nella lingua dell'orologio con la data scritta secondo ISO 8601, e batteria e avvisi. Sotto, un prompt e un cursore a blocco fisso; non lampeggia, perché un lampeggio sveglierebbe l'orologio ogni secondo.",
+      "Cinque temi: Fosforo, Ambra, Ghiaccio, Carta e Plasma. Sugli schermi memory- in-pixel ogni tema è disegnato per 64 colori. La modalità sempre attiva mantiene l'ora e il prompt.",
+      "Tieni premuta una riga per aprire il riepilogo dell'orologio per il suo dato, la data per il calendario. I secondi stanno piccoli accanto all'ora, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "matare": {
+    "name": "Mätare",
+    "subtitle": "Cronografo da cruscotto",
+    "full": [
+      "Mätare è un quadrante analogico costruito come un cruscotto. Tre indicatori stanno a ore nove, tre e sei, ognuno con la sua scala, un arco pieno, un ago, un'icona e il valore: Body Battery, passi e minuti di intensità di serie, oppure stress, punteggio del sonno, tempo di recupero, batteria e piani. Un ago va da vuoto a un obiettivo o a fondo scala, così un indicatore ha sempre un significato.",
+      "Quattro dati stanno negli angoli, un'icona sopra il valore, da venti fonti: frequenza cardiaca, meteo, calorie e la prossima alba o il prossimo tramonto di serie, oppure Body Battery, stress, massima e minima di oggi, respirazione, pulsossimetro, tempo di recupero, VO2 max, punteggio del sonno, passi, distanza, altitudine, pressione, notifiche e altro. Alle dodici, batteria e avvisi, e il giorno e la data in una finestrella, nella lingua dell'orologio. VO2 max e punteggio del sonno compaiono sugli orologi che li rilevano.",
+      "Tieni premuto un indicatore o un dato per aprire il riepilogo dell'orologio per quel dato: Body Battery, stress, frequenza cardiaca, passi, meteo e il resto. Tieni premuta la data per il calendario. Sugli orologi touch con firmware aggiornato.",
+      "Le lancette delle ore e dei minuti hanno un contorno nel colore del quadrante, così si leggono bene sopra un indicatore. Attiva le lancette adattive e una lancetta si apre in un contorno ovunque incroci un indicatore o un dato, così l'ago e il numero sotto restano visibili. Le lancette sono nel colore del tema, nel suo accento o luminescenti, con un contorno marcato per più contrasto, e una lancetta dei secondi può scattare o scorrere. Una minuteria corre lungo il bordo. Ogni cifra è in Saira.",
+      "Cinque temi: Carbonio, Acciaio, Blu navy, Corsa e Artico, un quadrante bianco. Sugli schermi memory-in-pixel ogni tema è disegnato per 64 colori. La modalità sempre attiva mantiene le lancette in contorno, gli indici delle ore e la data."
+    ]
+  },
+  "vecka": {
+    "name": "Vecka",
+    "subtitle": "Grafico dell'attività settimanale",
+    "full": [
+      "Vecka mostra la tua settimana come l'orologio la registra: sette barre, una al giorno, dal primo giorno della settimana impostato sull'orologio. Un giorno che ha raggiunto l'obiettivo è acceso nel colore d'accento, un giorno rimasto sotto è attenuato, e oggi è luminoso e ancora in crescita. Una linea tratteggiata segna l'obiettivo.",
+      "I giorni ancora da venire mostrano in contorno gli stessi giorni della settimana scorsa, così c'è sempre qualcosa da battere. Sotto le barre, l'iniziale di ogni giorno nella lingua dell'orologio; sotto ancora, il totale della settimana, la media giornaliera e quanti giorni hanno raggiunto l'obiettivo finora.",
+      "Sopra il grafico, il dato di oggi rispetto al suo obiettivo, l'ora in Space Grotesk e la data con il numero della settimana ISO. Lungo il bordo, i tuoi minuti di intensità settimanali rispetto all'obiettivo settimanale di Garmin, con il valore dove inizia l'anello. Batteria e avvisi stanno in alto.",
+      "Le barre possono mostrare passi, calorie, distanza, piani o i minuti di intensità del giorno. Cinque temi: Inchiostro, Corallo, Foresta, Mono e Carta. Sugli schermi memory-in-pixel ogni tema è disegnato per 64 colori. La modalità sempre attiva mantiene l'ora e le barre della settimana in contorno.",
+      "Tieni premuto l'anello per aprire il riepilogo dell'orologio per i minuti di intensità, la settimana per quello della sua misura, la data per il calendario. I secondi scorrono accanto all'ora, oppure disattivali."
+    ]
+  },
+  "kurva": {
+    "name": "Kurva",
+    "subtitle": "Grafici della cronologia dei sensori",
+    "full": [
+      "Kurva porta sul quadrante la cronologia che il tuo orologio registra da sempre. Quattro righe, un sensore ciascuna: la sua icona, il valore attuale, le ultime ore disegnate come un'area sotto una linea, e il massimo e il minimo di quel periodo.",
+      "Ogni grafico sta nelle stesse colonne, così tutti e quattro condividono un unico orologio. Una corsa al mattino è un picco nella frequenza cardiaca, un gradino giù nella Body Battery e un vuoto nello stress, uno sopra l'altro. Dove l'orologio non ha misurato nulla il grafico lascia un vuoto; non disegna mai un'ipotesi come uno zero.",
+      "Ogni riga può mostrare frequenza cardiaca, Body Battery, stress, pressione barometrica o altitudine, e i grafici risalgono a 2, 4, 8 o 12 ore. Altri due dati stanno in basso, da quindici fonti: passi, calorie, distanza, piani, minuti di intensità, meteo, la prossima alba o il prossimo tramonto e altro. L'ora è grande in Inter Tight, con la data nella lingua dell'orologio, e batteria e avvisi in alto.",
+      "Ogni sensore mantiene il suo colore in ogni riga. Cinque temi: Notte, Ardesia, Carta, Mono e Ambra. Sugli schermi memory-in-pixel ogni tema è disegnato per 64 colori. La modalità sempre attiva mantiene l'ora e le quattro linee.",
+      "Tieni premuto un grafico per aprire il riepilogo dell'orologio per il suo sensore, un dato per quello della sua fonte, la data per il calendario. I secondi scorrono accanto all'ora, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "klotter": {
+    "name": "Klotter",
+    "subtitle": "Quaderno di scarabocchi",
+    "full": [
+      "Klotter è una pagina di quaderno di scuola sul tuo orologio: carta a quadretti, una riga rossa del margine, uno smile e una spirale scarabocchiati negli angoli, e l'ora scritta grande a pennarello sopra una striscia di evidenziatore giallo.",
+      "Sotto l'ora ci sono tre scarabocchi, tracciati a penna, e sono i tuoi obiettivi. La stella sono i passi, il fulmine la Body Battery e la fiamma i minuti di intensità. Ognuno si colora a pennarello dal basso verso l'alto man mano che il suo obiettivo si riempie, e quando un obiettivo è raggiunto lo scarabocchio diventa un adesivo: colorato pieno, bordato di bianco, con un piccolo scintillio. Il valore di ogni scarabocchio è scritto sotto.",
+      "La data sta sopra l'ora nella lingua dell'orologio, sottolineata a mano, con batteria e avvisi in alto.",
+      "Cinque carte: un quaderno bianco a penna blu, carta kraft marrone a pennarello nero, una lavagna, una cianografia e una pagina di mezzanotte con pennarelli fluo. Ogni scarabocchio può seguire passi, Body Battery, minuti di intensità, piani, batteria o stress.",
+      "Sugli schermi memory-in-pixel il quaderno è carta bianca, che si legge meglio al sole, e ogni pagina è disegnata per 64 colori. La modalità sempre attiva mantiene i contorni dei tre scarabocchi e l'ora.",
+      "Tieni premuto uno scarabocchio per aprire il riepilogo dell'orologio per ciò che misura, la data per il calendario. I secondi scorrono piccoli sotto gli scarabocchi, oppure disattivali."
+    ]
+  },
+  "hoppa": {
+    "name": "Hoppa",
+    "subtitle": "Platform in pixel",
+    "full": [
+      "Hoppa trasforma la tua giornata in un livello di un videogioco in pixel art. La parte bassa del quadrante è il livello: erba sopra i mattoni, una collina, una fila di monete d'oro e una bandiera in fondo. L'eroe è un gatto rosso con una sciarpa rossa, e corre con i tuoi passi. Ogni mattina parte da sinistra; mentre cammini corre verso destra, raccogliendo ogni moneta che incontra, e quando il tuo obiettivo di passi è raggiunto arriva alla bandiera, la bandiera sale e il gatto salta.",
+      "Sopra il livello, cinque cuori sono la tua Body Battery, come la barra della salute di un gioco, e si riempiono mezzo cuore alla volta. L'ora è disegnata in grandi cifre in pixel, costruite blocco per blocco per ogni schermo così restano perfettamente nitide, con un'ombra come il punteggio di un gioco. Due dati stanno sotto, frequenza cardiaca e passi per iniziare, con la data e la batteria in alto.",
+      "Cinque mondi: un prato con il cielo azzurro, una notte stellata, un deserto al tramonto, neve e lava. Il gatto può correre con passi, Body Battery, minuti di intensità, piani o batteria, e i cuori possono mostrare uno qualsiasi di questi tranne lo stress.",
+      "Sugli schermi memory-in-pixel ogni mondo è disegnato in pixel art piatta a 64 colori, come la disegnerebbe una console. La modalità sempre attiva mantiene le cifre come punti, la linea del terreno, il contorno del gatto e l'asta della bandiera.",
+      "Tieni premuto un dato per aprire il riepilogo dell'orologio per quel dato, i cuori per il loro, il livello per la corsa del gatto, la data per il calendario. I secondi scorrono in fondo alla riga della data, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "raket": {
+    "name": "Raket",
+    "subtitle": "Razzo per la luna",
+    "full": [
+      "Raket è una missione spaziale sul tuo orologio. La Terra sta in basso a sinistra del quadrante e la luna in alto a destra, e un piccolo razzo vola tra le due lungo il bordo: quel volo è il tuo obiettivo di passi. Ogni mattina il razzo aspetta sulla rampa di lancio; mentre cammini sale sopra la cima del quadrante, con una scia di sbuffi dietro e un percorso tratteggiato davanti, e quando l'obiettivo è raggiunto atterra accanto alla luna in uno scintillio.",
+      "La luna è disegnata nella sua fase reale, quella di stanotte, calcolata sull'orologio. Stelle e un pianeta con gli anelli riempiono il resto del cielo.",
+      "L'ora è grande in Bungee, un carattere deciso da insegna, con la data sopra nella lingua dell'orologio. Due dati stanno sotto l'ora, frequenza cardiaca e passi per iniziare, poi batteria e avvisi.",
+      "Cinque missioni: blu navy classico con un razzo rosso, verde acqua retrò, viola galassia, ruggine di Marte e nero notte. Il razzo può volare invece con passi, Body Battery, minuti di intensità, piani o batteria.",
+      "Sugli schermi memory-in-pixel ogni missione è disegnata per 64 colori; su AMOLED tutto è antialiasato. La modalità sempre attiva mantiene il percorso davanti come punti, il contorno del razzo, la Terra e la luna, e l'ora.",
+      "Tieni premuto un dato per aprire il riepilogo dell'orologio per quel dato, il cielo per l'obiettivo del volo, la data per il calendario. I secondi scorrono piccoli tra le stelle in basso, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "kompis": {
+    "name": "Kompis",
+    "subtitle": "Cucciolo tascabile",
+    "full": [
+      "Kompis è una piccola creatura rotonda con le orecchie a punta e un germoglio in testa, e vive sul tuo orologio. Sotto ci sono cinque cuori, e sono il tuo obiettivo di passi: ogni cuore è un quinto dell'obiettivo e si riempie mezzo cuore alla volta. Quando tutti e cinque sono pieni, Kompis alza le braccia e cadono i coriandoli.",
+      "Il suo umore è la tua Body Battery. Riposato, saltella con gli occhi strizzati e la bocca spalancata; con il passare della giornata è felice, poi stanco, con le palpebre pesanti, e sfinito, con una goccia di sudore, quando la batteria è bassa. All'ora di dormire va a letto, dall'orario di sonno del tuo profilo Garmin a quello di sveglia, e si sveglia con te. Il sonno si può disattivare.",
+      "L'ora è grande in Baloo 2, un carattere tondo e simpatico, con la data sopra nella lingua dell'orologio. Due dati stanno accanto al cucciolo, frequenza cardiaca e passi per iniziare, con batteria e avvisi in fondo.",
+      "Cinque colori di Kompis: menta, pesca, frutti di bosco, cielo e limone. I cuori possono riempirsi invece con passi, Body Battery, minuti di intensità, piani o batteria, e l'umore può seguire uno qualsiasi di questi tranne lo stress.",
+      "Sugli schermi memory-in-pixel Kompis è disegnato per 64 colori; su AMOLED è antialiasato. La modalità sempre attiva mostra Kompis addormentato, in un sottile contorno, e l'ora.",
+      "Tieni premuto un dato per aprire il riepilogo dell'orologio per quel dato, il cucciolo per quello del suo umore, i cuori per il loro, la data per il calendario. I secondi scorrono in fondo alla riga della data, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "parla": {
+    "name": "Pärla",
+    "subtitle": "Perla e oro rosa",
+    "full": [
+      "Pärla è un orologio elegante per tutti i giorni. Il quadrante è madreperla, la sua iridescenza stesa in morbidi anelli di perla, cipria e azzurro pallido; intorno corre un anello delle ore e una minuteria in oro rosa, con una pietra taglio brillante a ogni ora e una corona di tre alle dodici. Le lancette sono dauphine, sfaccettate lungo il dorso così che un lato prende la luce e l'altro cade in ombra, e girano su una perla incastonata in oro rosa.",
+      "A ore sei un contatore porta una perla lungo il suo arco verso il tuo obiettivo di passi, con il conteggio al centro; a ore tre una piccola finestrella mostra la frequenza cardiaca, o qualsiasi dato tu scelga. Sotto la corona, la data nella lingua dell'orologio, con batteria e avvisi.",
+      "Cinque quadranti: perla, cipria, champagne con oro giallo, una perla nera di Tahiti e zaffiro con oro bianco. Il contatore può seguire passi, Body Battery, stress, minuti di intensità, piani o batteria.",
+      "Le scritte sono in Cormorant Garamond. Sugli schermi memory-in-pixel i quadranti chiari sono disegnati come nitide lastre bianche, rosa e crema che si leggono meglio al sole; su AMOLED la madreperla e le lancette sono antialiasate. La modalità sempre attiva mantiene le lancette e una pietra a ogni quarto.",
+      "Tieni premuta la finestrella per aprire il riepilogo dell'orologio per il suo dato, il contatore per quello del suo obiettivo, la data per il calendario. Una lancetta dei secondi nel colore d'accento, oppure disattivala. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "stjarna": {
+    "name": "Stjärna",
+    "subtitle": "Stelle dello zodiaco",
+    "full": [
+      "Stjärna mette il tuo segno nel cielo. La sua costellazione è disegnata dalle stelle vere, ognuna nella sua posizione e luminosità reali, sotto un sottile anello dello zodiaco con il dodicesimo del tuo segno messo in evidenza. Il segno segue il sole durante l'anno, oppure tieni il tuo tutto l'anno nelle impostazioni.",
+      "Le stelle sono la tua Body Battery. Riposato, tutta la figura è accesa e unita in oro; man mano che la giornata consuma la tua energia le stelle si affievoliscono una alla volta, nell'ordine in cui si disegna la figura. Le stelle più luminose sono le più grandi, e la più luminosa di tutte ha un piccolo scintillio.",
+      "Accanto alla data, nella lingua dell'orologio, la luna mostra la sua fase reale, da una falce alla luna piena e ritorno. Batteria e avvisi stanno sotto, l'ora in Josefin Sans, e due dati in fondo: frequenza cardiaca e passi per iniziare.",
+      "Cinque cieli: blu notte e oro, ametista, palissandro, onice e argento, e laguna. Le stelle possono seguire Body Battery, passi, stress, minuti di intensità, piani o batteria.",
+      "Sugli schermi memory-in-pixel ogni cielo è disegnato per 64 colori; su AMOLED le stelle sono antialiasate. La modalità sempre attiva mantiene le linee della figura, le stelle accese, il bordo illuminato della luna e l'ora.",
+      "Tieni premuto un dato per aprire il riepilogo dell'orologio per quel dato, la costellazione per quello del suo indicatore, la data per il calendario. I secondi stanno piccoli accanto all'ora, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "fjaril": {
+    "name": "Fjäril",
+    "subtitle": "Farfalla",
+    "full": [
+      "Fjäril è una farfalla sopra l'ora, con le ali fatte come una vetrata: tessere di colore tra venature scure, puntini bianchi lungo il margine. Le tessere sono la tua Body Battery. Riposato, ogni tessera è accesa; man mano che la giornata consuma la tua energia si spengono dalle punte delle ali anteriori in giù, uguali su entrambi i lati, finché brilla solo il vetro vicino al corpo. Lo leggi a colpo d'occhio.",
+      "L'ora è grande in Quicksand, un carattere morbido e arrotondato. Sotto, la data nella lingua dell'orologio condivide una riga con batteria e avvisi, e tre dati stanno in fondo: frequenza cardiaca, passi e stress per iniziare.",
+      "Cinque farfalle: l'arancione della monarca, il blu della morpho, rosa, lilla e il citrino del macaone, ognuna su un quadrante scuro di un colore che l'ala non ha. Le ali possono seguire Body Battery, passi, stress, minuti di intensità, piani o batteria.",
+      "Sugli schermi memory-in-pixel ogni farfalla è disegnata per 64 colori; su AMOLED ogni tessera è antialiasata. La modalità sempre attiva mantiene il contorno delle ali, le tessere accese come sottili contorni e l'ora."
+    ]
+  },
+  "krans": {
+    "name": "Krans",
+    "subtitle": "Ghirlanda di fiori",
+    "full": [
+      "Krans è una ghirlanda di fiori lungo il bordo dell'orologio. Un tralcio di foglie porta dodici fiori, uno per ogni ora: rose alle dodici, alle tre, alle sei e alle nove, boccioli più piccoli tra loro. Sono il tuo obiettivo di passi. Ogni mattina la ghirlanda parte in boccio; mentre cammini i fiori si aprono uno dopo l'altro, in senso orario dalle dodici, e la ghirlanda è in piena fioritura quando l'obiettivo è raggiunto.",
+      "Dentro la ghirlanda l'ora è grande in Bodoni Moda, un classico serif ad alto contrasto, con la data sopra nella lingua dell'orologio. Tre dati stanno sotto l'ora, frequenza cardiaca, passi e Body Battery per iniziare, con batteria e avvisi in fondo.",
+      "Cinque ghirlande: rose cipria su prugna, rosa antico su avorio, rose bianche su salvia, champagne su blu notte e un vivace mix di fiori di campo. I fiori possono seguire invece i passi, la Body Battery, i minuti di intensità, i piani o la batteria.",
+      "Sugli schermi memory-in-pixel ogni ghirlanda è disegnata per 64 colori, e l'avorio diventa un quadrante bianco che si legge meglio al sole; su AMOLED ogni petalo è antialiasato. La modalità sempre attiva mantiene il tralcio, i fiori aperti come sottili contorni e l'ora.",
+      "Tieni premuto un dato per aprire il riepilogo dell'orologio per quel dato, la ghirlanda per quello del suo indicatore, la data per il calendario. I secondi scorrono in fondo alla riga della data, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "lov": {
+    "name": "Löv",
+    "subtitle": "Foglie d'autunno",
+    "full": [
+      "Löv è un ramo d'acero attraverso un cielo d'autunno. Le sue foglie sono la tua Body Battery: riposato, tutte e diciotto sono sul ramo, rosse, arancioni e dorate; man mano che la giornata consuma la tua energia cadono dalle punte verso l'interno, e ogni foglia che cade scende volteggiando sulla collina sotto. Lo leggi a colpo d'occhio, e una piccola legenda sotto dice cosa misurano le foglie e a che punto sono.",
+      "La collina tiene quattro dati: stress, frequenza cardiaca, meteo e la prossima alba o il prossimo tramonto, ognuno segnato dalla sua icona. Batteria e avvisi stanno con la data in alto.",
+      "Il cielo segue il sole: un'alba nebbiosa, un giorno azzurro e frizzante, un crepuscolo ambrato e una notte stellata, quando le foglie prendono i colori della luna. Oppure tieni uno di cinque cieli: alba, giorno, crepuscolo, notte o dorato.",
+      "Le cifre sono in Fraunces, un serif morbido. Sugli schermi memory-in-pixel ogni cielo è disegnato per 64 colori, con un retino fatto a mano; su AMOLED è una sfumatura morbida. La modalità sempre attiva mantiene il ramo, le sue foglie e l'ora.",
+      "Tieni premuto un dato per aprire il riepilogo dell'orologio per quel dato, la legenda per quello dell'indicatore, la data per il calendario. I secondi scorrono in fondo alla legenda, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "natt": {
+    "name": "Natt",
+    "subtitle": "Luna gotica",
+    "full": [
+      "Natt è un quadrante gotico per le lunghe notti. Lancette color osso scorrono su un quadrante scuro: una lancetta delle ore corta con una picca, una lancetta dei minuti lunga con un pipistrello come contrappeso. XII, III e IX sono in caratteri gotici, le altre ore sono sottili indici a lancetta, e a ore sei una finestra a mezzaluna mostra il cielo notturno con la luna nella sua fase reale, da una falce alla luna piena e ritorno.",
+      "Sotto le XII la data, nella lingua dell'orologio, con batteria e avvisi; sopra la finestra un dato, la frequenza cardiaca per iniziare.",
+      "Cinque quadranti: osso su nero, sangue, brace, ametista e argento. È nato per Halloween, ma è fatto per essere indossato molto più a lungo.",
+      "Le cifre e la data sono in Grenze Gotisch, un carattere gotico. Sugli schermi memory-in-pixel ogni quadrante è disegnato per 64 colori; su AMOLED le lancette sono antialiasate. La modalità sempre attiva mantiene le lancette, tre tacche e il bordo illuminato della luna.",
+      "Tieni premuto il dato per aprire il riepilogo dell'orologio per quel dato, la data per il calendario. Una lancetta dei secondi nel colore d'accento, oppure disattivala. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "lykt": {
+    "name": "Lykt",
+    "subtitle": "Zucca intagliata",
+    "full": [
+      "Lykt è una zucca intagliata, e l'orologio è la luce dentro. L'ora è il ghigno: le cifre sono i denti lasciati interi, scuri contro la candela. Ogni occhio tiene un dato, frequenza cardiaca e passi per iniziare, e il naso è la tua Body Battery: la candela lo riempie dalla base, un naso buio quando sei esausto e un naso pieno di luce quando sei riposato. Batteria e avvisi stanno sotto il coperchio; la data è sulla buccia sotto il ghigno.",
+      "Cinque zucche: arancione classica, una zucca fantasma bianca con un bagliore blu freddo, rosso brace, verde veleno e una zucca nera di mezzanotte con un bagliore arancione.",
+      "Le cifre sono in Oswald, alte e strette come denti intagliati. Sugli schermi memory-in-pixel ogni zucca è disegnata per 64 colori; su AMOLED il bagliore è più intenso al centro. La modalità sempre attiva mantiene i contorni intagliati, il livello della candela e l'ora, accesi nel buio."
+    ]
+  },
+  "dimma": {
+    "name": "Dimma",
+    "subtitle": "Cimitero di Halloween",
+    "full": [
+      "Dimma è un cimitero su una collina di notte. Una quercia spoglia si piega su sette lapidi, i pipistrelli attraversano la luna e un banco di nebbia copre le tombe. La nebbia è la tua Body Battery: quando sei scarico inghiotte ogni lapide; man mano che recuperi si alza, finché resta ai piedi della collina e ogni tomba si vede bene. Una piccola legenda sotto dice cosa misura la nebbia e quanto si è alzata.",
+      "Il primo piano tiene quattro dati: passi, frequenza cardiaca, meteo e la prossima alba o il prossimo tramonto, ognuno segnato dalla sua icona. Batteria e avvisi stanno con la data in alto.",
+      "Scegli la notte: una notte limpida, una luna di sangue, l'ora delle streghe, la foschia o l'ora blu. La luna mostra la sua fase reale.",
+      "Le cifre sono in Creepster, le lettere grondanti di un vecchio manifesto horror. Sugli schermi memory-in-pixel ogni cielo è disegnato per 64 colori, con un retino fatto a mano; su AMOLED è una sfumatura morbida. La modalità sempre attiva mantiene l'ora, la collina, il bordo illuminato della luna e le cime della nebbia."
+    ]
+  },
+  "pumpa": {
+    "name": "Pumpa",
+    "subtitle": "Campo di zucche di Halloween",
+    "full": [
+      "Pumpa è un campo di zucche alla fine di una giornata d'ottobre. Sette zucche stanno nel campo sotto uno steccato storto e una luna del raccolto, e si accendono una dopo l'altra man mano che i passi si sommano: una faccia intagliata per ogni settimo del tuo obiettivo, e una pozza di luce di candela sulla terra sotto. Una piccola legenda sotto dice cosa contano le lanterne e a che punto sei.",
+      "Il primo piano tiene quattro dati: frequenza cardiaca, Body Battery, meteo e la prossima alba o il prossimo tramonto, ognuno segnato dalla sua icona. Batteria e avvisi stanno con la data in alto.",
+      "Tieni il campo al crepuscolo, oppure scegli brina, oro del raccolto, notte o una luna di sangue, o lascia che il cielo segua il sole. La luna mostra la sua fase reale.",
+      "Le cifre sono in Jolly Lodger, un carattere giocoso e spettrale. Sugli schermi memory-in-pixel ogni cielo è disegnato per 64 colori, con un retino fatto a mano; su AMOLED è una sfumatura morbida. La modalità sempre attiva mantiene l'ora, una linea di terreno e le facce accese, che brillano nel buio."
+    ]
+  },
+  "eng": {
+    "name": "Eng",
+    "subtitle": "",
+    "full": [
+      "Eng è un prato di lavanda che corre fino alle colline. La sua fioritura è la tua Body Battery: riposato, i filari sono in fiore fino all'orizzonte; man mano che la giornata consuma la tua energia il colore torna giù per il campo e i filari tornano in boccio. Lo leggi come leggi un campo vero, e una piccola legenda sotto dice cosa misura la fioritura e a che punto è.",
+      "Il primo piano tiene quattro dati per una giornata più calma: stress, frequenza cardiaca, meteo e la prossima alba o il prossimo tramonto, ognuno segnato dalla sua icona. Batteria e avvisi stanno con la data in alto.",
+      "Il cielo segue il sole: alba dopo il sorgere, un giorno azzurro limpido, l'ora lavanda prima del tramonto e una notte con le lucciole sul campo. Oppure tieni uno di cinque cieli: alba, giorno, crepuscolo, notte o dorato.",
+      "Le cifre sono in Fraunces, un serif morbido. Sugli schermi memory-in-pixel ogni cielo è disegnato per 64 colori, con un retino fatto a mano; su AMOLED è una sfumatura morbida. La modalità sempre attiva mantiene il crinale del prato, il bordo della fioritura e l'ora.",
+      "Tieni premuto un dato per aprire il riepilogo dell'orologio per quel dato, la legenda per quello dell'indicatore, la data per il calendario. I secondi scorrono in fondo alla legenda, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "blom": {
+    "name": "Blom",
+    "subtitle": "",
+    "full": [
+      "Blom è un ramo di ciliegio in fiore attraverso il cielo. I suoi fiori sono la tua Body Battery: riposato, sono aperti tutti e diciotto; man mano che la giornata consuma la tua energia si chiudono dalle punte verso l'interno, e ognuno che si chiude lascia cadere un petalo sull'erba. Lo leggi a colpo d'occhio, e una piccola legenda sotto dice cosa misura la fioritura e a che punto è.",
+      "Il giardino tiene quattro dati per una giornata più calma: stress, frequenza cardiaca, meteo e la prossima alba o il prossimo tramonto, ognuno segnato dalla sua icona. Batteria e avvisi stanno con la data in alto.",
+      "Il cielo segue il sole: alba dopo il sorgere, un giorno azzurro tenue, crepuscolo prima del tramonto e poi una notte stellata, quando i fiori diventano d'argento. Oppure tieni uno di cinque cieli: alba, giorno, crepuscolo, notte o cipria.",
+      "Le cifre sono in Fraunces, un serif morbido. Sugli schermi memory-in-pixel ogni cielo è disegnato per 64 colori, con un retino fatto a mano; su AMOLED è una sfumatura morbida. La modalità sempre attiva mantiene il ramo, i suoi fiori aperti e l'ora.",
+      "Tieni premuto un dato per aprire il riepilogo dell'orologio per quel dato, la legenda per quello dell'indicatore, la data per il calendario. I secondi scorrono in fondo alla legenda, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "hav": {
+    "name": "Hav",
+    "subtitle": "",
+    "full": [
+      "Hav è una caletta al limite del giorno. La marea sulla spiaggia è la tua Body Battery: dopo una buona notte il mare arriva ai piedi della duna; man mano che la giornata consuma la tua energia, l'acqua si ritira e la sabbia si allarga. La leggi come leggi una riva vera, e una piccola legenda sotto dice cosa misura la marea e quanto è salita.",
+      "La duna tiene quattro dati per una giornata più calma: stress, frequenza cardiaca, meteo e la prossima alba o il prossimo tramonto, ognuno segnato dalla sua icona. Batteria e avvisi stanno con la data in alto.",
+      "Il cielo segue il sole: alba dopo il sorgere, un giorno azzurro tenue, crepuscolo prima del tramonto e, dopo il buio, Måne, la luna sull'acqua nella sua fase reale con la scia di luce sul mare. Oppure tieni uno di cinque cieli: alba, giorno, crepuscolo, Måne o perla.",
+      "Le cifre sono in Fraunces, un serif morbido. Sugli schermi memory-in-pixel ogni cielo è disegnato per 64 colori, con un retino fatto a mano; su AMOLED è una sfumatura morbida. La modalità sempre attiva mantiene l'orizzonte, la linea della marea e l'ora.",
+      "Tieni premuto un dato per aprire il riepilogo dell'orologio per quel dato, la legenda per quello dell'indicatore, la data per il calendario. I secondi scorrono in fondo alla legenda, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "fjell": {
+    "name": "Fjell",
+    "subtitle": "",
+    "full": [
+      "A colazione le vette sono roccia nuda. Man mano che il tuo obiettivo di passi si riempie, la neve scende lungo la montagna; un obiettivo raggiunto è una catena tutta innevata. Lo leggi come leggi una montagna vera, da quanto in basso arriva il bianco, e una piccola legenda sotto dice cosa misura la neve e a che punto sei.",
+      "La valle tiene i quattro dati che chiede una giornata all'aperto: altitudine, frequenza cardiaca, meteo e la prossima alba o il prossimo tramonto, ognuno segnato dalla sua icona. Batteria e avvisi stanno con la data in alto.",
+      "Il cielo segue il sole: alba dopo il sorgere, azzurro durante il giorno, crepuscolo prima del tramonto e una notte stellata dopo. Oppure tieni uno di sei cieli: crepuscolo, alba, giorno, notte, enrosadira o un cielo artico con l'aurora bassa sulla catena.",
+      "Sugli schermi memory-in-pixel ogni cielo è disegnato per 64 colori, con un retino fatto a mano invece di arrotondare; su AMOLED è una sfumatura morbida. La modalità sempre attiva mantiene il profilo dei monti e l'ora, con il 3% dei pixel accesi.",
+      "Tieni premuto un dato per aprire il riepilogo dell'orologio per quel dato, la legenda per quello dell'indicatore, la data per il calendario. I secondi scorrono in fondo alla legenda, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "klar": {
+    "name": "Klar",
+    "subtitle": "",
+    "full": [
+      "Klar impila le ore sopra i minuti, così le cifre possono essere alte il doppio di quanto permetta una riga sola: cifre grosse e nitide che leggi a un braccio di distanza, in movimento, senza occhiali.",
+      "Colora i minuti in uno di cinque colori, oppure tieni tutto in un colore. Ai lati dell'ora, un dato per parte, segnato dalla sua icona: passi e frequenza cardiaca per iniziare, oppure una qualsiasi di quindici fonti. Batteria e avvisi in alto, data e meteo in basso, e nient'altro.",
+      "Sugli schermi memory-in-pixel Klar è nero su bianco: uno schermo riflettente si legge meglio con uno sfondo chiaro alla luce del giorno. Su AMOLED è bianco su nero. La modalità sempre attiva mantiene le cifre impilate, più piccole, con il 4% dei pixel accesi.",
+      "Tieni premuto un dato laterale per aprire il riepilogo dell'orologio per quel dato, la data per il calendario. I secondi scorrono in fondo alla riga della data, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "artefact": {
+    "name": "Artefact",
+    "subtitle": "",
+    "full": [
+      "Quattro tubi nixie nei loro zoccoli in una cassa di ottone lavorata. Ogni cifra è un filo piegato che brilla dal catodo verso l'esterno, con i nove catodi spenti visibili dietro, proprio come dentro un tubo vero. I due punti al neon tra loro pulsano ogni secondo.",
+      "Sotto i tubi, un vero VU meter: una scala retroilluminata da 0 a 100 con una zona rossa e un ago che segue il tuo obiettivo di passi, oppure Body Battery, stress, piani, minuti di intensità o batteria. Ai lati, quattro spie al neon si accendono quando il telefono è connesso, ci sono messaggi in attesa, è impostata una sveglia o è attivo il non disturbare. La data è incisa su una targhetta di ottone sopra i tubi, e una seconda targhetta sotto porta il dato che preferisci: batteria, frequenza cardiaca, meteo, tramonto e altro.",
+      "Cinque colori dei tubi (arancione neon, verde occhio magico, blu argon, viola e bianco) e tre finiture della cassa (ottone, acciaio brunito e rame), da scegliere in modo indipendente. La modalità sempre attiva mantiene le cifre come filo sottile, con l'1% dei pixel accesi.",
+      "Tieni premuto lo strumento per aprire il riepilogo dell'orologio per la sua fonte, la targhetta inferiore per il suo dato, la data per il calendario. I secondi sono incisi sulla targhetta inferiore, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "ringar": {
+    "name": "Ringar",
+    "subtitle": "",
+    "full": [
+      "Tre anelli obiettivo incorniciano un'ora grande e calma. Scegli cosa segue ogni anello: passi, minuti di intensità, piani, Body Battery, stress o batteria. Ogni anello ha la sua etichetta: icona e valore stanno nel colore dell'anello, appena sotto l'ora, così sai sempre quale anello è quale.",
+      "Sopra l'ora: la data e il meteo dal telefono. Sotto: la batteria, le notifiche, il non disturbare e la sveglia, mostrati solo quando hanno qualcosa da dire.",
+      "Otto temi di colori, dalla calma nordica al vivace. La modalità sempre attiva è progettata per lo schermo, non solo attenuata: i tuoi progressi e l'ora, con l'8% dei pixel accesi.",
+      "Le cifre sono disegnate per ogni dimensione di schermo, mai ridimensionate.",
+      "La legenda degli anelli può mostrare dati propri: frequenza cardiaca, meteo, punteggio del sonno o qualsiasi altra fonte, così aggiunge informazioni invece di ripetere gli anelli. Tieni premuto un anello o un dato della legenda per aprire il riepilogo dell'orologio, la data per il calendario. I secondi stanno piccoli sotto l'ora, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "datum": {
+    "name": "Datum",
+    "subtitle": "",
+    "full": [
+      "Tutto a colpo d'occhio, niente di decorativo. Un'ora grande e condensata, le ore in bianco e i minuti nel tuo colore d'accento, con la data e i secondi in tempo reale sotto. Intorno, sei campi dati a tua scelta, ognuno segnato dalla sua icona, e due indicatori sulla lunetta per passi, batteria, Body Battery, piani, minuti di intensità o stress, con i valori sotto ogni arco.",
+      "Tra le fonti ci sono il meteo e la prossima alba o il prossimo tramonto. Batteria, notifiche, non disturbare e sveglia stanno in basso, mostrati solo quando hanno qualcosa da dire.",
+      "Sei colori d'accento. La modalità sempre attiva mantiene l'ora e la data.",
+      "Le cifre sono disegnate per ogni dimensione di schermo, mai ridimensionate.",
+      "Tieni premuto un campo o un indicatore della lunetta per aprire il riepilogo dell'orologio per quel dato, la data per il calendario. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "blackline": {
+    "name": "Blackline",
+    "subtitle": "",
+    "full": [
+      "Un quadrante da strumento. Un nastro della direzione in tempo reale in alto, un display a sette segmenti in stile stencil ricavato da poligoni e sei campi dati a tua scelta, ognuno segnato dalla sua icona: frequenza cardiaca, passi, altitudine, Body Battery, meteo, la prossima alba o il prossimo tramonto e altro ancora.",
+      "Lungo il bordo inferiore, un arco della luce va dall'alba al tramonto e si riempie con il passare del giorno, così vedi a colpo d'occhio quanta luce resta. Sotto i dati: la batteria, le notifiche, il non disturbare e la sveglia, mostrati solo quando hanno qualcosa da dire.",
+      "I segmenti spenti sono disegnati, appena visibili, come li mostra un vero display. Sei colori del display, tra cui il verde visione notturna e un rosso che preserva la visione notturna. La modalità sempre attiva mantiene solo il display e la data.",
+      "Ogni colore del display è regolato a mano per gli schermi memory-in-pixel e reso a colori pieni su AMOLED.",
+      "Tieni premuto un campo per aprire il riepilogo dell'orologio per quel dato, la data per il calendario. I secondi scorrono dopo la data, oppure disattivali. Le temperature seguono l'orologio, oppure scegli °C o °F."
+    ]
+  },
+  "atelier": {
+    "name": "Atelier",
+    "subtitle": "",
+    "full": [
+      "Un orologio elegante, disegnato per uno smartwatch. Quadrante guilloché a raggiera, indici applicati rodiati su una minuteria a binario, lancette dauphine lucidate e tre contatori: i tuoi passi (o qualsiasi obiettivo) a ore nove, una riserva di carica per la batteria a ore tre e i piccoli secondi a ore sei.",
+      "Sotto le dodici, il tuo nome o le tue iniziali incisi in maiuscolo e una finestrella giorno-data con cornice smussata.",
+      "Sei colori del quadrante: blu notte, grigio ardesia, champagne, verde corsa, salmone e ghiacciaio. La modalità sempre attiva mantiene le lancette e quattro indici, in contorno, con l'1% dei pixel accesi.",
+      "Sugli schermi memory-in-pixel ogni colore è scelto tra i 64 che lo schermo può mostrare; su AMOLED è a colori pieni.",
+      "Tieni premuto un contatore per aprire il riepilogo dell'orologio per ciò che misura, la finestrella della data per il calendario."
+    ]
+  },
+  "one-more-step": {
+    "name": "One More Step",
+    "subtitle": "Traguardi: il giro del mondo",
+    "full": [
+      "One More Step somma la distanza che il tuo orologio misura ogni giorno in un viaggio intorno all'equatore: 40.075 km (24.901 mi). Il viaggio inizia la prima volta che la apri. Quando un giro è finito comincia il successivo; niente viene mai azzerato.",
+      "Il riepilogo mostra il tuo giro e a che punto sei. L'app mostra la distanza rimanente come un anello lungo il bordo dello schermo, e il mese in cui completerai il giro al tuo ritmo attuale. I dettagli riportano il totale, i giri, la giornata media, la data di partenza e quanto manca al prossimo traguardo.",
+      "Lungo la strada ci sono 33 lunghezze famose, dal Golden Gate Bridge (2,7 km) il primo giorno al Canale di Suez, al Cammino di Santiago, al Nilo e a tutta la Grande Muraglia cinese, fino alle ventimila leghe di Verne: due volte il giro del mondo. Quando il tuo totale ne raggiunge una, l'app si apre su una scheda che lo annuncia: \"Hai percorso il Canale di Suez, 193 km\". Dai dettagli, scorri in alto o premi giù per l'elenco completo: ciò che hai fatto, cosa viene dopo e quanto manca, e cosa c'è ancora davanti.",
+      "Conta la distanza giornaliera che l'orologio già calcola dai tuoi passi. Le camminate e le corse registrate ne fanno parte, quindi niente conta due volte, e conta solo ciò che percorri dalla prima apertura. L'arrivo richiede prima un giorno intero; fino ad allora dice \"Arrivo: calcolo\" e quante ore mancano. La distanza è in km o mi, come è impostato l'orologio.",
+      "L'orologio conserva 7 giorni di cronologia e l'app la legge ogni 6 ore. Se non può farlo per più di 7 giorni (orologio spento), quei giorni sono persi; niente viene stimato al loro posto. Contano solo i passi: bici e nuoto no. Rimuovere l'app cancella il viaggio; le app dell'orologio non hanno backup. Tutto resta sull'orologio: nessun account, nessuna app sul telefono, niente viene inviato da nessuna parte.",
+      "Un giro a 7 km al giorno è circa 15 anni. L'anello è la visione lunga, i traguardi le settimane e i mesi in mezzo, e la camminata di oggi quella breve.",
+      "In italiano, inglese, polacco, tedesco, francese, spagnolo, olandese, portoghese, slovacco e ceco."
+    ]
+  },
+  "stargazing": {
+    "name": "Stargazing Forecast",
+    "subtitle": "Cielo notturno",
+    "full": [
+      "Stargazing Forecast risponde a una domanda: stanotte vale la pena uscire, e quando? Il meteo di Garmin dice \"parzialmente nuvoloso\". A chi osserva serve di più: è buio, la Luna è d'intralcio, l'aria è limpida e stabile, e in quali ore tutto questo coincide?",
+      "Il riepilogo dà il verdetto per il tuo tipo di cielo preferito: Vai, Forse o Resta in casa, e la finestra migliore. È il verdetto che l'app ha calcolato l'ultima volta, e dice quando se sono passate ore: aprire l'app lo aggiorna. Apri l'app per stanotte e le prossime due notti, ognuna con tre verdetti affiancati:",
+      "Cielo profondo: galassie, nebulose e campi stellari. Vuole il buio astronomico, la Luna tramontata o sottile, un cielo sereno e trasparente. Via Lattea: le stesse condizioni, e il nucleo galattico sopra l'orizzonte. Pianeti: aria limpida e stabile. La Luna conta poco, quindi anche una notte luminosa può essere buona.",
+      "Una linea del tempo va dal crepuscolo all'alba con le nuvole, la Luna e le ore buie, e la finestra migliore di ogni modalità segnata sopra. La pagina dei dettagli aggiunge il sorgere e il tramonto della Luna e la sua fase, la temperatura, il vento e se è probabile la rugiada sulle tue ottiche.",
+      "Il cielo è calcolato sull'orologio: il Sole, la Luna e il nucleo della Via Lattea per ovunque tu sia. Il meteo viene da un modello di previsione per il tuo luogo, scaricato tramite il telefono ogni tre ore, e l'ultima previsione resta salvata, così l'app non è mai vuota una volta caricata.",
+      "È prudente per scelta. Un \"Vai\" richiede almeno un'ora di buone condizioni; quando la previsione manca, è vecchia o incompleta, l'app lo dice e non tira a indovinare. Sole di mezzanotte, notte polare e un nucleo della Via Lattea che non sorge mai sono indicati per quello che sono.",
+      "Serve una connessione al telefono per la previsione. Prende la tua posizione dal meteo dell'orologio e, quando l'orologio non conosce nessun luogo, da un solo fix GPS. Niente pubblicità, niente abbonamento. In italiano, inglese, polacco, tedesco, francese, spagnolo, olandese, portoghese, slovacco e ceco.",
+      "Previsione: 7Timer!"
+    ]
+  },
+  "ring-match": {
+    "name": "Gem Crush",
+    "subtitle": "Gioco rompicapo",
+    "full": [
+      "Gem Crush è un rompicapo match-three fatto per un orologio rotondo. Le gemme stanno su quattro anelli intorno al centro del quadrante, e una mossa gira un anello, con il dito o con i pulsanti. Allinea tre gemme uguali, intorno a un anello o in linea retta dal centro, e spariscono; le gemme esterne cadono dentro, e ogni cascata vale più della precedente. Quattro in fila lasciano una gemma che svuota tutto il suo raggio, cinque una gemma che svuota tutto il suo anello.",
+      "Sono i tuoi passi a dargli energia. Ogni 1.000 passi che fai oggi sono una carica, fino a dieci al giorno, e una carica svuota un intero anello in un colpo. La camminata fino alla fermata dell'autobus rende più divertente l'attesa.",
+      "Un tabellone al giorno, uguale per tutti, con 25 mosse e una serie da mantenere. Accanto, il gioco libero, 30 mosse a round, quanti round vuoi. Un round dura un minuto o due e si ferma quando ti fermi tu: chiudilo a metà mossa e lo ritrovi al ritorno.",
+      "Niente vite, niente energia, niente pubblicità, niente da comprare dentro. Cinque forme di gemme, ognuna del suo colore, così il tabellone si legge al sole e anche per chi è daltonico. Una vibrazione quando una cascata si concatena. In italiano, inglese, polacco, tedesco, francese, spagnolo, olandese, portoghese, slovacco e ceco."
+    ]
+  }
+}

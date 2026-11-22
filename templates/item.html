@@ -1,4 +1,4 @@
-<a class="back" href="$section_href"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>All $section</a>
+<a class="back" href="$section_href"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>$all</a>
 <section class="face-head">
   $icon
   <div class="face-id">
@@ -6,15 +6,15 @@
     $subtitle
     <p class="cat">$label</p>
   </div>
-  <a class="store" href="$store_url">Get it on the Connect IQ Store</a>
+  <a class="store" href="$store_url">$store</a>
 </section>
-<section class="gallery" aria-roledescription="carousel" aria-label="Pictures of $name">
+<section class="gallery" aria-roledescription="carousel" aria-label="$pictures_of">
   <div class="stage">
     <ul class="slides" role="list">
 $slides
     </ul>
-    <button class="arrow prev" type="button" aria-label="Previous picture" hidden>‹</button>
-    <button class="arrow next" type="button" aria-label="Next picture" hidden>›</button>
+    <button class="arrow prev" type="button" aria-label="$prev" hidden>‹</button>
+    <button class="arrow next" type="button" aria-label="$next" hidden>›</button>
     <span class="count" hidden>1 / $count</span>
   </div>
   <p class="caption" aria-live="polite">$caption</p>

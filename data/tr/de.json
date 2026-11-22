@@ -1,0 +1,701 @@
+{
+  "julnatt": {
+    "name": "Julnatt",
+    "subtitle": "Weihnachtsbaum, Countdown, große Zahlen",
+    "full": [
+      "Weihnachts-Zifferblatt mit großen Zahlen: ein verschneiter Marktplatz an Heiligabend, ein riesiger Weihnachtsbaum mit goldenen Lichtern, ringsum alte Häuser mit warm erleuchteten Fenstern, davor eine große, gut lesbare Uhrzeit, das Datum und die Daten, die Sie jeden Tag ansehen.",
+      "Die Uhrzeit steht in einer Zeile, so breit, wie das runde Display es erlaubt, in schmalen Ziffern, die man auf einen Blick liest: die Stunden weiß, Doppelpunkt und Minuten in der Farbe Ihres Themas. Jede Ziffer hat eine dunkle Kontur und bleibt so auf Lichtern und Schnee scharf.",
+      "Über der Uhrzeit das Datum in der Sprache Ihrer Uhr mit den Sekunden daneben, ganz oben Akku und Hinweise. Darunter zwei Werte in abgerundeten Feldern: zu Beginn ein Countdown bis Weihnachten, ein kleines Geschenk und die verbleibenden Tage, und Ihre Herzfrequenz. Oder wählen Sie das Wetter, Tageshöchst- und -tiefstwert, Schritte, Body Battery, Stress, Kalorien, Distanz, Etagen, Sonnenauf- und -untergang, Höhe, VO2max, Schlafwert und mehr, zwanzig Quellen insgesamt. Ein kurzer Balken füllt sich mit Ihrem Schrittziel, oder Etagen, Intensitätsminuten, Body Battery, Akku oder Stress.",
+      "Vier Themen aus der Nacht: Gold, Rot, Grün und Eis, oder schalten Sie das Bild für ein schlichtes schwarzes Zifferblatt aus. 12 oder 24 Stunden oder wie die Uhr eingestellt ist. Auf MIP-Displays laufen die Sekunden auch bei gesenktem Handgelenk weiter; der Always-on-Modus zeigt die Uhrzeit in gleicher Größe in einem leichten Schnitt, auf Schwarz.",
+      "Halten Sie einen Wert oder den Zielbalken gedrückt, um seinen Glance auf der Uhr zu öffnen, das Datum oder den Countdown für den Kalender. Temperaturen wie auf der Uhr, oder wählen Sie °C oder °F."
+    ]
+  },
+  "snemand": {
+    "name": "Snemand",
+    "subtitle": "Schneemann, Weihnachts-Countdown",
+    "full": [
+      "Schneemann-Zifferblatt für Winter und Weihnachten: eine Schneemann-Familie steht unten rechts auf Ihrem Zifferblatt im Schnee, ein großer Schneemann mit Zylinder zwischen zwei kleinen mit roten Strickmützen und Schals, neben einer großen, klaren Uhrzeit und den Daten, die Sie jeden Tag ansehen.",
+      "Die Uhrzeit steht in fetten kursiven Ziffern mit den Sekunden daneben, die Minuten in der Farbe Ihres Themas, darunter das Datum in der Sprache Ihrer Uhr. Jede Zeile hat eine dunkle Kontur und bleibt so neben dem Bild scharf.",
+      "Vier Werte, jeder mit seinem Symbol: zu Beginn oben Wetter und Herzfrequenz, unten Schritte und ein Countdown bis Weihnachten, ein kleines Geschenk und die verbleibenden Tage. Zählen Sie bis zum ersten Weihnachtstag, bis Heiligabend oder Silvester, oder setzen Sie eine von zwanzig Quellen an seine Stelle: Body Battery, Stress, Kalorien, Distanz, Etagen, Sonnenauf- und -untergang, Höhe, Tageshöchst- und -tiefstwert, VO2max, Schlafwert und mehr. Eine Anzeige am linken Rand füllt sich mit Body Battery, Schritten oder einem anderen Ziel.",
+      "Drei Themen, Eis, Rot und Weiß, oder blenden Sie den Schneemann für ein schlichtes schwarzes Zifferblatt aus. 12 oder 24 Stunden oder wie die Uhr eingestellt ist, mit oder ohne führende Null. Auf MIP-Displays laufen die Sekunden auch bei gesenktem Handgelenk weiter; im Always-on-Modus bleibt eine gedämpfte Strichzeichnung des Schneemanns neben der Uhrzeit.",
+      "Halten Sie einen Wert oder die Anzeige gedrückt, um seinen Glance auf der Uhr zu öffnen, das Datum oder den Countdown für den Kalender. Temperaturen wie auf der Uhr, oder wählen Sie °C oder °F."
+    ]
+  },
+  "tomte": {
+    "name": "Tomte",
+    "subtitle": "Weihnachtsmann, Weihnachts-Countdown",
+    "full": [
+      "Weihnachtsmann-Zifferblatt für die Weihnachtszeit: ein fröhlicher Weihnachtsmann mit roter Mütze lacht unten rechts von Ihrem Zifferblatt, neben einer großen, klaren Uhrzeit und den Daten, die Sie jeden Tag ansehen.",
+      "Die Uhrzeit steht in fetten kursiven Ziffern mit den Sekunden daneben, die Minuten in der Farbe Ihres Themas, darunter das Datum in der Sprache Ihrer Uhr. Jede Zeile hat eine dunkle Kontur und bleibt so neben dem Bild scharf.",
+      "Vier Werte, jeder mit seinem Symbol: zu Beginn oben Wetter und Herzfrequenz, unten Schritte und ein Countdown bis Weihnachten, ein kleines Geschenk und die verbleibenden Tage. Zählen Sie bis zum ersten Weihnachtstag, bis Heiligabend oder Silvester, oder setzen Sie eine von zwanzig Quellen an seine Stelle: Body Battery, Stress, Kalorien, Distanz, Etagen, Sonnenauf- und -untergang, Höhe, Tageshöchst- und -tiefstwert, VO2max, Schlafwert und mehr. Eine Anzeige am linken Rand füllt sich mit Body Battery, Schritten oder einem anderen Ziel.",
+      "Drei Themen, Rot, Gold und Grün, oder blenden Sie den Weihnachtsmann für ein schlichtes schwarzes Zifferblatt aus. 12 oder 24 Stunden oder wie die Uhr eingestellt ist, mit oder ohne führende Null. Auf MIP-Displays laufen die Sekunden auch bei gesenktem Handgelenk weiter; im Always-on-Modus bleibt eine gedämpfte Strichzeichnung der Weihnachtsmütze neben der Uhrzeit.",
+      "Halten Sie einen Wert oder die Anzeige gedrückt, um seinen Glance auf der Uhr zu öffnen, das Datum oder den Countdown für den Kalender. Temperaturen wie auf der Uhr, oder wählen Sie °C oder °F."
+    ]
+  },
+  "knut": {
+    "name": "Knut",
+    "subtitle": "Daten-Zifferblatt, große Uhrzeit, KW",
+    "full": [
+      "Daten-Zifferblatt mit großen, gut lesbaren Zahlen: alles, was du an einem Tag nachschaust, auf einem Zifferblatt, angeordnet wie eine Instrumententafel und am Rand von einer geflochtenen Kordel umschlungen.",
+      "Eine große Uhrzeit in klaren, kantigen Ziffern, links die ISO-Kalenderwoche, rechts die laufenden Sekunden. Darüber gestern, heute und morgen, der heutige Tag in der Farbe deines Designs umrahmt; darunter Monat und Jahr oder ein paar eigene Worte.",
+      "Sechs Werte, jeder mit Symbol und jeder frei wählbar aus zwanzig Quellen: Schritte, Herzfrequenz und Wetter zum Start, unten Body Battery, Kalorien und Etagen, dazu Distanz, Intensitätsminuten, Stress, Tageshöchst- und -tiefstwert, Sonnenauf- und -untergang, Höhe, Luftdruck, Benachrichtigungen, Atmung, Pulsoximeter, Erholungszeit, VO2max und Schlafwert. Zwei Bögen innen an der Kordel füllen sich mit deinen Zielen: oben die Schritte mit dem Prozentwert daneben, unten der Akku, oder Etagen, Intensitätsminuten, Body Battery, Stress, Erholung oder Schlafwert.",
+      "Acht Designs: Petrol, Limette, Bernstein, Koralle, Violett, Eis, Rosé und Stahl. Stunden und Minuten jeweils in Weiß, der Designfarbe, Grau oder Dunkelgrau. 12- oder 24-Stunden-Format oder wie die Uhr eingestellt ist; Temperaturen wie die Uhr oder in °C oder °F. Die Kordel lässt sich für ein schlichtes schwarzes Zifferblatt ausschalten.",
+      "Always-On in drei Stufen: nur die Uhrzeit, die Uhrzeit mit Datum und Akku oder dazu alle Werte, immer unter einem Zehntel des Bildschirms beleuchtet. Auf MIP-Displays laufen die Sekunden auch bei gesenktem Handgelenk weiter.",
+      "Halte einen Wert oder einen Bogen gedrückt, um seinen Glance auf der Uhr zu öffnen, oder die Tage für deinen Kalender."
+    ]
+  },
+  "norrsken": {
+    "name": "Norrsken",
+    "subtitle": "Polarlicht, Nordlicht, große Zahlen",
+    "full": [
+      "Polarlicht-Zifferblatt mit großen Zahlen: das Nordlicht leuchtet grün und violett über verschneiten Gipfeln, davor eine große, gut lesbare Uhrzeit, das Datum und die Daten, die Sie jeden Tag ansehen.",
+      "Die Uhrzeit steht in einer Zeile, so breit, wie das runde Display es erlaubt, in schmalen Ziffern, die man auf einen Blick liest: die Stunden weiß, Doppelpunkt und Minuten in der Farbe Ihres Themas. Jede Ziffer hat eine dunkle Kontur und bleibt so auch auf dem hellsten Lichtvorhang scharf.",
+      "Über der Uhrzeit das Datum in der Sprache Ihrer Uhr mit den Sekunden daneben, ganz oben Akku und Hinweise. Darunter zwei Werte in abgerundeten Feldern, jeder mit seinem Symbol: zu Beginn Herzfrequenz und Schritte, oder das Wetter, Tageshöchst- und -tiefstwert, Body Battery, Stress, Kalorien, Distanz, Etagen, Sonnenauf- und -untergang, Höhe, VO2max, Schlafwert und mehr, zwanzig Quellen insgesamt. Ein kurzer Balken füllt sich mit Ihrem Schrittziel, oder Etagen, Intensitätsminuten, Body Battery, Akku oder Stress.",
+      "Vier Themen aus dem Nachthimmel: Polarlicht, Violett, Eis und Schnee, oder schalten Sie das Nordlicht für ein schlichtes schwarzes Zifferblatt aus. 12 oder 24 Stunden oder wie die Uhr eingestellt ist. Auf MIP-Displays laufen die Sekunden auch bei gesenktem Handgelenk weiter; der Always-on- Modus zeigt die Uhrzeit in gleicher Größe in einem leichten Schnitt, auf Schwarz.",
+      "Halten Sie einen Wert oder den Zielbalken gedrückt, um seinen Glance auf der Uhr zu öffnen, oder das Datum für den Kalender. Temperaturen wie auf der Uhr, oder wählen Sie °C oder °F."
+    ]
+  },
+  "ormbunke": {
+    "name": "Ormbunke",
+    "subtitle": "Fraktaler Farn, grünes Licht",
+    "full": [
+      "Ormbunke ist ein fraktaler Farn aus grünem Licht: Jeder Wedel besteht aus Fiedern, die sich zur Spitze hin wiederholen und verkleinern, daneben eine klare Spalte für den Tag.",
+      "Die Uhrzeit in großen kursiven Ziffern, die Minuten in der Farbe deines Designs und die Sekunden daneben. Darüber zwei Werte, darunter das Datum in der Sprache deiner Uhr und zwei weitere Werte. Alle vier wählst du aus zwanzig Quellen: Herzfrequenz, Schritte, Kalorien, Body Battery, Wetter, Tageshöchst- und Tagestiefstwert, Sonnenauf- und Sonnenuntergang, Höhe, VO2max, Schlafwert und mehr, oder keine. Am linken Rand füllt sich eine Anzeige mit deiner Body Battery oder mit Schritten, Stress, Erholung, Schlafwert oder dem Akku. Akku und Benachrichtigungen oben.",
+      "Jede Zeile beginnt an derselben Kante und liegt auf einer dunklen Kontur, damit der Farn die Ziffern nie verdeckt, was immer du anzeigst.",
+      "Drei Designs, die zum Farn passen: Farn, Moos und Pollen, oder schalte den Farn aus für ein schlichtes schwarzes Zifferblatt. Die Uhrzeit im 12- oder 24-Stunden-Format oder wie an der Uhr eingestellt, mit oder ohne führende Null. Die Sekunden lassen sich ausblenden, und auf MIP-Displays laufen sie auch bei gesenktem Handgelenk weiter. Im Always-on-Modus zeichnen feine Linien den Farn, mit Uhrzeit und Datum.",
+      "Halte einen Wert oder die Anzeige gedrückt, um seinen Glance auf der Uhr zu öffnen, oder das Datum für deinen Kalender. Temperaturen wie an der Uhr, oder wähle °C oder °F."
+    ]
+  },
+  "dyning": {
+    "name": "Dyning",
+    "subtitle": "Fraktale Welle, türkises Licht",
+    "full": [
+      "Dyning ist eine brechende Welle aus türkisem Licht: Ihr Kamm rollt sich zu fraktaler Gischt und Schaum, daneben eine klare Spalte für den Tag.",
+      "Die Uhrzeit in großen kursiven Ziffern, die Minuten in der Farbe deines Designs und die Sekunden daneben. Darüber zwei Werte, darunter das Datum in der Sprache deiner Uhr und zwei weitere Werte. Alle vier wählst du aus zwanzig Quellen: Herzfrequenz, Schritte, Kalorien, Body Battery, Wetter, Tageshöchst- und Tagestiefstwert, Sonnenauf- und Sonnenuntergang, Höhe, VO2max, Schlafwert und mehr, oder keine. Am linken Rand füllt sich eine Anzeige mit deiner Body Battery oder mit Schritten, Stress, Erholung, Schlafwert oder dem Akku. Akku und Benachrichtigungen oben.",
+      "Jede Zeile beginnt an derselben Kante und liegt auf einer dunklen Kontur, damit die Welle die Ziffern nie verdeckt, was immer du anzeigst.",
+      "Drei Designs, die zur Welle passen: Brandung, Eis und Gischt, oder schalte die Welle aus für ein schlichtes schwarzes Zifferblatt. Die Uhrzeit im 12- oder 24-Stunden-Format oder wie an der Uhr eingestellt, mit oder ohne führende Null. Die Sekunden lassen sich ausblenden, und auf MIP-Displays laufen sie auch bei gesenktem Handgelenk weiter. Im Always-on-Modus zeichnen feine Linien die Welle, mit Uhrzeit und Datum.",
+      "Halte einen Wert oder die Anzeige gedrückt, um seinen Glance auf der Uhr zu öffnen, oder das Datum für deinen Kalender. Temperaturen wie an der Uhr, oder wähle °C oder °F."
+    ]
+  },
+  "gren": {
+    "name": "Gren",
+    "subtitle": "Fraktaler Baum, Glut",
+    "full": [
+      "Gren ist ein fraktaler Baum aus glühendem Licht: Seine Äste teilen sich immer wieder in feine, leuchtende Zweige, daneben eine klare Spalte für den Tag.",
+      "Die Uhrzeit in großen kursiven Ziffern, die Minuten in der Farbe deines Designs und die Sekunden daneben. Darüber zwei Werte, darunter das Datum in der Sprache deiner Uhr und zwei weitere Werte. Alle vier wählst du aus zwanzig Quellen: Herzfrequenz, Schritte, Kalorien, Body Battery, Wetter, Tageshöchst- und Tagestiefstwert, Sonnenauf- und Sonnenuntergang, Höhe, VO2max, Schlafwert und mehr, oder keine. Am linken Rand füllt sich eine Anzeige mit deiner Body Battery oder mit Schritten, Stress, Erholung, Schlafwert oder dem Akku. Akku und Benachrichtigungen oben.",
+      "Jede Zeile beginnt an derselben Kante und liegt auf einer dunklen Kontur, damit der Baum die Ziffern nie verdeckt, was immer du anzeigst.",
+      "Drei Designs, die zum Baum passen: Glut, Bernstein und Asche, oder schalte den Baum aus für ein schlichtes schwarzes Zifferblatt. Die Uhrzeit im 12- oder 24-Stunden-Format oder wie an der Uhr eingestellt, mit oder ohne führende Null. Die Sekunden lassen sich ausblenden, und auf MIP-Displays laufen sie auch bei gesenktem Handgelenk weiter. Im Always-on-Modus zeichnen feine Linien den Baum, mit Uhrzeit und Datum.",
+      "Halte einen Wert oder die Anzeige gedrückt, um seinen Glance auf der Uhr zu öffnen, oder das Datum für deinen Kalender. Temperaturen wie an der Uhr, oder wähle °C oder °F."
+    ]
+  },
+  "dag": {
+    "name": "Dag",
+    "subtitle": "Tagesuhr, gut lesbar",
+    "full": [
+      "Dag ist eine Tagesuhr: Sie zeigt nicht nur die Uhrzeit, sondern auch, welcher Tag ist und welche Tageszeit. In der Mitte des Zifferblatts, so groß, wie es das runde Display zulässt, der Wochentag ausgeschrieben: MITTWOCH. Darunter, in der Farbe deines Farbschemas, MORGEN, NACHMITTAG, ABEND oder NACHT.",
+      "Darüber die Uhrzeit in großen Ziffern im Stil von Verkehrsschildern, darunter das Datum mit Jahr in großer, klarer Schrift und ein Wert mit Symbol: zu Beginn das Wetter, oder Herzfrequenz, Schritte, Body Battery, Sonnenauf- und -untergang oder jede von zwanzig Quellen, darunter VO2max und Schlafwert, oder keiner. Akku und Benachrichtigungen oben.",
+      "Tag und Datum stehen in der Sprache deiner Uhr, die Tageszeiten auf Deutsch, Englisch, Polnisch, Französisch, Spanisch, Italienisch, Niederländisch, Portugiesisch, Slowakisch und Tschechisch. Der Morgen reicht von fünf bis zwölf, der Nachmittag bis siebzehn, der Abend bis einundzwanzig Uhr und die Nacht bis zum Morgen.",
+      "Alles ist groß, schlicht und kontrastreich, für alle, die den Tag auf einen Blick wissen wollen, und für alle, die einer Mutter, einem Vater oder den Großeltern die Uhr einrichten. Sechs Farbschemata in den Farben von Verkehrsschildern: Gelb, Grün, Blau, Orange, Weiß und Papier, dunkle Buchstaben auf hellem Grund für alle, die so besser lesen. Die Uhrzeit im 12- oder 24-Stunden-Format oder wie auf der Uhr eingestellt, mit oder ohne führende Null, mit den Sekunden daneben, oder ausgeblendet für ein Zifferblatt, das nur den Tag zeigt. Auf MIP-Displays laufen die Sekunden auch bei gesenktem Handgelenk weiter. Der Modus Immer an zeigt Tag, Tageszeit und Uhrzeit.",
+      "Halte den Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, oder den Tag oder das Datum für den Kalender. Temperaturen wie auf der Uhr oder in °C oder °F."
+    ]
+  },
+  "visare": {
+    "name": "Visare",
+    "subtitle": "Große Ziffern, analog",
+    "full": [
+      "Visare ist ein analoges Zifferblatt, gemacht, um es ohne Brille zu lesen. Zwölf große Ziffern im Stil von Verkehrsschildern stehen rund um das Zifferblatt, weiß auf schwarz, so groß, wie es das runde Display zulässt, mit sechzig Minutenstrichen am Rand.",
+      "Die beiden Zeiger kann man nicht verwechseln. Der Stundenzeiger ist kurz, breit und weiß, der Minutenzeiger lang, schlanker und in der Farbe deines Farbschemas. Jeder hat einen feinen Rand in der Farbe des Zifferblatts und hebt sich deshalb klar ab, wo er eine Ziffer oder einen Wert kreuzt.",
+      "Innerhalb der Ziffern stehen über der Mitte Tag und Datum in der Sprache deiner Uhr, dazu zwei Werte mit Symbol, einer über und einer unter der Mitte: zu Beginn Herzfrequenz und Akku, oder Schritte, Wetter, Body Battery, Sonnenauf- und -untergang oder jede von zwanzig Quellen, darunter VO2max und Schlafwert, oder keine. Darunter kann eine kleine Digitalzeit stehen, im 12- oder 24-Stunden-Format oder wie auf der Uhr eingestellt, mit oder ohne führende Null.",
+      "Ein schlanker Sekundenzeiger mit rundem Gegengewicht tickt oder gleitet, oder bleibt aus; auf MIP-Displays läuft er auch bei gesenktem Handgelenk weiter. Mit Zeigern, die Werte sichtbar lassen, wird ein Zeiger über einem Wert zur Kontur, sodass nichts verdeckt wird.",
+      "Lieber ruhiger? Zeig nur 12, 3, 6 und 9 mit kräftigen Strichen dazwischen, oder rundum Striche. Sechs Farbschemata in den Farben von Verkehrsschildern: Gelb, Grün, Blau, Orange, Weiß und Papier, schwarze Ziffern auf hellem Zifferblatt für alle, die so besser lesen. Der Modus Immer an zeigt Ziffern und beide Zeiger in voller Größe in einem leichten Schnitt.",
+      "Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, oder das Datum für den Kalender. Temperaturen wie auf der Uhr oder in °C oder °F."
+    ]
+  },
+  "tavla": {
+    "name": "Tavla",
+    "subtitle": "Große Uhrzeit & Daten",
+    "full": [
+      "Tavla ist eine Anzeigetafel fürs Handgelenk, gemacht, um sie auf Armlänge ohne Brille zu lesen. Die Uhrzeit steht in einer Zeile, in schmalen Ziffern im Stil von Verkehrsschildern: eine Schrift, die man aus der Ferne liest. Die Stunden sind weiß, Doppelpunkt und Minuten in der Farbe deines Farbschemas.",
+      "Unter der Uhrzeit stehen vier Werte auf vier Kacheln, jeder mit seinem Symbol und groß: zu Beginn Herzfrequenz, Schritte, Wetter und Body Battery, oder jede von zwanzig Quellen, darunter VO2max und Schlafwert, oder keine. Ein Wert mit Ziel, etwa Schritte, Etagen oder Intensitätsminuten, bekommt einen Balken, der sich im Lauf des Tages füllt. Jede Kachel ist so breit, wie es das runde Display erlaubt, und eine große Zahl bleibt groß: ab zehntausend steht 18.5k da, statt dass sie schrumpft.",
+      "Am Rand füllt sich ein Ring von zwölf Uhr an im Uhrzeigersinn, während deine Schritte ihr Ziel erreichen, oder Etagen, Intensitätsminuten, Body Battery, Akku, Stress, Erholungszeit oder Schlafwert: Du siehst, wie dein Tag läuft, ohne eine Zahl zu lesen. Akku und Benachrichtigungen oben, das Datum in der Sprache deiner Uhr unten.",
+      "Sechs Farbschemata in den Farben von Verkehrsschildern: Gelb, Grün, Blau, Orange, Weiß und Papier, dunkle Ziffern auf hellem Grund für alle, die so besser lesen. Die Uhrzeit im 12- oder 24-Stunden-Format oder wie auf der Uhr eingestellt, mit oder ohne führende Null, und neben den Minuten die Sekunden, die auf MIP-Displays auch bei gesenktem Handgelenk weiterlaufen. Der Modus Immer an zeigt die Uhrzeit in gleicher Größe in einem leichten Schnitt, mit dem Datum.",
+      "Halte eine Kachel gedrückt, um ihren Glance auf der Uhr zu öffnen, die Uhrzeit oder den Ring für den des Rings oder das Datum für den Kalender. Temperaturen wie auf der Uhr oder in °C oder °F."
+    ]
+  },
+  "prognos": {
+    "name": "Prognos",
+    "subtitle": "Datenzifferblatt mit Wetterhorizont",
+    "full": [
+      "In Prognos ist die Landschaft die Vorhersage. Über die untere Hälfte des Zifferblatts zieht sich ein Hügel, und sein Kamm ist die Temperatur der nächsten zwölf Stunden aus dem Wetter Ihrer Uhr: die wärmste Stunde am höchsten, die kälteste am tiefsten. Unter dem Kamm stehen Temperatur und Uhrzeit in drei, sechs und neun Stunden, und über den Stunden, in denen es wohl regnet, fallen kurze Regenstriche.",
+      "Darüber, im Himmel: Datum und Status, eine große Uhrzeit mit den Sekunden daneben, drei Werte mit Symbolen (standardmäßig Herzfrequenz, Schritte und Body Battery) und zwei weitere (Tageshöchst- und -tiefstwert und der nächste Sonnenauf- oder -untergang). Jeder Wert kann eine von zwanzig Quellen zeigen, darunter VO2max und Schlafwert, oder nichts.",
+      "Die Vorhersage kommt aus der letzten Wettersynchronisierung mit dem Telefon; bis es eine gibt, ist der Hügel ein flacher Horizont ohne Beschriftung, nie geraten.",
+      "Machen Sie es zu Ihrem: fünf Farbschemata (Abenddämmerung, Nacht, Morgendämmerung, Sturm und Grau), Regen ein oder aus, 12-Stunden- oder 24-Stunden-Zeit oder wie auf der Uhr eingestellt, eine führende Null, Sekunden sowie Datum und Status ein oder aus. Auf Memory-in-Pixel-Displays ist jedes Farbschema für 64 Farben gezeichnet, und die Sekunden laufen auch bei gesenktem Handgelenk weiter. Der Always-on-Modus behält Uhrzeit, die Linie des Kamms und Datum.",
+      "Halten Sie einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, das Datum für den Kalender oder den Hügel für das Wetter. Temperaturen wie auf der Uhr oder in °C oder °F."
+    ]
+  },
+  "ruta": {
+    "name": "Ruta",
+    "subtitle": "Datenzifferblatt in Farbkacheln",
+    "full": [
+      "Ruta ist gemacht, um auf einen Blick gelesen zu werden, auf Armeslänge. Das Zifferblatt besteht aus flachen Farbkacheln, getrennt durch dünne schwarze Linien, und jede Kachel zeigt eine Sache in Ziffern so groß, wie die Kachel erlaubt, in einer hohen, schmalen Schrift.",
+      "Oben Datum und Status. Darunter hat die Uhrzeit eine eigene Kachel, mit den Sekunden daneben und einem Balken darunter, der sich mit Ihren Schritten füllt (oder mit Body Battery, Intensitätsminuten, Etagen, Stress, Akku, Erholungszeit oder Schlafwert). Darunter drei Kacheln mit Symbol über einem großen Wert (standardmäßig Schritte, Herzfrequenz und Body Battery) und zwei weitere mit Symbol daneben (das Wetter und der nächste Sonnenauf- oder -untergang). Jede Kachel kann eine von zwanzig Quellen zeigen, darunter VO2max und Schlafwert, oder nichts.",
+      "Machen Sie es zu Ihrem: fünf Farbschemata (Pop, Pastell, Grau, Nacht mit dunklen Kacheln und farbigen Ziffern und Sport in Schwarz und Signalgelb), 12-Stunden- oder 24-Stunden-Zeit oder wie auf der Uhr eingestellt, eine führende Null, Sekunden sowie Datum und Status ein oder aus. Auf Memory-in-Pixel-Displays ist jede Kachel eine der 64 eigenen Farben des Displays, nichts wird gerastert, und die Sekunden laufen auch bei gesenktem Handgelenk weiter. Der Always-on-Modus behält Uhrzeit, Datum und Balken.",
+      "Halten Sie eine Kachel gedrückt, um ihren Glance auf der Uhr zu öffnen, die Uhrzeit für den des Balkens oder das Datum für den Kalender. Temperaturen wie auf der Uhr oder in °C oder °F."
+    ]
+  },
+  "dygn": {
+    "name": "Dygn",
+    "subtitle": "Datenzifferblatt mit Tagesring",
+    "full": [
+      "Dygn zeigt den ganzen Tag auf einen Blick. Am Rand läuft ein 24-Stunden-Ring mit Mittag oben: Die Nacht ist dunkel, das heutige Tageslicht leuchtet warm vom Sonnenaufgang über Mittag bis zum Sonnenuntergang, eine helle Linie deckt den schon vergangenen Teil, und die Sonne (nach Einbruch der Dunkelheit der Mond) steht bei der aktuellen Uhrzeit.",
+      "Der Hintergrund ist der Himmel, gefärbt danach, wo die Sonne wirklich steht: Nacht, Morgen, Tag und Abend, mit einem sanften Schein um die Sonne. In der Mitte eine große Uhrzeit mit den Sekunden daneben, Datum und Status, das Wetter mit Tageshöchst- und -tiefstwert, drei Werte mit Symbolen (standardmäßig Herzfrequenz, Schritte und Body Battery) und unten der heutige Sonnenauf- und -untergang. Jeder Wert kann eine von zwanzig Quellen zeigen, darunter VO2max und Schlafwert, oder nichts; die untere Zeile kann stattdessen das verbleibende Tageslicht zeigen.",
+      "Die Sonnenzeiten kommen vom Wetterstandort der Uhr oder von der letzten Aktivität; ohne sie bleibt der Ring unbeleuchtet, nie geraten.",
+      "Machen Sie es zu Ihrem: fünf Farbschemata (Himmel, der der Sonne folgt, Nacht, Morgendämmerung, Abenddämmerung und Grau), 12-Stunden- oder 24-Stunden-Zeit oder wie auf der Uhr eingestellt, eine führende Null, Sekunden sowie Datum und Status ein oder aus. Auf Memory-in-Pixel-Displays ist jeder Himmel für 64 Farben gezeichnet, und die Sekunden laufen auch bei gesenktem Handgelenk weiter. Der Always-on-Modus behält Ring, Sonne und Uhrzeit.",
+      "Halten Sie einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, das Datum für den Kalender oder den Ring für Sonnenauf- und -untergang. Temperaturen wie auf der Uhr oder in °C oder °F."
+    ]
+  },
+  "karta": {
+    "name": "Karta",
+    "subtitle": "Datenzifferblatt mit Topokarte",
+    "full": [
+      "Karta bringt die Daten eines ganzen Tages ans Handgelenk und hält jede Zahl leicht lesbar. Der Hintergrund ist eine topografische Karte bei Nacht: Höhenlinien um zwei Gipfel, zart unter der Schrift und kräftiger zum Rand hin, und jede vierte Linie ist eine Zähllinie.",
+      "Über der Karte steht eine große Uhrzeit mit den Sekunden daneben, darunter vier Werte in zwei Spalten, jeder mit farbigem Symbol und großer Zahl: standardmäßig Herzfrequenz, Body Battery, Schritte und der nächste Sonnenaufgang oder -untergang. Zwei weitere stehen in der oberen Zeile (Höhe und Luftdruck), einer unten (das Wetter), Akku und Benachrichtigungen neben dem Datum. Jeder der sieben kann eine von zwanzig Quellen zeigen, darunter VO2max und Schlafwert, oder nichts.",
+      "Am Rand füllt sich ein Bogen ab zwölf Uhr mit Ihren Schritten, mit einem Punkt an der Spitze; am Ziel schließt sich der Ring. Er kann stattdessen Body Battery, Intensitätsminuten, Etagen, Stress, Akku, Erholungszeit oder Schlafwert folgen.",
+      "Machen Sie es zu Ihrem: fünf Farbschemata (Wald, Gletscher, Wüste, Nacht und Schiefer), vier Karten (Gipfel, Grat, Tal und Küste) oder keine, 12-Stunden- oder 24-Stunden-Zeit oder wie auf der Uhr eingestellt, eine führende Null, Sekunden sowie Datum und Status ein oder aus. Auf Memory-in-Pixel-Displays ist jedes Farbschema für 64 Farben gezeichnet, und die Sekunden laufen auch bei gesenktem Handgelenk weiter. Der Always-on-Modus behält Uhrzeit, Datum und Bogen.",
+      "Halten Sie einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, das Datum für den Kalender oder den Rand für den Glance des Bogens. Temperaturen wie auf der Uhr oder in °C oder °F."
+    ]
+  },
+  "frost": {
+    "name": "Frost",
+    "subtitle": "Winterliche Schneeflocken-Analoguhr",
+    "full": [
+      "Frost ist ein analoges Zifferblatt für den ganzen Winter, nicht nur für Weihnachten. Das Zifferblatt ist eine Eisfläche, tief am Rand und heller zur Mitte, Frost kriecht vom Glas herein, und die Stunden markieren kleine, sechsarmige Kristalle.",
+      "In der Mitte wächst den Tag über eine Schneeflocke. Ihre sechs Arme werden länger, während deine Schritte zusammenkommen, Seitenzweige sprießen, und am Ziel leuchtet jede Spitze. Statt mit Schritten kann sie auch mit Body Battery, Intensitätsminuten, Etagen, Stress oder dem Akku wachsen.",
+      "Auf den Diagonalen vier Werte, jeweils ein Symbol über der Zahl: standardmäßig Herzfrequenz, Wetter, Body Battery und der nächste Sonnenaufgang oder -untergang, oder jede von achtzehn Quellen, oder keine. Tag und Datum stehen in einem Fenster bei drei Uhr, in der Sprache deiner Uhr, Akku und Benachrichtigungen unter der Zwölf. Dazu eine kleine digitale Uhrzeit über der Sechs, im 12- oder 24-Stunden-Format oder wie auf der Uhr eingestellt.",
+      "Die Lanzettzeiger sind umrandet, damit sie über allem lesbar bleiben, mit einer Eislinie in der Mitte, und ein Sekundenzeiger mit einer Schneeflocke als Gegengewicht tickt oder gleitet; auf Memory-in-Pixel-Uhren tickt er auch bei gesenktem Handgelenk weiter.",
+      "Mach es zu deinem: fünf Zifferblätter (Gletscher, Mitternacht, Polarlicht, Silber und Rosé), Kristalle, arabische oder römische Ziffern bei den Viertelstunden, voller, leichter oder kein Frost am Rand und Zeiger in Silber, Eis oder Akzentfarbe. Der Modus Immer an zeigt die Kristalle, die Schneeflocke und die Zeiger als Umriss.",
+      "Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, oder das Datum für den Kalender. Temperaturen wie auf der Uhr, oder wähle °C oder °F.",
+      "Die Zeiger können dort zum Umriss werden, wo sie einen Wert oder ein Fenster kreuzen, damit nichts unter ihnen verschwindet."
+    ]
+  },
+  "kofta": {
+    "name": "Kofta",
+    "subtitle": "Weihnachtspullover",
+    "full": [
+      "Kofta zieht deiner Uhr einen Weihnachtspullover an. Das ganze Zifferblatt ist ein Strickmuster im Fair-Isle-Stil, jede Masche ein kleines V, vom Rippenkragen oben bis zum Saum unten, und die Uhrzeit ist in großen, kräftigen Maschenziffern direkt eingestrickt.",
+      "Über die Brust läuft ein Band mit Rentieren, und es strickt sich im Lauf des Tages selbst: Masche für Masche, Reihe für Reihe von unten, während deine Schritte zusammenkommen. Ungestrickte Maschen warten in blassem Garn, so siehst du, wie viel noch fehlt; am Ziel ist das Band fertig. Statt mit Schritten kann es auch mit Body Battery, Intensitätsminuten, Etagen, Stress oder dem Akku stricken.",
+      "Unter der Uhrzeit das Datum in der Sprache deiner Uhr mit Akku und Benachrichtigungen, darunter drei Werte, jeweils ein Symbol über der Zahl: standardmäßig Herzfrequenz, Wetter und Body Battery, oder jede von achtzehn Quellen, oder keine.",
+      "Mach ihn zu deinem: fünf Pullover (klassisch Rot, Waldgrün, nordisch Marine, Haferflocke und ein hässlicher, mit Absicht), fünf Muster (Rentiere, Schneeflocken, Tannen, Herzen oder Sterne), gestrickte Maschen oder ein flaches Diagramm, ein Zickzack am Saum oder schlichte Rippen. Die Uhrzeit im 12- oder 24-Stunden-Format oder wie auf der Uhr eingestellt, mit oder ohne führende Null. Die Sekunden am Ende der Zeile darunter, die du abschalten kannst.",
+      "Auf Memory-in-Pixel-Displays ist jeder Pullover in 64 Farben gestrickt. Der Modus Immer an zeigt nur die eingestrickte Uhrzeit, aus ihren Maschen.",
+      "Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, oder das Datum für den Kalender. Temperaturen wie auf der Uhr, oder wähle °C oder °F."
+    ]
+  },
+  "gran": {
+    "name": "Gran",
+    "subtitle": "Weihnachtsbaum-Countdown",
+    "full": [
+      "Gran ist ein Weihnachtsbaum in einer verschneiten Nacht, und jedes Licht daran bedeutet etwas. Vierundzwanzig Lichter hängen an seiner Kette und gehen eins nach dem anderen an, während deine Schritte zusammenkommen, vom untersten Ast nach oben. Erreichst du dein Ziel, leuchtet der Stern. Statt der Schritte kann der Baum auch Body Battery, Intensitätsminuten, Etagen, Stress oder den Akku zeigen.",
+      "Unter dem Baum, neben den Geschenken, die Tage bis zum ersten Weihnachtstag, oder bis Heiligabend oder Silvester, wenn dir das lieber ist. Am Tag selbst steht dort ein Stern statt der Zahl. Daneben, wie weit die Lichter schon sind.",
+      "Links und rechts vom Baum vier Werte, jeweils ein Symbol über der Zahl: standardmäßig Herzfrequenz, Wetter, Body Battery und der nächste Sonnenaufgang oder -untergang, oder jede von achtzehn Quellen, oder keine. Das Datum in der Sprache deiner Uhr steht oben, mit Akku und Benachrichtigungen.",
+      "Mach ihn zu deinem: fünf Farbschemata (Mitternacht, Schneefall, Nordisch, Gold und Bonbon), vier Lichterfarben (bunt, warmweiß, gold oder blau), leichter, dichter oder kein Schneefall, Schnee auf den Ästen oder nicht. Die Uhrzeit in Fraunces, im 12- oder 24-Stunden-Format oder wie auf der Uhr eingestellt, mit oder ohne führende Null. Daneben klein die Sekunden, die du abschalten kannst.",
+      "Auf Memory-in-Pixel-Displays ist jedes Farbschema für 64 Farben gezeichnet. Der Modus Immer an zeigt die Uhrzeit, den Baum als Umriss und nur die Lichter, die brennen.",
+      "Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, oder das Datum für den Kalender. Temperaturen wie auf der Uhr, oder wähle °C oder °F."
+    ]
+  },
+  "lage": {
+    "name": "Lage Pro",
+    "subtitle": "Daten-Dashboard",
+    "full": [
+      "Die meisten Daten-Zifferblätter zeigen dir Zahlen und überlassen dir die Bewertung. Ist ein Ruhepuls von 62 gut? Liegst du mit 3.400 Schritten um 14 Uhr im Plan? Lage zeigt genauso viele Daten und gibt jedem Wert ein Urteil.",
+      "Die Uhrzeit steht in der Mitte in großen, schmalen Ziffern, die Stunden in Silber über den Minuten in der Farbe deines Farbschemas. Links dein Körper: Body Battery, Stress und Herzfrequenz, jeweils mit einem Pfeil und der Veränderung der letzten drei Stunden, darunter ihre Linie, grün, wenn der Wert gut ist, korallenrot, wenn nicht. Rechts deine Ziele: Schritte, Intensitätsminuten und Etagen, jeweils mit einem Balken und einer weißen Marke, wo du jetzt stehen solltest: „+840“ heißt voraus, „-1.2k“ zurück. Dein Tag reicht von deiner Aufwachzeit bis zu deiner Schlafenszeit, und Intensitätsminuten zählen über die Woche, so wie Garmin sie zählt.",
+      "Unter der Uhrzeit ein Diagramm der letzten 4, 12 oder 24 Stunden von Herzfrequenz, Body Battery, Stress, Luftdruck oder Höhe, mit Höchst- und Tiefstwert. Darunter das Wetter jetzt und wann Regen kommt, oder der nächste Sonnenaufgang oder -untergang. Oben stehen Akku, Benachrichtigungen und das Datum in der Sprache deiner Uhr. Die Sekunden stehen klein unter den Minuten, und eine Marke am Rand lässt jede aufleuchten, während du hinschaust; eine Einstellung schaltet beides ab.",
+      "Jeder Wert kann jede von zwanzig Quellen zeigen: Schlafwert, Pulsoximeter, Erholungszeit, VO2max, Atmung, Kalorien, Distanz und mehr. Halte auf einem Touchscreen einen Wert gedrückt, um den passenden Bildschirm der Uhr zu öffnen. Fünf Farbschemata: Gletscher, Gold, Violett, Ozean und Silber. Der Modus Immer an zeigt die Uhrzeit in voller Größe in einem leichten Schnitt."
+    ]
+  },
+  "rad": {
+    "name": "Rad",
+    "subtitle": "Große Ziffern & Daten",
+    "full": [
+      "Rad zeigt die Uhrzeit in einer einzigen Zeile, so breit, wie es das runde Display erlaubt, in schmalen Ziffern im Stil von Verkehrsschildern: eine Schrift, die aus der Ferne und in Bewegung lesbar sein soll. Die Stunden sind weiß, Doppelpunkt und Minuten in der Farbe deines Farbschemas.",
+      "Auch alles drumherum, was du täglich im Blick hast, ist groß. Über der Uhrzeit steht das Datum in der Sprache deiner Uhr, darüber Akku und Benachrichtigungen. Unter der Uhrzeit zeigen zwei abgerundete Felder je einen Wert mit seinem Symbol: zu Beginn Herzfrequenz und Schritte, wahlweise Wetter, Body Battery, Kalorien, Distanz, Sonnenauf- und -untergang und mehr, insgesamt zwanzig Quellen. Die Felder passen ihre Breite dem Inhalt an. Darunter füllt sich ein kurzer Balken, je näher du deinem Schrittziel kommst, oder dem Ziel für Etagen, Intensitätsminuten, Body Battery, Akku oder Stress.",
+      "Sechs Farbschemata in den Farben von Verkehrsschildern: Gelb, Grün, Blau, Orange, Weiß und Papier, also dunkle Ziffern auf weißem Grund für alle, die so besser lesen. 12- und 24-Stunden-Format, im 12-Stunden-Format ohne führende Null. Im Modus Immer an bleibt die Uhrzeit gleich groß, in einem leichten Schriftschnitt."
+    ]
+  },
+  "stor": {
+    "name": "Stor",
+    "subtitle": "Extragroße Ziffern",
+    "full": [
+      "Stor zeigt die Uhrzeit in den größten Ziffern, die ein runder Bildschirm fassen kann: die Stunden in einer Zeile, die Minuten in der nächsten, jede fast ein Drittel der Displayhöhe. Kräftige, offene Ziffern in einer modernen Grotesk, weiß auf schwarz, die Minuten in einer Farbe deiner Wahl, auf einen Blick lesbar quer durch den Raum, im Auto oder morgens, bevor die Brille auf der Nase sitzt.",
+      "Alles andere hält sich zurück. Ein dünner Balken zwischen den beiden Zeilen füllt sich, je näher du deinem Schrittziel kommst, sodass der Fortschritt gar nicht gelesen werden muss; er kann stattdessen auch den Etagen, den Intensitätsminuten, der Body Battery, dem Akku oder dem Stress folgen oder ausgeschaltet werden. Oben Akku und Benachrichtigungen. Unten das Datum in der Sprache deiner Uhr, oder stattdessen ein Wert: Herzfrequenz, Wetter, Schritte oder eine von zwanzig Quellen.",
+      "Sechs Farbschemata: Koralle, Bernstein, Minze, Himmelblau, Mono und Papier, dunkle Ziffern auf weißem Grund für alle, die so besser lesen, und für einen hellen Tag auf einem Memory-in-Pixel-Display. 12- und 24-Stunden-Format, im 12-Stunden-Format ohne führende Null. Der Modus Immer an zeigt dieselben Ziffern in derselben Größe in einem Haarlinien-Schnitt, groß genug, um sie im Dunkeln zu lesen."
+    ]
+  },
+  "vila": {
+    "name": "Vila",
+    "subtitle": "E-Ink-Ruhebildschirm",
+    "full": [
+      "Vila ist der Bildschirm, den ein E-Reader im Ruhezustand zeigt: ein Stich in einer Farbe auf Papier und darüber die Uhrzeit in einer Buchschrift. Der Stich ist eine Sanduhr, jeder Teil in Linien gezeichnet, wie ein Kupferstecher ihn schneiden würde: zwei Platten mit Umriss und Schattierung, gedrechselte Säulen, auf einer Seite schraffiert, das Glas in feinen Konturen mit seiner Schattierung und der Sand in dichter Schraffur.",
+      "Der Sand ist der Fortschritt. Morgens füllt er den oberen Kolben; während deine Schritte ihr Ziel füllen, rinnt er in einem dünnen Strahl in den unteren, bis der obere leer ist und unten ein Häufchen liegt. Er kann stattdessen auch den Etagen, den Intensitätsminuten, der Body Battery, dem Akku oder dem Stress folgen.",
+      "Die Uhrzeit steht groß in EB Garamond, darunter das Datum in der Sprache deiner Uhr, darüber Akku und Benachrichtigungen. Zwei Werte stehen beiderseits der Taille der Sanduhr, zu Beginn Herzfrequenz und Wetter, oder eine von fünfzehn Quellen.",
+      "Fünf Papiere: Papier, Warmes Licht, Sepia, Nacht (weiße Linien auf Schwarz) und Indigo. Ein Memory-in-Pixel-Display ist schon reflektierend, wie E-Ink. Der Modus Immer an zeigt die Uhrzeit und den Umriss der Sanduhr."
+    ]
+  },
+  "vik": {
+    "name": "Vik",
+    "subtitle": "Nordische Bucht in der Dämmerung",
+    "full": [
+      "Vik ist eine Bucht im hohen Norden am Ende des Tages. Ferne Berge stehen im Dunst mit Nebel zu ihren Füßen, die nahen Hügel sind dunkel, das Wasser liegt still mit Lichtstreifen darauf, und über den ganzen Himmel breiten sich die Äste des Weltenbaums, eine Spur heller als die Dämmerung.",
+      "Auf dem Wasser rudert ein Langschiff mit gestreiftem Segel und Schilden an der Bordwand vom Westufer zum Ostufer, während deine Schritte ihr Ziel füllen: Es legt morgens ab und landet beim Ziel an. Es kann stattdessen auch den Etagen, den Intensitätsminuten, der Body Battery, dem Akku oder dem Stress folgen.",
+      "Die Uhrzeit steht über dem Himmel in Kurale, einer Serifenschrift mit handgeschnittener Kante, darunter das Datum in der Sprache deiner Uhr, darüber Akku und Benachrichtigungen. Zwei Werte stehen auf dem Wasser, jeder mit einer von fünfzehn Quellen, zu Beginn Herzfrequenz und Wetter. Unten eine rote Lebensleiste und eine gelbe Ausdauerleiste, standardmäßig Body Battery und Akku.",
+      "Fünf Farbschemata: Wiese, Nacht, Dunst, Glut und Frost. Auf Memory-in-Pixel-Displays ist der Himmel in den 64 Farben gerastert. Der Modus Immer an zeigt die Uhrzeit, das Ufer und das Langschiff als feine Linien.",
+      "Halte einen Wert oder eine Leiste gedrückt, um seinen Glance auf der Uhr zu öffnen, das Schiff für den seines Ziels, das Datum für den Kalender. Die Sekunden laufen auf einer Tafel nach dem Datum, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "skold": {
+    "name": "Sköld",
+    "subtitle": "Wikingerschild analog",
+    "full": [
+      "Sköld ist ein runder Schild, gemacht für eine runde Uhr. Sieben Bretter aus dunklem Holz mit Maserung, Ästen und Fugen; ein eiserner Rand, dessen Kante das Licht fängt; ein Nagelkopf an jeder Stunde; ein eiserner Buckel in der Mitte; und zwei Stahlzeiger, jeder eine schwarz umrandete Klinge.",
+      "In den Rand graviert sind die 24 Runen des älteren Futhark, in ihrer Reihenfolge, jede aus den geraden Strichen gezeichnet, mit denen sie geschnitten wurde. Sie sind der Fortschritt: Eine nach der anderen glühen sie wie Glut, während deine Schritte ihr Ziel füllen, ab zwölf im Uhrzeigersinn, bis der ganze Rand leuchtet. Sie können stattdessen auch den Etagen, den Intensitätsminuten, der Body Battery, dem Akku oder dem Stress folgen.",
+      "Drei Werte sind bei neun, drei und sechs Uhr in die Bretter geschnitzt, jeder mit einer von fünfzehn Quellen: zu Beginn Herzfrequenz, Wetter und Body Battery, oder Schritte, Kalorien, Distanz, Etagen, Intensitätsminuten, Stress, Luftdruck, Höhe, der nächste Sonnenauf- oder -untergang, Benachrichtigungen oder Akku. Das Datum in der Sprache deiner Uhr sowie Akku und Benachrichtigungen stehen unter der Zwölf.",
+      "Fünf Bemalungen: Eiche (blankes Holz), Blut, Rabe, Frost (mit eisigem Schein) und Moos, jede auf jedem zweiten Brett. Der Modus Immer an zeigt die leuchtenden Runen als feine Linien, die Umrisse der Zeiger und den Buckel.",
+      "Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, den Runenrand für den seines Ziels, das Datum für den Kalender. Ein Sekundenzeiger in der Akzentfarbe, oder schalte ihn aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "stad": {
+    "name": "Stad",
+    "subtitle": "Stadtkarten-HUD",
+    "full": [
+      "Stad macht aus deiner Uhr das Head-up-Display eines Open-World-Spiels. Das ganze Zifferblatt ist die Karte einer erfundenen Stadt: Blocks zwischen breiten Straßen, ein Park, ein Boulevard, eine Schnellstraße, die sich um die Westseite schwingt, ein Strand und das Meer.",
+      "Darüber alles, was du brauchst, schwarz umrandet, damit es auf jeder Straße lesbar bleibt. Fünf Sterne oben füllen sich mit deinem Stress. Die Uhrzeit steht in der Mitte in Big Shoulders Display, darunter deine Schritte als Bargeld: 8.420 Schritte sind $8,420. Zwei Bögen unten sind deine Gesundheit und Rüstung, standardmäßig Body Battery und Akku. Der Pfeil des Spielers steht unter der Mitte und dreht sich zur Minute, und zwei Markierungen auf der Karte tragen beliebige Werte.",
+      "Jede Anzeige lässt sich ändern: Sterne und Leisten folgen Schritten, Etagen, Intensitätsminuten, Body Battery, Akku oder Stress; das Bargeld ist Schritte, Kalorien, Etagen oder Intensitätsminuten; die Markierungen nehmen eine von fünfzehn Quellen, zu Beginn Wetter und Herzfrequenz. Das Datum steht in der Sprache deiner Uhr, Akku und Benachrichtigungen unter dem Pfeil.",
+      "Fünf Farbschemata: Straße, Nacht, Sonnenuntergang, Atlas (eine helle Karte) und Mono. Der Modus Immer an zeigt die Uhrzeit in einem leichten Schnitt und den Umriss des Pfeils.",
+      "Halte einen Kartenpunkt, das Geld, die Sterne oder eine Leiste gedrückt, um den Glance dessen zu öffnen, was sie zeigen, das Datum für den Kalender. Die Sekunden laufen auf einer Tafel neben der Uhrzeit, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "kust": {
+    "name": "Kust",
+    "subtitle": "Neon-Küste im Sonnenuntergang",
+    "full": [
+      "Kust bringt eine Neonküste an dein Handgelenk. Der Himmel läuft von Violett über Rosa zu Orange, eine gestreifte Sonne sitzt auf dem Horizont, darunter liegt das dunkle Meer mit der Sonne gebrochen auf dem Wasser, und zwei Palmen neigen sich vom Rand herein.",
+      "Die Uhrzeit leuchtet oben in Tilt Neon, ein heller Kern in farbigem Schein, wie das Schild eines Strandhotels. Die Sonne ist der Fortschritt: Morgens steht sie frei über dem Meer und versinkt darin, während deine Schritte ihr Ziel füllen, bis nur noch ihre Kuppe über dem Wasser bleibt. Sie kann stattdessen auch den Etagen, den Intensitätsminuten, der Body Battery, dem Akku oder dem Stress folgen.",
+      "Drei Werte stehen wie Neonschilder auf dem Meer, jeder mit einer von fünfzehn Quellen: zu Beginn Herzfrequenz, Schritte und Wetter, oder Kalorien, Distanz, Etagen, Intensitätsminuten, Body Battery, Stress, Luftdruck, Höhe, der nächste Sonnenauf- oder -untergang, Benachrichtigungen oder Akku. Das Datum steht über der Uhrzeit in der Sprache deiner Uhr, unter Akku und Benachrichtigungen.",
+      "Fünf Farbschemata: Sonnenuntergang, Abenddämmerung, Mitternacht, Flamingo und Tropen. Auf Memory-in-Pixel-Displays ist der Himmel in den 64 Farben gerastert. Der Modus Immer an zeigt die Uhrzeit in ihrer Leuchtfarbe, den Horizont und den Umriss der Sonne.",
+      "Halte ein Schild gedrückt, um seinen Glance auf der Uhr zu öffnen, den Sonnenuntergang für den seines Ziels, das Datum für den Kalender. Die Sekunden leuchten klein auf dem Meer, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "dack": {
+    "name": "Däck",
+    "subtitle": "Reifen-Analoguhr",
+    "full": [
+      "Däck ist ein analoges Zifferblatt, gezeichnet als Rad eines Rennwagens, von der Seite gesehen. Der Reifen reicht bis an den Rand des Glases, und sein farbiges Band füllt sich ab zwölf Uhr, während deine Schritte ihr Ziel füllen; es kann stattdessen auch den Etagen, den Intensitätsminuten, der Body Battery, dem Akku oder dem Stress folgen. Das Datum in der Sprache deiner Uhr ist bei sechs in die Reifenflanke geprägt.",
+      "Innerhalb der Felge ist die Radabdeckung das Zifferblatt: Stundenmarken, zwei umrandete Zeiger, die über allem lesbar bleiben, und eine sechseckige Zentralmutter, umringt von der Farbe der Mischung. Drei Werte stehen bei neun, drei und sechs Uhr, jeder mit einer von fünfzehn Quellen: zu Beginn Herzfrequenz, Wetter und Body Battery, oder Schritte, Kalorien, Distanz, Etagen, Intensitätsminuten, Stress, Luftdruck, Höhe, der nächste Sonnenauf- oder -untergang, Benachrichtigungen oder Akku. Akku und Benachrichtigungen stehen bei zwölf.",
+      "Die fünf Farbschemata sind die fünf Reifenmischungen: Weich (rot), Mittel (gelb), Hart (weiß), Intermediate (grün) und Regen (blau). Der Modus Immer an zeigt das leuchtende Band als Haarlinie, die Stundenmarken und die Umrisse der Zeiger.",
+      "Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, das Band für den seines Ziels, das Datum für den Kalender. Ein Sekundenzeiger in der Farbe der Mischung, oder schalte ihn aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "bana": {
+    "name": "Bana",
+    "subtitle": "Streckenkarte",
+    "full": [
+      "Bana zeichnet eine Rennstrecke rund um dein Zifferblatt, mit einer langen Geraden oben, S-Kurven rechts, einer Schikane unten und Randsteinen in den Kurven. Ein Auto umrundet sie einmal pro Stunde: Zur vollen Stunde steht es auf der karierten Linie oben, um Viertel nach ein Viertel weiter, und die bisherige Runde leuchtet hinter ihm. Die Strecke ist erfunden, keine echte Rennstrecke.",
+      "Die Uhrzeit steht im Innenfeld in Tomorrow, darunter drei Werte, jeder mit einer von fünfzehn Quellen: zu Beginn Herzfrequenz, Schritte und Wetter, oder Kalorien, Distanz, Etagen, Intensitätsminuten, Body Battery, Stress, Luftdruck, Höhe, der nächste Sonnenauf- oder -untergang, Benachrichtigungen oder Akku. Wird ein Wert zu lang, wird die ganze Zeile gemeinsam eine Größe kleiner. Akku und Benachrichtigungen stehen über der Strecke, das Datum in der Sprache deiner Uhr darunter.",
+      "Fünf Farbschemata: Nacht, Rasen, Tag (hell), Neon und Mono. Der Modus Immer an zeigt die Strecke als Haarlinie, das Auto und die Uhrzeit in einem leichten Schnitt.",
+      "Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, das Datum für den Kalender. Die Sekunden laufen nach dem Datum, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "varv": {
+    "name": "Varv",
+    "subtitle": "Zeitenmonitor",
+    "full": [
+      "Varv liest sich wie der Zeitenmonitor einer Rennübertragung. Die Uhrzeit steht auf einem schrägen Feld in Exo 2 Italic, an seinem Ende ein Streifen in der Farbe des Schemas. Darüber die Runde: der heutige Tag des Jahres über der Zahl seiner Tage, LAP 276/365 am dritten Oktober, wie in der Übertragungsgrafik.",
+      "Unter der Uhrzeit drei Sektoren, einer für jedes deiner Ziele: standardmäßig Schritte, Etagen und Intensitätsminuten. Ein Sektor wird lila, wenn sein Ziel erreicht ist, grün, solange du vor dem Tempo liegst, mit dem du es bis 22 Uhr erreichst, und gelb, wenn du dahinter liegst; Intensitätsminuten werden über die Woche verteilt. Das Symbol jedes Sektors steht in derselben Farbe über seinem Wert. Zwei weitere Werte darunter sind eine von fünfzehn Quellen: zu Beginn Herzfrequenz und Wetter, oder Kalorien, Distanz, Etagen, Body Battery, Stress, Luftdruck, Höhe, der nächste Sonnenauf- oder -untergang, Benachrichtigungen oder Akku. Das Datum in der Sprache deiner Uhr steht unten auf einem schrägen Schild.",
+      "Fünf Farbschemata: Studio, Carbon, Tag (hell), Petrol und Neon. Der Modus Immer an zeigt die Uhrzeit in einem leichten Schnitt und die Sektoren als Umrisse in ihren Farben.",
+      "Halte einen Sektor gedrückt, um den Glance seines Ziels auf der Uhr zu öffnen, einen Wert für seinen, das Datum für den Kalender. Die Sekunden laufen auf dem Datumsschild, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "ratt": {
+    "name": "Ratt",
+    "subtitle": "Rennlenkrad-Display",
+    "full": [
+      "Ratt bringt die Mitte eines Rennlenkrads an dein Handgelenk. Oben gehen fünfzehn Schaltblitze, fünf grüne, fünf rote und fünf blaue, nacheinander an, während deine Schritte ihr Ziel füllen; beim Ziel leuchten alle fünfzehn. Sie können stattdessen auch den Etagen, den Intensitätsminuten, der Body Battery, dem Akku oder dem Stress folgen.",
+      "In der Mitte sitzt das Display: die Uhrzeit groß in Oxanium, mit zwei Werten darüber und zwei darunter, getrennt durch Haarlinien wie bei einem echten Lenkrad-Display. Jeder Wert ist eine von fünfzehn Quellen: zu Beginn Herzfrequenz, Wetter, Schritte und Body Battery, oder Kalorien, Distanz, Etagen, Intensitätsminuten, Stress, Luftdruck, Höhe, der nächste Sonnenauf- oder -untergang, Benachrichtigungen oder Akku. Rund um das Display Carbongewebe und der Gummi der Griffe, in der Farbe des Schemas vernäht. Unter dem Display das Datum in der Sprache deiner Uhr, dann Akku und Benachrichtigungen.",
+      "Fünf Farbschemata: Carbon, Volt, Kobalt, Glut und Mono, das die Schaltblitze weiß leuchten lässt. Auf Memory-in-Pixel-Displays ist das Carbon als Schraffur in den 64 Farben gezeichnet. Der Modus Immer an zeigt die Uhrzeit in einem leichten Schnitt und die leuchtenden Schaltblitze als Ringe.",
+      "Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, die Schaltlichter für den ihres Ziels, das Datum für den Kalender. Die Sekunden laufen auf einem kleinen Display nach dem Datum, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "glimt": {
+    "name": "Glimt",
+    "subtitle": "Begrüßung im Farbverlauf",
+    "full": [
+      "Glimt begrüßt dich. Guten Morgen, Guten Tag, Guten Abend oder Gute Nacht, je nach Stunde, und darunter die Uhrzeit in Plus Jakarta Sans, beides in einem Verlauf von Blau über Violett zu Rosé.",
+      "Am Rand füllen deine Schritte einen Bogen im selben Verlauf ab zwölf Uhr, mit jedem Schritt ein wenig mehr Farbe; er kann stattdessen auch den Etagen, den Intensitätsminuten, der Body Battery oder dem Akku folgen. Vier Werte stehen in abgerundeten Kacheln, jeder mit einer von fünfzehn Quellen: zu Beginn Herzfrequenz, Schritte, Body Battery und Wetter, oder Kalorien, Distanz, Etagen, Intensitätsminuten, Stress, Luftdruck, Höhe, der nächste Sonnenauf- oder -untergang, Benachrichtigungen oder Akku. Das Datum in der Sprache deiner Uhr steht unten in einer Pille, mit einem kleinen Funkeln daneben.",
+      "Fünf Farbschemata: Nacht, Tag (hell), Polarlicht, Sonnenuntergang und Frost, jedes mit eigenem Verlauf. Auf Memory-in-Pixel-Displays ist der Verlauf in drei Stufen aus den 64 Farben gezeichnet. Der Modus Immer an zeigt die Uhrzeit in einem sanften, gedämpften Verlauf. Die Begrüßung lässt sich ausschalten.",
+      "Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, den Ring für den seines Ziels, das Datum für den Kalender. Die Sekunden stehen klein neben der Uhrzeit, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "kod": {
+    "name": "Kod",
+    "subtitle": "Die Minute als Diff",
+    "full": [
+      "Kod zeigt die Uhrzeit so, wie Entwickler Änderungen lesen: als Diff. Unter einem Hunk-Header mit dem Datum wird die gerade vergangene Minute in einer roten Zeile entfernt und die aktuelle in einer grünen hinzugefügt, größer, in Geist Mono. Es folgt deiner 12- oder 24-Stunden-Einstellung, zur vollen Stunde entfernt 11:00 also 10:59.",
+      "Darunter drei Aufzählungszeilen, jede mit einer von fünfzehn Quellen: zu Beginn Herzfrequenz, Schritte und Wetter, oder Kalorien, Distanz, Etagen, Intensitätsminuten, Body Battery, Stress, Luftdruck, Höhe, der nächste Sonnenauf- oder -untergang, Benachrichtigungen oder Akku. Eine Quelle mit Ziel bekommt eine fünfstellige Anzeige aus Plus- und Minuszeichen, und ihr Aufzählungspunkt wird grün, wenn das Ziel erreicht ist.",
+      "Unter einer Eingabeaufforderung mit ruhigem Cursor erscheint deine Body Battery als verbleibender Kontext: oder Akku, Schritte, Etagen, Intensitätsminuten oder Stress, oder nichts. Oben Akku und Benachrichtigungen.",
+      "Fünf Farbschemata: Graphit, Papier (ein heller Editor), Mitternacht, Mono und Neon. Auf Memory-in-Pixel-Displays ist jedes Farbschema für 64 Farben gezeichnet. Der Modus Immer an zeigt die hinzugefügte Minute und die Eingabeaufforderung.",
+      "Halte eine Zeile gedrückt, um ihren Glance auf der Uhr zu öffnen, den verbleibenden Kontext für den seiner Quelle, die Kopfzeile mit dem Datum für den Kalender. Die Sekunden laufen in der Eingabezeile, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "tanke": {
+    "name": "Tanke",
+    "subtitle": "Denkendes Terminal",
+    "full": [
+      "Tanke ist eine Terminalsitzung an deinem Handgelenk, in der immer etwas nachdenkt. Die Uhrzeit steht mit dem Datum in einem abgerundeten Kasten, in Red Hat Mono, auf warmem Schwarz mit Terrakotta-Akzent.",
+      "Darunter dreht sich ein Sternchen-Spinner jede Minute um einen Schritt neben einem Verb: Grübeln, Brauen, Tüfteln, Aufbrühen, vierundzwanzig davon, jede Minute ein neues und nie zweimal hintereinander dasselbe.",
+      "Daran hängen deine Ziele als To-do-Liste. Jede Zeile ist ein Kästchen, ein Symbol, dein Fortschritt und das Ziel, das deine Uhr führt: zu Beginn Schritte, Etagen und wöchentliche Intensitätsminuten, oder Body Battery, Akku oder Stress. Ein erreichtes Ziel wird abgehakt und durchgestrichen; das erste noch offene ist das laufende. Unten ein Eingabefeld mit ruhigem Cursor, oben Akku und Benachrichtigungen.",
+      "Fünf Farbschemata: Ton, Elfenbein (ein helles Terminal), Salbei, Iris und Mono. Auf Memory-in-Pixel-Displays ist jedes Farbschema für 64 Farben gezeichnet. Der Modus Immer an zeigt die Uhrzeit und die Denkzeile. Der Cursor blinkt nicht, weil ein Blinken die Uhr jede Sekunde wecken würde.",
+      "Halte eine Aufgabe gedrückt, um ihren Glance auf der Uhr zu öffnen, den Rahmen um die Uhrzeit für den Kalender. Die Sekunden laufen in der Eingabezeile, oder schalte sie aus."
+    ]
+  },
+  "horisont": {
+    "name": "Horisont",
+    "subtitle": "Minimaler Planetenhorizont",
+    "full": [
+      "Horisont bringt den Rand einer Welt an dein Handgelenk. Ein dunkler Planet steigt vom unteren Rand des Zifferblatts auf, und sein Horizont ist eine dünne Lichtlinie, die vor dem schwarzen All und verstreuten Sternen leuchtet.",
+      "Der Horizont ist dein Fortschritt. Er leuchtet von links auf, während deine Schritte zusammenkommen, mit seinem ganzen Glühen und einem Aufblitzen an der Spitze, wie die Sonne, die über einem Planeten aufgeht, aus dem Orbit gesehen. Erreichst du dein Ziel, leuchtet er von Ende zu Ende. Er kann stattdessen auch den Etagen, den Intensitätsminuten, der Body Battery oder dem Akku folgen.",
+      "Darüber die Uhrzeit in Unbounded, einer breiten, schweren Schrift, mit dem Datum in der Sprache deiner Uhr sowie Akku und Benachrichtigungen. Auf der dunklen Seite des Planeten drei Werte deiner Wahl aus fünfzehn: zu Beginn Herzfrequenz, Body Battery und Wetter, oder Schritte, Kalorien, Distanz, Etagen, Intensitätsminuten, Stress, Luftdruck, Höhe, der nächste Sonnenauf- oder -untergang, Benachrichtigungen oder Akku.",
+      "Fünf Farbschemata: Leere in Schwarz-Weiß, und Solar, Eis, Sternennebel und Mars, die das Licht färben. Auf Memory-in-Pixel-Displays ist jedes Farbschema für 64 Farben gezeichnet. Der Modus Immer an zeigt die Uhrzeit und den leuchtenden Horizont als Haarlinie.",
+      "Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, den Horizont für den seines Ziels, das Datum für den Kalender. Die Sekunden stehen klein unter der Uhrzeit, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "logg": {
+    "name": "Logg",
+    "subtitle": "Terminal-Datenanzeige",
+    "full": [
+      "Logg macht aus deiner Uhr ein Terminal. Sieben Zeilen laufen eine Spalte hinab, jede mit einem dreibuchstabigen Kürzel, einem Wert und etwas, woran man ihn abliest: ein Balken aus zehn Zellen für alles mit Ziel, der sich füllt, oder die letzten zwei Stunden als Mini-Diagramm für Herzfrequenz, Luftdruck und Höhe.",
+      "Jede Zeile kann eine von fünfzehn Quellen zeigen: Herzfrequenz, Schritte, Body Battery, Stress, Luftdruck, Höhe, Wetter, Kalorien, Distanz, Etagen, Intensitätsminuten, den nächsten Sonnenauf- oder -untergang, Benachrichtigungen oder Akku, oder gar nichts. Untere Zeilen haben weniger Zellen, damit nichts über den runden Bildschirm hinausläuft.",
+      "Darüber die Uhrzeit in JetBrains Mono, der Tag in der Sprache deiner Uhr mit dem Datum nach ISO 8601 sowie Akku und Benachrichtigungen. Darunter eine Eingabeaufforderung und ein ruhiger Blockcursor; er blinkt nicht, weil ein Blinken die Uhr jede Sekunde wecken würde.",
+      "Fünf Farbschemata: Phosphor, Bernstein, Eis, Papier und Plasma. Auf Memory-in-Pixel-Displays ist jedes Farbschema für 64 Farben gezeichnet. Der Modus Immer an zeigt die Uhrzeit und die Eingabeaufforderung.",
+      "Halte eine Zeile gedrückt, um den Glance ihres Werts auf der Uhr zu öffnen, das Datum für den Kalender. Die Sekunden stehen klein neben der Uhrzeit, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "matare": {
+    "name": "Mätare",
+    "subtitle": "Armaturenbrett-Chronograph",
+    "full": [
+      "Mätare ist ein analoges Zifferblatt, gebaut wie ein Armaturenbrett. Drei Anzeigen sitzen bei neun, drei und sechs Uhr, jede mit eigener Skala, gefülltem Bogen, Nadel, Symbol und Wert: standardmäßig Body Battery, Schritte und Intensitätsminuten, oder Stress, Schlafwert, Erholungszeit, Akku und Etagen. Die Nadel läuft von leer bis zu einem Ziel oder dem Skalenende, so bedeutet eine Anzeige immer etwas.",
+      "In den Ecken stehen vier Werte, Symbol über Wert, aus zwanzig Quellen: standardmäßig Herzfrequenz, Wetter, Kalorien und der nächste Sonnenauf- oder -untergang, oder Body Battery, Stress, Tageshoch und -tief, Atmung, Pulsoximeter, Erholungszeit, VO2max, Schlafwert, Schritte, Distanz, Höhe, Luftdruck, Benachrichtigungen und mehr. Bei zwölf Akku und Benachrichtigungen und in einem Fenster Tag und Datum in der Sprache deiner Uhr. VO2max und Schlafwert erscheinen auf den Uhren, die sie liefern.",
+      "Halte eine Anzeige oder einen Wert gedrückt, um die Übersicht der Uhr dazu zu öffnen: Body Battery, Stress, Herzfrequenz, Schritte, Wetter und den Rest. Halte das Datum für deinen Kalender. Auf Uhren mit Touchscreen und aktueller Software.",
+      "Stunden- und Minutenzeiger sind in der Farbe des Zifferblatts umrandet, damit sie über einer Anzeige klar lesbar bleiben. Schalte adaptive Zeiger ein, und ein Zeiger wird überall dort zum Umriss, wo er eine Anzeige oder einen Wert kreuzt, sodass Nadel und Zahl darunter sichtbar bleiben. Die Zeiger gibt es in der Farbe des Schemas, im Akzent oder mit Leuchtmasse, mit kräftigem Umriss für mehr Kontrast, und ein Sekundenzeiger kann ticken oder gleiten. Eine Minuterie läuft rund um den Rand. Jede Ziffer ist in Saira gesetzt.",
+      "Fünf Farbschemata: Carbon, Stahl, Marineblau, Rennsport und Arktis, ein weißes Zifferblatt. Auf Memory-in-Pixel-Displays ist jedes Farbschema für 64 Farben gezeichnet. Der Modus Immer an zeigt die Zeiger als Umriss, die Stundenmarker und das Datum."
+    ]
+  },
+  "vecka": {
+    "name": "Vecka",
+    "subtitle": "Wöchentliches Aktivitätsdiagramm",
+    "full": [
+      "Vecka zeigt deine Woche so, wie deine Uhr sie aufzeichnet: sieben Balken, einer pro Tag, ab dem ersten Wochentag, auf den deine Uhr eingestellt ist. Ein Tag mit erreichtem Ziel leuchtet in der Akzentfarbe, ein Tag darunter ist gedämpft, und heute ist hell und wächst noch. Eine gestrichelte Linie markiert das Ziel.",
+      "Die kommenden Tage zeigen die gleichen Tage der Vorwoche als Umriss, so gibt es immer etwas zu schlagen. Unter den Balken der Anfangsbuchstabe jedes Tages in der Sprache deiner Uhr, darunter die Wochensumme, der Tagesdurchschnitt und wie viele Tage ihr Ziel bisher erreicht haben.",
+      "Über dem Diagramm der heutige Wert gegen sein Ziel, die Uhrzeit in Space Grotesk und das Datum mit der ISO-Kalenderwoche. Am Rand deine wöchentlichen Intensitätsminuten gegen das Wochenziel von Garmin, mit dem Wert am Anfang des Rings. Oben Akku und Benachrichtigungen.",
+      "Die Balken können Schritte, Kalorien, Distanz, Etagen oder die Intensitätsminuten des Tages zeigen. Fünf Farbschemata: Tinte, Koralle, Wald, Mono und Papier. Auf Memory-in-Pixel-Displays ist jedes Farbschema für 64 Farben gezeichnet. Der Modus Immer an zeigt die Uhrzeit und die Balken der Woche als Umriss.",
+      "Halte den Ring gedrückt, um den Glance der Intensitätsminuten auf der Uhr zu öffnen, die Woche für den ihres Messwerts, das Datum für den Kalender. Die Sekunden laufen neben der Uhrzeit, oder schalte sie aus."
+    ]
+  },
+  "kurva": {
+    "name": "Kurva",
+    "subtitle": "Sensorverlauf-Diagramme",
+    "full": [
+      "Kurva bringt die Verläufe aufs Zifferblatt, die deine Uhr ohnehin die ganze Zeit aufzeichnet. Vier Zeilen, je ein Sensor: sein Symbol, sein aktueller Wert, seine letzten Stunden als Fläche unter einer Linie und Höchst- und Tiefstwert dieses Zeitraums.",
+      "Jedes Diagramm steht in denselben Spalten, alle vier teilen sich also eine Zeitachse. Ein Morgenlauf ist ein Gipfel in der Herzfrequenz, eine Stufe nach unten in der Body Battery und eine Lücke beim Stress, übereinander. Wo die Uhr keinen Wert gemessen hat, lässt das Diagramm eine Lücke; es zeichnet nie eine Vermutung als Null.",
+      "Jede Zeile kann Herzfrequenz, Body Battery, Stress, Luftdruck oder Höhe zeigen, und die Diagramme reichen 2, 4, 8 oder 12 Stunden zurück. Zwei weitere Werte stehen unten, aus fünfzehn Quellen: Schritte, Kalorien, Distanz, Etagen, Intensitätsminuten, Wetter, der nächste Sonnenauf- oder -untergang und mehr. Die Uhrzeit steht groß in Inter Tight, mit dem Datum in der Sprache deiner Uhr, oben Akku und Benachrichtigungen.",
+      "Jeder Sensor behält in jeder Zeile seine Farbe. Fünf Farbschemata: Nacht, Schiefer, Papier, Mono und Bernstein. Auf Memory-in-Pixel-Displays ist jedes Farbschema für 64 Farben gezeichnet. Der Modus Immer an zeigt die Uhrzeit und die vier Linien.",
+      "Halte ein Diagramm gedrückt, um den Glance seines Sensors auf der Uhr zu öffnen, einen Wert für den seiner Quelle, das Datum für den Kalender. Die Sekunden laufen neben der Uhrzeit, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "klotter": {
+    "name": "Klotter",
+    "subtitle": "Kritzel-Notizbuch",
+    "full": [
+      "Klotter ist eine Seite aus einem Schulheft auf deiner Uhr: Karopapier, eine rote Randlinie, ein Smiley und eine Spirale in die Ecken gekritzelt, und die Uhrzeit groß in Filzstiftschrift über einem gelben Textmarkerstreifen.",
+      "Unter der Uhrzeit stehen drei mit Kuli umrandete Kritzeleien, und sie sind deine Ziele. Der Stern sind deine Schritte, der Blitz deine Body Battery und die Flamme deine Intensitätsminuten. Jede wird von unten nach oben mit Filzstift ausgemalt, während sich ihr Ziel füllt, und wenn ein Ziel erreicht ist, wird die Kritzelei zum Sticker: voll ausgemalt, weiß umrandet, mit einem kleinen Funkeln. Unter jeder Kritzelei steht ihr Wert.",
+      "Das Datum steht über der Uhrzeit in der Sprache deiner Uhr, von Hand unterstrichen, oben Akku und Benachrichtigungen.",
+      "Fünf Papiere: ein weißes Heft mit blauem Kuli, braunes Packpapier mit schwarzem Filzstift, eine Tafel, eine Blaupause und eine Mitternachtsseite mit Neonstiften. Jede Kritzelei kann den Schritten, der Body Battery, den Intensitätsminuten, den Etagen, dem Akku oder dem Stress folgen.",
+      "Auf Memory-in-Pixel-Displays ist das Heft weißes Papier, das sich im Sonnenlicht am besten liest, und jede Seite ist für 64 Farben gezeichnet. Der Modus Immer an zeigt die Umrisse der drei Kritzeleien und die Uhrzeit.",
+      "Halte eine Kritzelei gedrückt, um den Glance dessen zu öffnen, was sie misst, das Datum für den Kalender. Die Sekunden ticken klein unter den Kritzeleien, oder schalte sie aus."
+    ]
+  },
+  "hoppa": {
+    "name": "Hoppa",
+    "subtitle": "Pixel-Jump'n'Run",
+    "full": [
+      "Hoppa macht aus deinem Tag ein Level eines Pixel-Art-Spiels. Der untere Teil des Zifferblatts ist das Level: Gras über Ziegeln, ein Hügel, eine Reihe Goldmünzen und am Ende eine Flagge. Der Held ist ein rotgetigerter Kater mit rotem Schal, und er läuft mit deinen Schritten. Jeden Morgen startet er links; während du gehst, läuft er nach rechts und sammelt jede Münze ein, an der er vorbeikommt, und wenn dein Schrittziel erreicht ist, erreicht er die Flagge, die Flagge geht hoch und der Kater springt.",
+      "Über dem Level sind fünf Herzen deine Body Battery, wie die Lebensleiste eines Spiels, halb um halb gefüllt. Die Uhrzeit ist in großen Pixelziffern gezeichnet, Block für Block für jedes Display gebaut, damit sie gestochen scharf bleiben, mit einem Schlagschatten wie bei einem Spielstand. Zwei Werte stehen darunter, zu Beginn Herzfrequenz und Schritte, und oben Datum und Akku.",
+      "Fünf Welten: eine Wiese unter blauem Himmel, eine Sternennacht, eine Wüste im Sonnenuntergang, Schnee und Lava. Der Kater kann mit Schritten, Body Battery, Intensitätsminuten, Etagen oder Akku laufen, und die Herzen können jeden dieser Werte zeigen außer Stress.",
+      "Auf Memory-in-Pixel-Displays ist jede Welt in flacher Pixel-Art mit 64 Farben gezeichnet, wie eine Konsole sie zeichnen würde. Der Modus Immer an zeigt die Ziffern als Punkte, die Bodenlinie, den Umriss des Katers und den Fahnenmast.",
+      "Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, die Herzen für ihren, das Level für den Lauf der Katze, das Datum für den Kalender. Die Sekunden laufen am Ende der Datumszeile mit, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "raket": {
+    "name": "Raket",
+    "subtitle": "Rakete zum Mond",
+    "full": [
+      "Raket ist eine Weltraummission auf deiner Uhr. Die Erde sitzt unten links auf dem Zifferblatt, der Mond oben rechts, und eine kleine Rakete fliegt am Rand zwischen ihnen: Dieser Flug ist dein Schrittziel. Jeden Morgen wartet die Rakete auf der Startrampe; während du gehst, steigt sie über den oberen Rand des Zifferblatts, Rauchwölkchen hinter sich und einen gepunkteten Weg vor sich, und wenn das Ziel erreicht ist, landet sie funkelnd neben dem Mond.",
+      "Der Mond ist in seiner echten Phase gezeichnet, der von heute Nacht, berechnet auf der Uhr. Sterne und ein Ringplanet füllen den Rest des Himmels.",
+      "Die Uhrzeit steht groß in Bungee, einer kräftigen Beschilderungsschrift, darüber das Datum in der Sprache deiner Uhr. Zwei Werte stehen unter der Uhrzeit, zu Beginn Herzfrequenz und Schritte, dann Akku und Benachrichtigungen.",
+      "Fünf Missionen: klassisches Marineblau mit roter Rakete, Retro-Petrol, Galaxie-Violett, Marsrost und Nachtschwarz. Die Rakete kann stattdessen auch mit Body Battery, Intensitätsminuten, Etagen oder Akku fliegen.",
+      "Auf Memory-in-Pixel-Displays ist jede Mission für 64 Farben gezeichnet; auf AMOLED ist alles geglättet. Der Modus Immer an zeigt den Weg voraus als Punkte, den Umriss der Rakete, Erde und Mond und die Uhrzeit.",
+      "Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, den Himmel für das Ziel des Flugs, das Datum für den Kalender. Die Sekunden ticken klein zwischen den Sternen unten, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "kompis": {
+    "name": "Kompis",
+    "subtitle": "Taschen-Haustier",
+    "full": [
+      "Kompis ist ein kleines rundes Wesen mit spitzen Ohren und einem Spross auf dem Kopf, und es wohnt auf deiner Uhr. Darunter sitzen fünf Herzen, und sie sind dein Schrittziel: Jedes Herz ist ein Fünftel des Ziels und füllt sich halb um halb. Sind alle fünf voll, reißt Kompis die Arme hoch und Konfetti regnet herab.",
+      "Seine Laune ist deine Body Battery. Ausgeruht hüpft es mit fest zugekniffenen Augen und weit offenem Mund; im Lauf des Tages ist es fröhlich, dann müde, mit schweren Lidern, und erschöpft, mit einem Schweißtropfen, wenn deine Batterie zur Neige geht. Abends schläft es ein, von der Schlafenszeit in deinem Garmin-Profil bis zu deiner Weckzeit, und wacht mit dir auf. Der Schlaf lässt sich ausschalten.",
+      "Die Uhrzeit steht groß in Baloo 2, einer runden, freundlichen Schrift, darüber das Datum in der Sprache deiner Uhr. Zwei Werte stehen neben dem Haustier, zu Beginn Herzfrequenz und Schritte, und unten Akku und Benachrichtigungen.",
+      "Fünf Farben für Kompis: Minze, Pfirsich, Beere, Himmelblau und Zitrone. Die Herzen können sich stattdessen mit Body Battery, Intensitätsminuten, Etagen oder Akku füllen, und die Laune kann jedem davon folgen außer Stress.",
+      "Auf Memory-in-Pixel-Displays ist Kompis für 64 Farben gezeichnet; auf AMOLED ist es geglättet. Der Modus Immer an zeigt Kompis schlafend, als feinen Umriss, und die Uhrzeit.",
+      "Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, dein Haustier für den seiner Laune, die Herzen für ihren, das Datum für den Kalender. Die Sekunden laufen am Ende der Datumszeile mit, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "parla": {
+    "name": "Pärla",
+    "subtitle": "Perle & Roségold",
+    "full": [
+      "Pärla ist eine elegante Uhr für jeden Tag. Das Zifferblatt ist Perlmutt, sein Schimmer in sanften Ringen aus Perle, Rosé und Hellblau gelegt; rundherum läuft ein Stundenring mit Minuterie aus Roségold, mit einem geschliffenen Stein an jeder Stunde und einer Krone aus dreien bei zwölf. Die Dauphine-Zeiger sind entlang ihres Grats facettiert, sodass eine Seite das Licht fängt und die andere im Schatten liegt, und sie drehen sich auf einer in Roségold gefassten Perle.",
+      "Bei sechs führt ein Hilfszifferblatt eine Perle auf ihrem Bogen zu deinem Schrittziel, mit dem Zählerstand in der Mitte; bei drei zeigt ein kleines Fenster die Herzfrequenz oder einen Wert deiner Wahl. Unter der Krone das Datum in der Sprache deiner Uhr sowie Akku und Benachrichtigungen.",
+      "Fünf Zifferblätter: Perle, Rosé, Champagner mit Gelbgold, eine schwarze Tahiti-Perle und Saphir mit Weißgold. Das Hilfszifferblatt kann den Schritten, der Body Battery, dem Stress, den Intensitätsminuten, den Etagen oder dem Akku folgen.",
+      "Die Schrift ist Cormorant Garamond. Auf Memory-in-Pixel-Displays sind die hellen Zifferblätter als klare weiße, rosa und cremefarbene Blätter gezeichnet, die sich im Sonnenlicht am besten lesen; auf AMOLED sind Perlmutt und Zeiger geglättet. Der Modus Immer an zeigt die Zeiger und einen Stein an jeder Viertelstunde.",
+      "Halte das Fenster gedrückt, um den Glance seines Werts auf der Uhr zu öffnen, das Hilfszifferblatt für den seines Ziels, das Datum für den Kalender. Eine Sekundennadel in der Akzentfarbe, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "stjarna": {
+    "name": "Stjärna",
+    "subtitle": "Sternzeichen",
+    "full": [
+      "Stjärna setzt dein Sternzeichen an den Himmel. Sein Sternbild ist aus den echten Sternen gezeichnet, jeder an seinem wahren Ort und in seiner wahren Helligkeit, unter einem feinen Tierkreisring, auf dem das Zwölftel deines Zeichens hervorgehoben ist. Das Zeichen folgt der Sonne durchs Jahr, oder behalte in den Einstellungen das ganze Jahr über dein eigenes.",
+      "Die Sterne sind deine Body Battery. Ausgeruht leuchtet die ganze Figur, in Gold verbunden; während der Tag deine Energie verbraucht, verblassen die Sterne nacheinander, in der Reihenfolge, in der die Figur gezeichnet wird. Die hellsten Sterne sind die größten, und der hellste von allen trägt einen kleinen Glanz.",
+      "Neben dem Datum in der Sprache deiner Uhr zeigt der Mond seine echte Phase, von der Sichel bis zum Vollmond und zurück. Darunter Akku und Benachrichtigungen, die Uhrzeit in Josefin Sans und unten zwei Werte: zu Beginn Herzfrequenz und Schritte.",
+      "Fünf Himmel: Mitternachtsblau mit Gold, Amethyst, Rosenholz, Onyx mit Silber und Lagune. Die Sterne können der Body Battery, den Schritten, dem Stress, den Intensitätsminuten, den Etagen oder dem Akku folgen.",
+      "Auf Memory-in-Pixel-Displays ist jeder Himmel für 64 Farben gezeichnet; auf AMOLED sind die Sterne geglättet. Der Modus Immer an zeigt die Linien der Figur, ihre leuchtenden Sterne, den hellen Rand des Mondes und die Uhrzeit.",
+      "Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, das Sternbild für den seiner Anzeige, das Datum für den Kalender. Die Sekunden stehen klein neben der Uhrzeit, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "fjaril": {
+    "name": "Fjäril",
+    "subtitle": "Schmetterling",
+    "full": [
+      "Fjäril ist ein Schmetterling über der Uhrzeit, seine Flügel wie Buntglas: Farbfelder zwischen dunklen Adern, weiße Punkte am Rand. Die Felder sind deine Body Battery. Ausgeruht leuchtet jedes Feld; während der Tag deine Energie verbraucht, werden sie von den Spitzen der Vorderflügel abwärts dunkel, auf beiden Seiten gleich, bis nur noch das Glas am Körper leuchtet. Du liest es auf einen Blick.",
+      "Die Uhrzeit steht groß in Quicksand, einer weichen, runden Schrift. Darunter teilt sich das Datum in der Sprache deiner Uhr eine Zeile mit Akku und Benachrichtigungen, und unten stehen drei Werte: zu Beginn Herzfrequenz, Schritte und Stress.",
+      "Fünf Schmetterlinge: das Orange eines Monarchfalters, das Blau eines Morphofalters, Rose, Flieder und das Zitrin eines Schwalbenschwanzes, jeder auf einem dunklen Zifferblatt in einer Farbe, die der Flügel nicht hat. Die Flügel können der Body Battery, den Schritten, dem Stress, den Intensitätsminuten, den Etagen oder dem Akku folgen.",
+      "Auf Memory-in-Pixel-Displays ist jeder Schmetterling für 64 Farben gezeichnet; auf AMOLED ist jedes Feld geglättet. Der Modus Immer an zeigt den Umriss der Flügel, die leuchtenden Felder als feine Umrisse und die Uhrzeit."
+    ]
+  },
+  "krans": {
+    "name": "Krans",
+    "subtitle": "Blumenkranz",
+    "full": [
+      "Krans ist ein Blumenkranz rund um den Rand deiner Uhr. Eine Ranke aus Blättern trägt zwölf Blüten, eine für jede Stunde: Rosen bei zwölf, drei, sechs und neun, kleinere Blüten dazwischen. Sie sind dein Schrittziel. Jeden Morgen beginnt der Kranz in Knospen; während du gehst, öffnen sich die Blüten nacheinander, im Uhrzeigersinn ab zwölf, und der Kranz steht in voller Blüte, wenn das Ziel erreicht ist.",
+      "Im Kranz steht die Uhrzeit groß in Bodoni Moda, einer klassischen kontrastreichen Serifenschrift, darüber das Datum in der Sprache deiner Uhr. Drei Werte stehen unter der Uhrzeit, zu Beginn Herzfrequenz, Schritte und Body Battery, und unten Akku und Benachrichtigungen.",
+      "Fünf Kränze: Rosé-Rosen auf Pflaume, Altrosa auf Elfenbein, weiße Rosen auf Salbei, Champagner auf Mitternachtsblau und eine bunte Wildblumenmischung. Statt den Schritten können die Blüten auch der Body Battery, den Intensitätsminuten, den Etagen oder dem Akku folgen.",
+      "Auf Memory-in-Pixel-Displays ist jeder Kranz für 64 Farben gezeichnet, und Elfenbein wird zu einem weißen Zifferblatt, das sich im Sonnenlicht am besten liest; auf AMOLED ist jedes Blütenblatt geglättet. Der Modus Immer an zeigt die Ranke, die offenen Blüten als feine Umrisse und die Uhrzeit.",
+      "Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, den Kranz für den seiner Anzeige, das Datum für den Kalender. Die Sekunden laufen am Ende der Datumszeile mit, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "lov": {
+    "name": "Löv",
+    "subtitle": "Herbstlaub",
+    "full": [
+      "Löv ist ein Ahornzweig vor einem Herbsthimmel. Seine Blätter sind deine Body Battery: Ausgeruht hängen alle achtzehn in Rot, Orange und Gold am Zweig; während der Tag deine Energie verbraucht, fallen sie von den Spitzen nach innen, und jedes fallende Blatt segelt hinab auf den Hügel. Du liest es auf einen Blick, und eine kleine Legende darunter sagt, was die Blätter messen und wie weit sie sind.",
+      "Der Hügel hält vier Werte: Stress, Herzfrequenz, Wetter und den nächsten Sonnenauf- oder -untergang, jeder mit seinem Symbol. Akku und Benachrichtigungen stehen mit dem Datum oben.",
+      "Der Himmel folgt der Sonne: eine neblige Morgendämmerung, ein klarer blauer Tag, eine bernsteinfarbene Abenddämmerung und eine Sternennacht, in der die Blätter die Farben des Mondlichts annehmen. Oder behalte einen von fünf Himmeln: Morgendämmerung, Tag, Abenddämmerung, Nacht oder Goldene Stunde.",
+      "Die Ziffern sind aus der Fraunces, einer weichen Serifenschrift. Auf Memory-in-Pixel-Displays ist jeder Himmel für 64 Farben gezeichnet, von Hand gerastert; auf AMOLED ist er ein weicher Verlauf. Der Modus Immer an zeigt den Zweig, seine Blätter und die Uhrzeit.",
+      "Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, die Legende für den der Anzeige, das Datum für den Kalender. Die Sekunden laufen am Ende der Legende mit, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "natt": {
+    "name": "Natt",
+    "subtitle": "Gotischer Mond",
+    "full": [
+      "Natt ist ein gotisches Zifferblatt für lange Nächte. Knochenweiße Zeiger streichen über ein dunkles Blatt: ein kurzer Stundenzeiger mit Pik-Spitze, ein langer Minutenzeiger mit einer Fledermaus als Gegengewicht. XII, III und IX sind in Fraktur gesetzt, die übrigen Stunden sind schlanke Lanzettmarker, und bei sechs zeigt ein halbrundes Fenster den Nachthimmel mit dem Mond in seiner echten Phase, von der Sichel bis zum Vollmond und zurück.",
+      "Unter der XII das Datum in der Sprache deiner Uhr sowie Akku und Benachrichtigungen; über dem Fenster ein Datenfeld, zu Beginn die Herzfrequenz.",
+      "Fünf Zifferblätter: Knochen auf Schwarz, Blut, Glut, Amethyst und Silber. Halloween hat es hervorgebracht, getragen werden soll es noch lange danach.",
+      "Ziffern und Datum sind aus der Grenze Gotisch, einer Frakturschrift. Auf Memory-in-Pixel-Displays ist jedes Zifferblatt für 64 Farben gezeichnet; auf AMOLED sind die Zeiger geglättet. Der Modus Immer an zeigt die Zeiger, drei Markierungen und den hellen Rand des Mondes.",
+      "Halte den Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, das Datum für den Kalender. Eine Sekundennadel in der Akzentfarbe, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "lykt": {
+    "name": "Lykt",
+    "subtitle": "Kürbislaterne",
+    "full": [
+      "Lykt ist eine Kürbislaterne, und die Uhr ist das Licht darin. Die Uhrzeit ist das Grinsen: Ihre Ziffern sind die nicht ausgeschnittenen Zähne, dunkel vor der Kerze. Jedes Auge hält einen Wert, zu Beginn Herzfrequenz und Schritte, und die Nase ist deine Body Battery: Die Kerze füllt sie von unten, eine dunkle Nase, wenn du erschöpft bist, und eine Nase voller Licht, wenn du ausgeruht bist. Akku und Benachrichtigungen sitzen unter dem Deckel, das Datum auf der Schale unter dem Grinsen.",
+      "Fünf Kürbisse: klassisch orange, ein weißer Geisterkürbis mit kaltem blauem Schein, Glutrot, Giftgrün und ein schwarzer Mitternachtskürbis mit orangem Schein.",
+      "Die Ziffern sind aus der Oswald, hoch und schmal wie geschnitzte Zähne. Auf Memory-in-Pixel-Displays ist jeder Kürbis für 64 Farben gezeichnet; auf AMOLED leuchtet der Schein in der Mitte am hellsten. Der Modus Immer an zeigt die geschnitzten Umrisse, den Stand der Kerze und die Uhrzeit, leuchtend im Dunkeln."
+    ]
+  },
+  "dimma": {
+    "name": "Dimma",
+    "subtitle": "Halloween-Friedhof",
+    "full": [
+      "Dimma ist ein Friedhof auf einem Hügel bei Nacht. Eine kahle Eiche neigt sich über sieben Grabsteine, Fledermäuse kreuzen den Mond, und über den Gräbern liegt eine Nebelbank. Der Nebel ist deine Body Battery: Wenn du ausgelaugt bist, verschluckt er jeden Stein; während du dich erholst, lichtet er sich, bis er nur noch am Fuß des Hügels liegt und jedes Grab frei steht. Eine kleine Legende darunter sagt, was der Nebel misst und wie weit er sich gelichtet hat.",
+      "Der Vordergrund hält vier Werte: Schritte, Herzfrequenz, Wetter und den nächsten Sonnenauf- oder -untergang, jeder mit seinem Symbol. Akku und Benachrichtigungen stehen mit dem Datum oben.",
+      "Wähle die Nacht: eine klare Nacht, einen Blutmond, die Geisterstunde, Dunst oder die blaue Stunde. Der Mond zeigt seine echte Phase.",
+      "Die Ziffern sind aus der Creepster, den tropfenden Buchstaben eines alten Horrorplakats. Auf Memory-in-Pixel-Displays ist jeder Himmel für 64 Farben gezeichnet, von Hand gerastert; auf AMOLED ist er ein weicher Verlauf. Der Modus Immer an zeigt die Uhrzeit, den Hügel, den hellen Rand des Mondes und die Spitzen des Nebels."
+    ]
+  },
+  "pumpa": {
+    "name": "Pumpa",
+    "subtitle": "Halloween-Kürbisfeld",
+    "full": [
+      "Pumpa ist ein Kürbisfeld am Ende eines Oktobertags. Sieben Kürbisse liegen auf dem Feld unter einem schiefen Zaun und einem Erntemond, und sie leuchten nacheinander auf, während deine Schritte zusammenkommen: ein geschnitztes Gesicht für jedes Siebtel deines Ziels und ein Kerzenschein auf der Erde darunter. Eine kleine Legende darunter sagt, was die Laternen zählen und wie weit du bist.",
+      "Der Vordergrund hält vier Werte: Herzfrequenz, Body Battery, Wetter und den nächsten Sonnenauf- oder -untergang, jeder mit seinem Symbol. Akku und Benachrichtigungen stehen mit dem Datum oben.",
+      "Behalte das Feld in der Abenddämmerung oder wähle Frost, Erntegold, Nacht oder einen Blutmond, oder lass den Himmel der Sonne folgen. Der Mond zeigt seine echte Phase.",
+      "Die Ziffern sind aus der Jolly Lodger, einer verspielt-gruseligen Schrift. Auf Memory-in-Pixel-Displays ist jeder Himmel für 64 Farben gezeichnet, von Hand gerastert; auf AMOLED ist er ein weicher Verlauf. Der Modus Immer an zeigt die Uhrzeit, eine Bodenlinie und die leuchtenden Gesichter im Dunkeln."
+    ]
+  },
+  "eng": {
+    "name": "Eng",
+    "subtitle": "",
+    "full": [
+      "Eng ist eine Lavendelwiese, die bis zu den Hügeln reicht. Ihre Blüte ist deine Body Battery: Ausgeruht blühen die Reihen bis zum Horizont; während der Tag deine Energie verbraucht, weicht die Farbe das Feld hinab zurück, und die Reihen werden wieder zu Knospen. Du liest es wie ein echtes Feld, und eine kleine Legende darunter sagt, was die Blüte misst und wie weit sie gekommen ist.",
+      "Der Vordergrund hält vier Werte für einen ruhigeren Tag: Stress, Herzfrequenz, Wetter und den nächsten Sonnenauf- oder -untergang, jeder mit seinem Symbol. Akku und Benachrichtigungen stehen mit dem Datum oben.",
+      "Der Himmel folgt der Sonne: Morgendämmerung nach Sonnenaufgang, ein klarer blauer Tag, die Lavendelstunde vor Sonnenuntergang und eine Nacht mit Glühwürmchen über dem Feld. Oder behalte einen von fünf Himmeln: Morgendämmerung, Tag, Abenddämmerung, Nacht oder Goldene Stunde.",
+      "Die Ziffern sind aus der Fraunces, einer weichen Serifenschrift. Auf Memory-in-Pixel-Displays ist jeder Himmel für 64 Farben gezeichnet, von Hand gerastert; auf AMOLED ist er ein weicher Verlauf. Der Modus Immer an zeigt den Kamm der Wiese, den Rand der Blüte und die Uhrzeit.",
+      "Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, die Legende für den der Anzeige, das Datum für den Kalender. Die Sekunden laufen am Ende der Legende mit, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "blom": {
+    "name": "Blom",
+    "subtitle": "",
+    "full": [
+      "Blom ist ein Zweig Kirschblüten vor dem Himmel. Seine Blüten sind deine Body Battery: Ausgeruht sind alle achtzehn offen; während der Tag deine Energie verbraucht, schließen sie sich von den Spitzen nach innen, und jede, die sich schließt, lässt ein Blütenblatt ins Gras fallen. Du liest es auf einen Blick, und eine kleine Legende darunter sagt, was die Blüte misst und wie weit sie ist.",
+      "Der Garten hält vier Werte für einen ruhigeren Tag: Stress, Herzfrequenz, Wetter und den nächsten Sonnenauf- oder -untergang, jeder mit seinem Symbol. Akku und Benachrichtigungen stehen mit dem Datum oben.",
+      "Der Himmel folgt der Sonne: Morgendämmerung nach Sonnenaufgang, ein sanft blauer Tag, Abenddämmerung vor Sonnenuntergang und danach eine Sternennacht, in der die Blüten silbern werden. Oder behalte einen von fünf Himmeln: Morgendämmerung, Tag, Abenddämmerung, Nacht oder Rosé.",
+      "Die Ziffern sind aus der Fraunces, einer weichen Serifenschrift. Auf Memory-in-Pixel-Displays ist jeder Himmel für 64 Farben gezeichnet, von Hand gerastert; auf AMOLED ist er ein weicher Verlauf. Der Modus Immer an zeigt den Zweig, seine offenen Blüten und die Uhrzeit.",
+      "Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, die Legende für den der Anzeige, das Datum für den Kalender. Die Sekunden laufen am Ende der Legende mit, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "hav": {
+    "name": "Hav",
+    "subtitle": "",
+    "full": [
+      "Hav ist eine Bucht am Rand des Tages. Die Flut an ihrem Strand ist deine Body Battery: Nach einer guten Nacht steht das Meer am Fuß der Düne; während der Tag deine Energie verbraucht, zieht sich das Wasser zurück und der Strand wird breiter. Du liest es wie ein echtes Ufer, und eine kleine Legende darunter sagt, was die Flut misst und wie weit sie gekommen ist.",
+      "Die Düne hält vier Werte für einen ruhigeren Tag: Stress, Herzfrequenz, Wetter und den nächsten Sonnenauf- oder -untergang, jeder mit seinem Symbol. Akku und Benachrichtigungen stehen mit dem Datum oben.",
+      "Der Himmel folgt der Sonne: Morgendämmerung nach Sonnenaufgang, ein sanft blauer Tag, Abenddämmerung vor Sonnenuntergang und nach Einbruch der Dunkelheit Måne, der Mond über dem Wasser in seiner echten Phase, mit seiner Lichtbahn auf dem Meer. Oder behalte einen von fünf Himmeln: Morgendämmerung, Tag, Abenddämmerung, Måne oder Perle.",
+      "Die Ziffern sind aus der Fraunces, einer weichen Serifenschrift. Auf Memory-in-Pixel-Displays ist jeder Himmel für 64 Farben gezeichnet, von Hand gerastert; auf AMOLED ist er ein weicher Verlauf. Der Modus Immer an zeigt Horizont, Flutlinie und Uhrzeit.",
+      "Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, die Legende für den der Anzeige, das Datum für den Kalender. Die Sekunden laufen am Ende der Legende mit, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "fjell": {
+    "name": "Fjell",
+    "subtitle": "",
+    "full": [
+      "Beim Frühstück sind die Gipfel nackter Fels. Während sich dein Schrittziel füllt, kommt die Schneegrenze den Berg herab; ein erreichtes Ziel ist ein Gebirge unter vollem Schnee. Du liest es wie einen echten Berg, daran, wie weit das Weiß herunterreicht, und eine kleine Legende darunter sagt, was der Schnee misst und wie weit du bist.",
+      "Das Tal hält die vier Werte, die ein Tag draußen braucht: Höhe, Herzfrequenz, Wetter und den nächsten Sonnenauf- oder -untergang, jeder mit seinem Symbol. Akku und Benachrichtigungen stehen mit dem Datum oben.",
+      "Der Himmel folgt der Sonne: Morgendämmerung nach Sonnenaufgang, Blau über den Tag, Abenddämmerung vor Sonnenuntergang und danach eine Sternennacht. Oder behalte einen von sechs Himmeln: Abenddämmerung, Morgendämmerung, Tag, Nacht, Alpenglühen oder ein arktischer Himmel mit Polarlicht tief über den Gipfeln.",
+      "Auf Memory-in-Pixel-Displays ist jeder Himmel für 64 Farben gezeichnet, von Hand gerastert statt gerundet; auf AMOLED ist er ein weicher Verlauf. Der Modus Immer an zeigt Bergsilhouette und Uhrzeit bei 3 % beleuchteten Pixeln.",
+      "Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, die Legende für den der Anzeige, das Datum für den Kalender. Die Sekunden laufen am Ende der Legende mit, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "klar": {
+    "name": "Klar",
+    "subtitle": "",
+    "full": [
+      "Klar stapelt die Stunden über die Minuten, damit die Ziffern doppelt so hoch sein können, wie eine einzelne Zeile erlaubt: kräftige, klare Ziffern, die du auf Armlänge, in Bewegung und ohne Brille lesen kannst.",
+      "Färbe die Minuten in einer von fünf Farben oder halte alles einfarbig. Links und rechts der Uhrzeit je ein Datenfeld mit seinem Symbol: zu Beginn Schritte und Herzfrequenz, wahlweise eine von fünfzehn Quellen. Akku und Benachrichtigungen oben, Datum und Wetter unten, und sonst nichts.",
+      "Auf Memory-in-Pixel-Displays ist Klar schwarz auf weiß: Ein reflektierendes Display liest sich bei Tageslicht am besten auf hellem Grund. Auf AMOLED ist es weiß auf schwarz. Der Modus Immer an zeigt die Ziffern kleiner, bei 4 % beleuchteten Pixeln.",
+      "Halte einen seitlichen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, das Datum für den Kalender. Die Sekunden laufen am Ende der Datumszeile mit, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "artefact": {
+    "name": "Artefact",
+    "subtitle": "",
+    "full": [
+      "Vier Nixie-Röhren stehen in ihren Fassungen in einem gefrästen Messinggehäuse. Jede Ziffer ist gebogener Draht, der von der Kathode aus nach außen glüht, dahinter die neun unbeleuchteten Kathoden, genau wie in einer echten Röhre. Der Neon-Doppelpunkt dazwischen pulsiert im Sekundentakt.",
+      "Unter den Röhren ein funktionierendes VU-Meter: eine hinterleuchtete Skala von 0 bis 100 mit rotem Bereich und eine Nadel, die dein Schrittziel verfolgt, oder Body Battery, Stress, Etagen, Intensitätsminuten oder Akku. Seitlich leuchten vier Neonlampen, wenn dein Smartphone verbunden ist, Nachrichten warten, ein Wecker gestellt oder Nicht stören aktiv ist. Das Datum ist in eine Messingplakette über den Röhren graviert, und eine zweite Plakette darunter zeigt den Wert deiner Wahl: Akku, Herzfrequenz, Wetter, Sonnenuntergang und mehr.",
+      "Fünf Röhrenfarben (Neonorange, Magisches-Auge-Grün, Argonblau, Violett und Weiß) und drei Gehäuse-Finishes (Messing, geschwärzter Stahl und Kupfer), unabhängig voneinander wählbar. Der Modus Immer an zeigt die Ziffern als dünnen Draht, bei 1 % beleuchteten Pixeln.",
+      "Halte das Messinstrument gedrückt, um den Glance seiner Quelle auf der Uhr zu öffnen, die untere Plakette für den ihres Werts, das Datum für den Kalender. Die Sekunden sind in die untere Plakette graviert, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "ringar": {
+    "name": "Ringar",
+    "subtitle": "",
+    "full": [
+      "Drei Zielringe rahmen eine große, ruhige Uhrzeit. Wähle, was jeder Ring zeigt: Schritte, Intensitätsminuten, Etagen, Body Battery, Stress oder Akku. Jeder Ring ist beschriftet: Symbol und Wert stehen in der Farbe des Rings direkt unter der Uhrzeit, so weißt du immer, welcher Ring welcher ist.",
+      "Über der Uhrzeit: Datum und Wetter von deinem Smartphone. Darunter: Akku sowie Benachrichtigungen, Nicht stören und Wecker, nur wenn es etwas zu melden gibt.",
+      "Acht Farbschemata, von nordischer Ruhe bis Lebhaft. Der Modus Immer an ist für das Display gestaltet, nicht einfach abgedunkelt: dein Fortschritt und die Uhrzeit bei 8 % beleuchteten Pixeln.",
+      "Die Ziffern sind für jede Displaygröße eigens gezeichnet, nie skaliert.",
+      "Die Ringlegende kann eigene Werte zeigen: Herzfrequenz, Wetter, Schlafwert oder jede andere Quelle, sodass sie die Ringe ergänzt, statt sie zu wiederholen. Halte einen Ring oder einen Wert der Legende gedrückt, um seinen Glance auf der Uhr zu öffnen, das Datum für den Kalender. Die Sekunden stehen klein unter der Uhrzeit, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "datum": {
+    "name": "Datum",
+    "subtitle": "",
+    "full": [
+      "Alles auf einen Blick und nichts zur Zierde. Eine große, schmale Uhrzeit, Stunden in Weiß und Minuten in deiner Akzentfarbe, darunter Datum und laufende Sekunden. Rundherum sechs Datenfelder deiner Wahl, jedes mit seinem Symbol, und zwei Lünettenbögen für Schritte, Akku, Body Battery, Etagen, Intensitätsminuten oder Stress, mit ihren Werten unter jedem Bogen.",
+      "Wetter und der nächste Sonnenauf- oder -untergang gehören zu den Quellen. Akku, Benachrichtigungen, Nicht stören und Wecker stehen unten, nur wenn es etwas zu melden gibt.",
+      "Sechs Akzentfarben. Der Modus Immer an zeigt Uhrzeit und Datum.",
+      "Die Ziffern sind für jede Displaygröße eigens geschnitten, nie skaliert.",
+      "Halte ein Feld oder eine Lünettenanzeige gedrückt, um seinen Glance auf der Uhr zu öffnen, das Datum für den Kalender. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "blackline": {
+    "name": "Blackline",
+    "subtitle": "",
+    "full": [
+      "Ein Instrumenten-Zifferblatt. Oben ein live mitlaufendes Kursband, eine Sieben-Segment-Anzeige in Schablonenschrift aus Polygonen und sechs Datenfelder deiner Wahl, jedes mit seinem Symbol: Herzfrequenz, Schritte, Höhe, Body Battery, Wetter, der nächste Sonnenauf- oder -untergang und mehr.",
+      "Am unteren Rand läuft ein Tageslichtbogen von Sonnenaufgang bis Sonnenuntergang und füllt sich im Lauf des Tages, so siehst du auf einen Blick, wie viel Licht noch bleibt. Unter den Werten: Akku sowie Benachrichtigungen, Nicht stören und Wecker, nur wenn es etwas zu melden gibt.",
+      "Die unbeleuchteten Segmente sind schwach mitgezeichnet, wie bei einer echten Anzeige. Sechs Anzeigefarben, darunter Nachtsichtgrün und ein Rot, das deine Nachtsicht schont. Der Modus Immer an zeigt nur die Anzeige und das Datum.",
+      "Jede Anzeigefarbe ist für Memory-in-Pixel-Displays von Hand abgestimmt und auf AMOLED in voller Farbe gesetzt.",
+      "Halte ein Feld gedrückt, um seinen Glance auf der Uhr zu öffnen, das Datum für den Kalender. Die Sekunden laufen nach dem Datum, oder schalte sie aus. Temperaturen wie auf der Uhr eingestellt, oder wähle °C oder °F."
+    ]
+  },
+  "atelier": {
+    "name": "Atelier",
+    "subtitle": "",
+    "full": [
+      "Eine elegante Dresswatch, gezeichnet für eine Smartwatch. Ein guillochiertes Zifferblatt mit Sonnenschliff, aufgesetzte rhodinierte Indizes auf einer Railroad-Minuterie, polierte Dauphine-Zeiger und drei Hilfszifferblätter: deine Schritte (oder ein beliebiges Ziel) bei neun Uhr, eine Gangreserve für deinen Akku bei drei Uhr und die kleine Sekunde bei sechs Uhr.",
+      "Unter der Zwölf dein Name oder deine Initialen in gravierten Großbuchstaben und ein Tag-Datum-Fenster mit facettiertem Rahmen.",
+      "Sechs Zifferblattfarben: Mitternachtsblau, Schiefergrau, Champagner, Renngrün, Lachs und Gletscher. Der Modus Immer an zeigt die Zeiger und vier Indizes als Umriss, bei 1 % beleuchteten Pixeln.",
+      "Auf Memory-in-Pixel-Displays ist jede Farbe aus den 64 gewählt, die das Display zeigen kann; auf AMOLED in voller Farbe.",
+      "Halte ein Hilfszifferblatt gedrückt, um den Glance dessen zu öffnen, was es misst, das Datumsfenster für den Kalender."
+    ]
+  },
+  "one-more-step": {
+    "name": "One More Step",
+    "subtitle": "Erfolge: Lauf um die Welt",
+    "full": [
+      "One More Step addiert die Strecke, die deine Uhr jeden Tag misst, zu einer Reise um den Äquator: 40.075 km (24.901 mi). Die Reise beginnt, wenn du die App zum ersten Mal öffnest. Ist eine Runde geschafft, beginnt die nächste; nichts wird je zurückgesetzt.",
+      "Der Glance zeigt deine Runde und wie weit du darin bist. Die App zeigt die verbleibende Strecke als Ring am Bildschirmrand und den Monat, in dem du bei deinem bisherigen Tempo herumkommst. Die Details enthalten deine Gesamtstrecke, Runden, deinen Durchschnittstag, das Startdatum und wie weit es bis zum nächsten Ziel ist.",
+      "Unterwegs warten 33 berühmte Strecken, von der Golden Gate Bridge (2,7 km) am ersten Tag über den Suezkanal, den Jakobsweg, den Nil und die ganze Chinesische Mauer bis zu Vernes zwanzigtausend Meilen: zweimal um die Welt. Erreicht deine Gesamtstrecke eine davon, öffnet sich die App mit einer Karte, die es verkündet: „Geschafft: der Suezkanal, 193 km“. Wische in den Details nach oben oder drücke nach unten für die ganze Liste: was du geschafft hast, was als Nächstes kommt und wie weit, und was noch vor dir liegt.",
+      "Sie zählt die tägliche Strecke, die deine Uhr schon aus deinen Schritten berechnet. Aufgezeichnete Spaziergänge und Läufe gehören dazu, also zählt nichts doppelt, und nur was du ab dem ersten Öffnen gehst, zählt. Die Ankunft braucht zuerst einen vollen Tag; bis dahin steht dort „Ankunft: wird berechnet“ und wie viele Stunden noch fehlen. Die Strecke steht in km oder mi, wie deine Uhr eingestellt ist.",
+      "Die Uhr speichert 7 Tage Verlauf, und die App liest ihn alle 6 Stunden. Kann sie das länger als 7 Tage nicht (Uhr ausgeschaltet), sind diese Tage verloren; nichts wird an ihrer Stelle geschätzt. Nur Schritte zählen: Radfahren und Schwimmen nicht. Wer die App entfernt, löscht die Reise; Uhr- Apps haben kein Backup. Alles bleibt auf deiner Uhr: kein Konto, keine Handy-App, nichts wird irgendwohin gesendet.",
+      "Eine Runde mit 7 km am Tag dauert etwa 15 Jahre. Der Ring ist der weite Blick, die Ziele die Wochen und Monate dazwischen, und der heutige Spaziergang der kurze.",
+      "Auf Deutsch, Englisch, Polnisch, Französisch, Spanisch, Italienisch, Niederländisch, Portugiesisch, Slowakisch und Tschechisch."
+    ]
+  },
+  "stargazing": {
+    "name": "Stargazing Forecast",
+    "subtitle": "Nachthimmel",
+    "full": [
+      "Stargazing Forecast beantwortet eine Frage: Lohnt es sich heute Nacht, rauszugehen, und wann? Das Wetter von Garmin sagt „teils bewölkt“. Ein Beobachter braucht mehr: Ist es dunkel, stört der Mond, ist die Luft klar und ruhig, und in welchen Stunden passt das alles zusammen?",
+      "Die Glance zeigt das Urteil für Ihre Lieblingsart von Himmel: Raus, Vielleicht oder Drinnen, und das beste Zeitfenster. Es ist das Urteil, das die App zuletzt berechnet hat, mit der Uhrzeit, wenn das Stunden her ist: Ein Öffnen der App bringt es auf den neuesten Stand. Öffnen Sie die App für heute Nacht und die beiden folgenden Nächte, jede mit drei Urteilen nebeneinander:",
+      "Deep Sky: Galaxien, Nebel und Sternfelder. Braucht astronomische Dunkelheit, einen Mond unter dem Horizont oder schmal, einen klaren und durchsichtigen Himmel. Milchstraße: dieselben Bedingungen, und dazu das Zentrum der Milchstraße über dem Horizont. Planeten: klare und ruhige Luft. Der Mond stört kaum, auch eine helle Nacht kann also gut sein.",
+      "Eine Zeitleiste läuft von der Dämmerung bis zum Morgen mit Wolken, Mond und den dunklen Stunden, das beste Fenster jedes Modus ist darauf markiert. Die Detailseite ergänzt Mondauf- und -untergang und Mondphase, Temperatur, Wind und ob Tau auf der Optik wahrscheinlich ist.",
+      "Der Himmel wird auf der Uhr berechnet: Sonne, Mond und das Zentrum der Milchstraße für Ihren Standort. Das Wetter stammt aus einem Vorhersagemodell für Ihren Ort, alle drei Stunden über das Handy geholt, und die letzte Vorhersage bleibt gespeichert, die App ist also nach dem ersten Laden nie leer.",
+      "Sie ist mit Absicht vorsichtig. Ein „Raus“ braucht mindestens eine Stunde gute Bedingungen; fehlt die Vorhersage, ist sie alt oder unvollständig, sagt die App das und rät nicht. Mitternachtssonne, Polarnacht und ein Zentrum der Milchstraße, das nie aufgeht, werden als das gemeldet, was sie sind.",
+      "Für die Vorhersage ist eine Handy-Verbindung nötig. Ihren Standort liest die App aus dem Wetter der Uhr; kennt die Uhr keinen, bestimmt sie ihn einmal per GPS. Keine Werbung, kein Abo. Auf Englisch, Polnisch, Deutsch, Französisch, Spanisch, Italienisch, Niederländisch, Portugiesisch, Slowakisch und Tschechisch.",
+      "Forecast: 7Timer!"
+    ]
+  },
+  "ring-match": {
+    "name": "Gem Crush",
+    "subtitle": "Puzzlespiel",
+    "full": [
+      "Gem Crush ist ein Drei-gewinnt-Puzzle für eine runde Uhr. Die Edelsteine liegen auf vier Ringen um die Mitte deines Zifferblatts, und ein Zug dreht einen Ring, mit dem Finger oder mit den Tasten. Bring drei gleiche in eine Reihe, um einen Ring oder gerade von der Mitte nach außen, und sie verschwinden; die Steine weiter außen rutschen nach, und jede Kaskade bringt mehr Punkte als die letzte. Vier in einer Reihe hinterlassen einen Stein, der seine ganze Speiche räumt, fünf einen, der seinen ganzen Ring räumt.",
+      "Dein Gehen treibt es an. Je 1000 Schritte heute sind eine Ladung, bis zu zehn am Tag, und eine Ladung räumt einen ganzen Ring auf einmal. Der Weg zur Haltestelle macht das Warten dort kurzweiliger.",
+      "Ein Brett am Tag, für alle dasselbe, mit 25 Zügen und einer Serie, die du halten kannst. Daneben freies Spiel: 30 Züge pro Runde, so viele Runden, wie du willst. Eine Runde dauert ein, zwei Minuten und wartet, wann immer du aufhörst: schließ sie mitten im Zug, und sie ist da, wenn du zurückkommst.",
+      "Keine Leben, keine Energie, keine Werbung, nichts zu kaufen. Fünf Steinformen, jede in ihrer Farbe, damit das Brett in der Sonne und bei Farbsehschwäche lesbar bleibt. Eine Vibration, wenn eine Kaskade weiterläuft. Auf Deutsch, Englisch, Polnisch, Französisch, Spanisch, Italienisch, Niederländisch, Portugiesisch, Slowakisch und Tschechisch."
+    ]
+  }
+}

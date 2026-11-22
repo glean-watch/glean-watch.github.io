@@ -1,0 +1,700 @@
+{
+  "julnatt": {
+    "name": "Julnatt",
+    "subtitle": "Vánoční strom, odpočet, velké číslice",
+    "full": [
+      "Vánoční ciferník s velkými číslicemi: zasněžené náměstí na Štědrý večer, obrovský vánoční strom zářící zlatými světélky, kolem staré domy s teplým světlem v oknech, před tím velký, dobře čitelný čas, datum a údaje, které každý den sledujete.",
+      "Čas stojí v jednom řádku, tak širokém, jak kulatý displej dovolí, v úzkých číslicích ke čtení jedním pohledem: hodiny bílé, dvojtečka a minuty v barvě motivu. Každá číslice má tmavý obrys, takže zůstává ostrá na světlech i na sněhu.",
+      "Nad časem datum v jazyce hodinek se sekundami vedle a úplně nahoře baterie a upozornění. Pod ním dva údaje v zaoblených políčkách: na začátek odpočet do Vánoc, malý balíček a zbývající dny, a váš tep. Nebo vyberte počasí, denní nejvyšší a nejnižší teplotu, kroky, Body Battery, stres, kalorie, vzdálenost, patra, východ a západ slunce, nadmořskou výšku, VO2 max, skóre spánku a další, celkem dvacet zdrojů. Krátký pruh se plní s cílem kroků, nebo pater, minut intenzity, Body Battery, baterie či stresu.",
+      "Čtyři motivy z noci: Zlatá, Červená, Zelená a Ledová, nebo obrázek vypněte pro černý ciferník. Čas 12- nebo 24hodinový nebo podle hodinek. Na displejích MIP běží sekundy i při spuštěném zápěstí; režim stále zapnutého displeje ukazuje čas ve stejné velikosti tenkým písmem, na černé.",
+      "Podržte údaj nebo pruh cíle, abyste otevřeli jeho přehled v hodinkách, datum nebo odpočet pro kalendář. Teploty podle hodinek, nebo zvolte °C či °F."
+    ]
+  },
+  "snemand": {
+    "name": "Snemand",
+    "subtitle": "Sněhulák, odpočet do Vánoc, zima",
+    "full": [
+      "Ciferník se sněhuláky na zimu a Vánoce: rodinka sněhuláků stojí ve sněhu v pravém dolním rohu ciferníku, velký sněhulák v cylindru mezi dvěma malými v červených pletených čepicích a šálách, vedle velkého, zřetelného času a údajů, které každý den sledujete.",
+      "Čas stojí v tučných kurzívních číslicích se sekundami vedle, minuty v barvě motivu a pod ním datum v jazyce hodinek. Každý řádek má tmavý obrys, takže zůstává ostrý vedle obrázku.",
+      "Čtyři údaje, každý se svou ikonou: na začátek nahoře počasí a tep, dole kroky a odpočet do Vánoc, malý balíček a zbývající dny. Odpočítávejte do Božího hodu vánočního, Štědrého dne nebo Silvestra, nebo na jeho místo dejte kterýkoli z dvaceti zdrojů: Body Battery, stres, kalorie, vzdálenost, patra, východ a západ slunce, nadmořskou výšku, denní nejvyšší a nejnižší teplotu, VO2 max, skóre spánku a další. Ukazatel u levého okraje se plní s Body Battery, kroky nebo jiným cílem.",
+      "Tři motivy, Ledová, Červená a Bílá, nebo sněhuláka skryjte pro černý ciferník. Čas 12- nebo 24hodinový nebo podle hodinek, s nulou na začátku nebo bez ní. Na displejích MIP běží sekundy i při spuštěném zápěstí; v režimu stále zapnutého displeje zůstává vedle času tlumená kresba sněhuláka.",
+      "Podržte údaj nebo ukazatel, abyste otevřeli jeho přehled v hodinkách, datum nebo odpočet pro kalendář. Teploty podle hodinek, nebo zvolte °C či °F."
+    ]
+  },
+  "tomte": {
+    "name": "Tomte",
+    "subtitle": "Santa Claus, odpočet do Vánoc",
+    "full": [
+      "Ciferník se Santa Clausem na Vánoce: veselý Santa v červené čepici se směje z pravého dolního rohu ciferníku, vedle velkého, zřetelného času a údajů, které každý den sledujete.",
+      "Čas stojí v tučných kurzívních číslicích se sekundami vedle, minuty v barvě motivu a pod ním datum v jazyce hodinek. Každý řádek má tmavý obrys, takže zůstává ostrý vedle obrázku.",
+      "Čtyři údaje, každý se svou ikonou: na začátek nahoře počasí a tep, dole kroky a odpočet do Vánoc, malý balíček a zbývající dny. Odpočítávejte do Božího hodu vánočního, Štědrého dne nebo Silvestra, nebo na jeho místo dejte kterýkoli z dvaceti zdrojů: Body Battery, stres, kalorie, vzdálenost, patra, východ a západ slunce, nadmořskou výšku, denní nejvyšší a nejnižší teplotu, VO2 max, skóre spánku a další. Ukazatel u levého okraje se plní s Body Battery, kroky nebo jiným cílem.",
+      "Tři motivy, Červená, Zlatá a Zelená, nebo Santu skryjte pro černý ciferník. Čas 12- nebo 24hodinový nebo podle hodinek, s nulou na začátku nebo bez ní. Na displejích MIP běží sekundy i při spuštěném zápěstí; v režimu stále zapnutého displeje zůstává vedle času tlumená kresba Santovy čepice.",
+      "Podržte údaj nebo ukazatel, abyste otevřeli jeho přehled v hodinkách, datum nebo odpočet pro kalendář. Teploty podle hodinek, nebo zvolte °C či °F."
+    ]
+  },
+  "knut": {
+    "name": "Knut",
+    "subtitle": "Datový ciferník, velký čas, oblouky a týden",
+    "full": [
+      "Datový ciferník s velkými, dobře čitelnými číslicemi: vše, na co se během dne díváte, na jednom ciferníku, uspořádané jako přístrojový panel a ovinuté pletenou šňůrou u okraje.",
+      "Velký čas v ostrých, hranatých číslicích, vlevo číslo týdne podle ISO, vpravo sekundy. Nad ním včera, dnes a zítra, dnešek v rámečku v barvě motivu; pod ním měsíc a rok, nebo pár vlastních slov.",
+      "Šest údajů, každý s ikonou a každý na výběr z dvaceti zdrojů: pro začátek kroky, tepová frekvence a počasí, dole Body Battery, kalorie a patra, nebo vzdálenost, minuty intenzivní aktivity, stres, denní maximum a minimum, východ a západ slunce, nadmořská výška, tlak, oznámení, dýchání, Pulse Ox, doba zotavení, VO2 max a skóre spánku. Dva oblouky u šňůry se plní s vašimi cíli: nahoře kroky s procentem vedle, dole baterie, nebo patra, minuty intenzivní aktivity, Body Battery, stres, zotavení či spánek.",
+      "Osm motivů: tyrkysová, limetková, jantarová, korálová, fialová, ledová, růžová a ocelová. Hodiny a minuty zvlášť v bílé, barvě motivu, šedé nebo tmavě šedé. 12- nebo 24hodinový čas nebo podle hodinek; teplota podle hodinek, nebo v °C či °F. Šňůru lze vypnout pro čistý černý ciferník.",
+      "Stále zapnutý displej ve třech úrovních: jen čas, čas s datem a baterií, nebo i údaje, vždy pod desetinou rozsvícené obrazovky. Na displejích MIP běží sekundy i se spuštěným zápěstím.",
+      "Podržte údaj nebo oblouk a otevře se jeho přehled v hodinkách, nebo dny pro váš kalendář."
+    ]
+  },
+  "norrsken": {
+    "name": "Norrsken",
+    "subtitle": "Polární záře, velké číslice",
+    "full": [
+      "Ciferník s polární září a velkými číslicemi: zeleno-fialová polární záře nad zasněženými štíty, před ní velký, dobře čitelný čas, datum a údaje, na které se díváte každý den.",
+      "Čas stojí v jednom řádku, tak široký, jak dovolí kulatý displej, v úzkých číslicích, které přečtete jedním pohledem: hodiny bílé, dvojtečka a minuty v barvě vašeho motivu. Každá číslice má tmavý obrys, takže zůstává ostrá i na nejjasnějším závoji světla.",
+      "Nad časem datum v jazyce vašich hodinek se sekundami vedle a nahoře baterie a upozornění. Pod ním dva údaje v zaoblených rámečcích, každý se svou ikonou: na začátek tep a kroky, nebo počasí, denní maximum a minimum, Body Battery, stres, kalorie, vzdálenost, patra, východ a západ slunce, nadmořská výška, VO2 max, skóre spánku a další, celkem dvacet zdrojů. Krátký pruh se plní s vaším cílem kroků, nebo pater, minut intenzivní aktivity, Body Battery, baterie či stresu.",
+      "Čtyři motivy z noční oblohy: Polární záře, Fialová, Led a Sníh, nebo polární záři vypněte pro čistý černý ciferník. Čas 12- nebo 24hodinový nebo podle hodinek. Na displejích MIP sekundy běží i se spuštěným zápěstím; režim Vždy zapnuto ukazuje čas ve stejné velikosti tenkým písmem, na černé.",
+      "Podržte údaj nebo pruh cíle a otevře se jeho přehled v hodinkách, nebo datum pro kalendář. Teplota podle hodinek, nebo zvolte °C či °F."
+    ]
+  },
+  "ormbunke": {
+    "name": "Ormbunke",
+    "subtitle": "Fraktální kapradí, zelené světlo",
+    "full": [
+      "Ormbunke je fraktální kapradí ze zeleného světla: každý list tvoří lístky, které se opakují a zmenšují směrem ke špičce, a vedle něj stojí přehledný sloupec dne.",
+      "Čas velkými kurzívními číslicemi, minuty v barvě vašeho motivu a sekundy vedle nich. Nad ním dva údaje, pod ním datum v jazyce vašich hodinek a další dva údaje. Všechny čtyři si vyberete z dvaceti zdrojů: tep, kroky, kalorie, Body Battery, počasí, denní maximum a minimum, východ a západ slunce, nadmořská výška, VO2 max, skóre spánku a další, nebo žádný. Podél levého okraje se ukazatel plní vaším Body Battery, nebo kroky, stresem, zotavením, skóre spánku či baterií. Baterie a upozornění nahoře.",
+      "Každý řádek začíná u stejného okraje a má tmavý obrys, takže kapradí nikdy nezakryje číslice, ať zobrazíte cokoli.",
+      "Tři motivy, které ladí s kapradím: Kapradí, Mech a Pyl, nebo kapradí vypněte a máte čistý černý ciferník. Čas ve 12- nebo 24hodinovém formátu nebo podle hodinek, s nulou na začátku nebo bez ní. Sekundy lze skrýt a na displejích MIP běží i při spuštěném zápěstí. Režim stále zapnutého displeje kreslí kapradí tenkými čarami, s časem a datem.",
+      "Podržte údaj nebo ukazatel a otevře se jeho přehled v hodinkách, nebo datum pro kalendář. Teploty podle hodinek, nebo zvolte °C či °F."
+    ]
+  },
+  "dyning": {
+    "name": "Dyning",
+    "subtitle": "Fraktální vlna, tyrkysové světlo",
+    "full": [
+      "Dyning je lámající se vlna z tyrkysového světla: její hřeben se stáčí do fraktální pěny a spršky a vedle ní stojí přehledný sloupec dne.",
+      "Čas velkými kurzívními číslicemi, minuty v barvě vašeho motivu a sekundy vedle nich. Nad ním dva údaje, pod ním datum v jazyce vašich hodinek a další dva údaje. Všechny čtyři si vyberete z dvaceti zdrojů: tep, kroky, kalorie, Body Battery, počasí, denní maximum a minimum, východ a západ slunce, nadmořská výška, VO2 max, skóre spánku a další, nebo žádný. Podél levého okraje se ukazatel plní vaším Body Battery, nebo kroky, stresem, zotavením, skóre spánku či baterií. Baterie a upozornění nahoře.",
+      "Každý řádek začíná u stejného okraje a má tmavý obrys, takže vlna nikdy nezakryje číslice, ať zobrazíte cokoli.",
+      "Tři motivy, které ladí s vlnou: Příboj, Led a Pěna, nebo vlnu vypněte a máte čistý černý ciferník. Čas ve 12- nebo 24hodinovém formátu nebo podle hodinek, s nulou na začátku nebo bez ní. Sekundy lze skrýt a na displejích MIP běží i při spuštěném zápěstí. Režim stále zapnutého displeje kreslí vlnu tenkými čarami, s časem a datem.",
+      "Podržte údaj nebo ukazatel a otevře se jeho přehled v hodinkách, nebo datum pro kalendář. Teploty podle hodinek, nebo zvolte °C či °F."
+    ]
+  },
+  "gren": {
+    "name": "Gren",
+    "subtitle": "Fraktální strom, žár",
+    "full": [
+      "Gren je fraktální strom ze světla žhavých uhlíků: jeho větve se znovu a znovu dělí na jemné zářící větvičky a vedle něj stojí přehledný sloupec dne.",
+      "Čas velkými kurzívními číslicemi, minuty v barvě vašeho motivu a sekundy vedle nich. Nad ním dva údaje, pod ním datum v jazyce vašich hodinek a další dva údaje. Všechny čtyři si vyberete z dvaceti zdrojů: tep, kroky, kalorie, Body Battery, počasí, denní maximum a minimum, východ a západ slunce, nadmořská výška, VO2 max, skóre spánku a další, nebo žádný. Podél levého okraje se ukazatel plní vaším Body Battery, nebo kroky, stresem, zotavením, skóre spánku či baterií. Baterie a upozornění nahoře.",
+      "Každý řádek začíná u stejného okraje a má tmavý obrys, takže strom nikdy nezakryje číslice, ať zobrazíte cokoli.",
+      "Tři motivy, které ladí se stromem: Žár, Jantar a Popel, nebo strom vypněte a máte čistý černý ciferník. Čas ve 12- nebo 24hodinovém formátu nebo podle hodinek, s nulou na začátku nebo bez ní. Sekundy lze skrýt a na displejích MIP běží i při spuštěném zápěstí. Režim stále zapnutého displeje kreslí strom tenkými čarami, s časem a datem.",
+      "Podržte údaj nebo ukazatel a otevře se jeho přehled v hodinkách, nebo datum pro kalendář. Teploty podle hodinek, nebo zvolte °C či °F."
+    ]
+  },
+  "dag": {
+    "name": "Dag",
+    "subtitle": "Denní hodiny, snadno čitelné",
+    "full": [
+      "Dag jsou denní hodiny: řeknou ti nejen čas, ale i jaký je den a ve které části dne jsi. Uprostřed ciferníku, tak velký, jak ho kulatý displej pojme, den v týdnu celým slovem: STŘEDA. Pod ním v barvě tvého motivu RÁNO, ODPOLEDNE, VEČER nebo NOC.",
+      "Nad nimi čas velkými číslicemi ve stylu dopravních značek; pod nimi datum s rokem velkým jasným písmem a jeden údaj s ikonou: na začátek počasí, nebo srdeční tep, kroky, Body Battery, východ a západ slunce nebo kterýkoli z dvaceti zdrojů, včetně VO2 max a skóre spánku, nebo žádný. Baterie a upozornění nahoře.",
+      "Den a datum jsou v jazyce tvých hodinek a části dne česky, anglicky, polsky, německy, francouzsky, španělsky, italsky, nizozemsky, portugalsky a slovensky. Ráno trvá od pěti do poledne, odpoledne do pěti, večer do devíti a noc až do rána.",
+      "Všechno je velké, jednoduché a kontrastní, pro každého, kdo chce znát den na první pohled, i pro toho, kdo nastavuje hodinky rodiči nebo prarodiči. Šest motivů v barvách dopravních značek: Žlutá, Zelená, Modrá, Oranžová, Bílá a Papír, tmavá písmena na světlém pozadí pro každého, kdo tak lépe čte. Čas 12- nebo 24hodinový nebo podle nastavení hodinek, s úvodní nulou nebo bez, se sekundami vedle, nebo skrytý pro ciferník, který ukazuje jen den. Na displejích memory-in-pixel běží sekundy i se spuštěnou rukou. Režim Vždy zapnuto ponechá den, část dne a čas.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, den nebo datum otevře kalendář. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "visare": {
+    "name": "Visare",
+    "subtitle": "Analog s velkými čísly",
+    "full": [
+      "Visare je analogový ciferník udělaný ke čtení bez brýlí. Dvanáct velkých číslic ve stylu dopravních značek stojí kolem ciferníku, bílé na černé, tak velké, jak je kulatý displej pojme, se šedesáti minutovými značkami na okraji.",
+      "Dvě ručky nejde zaměnit. Hodinová je krátká, široká a bílá; minutová je dlouhá, štíhlejší a v barvě tvého motivu. Každá má tenký obrys v barvě ciferníku, takže jasně vynikne všude, kde přechází přes číslici nebo údaj. Štíhlá sekundová ručka s kulatou protiváhou skáče nebo plynule běží, nebo zůstane vypnutá; na displejích memory-in-pixel běží i se spuštěnou rukou. Zapni adaptivní ručky a ručka se změní v obrys tam, kde přechází přes údaj, takže nic není nikdy skryté.",
+      "Uvnitř číslic den a datum v jazyce tvých hodinek nad středem a dva údaje s ikonami, jeden nad středem a jeden pod ním: na začátek srdeční tep a baterie, nebo kroky, počasí, Body Battery, východ a západ slunce nebo kterýkoli z dvaceti zdrojů, včetně VO2 max a skóre spánku, nebo žádný. Pod nimi může být malý digitální čas, 12- nebo 24hodinový nebo podle nastavení hodinek, s úvodní nulou nebo bez.",
+      "Chceš klidnější ciferník? Ukaž jen 12, 3, 6 a 9 s výraznými pruhy mezi nimi, nebo pruhy dokola. Šest motivů v barvách dopravních značek: Žlutá, Zelená, Modrá, Oranžová, Bílá a Papír, černé číslice na světlém ciferníku pro každého, kdo tak lépe čte. Režim Vždy zapnuto ponechá číslice a obě ručky v plné velikosti v lehkém řezu.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, datum otevře kalendář. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "tavla": {
+    "name": "Tavla",
+    "subtitle": "Velký čas a údaje, snadno čitelné",
+    "full": [
+      "Tavla je tabule na zápěstí, udělaná ke čtení na délku paže bez brýlí. Čas stojí na jednom řádku ve zúžených číslicích ve stylu dopravních značek, písmo udělané ke čtení z dálky. Hodiny jsou bílé, dvojtečka a minuty v barvě tvého motivu.",
+      "Pod časem jsou čtyři údaje na čtyřech dlaždicích, každý s ikonou a velkou hodnotou: na začátek srdeční tep, kroky, počasí a Body Battery, nebo kterýkoli z dvaceti zdrojů, včetně VO2 max a skóre spánku, nebo žádný. Údaj s cílem, jako kroky, patra či minuty intenzivní aktivity, má pod hodnotou pruh, který se postupně plní. Každá dlaždice je tak široká, jak kulatý displej dovolí, a velké číslo zůstává velké: nad deset tisíc se ukáže 18.5k, místo zmenšení.",
+      "Po okraji se kruh plní ve směru hodinových ručiček od dvanáctky, jak tvoje kroky dosahují cíle, nebo patra, minuty intenzivní aktivity, Body Battery, baterie, stres, doba zotavení či skóre spánku, takže vidíš, jak se ti daří, bez čtení jediného čísla. Baterie a upozornění nahoře, datum v jazyce tvých hodinek dole.",
+      "Šest motivů v barvách dopravních značek: Žlutá, Zelená, Modrá, Oranžová, Bílá a Papír, tmavé číslice na světlém pozadí pro každého, kdo tak lépe čte. Čas 12- nebo 24hodinový nebo podle nastavení hodinek, s úvodní nulou nebo bez, a sekundy vedle minut, které na displejích memory-in-pixel běží i se spuštěnou rukou. Režim Vždy zapnuto ponechá čas ve stejné velikosti v lehkém řezu, s datem.",
+      "Podrž dlaždici a otevře se její přehled v hodinkách, čas nebo kruh otevře přehled kruhu, datum kalendář. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "prognos": {
+    "name": "Prognos",
+    "subtitle": "Datový ciferník s předpovědí",
+    "full": [
+      "V Prognos je krajina předpovědí. Přes dolní polovinu ciferníku stojí kopec a jeho hřeben je teplota na příštích dvanáct hodin z počasí v hodinkách: nejteplejší hodina nejvýš, nejchladnější nejníž. Pod hřebenem je napsaná teplota a hodina za tři, šest a devět hodin a nad hodinami, kdy bude pravděpodobně pršet, padají krátké čárky deště.",
+      "Nad tím na obloze: datum a tvůj stav, velký čas se sekundami vedle, tři údaje s ikonami (výchozí srdeční tep, kroky a Body Battery) a další dva (denní maximum a minimum a nejbližší východ nebo západ slunce). Každý údaj může ukazovat kterýkoli z dvaceti zdrojů, včetně VO2 max a skóre spánku, nebo nic.",
+      "Předpověď pochází z poslední synchronizace počasí z telefonu; dokud žádná není, kopec je plochý horizont bez nápisů, nikdy ne odhad.",
+      "Udělej si ho po svém: pět motivů (Soumrak, Noc, Úsvit, Bouře a Mono), déšť zapnutý nebo vypnutý, 12- nebo 24hodinový čas nebo podle nastavení hodinek, úvodní nula, sekundy a datum se stavem zapnuté nebo vypnuté. Na displejích memory-in-pixel je každý motiv nakreslený pro 64 barev a sekundy běží i se spuštěnou rukou. Režim Vždy zapnuto ponechá čas, čáru hřebene a datum.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, datum otevře kalendář, kopec počasí. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "ruta": {
+    "name": "Ruta",
+    "subtitle": "Datový ciferník s barevnými dlaždicemi",
+    "full": [
+      "Ruta je stavěná ke čtení na první pohled, na délku paže. Ciferník tvoří ploché barevné dlaždice oddělené tenkými černými čarami a každá dlaždice nese jednu věc v číslech tak velkých, jak dlaždice dovolí, ve vysokém zúženém písmu.",
+      "Nahoře datum a tvůj stav. Pod nimi má čas vlastní dlaždici se sekundami vedle a pruhem pod ní, který se plní tvými kroky (nebo Body Battery, minutami intenzivní aktivity, patry, stresem, baterií, dobou zotavení či skóre spánku). Níže tři dlaždice s ikonou nad velkou hodnotou (výchozí kroky, srdeční tep a Body Battery) a další dvě s ikonou vedle (počasí a nejbližší východ nebo západ slunce). Každá dlaždice může ukazovat kterýkoli z dvaceti zdrojů, včetně VO2 max a skóre spánku, nebo nic.",
+      "Udělej si ji po svém: pět motivů (Pop, Pastelová, Mono, Noc s tmavými dlaždicemi a barevnými čísly a Sport v černé a signální žluté), 12- nebo 24hodinový čas nebo podle nastavení hodinek, úvodní nula, sekundy a datum se stavem zapnuté nebo vypnuté. Na displejích memory-in-pixel je každá dlaždice jednou z 64 vlastních barev displeje, takže nic není rastrované, a sekundy běží i se spuštěnou rukou. Režim Vždy zapnuto ponechá čas, datum a pruh.",
+      "Podrž dlaždici a otevře se její přehled v hodinkách, čas otevře přehled pruhu, datum kalendář. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "dygn": {
+    "name": "Dygn",
+    "subtitle": "Datový ciferník s denním kruhem",
+    "full": [
+      "Dygn ukazuje celý den na první pohled. Po okraji vede 24hodinový kruh s polednem nahoře: noc je tmavá, dnešní denní světlo svítí teple od východu slunce přes poledne po západ, jasná čára pokrývá denní světlo, které už uplynulo, a slunce (po setmění měsíc) stojí na aktuálním čase.",
+      "Pozadí je obloha, zbarvená podle toho, kde slunce opravdu je: noc, úsvit, den a soumrak, s jemnou září kolem slunce. Uprostřed velký čas se sekundami vedle, datum a tvůj stav, počasí a denní maximum a minimum, tři údaje s ikonami (výchozí srdeční tep, kroky a Body Battery) a dnešní východ a západ slunce dole. Každý údaj může ukazovat kterýkoli z dvaceti zdrojů, včetně VO2 max a skóre spánku, nebo nic; dole může být místo toho zbývající denní světlo.",
+      "Časy slunce pocházejí z polohy počasí v hodinkách nebo z tvé poslední aktivity; bez nich se kruh nakreslí nerozsvícený, nikdy ne odhad.",
+      "Udělej si ho po svém: pět motivů (Obloha, která se řídí sluncem, Noc, Úsvit, Soumrak a Mono), 12- nebo 24hodinový čas nebo podle nastavení hodinek, úvodní nula, sekundy a datum se stavem zapnuté nebo vypnuté. Na displejích memory-in-pixel je každá obloha nakreslená pro 64 barev a sekundy běží i se spuštěnou rukou. Režim Vždy zapnuto ponechá kruh, slunce a čas.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, datum otevře kalendář, kruh východ a západ slunce. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "karta": {
+    "name": "Karta",
+    "subtitle": "Datový ciferník s topo mapou",
+    "full": [
+      "Karta ti dá na zápěstí údaje celého dne a každé číslo nechá snadno čitelné. Pozadí je topografická mapa v noci: vrstevnice kolem dvou vrcholů, jemné pod textem a výraznější u okraje, s každou čtvrtou vrstevnicí zvýrazněnou.",
+      "Nad mapou je velký čas se sekundami vedle a pod ním čtyři údaje ve dvou sloupcích, každý s barevnou ikonou a velkou hodnotou: výchozí srdeční tep, Body Battery, kroky a nejbližší východ nebo západ slunce. Další dva jsou v horním řádku (nadmořská výška a barometrický tlak) a jeden dole (počasí), s baterií a upozorněními vedle data. Každý ze sedmi může ukazovat kterýkoli z dvaceti zdrojů, včetně VO2 max a skóre spánku, nebo nic.",
+      "Po okraji se od dvanáctky plní oblouk tvými kroky, s tečkou v čele; u cíle uzavřeš kruh. Místo toho může sledovat Body Battery, minuty intenzivní aktivity, patra, stres, baterii, dobu zotavení nebo skóre spánku.",
+      "Udělej si ho po svém: pět motivů (Les, Ledovec, Poušť, Noc a Břidlice), čtyři mapy (Štíty, Hřeben, Údolí a Pobřeží) nebo žádná, 12- nebo 24hodinový čas nebo podle nastavení hodinek, úvodní nula, sekundy zapnuté nebo vypnuté a datum se stavem zapnuté nebo vypnuté. Na displejích memory-in-pixel je každý motiv nakreslený pro 64 barev a sekundy běží i se spuštěnou rukou. Režim Vždy zapnuto ponechá čas, datum a ukazatel.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, datum otevře kalendář, okraj přehled ukazatele. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "frost": {
+    "name": "Frost",
+    "subtitle": "Analog se sněhovou vločkou",
+    "full": [
+      "Frost je analogový ciferník na celou zimu, nejen na Vánoce. Ciferník je tabule ledu, hluboká na okraji a světlejší uprostřed, s námrazou, která se vkrádá od skla, a hodiny označují malé šestiramenné krystaly.",
+      "Uprostřed roste během dne sněhová vločka. Jejích šest ramen se natahuje, jak přibývají tvoje kroky, cestou z nich vyrůstají boční větvičky a u cíle se rozsvítí každá špička. Vyber místo toho Body Battery, minuty intenzivní aktivity, patra, stres nebo baterii.",
+      "Čtyři údaje jsou na úhlopříčkách, ikona nad každou hodnotou: výchozí srdeční tep, počasí, Body Battery a nejbližší východ nebo západ slunce, nebo kterýkoli z osmnácti zdrojů, nebo žádný. Den a datum čekají v okénku na třetí v jazyce tvých hodinek a baterie a upozornění pod dvanáctkou. Přidej malý digitální čas nad šestkou, 12- nebo 24hodinový nebo podle nastavení hodinek.",
+      "Kopinaté ručky mají obrys, aby se daly číst nad vším, s ledovou čarou uprostřed, a sekundová ručka se sněhovou vločkou jako protiváhou může skákat nebo plynule běžet; na hodinkách memory-in-pixel tiká i se spuštěnou rukou.",
+      "Udělej si ho po svém: pět ciferníků (Ledovec, Půlnoc, Polární záře, Stříbrná a Růžová), krystaly, arabské nebo římské číslice na čtvrthodinách (v písmu Cinzel), plná, lehká nebo žádná námraza na okraji a stříbrné, ledové nebo zvýrazněné ručky. Na displejích memory-in-pixel je každý ciferník nakreslený pro 64 barev. Režim Vždy zapnuto ponechá krystaly, sněhovou vločku a ručky v obrysu.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, datum otevře kalendář. Teploty se řídí hodinkami, nebo si vyber °C či °F.",
+      "Ručky se mohou změnit v obrys tam, kde přecházejí přes údaj nebo okénko, takže pod nimi nic nezůstane skryté."
+    ]
+  },
+  "kofta": {
+    "name": "Kofta",
+    "subtitle": "Vánoční svetr",
+    "full": [
+      "Kofta oblékne tvoje hodinky do vánočního svetru. Celý ciferník je pletenina Fair Isle, každý steh malé V, od žebrovaného výstřihu nahoře po lem dole, a čas je vpletený přímo do ní velkými hrubými pletenými číslicemi.",
+      "Přes hruď vede pás sobů a plete se sám, jak plyne den: steh po stehu, řada po řadě zdola, jak přibývají tvoje kroky. Neupletené stehy čekají v bledé přízi, takže vidíš, kolik ještě zbývá; dosáhni cíle a pás je hotový. Vyber místo toho Body Battery, minuty intenzivní aktivity, patra, stres nebo baterii.",
+      "Pod časem datum v jazyce tvých hodinek s baterií a upozorněními, pak tři údaje, ikona nad každou hodnotou: výchozí srdeční tep, počasí a Body Battery, nebo kterýkoli z osmnácti zdrojů, nebo žádný.",
+      "Udělej si ho po svém: pět svetrů (klasická červená, lesní zelená, severská modrá, ovesná a kýčovitý, schválně), pět vzorů (sobi, sněhové vločky, stromky, srdíčka nebo hvězdy), pletené stehy nebo plochý vzor, cikcak na lemu nebo obyčejné žebrování. Čas 12- nebo 24hodinový nebo podle nastavení hodinek, s úvodní nulou nebo bez. Sekundy tikají na konci řádku pod ním, nebo je vypni.",
+      "Na displejích memory-in-pixel je každý svetr upletený v 64 barvách. Režim Vždy zapnuto ponechá jen upletený čas, jako jeho stehy.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, datum otevře kalendář. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "gran": {
+    "name": "Gran",
+    "subtitle": "Vánoční stromek s odpočtem",
+    "full": [
+      "Gran je vánoční stromek v zasněžené noci a každé světýlko na něm něco znamená. Na girlandě visí dvacet čtyři žárovek a rozsvěcují se jedna po druhé, jak přibývají tvoje kroky, od nejnižší větve ke špičce. Dosáhni cíle a rozsvítí se hvězda. Vyber místo toho Body Battery, minuty intenzivní aktivity, patra, stres nebo baterii a stromek bude sledovat to.",
+      "Pod stromkem u dárků počet dní do Vánoc, nebo do Štědrého dne či Silvestra, chceš-li. V ten den nahradí číslo hvězda. Vedle něj, kam až světýlka došla.",
+      "Čtyři údaje stojí po stranách stromku, ikona nad každou hodnotou: výchozí srdeční tep, počasí, Body Battery a nejbližší východ nebo západ slunce, nebo kterýkoli z osmnácti zdrojů, nebo žádný. Datum v jazyce tvých hodinek je nahoře s baterií a upozorněními.",
+      "Udělej si ho po svém: pět motivů (Půlnoc, Sněžení, Severský, Zlatá a Bonbon), čtyři barvy světýlek (vícebarevná, teplá bílá, zlatá nebo modrá), padající sníh slabý, hustý nebo žádný, sníh na větvích nebo ne. Čas je v písmu Fraunces, měkkém pohádkovém patkovém písmu, 12- nebo 24hodinový nebo podle nastavení hodinek, s úvodní nulou nebo bez. Sekundy jsou malé vedle, nebo je vypni.",
+      "Na displejích memory-in-pixel je každý motiv nakreslený pro 64 barev. Režim Vždy zapnuto ponechá čas, stromek v obrysu a jen rozsvícené žárovky, takže ukazatel se dá číst i se spuštěnou rukou.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, datum otevře kalendář. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "lage": {
+    "name": "Lage Pro",
+    "subtitle": "Datový panel",
+    "full": [
+      "Většina datových ciferníků ti ukáže čísla a hodnocení nechá na tobě. Je klidový tep 62 v pořádku? Je 3 400 kroků ve dvě odpoledne na dobré cestě? Lage ukazuje stejné bohatství údajů a každému údaji dá hodnocení.",
+      "Čas je uprostřed velkými zúženými číslicemi, hodiny stříbrně nad minutami v barvě tvého motivu. Vlevo tvoje tělo: Body Battery, stres a srdeční tep, každý se šipkou a o kolik se změnil za poslední tři hodiny, s čárou pod ním, zelenou, když je úroveň dobrá, korálovou, když není. Vpravo tvoje cíle: kroky, minuty intenzivní aktivity a patra, každý s pruhem a bílou značkou tam, kde bys teď měl být, takže „+840“ znamená náskok a „-1.2k“ zaostávání. Tvůj den trvá od tvého času buzení po čas spánku a minuty intenzivní aktivity se počítají za týden, jak je počítá Garmin.",
+      "Pod časem graf posledních 4, 12 nebo 24 hodin srdečního tepu, Body Battery, stresu, tlaku nebo nadmořské výšky, s maximem a minimem. Pod ním aktuální počasí a kdy přijde déšť, nebo nejbližší východ či západ slunce. Baterie, upozornění a datum v jazyce tvých hodinek jsou nahoře. Sekundy jsou malé pod minutami a značka na okraji rozsvítí každou, dokud se díváš; jedno nastavení vypne obojí.",
+      "Každý údaj bere kterýkoli z dvaceti zdrojů: skóre spánku, pulzní oxymetr, dobu zotavení, VO2 max, dýchání, kalorie, vzdálenost a další. Na dotykovém displeji podrž údaj a otevře se jeho obrazovka v hodinkách. Pět motivů: Ledovec, Zlatá, Fialová, Oceán a Stříbrná. Režim Vždy zapnuto ponechá čas v plné velikosti v lehkém řezu."
+    ]
+  },
+  "rad": {
+    "name": "Rad",
+    "subtitle": "Velký čas a údaje",
+    "full": [
+      "Rad dá čas na jeden řádek, tak široký, jak kulatý displej v té výšce dovolí, ve zúžených číslicích ve stylu dopravních značek: písmo udělané ke čtení z dálky a v rychlosti. Hodiny jsou bílé, dvojtečka a minuty v barvě tvého motivu.",
+      "Kolem je velké i to, co kontroluješ každý den. Datum je nad časem v jazyce tvých hodinek, baterie a upozornění ještě výš. Pod časem jsou dva údaje v zaoblených štítcích, každý s ikonou: na začátek srdeční tep a kroky, nebo počasí, Body Battery, kalorie, vzdálenost, východ a západ slunce nebo kterýkoli z dvaceti zdrojů. Štítky se přizpůsobí tomu, co nesou. Pod nimi se krátký pruh plní, jak tvoje kroky dosahují cíle, nebo patra, minuty intenzivní aktivity, Body Battery, baterie či stres.",
+      "Šest motivů v barvách dopravních značek: Žlutá, Zelená, Modrá, Oranžová, Bílá a Papír, tmavé číslice na bílém pozadí pro každého, kdo tak lépe čte. 12- a 24hodinový čas, ve 12hodinovém bez úvodní nuly. Režim Vždy zapnuto ponechá čas ve stejné velikosti v lehkém řezu."
+    ]
+  },
+  "stor": {
+    "name": "Stor",
+    "subtitle": "Extra velké číslice",
+    "full": [
+      "Stor dá čas do největších číslic, jaké se vejdou na kulatý displej: hodiny na jednom řádku, minuty na dalším, každé téměř třetina výšky displeje. Těžké, otevřené číslice v moderním groteskovém písmu, bílou na černé, s minutami v barvě podle tvého výběru, čitelné na první pohled přes celý pokoj, v autě nebo hned ráno před nasazením brýlí.",
+      "Všechno ostatní ustoupí. Tenký pruh mezi dvěma řádky se plní, jak tvoje kroky dosahují cíle, takže pokrok netřeba vůbec číst; místo toho může sledovat patra, minuty intenzivní aktivity, Body Battery, baterii nebo stres, nebo se dá vypnout. Baterie a upozornění jsou nahoře. Datum je dole v jazyce tvých hodinek, nebo tam dej údaj: srdeční tep, počasí, kroky nebo kterýkoli z dvaceti zdrojů.",
+      "Šest motivů: Korál, Jantar, Mátová, Obloha, Mono a Papír, tmavé číslice na bílém pozadí pro každého, kdo tak lépe čte, a pro slunečný den na displeji memory-in-pixel. 12- a 24hodinový čas, ve 12hodinovém bez úvodní nuly. Režim Vždy zapnuto ponechá stejné číslice ve stejné velikosti ve vlasovém řezu, dost velké na čtení ve tmě."
+    ]
+  },
+  "vila": {
+    "name": "Vila",
+    "subtitle": "Obrazovka spánku e-ink",
+    "full": [
+      "Vila je obrazovka, kterou ukazuje čtečka e-ink, když odpočívá: rytina jedním inkoustem na papíře a nad ní čas v knižním patkovém písmu. Rytina jsou přesýpací hodiny, každá jejich část nakreslená čarami, jak by ji vyřezal rytec: dvě desky s obrysem a stínováním, soustružené sloupky šrafované z jedné strany, sklo v jemných obrysech se svým stínem a písek v hustém šrafování.",
+      "Písek je pokrok. Ráno plní horní baňku; jak tvoje kroky plní cíl, sype se do dolní, tenký proud padající mezi nimi, až je horní prázdná a v dolní stojí hromádka. Místo toho může sledovat patra, minuty intenzivní aktivity, Body Battery, baterii nebo stres.",
+      "Čas je velkým písmem EB Garamond, s datem pod ním v jazyce tvých hodinek a baterií a upozorněními nad ním. Dva údaje stojí po stranách pasu přesýpacích hodin, na začátek srdeční tep a počasí, nebo kterýkoli z patnácti zdrojů.",
+      "Pět papírů: Papír, Teplé světlo, Sépie, Noc (bílé čáry na černé) a Indigo. Displej memory-in-pixel je už odrazivý, jako e-ink. Režim Vždy zapnuto ponechá čas a obrys přesýpacích hodin."
+    ]
+  },
+  "vik": {
+    "name": "Vik",
+    "subtitle": "Severská zátoka za soumraku",
+    "full": [
+      "Vik je zátoka na dalekém severu na konci dne. Vzdálené hory stojí v oparu s mlhou u paty, blízké kopce jsou tmavé, voda je klidná se světelnými pruhy a přes celou oblohu se rozkládají větve stromu světa, o odstín světlejší než soumrak.",
+      "Na vodě vesluje drakkar s pruhovanou plachtou a štíty podél boku od západního břehu k východnímu, jak tvoje kroky plní cíl: vyrazí ráno a u cíle přistane. Místo toho může sledovat patra, minuty intenzivní aktivity, Body Battery, baterii nebo stres.",
+      "Čas stojí nad oblohou v písmu Kurale, patkovém písmu s ručně řezaným okrajem, datum pod ním v jazyce tvých hodinek a baterie a upozornění nad ním. Dva údaje jsou na vodě, každý z patnácti zdrojů, na začátek srdeční tep a počasí. Dole červený ukazatel zdraví a žlutý ukazatel výdrže, výchozí Body Battery a baterie.",
+      "Pět motivů: Louka, Noc, Opar, Žhavé uhlíky a Jinovatka. Na displejích memory-in-pixel je obloha rastrovaná v 64 barvách. Režim Vždy zapnuto ponechá čas, břeh a drakkar jako jemné čáry.",
+      "Podrž údaj nebo ukazatel a otevře se jeho přehled v hodinkách, drakkar otevře přehled svého cíle, datum kalendář. Sekundy tikají na štítku za datem, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "skold": {
+    "name": "Sköld",
+    "subtitle": "Analogový vikingský štít",
+    "full": [
+      "Sköld je kulatý štít, vyrobený pro kulaté hodinky. Sedm desek z tmavého dřeva s letokruhy, suky a spárami; železný okraj, jehož lem chytá světlo; hlavička hřebíku na každé hodině; železná kupole uprostřed; a dvě ocelové ručky, každá čepel s černým obrysem.",
+      "Do okraje je vyrytých 24 run staršího futharku, v jejich pořadí, každá nakreslená rovnými tahy, kterými se vyřezávala. Jsou pokrokem: jedna po druhé září jako žhavé uhlíky, jak tvoje kroky plní cíl, od dvanáctky ve směru hodinových ručiček, až celý okraj hoří. Místo toho mohou sledovat patra, minuty intenzivní aktivity, Body Battery, baterii nebo stres.",
+      "Tři údaje jsou vyřezané do desek na deváté, třetí a šesté, každý z patnácti zdrojů: na začátek srdeční tep, počasí a Body Battery, nebo kroky, kalorie, vzdálenost, patra, minuty intenzivní aktivity, stres, tlak, nadmořská výška, nejbližší východ nebo západ slunce, oznámení či baterie. Datum v jazyce tvých hodinek a baterie a upozornění jsou pod dvanáctkou.",
+      "Pět barev: Dub (holé dřevo), Krev, Havran, Jinovatka (s ledovou září) a Mech, každá natírá každou druhou desku. Režim Vždy zapnuto ponechá rozsvícené runy jako jemné čáry, obrysy ruček a puklici štítu.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, okraj s runami otevře přehled svého cíle, datum kalendář. Sekundová ručka v barvě zvýraznění, nebo ji vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "stad": {
+    "name": "Stad",
+    "subtitle": "HUD s mapou města",
+    "full": [
+      "Stad promění tvoje hodinky v HUD hry s otevřeným světem. Celý ciferník je mapa vymyšleného města: bloky mezi širokými ulicemi, park, bulvár, dálnice, která se stáčí po západní straně, pláž a moře.",
+      "Nad tím všechno, co potřebuješ, s černým obrysem, aby se to dalo číst na každé ulici. Pět hvězd nahoře se plní tvým stresem. Čas je uprostřed v písmu Big Shoulders Display, pod ním tvoje kroky jako hotovost: 8 420 kroků je $8,420. Dva oblouky dole jsou tvé zdraví a brnění, výchozí Body Battery a baterie. Šipka hráče je pod středem a otáčí se na minutu a dvě značky na mapě nesou jakýkoli údaj.",
+      "Každý ukazatel se dá změnit: hvězdy a pruhy sledují kroky, patra, minuty intenzivní aktivity, Body Battery, baterii nebo stres; hotovost jsou kroky, kalorie, patra nebo minuty intenzivní aktivity; značky berou kterýkoli z patnácti zdrojů, na začátek počasí a srdeční tep. Datum je v jazyce tvých hodinek, s baterií a upozorněními pod šipkou.",
+      "Pět motivů: Ulice, Noc, Západ slunce, Atlas (světlá mapa) a Mono. Režim Vždy zapnuto ponechá čas v lehkém řezu a obrys šipky.",
+      "Podrž značku, hotovost, hvězdy nebo pruh a otevře se přehled hodinek pro to, co ukazují, datum otevře kalendář. Sekundy tikají na štítku vedle času, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "kust": {
+    "name": "Kust",
+    "subtitle": "Neonové pobřeží při západu",
+    "full": [
+      "Kust ti dá na zápěstí neonové pobřeží. Obloha přechází od fialové přes růžovou po oranžovou, pruhované slunce sedí na horizontu, moře pod ním je tmavé se sluncem rozbitým na hladině a od okraje se naklánějí dvě palmy.",
+      "Čas září nahoře v písmu Tilt Neon, světlé jádro v barevné záři, jako nápis hotelu na nábřeží. Slunce je pokrok: ráno stojí nad mořem a zapadá do něj, jak tvoje kroky plní cíl, až nad vodou zůstane jen jeho vršek. Místo toho může sledovat patra, minuty intenzivní aktivity, Body Battery, baterii nebo stres.",
+      "Tři údaje stojí na moři jako neonové nápisy, každý z patnácti zdrojů: na začátek srdeční tep, kroky a počasí, nebo kalorie, vzdálenost, patra, minuty intenzivní aktivity, Body Battery, stres, tlak, nadmořská výška, nejbližší východ nebo západ slunce, oznámení či baterie. Datum je nad časem v jazyce tvých hodinek, pod baterií a upozorněními.",
+      "Pět motivů: Západ slunce, Soumrak, Půlnoc, Plameňák a Tropy. Na displejích memory-in-pixel je obloha rastrovaná v 64 barvách. Režim Vždy zapnuto ponechá čas v barvě jeho záře, horizont a obrys slunce.",
+      "Podrž nápis a otevře se jeho přehled v hodinkách, západ slunce otevře přehled svého cíle, datum kalendář. Sekundy září malé na moři, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "dack": {
+    "name": "Däck",
+    "subtitle": "Analog jako pneumatika",
+    "full": [
+      "Däck je analogový ciferník nakreslený jako závodní kolo z boku. Pneumatika sahá až k okraji skla a její barevný pás se plní od dvanáctky, jak tvoje kroky plní cíl; místo toho může sledovat patra, minuty intenzivní aktivity, Body Battery, baterii nebo stres. Datum v jazyce tvých hodinek je vylisované do bočnice na šesté.",
+      "Uvnitř ráfku je poklice ciferníkem: hodinové značky, dvě ručky s obrysem, aby se daly číst nad vším, a šestihranná centrální matice orámovaná barvou směsi. Tři údaje jsou na deváté, třetí a šesté, každý z patnácti zdrojů: na začátek srdeční tep, počasí a Body Battery, nebo kroky, kalorie, vzdálenost, patra, minuty intenzivní aktivity, stres, tlak, nadmořská výška, nejbližší východ nebo západ slunce, oznámení či baterie. Baterie a upozornění jsou na dvanácté.",
+      "Pět motivů je pět směsí pneumatik: Měkká (červená), Střední (žlutá), Tvrdá (bílá), Přechodová (zelená) a Do deště (modrá). Režim Vždy zapnuto ponechá rozsvícený pás jako tenkou linku, hodinové značky a obrysy ruček.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, pás otevře přehled svého cíle, datum kalendář. Sekundová ručka v barvě směsi, nebo ji vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "bana": {
+    "name": "Bana",
+    "subtitle": "Mapa okruhu",
+    "full": [
+      "Bana nakreslí kolem ciferníku závodní okruh s dlouhou rovinkou nahoře, esíčky vpravo, šikanou dole a obrubníky v zatáčkách. Auto ho projede jednou za hodinu: v celou stojí na šachovnicové čáře nahoře, ve čtvrt na čtvrtině kola a dosavadní kolo za ním svítí. Okruh je vymyšlený, není to žádná skutečná trať.",
+      "Čas je uvnitř okruhu v písmu Tomorrow, pod ním tři údaje, každý z patnácti zdrojů: na začátek srdeční tep, kroky a počasí, nebo kalorie, vzdálenost, patra, minuty intenzivní aktivity, Body Battery, stres, tlak, nadmořská výška, nejbližší východ nebo západ slunce, oznámení či baterie. Když je údaj příliš dlouhý, celý řádek se společně zmenší o velikost. Baterie a upozornění jsou nad okruhem a datum v jazyce tvých hodinek pod ním.",
+      "Pět motivů: Noc, Tráva, Den (světlý), Neon a Mono. Režim Vždy zapnuto ponechá okruh jako tenkou linku, auto a čas v lehkém řezu.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, datum otevře kalendář. Sekundy tikají za datem, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "varv": {
+    "name": "Varv",
+    "subtitle": "Časomíra",
+    "full": [
+      "Varv se čte jako obrazovka časomíry v závodním přenosu. Čas je na šikmém panelu v písmu Exo 2 Italic s pruhem v barvě motivu na konci. Nad ním kolo: dnešní den roku nad počtem dní roku, LAP 276/365 třetího října.",
+      "Pod časem tři sektory, jeden pro každý tvůj cíl: výchozí kroky, patra a minuty intenzivní aktivity. Sektor zfialoví, když je jeho cíl splněný, je zelený, dokud jsi před tempem, které ho splní do deseti večer, a žlutý, když zaostáváš; minuty intenzivní aktivity mají tempo rozložené na celý týden. Ikona každého sektoru ve stejné barvě je nad jeho hodnotou. Další dva údaje pod nimi jsou kterékoli z patnácti zdrojů: na začátek srdeční tep a počasí, nebo kalorie, vzdálenost, patra, Body Battery, stres, tlak, nadmořská výška, nejbližší východ nebo západ slunce, oznámení či baterie. Datum v jazyce tvých hodinek je dole na šikmém štítku.",
+      "Pět motivů: Studio, Karbon, Den (světlý), Modrozelená a Neon. Režim Vždy zapnuto ponechá čas v lehkém řezu a sektory jako obrysy v jejich barvách.",
+      "Podrž sektor a otevře se přehled hodinek pro jeho cíl, údaj pro ten svůj, datum kalendář. Sekundy tikají na štítku s datem, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "ratt": {
+    "name": "Ratt",
+    "subtitle": "Displej závodního volantu",
+    "full": [
+      "Ratt ti dá na zápěstí střed závodního volantu. Nahoře se patnáct světel řazení, pět zelených, pět červených a pět modrých, rozsvěcuje jedno po druhém, jak tvoje kroky plní cíl; u cíle svítí všech patnáct. Místo toho mohou sledovat patra, minuty intenzivní aktivity, Body Battery, baterii nebo stres.",
+      "Uprostřed je obrazovka displeje: čas velkým písmem Oxanium, se dvěma údaji nad ním a dvěma pod ním, oddělenými tenkými čarami jako na skutečném displeji. Každý údaj je kterýkoli z patnácti zdrojů: na začátek srdeční tep, počasí, kroky a Body Battery, nebo kalorie, vzdálenost, patra, minuty intenzivní aktivity, stres, tlak, nadmořská výška, nejbližší východ nebo západ slunce, oznámení či baterie. Kolem obrazovky karbonová vazba a guma rukojetí, prošitá v barvě motivu. Pod obrazovkou datum v jazyce tvých hodinek, pak baterie a upozornění.",
+      "Pět motivů: Karbon, Volt, Kobalt, Žhavé uhlíky a Mono, který rozsvítí světla řazení bíle. Na displejích memory-in-pixel je karbon nakreslený jako šrafování v 64 barvách. Režim Vždy zapnuto ponechá čas v lehkém řezu a rozsvícená světla jako kroužky.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, světla řazení otevřou přehled svého cíle, datum kalendář. Sekundy tikají na malé obrazovce za datem, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "glimt": {
+    "name": "Glimt",
+    "subtitle": "Pozdrav v barevném přechodu",
+    "full": [
+      "Glimt tě pozdraví. Dobré ráno, dobré odpoledne, dobrý večer nebo dobrou noc podle hodiny a pod tím čas v písmu Plus Jakarta Sans, obojí v přechodu od modré přes fialovou po růžovou.",
+      "Po okraji tvoje kroky plní oblouk ve stejném přechodu od dvanáctky, s trochou víc barvy, jak chodíš; místo toho může sledovat patra, minuty intenzivní aktivity, Body Battery nebo baterii. Čtyři údaje jsou v zaoblených štítcích, každý s kterýmkoli z patnácti zdrojů: na začátek srdeční tep, kroky, Body Battery a počasí, nebo kalorie, vzdálenost, patra, minuty intenzivní aktivity, stres, tlak, nadmořská výška, nejbližší východ nebo západ slunce, oznámení či baterie. Datum v jazyce tvých hodinek je dole v oválném štítku s malým zábleskem vedle.",
+      "Pět motivů: Noc, Den (světlý), Polární záře, Západ slunce a Jinovatka, každý s vlastním přechodem. Na displejích memory-in-pixel je přechod nakreslený ve třech krocích z 64 barev. Režim Vždy zapnuto ponechá čas v jemném, ztlumeném přechodu. Pozdrav se dá vypnout.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, okraj otevře přehled svého cíle, datum kalendář. Sekundy jsou malé vedle času, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "kod": {
+    "name": "Kod",
+    "subtitle": "Minuta jako diff",
+    "full": [
+      "Kod ukazuje čas tak, jak vývojář čte změny: jako diff. Pod hlavičkou hunku s datem je právě uplynulá minuta odebraná na červeném řádku a aktuální přidaná na zeleném, větší, v písmu Geist Mono. Řídí se tvým 12- nebo 24hodinovým nastavením, takže o celé 11:00 odebere 10:59.",
+      "Pod tím tři řádky s odrážkami, každý s kterýmkoli z patnácti zdrojů: na začátek srdeční tep, kroky a počasí, nebo kalorie, vzdálenost, patra, minuty intenzivní aktivity, Body Battery, stres, tlak, nadmořská výška, nejbližší východ nebo západ slunce, oznámení či baterie. Zdroj s cílem přidá pětibuňkovou statistiku ze znamének plus a minus a jeho odrážka zezelená, když je cíl splněný.",
+      "Pod výzvou s pevným kurzorem se tvoje Body Battery čte jako kontext, který ti zbývá: nebo baterie, kroky, patra, minuty intenzivní aktivity či stres, nebo nic. Baterie a upozornění jsou nahoře.",
+      "Pět motivů: Grafit, Papír (světlý editor), Půlnoc, Mono a Neon. Na displejích memory-in-pixel je každý motiv nakreslený pro 64 barev. Režim Vždy zapnuto ponechá přidanou minutu a výzvu.",
+      "Podrž řádek a otevře se jeho přehled v hodinkách, zbývající kontext pro jeho zdroj, hlavička hunku kalendář. Sekundy tikají u výzvy, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "tanke": {
+    "name": "Tanke",
+    "subtitle": "Přemýšlející terminál",
+    "full": [
+      "Tanke je terminálová relace na zápěstí, ve které něco pořád přemýšlí. Čas je v zaobleném rámečku s datem, v písmu Red Hat Mono, na teplé černé s terakotovým zvýrazněním.",
+      "Pod ním se vedle slovesa jednou za minutu otočí hvězdičkový spinner: Uvažuji, Vařím, Hloubám, Překapávám, dvacet čtyři sloves, každou minutu nové a nikdy totéž dvakrát po sobě.",
+      "Tvoje cíle pod ním visí jako seznam úkolů. Každý řádek je zaškrtávací políčko, ikona, tvůj pokrok a cíl, který hodinky sledují: na začátek kroky, patra a týdenní minuty intenzivní aktivity, nebo Body Battery, baterie či stres. Splněný cíl se zaškrtne a přeškrtne; první ještě otevřený je ten rozpracovaný. Dole rámeček s výzvou a pevným kurzorem, nahoře baterie a upozornění.",
+      "Pět motivů: Hlína, Slonovina (světlý terminál), Šalvěj, Kosatec a Mono. Na displejích memory-in-pixel je každý motiv nakreslený pro 64 barev. Režim Vždy zapnuto ponechá čas a přemýšlející řádek. Kurzor nebliká, protože blikání by hodinky budilo každou sekundu.",
+      "Podrž úkol a otevře se jeho přehled v hodinkách, rámeček kolem času otevře kalendář. Sekundy tikají u výzvy, nebo je vypni."
+    ]
+  },
+  "horisont": {
+    "name": "Horisont",
+    "subtitle": "Minimalistický horizont planety",
+    "full": [
+      "Horisont ti dá na zápěstí okraj světa. Tmavá planeta vychází ze spodku ciferníku a její horizont je tenká čára světla, zářící proti černému vesmíru a hrsti hvězd.",
+      "Horizont je tvůj pokrok. Rozsvěcuje se zleva, jak přibývají kroky, i se září a zábleskem na čele, jako slunce vycházející nad planetou při pohledu z oběžné dráhy. Splň cíl a svítí od kraje ke kraji. Místo toho může sledovat patra, minuty intenzivní aktivity, Body Battery nebo baterii.",
+      "Nad ním čas v písmu Unbounded, širokém a těžkém, s datem v jazyce tvých hodinek a baterií a upozorněními. Na tmavé straně planety tři údaje, které si vybereš z patnácti: na začátek srdeční tep, Body Battery a počasí, nebo kroky, kalorie, vzdálenost, patra, minuty intenzivní aktivity, stres, tlak, nadmořská výška, nejbližší východ nebo západ slunce, oznámení či baterie.",
+      "Pět motivů: Prázdno, černobílý, a Sluneční, Led, Mlhovina a Mars, které obarví světlo. Na displejích memory-in-pixel je každý motiv nakreslený pro 64 barev. Režim Vždy zapnuto ponechá čas a rozsvícený horizont jako tenkou linku.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, horizont otevře přehled svého cíle, datum kalendář. Sekundy jsou malé pod časem, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "logg": {
+    "name": "Logg",
+    "subtitle": "Výpis dat v terminálu",
+    "full": [
+      "Logg promění tvoje hodinky v terminál. Sedm řádků jde dolů jedním sloupcem, každý s třípísmenným klíčem, hodnotou a něčím ke čtení: pruh z deseti buněk pro všechno, co má cíl, který se postupně plní, nebo poslední dvě hodiny jako minigraf pro srdeční tep, barometrický tlak a nadmořskou výšku.",
+      "Každý řádek může ukazovat kterýkoli z patnácti zdrojů: srdeční tep, kroky, Body Battery, stres, tlak, nadmořskou výšku, počasí, kalorie, vzdálenost, patra, minuty intenzivní aktivity, nejbližší východ nebo západ slunce, oznámení nebo baterii, nebo vůbec nic. Nižší řádky mají méně buněk, takže nic nevyběhne z kulatého displeje.",
+      "Nad nimi čas v písmu JetBrains Mono, den v jazyce tvých hodinek s datem podle ISO 8601 a baterie a upozornění. Pod nimi výzva a pevný blokový kurzor; nebliká, protože blikání by hodinky budilo každou sekundu.",
+      "Pět motivů: Fosfor, Jantar, Led, Papír a Plazma. Na displejích memory-in- pixel je každý motiv nakreslený pro 64 barev. Režim Vždy zapnuto ponechá čas a výzvu.",
+      "Podrž řádek a otevře se přehled hodinek pro jeho údaj, datum otevře kalendář. Sekundy jsou malé vedle času, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "matare": {
+    "name": "Mätare",
+    "subtitle": "Chronograf palubní desky",
+    "full": [
+      "Mätare je analogový ciferník postavený jako palubní deska. Tři ukazatele jsou na deváté, třetí a šesté, každý s vlastní stupnicí, vyplněným obloukem, ručkou, ikonou a hodnotou: výchozí Body Battery, kroky a minuty intenzivní aktivity, nebo stres, skóre spánku, doba zotavení, baterie a patra. Ručka jde od prázdna po cíl nebo plnou stupnici, takže ukazatel vždy něco znamená.",
+      "V rozích jsou čtyři údaje, ikona nad hodnotou, z dvaceti zdrojů: výchozí srdeční tep, počasí, kalorie a nejbližší východ nebo západ slunce, nebo Body Battery, stres, dnešní maximum a minimum, dýchání, pulzní oxymetr, doba zotavení, VO2 max, skóre spánku, kroky, vzdálenost, nadmořská výška, tlak, oznámení a další. Na dvanácté baterie a upozornění a den a datum v okénku, v jazyce tvých hodinek. VO2 max a skóre spánku se zobrazí na hodinkách, které je měří.",
+      "Podrž ukazatel nebo údaj a otevře se jeho přehled v hodinkách: Body Battery, stres, srdeční tep, kroky, počasí a další. Podrž datum pro kalendář. Na dotykových hodinkách s aktuálním firmwarem.",
+      "Hodinová a minutová ručka mají obrys v barvě ciferníku, aby se daly dobře číst nad ukazatelem. Zapni adaptivní ručky a ručka se změní v obrys všude, kde přechází přes ukazatel nebo údaj, takže ručku i číslo pod ní je vidět. Ručky jsou v barvě motivu, jeho zvýraznění nebo luminiscenční, s výrazným obrysem pro větší kontrast, a sekundová ručka může skákat nebo plynule běžet. Po okraji vede minutová stupnice. Každá číslice je v písmu Saira.",
+      "Pět motivů: Karbon, Ocel, Námořnická modrá, Závodní a Arktida, bílý ciferník. Na displejích memory-in-pixel je každý motiv nakreslený pro 64 barev. Režim Vždy zapnuto ponechá ručky v obrysu, hodinové značky a datum."
+    ]
+  },
+  "vecka": {
+    "name": "Vecka",
+    "subtitle": "Graf týdenní aktivity",
+    "full": [
+      "Vecka ukazuje tvůj týden tak, jak ho hodinky zaznamenávají: sedm sloupců, jeden na den, od prvního dne týdne nastaveného v hodinkách. Den se splněným cílem svítí v barvě zvýraznění, den, který cíl nesplnil, je ztlumený, a dnešek je jasný a ještě roste. Přerušovaná čára označuje cíl.",
+      "Dny, které teprve přijdou, ukazují v obrysu stejné dny minulého týdne, takže je vždy co překonat. Pod sloupci počáteční písmeno každého dne v jazyce tvých hodinek; pod nimi součet týdne, denní průměr a kolik dní zatím splnilo cíl.",
+      "Nad grafem dnešní hodnota oproti cíli, čas v písmu Space Grotesk a datum s číslem týdne podle ISO. Po okraji tvé týdenní minuty intenzivní aktivity oproti týdennímu cíli Garmin, s hodnotou tam, kde kruh začíná. Baterie a upozornění jsou nahoře.",
+      "Sloupce mohou ukazovat kroky, kalorie, vzdálenost, patra nebo denní minuty intenzivní aktivity. Pět motivů: Inkoust, Korál, Les, Mono a Papír. Na displejích memory-in-pixel je každý motiv nakreslený pro 64 barev. Režim Vždy zapnuto ponechá čas a sloupce týdne v obrysu.",
+      "Podrž kruh a otevře se přehled hodinek pro minuty intenzivní aktivity, týden pro jeho míru, datum kalendář. Sekundy tikají vedle času, nebo je vypni."
+    ]
+  },
+  "kurva": {
+    "name": "Kurva",
+    "subtitle": "Grafy historie senzorů",
+    "full": [
+      "Kurva dává na ciferník historii, kterou tvoje hodinky celou dobu zaznamenávají. Čtyři řádky, v každém jeden senzor: jeho ikona, aktuální hodnota, poslední hodiny nakreslené jako plocha pod čarou a maximum a minimum za tu dobu.",
+      "Každý graf je ve stejných sloupcích, takže všechny čtyři sdílejí jedny hodiny. Ranní běh je vrchol v srdečním tepu, schod dolů v Body Battery a mezera ve stresu, jedno nad druhým. Kde hodinky nic nenaměřily, graf nechá mezeru; nikdy nenakreslí odhad jako nulu.",
+      "Každý řádek může ukazovat srdeční tep, Body Battery, stres, barometrický tlak nebo nadmořskou výšku a grafy sahají 2, 4, 8 nebo 12 hodin zpět. Dole jsou další dva údaje z patnácti zdrojů: kroky, kalorie, vzdálenost, patra, minuty intenzivní aktivity, počasí, nejbližší východ nebo západ slunce a další. Čas je velkým písmem Inter Tight, s datem v jazyce tvých hodinek a baterií a upozorněními nahoře.",
+      "Každý senzor si v každém řádku drží svou barvu. Pět motivů: Noc, Břidlice, Papír, Mono a Jantar. Na displejích memory-in-pixel je každý motiv nakreslený pro 64 barev. Režim Vždy zapnuto ponechá čas a čtyři čáry.",
+      "Podrž graf a otevře se přehled hodinek pro jeho senzor, údaj pro jeho zdroj, datum kalendář. Sekundy tikají vedle času, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "klotter": {
+    "name": "Klotter",
+    "subtitle": "Sešit s čmáranicemi",
+    "full": [
+      "Klotter je stránka ze školního sešitu v tvých hodinkách: čtverečkovaný papír, červená linka okraje, smajlík a spirála načmárané v rozích a čas napsaný velkou fixou přes žlutý pruh zvýrazňovače.",
+      "Pod časem jsou tři čmáranice nakreslené perem a jsou tvými cíli. Hvězda jsou tvoje kroky, blesk tvoje Body Battery a plamen tvoje minuty intenzivní aktivity. Každá se vybarvuje fixou zdola nahoru, jak se její cíl plní, a když je cíl splněný, čmáranice se změní v nálepku: celá vybarvená, s bílým okrajem a malým zábleskem. Hodnota každé čmáranice je napsaná pod ní.",
+      "Datum je nad časem v jazyce tvých hodinek, ručně podtržené, s baterií a upozorněními nahoře.",
+      "Pět papírů: bílý sešit s modrým perem, hnědý kraftový papír s černou fixou, tabule, modrotisk a půlnoční stránka s neonovými fixami. Každá čmáranice může sledovat kroky, Body Battery, minuty intenzivní aktivity, patra, baterii nebo stres.",
+      "Na displejích memory-in-pixel je sešit bílý papír, který se nejlépe čte na slunci, a každá stránka je nakreslená pro 64 barev. Režim Vždy zapnuto ponechá obrysy tří čmáranic a čas.",
+      "Podrž čmáranici a otevře se přehled hodinek pro to, co měří, datum otevře kalendář. Sekundy tikají malé pod čmáranicemi, nebo je vypni."
+    ]
+  },
+  "hoppa": {
+    "name": "Hoppa",
+    "subtitle": "Pixelová plošinovka",
+    "full": [
+      "Hoppa promění tvůj den v level pixelové hry. Spodek ciferníku je level: tráva na cihlách, kopec, řada zlatých mincí a vlajka na konci. Hrdinou je zrzavá kočka s červenou šálou a běží na tvé kroky. Každé ráno začíná vlevo; jak chodíš, běží doprava, sbírá každou minci, kterou mine, a když je tvůj cíl kroků splněný, doběhne k vlajce, vlajka vyletí nahoru a kočka vyskočí.",
+      "Nad levelem je pět srdíček tvoje Body Battery, jako ukazatel zdraví ve hře, plní se po polovinách. Čas je nakreslený velkými pixelovými číslicemi, poskládanými kostku po kostce pro každý displej, aby zůstaly dokonale ostré, se stínem jako skóre ve hře. Pod ním jsou dva údaje, na začátek srdeční tep a kroky, a nahoře datum a baterie.",
+      "Pět světů: louka s modrou oblohou, hvězdná noc, poušť při západu slunce, sníh a láva. Kočka může běžet na kroky, Body Battery, minuty intenzivní aktivity, patra nebo baterii a srdíčka mohou ukazovat kterýkoli z nich kromě stresu.",
+      "Na displejích memory-in-pixel je každý svět nakreslený v plochém pixel artu se 64 barvami, jak by ho nakreslila konzole. Režim Vždy zapnuto ponechá číslice jako tečky, čáru země, obrys kočky a stožár vlajky.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, srdíčka otevřou svůj, level běh kočky, datum kalendář. Sekundy tikají na konci řádku s datem, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "raket": {
+    "name": "Raket",
+    "subtitle": "Raketa na Měsíc",
+    "full": [
+      "Raket je vesmírná mise v tvých hodinkách. Země je vlevo dole na ciferníku a Měsíc vpravo nahoře a malá raketa mezi nimi letí po okraji: tento let je tvůj cíl kroků. Každé ráno raketa čeká na odpalovací rampě; jak chodíš, stoupá přes vrchol ciferníku se stopou obláčků za sebou a tečkovanou dráhou před sebou, a když je cíl splněný, přistane v záblesku vedle Měsíce.",
+      "Měsíc je nakreslený ve své skutečné fázi, té dnešní noci, spočítané v hodinkách. Zbytek oblohy vyplňují hvězdy a planeta s prstencem.",
+      "Čas je velkým písmem Bungee, výrazným písmem z vývěsních štítů, s datem nad ním v jazyce tvých hodinek. Pod časem jsou dva údaje, na začátek srdeční tep a kroky, pak baterie a upozornění.",
+      "Pět misí: klasická námořnická modrá s červenou raketou, retro tyrkysová, galaktická fialová, rezavý Mars a noční černá. Raketa může místo toho letět na kroky, Body Battery, minuty intenzivní aktivity, patra nebo baterii.",
+      "Na displejích memory-in-pixel je každá mise nakreslená pro 64 barev; na AMOLED má všechno vyhlazené hrany. Režim Vždy zapnuto ponechá dráhu před raketou jako tečky, obrys rakety, Zemi a Měsíc a čas.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, obloha otevře cíl letu, datum kalendář. Sekundy tikají malé mezi hvězdami dole, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "kompis": {
+    "name": "Kompis",
+    "subtitle": "Kapesní mazlíček",
+    "full": [
+      "Kompis je malé kulaté stvoření se špičatýma ušima a výhonkem na hlavě a žije v tvých hodinkách. Pod ním je pět srdíček a jsou tvým cílem kroků: každé srdíčko je pětina cíle a plní se po polovinách. Když je plných všech pět, Kompis zvedne ruce a padají konfety.",
+      "Jeho nálada je tvoje Body Battery. Když jsi odpočatý, poskakuje se zamhouřenýma očima a dokořán otevřenou pusou; během dne je šťastný, pak unavený s těžkými víčky a vyčerpaný s kapkou potu, když ti baterie dochází. Před spaním jde spát, od času spánku v tvém profilu Garmin po čas buzení, a probudí se s tebou. Spánek se dá vypnout.",
+      "Čas je velkým písmem Baloo 2, kulatým a přátelským, s datem nad ním v jazyce tvých hodinek. Vedle mazlíčka jsou dva údaje, na začátek srdeční tep a kroky, a dole baterie a upozornění.",
+      "Pět barev Kompise: mátová, broskvová, lesní plody, obloha a citronová. Srdíčka se mohou místo toho plnit kroky, Body Battery, minutami intenzivní aktivity, patry nebo baterií a nálada může sledovat kterýkoli z nich kromě stresu.",
+      "Na displejích memory-in-pixel je Kompis nakreslený pro 64 barev; na AMOLED má vyhlazené hrany. Režim Vždy zapnuto ukazuje spícího Kompise jako jemný obrys a čas.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, mazlíček otevře přehled své nálady, srdíčka svůj, datum kalendář. Sekundy tikají na konci řádku s datem, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "parla": {
+    "name": "Pärla",
+    "subtitle": "Perla a růžové zlato",
+    "full": [
+      "Pärla jsou elegantní hodinky na každý den. Ciferník je z perleti, její lesk uložený v jemných kruzích perlové, pudrové a bledě modré; kolem vede hodinový kruh a minutová stupnice z růžového zlata s broušeným kamenem na každé hodině a korunou ze tří na dvanácté. Ručky jsou dauphine, fasetované podél hřbetu, takže jedna strana chytá světlo a druhá padá do stínu, a otáčejí se na perle zasazené v růžovém zlatě.",
+      "Na šesté nese malý ciferník perlu po oblouku k tvému cíli kroků, s počtem uprostřed; na třetí ukazuje malé okénko srdeční tep nebo jakýkoli údaj, který si vybereš. Pod korunou datum v jazyce tvých hodinek s baterií a upozorněními.",
+      "Pět ciferníků: perla, pudrová, šampaňská se žlutým zlatem, černá tahitská perla a safír s bílým zlatem. Malý ciferník může sledovat kroky, Body Battery, stres, minuty intenzivní aktivity, patra nebo baterii.",
+      "Písmo je Cormorant Garamond. Na displejích memory-in-pixel jsou světlé ciferníky nakreslené jako čisté bílé, růžové a krémové plochy, které se nejlépe čtou na slunci; na AMOLED mají perleť a ručky vyhlazené hrany. Režim Vždy zapnuto ponechá ručky a kámen na každé čtvrthodině.",
+      "Podrž okénko a otevře se přehled hodinek pro jeho údaj, malý ciferník pro jeho cíl, datum kalendář. Sekundová ručka v barvě zvýraznění, nebo ji vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "stjarna": {
+    "name": "Stjärna",
+    "subtitle": "Hvězdy zvěrokruhu",
+    "full": [
+      "Stjärna dá tvé znamení na oblohu. Jeho souhvězdí je nakreslené ze skutečných hvězd, každá na svém skutečném místě a se skutečnou jasností, pod jemným kruhem zvěrokruhu, ve kterém je zvýrazněná dvanáctina tvého znamení. Znamení se během roku řídí sluncem, nebo si v nastavení nech své po celý rok.",
+      "Hvězdy jsou tvoje Body Battery. Když jsi odpočatý, celý obrazec svítí a je spojený zlatem; jak den spotřebovává tvou energii, hvězdy pohasínají jedna po druhé, v pořadí, v jakém se obrazec kreslí. Nejjasnější hvězdy jsou největší a ta nejjasnější má malý záblesk.",
+      "Vedle data v jazyce tvých hodinek ukazuje měsíc svou skutečnou fázi, od srpku po úplněk a zpět. Baterie a upozornění jsou pod ním, čas v písmu Josefin Sans a dole dva údaje: na začátek srdeční tep a kroky.",
+      "Pět obloh: půlnoční modrá a zlatá, ametyst, palisandr, onyx a stříbro a laguna. Hvězdy mohou sledovat Body Battery, kroky, stres, minuty intenzivní aktivity, patra nebo baterii.",
+      "Na displejích memory-in-pixel je každá obloha nakreslená pro 64 barev; na AMOLED mají hvězdy vyhlazené hrany. Režim Vždy zapnuto ponechá čáry obrazce, rozsvícené hvězdy, osvětlený okraj měsíce a čas.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, souhvězdí otevře přehled svého ukazatele, datum kalendář. Sekundy jsou malé vedle času, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "fjaril": {
+    "name": "Fjäril",
+    "subtitle": "Motýl",
+    "full": [
+      "Fjäril je motýl nad časem s křídly jako z vitráže: sklíčka barvy mezi tmavými žilkami, bílé tečky po okraji. Sklíčka jsou tvoje Body Battery. Když jsi odpočatý, svítí každé; jak den spotřebovává tvou energii, tmavnou od špiček předních křídel dolů, stejně na obou stranách, až svítí jen sklo u těla. Přečteš to na první pohled.",
+      "Čas je velkým písmem Quicksand, měkkým zaobleným písmem. Pod ním se datum v jazyce tvých hodinek dělí o řádek s baterií a upozorněními a dole jsou tři údaje: na začátek srdeční tep, kroky a stres.",
+      "Pět motýlů: oranžová monarchy, modrá morfa, růžová, šeříková a citrínová otakárka, každý na tmavém ciferníku v barvě, kterou křídlo nemá. Křídla mohou sledovat Body Battery, kroky, stres, minuty intenzivní aktivity, patra nebo baterii.",
+      "Na displejích memory-in-pixel je každý motýl nakreslený pro 64 barev; na AMOLED má každé sklíčko vyhlazené hrany. Režim Vždy zapnuto ponechá obrys křídel, rozsvícená sklíčka jako jemné obrysy a čas."
+    ]
+  },
+  "krans": {
+    "name": "Krans",
+    "subtitle": "Květinový věnec",
+    "full": [
+      "Krans je věnec květin kolem okraje tvých hodinek. Úponek s listy nese dvanáct květů, jeden pro každou hodinu: růže na dvanácté, třetí, šesté a deváté, menší květy mezi nimi. Jsou tvým cílem kroků. Každé ráno začíná věnec v poupatech; jak chodíš, květy se otevírají jeden po druhém, ve směru hodinových ručiček od dvanáctky, a věnec je v plném květu, když je cíl splněný.",
+      "Uvnitř věnce je čas velkým písmem Bodoni Moda, klasickým kontrastním patkovým písmem, s datem nad ním v jazyce tvých hodinek. Pod časem jsou tři údaje, na začátek srdeční tep, kroky a Body Battery, a dole baterie a upozornění.",
+      "Pět věnců: pudrové růže na švestkové, starorůžová na slonovině, bílé růže na šalvěji, šampaňská na půlnoční modré a pestrá směs lučních květů. Květy mohou místo toho sledovat kroky, Body Battery, minuty intenzivní aktivity, patra nebo baterii.",
+      "Na displejích memory-in-pixel je každý věnec nakreslený pro 64 barev a slonovina se mění v bílý ciferník, který se nejlépe čte na slunci; na AMOLED má každý okvětní lístek vyhlazené hrany. Režim Vždy zapnuto ponechá úponek, otevřené květy jako jemné obrysy a čas.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, věnec otevře přehled svého ukazatele, datum kalendář. Sekundy tikají na konci řádku s datem, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "lov": {
+    "name": "Löv",
+    "subtitle": "Podzimní listí",
+    "full": [
+      "Löv je javorová větev napříč podzimní oblohou. Její listy jsou tvoje Body Battery: když jsi odpočatý, je na větvi všech osmnáct, červených, oranžových a zlatých; jak den spotřebovává tvou energii, padají od špiček dovnitř a každý list, který spadne, se snese na kopec pod ní. Přečteš to na první pohled a malá legenda pod tím říká, co listy měří a kde zrovna jsou.",
+      "Kopec drží čtyři údaje: stres, srdeční tep, počasí a nejbližší východ nebo západ slunce, každý označený ikonou. Baterie a upozornění jsou nahoře u data.",
+      "Obloha se řídí sluncem: mlhavý úsvit, svěží modrý den, jantarový soumrak a hvězdná noc, kdy listy dostanou barvy měsíčního svitu. Nebo si nech jednu z pěti obloh: úsvit, den, soumrak, noc nebo zlatá.",
+      "Číslice jsou ve Fraunces, měkkém patkovém písmu. Na displejích memory-in- pixel je každá obloha nakreslená pro 64 barev, ručně rastrovaná; na AMOLED je to plynulý přechod. Režim Vždy zapnuto ponechá větev, její listy a čas.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, legenda otevře přehled ukazatele, datum kalendář. Sekundy tikají na konci legendy, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "natt": {
+    "name": "Natt",
+    "subtitle": "Gotický měsíc",
+    "full": [
+      "Natt je gotický ciferník na dlouhé noci. Kostěně bílé ručky kloužou po tmavém ciferníku: krátká hodinová ručka s pikovým hrotem, dlouhá minutová ručka s netopýrem jako protiváhou. XII, III a IX jsou sázené gotickým písmem, ostatní hodiny jsou štíhlé lomené indexy a na šesté ukazuje půlkruhové okénko noční oblohu s měsícem v jeho skutečné fázi, od srpku po úplněk a zpět.",
+      "Pod XII datum v jazyce tvých hodinek s baterií a upozorněními; nad okénkem jeden údaj, na začátek srdeční tep.",
+      "Pět ciferníků: kost na černé, krev, žhavé uhlíky, ametyst a stříbro. Vznikl na Halloween, ale je stvořený k nošení dlouho potom.",
+      "Číslice a datum jsou v písmu Grenze Gotisch, gotické fraktuře. Na displejích memory-in-pixel je každý ciferník nakreslený pro 64 barev; na AMOLED mají ručky vyhlazené hrany. Režim Vždy zapnuto ponechá ručky, tři značky a osvětlený okraj měsíce.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, datum otevře kalendář. Sekundová ručka v barvě zvýraznění, nebo ji vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "lykt": {
+    "name": "Lykt",
+    "subtitle": "Vyřezávaná dýně",
+    "full": [
+      "Lykt je vyřezávaná dýně a hodinky jsou světlo v ní. Čas je úšklebek: číslice jsou zuby, které zůstaly nevyřezané, tmavé proti svíčce. Každé oko drží údaj, na začátek srdeční tep a kroky, a nos je tvoje Body Battery: svíčka ho plní odspodu, tmavý nos, když jsi vyčerpaný, a nos plný světla, když jsi odpočatý. Baterie a upozornění jsou pod víčkem; datum je na slupce pod úšklebkem.",
+      "Pět dýní: klasická oranžová, bílá dýně duch se studenou modrou září, žhavě červená, jedovatě zelená a černá půlnoční dýně s oranžovou září.",
+      "Číslice jsou v písmu Oswald, vysoké a úzké jako vyřezané zuby. Na displejích memory-in-pixel je každá dýně nakreslená pro 64 barev; na AMOLED září nejsilněji uprostřed. Režim Vždy zapnuto ponechá vyřezané obrysy, hladinu svíčky a čas, svítící ve tmě."
+    ]
+  },
+  "dimma": {
+    "name": "Dimma",
+    "subtitle": "Halloweenský hřbitov",
+    "full": [
+      "Dimma je hřbitov na kopci v noci. Holý dub se sklání nad sedmi náhrobky, netopýři přelétají přes měsíc a nad hroby leží mlha. Mlha je tvoje Body Battery: když jsi vyčerpaný, pohltí každý kámen; jak se zotavuješ, zvedá se, až leží u paty kopce a každý hrob je jasně vidět. Malá legenda pod tím říká, co mlha měří a jak vysoko se zvedla.",
+      "Popředí drží čtyři údaje: kroky, srdeční tep, počasí a nejbližší východ nebo západ slunce, každý označený ikonou. Baterie a upozornění jsou nahoře u data.",
+      "Vyber si noc: jasnou noc, krvavý měsíc, hodinu čarodějnic, opar nebo modrou hodinku. Měsíc ukazuje svou skutečnou fázi.",
+      "Číslice jsou v písmu Creepster, stékající písmena starého hororového plakátu. Na displejích memory-in-pixel je každá obloha nakreslená pro 64 barev, ručně rastrovaná; na AMOLED je to plynulý přechod. Režim Vždy zapnuto ponechá čas, kopec, osvětlený okraj měsíce a vrcholky mlhy."
+    ]
+  },
+  "pumpa": {
+    "name": "Pumpa",
+    "subtitle": "Halloweenské dýňové pole",
+    "full": [
+      "Pumpa je dýňové pole na konci říjnového dne. Sedm dýní leží na poli pod křivým plotem a měsícem sklizně a rozsvěcují se jedna po druhé, jak přibývají tvoje kroky: vyřezaná tvář za každou sedminu tvého cíle a kaluž světla svíčky na zemi pod ní. Malá legenda pod tím říká, co lucerny počítají a kde zrovna jsi.",
+      "Popředí drží čtyři údaje: srdeční tep, Body Battery, počasí a nejbližší východ nebo západ slunce, každý označený ikonou. Baterie a upozornění jsou nahoře u data.",
+      "Nech pole v soumraku, nebo si vyber jinovatku, zlato sklizně, noc či krvavý měsíc, nebo nech oblohu řídit se sluncem. Měsíc ukazuje svou skutečnou fázi.",
+      "Číslice jsou v písmu Jolly Lodger, hravém a strašidelném. Na displejích memory-in-pixel je každá obloha nakreslená pro 64 barev, ručně rastrovaná; na AMOLED je to plynulý přechod. Režim Vždy zapnuto ponechá čas, jednu linii země a rozsvícené tváře, zářící ve tmě."
+    ]
+  },
+  "eng": {
+    "name": "Eng",
+    "subtitle": "",
+    "full": [
+      "Eng je levandulová louka, která sahá až ke kopcům. Její kvetení je tvoje Body Battery: když jsi odpočatý, řádky kvetou až k obzoru; jak den spotřebovává tvou energii, barva ustupuje dolů polem a řádky se vracejí do poupat. Čteš to jako skutečné pole a malá legenda pod tím říká, co kvetení měří a kde zrovna je.",
+      "Popředí drží čtyři údaje pro klidnější den: stres, srdeční tep, počasí a nejbližší východ nebo západ slunce, každý označený ikonou. Baterie a upozornění jsou nahoře u data.",
+      "Obloha se řídí sluncem: úsvit po východu slunce, jasně modrý den, levandulová hodina před západem a noc se světlušky nad polem. Nebo si nech jednu z pěti obloh: úsvit, den, soumrak, noc nebo zlatá.",
+      "Číslice jsou ve Fraunces, měkkém patkovém písmu. Na displejích memory-in- pixel je každá obloha nakreslená pro 64 barev, ručně rastrovaná; na AMOLED je to plynulý přechod. Režim Vždy zapnuto ponechá hřeben louky, okraj kvetení a čas.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, legenda otevře přehled ukazatele, datum kalendář. Sekundy tikají na konci legendy, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "blom": {
+    "name": "Blom",
+    "subtitle": "",
+    "full": [
+      "Blom je větev rozkvetlé třešně napříč oblohou. Její květy jsou tvoje Body Battery: když jsi odpočatý, je otevřených všech osmnáct; jak den spotřebovává tvou energii, zavírají se od špiček dovnitř a každý, který se zavře, pustí okvětní lístek do trávy. Přečteš to na první pohled a malá legenda pod tím říká, co květy měří a kde zrovna jsou.",
+      "Zahrada drží čtyři údaje pro klidnější den: stres, srdeční tep, počasí a nejbližší východ nebo západ slunce, každý označený ikonou. Baterie a upozornění jsou nahoře u data.",
+      "Obloha se řídí sluncem: úsvit po východu slunce, jemně modrý den, soumrak před západem a pak hvězdná noc, kdy květy zestříbří. Nebo si nech jednu z pěti obloh: úsvit, den, soumrak, noc nebo pudrová.",
+      "Číslice jsou ve Fraunces, měkkém patkovém písmu. Na displejích memory-in- pixel je každá obloha nakreslená pro 64 barev, ručně rastrovaná; na AMOLED je to plynulý přechod. Režim Vždy zapnuto ponechá větev, její otevřené květy a čas.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, legenda otevře přehled ukazatele, datum kalendář. Sekundy tikají na konci legendy, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "hav": {
+    "name": "Hav",
+    "subtitle": "",
+    "full": [
+      "Hav je zátoka na okraji dne. Příliv na pláži je tvoje Body Battery: po dobré noci sahá moře až k patě duny; jak den spotřebovává tvou energii, voda ustupuje a písek se rozšiřuje. Čteš to jako skutečné pobřeží a malá legenda pod tím říká, co příliv měří a jak vysoko už vystoupal.",
+      "Duna drží čtyři údaje pro klidnější den: stres, srdeční tep, počasí a nejbližší východ nebo západ slunce, každý označený ikonou. Baterie a upozornění jsou nahoře u data.",
+      "Obloha se řídí sluncem: úsvit po východu slunce, jemně modrý den, soumrak před západem a po setmění Måne, měsíc nad vodou ve skutečné fázi se světelnou cestou na moři. Nebo si nech jednu z pěti obloh: úsvit, den, soumrak, Måne nebo perla.",
+      "Číslice jsou ve Fraunces, měkkém patkovém písmu. Na displejích memory-in- pixel je každá obloha nakreslená pro 64 barev, ručně rastrovaná; na AMOLED je to plynulý přechod. Režim Vždy zapnuto ponechá horizont, čáru přílivu a čas.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, legenda otevře přehled ukazatele, datum kalendář. Sekundy tikají na konci legendy, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "fjell": {
+    "name": "Fjell",
+    "subtitle": "",
+    "full": [
+      "U snídaně jsou vrcholy holá skála. Jak se plní tvůj cíl kroků, sněžná čára sestupuje z hory; splněný cíl je hřeben celý pod sněhem. Čteš to jako skutečnou horu, podle toho, jak nízko sahá bílá, a malá legenda pod tím říká, co sníh měří a kde zrovna jsi.",
+      "Údolí drží čtyři údaje, které si žádá den venku: nadmořskou výšku, srdeční tep, počasí a nejbližší východ nebo západ slunce, každý označený ikonou. Baterie a upozornění jsou nahoře u data.",
+      "Obloha se řídí sluncem: úsvit po východu slunce, modrá přes den, soumrak před západem a pak hvězdná noc. Nebo si nech jednu ze šesti obloh: soumrak, úsvit, den, noc, alpskou záři nebo arktickou oblohu s polární září nízko nad hřebenem.",
+      "Na displejích memory-in-pixel je každá obloha nakreslená pro 64 barev, ručně rastrovaná místo zaokrouhlení; na AMOLED je to plynulý přechod. Režim Vždy zapnuto ponechá siluetu hor a čas při 3 % rozsvícených pixelů.",
+      "Podrž údaj a otevře se jeho přehled v hodinkách, legenda otevře přehled ukazatele, datum kalendář. Sekundy tikají na konci legendy, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "klar": {
+    "name": "Klar",
+    "subtitle": "",
+    "full": [
+      "Klar skládá hodiny nad minuty, takže číslice můžou být dvakrát vyšší, než dovolí jeden řádek: tučné, jasné číslice, které přečteš na délku paže, v pohybu i bez brýlí.",
+      "Minuty obarvi jednou z pěti barev, nebo nech všechno v jedné. Po obou stranách času po jednom údaji, označeném ikonou: na začátek kroky a srdeční tep, nebo kterýkoli z patnácti zdrojů. Baterie a upozornění nahoře, datum a počasí dole a nic jiného.",
+      "Na displejích memory-in-pixel je Klar černý na bílém: odrazivý displej se za denního světla nejlépe čte na světlém pozadí. Na AMOLED je bílý na černém. Režim Vždy zapnuto ponechá číslice, menší, při 4 % rozsvícených pixelů.",
+      "Podrž boční údaj a otevře se jeho přehled v hodinkách, datum otevře kalendář. Sekundy tikají na konci řádku s datem, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "artefact": {
+    "name": "Artefact",
+    "subtitle": "",
+    "full": [
+      "Čtyři nixie trubice stojí v paticích v mosazném frézovaném pouzdře. Každá číslice je ohnutý drátek, který září od katody ven, a za ním je vidět devět nesvítících katod, přesně jako uvnitř skutečné trubice. Neonová dvojtečka mezi nimi pulzuje každou sekundu.",
+      "Pod trubicemi funkční VU měřák: podsvícená stupnice od 0 do 100 s červenou zónou a ručka, která sleduje tvůj cíl kroků, nebo Body Battery, stres, patra, minuty intenzivní aktivity či baterii. Po stranách se rozsvítí čtyři neonové kontrolky, když je telefon připojený, čekají zprávy, je nastavený budík nebo je zapnuté nerušit. Datum je vyryté na mosazném štítku nad trubicemi a druhý štítek dole nese údaj podle tvého výběru: baterii, srdeční tep, počasí, západ slunce a další.",
+      "Pět barev trubic (neonová oranžová, zelená magického oka, argonová modrá, fialová a bílá) a tři povrchy pouzdra (mosaz, černěná ocel a měď), volené nezávisle. Režim Vždy zapnuto ponechá číslice jako tenký drátek při 1 % rozsvícených pixelů.",
+      "Podrž měřák a otevře se přehled hodinek pro jeho zdroj, dolní štítek pro jeho údaj, datum pro kalendář. Sekundy jsou vyryté na dolním štítku, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "ringar": {
+    "name": "Ringar",
+    "subtitle": "",
+    "full": [
+      "Tři kruhy cílů rámují velký, klidný čas. Vyber, co sleduje každý kruh: kroky, minuty intenzivní aktivity, patra, Body Battery, stres nebo baterii. Každý kruh je označený: jeho ikona a hodnota jsou v barvě kruhu, těsně pod časem, takže vždy víš, který kruh je který.",
+      "Nad časem: datum a počasí z telefonu. Pod ním: baterie a tvá oznámení, nerušit a budík, zobrazené jen tehdy, když mají co říct.",
+      "Osm barevných motivů, od severského klidu po živé barvy. Režim Vždy zapnuto je navržený pro displej, ne jen ztlumený: tvůj pokrok a čas při 8 % rozsvícených pixelů.",
+      "Číslice jsou nakreslené pro každou velikost displeje, nikdy nezvětšované.",
+      "Legenda kruhů může ukazovat vlastní údaje: srdeční tep, počasí, skóre spánku nebo jiný zdroj, takže kruhy doplňuje místo opakování. Podrž kruh nebo údaj legendy a otevře se jeho přehled v hodinkách, datum otevře kalendář. Sekundy jsou malé pod časem, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "datum": {
+    "name": "Datum",
+    "subtitle": "",
+    "full": [
+      "Všechno na první pohled a nic ozdobného. Velký zúžený čas, hodiny bílou a minuty tvou barvou zvýraznění, pod ním datum a živé sekundy. Kolem šest datových polí podle tvého výběru, každé označené ikonou, a dva ukazatele na lunetě pro kroky, baterii, Body Battery, patra, minuty intenzivní aktivity nebo stres, s hodnotami pod každým obloukem.",
+      "Mezi zdroji je i počasí a nejbližší východ nebo západ slunce. Baterie, oznámení, nerušit a budík jsou dole, zobrazené jen tehdy, když mají co říct.",
+      "Šest barev zvýraznění. Režim Vždy zapnuto ponechá čas a datum.",
+      "Číslice jsou nakreslené pro každou velikost displeje, nikdy nezvětšované.",
+      "Podrž pole nebo ukazatel lunety a otevře se jeho přehled v hodinkách, datum otevře kalendář. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "blackline": {
+    "name": "Blackline",
+    "subtitle": "",
+    "full": [
+      "Ciferník jako přístroj. Živý pás kurzu nahoře, sedmisegmentový displej ve stylu šablony vyříznutý z polygonů a šest datových polí podle tvého výběru, každé označené ikonou: srdeční tep, kroky, nadmořská výška, Body Battery, počasí, nejbližší východ nebo západ slunce a další.",
+      "Podél spodního okraje vede oblouk denního světla od východu po západ slunce a během dne se plní, takže na první pohled vidíš, kolik světla ještě zbývá. Pod údaji: baterie a tvá oznámení, nerušit a budík, zobrazené jen tehdy, když mají co říct.",
+      "Nesvítící segmenty jsou jemně nakreslené, jak je ukazuje skutečný displej. Šest barev displeje včetně zelené pro noční vidění a červené, která šetří noční vidění. Režim Vždy zapnuto ponechá jen displej a datum.",
+      "Každá barva displeje je ručně vyladěná pro displeje memory-in-pixel a na AMOLED je v plné barvě.",
+      "Podrž pole a otevře se jeho přehled v hodinkách, datum otevře kalendář. Sekundy tikají za datem, nebo je vypni. Teploty se řídí hodinkami, nebo si vyber °C či °F."
+    ]
+  },
+  "atelier": {
+    "name": "Atelier",
+    "subtitle": "",
+    "full": [
+      "Elegantní společenské hodinky, nakreslené pro chytré hodinky. Gilošovaný ciferník se slunečním vzorem, aplikované rhodiované indexy na minutové kolejničce, leštěné ručky dauphine a tři počítadla: tvoje kroky (nebo jakýkoli cíl) na deváté, rezerva chodu pro baterii na třetí a malé sekundy na šesté.",
+      "Pod dvanáctkou tvé jméno nebo iniciály vyryté velkými písmeny a okénko dne a data se zkoseným rámečkem.",
+      "Šest barev ciferníku: půlnoční modrá, břidlicová šedá, šampaňská, závodní zelená, lososová a ledovec. Režim Vždy zapnuto ponechá ručky a čtyři indexy v obrysu, při 1 % rozsvícených pixelů.",
+      "Na displejích memory-in-pixel je každá barva vybrána z 64, které displej umí zobrazit; na AMOLED je to plná barva.",
+      "Podrž počítadlo a otevře se přehled hodinek pro to, co měří, okénko data otevře kalendář."
+    ]
+  },
+  "one-more-step": {
+    "name": "One More Step",
+    "subtitle": "Úspěchy: cesta kolem světa",
+    "full": [
+      "One More Step přičítá vzdálenost, kterou tvoje hodinky každý den změří, k cestě kolem rovníku: 40 075 km (24 901 mi). Cesta začne, když aplikaci poprvé otevřeš. Když je kolo hotové, začne další; nic se nikdy nevynuluje.",
+      "Přehled ukazuje tvé kolo a kolik z něj máš za sebou. Aplikace ukazuje zbývající vzdálenost jako kruh po okraji displeje a měsíc, ve kterém při dosavadním tempu obejdeš svět. V detailech je tvůj součet, kola, průměrný den, datum začátku a kolik zbývá do dalšího cíle.",
+      "Na cestě čeká 33 slavných délek, od mostu Golden Gate (2,7 km) první den přes Suezský průplav, Svatojakubskou cestu, Nil a celou Velkou čínskou zeď až po Verneových dvacet tisíc mil: dvakrát kolem světa. Když tvůj součet některou dosáhne, aplikace se otevře kartou, která to oznámí: „Ušel jsi Suezský průplav, 193 km“. Z detailů potáhni nahoru nebo stiskni dolů pro celý seznam: co máš za sebou, co je dál a jak daleko, a co tě ještě čeká.",
+      "Počítá denní vzdálenost, kterou hodinky už počítají z tvých kroků. Zaznamenané procházky a běhy jsou její součástí, takže nic se nepočítá dvakrát, a počítá se jen to, co ujdeš od prvního otevření. Cíl potřebuje nejdřív jeden celý den; do té doby ukazuje „Cíl: počítám“ a kolik hodin zbývá. Vzdálenost je v km nebo mi, podle nastavení hodinek.",
+      "Hodinky uchovávají 7 dní historie a aplikace ji čte každých 6 hodin. Pokud to nemůže udělat déle než 7 dní (hodinky vypnuté), ty dny se ztratí; nic se za ně neodhaduje. Počítají se jen kroky: kolo a plavání ne. Odstranění aplikace smaže cestu; aplikace v hodinkách nemají zálohu. Všechno zůstává v hodinkách: žádný účet, žádná aplikace v telefonu, nic se nikam neposílá.",
+      "Jedno kolo při 7 km denně je asi 15 let. Kruh je daleký výhled, cíle týdny a měsíce mezi tím a dnešní procházka ten blízký.",
+      "Česky, anglicky, polsky, německy, francouzsky, španělsky, italsky, nizozemsky, portugalsky a slovensky."
+    ]
+  },
+  "stargazing": {
+    "name": "Stargazing Forecast",
+    "subtitle": "Noční obloha",
+    "full": [
+      "Stargazing Forecast odpovídá na jednu otázku: vyplatí se dnes v noci jít ven, a kdy? Počasí Garmin říká „polojasno“. Pozorovatel potřebuje víc: je tma, překáží Měsíc, je vzduch čistý a klidný, a ve kterých hodinách se to všechno potká?",
+      "Přehled dá verdikt pro tvůj oblíbený druh oblohy: Jdi, Možná nebo Zůstaň doma, a nejlepší okno. Je to verdikt, který aplikace naposledy spočítala, a pokud to bylo před hodinami, řekne kdy: otevření aplikace ho aktualizuje. Otevři aplikaci pro dnešní noc a další dvě noci, každou se třemi verdikty vedle sebe:",
+      "Hluboký vesmír: galaxie, mlhoviny a hvězdná pole. Chce astronomickou tmu, Měsíc pod obzorem nebo tenký, jasnou a průzračnou oblohu. Mléčná dráha: stejné podmínky a galaktické jádro nad obzorem. Planety: čistý a klidný vzduch. Na Měsíci skoro nezáleží, takže i světlá noc může být dobrá.",
+      "Časová osa vede od soumraku po úsvit s mraky, Měsícem a tmavými hodinami a s vyznačeným nejlepším oknem pro každý režim. Stránka detailů přidá východ a západ Měsíce a jeho fázi, teplotu, vítr a jestli je pravděpodobná rosa na tvé optice.",
+      "Obloha se počítá v hodinkách: Slunce, Měsíc a jádro Mléčné dráhy pro místo, kde jsi. Počasí pochází z předpovědního modelu pro tvé místo, stahovaného přes telefon každé tři hodiny, a poslední předpověď se uchovává, takže aplikace po načtení nikdy není prázdná.",
+      "Je opatrná záměrně. „Jdi“ vyžaduje aspoň hodinu dobrých podmínek; když předpověď chybí, je stará nebo neúplná, aplikace to řekne a nehádá. Polární den, polární noc a jádro Mléčné dráhy, které nikdy nevyjde, jsou hlášené tak, jak jsou.",
+      "Na předpověď potřebuje spojení s telefonem. Polohu bere z počasí v hodinkách a když hodinky žádné místo neznají, z jednoho GPS fixu. Žádné reklamy, žádné předplatné. Česky, anglicky, polsky, německy, francouzsky, španělsky, italsky, nizozemsky, portugalsky a slovensky.",
+      "Předpověď: 7Timer!"
+    ]
+  },
+  "ring-match": {
+    "name": "Gem Crush",
+    "subtitle": "Logická hra",
+    "full": [
+      "Gem Crush je logická hra spoj tři, udělaná pro kulaté hodinky. Drahokamy jsou na čtyřech kruzích kolem středu ciferníku a tah otočí jeden kruh, prstem nebo tlačítky. Seřaď tři stejné, dokola kruhu nebo rovně ze středu ven, a zmizí; vnější drahokamy popadají dovnitř a každá kaskáda dá víc bodů než ta předchozí. Čtyři v řadě nechají drahokam, který vyčistí celý svůj paprsek, pět drahokam, který vyčistí celý svůj kruh.",
+      "Pohání ji tvoje chůze. Každých 1 000 kroků, které dnes ujdeš, je nabití, až deset za den, a nabití najednou vyčistí celý kruh. Cesta na zastávku zpříjemní čekání na autobus.",
+      "Jedna hrací plocha denně, pro všechny stejná, s 25 tahy a sérií, kterou je třeba udržet. Vedle ní volná hra, 30 tahů na kolo, kolik kol chceš. Kolo trvá minutu či dvě a zastaví se, když přestaneš: zavři ho uprostřed tahu a bude tam, až se vrátíš.",
+      "Žádné životy, žádná energie, žádné reklamy, nic ke koupi ve hře. Pět tvarů drahokamů, každý ve své barvě, takže plocha se dá číst na slunci i pro barvoslepé hráče. Vibrace, když se kaskáda řetězí. Česky, anglicky, polsky, německy, francouzsky, španělsky, italsky, nizozemsky, portugalsky a slovensky."
+    ]
+  }
+}

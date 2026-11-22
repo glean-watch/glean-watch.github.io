@@ -2,8 +2,8 @@
   "faces": [
     {
       "slug": "julnatt",
-      "name": "Christmas Tree Countdown, Big Numbers",
-      "subtitle": "Julnatt",
+      "name": "Julnatt",
+      "subtitle": "Christmas Tree Countdown, Big Numbers",
       "category": "Fun",
       "pitch": "Christmas Eve, at a glance.",
       "short": "Big, easy-to-read numbers over a magical Christmas Eve: a giant lit Christmas tree in a snowy town square, a countdown to Christmas, a reading and a goal bar.",
@@ -60,31 +60,31 @@
       "images": [
         {
           "file": "img/julnatt/01_hero.jpg",
-          "alt": "Christmas Tree Countdown, Big Numbers: the face on the watch",
+          "alt": "Julnatt: the face on the watch",
           "w": 720,
           "h": 720
         },
         {
           "file": "img/julnatt/02_features.jpg",
-          "alt": "Christmas Tree Countdown, Big Numbers: what every part of the dial shows",
+          "alt": "Julnatt: what every part of the dial shows",
           "w": 720,
           "h": 720
         },
         {
           "file": "img/julnatt/03_themes.jpg",
-          "alt": "Christmas Tree Countdown, Big Numbers: the four themes",
+          "alt": "Julnatt: the four themes",
           "w": 720,
           "h": 720
         },
         {
           "file": "img/julnatt/04_devices.jpg",
-          "alt": "Christmas Tree Countdown, Big Numbers: both kinds of screen and always-on",
+          "alt": "Julnatt: both kinds of screen and always-on",
           "w": 720,
           "h": 720
         },
         {
           "file": "img/julnatt/05_detail.jpg",
-          "alt": "Christmas Tree Countdown, Big Numbers: the countdown and the goal bar",
+          "alt": "Julnatt: the countdown and the goal bar",
           "w": 720,
           "h": 720
         }
@@ -221,8 +221,8 @@
     },
     {
       "slug": "snemand",
-      "name": "Snowman Christmas Countdown, Winter Xmas",
-      "subtitle": "Snemand",
+      "name": "Snemand",
+      "subtitle": "Snowman Christmas Countdown, Winter Xmas",
       "category": "Fun",
       "pitch": "A snowman family, on your wrist.",
       "short": "A snowman family in red scarves beside a big, easy-to-read time, the days to Christmas by a little parcel, and four readings of your choice.",
@@ -291,31 +291,31 @@
       "images": [
         {
           "file": "img/snemand/01_hero.jpg",
-          "alt": "Snowman Christmas Countdown, Winter Xmas: the face on the watch",
+          "alt": "Snemand: the face on the watch",
           "w": 720,
           "h": 720
         },
         {
           "file": "img/snemand/02_features.jpg",
-          "alt": "Snowman Christmas Countdown, Winter Xmas: what every part of the dial shows",
+          "alt": "Snemand: what every part of the dial shows",
           "w": 720,
           "h": 720
         },
         {
           "file": "img/snemand/03_themes.jpg",
-          "alt": "Snowman Christmas Countdown, Winter Xmas: the three themes",
+          "alt": "Snemand: the three themes",
           "w": 720,
           "h": 720
         },
         {
           "file": "img/snemand/04_devices.jpg",
-          "alt": "Snowman Christmas Countdown, Winter Xmas: both kinds of screen and always-on",
+          "alt": "Snemand: both kinds of screen and always-on",
           "w": 720,
           "h": 720
         },
         {
           "file": "img/snemand/05_detail.jpg",
-          "alt": "Snowman Christmas Countdown, Winter Xmas: the countdown and the readings",
+          "alt": "Snemand: the countdown and the readings",
           "w": 720,
           "h": 720
         }
@@ -452,8 +452,8 @@
     },
     {
       "slug": "tomte",
-      "name": "Santa Claus Christmas Countdown, Xmas",
-      "subtitle": "Tomte",
+      "name": "Tomte",
+      "subtitle": "Santa Claus Christmas Countdown, Xmas",
       "category": "Fun",
       "pitch": "Santa Claus, on your wrist.",
       "short": "Santa Claus laughs on your watch: a big, easy-to-read time, the days to Christmas by a little parcel, and four readings of your choice.",
@@ -522,31 +522,31 @@
       "images": [
         {
           "file": "img/tomte/01_hero.jpg",
-          "alt": "Santa Claus Christmas Countdown, Xmas: the face on the watch",
+          "alt": "Tomte: the face on the watch",
           "w": 720,
           "h": 720
         },
         {
           "file": "img/tomte/02_features.jpg",
-          "alt": "Santa Claus Christmas Countdown, Xmas: what every part of the dial shows",
+          "alt": "Tomte: what every part of the dial shows",
           "w": 720,
           "h": 720
         },
         {
           "file": "img/tomte/03_themes.jpg",
-          "alt": "Santa Claus Christmas Countdown, Xmas: the three themes",
+          "alt": "Tomte: the three themes",
           "w": 720,
           "h": 720
         },
         {
           "file": "img/tomte/04_devices.jpg",
-          "alt": "Santa Claus Christmas Countdown, Xmas: both kinds of screen and always-on",
+          "alt": "Tomte: both kinds of screen and always-on",
           "w": 720,
           "h": 720
         },
         {
           "file": "img/tomte/05_detail.jpg",
-          "alt": "Santa Claus Christmas Countdown, Xmas: the countdown and the readings",
+          "alt": "Tomte: the countdown and the readings",
           "w": 720,
           "h": 720
         }

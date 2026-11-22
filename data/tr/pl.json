@@ -1,0 +1,701 @@
+{
+  "julnatt": {
+    "name": "Julnatt",
+    "subtitle": "Choinka, odliczanie do świąt, duże cyfry",
+    "full": [
+      "Świąteczna tarcza z dużymi cyframi: zaśnieżony rynek w Wigilię, wielka choinka lśniąca złotymi światełkami, wokół stare kamienice z ciepłym światłem w oknach, a przed nimi duża, czytelna godzina, data i dane, które sprawdzasz co dzień.",
+      "Godzina stoi w jednym wierszu, tak szerokim, jak pozwala okrągły ekran, w wąskich cyfrach do odczytu jednym spojrzeniem: godziny białe, dwukropek i minuty w kolorze motywu. Każda cyfra ma ciemny kontur, więc pozostaje ostra na tle świateł i śniegu.",
+      "Nad godziną data w języku zegarka z sekundami obok, a na samej górze bateria i powiadomienia. Pod nią dwa pola w zaokrąglonych plakietkach: na początek odliczanie do świąt, mały prezent i liczba dni, oraz tętno. Albo wybierz pogodę, najwyższą i najniższą temperaturę dnia, kroki, Body Battery, stres, kalorie, dystans, piętra, wschód i zachód słońca, wysokość, VO2max, ocenę snu i inne, w sumie dwadzieścia źródeł. Krótki pasek wypełnia się z celem kroków albo pięter, minut intensywności, Body Battery, baterii lub stresu.",
+      "Cztery motywy z nocy: złoty, czerwony, zielony i lodowy, albo wyłącz obraz dla czarnej tarczy. Czas 12- lub 24-godzinny albo jak w zegarku. Na ekranach MIP sekundy biegną także przy opuszczonym nadgarstku; tryb zawsze włączony pokazuje godzinę w tej samej wielkości, cienkim krojem, na czerni.",
+      "Przytrzymaj pole lub pasek celu, by otworzyć jego podgląd w zegarku, a datę lub odliczanie, by otworzyć kalendarz. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "snemand": {
+    "name": "Snemand",
+    "subtitle": "Bałwan, odliczanie do świąt, zima",
+    "full": [
+      "Tarcza z bałwanami na zimę i święta: rodzina bałwanów stoi w śniegu w prawym dolnym rogu tarczy, wysoki bałwan w cylindrze między dwoma małymi w czerwonych dzierganych czapkach i szalikach, obok dużej, wyraźnej godziny i danych, które sprawdzasz co dzień.",
+      "Godzina stoi w pogrubionych cyfrach kursywą, z sekundami obok, minuty w kolorze motywu, a pod nią data w języku zegarka. Każda linia ma ciemny kontur, więc pozostaje ostra obok obrazu.",
+      "Cztery pola danych, każde ze swoją ikoną: na początek pogoda i tętno u góry, kroki i odliczanie do świąt na dole, mały prezent i liczba dni. Odliczaj do Bożego Narodzenia, Wigilii albo Sylwestra, albo wybierz w to miejsce dowolne z dwudziestu źródeł: Body Battery, stres, kalorie, dystans, piętra, wschód i zachód słońca, wysokość, najwyższą i najniższą temperaturę dnia, VO2max, ocenę snu i inne. Wskaźnik przy lewej krawędzi wypełnia się z Body Battery, krokami albo innym celem.",
+      "Trzy motywy: lodowy, czerwony i biały, albo ukryj bałwana dla czarnej tarczy. Czas 12- lub 24-godzinny albo jak w zegarku, z zerem przed godziną lub bez. Na ekranach MIP sekundy biegną także przy opuszczonym nadgarstku; w trybie zawsze włączonym obok godziny zostaje przyciemniony rysunek bałwana.",
+      "Przytrzymaj pole danych lub wskaźnik, by otworzyć jego podgląd w zegarku, a datę lub odliczanie, by otworzyć kalendarz. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "tomte": {
+    "name": "Tomte",
+    "subtitle": "Święty Mikołaj, odliczanie do świąt",
+    "full": [
+      "Tarcza ze Świętym Mikołajem na święta: wesoły Mikołaj w czerwonej czapce śmieje się z prawego dolnego rogu tarczy, obok dużej, wyraźnej godziny i danych, które sprawdzasz co dzień.",
+      "Godzina stoi w pogrubionych cyfrach kursywą, z sekundami obok, minuty w kolorze motywu, a pod nią data w języku zegarka. Każda linia ma ciemny kontur, więc pozostaje ostra obok obrazu.",
+      "Cztery pola danych, każde ze swoją ikoną: na początek pogoda i tętno u góry, kroki i odliczanie do świąt na dole, mały prezent i liczba dni. Odliczaj do Bożego Narodzenia, Wigilii albo Sylwestra, albo wybierz w to miejsce dowolne z dwudziestu źródeł: Body Battery, stres, kalorie, dystans, piętra, wschód i zachód słońca, wysokość, najwyższą i najniższą temperaturę dnia, VO2max, ocenę snu i inne. Wskaźnik przy lewej krawędzi wypełnia się z Body Battery, krokami albo innym celem.",
+      "Trzy motywy: czerwony, złoty i zielony, albo ukryj Mikołaja dla czarnej tarczy. Czas 12- lub 24-godzinny albo jak w zegarku, z zerem przed godziną lub bez. Na ekranach MIP sekundy biegną także przy opuszczonym nadgarstku; w trybie zawsze włączonym obok godziny zostaje przyciemniony rysunek czapki Mikołaja.",
+      "Przytrzymaj pole danych lub wskaźnik, by otworzyć jego podgląd w zegarku, a datę lub odliczanie, by otworzyć kalendarz. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "knut": {
+    "name": "Knut",
+    "subtitle": "Tarcza z danymi, duża godzina, łuki",
+    "full": [
+      "Tarcza z danymi i dużymi, czytelnymi cyframi: wszystko, na co patrzysz w ciągu dnia, na jednej tarczy, ułożone jak panel przyrządów i opasane plecionym sznurem przy krawędzi.",
+      "Duża godzina w wyraźnych, kanciastych cyfrach, z numerem tygodnia ISO po lewej i sekundami po prawej. Nad nią wczoraj, dziś i jutro, dzisiejszy dzień w ramce w kolorze motywu; pod nią miesiąc i rok albo kilka Twoich własnych słów.",
+      "Sześć pól danych, każde z ikoną i każde do wyboru spośród dwudziestu źródeł: na początek kroki, tętno i pogoda, niżej Body Battery, kalorie i piętra, a do tego dystans, minuty intensywnej aktywności, stres, najwyższa i najniższa temperatura dnia, wschód i zachód słońca, wysokość, ciśnienie, powiadomienia, oddech, Pulse Ox, czas regeneracji, VO2 max i ocena snu. Dwa łuki przy sznurze wypełniają się wraz z celami: kroki u góry z procentem obok, bateria na dole, albo piętra, minuty intensywnej aktywności, Body Battery, stres, regeneracja lub ocena snu.",
+      "Osiem motywów: morski, limonka, bursztyn, koral, fiolet, lód, róż i stal. Godziny i minuty osobno w bieli, kolorze motywu, szarości lub ciemnej szarości. Czas 12- lub 24-godzinny albo jak w zegarku; temperatura jak w zegarku albo w °C lub °F. Sznur można wyłączyć, by mieć czystą czarną tarczę.",
+      "Tryb zawsze włączony w trzech poziomach: sama godzina, godzina z datą i baterią albo także pola danych, zawsze poniżej jednej dziesiątej ekranu. Na ekranach MIP sekundy biegną także przy opuszczonym nadgarstku.",
+      "Przytrzymaj pole danych lub łuk, aby otworzyć jego podgląd w zegarku, albo dni, aby otworzyć kalendarz."
+    ]
+  },
+  "norrsken": {
+    "name": "Norrsken",
+    "subtitle": "Zorza polarna, duże cyfry",
+    "full": [
+      "Tarcza z zorzą polarną i dużymi cyframi: zielono-fioletowe światła północy nad ośnieżonymi szczytami, a przed nimi duża, czytelna godzina, data i dane, na które patrzysz każdego dnia.",
+      "Godzina stoi w jednym wierszu, tak szeroko, jak pozwala okrągły ekran, wąskimi cyframi do czytania jednym spojrzeniem: godziny białe, dwukropek i minuty w kolorze motywu. Każda cyfra ma ciemny kontur, więc pozostaje ostra nawet na najjaśniejszej smudze zorzy.",
+      "Nad godziną data w języku Twojego zegarka z sekundami obok, a na górze bateria i powiadomienia. Pod nią dwa pola danych w zaokrąglonych ramkach, każde ze swoją ikoną: na początek tętno i kroki, a do wyboru między innymi pogoda, najwyższa i najniższa temperatura dnia, Body Battery, stres, kalorie, dystans, piętra, wschód i zachód słońca, wysokość, VO2 max i ocena snu, w sumie dwadzieścia źródeł. Krótki pasek wypełnia się w miarę zbliżania się do celu kroków, pięter, minut intensywnej aktywności, Body Battery, baterii lub stresu.",
+      "Cztery motywy z nocnego nieba: zorza, fiolet, lód i śnieg, albo wyłącz zorzę, by mieć czystą czarną tarczę. Czas 12- lub 24-godzinny albo jak w zegarku. Na ekranach MIP sekundy biegną także przy opuszczonym nadgarstku; w trybie Zawsze włączony godzina zostaje tej samej wielkości, w lekkim kroju, na czerni.",
+      "Przytrzymaj pole danych lub pasek celu, aby otworzyć jego podgląd w zegarku, albo datę, aby otworzyć kalendarz. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "ormbunke": {
+    "name": "Ormbunke",
+    "subtitle": "Fraktalna paproć, zielone światło",
+    "full": [
+      "Ormbunke to fraktalna paproć z zielonego światła: każdy liść składa się z listków, które powtarzają się i maleją ku czubkowi, a obok stoi przejrzysta kolumna dnia.",
+      "Godzina dużymi cyframi kursywą, minuty w kolorze Twojego motywu, a obok nich sekundy. Nad nią dwa pola danych, pod nią data w języku Twojego zegarka i dwa kolejne pola. Każde z czterech wybierasz sam spośród dwudziestu źródeł: tętno, kroki, kalorie, Body Battery, pogoda, najwyższa i najniższa temperatura dnia, wschód i zachód słońca, wysokość, VO2 max, ocena snu i inne, albo żadne. Wzdłuż lewej krawędzi wskaźnik wypełnia się Twoim Body Battery albo krokami, stresem, regeneracją, oceną snu lub baterią. Bateria i powiadomienia na górze.",
+      "Każda linia zaczyna się przy tej samej krawędzi i ma ciemny obrys, więc paproć nigdy nie zasłania cyfr, cokolwiek wybierzesz.",
+      "Trzy motywy pasujące do paproci: Paproć, Mech i Pyłek, a paproć można wyłączyć, by mieć czystą czarną tarczę. Czas 12- lub 24-godzinny albo jak w zegarku, z zerem na początku lub bez. Sekundy można ukryć, a na ekranach MIP biegną także przy opuszczonym nadgarstku. W trybie Zawsze włączony paproć rysują cienkie linie, obok godzina i data.",
+      "Przytrzymaj pole danych lub wskaźnik, by otworzyć jego podgląd w zegarku, albo datę, by otworzyć kalendarz. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "dyning": {
+    "name": "Dyning",
+    "subtitle": "Fraktalna fala, turkusowe światło",
+    "full": [
+      "Dyning to łamiąca się fala z turkusowego światła: jej grzbiet zawija się we fraktalną pianę i bryzgi, a obok stoi przejrzysta kolumna dnia.",
+      "Godzina dużymi cyframi kursywą, minuty w kolorze Twojego motywu, a obok nich sekundy. Nad nią dwa pola danych, pod nią data w języku Twojego zegarka i dwa kolejne pola. Każde z czterech wybierasz sam spośród dwudziestu źródeł: tętno, kroki, kalorie, Body Battery, pogoda, najwyższa i najniższa temperatura dnia, wschód i zachód słońca, wysokość, VO2 max, ocena snu i inne, albo żadne. Wzdłuż lewej krawędzi wskaźnik wypełnia się Twoim Body Battery albo krokami, stresem, regeneracją, oceną snu lub baterią. Bateria i powiadomienia na górze.",
+      "Każda linia zaczyna się przy tej samej krawędzi i ma ciemny obrys, więc fala nigdy nie zasłania cyfr, cokolwiek wybierzesz.",
+      "Trzy motywy pasujące do fali: Przybój, Lód i Piana, a falę można wyłączyć, by mieć czystą czarną tarczę. Czas 12- lub 24-godzinny albo jak w zegarku, z zerem na początku lub bez. Sekundy można ukryć, a na ekranach MIP biegną także przy opuszczonym nadgarstku. W trybie Zawsze włączony falę rysują cienkie linie, obok godzina i data.",
+      "Przytrzymaj pole danych lub wskaźnik, by otworzyć jego podgląd w zegarku, albo datę, by otworzyć kalendarz. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "gren": {
+    "name": "Gren",
+    "subtitle": "Drzewo fraktalne, blask żaru",
+    "full": [
+      "Gren to fraktalne drzewo z blasku żaru: jego gałęzie dzielą się raz po raz na cienkie, świecące gałązki, a obok stoi przejrzysta kolumna dnia.",
+      "Godzina dużymi cyframi kursywą, minuty w kolorze Twojego motywu, a obok nich sekundy. Nad nią dwa pola danych, pod nią data w języku Twojego zegarka i dwa kolejne pola. Każde z czterech wybierasz sam spośród dwudziestu źródeł: tętno, kroki, kalorie, Body Battery, pogoda, najwyższa i najniższa temperatura dnia, wschód i zachód słońca, wysokość, VO2 max, ocena snu i inne, albo żadne. Wzdłuż lewej krawędzi wskaźnik wypełnia się Twoim Body Battery albo krokami, stresem, regeneracją, oceną snu lub baterią. Bateria i powiadomienia na górze.",
+      "Każda linia zaczyna się przy tej samej krawędzi i ma ciemny obrys, więc drzewo nigdy nie zasłania cyfr, cokolwiek wybierzesz.",
+      "Trzy motywy pasujące do drzewa: Żar, Bursztyn i Popiół, a drzewo można wyłączyć, by mieć czystą czarną tarczę. Czas 12- lub 24-godzinny albo jak w zegarku, z zerem na początku lub bez. Sekundy można ukryć, a na ekranach MIP biegną także przy opuszczonym nadgarstku. W trybie Zawsze włączony drzewo rysują cienkie linie, obok godzina i data.",
+      "Przytrzymaj pole danych lub wskaźnik, by otworzyć jego podgląd w zegarku, albo datę, by otworzyć kalendarz. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "dag": {
+    "name": "Dag",
+    "subtitle": "Zegar dnia, duże litery",
+    "full": [
+      "Dag to zegar dnia: mówi nie tylko, która jest godzina, ale też jaki jest dzień i jaka pora dnia. Na środku tarczy, tak duży, jak pozwala okrągły ekran, dzień tygodnia w pełnym brzmieniu: ŚRODA. Pod nim, w kolorze Twojego motywu, RANO, POPOŁUDNIE, WIECZÓR albo NOC.",
+      "Nad nimi godzina, dużymi cyframi w stylu znaków drogowych, pod nimi data z rokiem, dużym, wyraźnym krojem, i jedno pole danych z ikoną: na początek pogoda, a do wyboru tętno, kroki, Body Battery, wschód i zachód słońca i inne, w sumie dwadzieścia źródeł, w tym VO2 max i ocena snu, albo żadne. Bateria i powiadomienia na górze.",
+      "Dzień i data są w języku Twojego zegarka, a pory dnia po polsku, angielsku, niemiecku, francusku, hiszpańsku, włosku, niderlandzku, portugalsku, słowacku i czesku. Rano trwa od piątej do południa, popołudnie do siedemnastej, wieczór do dwudziestej pierwszej, a noc aż do rana.",
+      "Wszystko jest duże, proste i kontrastowe, dla każdego, kto chce znać dzień jednym spojrzeniem, i dla każdego, kto ustawia zegarek rodzicom lub dziadkom. Sześć motywów w kolorach znaków drogowych: żółty, zielony, niebieski, pomarańczowy, biały i papier, czyli ciemne litery na jasnym tle dla tych, którym tak czyta się lepiej. Czas 12- lub 24-godzinny albo jak w zegarku, z zerem na początku lub bez, z sekundami obok, albo ukryty, gdy tarcza ma pokazywać tylko dzień. Na ekranach MIP sekundy biegną także przy opuszczonym nadgarstku. W trybie Zawsze włączony zostaje dzień, pora dnia i godzina.",
+      "Przytrzymaj pole danych, by otworzyć jego podgląd w zegarku, albo dzień lub datę, by otworzyć kalendarz. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "visare": {
+    "name": "Visare",
+    "subtitle": "Duże cyfry, analogowa",
+    "full": [
+      "Visare to analogowa tarcza do czytania bez okularów. Dwanaście dużych cyfr w stylu znaków drogowych stoi wokół tarczy, białe na czarnym, tak duże, jak pozwala okrągły ekran, z sześćdziesięcioma znacznikami minut na krawędzi.",
+      "Wskazówek nie da się pomylić. Godzinowa jest krótka, szeroka i biała, minutowa długa, smuklejsza i w kolorze Twojego motywu. Każda ma cienki obrys w kolorze tarczy, więc wyraźnie odcina się wszędzie, gdzie przecina cyfrę lub pole danych.",
+      "Wewnątrz cyfr, nad środkiem, dzień i data w języku Twojego zegarka, a do tego dwa pola danych z ikonami, jedno nad środkiem i jedno pod nim: na początek tętno i bateria, a do wyboru kroki, pogoda, Body Battery, wschód i zachód słońca i inne, w sumie dwadzieścia źródeł, w tym VO2 max i ocena snu, albo żadne. Pod nimi może stanąć mały czas cyfrowy, 12- lub 24-godzinny albo jak w zegarku, z zerem na początku lub bez.",
+      "Smukła wskazówka sekundowa z okrągłą przeciwwagą skacze co sekundę lub płynie, albo jest wyłączona; na ekranach MIP chodzi także przy opuszczonym nadgarstku. Po włączeniu wskazówek, które nie zasłaniają danych, wskazówka nad polem danych zmienia się w sam kontur, więc nic nie znika pod nią.",
+      "Wolisz spokojniejszą tarczę? Pokaż tylko 12, 3, 6 i 9 z wyraźnymi kreskami pomiędzy albo same kreski. Sześć motywów w kolorach znaków drogowych: żółty, zielony, niebieski, pomarańczowy, biały i papier, czyli czarne cyfry na jasnej tarczy dla tych, którym tak czyta się lepiej. W trybie Zawsze włączony cyfry i obie wskazówki zostają pełnej wielkości, w lekkim kroju.",
+      "Przytrzymaj pole danych, by otworzyć jego podgląd w zegarku, albo datę, by otworzyć kalendarz. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "tavla": {
+    "name": "Tavla",
+    "subtitle": "Duży czas i dane",
+    "full": [
+      "Tavla to tablica na nadgarstku, zaprojektowana tak, by czytać ją z odległości ręki bez okularów. Godzina stoi w jednym wierszu, wąskimi cyframi jak na znakach drogowych: krojem stworzonym do czytania z daleka. Godziny są białe, a dwukropek i minuty w kolorze Twojego motywu.",
+      "Pod godziną cztery pola danych na czterech kafelkach, każde ze swoją ikoną i dużą wartością: na początek tętno, kroki, pogoda i Body Battery, a do wyboru dowolne z dwudziestu źródeł, w tym VO2 max i ocena snu, albo żadne. Dane z celem, takie jak kroki, piętra czy minuty intensywnej aktywności, mają pod wartością pasek, który wypełnia się w ciągu dnia. Każdy kafelek jest tak szeroki, jak pozwala okrągły ekran, a duża liczba zostaje duża: powyżej dziesięciu tysięcy czyta się 18.5k zamiast maleć.",
+      "Wokół tarczy pierścień wypełnia się od dwunastej zgodnie z ruchem wskazówek, w miarę jak zbliżasz się do celu kroków, pięter, minut intensywnej aktywności, Body Battery, baterii, stresu, czasu regeneracji lub oceny snu: widać, jak idzie dzień, bez czytania żadnej liczby. Bateria i powiadomienia na górze, data w języku Twojego zegarka na dole.",
+      "Sześć motywów w kolorach znaków drogowych: żółty, zielony, niebieski, pomarańczowy, biały i papier, czyli ciemne cyfry na jasnym tle dla tych, którym tak czyta się lepiej. Czas 12- lub 24-godzinny albo jak w zegarku, z zerem na początku lub bez, a obok minut sekundy, które na ekranach MIP biegną także przy opuszczonym nadgarstku. W trybie Zawsze włączony godzina zostaje tej samej wielkości, w lekkim kroju, razem z datą.",
+      "Przytrzymaj kafelek, by otworzyć jego podgląd w zegarku, godzinę lub pierścień, by otworzyć podgląd pierścienia, albo datę, by otworzyć kalendarz. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "prognos": {
+    "name": "Prognos",
+    "subtitle": "Tarcza z prognozą jako krajobrazem",
+    "full": [
+      "W Prognos krajobraz jest prognozą. Przez dolną połowę tarczy ciągnie się wzgórze, a jego grzbiet to temperatura na najbliższe dwanaście godzin z pogody Twojego zegarka: najcieplejsza godzina najwyżej, najzimniejsza najniżej. Pod grzbietem zapisane są temperatura i godzina za trzy, sześć i dziewięć godzin, a nad godzinami, w których pewnie popada, spadają krótkie kreski deszczu.",
+      "Nad nim, na niebie: data i ikony stanu, duża godzina z sekundami obok, trzy odczyty z ikonami (domyślnie tętno, kroki i Body Battery) i dwa kolejne (najwyższa i najniższa temperatura dnia oraz najbliższy wschód lub zachód słońca). Każdy odczyt może pokazywać dowolne z dwudziestu źródeł, w tym VO2 max i ocenę snu, albo nic.",
+      "Prognoza pochodzi z ostatniej synchronizacji pogody z telefonem; dopóki jej nie ma, wzgórze jest płaskim horyzontem bez napisów, nigdy zgadywanym.",
+      "Dopasuj ją do siebie: pięć motywów (Zmierzch, Noc, Świt, Burza i Szarość), deszcz włączony lub wyłączony, czas 12- lub 24-godzinny albo jak w zegarku, zero przed godziną, sekundy oraz data i ikony stanu do włączenia lub wyłączenia. Na ekranach memory-in-pixel każdy motyw jest rysowany w 64 kolorach, a sekundy biegną dalej przy opuszczonym nadgarstku. Tryb Zawsze włączony zostawia godzinę, linię grzbietu i datę.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, datę, aby otworzyć kalendarz, albo wzgórze, aby zobaczyć pogodę. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "ruta": {
+    "name": "Ruta",
+    "subtitle": "Tarcza z danymi w kolorowych kafelkach",
+    "full": [
+      "Ruta jest zrobiona tak, by czytać ją jednym spojrzeniem, z odległości wyciągniętej ręki. Tarcza to płaskie kolorowe kafelki rozdzielone cienkimi czarnymi liniami, a każdy kafelek mieści jedną rzecz cyframi tak dużymi, jak pozwala kafelek, wysokim, wąskim krojem.",
+      "U góry data i ikony stanu. Pod nimi godzina ma własny kafelek, z sekundami obok i paskiem pod spodem, który wypełnia się z Twoimi krokami (albo z Body Battery, minutami intensywnej aktywności, piętrami, stresem, baterią, czasem regeneracji lub oceną snu). Niżej trzy kafelki z ikoną nad dużą wartością (domyślnie kroki, tętno i Body Battery) i dwa kolejne z ikoną obok (pogoda i najbliższy wschód lub zachód słońca). Każdy kafelek może pokazywać dowolne z dwudziestu źródeł, w tym VO2 max i ocenę snu, albo nic.",
+      "Dopasuj ją do siebie: pięć motywów (Pop, Pastel, Szarość, Noc z ciemnymi kafelkami i kolorowymi cyframi oraz Sport w czerni i sygnałowej żółci), czas 12- lub 24-godzinny albo jak w zegarku, zero przed godziną, sekundy oraz data i ikony stanu do włączenia lub wyłączenia. Na ekranach memory-in-pixel każdy kafelek ma jeden z 64 kolorów ekranu, więc nic nie jest rastrowane, a sekundy biegną dalej przy opuszczonym nadgarstku. Tryb Zawsze włączony zostawia godzinę, datę i pasek.",
+      "Przytrzymaj kafelek, aby otworzyć jego podgląd w zegarku, godzinę, aby otworzyć podgląd paska, albo datę, aby otworzyć kalendarz. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "dygn": {
+    "name": "Dygn",
+    "subtitle": "Tarcza z pierścieniem dnia",
+    "full": [
+      "Dygn pokazuje cały dzień jednym spojrzeniem. Wokół krawędzi biegnie 24-godzinny pierścień z południem u góry: noc jest ciemna, dzisiejsze światło dnia świeci ciepło od wschodu przez południe do zachodu, jasna linia pokrywa minioną część dnia, a słońce (po zmroku księżyc) stoi w miejscu obecnej godziny.",
+      "Tłem jest niebo w kolorze miejsca, w którym naprawdę jest słońce: noc, świt, dzień i zmierzch, z miękką poświatą wokół słońca. Na środku duża godzina z sekundami obok, data i ikony stanu, pogoda z najwyższą i najniższą temperaturą dnia, trzy odczyty z ikonami (domyślnie tętno, kroki i Body Battery), a na dole dzisiejszy wschód i zachód słońca. Każdy odczyt może pokazywać dowolne z dwudziestu źródeł, w tym VO2 max i ocenę snu, albo nic; dolna linia może zamiast tego pokazać pozostałe światło dnia.",
+      "Godziny wschodu i zachodu pochodzą z lokalizacji pogody w zegarku lub z ostatniej aktywności; bez nich pierścień jest nieoświetlony, nigdy zgadywany.",
+      "Dopasuj ją do siebie: pięć motywów (Niebo, które podąża za słońcem, Noc, Świt, Zmierzch i Szarość), czas 12- lub 24-godzinny albo jak w zegarku, zero przed godziną, sekundy oraz data i ikony stanu do włączenia lub wyłączenia. Na ekranach memory-in-pixel każde niebo jest rysowane w 64 kolorach, a sekundy biegną dalej przy opuszczonym nadgarstku. Tryb Zawsze włączony zostawia pierścień, słońce i godzinę.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, datę, aby otworzyć kalendarz, albo pierścień, aby zobaczyć wschód i zachód słońca. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "karta": {
+    "name": "Karta",
+    "subtitle": "Tarcza z danymi na mapie topo",
+    "full": [
+      "Karta mieści na nadgarstku dane z całego dnia i sprawia, że każda liczba czyta się łatwo. Tłem jest nocna mapa topograficzna: poziomice wokół dwóch szczytów, ledwie widoczne pod cyframi i wyraźniejsze przy krawędzi, a co czwarta linia to poziomica główna.",
+      "Nad mapą duża godzina z sekundami obok, a pod nią cztery odczyty w dwóch kolumnach, każdy z kolorową ikoną i dużą wartością: domyślnie tętno, Body Battery, kroki i najbliższy wschód lub zachód słońca. Dwa kolejne w górnej linii (wysokość i ciśnienie barometryczne), jeden na dole (pogoda), a bateria i powiadomienia obok daty. Każdy z siedmiu może pokazywać dowolne z dwudziestu źródeł, w tym VO2 max i ocenę snu, albo nic.",
+      "Wokół krawędzi łuk wypełnia się od godziny dwunastej z Twoimi krokami, z kropką na czele; u celu pierścień się zamyka. Może zamiast tego pokazywać Body Battery, minuty intensywnej aktywności, piętra, stres, baterię, czas regeneracji lub ocenę snu.",
+      "Dopasuj ją do siebie: pięć motywów (Las, Lodowiec, Pustynia, Noc i Łupek), cztery mapy (Szczyty, Grzbiet, Dolina i Wybrzeże) albo żadna, czas 12- lub 24-godzinny albo jak w zegarku, zero przed godziną, sekundy oraz data i ikony stanu do włączenia lub wyłączenia. Na ekranach memory-in-pixel każdy motyw jest rysowany w 64 kolorach, a sekundy biegną dalej także przy opuszczonym nadgarstku. Tryb Zawsze włączony zostawia godzinę, datę i łuk.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, datę, aby otworzyć kalendarz, albo krawędź, aby otworzyć podgląd łuku. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "frost": {
+    "name": "Frost",
+    "subtitle": "Zimowa tarcza ze śnieżynką",
+    "full": [
+      "Frost to analogowa tarcza na całą zimę, nie tylko na święta. Tarcza jest jak tafla lodu, ciemna przy brzegu i jaśniejsza na środku, szron wkrada się od krawędzi szkła, a godziny znaczą małe, sześcioramienne kryształy.",
+      "Na środku przez cały dzień rośnie śnieżynka. Jej sześć ramion wydłuża się, w miarę jak przybywa kroków, wypuszcza boczne gałązki, a po osiągnięciu celu zapala się każdy jej koniec. Zamiast kroków może rosnąć z Body Battery, minutami intensywnej aktywności, piętrami, stresem lub baterią.",
+      "Po przekątnych cztery odczyty, ikona nad wartością: domyślnie tętno, pogoda, Body Battery i najbliższy wschód lub zachód słońca, albo dowolne z osiemnastu źródeł, albo nic. Dzień i data w okienku na godzinie trzeciej, w języku Twojego zegarka, a bateria i powiadomienia pod dwunastką. Dodaj mały czas cyfrowy nad szóstką, w formacie 12- lub 24-godzinnym albo jak w zegarku.",
+      "Lancetowe wskazówki mają obwódkę, by czytały się nad wszystkim, i lodową linię przez środek, a wskazówka sekundowa ze śnieżynką jako przeciwwagą może skakać lub płynąć; na zegarkach memory-in-pixel skacze dalej także przy opuszczonym nadgarstku.",
+      "Dopasuj ją do siebie: pięć tarcz (Lodowiec, Północ, Zorza, Srebro i Róż), kryształy, cyfry arabskie lub rzymskie na kwadransach, pełny, lekki lub żaden szron na krawędzi oraz wskazówki srebrne, lodowe lub w kolorze akcentu. Tryb Zawsze włączony zostawia kryształy, śnieżynkę i zarysy wskazówek.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, albo datę, aby otworzyć kalendarz. Temperatura jak w zegarku albo w °C lub °F.",
+      "Wskazówki mogą stawać się konturem tam, gdzie przechodzą nad odczytem lub okienkiem, więc nic się pod nimi nie chowa."
+    ]
+  },
+  "kofta": {
+    "name": "Kofta",
+    "subtitle": "Świąteczny sweter",
+    "full": [
+      "Kofta ubiera Twój zegarek w świąteczny sweter. Cała tarcza to dzianina w nordycki wzór, każde oczko to małe V, od ściągacza przy szyi po dolny brzeg, a godzina jest wdziana prosto w sweter dużymi, grubymi cyframi z oczek.",
+      "Przez pierś biegnie pas reniferów, który dzierga się sam w ciągu dnia: oczko po oczku, rząd po rzędzie od dołu, w miarę jak przybywa kroków. Niedziergane oczka czekają w bladej włóczce, więc widać, ile zostało; po osiągnięciu celu pas jest gotowy. Zamiast kroków możesz dziergać z Body Battery, minutami intensywnej aktywności, piętrami, stresem lub baterią.",
+      "Pod godziną data w języku Twojego zegarka z baterią i powiadomieniami, a niżej trzy odczyty, ikona nad wartością: domyślnie tętno, pogoda i Body Battery, albo dowolne z osiemnastu źródeł, albo nic.",
+      "Dopasuj go do siebie: pięć swetrów (klasyczny czerwony, leśna zieleń, nordycki granat, owsiany i brzydki, celowo), pięć wzorów (renifery, płatki śniegu, choinki, serca lub gwiazdy), oczka dziane albo płaski schemat, zygzak przy dolnym brzegu albo gładki ściągacz. Godzina w formacie 12- lub 24-godzinnym albo jak w zegarku, z zerem przed godziną lub bez. Sekundy na końcu linii pod nią, które można wyłączyć.",
+      "Na ekranach memory-in-pixel każdy sweter wydziergano w 64 kolorach. Tryb Zawsze włączony zostawia tylko wdzianą godzinę, z jej oczek.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, albo datę, aby otworzyć kalendarz. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "gran": {
+    "name": "Gran",
+    "subtitle": "Odliczanie do świąt z choinką",
+    "full": [
+      "Gran to choinka w śnieżną noc, a każde światełko na niej coś znaczy. Na łańcuchu wisi dwadzieścia cztery lampki i zapalają się jedna po drugiej, w miarę jak przybywa kroków, od najniższej gałęzi ku górze. Osiągnij cel, a zapali się gwiazda na czubku. Zamiast kroków możesz wybrać Body Battery, minuty intensywnej aktywności, piętra, stres lub baterię.",
+      "Pod choinką, obok prezentów, liczba dni do Bożego Narodzenia albo, jeśli wolisz, do Wigilii lub Sylwestra. W sam dzień zamiast liczby pojawia się gwiazda. Obok widać, jak daleko doszły lampki.",
+      "Po obu stronach choinki cztery odczyty, ikona nad wartością: domyślnie tętno, pogoda, Body Battery i najbliższy wschód lub zachód słońca, albo dowolne z osiemnastu źródeł, albo nic. Data w języku Twojego zegarka stoi u góry razem z baterią i powiadomieniami.",
+      "Dopasuj ją do siebie: pięć motywów (Północ, Śnieżyca, Nordycki, Złoto i Cukierkowy), cztery kolory lampek (kolorowe, ciepła biel, złote lub niebieskie), śnieg lekki, gęsty albo żaden, śnieg na gałęziach lub nie. Godzina w kroju Fraunces, w formacie 12- lub 24-godzinnym albo jak w zegarku, z zerem przed godziną lub bez. Obok niej małe sekundy, które można wyłączyć.",
+      "Na ekranach memory-in-pixel każdy motyw narysowano w 64 kolorach. Tryb Zawsze włączony zostawia godzinę, zarys choinki i tylko zapalone lampki.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, albo datę, aby otworzyć kalendarz. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "lage": {
+    "name": "Lage Pro",
+    "subtitle": "Panel danych",
+    "full": [
+      "Większość tarcz z danymi pokazuje liczby i zostawia ich ocenę Tobie. Czy tętno spoczynkowe 62 to dobrze? Czy 3400 kroków o 14:00 to dość? Lage pokazuje równie dużo danych i każdemu odczytowi wystawia ocenę.",
+      "Pośrodku stoi godzina, w dużych, wąskich cyfrach: godziny w srebrze nad minutami w kolorze motywu. Po lewej Twoje ciało: Body Battery, stres i tętno, każde ze strzałką i zmianą z ostatnich trzech godzin, a pod spodem jego linia, zielona, gdy poziom jest dobry, koralowa, gdy nie. Po prawej Twoje cele: kroki, minuty intensywnej aktywności i piętra, każde z paskiem i białym znacznikiem tego, ile powinno być o tej porze, więc „+840” znaczy, że wyprzedzasz plan, a „-1.2k”, że jesteś w tyle. Twój dzień trwa od Twojej godziny pobudki do godziny snu, a minuty intensywnej aktywności liczą się w skali tygodnia, tak jak liczy je Garmin.",
+      "Pod godziną wykres ostatnich 4, 12 lub 24 godzin: tętna, Body Battery, stresu, ciśnienia albo wysokości, z maksimum i minimum. Pod nim pogoda teraz i to, kiedy nadejdzie deszcz, albo najbliższy wschód lub zachód słońca. Na górze bateria, powiadomienia i data w języku Twojego zegarka. Pod minutami widać małe sekundy, a znacznik na krawędzi podświetla każdą z nich, gdy patrzysz; jedno ustawienie wyłącza jedno i drugie.",
+      "Każde pole danych może pokazywać dowolne z dwudziestu źródeł: ocenę snu, pulsoksymetr, czas regeneracji, VO2 max, oddech, kalorie, dystans i inne. Na ekranie dotykowym przytrzymaj pole danych, aby otworzyć dla niego ekran samego zegarka. Pięć motywów: lodowiec, złoto, fiolet, ocean i srebro. Tryb Zawsze włączony zostawia godzinę w pełnym rozmiarze, w lekkim kroju."
+    ]
+  },
+  "rad": {
+    "name": "Rad",
+    "subtitle": "Duże cyfry i dane",
+    "full": [
+      "Rad pokazuje godzinę w jednym wierszu, tak szeroko, jak pozwala okrągły ekran, wąskimi cyframi jak na znakach drogowych: krojem zaprojektowanym do czytania z daleka i w ruchu. Godziny są białe, a dwukropek i minuty w kolorze Twojego motywu.",
+      "Wokół godziny wszystko, na co patrzysz każdego dnia, też jest duże. Nad godziną stoi data w języku Twojego zegarka, a nad nią bateria i powiadomienia. Pod godziną są dwa pola danych w zaokrąglonych ramkach, każde ze swoją ikoną: na początek tętno i kroki, a do wyboru między innymi pogoda, Body Battery, kalorie, dystans oraz wschód i zachód słońca, w sumie piętnaście źródeł. Ramki dopasowują się do tego, co w nich jest. Pod nimi krótki pasek wypełnia się w miarę zbliżania się do celu kroków albo pięter, minut intensywnej aktywności, Body Battery, baterii lub stresu.",
+      "Sześć motywów w kolorach znaków drogowych: żółty, zielony, niebieski, pomarańczowy, biały i papier, czyli ciemne cyfry na białym tle dla tych, którym tak czyta się lepiej. Czas 12- i 24-godzinny, w 12-godzinnym bez zera na początku. W trybie Zawsze włączony godzina zostaje tej samej wielkości, w lekkim kroju."
+    ]
+  },
+  "stor": {
+    "name": "Stor",
+    "subtitle": "Bardzo duże cyfry",
+    "full": [
+      "Stor pokazuje godzinę największymi cyframi, jakie mieści okrągły ekran: godziny w jednym wierszu, minuty w następnym, każde prawie na jedną trzecią wysokości ekranu. Grube, otwarte cyfry w nowoczesnym kroju groteskowym, białe na czarnym, z minutami w wybranym kolorze, czytelne jednym spojrzeniem z drugiego końca pokoju, w samochodzie albo zaraz po przebudzeniu, zanim założysz okulary.",
+      "Cała reszta nie przeszkadza. Cienki pasek między wierszami wypełnia się w miarę zbliżania się do celu kroków, więc postępu nie trzeba nawet czytać; może też pokazywać piętra, minuty intensywnej aktywności, Body Battery, baterię lub stres, albo być wyłączony. U góry bateria i powiadomienia. Na dole data w języku Twojego zegarka albo zamiast niej jedno pole danych: tętno, pogoda, kroki lub dowolne z dwudziestu źródeł.",
+      "Sześć motywów: koral, bursztyn, mięta, błękit, mono i papier, czyli ciemne cyfry na białym tle dla tych, którym tak czyta się lepiej, i na jasny dzień na ekranie memory-in-pixel. Czas 12- i 24-godzinny, w 12-godzinnym bez zera na początku. Tryb Zawsze włączony zostawia te same cyfry w tym samym rozmiarze, w cienkim kroju, wystarczająco dużym, by czytać po ciemku."
+    ]
+  },
+  "vila": {
+    "name": "Vila",
+    "subtitle": "Ekran uśpienia e-czytnika",
+    "full": [
+      "Vila to ekran, który czytnik e-booków pokazuje w uśpieniu: rycina jednym kolorem tuszu na papierze, a nad nią godzina w książkowym kroju szeryfowym. Rycina przedstawia klepsydrę, każdą jej część narysowaną liniami, tak jak wyciąłby ją rytownik: dwie płyty z konturem i cieniowaniem, toczone słupki kreskowane z jednej strony, szkło w cienkich konturach z cieniowaniem i piasek w gęstym kreskowaniu.",
+      "Piasek to postęp. Rano wypełnia górną bańkę; w miarę jak kroki wypełniają cel, przesypuje się do dolnej cienką strużką, aż górna jest pusta, a w dolnej stoi kopczyk. Może też pokazywać piętra, minuty intensywnej aktywności, Body Battery, baterię lub stres.",
+      "Duża godzina złożona jest krojem EB Garamond, pod nią data w języku Twojego zegarka, a nad nią bateria i powiadomienia. Po obu stronach przewężenia klepsydry dwa pola danych, na początek tętno i pogoda, albo dowolne z piętnastu źródeł.",
+      "Pięć papierów: papier, ciepłe światło, sepia, noc (białe linie na czerni) i indygo. Ekran memory-in-pixel odbija światło tak jak e-papier. Tryb Zawsze włączony zostawia godzinę i kontur klepsydry."
+    ]
+  },
+  "vik": {
+    "name": "Vik",
+    "subtitle": "Nordycka zatoka o zmierzchu",
+    "full": [
+      "Vik to zatoka na dalekiej północy pod koniec dnia. Dalekie góry stoją w oparach, z mgłą u stóp, bliższe wzgórza są ciemne, woda jest spokojna, z pasmami światła, a przez całe niebo rozpościerają się gałęzie drzewa świata, o odcień jaśniejsze od zmierzchu.",
+      "Po wodzie płynie drakkar z pasiastym żaglem i tarczami wzdłuż burty, od zachodniego brzegu do wschodniego, w miarę jak kroki wypełniają cel: wypływa rano i przybija do brzegu przy celu. Może też pokazywać piętra, minuty intensywnej aktywności, Body Battery, baterię lub stres.",
+      "Godzina stoi nad niebem w kroju Kurale, szeryfowym, jakby ręcznie ciętym, pod nią data w języku Twojego zegarka, a nad nią bateria i powiadomienia. Na wodzie dwa pola danych, każde z dowolnym z piętnastu źródeł, na początek tętno i pogoda. Na dole czerwony pasek zdrowia i żółty pasek wytrzymałości, domyślnie Body Battery i bateria.",
+      "Pięć motywów: łąka, noc, mgiełka, żar i szron. Na ekranach memory-in-pixel niebo narysowano z ditheringiem w 64 kolorach. Tryb Zawsze włączony zostawia godzinę, brzeg i drakkar jako cienkie linie.",
+      "Przytrzymaj odczyt lub pasek, aby otworzyć jego podgląd w zegarku, drakkar, aby zobaczyć jego cel, a datę, aby otworzyć kalendarz. Sekundy tykają na tabliczce za datą, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "skold": {
+    "name": "Sköld",
+    "subtitle": "Analogowa tarcza wikinga",
+    "full": [
+      "Sköld to okrągła tarcza wojownika, stworzona dla okrągłego zegarka. Siedem desek z ciemnego drewna ze słojami, sękami i spoinami; żelazna obręcz z rantem łapiącym światło; główka gwoździa na każdej godzinie; żelazny umbo pośrodku; i dwie stalowe wskazówki, każda jak ostrze obrysowane na czarno.",
+      "W obręczy wyryto 24 runy starszego futharku, w kolejności, każdą narysowaną prostymi kreskami, jakimi ją wycięto. To one są postępem: jedna po drugiej żarzą się jak węgle, w miarę jak kroki wypełniają cel, od dwunastej zgodnie z ruchem wskazówek, aż płonie cała obręcz. Mogą też pokazywać piętra, minuty intensywnej aktywności, Body Battery, baterię lub stres.",
+      "Trzy pola danych są wyrzeźbione w deskach na dziewiątej, trzeciej i szóstej, każde z dowolnym z piętnastu źródeł: na początek tętno, pogoda i Body Battery, albo kroki, kalorie, dystans, piętra, minuty intensywnej aktywności, stres, ciśnienie, wysokość, najbliższy wschód lub zachód słońca, powiadomienia lub bateria. Data w języku Twojego zegarka oraz bateria i powiadomienia są pod dwunastką.",
+      "Pięć farb: dąb (gołe drewno), krew, kruk, szron (z lodową poświatą) i mech, każda malująca co drugą deskę. Tryb Zawsze włączony zostawia świecące runy jako cienkie linie, kontury wskazówek i umbo.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, obręcz z runami, aby zobaczyć jej cel, a datę, aby otworzyć kalendarz. Wskazówka sekundowa w kolorze akcentu, można ją wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "stad": {
+    "name": "Stad",
+    "subtitle": "HUD z mapą miasta",
+    "full": [
+      "Stad zamienia Twój zegarek w HUD gry z otwartym światem. Cała tarcza to mapa wymyślonego miasta: kwartały między szerokimi ulicami, park, bulwar, autostrada zakręcająca wokół zachodniej części, plaża i morze.",
+      "Nad nią wszystko, czego potrzebujesz, obrysowane na czarno, więc czytelne na każdej ulicy. Pięć gwiazdek u góry wypełnia się Twoim stresem. Godzina stoi pośrodku w kroju Big Shoulders Display, a pod nią Twoje kroki jako gotówka: 8420 kroków to $8,420. Dwa łuki na dole to zdrowie i pancerz, domyślnie Body Battery i bateria. Strzałka gracza stoi pod środkiem i obraca się, wskazując minutę, a dwa znaczniki na mapie niosą dowolne wartości.",
+      "Każdy wskaźnik można zmienić: gwiazdki i paski pokazują kroki, piętra, minuty intensywnej aktywności, Body Battery, baterię lub stres; gotówka to kroki, kalorie, piętra lub minuty intensywnej aktywności; znaczniki przyjmują dowolne z piętnastu źródeł, na początek pogodę i tętno. Data jest w języku Twojego zegarka, a bateria i powiadomienia pod strzałką.",
+      "Pięć motywów: ulica, noc, zachód słońca, atlas (jasna mapa) i mono. Tryb Zawsze włączony zostawia godzinę w lekkim kroju i kontur strzałki.",
+      "Przytrzymaj punkt na mapie, gotówkę, gwiazdki lub pasek, aby otworzyć w zegarku podgląd tego, co pokazują, a datę, aby otworzyć kalendarz. Sekundy tykają na tabliczce obok godziny, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "kust": {
+    "name": "Kust",
+    "subtitle": "Neonowe wybrzeże o zachodzie",
+    "full": [
+      "Kust umieszcza neonowe wybrzeże na Twoim nadgarstku. Niebo przechodzi od fioletu przez róż do pomarańczu, na horyzoncie stoi słońce w paski, pod nim leży ciemne morze z rozbitym na wodzie odbiciem słońca, a od krawędzi pochylają się dwie palmy.",
+      "Godzina świeci u góry w kroju Tilt Neon, jasny rdzeń w kolorowej poświacie, jak szyld hotelu przy plaży. Słońce to postęp: rano stoi wysoko nad morzem i zanurza się w nim, w miarę jak kroki wypełniają cel, aż nad wodą zostaje tylko jego czubek. Może też pokazywać piętra, minuty intensywnej aktywności, Body Battery, baterię lub stres.",
+      "Trzy pola danych stoją na morzu jak neonowe szyldy, każde z dowolnym z piętnastu źródeł: na początek tętno, kroki i pogoda, albo kalorie, dystans, piętra, minuty intensywnej aktywności, Body Battery, stres, ciśnienie, wysokość, najbliższy wschód lub zachód słońca, powiadomienia lub bateria. Data stoi nad godziną w języku Twojego zegarka, pod baterią i powiadomieniami.",
+      "Pięć motywów: zachód słońca, zmierzch, północ, flaming i tropik. Na ekranach memory-in-pixel niebo narysowano z ditheringiem w 64 kolorach. Tryb Zawsze włączony zostawia godzinę w kolorze poświaty, horyzont i kontur słońca.",
+      "Przytrzymaj neon, aby otworzyć jego podgląd w zegarku, zachód słońca, aby zobaczyć jego cel, a datę, aby otworzyć kalendarz. Sekundy świecą małe na morzu, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "dack": {
+    "name": "Däck",
+    "subtitle": "Analogowa opona",
+    "full": [
+      "Däck to analogowa tarcza narysowana jak koło wyścigowe widziane z boku. Opona sięga krawędzi szkła, a jej kolorowy pas wypełnia się od dwunastej, w miarę jak kroki wypełniają cel; może też pokazywać piętra, minuty intensywnej aktywności, Body Battery, baterię lub stres. Data w języku Twojego zegarka jest wytłoczona na boku opony na szóstej.",
+      "W obręczy dekiel koła jest tarczą: znaczniki godzin, dwie wskazówki z obwódką, czytelne nad wszystkim, i sześciokątna centralna nakrętka otoczona kolorem mieszanki. Trzy pola danych na dziewiątej, trzeciej i szóstej, każde z dowolnym z piętnastu źródeł: na początek tętno, pogoda i Body Battery, albo kroki, kalorie, dystans, piętra, minuty intensywnej aktywności, stres, ciśnienie, wysokość, najbliższy wschód lub zachód słońca, powiadomienia lub bateria. Bateria i powiadomienia są na dwunastej.",
+      "Pięć motywów to pięć mieszanek opon: miękka (czerwona), pośrednia (żółta), twarda (biała), przejściowa (zielona) i deszczowa (niebieska). Tryb Zawsze włączony zostawia świecący pas jako cienką linię, znaczniki godzin i kontury wskazówek.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, opaskę, aby zobaczyć jej cel, a datę, aby otworzyć kalendarz. Wskazówka sekundowa w kolorze mieszanki, można ją wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "bana": {
+    "name": "Bana",
+    "subtitle": "Mapa toru",
+    "full": [
+      "Bana rysuje tor wyścigowy wokół tarczy: długa prosta u góry, esy po prawej, szykana na dole i tarki na zakrętach. Samochód okrąża go raz na godzinę: o każdej pełnej godzinie stoi na linii w szachownicę, kwadrans po jest na jednej czwartej okrążenia, a przejechana część okrążenia świeci za nim. Tor jest wymyślony, to nie żaden prawdziwy obiekt.",
+      "Godzina stoi wewnątrz toru w kroju Tomorrow, a pod nią trzy pola danych, każde z dowolnym z piętnastu źródeł: na początek tętno, kroki i pogoda, albo kalorie, dystans, piętra, minuty intensywnej aktywności, Body Battery, stres, ciśnienie, wysokość, najbliższy wschód lub zachód słońca, powiadomienia lub bateria. Gdy wartość jest długa, cały wiersz zmniejsza się o rozmiar. Bateria i powiadomienia są nad torem, a data w języku Twojego zegarka pod nim.",
+      "Pięć motywów: noc, trawa, dzień (jasny), neon i mono. Tryb Zawsze włączony zostawia tor jako cienką linię, samochód i godzinę w lekkim kroju.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, a datę, aby otworzyć kalendarz. Sekundy tykają za datą, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "varv": {
+    "name": "Varv",
+    "subtitle": "Ekran pomiaru czasu",
+    "full": [
+      "Varv wygląda jak ekran pomiaru czasu w transmisji wyścigu. Godzina stoi na pochylonym panelu w kroju Exo 2 Italic, z paskiem w kolorze motywu na końcu. Nad nią okrążenie: dzisiejszy dzień roku na tle liczby dni w roku, LAP 276/365 trzeciego października, jak w grafice transmisji.",
+      "Pod godziną trzy sektory, po jednym na każdy cel: domyślnie kroki, piętra i minuty intensywnej aktywności. Sektor robi się fioletowy, gdy cel jest osiągnięty, zielony, gdy idziesz przed tempem, które pozwoli go osiągnąć do 22:00, i żółty, gdy jesteś za nim; minuty intensywnej aktywności są rozłożone na cały tydzień. Ikona każdego sektora, w tym samym kolorze, stoi nad jego wartością. Niżej dwa kolejne pola danych z dowolnego z piętnastu źródeł: na początek tętno i pogoda, albo kalorie, dystans, piętra, Body Battery, stres, ciśnienie, wysokość, najbliższy wschód lub zachód słońca, powiadomienia lub bateria. Data w języku Twojego zegarka stoi na dole na pochylonej etykiecie.",
+      "Pięć motywów: studio, karbon, dzień (jasny), morski i neon. Tryb Zawsze włączony zostawia godzinę w lekkim kroju i sektory jako kontury w ich kolorach.",
+      "Przytrzymaj sektor, aby otworzyć w zegarku podgląd jego celu, odczyt, aby zobaczyć jego podgląd, a datę, aby otworzyć kalendarz. Sekundy tykają na plakietce z datą, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "ratt": {
+    "name": "Ratt",
+    "subtitle": "Kierownica wyścigowa",
+    "full": [
+      "Ratt umieszcza środek wyścigowej kierownicy na Twoim nadgarstku. U góry piętnaście lampek zmiany biegów, pięć zielonych, pięć czerwonych i pięć niebieskich, zapala się jedna po drugiej, w miarę jak kroki wypełniają cel, a po osiągnięciu celu świecą się wszystkie. Mogą też pokazywać piętra, minuty intensywnej aktywności, Body Battery, baterię lub stres.",
+      "Pośrodku ekran kierownicy: duża godzina w kroju Oxanium, z dwoma polami danych nad nią i dwoma pod nią, oddzielonymi cienkimi liniami jak na prawdziwym wyświetlaczu. Każde pole to dowolne z piętnastu źródeł: na początek tętno, pogoda, kroki i Body Battery, albo kalorie, dystans, piętra, minuty intensywnej aktywności, stres, ciśnienie, wysokość, najbliższy wschód lub zachód słońca, powiadomienia lub bateria. Wokół ekranu splot włókna węglowego i guma uchwytów, przeszyte nicią w kolorze motywu. Pod ekranem data w języku Twojego zegarka, a dalej bateria i powiadomienia.",
+      "Pięć motywów: karbon, volt, kobalt, żar i mono, w którym lampki świecą na biało. Na ekranach memory-in-pixel karbon narysowano jako kreskowanie w 64 kolorach. Tryb Zawsze włączony zostawia godzinę w lekkim kroju i zapalone lampki jako pierścienie.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, lampki zmiany biegów, aby zobaczyć ich cel, a datę, aby otworzyć kalendarz. Sekundy tykają na małym ekranie za datą, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "glimt": {
+    "name": "Glimt",
+    "subtitle": "Powitanie w gradiencie",
+    "full": [
+      "Glimt Cię wita. Dzień dobry, miłego popołudnia, dobry wieczór albo dobranoc, zależnie od pory, a pod spodem godzina w kroju Plus Jakarta Sans, oba w gradiencie od błękitu przez fiolet do różu.",
+      "Wzdłuż obrzeża Twoje kroki wypełniają łuk w tym samym gradiencie od dwunastej, z każdym krokiem pokazując trochę więcej koloru; łuk może też pokazywać piętra, minuty intensywnej aktywności, Body Battery lub baterię. Cztery pola danych w zaokrąglonych kafelkach, każde z dowolnym z piętnastu źródeł: na początek tętno, kroki, Body Battery i pogoda, albo kalorie, dystans, piętra, minuty intensywnej aktywności, stres, ciśnienie, wysokość, najbliższy wschód lub zachód słońca, powiadomienia lub bateria. Data w języku Twojego zegarka stoi w pigułce na dole, z małym błyskiem obok.",
+      "Pięć motywów: noc, dzień (jasny), zorza, zachód słońca i szron, każdy z własnym gradientem. Na ekranach memory-in-pixel gradient narysowano w trzech stopniach z 64 kolorów. Tryb Zawsze włączony zostawia godzinę w miękkim, przygaszonym gradiencie. Powitanie można wyłączyć.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, obręcz, aby zobaczyć jej cel, a datę, aby otworzyć kalendarz. Sekundy stoją małe obok godziny, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "kod": {
+    "name": "Kod",
+    "subtitle": "Minuta jako diff",
+    "full": [
+      "Kod pokazuje czas tak, jak programista czyta zmiany: jako diff. Pod nagłówkiem fragmentu z datą minuta, która właśnie minęła, jest usunięta na czerwonym wierszu, a bieżąca dodana na zielonym, większa, w kroju Geist Mono. Kod stosuje Twoje ustawienie 12 lub 24 godzin, więc o pełnej godzinie 11:00 usuwa 10:59.",
+      "Niżej trzy wiersze z punktorami, każdy z dowolnym z piętnastu źródeł: na początek tętno, kroki i pogoda, albo kalorie, dystans, piętra, minuty intensywnej aktywności, Body Battery, stres, ciśnienie, wysokość, najbliższy wschód lub zachód słońca, powiadomienia lub bateria. Źródło z celem dodaje pięciopolowy wskaźnik z plusów i minusów, a jego punktor zmienia kolor na zielony po osiągnięciu celu.",
+      "Pod znakiem zachęty z nieruchomym kursorem Twoje Body Battery to pozostały kontekst: albo bateria, kroki, piętra, minuty intensywnej aktywności lub stres, albo nic. U góry bateria i powiadomienia.",
+      "Pięć motywów: grafit, papier (jasny edytor), północ, mono i neon. Na ekranach memory-in-pixel każdy motyw narysowano w 64 kolorach. Tryb Zawsze włączony zostawia dodaną minutę i znak zachęty.",
+      "Przytrzymaj wiersz, aby otworzyć jego podgląd w zegarku, pozostały kontekst, aby zobaczyć jego źródło, a nagłówek z datą, aby otworzyć kalendarz. Sekundy tykają w wierszu poleceń, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "tanke": {
+    "name": "Tanke",
+    "subtitle": "Myślący terminal",
+    "full": [
+      "Tanke to sesja terminala na Twoim nadgarstku, w której coś zawsze myśli. Godzina z datą stoi w zaokrąglonej ramce, w kroju Red Hat Mono, na ciepłej czerni z akcentem w kolorze terakoty.",
+      "Pod nią gwiazdka obraca się o klatkę co minutę obok czasownika: Rozmyślam, Warzę, Kombinuję, Parzę, w sumie dwadzieścia cztery, co minutę nowy i nigdy dwa razy z rzędu ten sam.",
+      "Pod spodem Twoje cele jako lista zadań. Każdy wiersz to pole wyboru, ikona, postęp i cel, który zapisuje zegarek: na początek kroki, piętra i tygodniowe minuty intensywnej aktywności, albo Body Battery, bateria lub stres. Osiągnięty cel zostaje odhaczony i przekreślony; pierwszy jeszcze otwarty to ten w toku. Na dole pole zachęty z nieruchomym kursorem, a u góry bateria i powiadomienia.",
+      "Pięć motywów: glina, kość słoniowa (jasny terminal), szałwia, irys i mono. Na ekranach memory-in-pixel każdy motyw narysowano w 64 kolorach. Tryb Zawsze włączony zostawia godzinę i wiersz z myśleniem. Kursor nie miga, bo miganie budziłoby zegarek co sekundę.",
+      "Przytrzymaj zadanie, aby otworzyć jego podgląd w zegarku, a ramkę z godziną, aby otworzyć kalendarz. Sekundy tykają w wierszu poleceń, można je wyłączyć."
+    ]
+  },
+  "horisont": {
+    "name": "Horisont",
+    "subtitle": "Minimalistyczny horyzont planety",
+    "full": [
+      "Horisont umieszcza krawędź świata na Twoim nadgarstku. Ciemna planeta wyłania się z dołu tarczy, a jej horyzont to cienka linia światła, świecąca na tle czarnej przestrzeni i rozsypanych gwiazd.",
+      "Horyzont to Twój postęp. Rozświetla się od lewej, w miarę jak przybywa kroków, razem z poświatą i rozbłyskiem na czele, jak słońce wschodzące nad planetą widzianą z orbity. Gdy osiągasz cel, świeci od końca do końca. Może też pokazywać piętra, minuty intensywnej aktywności, Body Battery lub baterię.",
+      "Nad nim godzina w kroju Unbounded, szerokim i ciężkim, z datą w języku Twojego zegarka oraz baterią i powiadomieniami. Po ciemnej stronie planety trzy wybrane pola danych z piętnastu źródeł: na początek tętno, Body Battery i pogoda, albo kroki, kalorie, dystans, piętra, minuty intensywnej aktywności, stres, ciśnienie, wysokość, najbliższy wschód lub zachód słońca, powiadomienia lub bateria.",
+      "Pięć motywów: pustka, czyli czerń i biel, oraz słoneczny, lód, mgławica i Mars, które barwią światło. Na ekranach memory-in-pixel każdy motyw narysowano w 64 kolorach. Tryb Zawsze włączony zostawia godzinę i świecący horyzont jako cienką linię.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, horyzont, aby zobaczyć jego cel, a datę, aby otworzyć kalendarz. Sekundy stoją małe pod godziną, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "logg": {
+    "name": "Logg",
+    "subtitle": "Dane w stylu terminala",
+    "full": [
+      "Logg zamienia Twój zegarek w terminal. Siedem wierszy biegnie w dół jednej kolumny, każdy z trzyliterowym kluczem, wartością i czymś, co ją ilustruje: paskiem z dziesięciu komórek dla wszystkiego, co ma cel, wypełnianym w miarę postępu, albo ostatnimi dwiema godzinami jako mały wykres dla tętna, ciśnienia atmosferycznego i wysokości.",
+      "Każdy wiersz może pokazywać dowolne z piętnastu źródeł: tętno, kroki, Body Battery, stres, ciśnienie, wysokość, pogodę, kalorie, dystans, piętra, minuty intensywnej aktywności, najbliższy wschód lub zachód słońca, powiadomienia lub baterię, albo nic. Niższe wiersze mają mniej komórek, więc nic nie wychodzi poza okrągły ekran.",
+      "Nad nimi godzina w kroju JetBrains Mono, dzień w języku Twojego zegarka z datą zapisaną według ISO 8601 oraz bateria i powiadomienia. Pod nimi znak zachęty i nieruchomy kursor blokowy; nie miga, bo miganie budziłoby zegarek co sekundę.",
+      "Pięć motywów: fosfor, bursztyn, lód, papier i plazma. Na ekranach memory-in-pixel każdy motyw narysowano w 64 kolorach. Tryb Zawsze włączony zostawia godzinę i znak zachęty.",
+      "Przytrzymaj wiersz, aby otworzyć podgląd jego odczytu w zegarku, a datę, aby otworzyć kalendarz. Sekundy stoją małe obok godziny, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "matare": {
+    "name": "Mätare",
+    "subtitle": "Chronograf z deską rozdzielczą",
+    "full": [
+      "Mätare to analogowa tarcza zbudowana jak deska rozdzielcza. Trzy wskaźniki stoją na godzinie dziewiątej, trzeciej i szóstej, każdy z własną skalą, wypełnionym łukiem, wskazówką, ikoną i wartością: domyślnie Body Battery, kroki i minuty intensywnej aktywności, albo stres, ocena snu, czas regeneracji, bateria i piętra. Wskazówka biegnie od zera do celu albo do końca skali, więc wskaźnik zawsze coś znaczy.",
+      "W rogach cztery pola danych, ikona nad wartością, z dwudziestu źródeł: domyślnie tętno, pogoda, kalorie i najbliższy wschód lub zachód słońca, albo Body Battery, stres, dzisiejsze maksimum i minimum, oddech, pulsoksymetr, czas regeneracji, VO2 max, ocena snu, kroki, dystans, wysokość, ciśnienie, powiadomienia i więcej. Na dwunastej bateria i powiadomienia, a w okienku dzień i data w języku Twojego zegarka. VO2 max i ocena snu pojawiają się na zegarkach, które je podają.",
+      "Przytrzymaj wskaźnik lub pole danych, aby otworzyć dla niego podgląd samego zegarka: Body Battery, stres, tętno, kroki, pogodę i resztę. Przytrzymaj datę, aby zobaczyć kalendarz. Na zegarkach z ekranem dotykowym i aktualnym oprogramowaniem.",
+      "Wskazówki godzinowa i minutowa mają obwódkę w kolorze tarczy, więc są czytelne nad wskaźnikiem. Włącz adaptacyjne wskazówki, a wskazówka zmienia się w kontur wszędzie tam, gdzie przechodzi nad wskaźnikiem lub polem danych, więc widać i wskazówkę, i liczbę pod nią. Wskazówki mogą mieć kolor motywu, akcentu albo świecący, z pogrubionym konturem dla lepszego kontrastu, a wskazówka sekundowa może poruszać się skokowo lub płynnie. Wzdłuż krawędzi biegnie skala minutowa. Wszystkie cyfry złożono krojem Saira.",
+      "Pięć motywów: karbon, stal, granat, wyścigowy i arktyka, czyli biała tarcza. Na ekranach memory-in-pixel każdy motyw narysowano w 64 kolorach. Tryb Zawsze włączony zostawia wskazówki w obrysie, indeksy godzin i datę."
+    ]
+  },
+  "vecka": {
+    "name": "Vecka",
+    "subtitle": "Tygodniowy wykres aktywności",
+    "full": [
+      "Vecka pokazuje Twój tydzień tak, jak zapisuje go zegarek: siedem słupków, po jednym na dzień, od pierwszego dnia tygodnia ustawionego w zegarku. Dzień z osiągniętym celem świeci kolorem akcentu, dzień poniżej celu jest przygaszony, a dzisiejszy jest jasny i wciąż rośnie. Przerywana linia oznacza cel.",
+      "Dni, które dopiero nadejdą, pokazują w obrysie te same dni z zeszłego tygodnia, więc zawsze jest co pobić. Pod słupkami inicjał każdego dnia w języku Twojego zegarka, a pod nimi suma tygodnia, średnia dzienna i liczba dni z osiągniętym celem.",
+      "Nad wykresem dzisiejsza wartość na tle celu, godzina w kroju Space Grotesk i data z numerem tygodnia ISO. Wzdłuż obrzeża tygodniowe minuty intensywnej aktywności na tle tygodniowego celu Garmin, z liczbą na początku pierścienia. U góry bateria i powiadomienia.",
+      "Słupki mogą pokazywać kroki, kalorie, dystans, piętra lub dzienne minuty intensywnej aktywności. Pięć motywów: atrament, koral, las, mono i papier. Na ekranach memory-in-pixel każdy motyw narysowano w 64 kolorach. Tryb Zawsze włączony zostawia godzinę i słupki tygodnia w obrysie.",
+      "Przytrzymaj pierścień, aby otworzyć podgląd minut intensywności w zegarku, tydzień, aby zobaczyć jego miarę, a datę, aby otworzyć kalendarz. Sekundy tykają obok godziny, można je wyłączyć."
+    ]
+  },
+  "kurva": {
+    "name": "Kurva",
+    "subtitle": "Wykresy historii czujników",
+    "full": [
+      "Kurva wyświetla na tarczy historię, którą Twój zegarek cały czas zapisuje. Cztery wiersze, po jednym czujniku: jego ikona, bieżąca wartość, ostatnie godziny narysowane jako pole pod linią oraz maksimum i minimum z tego okresu.",
+      "Wszystkie wykresy stoją w tych samych kolumnach, więc mają wspólną oś czasu. Poranny bieg to szczyt tętna, spadek Body Battery i przerwa w pomiarze stresu, jedno nad drugim. Tam, gdzie zegarek nie zrobił pomiaru, wykres zostawia przerwę; nigdy nie rysuje zgadywanego zera.",
+      "Każdy wiersz może pokazywać tętno, Body Battery, stres, ciśnienie atmosferyczne lub wysokość, a wykresy sięgają 2, 4, 8 lub 12 godzin wstecz. Na dole są jeszcze dwa pola danych z piętnastu źródeł: kroki, kalorie, dystans, piętra, minuty intensywnej aktywności, pogoda, najbliższy wschód lub zachód słońca i więcej. Duża godzina złożona jest krojem Inter Tight, z datą w języku Twojego zegarka, a u góry bateria i powiadomienia.",
+      "Każdy czujnik ma swój kolor w każdym wierszu. Pięć motywów: noc, łupek, papier, mono i bursztyn. Na ekranach memory-in-pixel każdy motyw narysowano w 64 kolorach. Tryb Zawsze włączony zostawia godzinę i cztery linie.",
+      "Przytrzymaj wykres, aby otworzyć podgląd jego czujnika w zegarku, odczyt, aby zobaczyć jego źródło, a datę, aby otworzyć kalendarz. Sekundy tykają obok godziny, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "klotter": {
+    "name": "Klotter",
+    "subtitle": "Zeszyt z rysunkami",
+    "full": [
+      "Klotter to kartka ze szkolnego zeszytu na Twoim zegarku: papier w kratkę, czerwony margines, buźka i spirala nabazgrane w rogach, a godzina napisana dużym pismem markerem na żółtym pasku zakreślacza.",
+      "Pod godziną są trzy rysunki obrysowane długopisem, a to Twoje cele. Gwiazdka to kroki, błyskawica to Body Battery, a płomień to minuty intensywnej aktywności. Każdy koloruje się markerem od dołu, w miarę jak cel się wypełnia, a po osiągnięciu celu rysunek zmienia się w naklejkę: pełny kolor, biała obwódka i mały błysk. Pod każdym rysunkiem zapisana jest jego wartość.",
+      "Data stoi nad godziną w języku Twojego zegarka, podkreślona odręcznie, a u góry bateria i powiadomienia.",
+      "Pięć papierów: biały zeszyt i niebieski długopis, brązowy papier pakowy i czarny marker, tablica, światłokopia oraz nocna kartka z neonowymi markerami. Każdy rysunek może pokazywać kroki, Body Battery, minuty intensywnej aktywności, piętra, baterię lub stres.",
+      "Na ekranach memory-in-pixel zeszyt to biały papier, najlepiej czytelny w słońcu, a każdą kartkę narysowano w 64 kolorach. Tryb Zawsze włączony zostawia kontury trzech rysunków i godzinę.",
+      "Przytrzymaj rysunek, aby otworzyć w zegarku podgląd tego, co mierzy, a datę, aby otworzyć kalendarz. Sekundy tykają małe pod rysunkami, można je wyłączyć."
+    ]
+  },
+  "hoppa": {
+    "name": "Hoppa",
+    "subtitle": "Pikselowa platformówka",
+    "full": [
+      "Hoppa zamienia Twój dzień w poziom gry w stylu pixel art. Dół tarczy to plansza: trawa na cegłach, pagórek, rząd złotych monet i flaga na samym końcu. Bohaterem jest rudy kot w czerwonym szaliku, a napędzają go Twoje kroki. Każdego ranka startuje z lewej; gdy chodzisz, biegnie w prawo, zbierając każdą mijaną monetę, a gdy osiągasz cel kroków, dobiega do flagi, flaga idzie w górę, a kot skacze.",
+      "Nad planszą pięć serc to Twoje Body Battery, jak pasek zdrowia w grze, wypełniane po połówce. Godzina jest narysowana dużymi pikselowymi cyframi, budowanymi blok po bloku dla każdego ekranu, więc zawsze są idealnie ostre, z cieniem jak wynik w grze. Pod nią dwa pola danych, na początek tętno i kroki, a u góry data i bateria.",
+      "Pięć światów: łąka pod błękitnym niebem, gwiaździsta noc, pustynia o zachodzie słońca, śnieg i lawa. Kot może biec dzięki krokom, Body Battery, minutom intensywnej aktywności, piętrom lub baterii, a serca mogą pokazywać każde z tych źródeł z wyjątkiem stresu.",
+      "Na ekranach memory-in-pixel każdy świat narysowano płaskim pixel artem w 64 kolorach, tak jak narysowałaby go konsola. Tryb Zawsze włączony zostawia cyfry z kropek, linię ziemi, kontur kota i maszt flagi.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, serca, aby zobaczyć ich wskaźnik, planszę, aby zobaczyć bieg kota, a datę, aby otworzyć kalendarz. Sekundy tykają na końcu linii daty, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "raket": {
+    "name": "Raket",
+    "subtitle": "Rakietą na Księżyc",
+    "full": [
+      "Raket to misja kosmiczna na Twoim zegarku. Ziemia jest w lewym dolnym rogu tarczy, Księżyc w prawym górnym, a mała rakieta leci między nimi wzdłuż krawędzi: ten lot to Twój cel kroków. Każdego ranka rakieta czeka na wyrzutni; gdy chodzisz, wznosi się nad górą tarczy, z obłoczkami za sobą i kropkowaną trasą przed sobą, a po osiągnięciu celu ląduje obok Księżyca w błysku iskier.",
+      "Księżyc jest narysowany w prawdziwej fazie, dzisiejszej, obliczonej w zegarku. Gwiazdy i planeta z pierścieniami wypełniają resztę nieba.",
+      "Duża godzina złożona jest krojem Bungee, wyrazistym krojem jak z szyldów, a nad nią data w języku Twojego zegarka. Pod godziną dwa pola danych, na początek tętno i kroki, a potem bateria i powiadomienia.",
+      "Pięć misji: klasyczny granat z czerwoną rakietą, morski retro, galaktyczny fiolet, rdza Marsa i nocna czerń. Rakietę mogą też napędzać Body Battery, minuty intensywnej aktywności, piętra lub bateria.",
+      "Na ekranach memory-in-pixel każdą misję narysowano w 64 kolorach; na AMOLED wszystko jest wygładzone. Tryb Zawsze włączony zostawia trasę przed rakietą jako kropki, kontur rakiety, Ziemię i Księżyc oraz godzinę.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, niebo, aby zobaczyć cel lotu, a datę, aby otworzyć kalendarz. Sekundy tykają małe wśród gwiazd na dole, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "kompis": {
+    "name": "Kompis",
+    "subtitle": "Kieszonkowy zwierzak",
+    "full": [
+      "Kompis to małe, okrągłe stworzonko ze spiczastymi uszami i kiełkiem na głowie, które mieszka w Twoim zegarku. Pod nim jest pięć serc, a to Twój cel kroków: każde serce to piąta część celu, wypełniana po połówce. Gdy wszystkie pięć są pełne, Kompis podnosi ręce do góry i sypie się konfetti.",
+      "Jego nastrój to Twoje Body Battery. Wypoczęty skacze z mocno zaciśniętymi oczami i szeroko otwartą buzią; w ciągu dnia jest szczęśliwy, potem zmęczony, z ciężkimi powiekami, a wykończony, z kroplą potu, gdy bateria się wyczerpuje. Wieczorem idzie spać, od pory snu w Twoim profilu Garmin do pory pobudki, i budzi się razem z Tobą. Sen można wyłączyć.",
+      "Duża godzina złożona jest krojem Baloo 2, okrągłym i przyjaznym, a nad nią data w języku Twojego zegarka. Obok zwierzaka dwa pola danych, na początek tętno i kroki, a na dole bateria i powiadomienia.",
+      "Pięć kolorów Kompisa: mięta, brzoskwinia, jagoda, błękit i cytryna. Serca może też wypełniać Body Battery, minuty intensywnej aktywności, piętra lub bateria, a nastrój może pokazywać każde z tych źródeł z wyjątkiem stresu.",
+      "Na ekranach memory-in-pixel Kompisa narysowano w 64 kolorach; na AMOLED jest wygładzony. Tryb Zawsze włączony pokazuje śpiącego Kompisa jako cienki kontur i godzinę.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, zwierzaka, aby zobaczyć jego nastrój, serca, aby zobaczyć ich wskaźnik, a datę, aby otworzyć kalendarz. Sekundy tykają na końcu linii daty, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "parla": {
+    "name": "Pärla",
+    "subtitle": "Perła i różowe złoto",
+    "full": [
+      "Pärla to elegancki zegarek na co dzień. Tarcza z masy perłowej, ułożonej w miękkie kręgi perły, pudrowego różu i bladego błękitu; dookoła biegnie pierścień godzinowy i skala minutowa z różowego złota, z oszlifowanym kamieniem przy każdej godzinie i koroną z trzech na dwunastej. Wskazówki dauphine są fasetowane wzdłuż grzbietu, więc jedna strona łapie światło, a druga kryje się w cieniu, i obracają się na perle osadzonej w różowym złocie.",
+      "Na szóstej mała tarcza prowadzi perłę po łuku w stronę Twojego celu kroków, z liczbą w środku; na trzeciej małe okienko pokazuje tętno albo dowolną wybraną wartość. Pod koroną data w języku Twojego zegarka oraz bateria i powiadomienia.",
+      "Pięć tarcz: perła, pudrowy róż, szampan z żółtym złotem, czarna perła z Tahiti i szafir z białym złotem. Mała tarcza może pokazywać kroki, Body Battery, stres, minuty intensywnej aktywności, piętra lub baterię.",
+      "Napisy złożono krojem Cormorant Garamond. Na ekranach memory-in-pixel jasne tarcze narysowano jako czyste białe, różowe i kremowe płyty, najlepiej czytelne w słońcu; na AMOLED macica perłowa i wskazówki są wygładzone. Tryb Zawsze włączony zostawia wskazówki i kamień przy każdej kwarcie.",
+      "Przytrzymaj okienko, aby otworzyć podgląd jego odczytu w zegarku, małą tarczę, aby zobaczyć jej cel, a datę, aby otworzyć kalendarz. Igła sekundowa w kolorze akcentu, można ją wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "stjarna": {
+    "name": "Stjärna",
+    "subtitle": "Gwiazdy zodiaku",
+    "full": [
+      "Stjärna umieszcza Twój znak na niebie. Gwiazdozbiór narysowano z prawdziwych gwiazd, każdą w jej prawdziwym miejscu i jasności, pod cienkim pierścieniem zodiaku z wyróżnioną dwunastą częścią Twojego znaku. Znak podąża za słońcem przez cały rok, albo ustaw w ustawieniach swój własny na cały rok.",
+      "Gwiazdy to Twoje Body Battery. Po odpoczynku cała figura świeci, połączona złotymi liniami; w miarę jak dzień zużywa Twoją energię, gwiazdy przygasają jedna po drugiej, w kolejności rysowania figury. Najjaśniejsze gwiazdy są największe, a najjaśniejsza ze wszystkich ma mały błysk.",
+      "Obok daty w języku Twojego zegarka księżyc pokazuje swoją prawdziwą fazę, od sierpa do pełni i z powrotem. Pod spodem bateria i powiadomienia, godzina w kroju Josefin Sans, a na dole dwa pola danych: na początek tętno i kroki.",
+      "Pięć nieb: granat ze złotem, ametyst, palisander, onyks ze srebrem i laguna. Gwiazdy mogą pokazywać Body Battery, kroki, stres, minuty intensywnej aktywności, piętra lub baterię.",
+      "Na ekranach memory-in-pixel każde niebo narysowano w 64 kolorach; na AMOLED gwiazdy są wygładzone. Tryb Zawsze włączony zostawia linie figury, jej świecące gwiazdy, oświetloną krawędź księżyca i godzinę.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, gwiazdozbiór, aby zobaczyć jego wskaźnik, a datę, aby otworzyć kalendarz. Sekundy stoją małe obok godziny, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "fjaril": {
+    "name": "Fjäril",
+    "subtitle": "Motyl",
+    "full": [
+      "Fjäril to motyl nad godziną, o skrzydłach jak witraż: szybki koloru między ciemnymi żyłkami, białe plamki wzdłuż brzegu. Szybki to Twoje Body Battery. Po odpoczynku świeci każda z nich; w miarę jak dzień zużywa Twoją energię, gasną od czubków przednich skrzydeł w dół, tak samo po obu stronach, aż świeci już tylko szkło przy tułowiu. Czytasz to jednym spojrzeniem.",
+      "Duża godzina złożona jest krojem Quicksand, miękkim i zaokrąglonym. Pod nią data w języku Twojego zegarka dzieli wiersz z baterią i powiadomieniami, a na dole są trzy pola danych: na początek tętno, kroki i stres.",
+      "Pięć motyli: pomarańcz monarchy, błękit morfo, róż, bez i cytrynowa żółć pazia królowej, każdy na ciemnej tarczy w kolorze, którego nie ma na skrzydłach. Skrzydła mogą pokazywać Body Battery, kroki, stres, minuty intensywnej aktywności, piętra lub baterię.",
+      "Na ekranach memory-in-pixel każdego motyla narysowano w 64 kolorach; na AMOLED każda szybka jest wygładzona. Tryb Zawsze włączony zostawia obrys skrzydeł, świecące szybki jako cienkie kontury i godzinę."
+    ]
+  },
+  "krans": {
+    "name": "Krans",
+    "subtitle": "Kwiatowy wianek",
+    "full": [
+      "Krans to wianek kwiatów wokół krawędzi zegarka. Pnącze liści niesie dwanaście kwiatów, po jednym na każdą godzinę: róże na dwunastej, trzeciej, szóstej i dziewiątej, a między nimi mniejsze kwiatki. To Twój cel kroków. Każdego ranka wianek zaczyna w pąkach; gdy chodzisz, kwiaty otwierają się jeden po drugim, zgodnie z ruchem wskazówek od dwunastej, a po osiągnięciu celu wianek jest w pełnym rozkwicie.",
+      "W środku wianka duża godzina złożona krojem Bodoni Moda, klasycznym kontrastowym szeryfem, a nad nią data w języku Twojego zegarka. Pod godziną trzy pola danych, na początek tętno, kroki i Body Battery, a na dole bateria i powiadomienia.",
+      "Pięć wianków: pudrowe róże na śliwkowym tle, przygaszony róż na kości słoniowej, białe róże na szałwii, szampan na granacie i barwna mieszanka polnych kwiatów. Kwiaty mogą też pokazywać Body Battery, minuty intensywnej aktywności, piętra lub baterię.",
+      "Na ekranach memory-in-pixel każdy wianek narysowano w 64 kolorach, a kość słoniowa zmienia się w białą tarczę, najlepiej czytelną w słońcu; na AMOLED każdy płatek jest wygładzony. Tryb Zawsze włączony zostawia pnącze, otwarte kwiaty jako cienkie kontury i godzinę.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, wianek, aby zobaczyć jego wskaźnik, a datę, aby otworzyć kalendarz. Sekundy tykają na końcu linii daty, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "lov": {
+    "name": "Löv",
+    "subtitle": "Jesienne liście",
+    "full": [
+      "Löv to klonowa gałąź na tle jesiennego nieba. Jej liście to Twoje Body Battery: po odpoczynku wszystkie osiemnaście wiszą na gałęzi w czerwieni, pomarańczu i złocie; w miarę jak dzień zużywa Twoją energię, opadają od końców ku środkowi, a każdy spadający liść spływa w dół na wzgórze. Czytasz to jednym spojrzeniem, a mała legenda pod spodem mówi, co mierzą liście i ile jeszcze zostało.",
+      "Wzgórze mieści cztery odczyty: stres, tętno, pogodę i najbliższy wschód lub zachód słońca, każdy ze swoją ikoną. Bateria i powiadomienia są razem z datą u góry.",
+      "Niebo podąża za słońcem: mglisty świt, rześki błękit dnia, bursztynowy zmierzch i gwiaździsta noc, kiedy liście przybierają barwy księżycowego światła. Albo wybierz jedno z pięciu nieb: świt, dzień, zmierzch, noc lub złotą godzinę.",
+      "Cyfry to Fraunces, miękki krój szeryfowy. Na ekranach memory-in-pixel każde niebo narysowano w 64 kolorach, z ręcznym ditheringiem; na AMOLED to płynny gradient. Tryb Zawsze włączony zostawia gałąź, jej liście i godzinę.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, legendę, aby zobaczyć wskaźnik, a datę, aby otworzyć kalendarz. Sekundy tykają na końcu legendy, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "natt": {
+    "name": "Natt",
+    "subtitle": "Gotycki księżyc",
+    "full": [
+      "Natt to gotycka tarcza na długie noce. Kościanobiałe wskazówki suną po ciemnej tarczy: krótka godzinowa z grotem w kształcie pika i długa minutowa z nietoperzem jako przeciwwagą. XII, III i IX złożono frakturą, pozostałe godziny to smukłe znaczniki w kształcie ostrołuku, a na szóstej półokrągłe okienko pokazuje nocne niebo z księżycem w prawdziwej fazie, od sierpa do pełni i z powrotem.",
+      "Pod XII data w języku Twojego zegarka oraz bateria i powiadomienia; nad okienkiem jedno pole danych, na początek tętno.",
+      "Pięć tarcz: kość na czerni, krew, żar, ametyst i srebro. Powstała na Halloween, ale ma być noszona długo potem.",
+      "Cyfry i data są złożone krojem Grenze Gotisch, frakturą. Na ekranach memory-in-pixel każdą tarczę narysowano w 64 kolorach; na AMOLED wskazówki są wygładzone. Tryb Zawsze włączony zostawia wskazówki, trzy znaczniki i oświetloną krawędź księżyca.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, a datę, aby otworzyć kalendarz. Igła sekundowa w kolorze akcentu, można ją wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "lykt": {
+    "name": "Lykt",
+    "subtitle": "Dyniowa latarnia",
+    "full": [
+      "Lykt to dyniowa latarnia, a zegarek jest światłem w jej wnętrzu. Godzina to uśmiech: cyfry to niewycięte zęby, ciemne na tle świecy. Każde oko mieści jedno pole danych, na początek tętno i kroki, a nos to Twoje Body Battery: świeca wypełnia go od dołu, ciemny nos, gdy brak Ci sił, i nos pełen światła po odpoczynku. Bateria i powiadomienia są pod pokrywką, data na skórce pod uśmiechem.",
+      "Pięć dyń: klasyczna pomarańczowa, biała dynia-duch z zimną niebieską poświatą, czerwień żaru, zieleń trucizny i czarna, północna dynia z pomarańczową poświatą.",
+      "Cyfry to Oswald, wysokie i wąskie jak wycięte zęby. Na ekranach memory-in-pixel każdą dynię narysowano w 64 kolorach; na AMOLED blask jest najjaśniejszy w środku. Tryb Zawsze włączony zostawia wycięte kontury, poziom świecy i godzinę, świecące w ciemności."
+    ]
+  },
+  "dimma": {
+    "name": "Dimma",
+    "subtitle": "Halloweenowy cmentarz",
+    "full": [
+      "Dimma to cmentarz na wzgórzu nocą. Nagi dąb pochyla się nad siedmioma nagrobkami, nietoperze przelatują na tle księżyca, a nad grobami leży wał mgły. Mgła to Twoje Body Battery: gdy brakuje Ci energii, połyka każdy kamień; w miarę jak ją odzyskujesz, mgła ustępuje, aż zostaje tylko u stóp wzgórza i każdy grób widać wyraźnie. Mała legenda pod spodem mówi, co mierzy mgła i jak bardzo już ustąpiła.",
+      "Na pierwszym planie cztery odczyty: kroki, tętno, pogoda i najbliższy wschód lub zachód słońca, każdy ze swoją ikoną. Bateria i powiadomienia są razem z datą u góry.",
+      "Wybierz noc: pogodną noc, krwawy księżyc, godzinę duchów, mgiełkę lub niebieską godzinę. Księżyc pokazuje swoją prawdziwą fazę.",
+      "Cyfry to Creepster, ociekające litery ze starego plakatu horroru. Na ekranach memory-in-pixel każde niebo narysowano w 64 kolorach, z ręcznym ditheringiem; na AMOLED to płynny gradient. Tryb Zawsze włączony zostawia godzinę, wzgórze, oświetloną krawędź księżyca i szczyty mgły."
+    ]
+  },
+  "pumpa": {
+    "name": "Pumpa",
+    "subtitle": "Halloweenowe pole dyń",
+    "full": [
+      "Pumpa to pole dyń pod koniec październikowego dnia. Siedem dyń leży na polu pod krzywym płotem i księżycem żniw, a zapalają się jedna po drugiej, w miarę jak przybywa kroków: wycięta twarz za każdą siódmą część celu i krąg światła świecy na ziemi pod nią. Mała legenda pod spodem mówi, co liczą lampiony i ile już masz.",
+      "Na pierwszym planie cztery odczyty: tętno, Body Battery, pogoda i najbliższy wschód lub zachód słońca, każdy ze swoją ikoną. Bateria i powiadomienia są razem z datą u góry.",
+      "Zostaw pole o zmierzchu albo wybierz szron, złoto żniw, noc lub krwawy księżyc, albo pozwól niebu podążać za słońcem. Księżyc pokazuje swoją prawdziwą fazę.",
+      "Cyfry to Jolly Lodger, zabawny, straszny krój. Na ekranach memory-in-pixel każde niebo narysowano w 64 kolorach, z ręcznym ditheringiem; na AMOLED to płynny gradient. Tryb Zawsze włączony zostawia godzinę, linię ziemi i świecące w ciemności twarze."
+    ]
+  },
+  "eng": {
+    "name": "Eng",
+    "subtitle": "",
+    "full": [
+      "Eng to łąka lawendy ciągnąca się aż po wzgórza. Jej kwitnienie to Twoje Body Battery: po odpoczynku rzędy kwitną aż po horyzont; w miarę jak dzień zużywa Twoją energię, kolor cofa się w dół pola, a rzędy wracają do pąków. Czytasz to jak prawdziwe pole, a mała legenda pod spodem mówi, co mierzy kwitnienie i jak daleko już zaszło.",
+      "Pierwszy plan mieści cztery odczyty na spokojniejszy dzień: stres, tętno, pogodę i najbliższy wschód lub zachód słońca, każdy ze swoją ikoną. Bateria i powiadomienia są razem z datą u góry.",
+      "Niebo podąża za słońcem: świt po wschodzie, czysty błękit dnia, lawendowa godzina przed zachodem i noc ze świetlikami nad polem. Albo wybierz jedno z pięciu nieb: świt, dzień, zmierzch, noc lub złotą godzinę.",
+      "Cyfry to Fraunces, miękki krój szeryfowy. Na ekranach memory-in-pixel każde niebo narysowano w 64 kolorach, z ręcznym ditheringiem; na AMOLED to płynny gradient. Tryb Zawsze włączony zostawia grzbiet łąki, granicę kwitnienia i godzinę.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, legendę, aby zobaczyć wskaźnik, a datę, aby otworzyć kalendarz. Sekundy tykają na końcu legendy, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "blom": {
+    "name": "Blom",
+    "subtitle": "",
+    "full": [
+      "Blom to gałąź kwitnącej wiśni na tle nieba. Jej kwiaty to Twoje Body Battery: po odpoczynku wszystkie osiemnaście są otwarte; w miarę jak dzień zużywa Twoją energię, zamykają się od końców ku środkowi, a każdy zamykający się kwiat zrzuca płatek na trawę. Czytasz to jednym spojrzeniem, a mała legenda pod spodem mówi, co mierzy kwitnienie i jak daleko już zaszło.",
+      "Ogród mieści cztery odczyty na spokojniejszy dzień: stres, tętno, pogodę i najbliższy wschód lub zachód słońca, każdy ze swoją ikoną. Bateria i powiadomienia są razem z datą u góry.",
+      "Niebo podąża za słońcem: świt po wschodzie, łagodnie błękitny dzień, zmierzch przed zachodem i gwiaździsta noc po nim, kiedy kwiaty stają się srebrne. Albo wybierz jedno z pięciu nieb: świt, dzień, zmierzch, noc lub pudrowy róż.",
+      "Cyfry to Fraunces, miękki krój szeryfowy. Na ekranach memory-in-pixel każde niebo narysowano w 64 kolorach, z ręcznym ditheringiem; na AMOLED to płynny gradient. Tryb Zawsze włączony zostawia gałąź, jej otwarte kwiaty i godzinę.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, legendę, aby zobaczyć wskaźnik, a datę, aby otworzyć kalendarz. Sekundy tykają na końcu legendy, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "hav": {
+    "name": "Hav",
+    "subtitle": "",
+    "full": [
+      "Hav to zatoczka na skraju dnia. Przypływ na jej plaży to Twoje Body Battery: po dobrej nocy morze sięga stóp wydmy; w miarę jak dzień zużywa Twoją energię, woda się cofa, a plaża robi się szersza. Czytasz to jak prawdziwy brzeg, a mała legenda pod spodem mówi, co mierzy przypływ i jak daleko już doszedł.",
+      "Wydma mieści cztery odczyty na spokojniejszy dzień: stres, tętno, pogodę i najbliższy wschód lub zachód słońca, każdy ze swoją ikoną. Bateria i powiadomienia są razem z datą u góry.",
+      "Niebo podąża za słońcem: świt po wschodzie, łagodnie błękitny dzień, zmierzch przed zachodem, a po zmroku Måne, księżyc nad wodą w prawdziwej fazie, ze świetlistą ścieżką na morzu. Albo wybierz jedno z pięciu nieb: świt, dzień, zmierzch, Måne lub perłę.",
+      "Cyfry to Fraunces, miękki krój szeryfowy. Na ekranach memory-in-pixel każde niebo narysowano w 64 kolorach, z ręcznym ditheringiem; na AMOLED to płynny gradient. Tryb Zawsze włączony zostawia horyzont, linię wody i godzinę.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, legendę, aby zobaczyć wskaźnik, a datę, aby otworzyć kalendarz. Sekundy tykają na końcu legendy, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "fjell": {
+    "name": "Fjell",
+    "subtitle": "",
+    "full": [
+      "Przy śniadaniu szczyty to nagie skały. W miarę jak wypełnia się Twój cel kroków, linia śniegu schodzi po zboczach; osiągnięty cel to góry całe w śniegu. Czytasz to jak prawdziwe góry, po tym, jak nisko sięga biel, a mała legenda pod spodem mówi, co mierzy śnieg i ile już masz.",
+      "W dolinie są cztery odczyty, których potrzebuje dzień w terenie: wysokość, tętno, pogoda i najbliższy wschód lub zachód słońca, każdy ze swoją ikoną. Bateria i powiadomienia są razem z datą u góry.",
+      "Niebo podąża za słońcem: świt po wschodzie, błękit przez cały dzień, zmierzch przed zachodem i gwiaździsta noc po nim. Albo wybierz jedno z sześciu nieb: zmierzch, świt, dzień, noc, alpejską poświatę lub arktyczne niebo z zorzą nisko nad graniami.",
+      "Na ekranach memory-in-pixel każde niebo narysowano w 64 kolorach, z ręcznym ditheringiem zamiast zaokrąglania; na AMOLED to płynny gradient. Tryb Zawsze włączony zostawia linię gór i godzinę przy 3% zapalonych pikseli.",
+      "Przytrzymaj odczyt, aby otworzyć jego podgląd w zegarku, legendę, aby zobaczyć wskaźnik, a datę, aby otworzyć kalendarz. Sekundy tykają na końcu legendy, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "klar": {
+    "name": "Klar",
+    "subtitle": "",
+    "full": [
+      "Klar układa godziny nad minutami, dzięki czemu cyfry mogą być dwa razy wyższe, niż pozwala jeden wiersz: grube, wyraźne cyfry, które przeczytasz z odległości wyciągniętej ręki, w ruchu i bez okularów.",
+      "Pokoloruj minuty jednym z pięciu kolorów albo zostaw całość w jednym. Po obu stronach godziny po jednym polu danych, każde ze swoją ikoną: na początek kroki i tętno, a do wyboru piętnaście źródeł. Bateria i powiadomienia u góry, data i pogoda na dole, i nic więcej.",
+      "Na ekranach memory-in-pixel Klar jest czarny na białym: ekran odbijający światło najlepiej czyta się w dzień na jasnym tle. Na AMOLED jest biały na czarnym. Tryb Zawsze włączony zostawia mniejsze cyfry przy 4% zapalonych pikseli.",
+      "Przytrzymaj boczny odczyt, aby otworzyć jego podgląd w zegarku, a datę, aby otworzyć kalendarz. Sekundy tykają na końcu linii daty, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "artefact": {
+    "name": "Artefact",
+    "subtitle": "",
+    "full": [
+      "Cztery lampy nixie stoją w podstawkach w toczonej mosiężnej obudowie. Każda cyfra to wygięty drut świecący od katody, a za nią widać dziewięć wygaszonych katod, dokładnie jak w prawdziwej lampie. Neonowy dwukropek między nimi pulsuje co sekundę.",
+      "Pod lampami działający wskaźnik wychyłowy: podświetlana skala od 0 do 100 z czerwonym polem i wskazówka, która śledzi Twój cel kroków albo Body Battery, stres, piętra, minuty intensywnej aktywności lub baterię. Po bokach cztery neonowe lampki zapalają się, gdy telefon jest połączony, czekają wiadomości, alarm jest ustawiony albo włączony jest tryb Nie przeszkadzać. Data jest wygrawerowana na mosiężnej tabliczce nad lampami, a druga tabliczka pod nimi pokazuje wybraną wartość: baterię, tętno, pogodę, zachód słońca i więcej.",
+      "Pięć kolorów lamp (neonowy pomarańcz, zieleń magicznego oka, argonowy błękit, fiolet i biel) i trzy wykończenia obudowy (mosiądz, czerniona stal i miedź), wybierane niezależnie. Tryb Zawsze włączony zostawia cyfry jako cienki drut, przy 1% zapalonych pikseli.",
+      "Przytrzymaj wskaźnik, aby otworzyć podgląd jego źródła w zegarku, dolną tabliczkę, aby zobaczyć jej odczyt, a datę, aby otworzyć kalendarz. Sekundy są wygrawerowane na dolnej tabliczce, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "ringar": {
+    "name": "Ringar",
+    "subtitle": "",
+    "full": [
+      "Trzy pierścienie celów otaczają dużą, spokojną godzinę. Wybierz, co pokazuje każdy z nich: kroki, minuty intensywnej aktywności, piętra, Body Battery, stres lub baterię. Każdy pierścień jest opisany: jego ikona i wartość stoją w jego własnym kolorze tuż pod godziną, więc zawsze wiesz, który jest który.",
+      "Nad godziną: data i pogoda z telefonu. Pod nią: bateria oraz powiadomienia, tryb Nie przeszkadzać i alarm, widoczne tylko wtedy, gdy mają coś do powiedzenia.",
+      "Osiem motywów kolorów, od nordyckiego spokoju po żywe barwy. Tryb Zawsze włączony jest zaprojektowany dla ekranu, a nie po prostu przyciemniony: postęp i godzina przy 8% zapalonych pikseli.",
+      "Cyfry są narysowane dla każdego rozmiaru ekranu, nigdy skalowane.",
+      "Legenda pierścieni może pokazywać własne odczyty: tętno, pogodę, ocenę snu lub dowolne inne źródło, więc uzupełnia pierścienie zamiast je powtarzać. Przytrzymaj pierścień lub odczyt z legendy, aby otworzyć jego podgląd w zegarku, a datę, aby otworzyć kalendarz. Sekundy stoją małe pod godziną, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "datum": {
+    "name": "Datum",
+    "subtitle": "",
+    "full": [
+      "Wszystko na pierwszy rzut oka i nic dla ozdoby. Duża, wąska godzina: godziny na biało, minuty w kolorze akcentu, a pod nią data i bieżące sekundy. Wokół sześć wybranych przez Ciebie pól danych, każde ze swoją ikoną, i dwa łuki na obrzeżu dla kroków, baterii, Body Battery, pięter, minut intensywnej aktywności lub stresu, z wartościami pod każdym łukiem.",
+      "Wśród źródeł są pogoda i najbliższy wschód lub zachód słońca. Bateria, powiadomienia, tryb Nie przeszkadzać i alarm są na dole, widoczne tylko wtedy, gdy mają coś do powiedzenia.",
+      "Sześć kolorów akcentu. Tryb Zawsze włączony zostawia godzinę i datę.",
+      "Cyfry są wycięte osobno dla każdego rozmiaru ekranu, nigdy skalowane.",
+      "Przytrzymaj pole lub wskaźnik na obrzeżu, aby otworzyć jego podgląd w zegarku, a datę, aby otworzyć kalendarz. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "blackline": {
+    "name": "Blackline",
+    "subtitle": "",
+    "full": [
+      "Tarcza jak przyrząd pokładowy. U góry żywa taśma kursu, siedmiosegmentowy odczyt w stylu szablonu wycięty z wielokątów i sześć wybranych przez Ciebie pól danych, każde ze swoją ikoną: tętno, kroki, wysokość, Body Battery, pogoda, najbliższy wschód lub zachód słońca i więcej.",
+      "Wzdłuż dolnej krawędzi łuk dnia biegnie od wschodu do zachodu słońca i wypełnia się w miarę upływu dnia, więc jednym spojrzeniem widzisz, ile zostało światła. Pod odczytami: bateria oraz powiadomienia, tryb Nie przeszkadzać i alarm, widoczne tylko wtedy, gdy mają coś do powiedzenia.",
+      "Wygaszone segmenty są delikatnie narysowane, tak jak na prawdziwym wyświetlaczu. Sześć kolorów odczytu, w tym zieleń noktowizora i czerwień, która nie psuje widzenia po zmroku. Tryb Zawsze włączony zostawia tylko odczyt i datę.",
+      "Każdy kolor odczytu dobrano ręcznie dla ekranów memory-in-pixel, a na AMOLED jest w pełnym kolorze.",
+      "Przytrzymaj pole, aby otworzyć jego podgląd w zegarku, a datę, aby otworzyć kalendarz. Sekundy tykają za datą, można je wyłączyć. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "atelier": {
+    "name": "Atelier",
+    "subtitle": "",
+    "full": [
+      "Elegancki zegarek wizytowy, narysowany dla smartwatcha. Giloszowana tarcza typu sunburst, nakładane rodowane indeksy na minutowej skali typu railroad, polerowane wskazówki dauphine i trzy liczniki: kroki (albo dowolny cel) na dziewiątej, rezerwa chodu pokazująca baterię na trzeciej i mały sekundnik na szóstej.",
+      "Pod dwunastką Twoje imię lub inicjały wygrawerowane wielkimi literami oraz okienko dnia i daty w fazowanej ramce.",
+      "Sześć kolorów tarczy: granat, szary łupkowy, szampan, zieleń wyścigowa, łososiowy i lodowiec. Tryb Zawsze włączony zostawia wskazówki i cztery indeksy w obrysie, przy 1% zapalonych pikseli.",
+      "Na ekranach memory-in-pixel każdy kolor wybrano spośród 64, które ekran potrafi wyświetlić; na AMOLED to pełny kolor.",
+      "Przytrzymaj licznik, aby otworzyć w zegarku podgląd tego, co mierzy, a okienko daty, aby otworzyć kalendarz."
+    ]
+  },
+  "one-more-step": {
+    "name": "One More Step",
+    "subtitle": "Osiągnięcia: obejdź świat",
+    "full": [
+      "One More Step dodaje dystans, który Twój zegarek mierzy każdego dnia, do podróży dookoła równika: 40 075 km (24 901 mi). Podróż zaczyna się, gdy pierwszy raz ją otworzysz. Po skończonym okrążeniu zaczyna się następne; nic nigdy się nie zeruje.",
+      "Widżet pokazuje Twoje okrążenie i ile z niego już za Tobą. Aplikacja pokazuje pozostały dystans jako pierścień wokół krawędzi ekranu i miesiąc, w którym obejdziesz świat w dotychczasowym tempie. Szczegóły zawierają sumę, okrążenia, przeciętny dzień, datę startu i dystans do następnego celu.",
+      "Po drodze czeka 33 słynnych długości, od mostu Golden Gate (2,7 km) pierwszego dnia, przez Kanał Sueski, Camino de Santiago, Nil i cały Wielki Mur Chiński, aż po dwadzieścia tysięcy mil podmorskiej żeglugi Verne'a: dwa razy dookoła świata. Gdy Twoja suma osiągnie którąś z nich, aplikacja otwiera się kartą, która to ogłasza: „Przeszedłeś już Kanał Sueski, 193 km”. Ze szczegółów przesuń w górę lub naciśnij w dół, aby zobaczyć całą listę: co już za Tobą, co dalej i jak daleko, i co jeszcze przed Tobą.",
+      "Liczy dzienny dystans, który zegarek już wylicza z Twoich kroków. Nagrane spacery i biegi są jego częścią, więc nic nie liczy się dwa razy, i liczy się tylko to, co przejdziesz od pierwszego otwarcia. ETA potrzebuje najpierw jednego pełnego dnia; do tego czasu pokazuje „ETA: liczę” i ile godzin zostało. Dystans jest w km lub mi, tak jak ustawiony jest zegarek.",
+      "Zegarek przechowuje 7 dni historii, a aplikacja czyta ją co 6 godzin. Jeśli nie może przez ponad 7 dni (zegarek wyłączony), te dni przepadają; nic nie jest zgadywane w ich miejsce. Liczą się tylko kroki: jazda na rowerze i pływanie nie. Usunięcie aplikacji kasuje podróż; aplikacje zegarka nie mają kopii zapasowej. Wszystko zostaje na zegarku: bez konta, bez aplikacji w telefonie, nic nie jest nigdzie wysyłane.",
+      "Jedno okrążenie przy 7 km dziennie to około 15 lat. Pierścień to daleka perspektywa, cele to tygodnie i miesiące pomiędzy, a dzisiejszy spacer to ta bliska.",
+      "Po polsku, angielsku, niemiecku, francusku, hiszpańsku, włosku, niderlandzku, portugalsku, słowacku i czesku."
+    ]
+  },
+  "stargazing": {
+    "name": "Stargazing Forecast",
+    "subtitle": "Nocne niebo",
+    "full": [
+      "Stargazing Forecast odpowiada na jedno pytanie: czy warto dziś wyjść pod niebo i kiedy? Pogoda Garmina mówi „częściowe zachmurzenie”. Obserwator potrzebuje więcej: czy jest ciemno, czy Księżyc nie przeszkadza, czy powietrze jest czyste i spokojne i w których godzinach wszystko to się zbiega.",
+      "Widok na tarczy pokazuje ocenę dla Twojego ulubionego rodzaju nieba: Warto, Może albo Odpuść, oraz najlepsze okno czasu. To ocena wyliczona przy ostatnim otwarciu aplikacji, z godziną, jeśli minęło kilka godzin: otwarcie aplikacji ją odświeża. Otwórz aplikację, a zobaczysz dzisiejszą noc i dwie następne, każdą z trzema ocenami obok siebie:",
+      "Deep sky: galaktyki, mgławice i pola gwiazd. Potrzebna pełna ciemność, Księżyc pod horyzontem lub cienki, czyste i przejrzyste niebo. Droga Mleczna: te same warunki oraz centrum Galaktyki nad horyzontem. Planety: czyste i spokojne powietrze. Księżyc prawie nie przeszkadza, więc jasna noc też może być dobra.",
+      "Oś czasu biegnie od zmierzchu do świtu z chmurami, Księżycem i godzinami ciemności, a najlepsze okno każdego trybu jest na niej zaznaczone. Strona szczegółów dodaje wschód i zachód Księżyca oraz jego fazę, temperaturę, wiatr i to, czy na optyce prawdopodobna jest rosa.",
+      "Niebo jest liczone na zegarku: Słońce, Księżyc i centrum Drogi Mlecznej dla miejsca, w którym jesteś. Pogoda pochodzi z modelu prognostycznego dla Twojej lokalizacji, pobieranego przez telefon co trzy godziny, a ostatnia prognoza jest zachowana, więc aplikacja po pierwszym wczytaniu nigdy nie jest pusta.",
+      "Jest ostrożna z założenia. „Warto” wymaga co najmniej godziny dobrych warunków; gdy prognozy brakuje, jest stara lub niepełna, aplikacja mówi o tym i nie zgaduje. Słońce o północy, noc polarna i centrum Drogi Mlecznej, które nie wschodzi, są podane jako to, czym są.",
+      "Do prognozy potrzebne jest połączenie z telefonem. Lokalizację bierze z pogody na zegarku, a gdy zegarek jej nie zna, raz ustala ją przez GPS. Bez reklam, bez subskrypcji. Po polsku, angielsku, niemiecku, francusku, hiszpańsku, włosku, niderlandzku, portugalsku, słowacku i czesku.",
+      "Forecast: 7Timer!"
+    ]
+  },
+  "ring-match": {
+    "name": "Gem Crush",
+    "subtitle": "Gra logiczna",
+    "full": [
+      "Gem Crush to łamigłówka typu „trzy w rzędzie” stworzona dla okrągłego zegarka. Klejnoty leżą na czterech pierścieniach wokół środka tarczy, a ruch to obrót jednego pierścienia, palcem albo przyciskami. Ułóż trzy takie same, wokół pierścienia albo prosto od środka na zewnątrz, a znikną; klejnoty z zewnątrz opadają do środka, a każda kaskada daje więcej punktów niż poprzednia. Cztery w linii zostawiają klejnot, który czyści całą szprychę, pięć – klejnot, który czyści cały pierścień.",
+      "Napędza ją Twój chód. Każde 1000 kroków dziś to ładunek, do dziesięciu dziennie, a ładunek czyści od razu cały pierścień. Spacer na przystanek umila czekanie na autobus.",
+      "Jedna plansza dziennie, ta sama dla wszystkich, z 25 ruchami i serią do utrzymania. Obok gra swobodna: 30 ruchów na rundę, tyle rund, ile chcesz. Runda trwa minutę lub dwie i czeka, kiedy przerwiesz: zamknij ją w trakcie ruchu, a będzie na Ciebie czekać.",
+      "Bez żyć, bez energii, bez reklam, bez zakupów w środku. Pięć kształtów klejnotów, każdy w swoim kolorze, więc plansza jest czytelna w słońcu i dla osób nierozróżniających kolorów. Wibracja, gdy kaskada się łączy. Po polsku, angielsku, niemiecku, francusku, hiszpańsku, włosku, niderlandzku, portugalsku, słowacku i czesku."
+    ]
+  }
+}

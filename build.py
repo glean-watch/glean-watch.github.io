@@ -13,7 +13,16 @@ header: a grid of cards (the faces' is the home page, the others are at
 may leave apps and games out; a section with nothing in it says its first
 are on the way, and names nothing. An app or game also carries its kind
 ("Data field") and its own watches; a face carries its own watches only
-when it runs on fewer than the help page lists.
+when it runs on fewer than the help page lists. A face category with at
+least CATEGORY_MIN faces has its own page, /faces/<category>/, linked from
+the home page and from its faces.
+
+Each language of i18n.py beyond English has the same pages under /<code>/
+(/de/, /de/faces/gren/), for the items data/tr/<code>.json translates:
+their listing's title and full description in that language, the site's
+own words from i18n.py. Every page names its other languages (hreflang)
+and links them in the footer. Help, privacy, the sales pages and the 404
+are English only.
 
 When faces.json carries an "unlock" block (the export writes it once a
 trial edition sells through Paddle), the site also gets /unlock/, where a
@@ -24,8 +33,12 @@ import html
 import json
 import re
 import shutil
+import sys
 from pathlib import Path
 from string import Template
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import i18n  # noqa: E402
 
 BASE = "https://glean-watch.github.io/"
 HERE = Path(__file__).resolve().parent
@@ -40,25 +53,9 @@ ENVS = ("live", "sandbox")
 SECTIONS = ("faces", "apps", "games")
 TAB = {"faces": "", "apps": "apps/", "games": "games/"}  # each tab's page; the faces' is home
 SLUG = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
-# A section's tab once it has something in it: the headline, the line
-# under it, the page's title and its description. The line and the
-# description name the count and the first product lines of the help's
-# watch list ({n}, {lines}): people search "fenix 8 watch face", so the
-# words a search matches are on the page, not only in the store.
-INTRO = {
-    "faces": ("Watch faces worth a second look.",
-              "{n} watch faces for Garmin {lines} and more, on the Connect IQ Store.",
-              "Garmin Watch Faces, Apps and Games · Glean",
-              "{n} watch faces for Garmin {lines} and more: nature, data, analog and "
-              "digital dials, with apps and games, all on the Connect IQ Store."),
-    "apps": ("Apps", "", "Garmin Apps and Widgets · Glean",
-             "Glean's apps and widgets for Garmin {lines} and more, on the Connect IQ Store."),
-    "games": ("Games", "", "Garmin Watch Games · Glean",
-              "Glean's games for Garmin {lines} and more, on the Connect IQ Store."),
-}
-# What an item is, in the words people search with: a page's title, its
-# pictures' alt text and its structured data say it.
-NOUN = {"faces": "watch face", "games": "watch game"}  # an app says its kind
+# A face category gets its own page from this many faces: fewer would be
+# a thin page that only repeats the faces' own.
+CATEGORY_MIN = 3
 # The search engines' site-ownership tags, each written on the home page once
 # its value is filled in (Search Console, Bing Webmaster Tools). The values
 # are public by design: each only proves who may read the site's reports.
@@ -67,6 +64,7 @@ VERIFY = {"google-site-verification": "4PEZzT9MYKGHM9pmV8waqmkdYDirJownE4EssRq56
 SAME_AS = ("https://www.facebook.com/gleanwatchfaces", "https://www.instagram.com/gleanwatchfaces/",
            "https://ko-fi.com/glean")
 RELATED = 3  # the "more" cards under an item, one row of the grid
+DESCRIPTION_MAX = 160  # a translated page's description, cut at a word
 
 
 def esc(s):
@@ -74,23 +72,69 @@ def esc(s):
 
 
 def load(site):
-    return json.loads((Path(site) / "data" / "faces.json").read_text(encoding="utf-8"))
+    """faces.json, with "tr": {code: {slug: words}} from data/tr/."""
+    site = Path(site)
+    data = json.loads((site / "data" / "faces.json").read_text(encoding="utf-8"))
+    tr_dir = site / "data" / "tr"
+    data["tr"] = ({f.stem: json.loads(f.read_text(encoding="utf-8"))
+                   for f in sorted(tr_dir.glob("*.json"))} if tr_dir.exists() else {})
+    return data
 
 
 def template(site, name):
     return Template((Path(site) / "templates" / (name + ".html")).read_text(encoding="utf-8"))
 
 
-def page(site, current, title, description, path, og_image, main, scripts="", legal="", head=""):
+def pre(lang):
+    """A language's folder under the site: '' for English, 'de/'."""
+    return "" if lang == "en" else lang + "/"
+
+
+def alternate_links(alternates):
+    """hreflang links to every language of a page, English the default."""
+    if not alternates or len(alternates) < 2:
+        return ""
+    links = ['<link rel="alternate" hreflang="%s" href="%s">' % (c, esc(BASE + alternates[c]))
+             for c in i18n.CODES if c in alternates]
+    links.append('<link rel="alternate" hreflang="x-default" href="%s">' % esc(BASE + alternates["en"]))
+    return "\n" + "\n".join(links)
+
+
+def language_line(lang, alternates):
+    """The footer's links to the page in its other languages."""
+    if not alternates or len(alternates) < 2:
+        return ""
+    links = " · ".join(
+        '<a href="/%s" hreflang="%s" lang="%s"%s>%s</a>'
+        % (esc(alternates[c]), c, c, ' aria-current="page"' if c == lang else "", esc(i18n.NAME[c]))
+        for c in i18n.CODES if c in alternates)
+    return '\n  <nav class="langs" aria-label="%s">%s</nav>' % (esc(i18n.t(lang, "language")), links)
+
+
+def page(site, current, title, description, path, og_image, main, scripts="", legal="", head="",
+         lang="en", alternates=None, tabs=None):
     """A whole page around `main`; `path` and `og_image` are relative to BASE.
     `current` is what to mark: a section's tab, "help", "privacy" or None.
     `legal` is the footer's line of sales pages, empty while nothing sells.
-    `head` is more of the head: structured data, a robots or ownership tag."""
+    `head` is more of the head: structured data, a robots or ownership tag.
+    `alternates` is {code: path} of the page in every language it has;
+    `tabs` the sections' hrefs, tab_hrefs(), English's when not given."""
     nav = {("tab_" if k in SECTIONS else "nav_") + k:
            (' aria-current="page"' if k == current else "") for k in SECTIONS + ("help", "privacy")}
+    words = {"t_" + k: esc(i18n.t(lang, k)) for k in
+             ("faces", "apps", "games", "help", "privacy", "coffee", "kofi", "on_facebook",
+              "on_instagram", "trademark")}
+    hrefs = {"href_" + s: (tabs or {}).get(s, "/" + TAB[s]) for s in SECTIONS}
     return template(site, "base").substitute(
-        title=esc(title), description=esc(description), canonical=esc(BASE + path),
-        og_image=esc(BASE + og_image), main=main, scripts=scripts, legal=legal, head=head, **nav)
+        lang=lang, title=esc(title), description=esc(description), canonical=esc(BASE + path),
+        og_image=esc(BASE + og_image), main=main, scripts=scripts, legal=legal,
+        head=head + alternate_links(alternates), languages=language_line(lang, alternates),
+        **nav, **words, **hrefs)
+
+
+def tab_hrefs(data, lang):
+    """Each section's tab in `lang`, or in English where `lang` has none of it."""
+    return {s: "/" + (pre(lang) if items(data, s, lang) else "") + TAB[s] for s in SECTIONS}
 
 
 def jsonld(graph):
@@ -112,9 +156,14 @@ def lines_named(data, k=5):
     return ", ".join(w["line"] for w in data["watches"][:k])
 
 
-def noun(section, item):
-    """'watch face', 'widget', 'data field', 'watch game'."""
-    return NOUN.get(section) or item["kind"].lower()
+def noun(lang, section, item):
+    """What the item is, as people search for it: 'Garmin watch face',
+    'Garmin-Widget', 'gra na zegarek Garmin'."""
+    if section == "faces":
+        return i18n.NOUN[lang]["face"]
+    if section == "games":
+        return i18n.NOUN[lang]["game"]
+    return i18n.NOUN[lang].get(item["kind"].lower(), i18n.NOUN[lang]["app"])
 
 
 def legal_line(data):
@@ -158,31 +207,42 @@ def img(pic, alt, lazy, cls=None):
                int(pic["h"]), esc(alt), ' loading="lazy"' if lazy else ""))
 
 
-def items(data, section):
-    """A section's records, newest first; faces.json may leave apps and games out."""
-    return data.get(section, [])
+def items(data, section, lang="en"):
+    """A section's records, newest first, in `lang`: an English record with
+    its name, subtitle and description in that language, and only those the
+    language has; faces.json may leave apps and games out."""
+    records = data.get(section, [])
+    if lang == "en":
+        return records
+    words = data["tr"].get(lang, {})
+    return [dict(r, name=words[r["slug"]]["name"], subtitle=words[r["slug"]]["subtitle"],
+                 full=words[r["slug"]]["full"]) for r in records if r["slug"] in words]
 
 
-def label(section, item):
+def label(section, item, lang="en"):
     """The line by an item's name: a face's category; an app's or game's
     kind and category, "Data field · Outdoor"."""
     if section == "faces":
-        return item["category"]
-    return "%s · %s" % (item["kind"], item["category"])
+        return i18n.word(lang, item["category"])
+    return "%s · %s" % (i18n.word(lang, item["kind"]), i18n.word(lang, item["category"]))
 
 
-def card(section, item, lazy):
+def card(section, item, lazy, lang="en"):
     shot = item["images"][0]
-    return ('<li class="card"><a href="/%s/%s/">%s<span class="cat">%s</span>'
+    if lang == "en":
+        alt, pitch = shot["alt"], item["pitch"]
+    else:  # the ad copy's line is English; the listing's subtitle is translated
+        alt, pitch = "%s – %s" % (item["name"], noun(lang, section, item)), item["subtitle"]
+    return ('<li class="card"><a href="/%s%s/%s/">%s<span class="cat">%s</span>'
             '<span class="name">%s</span><span class="pitch">%s</span></a></li>'
-            % (section, esc(item["slug"]), img(shot, shot["alt"], lazy),
-               esc(label(section, item)), esc(item["name"]), esc(item["pitch"])))
+            % (pre(lang), section, esc(item["slug"]), img(shot, alt, lazy),
+               esc(label(section, item, lang)), esc(item["name"]), esc(pitch)))
 
 
-def grid(section, records, eager=EAGER):
+def grid(section, records, eager=EAGER, lang="en"):
     """The cards of `records`, the first `eager` of them loading at once."""
     return ('<ul class="grid" role="list">\n%s\n</ul>'
-            % "\n".join(card(section, r, i >= eager) for i, r in enumerate(records)))
+            % "\n".join(card(section, r, i >= eager, lang) for i, r in enumerate(records)))
 
 
 def soon(section):
@@ -190,15 +250,63 @@ def soon(section):
     return "The first Glean %s are on their way." % section
 
 
-def section_page(site, data, section):
+def categories(data):
+    """[(slug, English name)] of the face categories with a page of their
+    own, the most faces first."""
+    count = {}
+    for f in data["faces"]:
+        count[f["category"]] = count.get(f["category"], 0) + 1
+    names = sorted((c for c, n in count.items() if n >= CATEGORY_MIN and cat_slug(c)),
+                   key=lambda c: (-count[c], c))
+    return [(cat_slug(c), c) for c in names]
+
+
+def cat_slug(name):
+    """'Analog' -> 'analog'; None for a name that makes no safe folder."""
+    s = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+    return s if SLUG.fullmatch(s) else None
+
+
+def cat_path(lang, slug):
+    return "%sfaces/%s/" % (pre(lang), slug)
+
+
+def cat_nav(data, lang, current=None):
+    """The links to every category page, by style."""
+    cats = [(s, c) for s, c in categories(data) if cat_records(data, c, lang)]
+    if not cats:
+        return ""
+    links = "\n".join('  <a href="/%s"%s>%s</a>'
+                      % (cat_path(lang, s), ' aria-current="page"' if s == current else "",
+                         esc(i18n.word(lang, c))) for s, c in cats)
+    return '<nav class="cats" aria-label="%s">\n%s\n</nav>' % (esc(i18n.t(lang, "by_style")), links)
+
+
+def cat_records(data, name, lang):
+    return [f for f in items(data, "faces", lang) if f["category"] == name]
+
+
+def section_langs(data, section):
+    """{code: path} of a section's tab in every language that has it."""
+    out = {"en": TAB[section]}
+    for lang in i18n.CODES[1:]:
+        if items(data, section, lang):
+            out[lang] = pre(lang) + TAB[section]
+    return out
+
+
+def section_page(site, data, section, lang="en"):
     """A section's tab: every card in it, or the page saying its first are
     on the way. The faces' tab is the home page."""
-    records = items(data, section)
-    heading, line, title, description = INTRO[section]
+    records = items(data, section, lang)
     words = {"n": len(records), "lines": lines_named(data)}
-    line, description = line.format(**words), description.format(**words)
+    key = "home" if section == "faces" else section
+    heading = i18n.t(lang, key + "_h1")
+    line = i18n.t(lang, "home_line", **words) if section == "faces" else ""
+    title = i18n.t(lang, key + "_title")
+    description = i18n.t(lang, key + "_desc", **words)
     head = ""
-    if section == "faces":
+    if section == "faces" and lang == "en":
         head = "\n".join(['<meta name="%s" content="%s">' % (esc(k), esc(v))
                           for k, v in sorted(VERIFY.items()) if v]
                          + [jsonld([dict(ORG, logo=BASE + "apple-touch-icon.png", sameAs=list(SAME_AS)),
@@ -207,20 +315,46 @@ def section_page(site, data, section):
     if records:
         main = template(site, "section").substitute(
             heading=esc(heading), line=("<p>%s</p>" % esc(line)) if line else "",
-            grid=grid(section, records))
+            cats=cat_nav(data, lang) if section == "faces" else "",
+            grid=grid(section, records, lang=lang))
     else:
         description = "Glean's first %s for Garmin watches are on their way." % section
         main = template(site, "soon").substitute(heading=esc(heading), soon=soon(section))
-    return page(site, section, title, description, TAB[section],
-                data["faces"][0]["hero"]["file"], main, legal=legal_line(data), head=head)
+    return page(site, section, title, description, pre(lang) + TAB[section],
+                data["faces"][0]["hero"]["file"], main, legal=legal_line(data), head=head,
+                lang=lang, alternates=section_langs(data, section), tabs=tab_hrefs(data, lang))
+
+
+def cat_langs(data, slug, name):
+    return {lang: cat_path(lang, slug) for lang in i18n.CODES if cat_records(data, name, lang)}
+
+
+def category_page(site, data, slug, name, lang="en"):
+    """A category's faces: the grid of one style, with the others a click away."""
+    records = cat_records(data, name, lang)
+    cat = i18n.word(lang, name)
+    words = {"n": len(records), "lines": lines_named(data), "cat": cat, "lcat": cat.lower()}
+    heading, line = i18n.t(lang, "cat_h1", **words), i18n.t(lang, "cat_line", **words)
+    title = i18n.t(lang, "cat_title", **words)
+    description = line if lang == "en" else "%s: %s. %s" % (i18n.t(lang, "faces"), cat, line)
+    path = cat_path(lang, slug)
+    crumbs = jsonld([{"@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": i18n.t(lang, "faces"), "item": BASE + pre(lang)},
+        {"@type": "ListItem", "position": 2, "name": cat, "item": BASE + path}]}])
+    main = template(site, "section").substitute(
+        heading=esc(heading), line="<p>%s</p>" % esc(line), cats=cat_nav(data, lang, slug),
+        grid=grid("faces", records, lang=lang))
+    return page(site, "faces", title, description, path, records[0]["hero"]["file"], main,
+                legal=legal_line(data), head=crumbs, lang=lang, alternates=cat_langs(data, slug, name),
+                tabs=tab_hrefs(data, lang))
 
 
 def watch_count(lines):
     return sum(len(line["names"]) for line in lines)
 
 
-def works_on(n):
-    return "Works on %d watch%s" % (n, "" if n == 1 else "es")
+def works_on(n, lang="en"):
+    return i18n.t(lang, "works_on_1") if n == 1 else i18n.t(lang, "works_on", n=n)
 
 
 def full_title(item):
@@ -243,91 +377,132 @@ def settings_html(item):
     return '  <h2>Settings</h2>\n  <table class="settings">\n%s\n  </table>' % rows
 
 
-def works(section, item, data):
+def works(section, item, data, lang="en"):
     """Where an item runs. A face runs on every watch in the help's list
     unless it carries its own, as an app or game always does: those are
     listed in place."""
     if "watches" not in item:
         return ('<p class="works"><a href="/help/#watches">%s</a></p>'
-                % works_on(watch_count(data["watches"])))
+                % esc(works_on(watch_count(data["watches"]), lang)))
     # Its own h2, so the product lines' h3s sit under it, not under Settings.
-    return ('<h2>Watches</h2>\n  <details class="works"><summary>%s</summary>\n'
+    return ('<h2>%s</h2>\n  <details class="works"><summary>%s</summary>\n'
             '<div class="watches">\n%s\n</div></details>'
-            % (works_on(watch_count(item["watches"])), watches_html(item["watches"])))
+            % (esc(i18n.t(lang, "watches")), esc(works_on(watch_count(item["watches"]), lang)),
+               watches_html(item["watches"])))
 
 
-def related(data, section, item, k=RELATED):
+def related(data, section, item, k=RELATED, lang="en"):
     """Up to `k` other items of the section, its own category first, then
     the newest: the links on from an item page, so every page is reached
     from more than its list."""
-    others = [r for r in items(data, section) if r["slug"] != item["slug"]]
+    others = [r for r in items(data, section, lang) if r["slug"] != item["slug"]]
     same = [r for r in others if r["category"] == item["category"]]
     return (same + [r for r in others if r not in same])[:k]
 
 
-def item_head(section, item, path):
+def item_head(section, item, path, lang="en", description=None):
     """An item's structured data: what it is, and where it sits in the site."""
     url = BASE + path
     app = {"@type": "SoftwareApplication", "@id": url + "#app", "name": item["name"],
-           "description": item["short"], "url": url,
+           "description": description or item["short"], "url": url,
            "image": [BASE + s["file"] for s in item["images"]],
            "applicationCategory": "GameApplication" if section == "games" else "LifestyleApplication",
-           "applicationSubCategory": label(section, item),
+           "applicationSubCategory": label(section, item, lang),
            "operatingSystem": "Garmin Connect IQ", "installUrl": item["store_url"], "publisher": ORG}
+    if lang != "en":
+        app["inLanguage"] = lang
     if item["subtitle"]:
         app["alternateName"] = full_title(item)
+    section_name = section.capitalize() if lang == "en" else i18n.t(lang, section)
     crumbs = {"@type": "BreadcrumbList", "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": section.capitalize(), "item": BASE + TAB[section]},
+        {"@type": "ListItem", "position": 1, "name": section_name,
+         "item": BASE + pre(lang) + TAB[section]},
         {"@type": "ListItem", "position": 2, "name": item["name"], "item": url}]}
     return jsonld([app, crumbs])
 
 
-def more_html(data, section, item):
+def more_html(data, section, item, lang="en"):
     """The cards of a few other items, or nothing when the section has one."""
-    others = related(data, section, item)
+    others = related(data, section, item, lang=lang)
     if not others:
         return ""
-    return ('<section class="more">\n<h2>More %s</h2>\n%s\n</section>'
-            % (section, grid(section, others, eager=0)))
+    return ('<section class="more">\n<h2>%s</h2>\n%s\n</section>'
+            % (esc(i18n.t(lang, "more_" + section)), grid(section, others, eager=0, lang=lang)))
 
 
-def item_page(site, data, section, item):
+def item_langs(data, section, item):
+    return {lang: "%s%s/%s/" % (pre(lang), section, item["slug"]) for lang in i18n.CODES
+            if lang == "en" or item["slug"] in data["tr"].get(lang, {})}
+
+
+def cut(text, n=DESCRIPTION_MAX):
+    """`text` at most `n` characters, cut at a word with an ellipsis."""
+    if len(text) <= n:
+        return text
+    return text[:n - 1].rsplit(" ", 1)[0].rstrip(",;:–-") + "…"
+
+
+def item_page(site, data, section, item, lang="en"):
     shots, n = item["images"], len(item["images"])
-    what = noun(section, item)
+    what = noun(lang, section, item)
+    cats = dict((c, s) for s, c in categories(data))
+    if lang == "en":
+        def cap(i, s):
+            return caption(s)
 
-    def alt(s):
-        """'Gren watch face: the three themes', for image search as much as
-        for a screen reader."""
-        c = caption(s)
-        return "%s %s: %s" % (item["name"], what, c[:1].lower() + c[1:])
+        def alt(i, s):
+            """'Gren watch face: the three themes', for image search as much
+            as for a screen reader."""
+            c = caption(s)
+            return "%s %s: %s" % (item["name"], what.replace("Garmin ", "", 1), c[:1].lower() + c[1:])
+        short, full = item["short"], item["full"]
+    else:  # the captions are English only: a picture is named by its number
+        def cap(i, s):
+            return i18n.t(lang, "picture", i=i + 1)
 
+        def alt(i, s):
+            return "%s – %s (%d/%d)" % (item["name"], what, i + 1, n)
+        short, full = item["full"][0], item["full"][1:]
     # Each slide opens its picture full size; each thumbnail is a link to its
     # slide, so the gallery still works where gallery.js does not run. One
     # picture has nothing to move between, so no thumbnails.
     slides = "\n".join(
-        '<li class="slide" id="shot-%d" aria-roledescription="slide" aria-label="%d of %d" '
+        '<li class="slide" id="shot-%d" aria-roledescription="slide" aria-label="%d%s%d" '
         'data-caption="%s"><a href="/%s">%s</a></li>'
-        % (i + 1, i + 1, n, esc(caption(s)), esc(s["file"]), img(s, alt(s), i > 0))
+        % (i + 1, i + 1, " of " if lang == "en" else " / ", n, esc(cap(i, s)), esc(s["file"]),
+           img(s, alt(i, s), i > 0))
         for i, s in enumerate(shots))
     thumbs = "\n".join(
-        '<li><a class="thumb" href="#shot-%d" aria-label="Picture %d: %s">%s</a></li>'
-        % (i + 1, i + 1, esc(caption(s)), img(s, "", False)) for i, s in enumerate(shots))
+        '<li><a class="thumb" href="#shot-%d" aria-label="%s">%s</a></li>'
+        % (i + 1, esc("%s: %s" % (i18n.t(lang, "picture", i=i + 1), cap(i, s)) if lang == "en"
+                      else cap(i, s)), img(s, "", False)) for i, s in enumerate(shots))
+    lab = esc(label(section, item, lang))
+    if section == "faces" and item["category"] in cats and cat_records(data, item["category"], lang):
+        lab = '<a href="/%s">%s</a>' % (cat_path(lang, cats[item["category"]]), lab)
     main = template(site, "item").substitute(
-        section_href="/" + TAB[section], section=section,
-        name=esc(item["name"]), label=esc(label(section, item)),
+        section_href="/" + pre(lang) + TAB[section], all=esc(i18n.t(lang, "all_" + section)),
+        name=esc(item["name"]), label=lab,
         subtitle=('<p class="sub">%s</p>' % esc(item["subtitle"])) if item["subtitle"] else "",
+        store=esc(i18n.t(lang, "store")),
         store_url=esc(item["store_url"]), icon=img(item["icon"], "", False, "icon"),
-        slides=slides, count=n, caption=esc(caption(shots[0])),
+        pictures_of=esc(i18n.t(lang, "pictures_of", name=item["name"])),
+        prev=esc(i18n.t(lang, "prev")), next=esc(i18n.t(lang, "next")),
+        slides=slides, count=n, caption=esc(cap(0, shots[0])),
         thumbs=('  <ol class="thumbs" role="list">\n%s\n  </ol>' % thumbs) if n > 1 else "",
-        short=esc(item["short"]), full="\n".join("<p>%s</p>" % esc(p) for p in item["full"]),
-        settings=settings_html(item), works=works(section, item, data),
-        more=more_html(data, section, item))
-    path = "%s/%s/" % (section, item["slug"])
+        short=esc(short), full="\n".join("<p>%s</p>" % esc(p) for p in full),
+        # The settings' names and values are English only, so a translated
+        # page leaves them to its description, which names them in its words.
+        settings=settings_html(item) if lang == "en" else "",
+        works=works(section, item, data, lang),
+        more=more_html(data, section, item, lang))
+    path = "%s%s/%s/" % (pre(lang), section, item["slug"])
+    description = item["short"] if lang == "en" else cut(short)
     # "Gren – Fractal Tree, Ember Light · Garmin watch face · Glean": the
     # words a search matches come before the brand, which matches nothing.
-    return page(site, section, "%s · Garmin %s · Glean" % (full_title(item), what), item["short"],
+    return page(site, section, "%s · %s · Glean" % (full_title(item), what), description,
                 path, item["hero"]["file"], main, GALLERY_JS, legal_line(data),
-                item_head(section, item, path))
+                item_head(section, item, path, lang, description), lang=lang,
+                alternates=item_langs(data, section, item), tabs=tab_hrefs(data, lang))
 
 
 def watches_html(lines):
@@ -376,8 +551,9 @@ ROBOTS = "User-agent: *\nAllow: /\nSitemap: %ssitemap.xml\n" % BASE
 def check(site, data):
     """Refuse data the pages cannot honestly be built from: no face; a slug
     that is unsafe, or used twice (each names a folder under img/ as well as
-    its page); a live app or game the privacy page says nothing about, since
-    an app can do what no face does."""
+    its page), or a category's; a translation in a language the site has no
+    words for, or of an item it does not list; a live app or game the
+    privacy page says nothing about, since an app can do what no face does."""
     if not data["faces"]:
         raise SystemExit("build: faces.json lists no face")
     u = data.get("unlock")
@@ -406,6 +582,18 @@ def check(site, data):
             if r["slug"] in seen:
                 raise SystemExit("build: the slug %r is used twice" % r["slug"])
             seen.add(r["slug"])
+    for slug, name in categories(data):
+        if slug in seen:
+            raise SystemExit("build: the category %s and a face share the folder %r" % (name, slug))
+    for lang, words in data["tr"].items():
+        if lang not in i18n.CODES[1:]:
+            raise SystemExit("build: data/tr/%s.json is in a language i18n.py has no words for" % lang)
+        for slug, w in words.items():
+            if slug not in seen:
+                raise SystemExit("build: data/tr/%s.json translates %r, which the site does not list"
+                                 % (lang, slug))
+            if not w["full"]:
+                raise SystemExit("build: data/tr/%s.json has no description for %s" % (lang, slug))
     # A section commented out, a draft, is no section.
     privacy = re.sub(r"<!--.*?-->", "", (Path(site) / "templates" / "privacy.html")
                      .read_text(encoding="utf-8"), flags=re.S)
@@ -437,15 +625,30 @@ def build(site=HERE):
     data = load(site)
     check(site, data)
     paths, images = [], {}
-    for section in SECTIONS:
-        records = items(data, section)
-        _prune(site / section, {r["slug"] for r in records})
-        _write(site / TAB[section] / "index.html", section_page(site, data, section))
-        paths.append(TAB[section])
-        for r in records:
-            _write(site / section / r["slug"] / "index.html", item_page(site, data, section, r))
-            paths.append("%s/%s/" % (section, r["slug"]))
-            images[paths[-1]] = [s["file"] for s in r["images"]]
+    cats = categories(data)
+    for lang in i18n.CODES:
+        if lang != "en" and (site / lang).exists():
+            shutil.rmtree(site / lang)  # a language's folder is the build's alone
+        for section in SECTIONS:
+            records = items(data, section, lang)
+            if lang == "en":
+                keep = {r["slug"] for r in records} | ({s for s, _ in cats} if section == "faces" else set())
+                _prune(site / section, keep)
+            elif not records:
+                continue
+            _write(site / pre(lang) / TAB[section] / "index.html", section_page(site, data, section, lang))
+            paths.append(pre(lang) + TAB[section])
+            for r in records:
+                p = "%s%s/%s/" % (pre(lang), section, r["slug"])
+                _write(site / p / "index.html", item_page(site, data, section, r, lang))
+                paths.append(p)
+                if lang == "en":
+                    images[p] = [s["file"] for s in r["images"]]
+        for slug, name in cats:
+            if cat_records(data, name, lang):
+                p = cat_path(lang, slug)
+                _write(site / p / "index.html", category_page(site, data, slug, name, lang))
+                paths.append(p)
     _write(site / "help" / "index.html", help_page(site, data))
     _write(site / "privacy" / "index.html", privacy_page(site, data))
     _write(site / "404.html", not_found(site, data))

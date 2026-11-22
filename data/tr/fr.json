@@ -1,0 +1,701 @@
+{
+  "julnatt": {
+    "name": "Julnatt",
+    "subtitle": "Sapin de Noël, compte à rebours",
+    "full": [
+      "Cadran de Noël à grands chiffres : une place enneigée la veille de Noël, un immense sapin illuminé de lumières dorées, de vieilles maisons aux fenêtres chaleureuses tout autour, derrière une heure grande et lisible, la date et les données que vous consultez chaque jour.",
+      "L'heure tient sur une seule ligne, aussi large que l'écran rond le permet, en chiffres étroits faits pour être lus d'un coup d'œil : les heures en blanc, les deux-points et les minutes dans la couleur de votre thème. Chaque chiffre a un contour sombre et reste net sur les lumières et la neige.",
+      "Au-dessus de l'heure, la date dans la langue de votre montre avec les secondes à côté, et la batterie et les alertes en haut. Dessous, deux données dans des pastilles arrondies : au départ un compte à rebours jusqu'à Noël, un petit cadeau et les jours restants, et votre fréquence cardiaque. Ou choisissez la météo, le maximum et le minimum du jour, les pas, la Body Battery, le stress, les calories, la distance, les étages, le lever et le coucher du soleil, l'altitude, la VO2 max, le score de sommeil et plus, vingt sources en tout. Une courte barre se remplit avec votre objectif de pas, ou d'étages, de minutes intensives, de Body Battery, de batterie ou de stress.",
+      "Quatre thèmes de la nuit : Or, Rouge, Vert et Glace, ou coupez l'image pour un cadran noir sobre. Heure sur 12 ou 24 heures ou comme la montre. Sur les écrans MIP, les secondes continuent poignet baissé ; le mode toujours activé garde l'heure à la même taille dans un style fin, sur fond noir.",
+      "Appuyez longuement sur une donnée ou sur la barre pour ouvrir son aperçu sur la montre, sur la date ou le compte à rebours pour le calendrier. Températures comme sur la montre, ou en °C ou °F."
+    ]
+  },
+  "snemand": {
+    "name": "Snemand",
+    "subtitle": "Bonhomme de neige, compte à rebours Noël",
+    "full": [
+      "Cadran bonhomme de neige pour l'hiver et Noël : une famille de bonshommes de neige se tient dans la neige en bas à droite du cadran, un grand en haut-de-forme entre deux petits aux bonnets et écharpes rouges tricotés, à côté d'une heure grande et nette et des données que vous consultez chaque jour.",
+      "L'heure s'affiche en chiffres gras italiques avec les secondes à côté, les minutes dans la couleur de votre thème, et dessous la date dans la langue de votre montre. Chaque ligne a un contour sombre et reste nette à côté de l'image.",
+      "Quatre données, chacune avec son icône : au départ la météo et la fréquence cardiaque en haut, les pas et un compte à rebours jusqu'à Noël en bas, un petit cadeau et les jours restants. Comptez jusqu'au jour de Noël, au réveillon ou à la Saint-Sylvestre, ou mettez à sa place l'une des vingt sources : Body Battery, stress, calories, distance, étages, lever et coucher du soleil, altitude, maximum et minimum du jour, VO2 max, score de sommeil et plus. Une jauge le long du bord gauche se remplit avec la Body Battery, les pas ou un autre objectif.",
+      "Trois thèmes, Glace, Rouge et Blanc, ou masquez le bonhomme de neige pour un cadran noir sobre. Heure sur 12 ou 24 heures ou comme la montre, avec ou sans zéro initial. Sur les écrans MIP, les secondes continuent poignet baissé ; en mode toujours activé, un dessin discret du bonhomme de neige reste à côté de l'heure.",
+      "Appuyez longuement sur une donnée ou sur la jauge pour ouvrir son aperçu sur la montre, sur la date ou le compte à rebours pour le calendrier. Températures comme sur la montre, ou en °C ou °F."
+    ]
+  },
+  "tomte": {
+    "name": "Tomte",
+    "subtitle": "Père Noël, compte à rebours de Noël",
+    "full": [
+      "Cadran du père Noël pour les fêtes : un joyeux père Noël au bonnet rouge rit depuis le bas à droite du cadran, à côté d'une heure grande et nette et des données que vous consultez chaque jour.",
+      "L'heure s'affiche en chiffres gras italiques avec les secondes à côté, les minutes dans la couleur de votre thème, et dessous la date dans la langue de votre montre. Chaque ligne a un contour sombre et reste nette à côté de l'image.",
+      "Quatre données, chacune avec son icône : au départ la météo et la fréquence cardiaque en haut, les pas et un compte à rebours jusqu'à Noël en bas, un petit cadeau et les jours restants. Comptez jusqu'au jour de Noël, au réveillon ou à la Saint-Sylvestre, ou mettez à sa place l'une des vingt sources : Body Battery, stress, calories, distance, étages, lever et coucher du soleil, altitude, maximum et minimum du jour, VO2 max, score de sommeil et plus. Une jauge le long du bord gauche se remplit avec la Body Battery, les pas ou un autre objectif.",
+      "Trois thèmes, Rouge, Or et Vert, ou masquez le père Noël pour un cadran noir sobre. Heure sur 12 ou 24 heures ou comme la montre, avec ou sans zéro initial. Sur les écrans MIP, les secondes continuent poignet baissé ; en mode toujours activé, un dessin discret du bonnet du père Noël reste à côté de l'heure.",
+      "Appuyez longuement sur une donnée ou sur la jauge pour ouvrir son aperçu sur la montre, sur la date ou le compte à rebours pour le calendrier. Températures comme sur la montre, ou en °C ou °F."
+    ]
+  },
+  "knut": {
+    "name": "Knut",
+    "subtitle": "Cadran données, grande heure, semaine",
+    "full": [
+      "Cadran de données aux grands chiffres faciles à lire : tout ce que vous consultez dans la journée sur un seul cadran, disposé comme un tableau de bord et entouré d'une cordelette tressée sur le bord.",
+      "Une grande heure aux chiffres nets et carrés, le numéro de semaine ISO à gauche et les secondes à droite. Au-dessus, hier, aujourd'hui et demain, le jour encadré dans la couleur du thème ; en dessous, le mois et l'année, ou quelques mots à vous.",
+      "Six données, chacune avec son icône et chacune à choisir parmi vingt sources : pas, fréquence cardiaque et météo pour commencer, Body Battery, calories et étages en bas, ou distance, minutes intensives, stress, maxi et mini du jour, lever et coucher du soleil, altitude, pression, notifications, respiration, Pulse Ox, temps de récupération, VO2 max et score de sommeil. Deux arcs le long de la cordelette se remplissent avec vos objectifs : les pas en haut avec leur pourcentage, la batterie en bas, ou les étages, les minutes intensives, la Body Battery, le stress, la récupération ou le score de sommeil.",
+      "Huit thèmes : turquoise, citron vert, ambre, corail, violet, glace, rose et acier. Les heures et les minutes chacune en blanc, couleur du thème, gris ou gris foncé. Heure sur 12 ou 24 heures, ou comme la montre ; températures comme la montre, ou en °C ou °F. La cordelette se désactive pour un cadran noir épuré.",
+      "Affichage permanent en trois niveaux : l'heure seule, l'heure avec la date et la batterie, ou avec toutes les données, toujours moins d'un dixième de l'écran allumé. Sur les écrans MIP, les secondes continuent poignet baissé.",
+      "Maintenez une donnée ou un arc pour ouvrir son aperçu sur la montre, ou les jours pour votre agenda."
+    ]
+  },
+  "norrsken": {
+    "name": "Norrsken",
+    "subtitle": "Aurore boréale, grands chiffres",
+    "full": [
+      "Cadran aurore boréale à grands chiffres : les aurores polaires, vertes et violettes, au-dessus de sommets enneigés, derrière une grande heure facile à lire, la date et les données que vous consultez chaque jour.",
+      "L’heure tient sur une seule ligne, aussi large que l’écran rond le permet, en chiffres étroits qui se lisent d’un coup d’œil : les heures en blanc, les deux-points et les minutes de la couleur de votre thème. Chaque chiffre est tracé sur un contour sombre et reste net sur le voile de lumière le plus vif.",
+      "Au-dessus de l’heure, la date dans la langue de votre montre avec les secondes à côté, et en haut la batterie et les alertes. En dessous, deux mesures dans des pastilles arrondies, chacune avec son icône : fréquence cardiaque et pas pour commencer, ou la météo, les températures maximale et minimale du jour, Body Battery, stress, calories, distance, étages, lever et coucher du soleil, altitude, VO2 max, score de sommeil et plus encore, vingt sources en tout. Une courte barre se remplit avec votre objectif de pas, ou d’étages, de minutes intensives, de Body Battery, de batterie ou de stress.",
+      "Quatre thèmes du ciel nocturne : Aurore, Violet, Glace et Neige, ou éteignez l’aurore pour un cadran noir épuré. Heure sur 12 ou 24 heures, ou comme la montre est réglée. Sur les écrans MIP, les secondes continuent poignet baissé ; le mode toujours activé garde l’heure à la même taille, dans une graisse légère, sur fond noir.",
+      "Maintenez le doigt sur une mesure ou sur la barre d’objectif pour ouvrir son aperçu sur la montre, ou sur la date pour le calendrier. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "ormbunke": {
+    "name": "Ormbunke",
+    "subtitle": "Fougère fractale, lumière verte",
+    "full": [
+      "Ormbunke est une fougère fractale de lumière verte : chaque fronde est faite de folioles qui se répètent et rapetissent vers la pointe, à côté d’une colonne claire pour la journée.",
+      "L’heure en grands chiffres italiques, les minutes dans la couleur de votre thème et les secondes à côté. Au-dessus, deux données ; en dessous, la date dans la langue de votre montre et deux autres données. Vous choisissez les quatre parmi vingt sources : fréquence cardiaque, pas, calories, Body Battery, météo, températures maximale et minimale du jour, lever et coucher du soleil, altitude, VO2 max, score de sommeil et d’autres, ou aucune. Le long du bord gauche, une jauge se remplit avec votre Body Battery, ou les pas, le stress, la récupération, le score de sommeil ou la batterie. Batterie et alertes en haut.",
+      "Chaque ligne part du même bord et repose sur un contour sombre : la fougère ne gêne jamais les chiffres, quoi que vous affichiez.",
+      "Trois thèmes assortis à la fougère : Fougère, Mousse et Pollen, ou désactivez la fougère pour un cadran noir épuré. L’heure au format 12 h ou 24 h ou comme sur votre montre, avec ou sans zéro initial. Les secondes peuvent être masquées et, sur les écrans MIP, elles continuent poignet baissé. En mode toujours activé, la fougère est dessinée en traits fins, avec l’heure et la date.",
+      "Maintenez une donnée ou la jauge pour ouvrir son aperçu sur la montre, ou la date pour votre calendrier. Températures comme sur votre montre, ou en °C ou °F."
+    ]
+  },
+  "dyning": {
+    "name": "Dyning",
+    "subtitle": "Vague fractale, lumière turquoise",
+    "full": [
+      "Dyning est une vague déferlante de lumière turquoise : sa crête s’enroule en écume et en embruns fractals, à côté d’une colonne claire pour la journée.",
+      "L’heure en grands chiffres italiques, les minutes dans la couleur de votre thème et les secondes à côté. Au-dessus, deux données ; en dessous, la date dans la langue de votre montre et deux autres données. Vous choisissez les quatre parmi vingt sources : fréquence cardiaque, pas, calories, Body Battery, météo, températures maximale et minimale du jour, lever et coucher du soleil, altitude, VO2 max, score de sommeil et d’autres, ou aucune. Le long du bord gauche, une jauge se remplit avec votre Body Battery, ou les pas, le stress, la récupération, le score de sommeil ou la batterie. Batterie et alertes en haut.",
+      "Chaque ligne part du même bord et repose sur un contour sombre : la vague ne gêne jamais les chiffres, quoi que vous affichiez.",
+      "Trois thèmes assortis à la vague : Ressac, Glace et Écume, ou désactivez la vague pour un cadran noir épuré. L’heure au format 12 h ou 24 h ou comme sur votre montre, avec ou sans zéro initial. Les secondes peuvent être masquées et, sur les écrans MIP, elles continuent poignet baissé. En mode toujours activé, la vague est dessinée en traits fins, avec l’heure et la date.",
+      "Maintenez une donnée ou la jauge pour ouvrir son aperçu sur la montre, ou la date pour votre calendrier. Températures comme sur votre montre, ou en °C ou °F."
+    ]
+  },
+  "gren": {
+    "name": "Gren",
+    "subtitle": "Arbre fractal, lueur de braise",
+    "full": [
+      "Gren est un arbre fractal de lumière de braise : ses branches se divisent encore et encore en fines brindilles lumineuses, à côté d’une colonne claire pour la journée.",
+      "L’heure en grands chiffres italiques, les minutes dans la couleur de votre thème et les secondes à côté. Au-dessus, deux données ; en dessous, la date dans la langue de votre montre et deux autres données. Vous choisissez les quatre parmi vingt sources : fréquence cardiaque, pas, calories, Body Battery, météo, températures maximale et minimale du jour, lever et coucher du soleil, altitude, VO2 max, score de sommeil et d’autres, ou aucune. Le long du bord gauche, une jauge se remplit avec votre Body Battery, ou les pas, le stress, la récupération, le score de sommeil ou la batterie. Batterie et alertes en haut.",
+      "Chaque ligne part du même bord et repose sur un contour sombre : l’arbre ne gêne jamais les chiffres, quoi que vous affichiez.",
+      "Trois thèmes assortis à l’arbre : Braise, Ambre et Cendre, ou désactivez l’arbre pour un cadran noir épuré. L’heure au format 12 h ou 24 h ou comme sur votre montre, avec ou sans zéro initial. Les secondes peuvent être masquées et, sur les écrans MIP, elles continuent poignet baissé. En mode toujours activé, l’arbre est dessiné en traits fins, avec l’heure et la date.",
+      "Maintenez une donnée ou la jauge pour ouvrir son aperçu sur la montre, ou la date pour votre calendrier. Températures comme sur votre montre, ou en °C ou °F."
+    ]
+  },
+  "dag": {
+    "name": "Dag",
+    "subtitle": "Horloge du jour, lisible",
+    "full": [
+      "Dag est une horloge du jour : elle donne l'heure, mais aussi le jour qu'il est et le moment de la journée. Au centre du cadran, aussi grand que l'écran rond le permet, le jour de la semaine en toutes lettres : MERCREDI. En dessous, de la couleur de votre thème, MATIN, APRÈS-MIDI, SOIR ou NUIT.",
+      "Au-dessus, l'heure en grands chiffres inspirés des panneaux routiers ; en dessous, la date avec l'année, en grands caractères nets, et une valeur avec son icône : la météo pour commencer, ou la fréquence cardiaque, les pas, Body Battery, le lever et le coucher du soleil ou n'importe laquelle de vingt sources, dont la VO2 max et le score de sommeil, ou aucune. La batterie et les notifications en haut.",
+      "Le jour et la date sont dans la langue de votre montre, et les moments de la journée en français, anglais, polonais, allemand, espagnol, italien, néerlandais, portugais, slovaque et tchèque. Le matin va de cinq heures à midi, l'après-midi jusqu'à dix-sept heures, le soir jusqu'à vingt et une heures, et la nuit jusqu'au matin.",
+      "Tout est grand, simple et contrasté, pour qui veut connaître le jour d'un coup d'œil, et pour qui prépare une montre pour un parent ou un grand- parent. Six thèmes aux couleurs des panneaux routiers : jaune, vert, bleu, orange, blanc et papier, des lettres sombres sur fond clair pour qui lit mieux ainsi. L'heure en 12 ou 24 heures ou comme la montre, avec ou sans zéro devant l'heure, avec les secondes à côté, ou masquée pour un cadran qui ne montre que le jour. Sur les écrans MIP, les secondes continuent de tourner poignet baissé. Le mode Toujours activé garde le jour, le moment de la journée et l'heure.",
+      "Maintenez la valeur pour ouvrir son aperçu sur la montre, ou le jour ou la date pour le calendrier. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "visare": {
+    "name": "Visare",
+    "subtitle": "Grands chiffres, analogique",
+    "full": [
+      "Visare est un cadran analogique conçu pour se lire sans lunettes. Douze grands chiffres inspirés des panneaux routiers font le tour du cadran, blancs sur noir, aussi grands que l'écran rond le permet, avec soixante repères de minutes sur le bord.",
+      "Impossible de confondre les deux aiguilles. L'aiguille des heures est courte, large et blanche ; celle des minutes est longue, plus fine et de la couleur de votre thème. Chacune a un fin contour de la couleur du cadran, si bien qu'elle se détache nettement partout où elle croise un chiffre ou une valeur.",
+      "À l'intérieur des chiffres, au-dessus du centre, le jour et la date dans la langue de votre montre, et deux valeurs avec leur icône, l'une au- dessus du centre et l'autre en dessous : la fréquence cardiaque et la batterie pour commencer, ou les pas, la météo, Body Battery, le lever et le coucher du soleil ou n'importe laquelle de vingt sources, dont la VO2 max et le score de sommeil, ou aucune. Une petite heure numérique peut se placer dessous, en 12 ou 24 heures ou comme la montre, avec ou sans zéro devant l'heure.",
+      "Une fine aiguille des secondes à contrepoids rond avance par saccades ou en continu, ou reste masquée ; sur les écrans MIP, elle continue de tourner poignet baissé. Avec les aiguilles qui laissent voir les données, une aiguille devient un simple contour là où elle croise une valeur, et rien n'est caché.",
+      "Envie d'un cadran plus calme ? N'affichez que 12, 3, 6 et 9 avec de larges index entre eux, ou des index tout autour. Six thèmes aux couleurs des panneaux routiers : jaune, vert, bleu, orange, blanc et papier, des chiffres noirs sur un cadran clair pour qui lit mieux ainsi. Le mode Toujours activé garde les chiffres et les deux aiguilles en grand, dans une graisse légère.",
+      "Maintenez une valeur pour ouvrir son aperçu sur la montre, ou la date pour le calendrier. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "tavla": {
+    "name": "Tavla",
+    "subtitle": "Grande heure & données",
+    "full": [
+      "Tavla est un tableau pour votre poignet, conçu pour se lire à bout de bras sans lunettes. L'heure tient sur une seule ligne, en chiffres étroits inspirés des panneaux routiers : un lettrage conçu pour se lire de loin. Les heures sont blanches, les deux-points et les minutes de la couleur de votre thème.",
+      "Sous l'heure, quatre valeurs sur quatre tuiles, chacune avec son icône et en grand : la fréquence cardiaque, les pas, la météo et Body Battery pour commencer, ou n'importe laquelle de vingt sources, dont la VO2 max et le score de sommeil, ou aucune. Une valeur qui a un objectif, comme les pas, les étages ou les minutes intensives, a une barre qui se remplit au fil de la journée. Chaque tuile est aussi large que l'écran rond le permet, et un grand nombre reste grand : au-delà de dix mille, il s'affiche 18.5k plutôt que de rétrécir.",
+      "Autour du cadran, un anneau se remplit depuis midi dans le sens des aiguilles à mesure que vos pas atteignent leur objectif, ou les étages, les minutes intensives, Body Battery, la batterie, le stress, le temps de récupération ou le score de sommeil : vous voyez où en est votre journée sans lire un seul chiffre. La batterie et les notifications en haut, la date dans la langue de votre montre en bas.",
+      "Six thèmes aux couleurs des panneaux routiers : jaune, vert, bleu, orange, blanc et papier, des chiffres sombres sur fond clair pour qui lit mieux ainsi. L'heure en 12 ou 24 heures ou comme la montre, avec ou sans zéro devant l'heure, et les secondes à côté des minutes, qui continuent de tourner poignet baissé sur les écrans MIP. Le mode Toujours activé garde l'heure à la même taille dans une graisse légère, avec la date.",
+      "Maintenez une tuile pour ouvrir son aperçu sur la montre, l'heure ou l'anneau pour celui de l'anneau, ou la date pour le calendrier. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "prognos": {
+    "name": "Prognos",
+    "subtitle": "Cadran de données à horizon météo",
+    "full": [
+      "Dans Prognos, le paysage est la prévision. Sur la moitié basse du cadran s'étend une colline, et sa crête est la température des douze prochaines heures selon la météo de votre montre : l'heure la plus chaude au plus haut, la plus froide au plus bas. Sous la crête sont écrites la température et l'heure dans trois, six et neuf heures, et de courts traits de pluie tombent au-dessus des heures qui seront sans doute mouillées.",
+      "Au-dessus, dans le ciel : la date et l'état, une grande heure avec les secondes à côté, trois mesures avec leurs icônes (par défaut la fréquence cardiaque, les pas et la Body Battery) et deux autres (les maximales et minimales du jour et le prochain lever ou coucher du soleil). Chaque mesure peut afficher l'une de vingt sources, dont la VO2 max et le score de sommeil, ou rien.",
+      "La prévision vient de la dernière synchronisation météo avec le téléphone ; tant qu'il n'y en a pas, la colline est un horizon plat sans rien d'écrit, jamais devinée.",
+      "Faites-le vôtre : cinq thèmes (Crépuscule, Nuit, Aube, Orage et Gris), la pluie activée ou non, l'heure sur 12 ou 24 heures ou comme la montre, un zéro devant l'heure, les secondes, la date et l'état, activés ou non. Sur les écrans memory-in-pixel, chaque thème est dessiné en 64 couleurs et les secondes continuent poignet baissé. Le mode toujours actif garde l'heure, la ligne de la crête et la date.",
+      "Maintenez une mesure pour ouvrir son aperçu sur la montre, la date pour le calendrier ou la colline pour la météo. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "ruta": {
+    "name": "Ruta",
+    "subtitle": "Cadran de données en tuiles de couleur",
+    "full": [
+      "Ruta est faite pour se lire d'un coup d'œil, à bout de bras. Le cadran est fait de tuiles de couleur unies séparées par de fines lignes noires, et chaque tuile porte une seule chose en chiffres aussi grands que la tuile le permet, dans une écriture haute et étroite.",
+      "En haut, la date et l'état. Dessous, l'heure a sa propre tuile, avec les secondes à côté et une barre dessous qui se remplit avec vos pas (ou la Body Battery, les minutes intensives, les étages, le stress, la batterie, le temps de récupération ou le score de sommeil). Plus bas, trois tuiles avec une icône au-dessus d'une grande valeur (par défaut les pas, la fréquence cardiaque et la Body Battery) et deux autres avec l'icône à côté (la météo et le prochain lever ou coucher du soleil). Chaque tuile peut afficher l'une de vingt sources, dont la VO2 max et le score de sommeil, ou rien.",
+      "Faites-le vôtre : cinq thèmes (Pop, Pastel, Gris, Nuit aux tuiles sombres et chiffres colorés, et Sport en noir et jaune signal), l'heure sur 12 ou 24 heures ou comme la montre, un zéro devant l'heure, les secondes, la date et l'état, activés ou non. Sur les écrans memory-in-pixel, chaque tuile est l'une des 64 couleurs propres à l'écran, rien n'est tramé, et les secondes continuent poignet baissé. Le mode toujours actif garde l'heure, la date et la barre.",
+      "Maintenez une tuile pour ouvrir son aperçu sur la montre, l'heure pour celui de la barre ou la date pour le calendrier. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "dygn": {
+    "name": "Dygn",
+    "subtitle": "Cadran de données à anneau du jour",
+    "full": [
+      "Dygn montre toute la journée d'un coup d'œil. Autour du bord court un anneau de 24 heures, midi en haut : la nuit est sombre, la lumière du jour d'aujourd'hui s'allume chaude du lever au coucher en passant par midi, une ligne claire couvre la part du jour déjà passée, et le soleil (la lune après la nuit tombée) se tient à l'heure qu'il est.",
+      "Le fond est le ciel, coloré selon la position réelle du soleil : nuit, aube, jour et crépuscule, avec une douce lueur autour du soleil. Au centre, une grande heure avec les secondes à côté, la date et l'état, la météo et les maximales et minimales du jour, trois mesures avec leurs icônes (par défaut la fréquence cardiaque, les pas et la Body Battery) et, en bas, le lever et le coucher du soleil d'aujourd'hui. Chaque mesure peut afficher l'une de vingt sources, dont la VO2 max et le score de sommeil, ou rien ; la ligne du bas peut montrer à la place le jour restant.",
+      "Les heures du soleil viennent de la position météo de la montre ou de votre dernière activité ; sans elles, l'anneau reste éteint, jamais deviné.",
+      "Faites-le vôtre : cinq thèmes (Ciel, qui suit le soleil, Nuit, Aube, Crépuscule et Gris), l'heure sur 12 ou 24 heures ou comme la montre, un zéro devant l'heure, les secondes, la date et l'état, activés ou non. Sur les écrans memory-in-pixel, chaque ciel est dessiné en 64 couleurs et les secondes continuent poignet baissé. Le mode toujours actif garde l'anneau, le soleil et l'heure.",
+      "Maintenez une mesure pour ouvrir son aperçu sur la montre, la date pour le calendrier ou l'anneau pour le lever et le coucher du soleil. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "karta": {
+    "name": "Karta",
+    "subtitle": "Cadran de données sur carte topo",
+    "full": [
+      "Karta met les données de toute une journée à votre poignet et garde chaque chiffre facile à lire. Le fond est une carte topographique de nuit : des courbes de niveau autour de deux sommets, discrètes sous les chiffres et plus marquées vers le bord, une sur quatre étant une courbe maîtresse.",
+      "Sur la carte, une grande heure avec les secondes à côté, et dessous quatre mesures sur deux colonnes, chacune avec une icône en couleur et une grande valeur : par défaut la fréquence cardiaque, la Body Battery, les pas et le prochain lever ou coucher du soleil. Deux autres sur la ligne du haut (l'altitude et la pression), une en bas (la météo), la batterie et les notifications à côté de la date. Chacune des sept peut afficher l'une de vingt sources, dont la VO2 max et le score de sommeil, ou rien.",
+      "Autour du bord, un arc se remplit depuis midi avec vos pas, un point à sa tête ; à l'objectif, l'anneau se ferme. Il peut suivre à la place la Body Battery, les minutes intensives, les étages, le stress, la batterie, le temps de récupération ou le score de sommeil.",
+      "Faites-le vôtre : cinq thèmes (Forêt, Glacier, Désert, Nuit et Ardoise), quatre cartes (Sommets, Crête, Vallée et Côte) ou aucune, l'heure sur 12 ou 24 heures ou comme la montre, un zéro devant l'heure, les secondes, la date et l'état, activés ou non. Sur les écrans memory-in-pixel, chaque thème est dessiné en 64 couleurs et les secondes continuent poignet baissé. Le mode toujours actif garde l'heure, la date et l'arc.",
+      "Maintenez une mesure pour ouvrir son aperçu sur la montre, la date pour le calendrier ou le bord pour celui de l'arc. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "frost": {
+    "name": "Frost",
+    "subtitle": "Cadran analogique d'hiver",
+    "full": [
+      "Frost est un cadran analogique pour tout l'hiver, pas seulement pour Noël. Le cadran est une plaque de glace, profonde au bord et plus claire au centre, le givre s'avance depuis le verre, et les heures sont marquées par de petits cristaux à six branches.",
+      "Au centre, un flocon grandit tout au long de la journée. Ses six bras s'allongent à mesure que vos pas s'additionnent, des branches latérales poussent, et à l'objectif chaque pointe s'allume. Au lieu des pas, il peut grandir avec Body Battery, les minutes intensives, les étages, le stress ou la batterie.",
+      "Sur les diagonales, quatre données, une icône au-dessus de chaque valeur : la fréquence cardiaque, la météo, Body Battery et le prochain lever ou coucher du soleil par défaut, ou l'une de dix-huit sources, ou rien. Le jour et la date dans un guichet à trois heures, dans la langue de votre montre, la batterie et les notifications sous midi. Ajoutez une petite heure numérique au-dessus de six heures, sur 12 ou 24 heures ou comme la montre.",
+      "Les aiguilles lancéolées sont cerclées pour rester lisibles sur tout, avec une ligne de glace au milieu, et une trotteuse avec un flocon pour contrepoids avance par sauts ou en continu ; sur les montres memory-in- pixel, elle continue par sauts poignet baissé.",
+      "Faites-le vôtre : cinq cadrans (Glacier, Minuit, Aurore boréale, Argent et Rose), cristaux, chiffres arabes ou romains aux quarts, givre complet, léger ou absent sur le bord, et aiguilles argent, glace ou de couleur d'accent. Le mode Toujours activé garde les cristaux, le flocon et les aiguilles en contour.",
+      "Maintenez une donnée appuyée pour ouvrir son aperçu sur la montre, ou la date pour le calendrier. Les températures suivent la montre, ou choisissez °C ou °F.",
+      "Les aiguilles peuvent devenir un contour là où elles croisent une donnée ou une fenêtre, pour que rien ne se cache dessous."
+    ]
+  },
+  "kofta": {
+    "name": "Kofta",
+    "subtitle": "Pull de Noël",
+    "full": [
+      "Kofta habille votre montre d'un pull de Noël. Tout le cadran est un tricot jacquard, chaque maille un petit V, du col côtelé en haut jusqu'au bas du pull, et l'heure est tricotée en plein dedans, en grands chiffres de mailles.",
+      "Sur la poitrine court une bande de rennes, et elle se tricote d'elle-même au fil de la journée : maille par maille, rang par rang depuis le bas, à mesure que vos pas s'additionnent. Les mailles non tricotées attendent dans un fil pâle, pour voir ce qu'il reste ; à l'objectif, la bande est terminée. Au lieu des pas, elle peut se tricoter avec Body Battery, les minutes intensives, les étages, le stress ou la batterie.",
+      "Sous l'heure, la date dans la langue de votre montre avec la batterie et les notifications, puis trois données, une icône au-dessus de chaque valeur : la fréquence cardiaque, la météo et Body Battery par défaut, ou l'une de dix-huit sources, ou rien.",
+      "Faites-le vôtre : cinq pulls (rouge classique, vert forêt, marine nordique, flocon d'avoine et un moche, exprès), cinq motifs (rennes, flocons, sapins, cœurs ou étoiles), des mailles tricotées ou une grille plate, un zigzag au bas du pull ou des côtes simples. L'heure sur 12 ou 24 heures ou comme la montre, avec ou sans zéro devant l'heure. Les secondes au bout de la ligne en dessous, que vous pouvez masquer.",
+      "Sur les écrans memory-in-pixel, chaque pull est tricoté en 64 couleurs. Le mode Toujours activé ne garde que l'heure tricotée, faite de ses mailles.",
+      "Maintenez une donnée appuyée pour ouvrir son aperçu sur la montre, ou la date pour le calendrier. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "gran": {
+    "name": "Gran",
+    "subtitle": "Sapin et compte à rebours de Noël",
+    "full": [
+      "Gran est un sapin de Noël par une nuit de neige, et chaque lumière y a un sens. Vingt-quatre ampoules pendent à sa guirlande et s'allument une à une à mesure que vos pas s'additionnent, de la branche la plus basse vers le haut. Atteignez votre objectif et l'étoile s'allume. Au lieu des pas, le sapin peut suivre Body Battery, les minutes intensives, les étages, le stress ou la batterie.",
+      "Sous le sapin, à côté des cadeaux, les jours qui restent jusqu'au jour de Noël, ou jusqu'au réveillon ou à la Saint-Sylvestre si vous préférez. Le jour même, une étoile remplace le nombre. À côté, le chemin parcouru par les lumières.",
+      "De part et d'autre du sapin, quatre données, une icône au-dessus de chaque valeur : la fréquence cardiaque, la météo, Body Battery et le prochain lever ou coucher du soleil par défaut, ou l'une de dix-huit sources, ou rien. La date, dans la langue de votre montre, est en haut avec la batterie et les notifications.",
+      "Faites-le vôtre : cinq thèmes (Minuit, Chute de neige, Nordique, Or et Bonbon), quatre couleurs de guirlande (multicolore, blanc chaud, or ou bleu), une neige légère, abondante ou absente, de la neige sur les branches ou non. L'heure en Fraunces, sur 12 ou 24 heures ou comme la montre, avec ou sans zéro devant l'heure. À côté, les secondes en petit, que vous pouvez masquer.",
+      "Sur les écrans memory-in-pixel, chaque thème est dessiné en 64 couleurs. Le mode Toujours activé garde l'heure, le sapin en contour et seulement les ampoules allumées.",
+      "Maintenez une donnée appuyée pour ouvrir son aperçu sur la montre, ou la date pour le calendrier. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "lage": {
+    "name": "Lage Pro",
+    "subtitle": "Tableau de bord de données",
+    "full": [
+      "La plupart des cadrans de données vous montrent des chiffres et vous laissent juger. Un pouls au repos de 62, est-ce bien ? 3 400 pas à 14 h, est-ce dans les temps ? Lage affiche autant de données et donne un verdict à chacune.",
+      "L'heure se tient au centre en grands chiffres étroits, les heures en argent au-dessus des minutes dans la couleur de votre thème. À gauche, votre corps : Body Battery, stress et fréquence cardiaque, chacun avec une flèche et sa variation sur les trois dernières heures, sa courbe tracée dessous, en vert quand le niveau est bon, en corail quand il ne l'est pas. À droite, vos objectifs : pas, minutes intensives et étages, chacun avec une barre et un repère blanc là où vous devriez en être, si bien que « +840 » signifie en avance et « -1.2k » en retard. Votre journée va de votre heure de réveil à votre heure de coucher, et les minutes intensives se comptent sur la semaine, comme Garmin les compte.",
+      "Sous l'heure, un graphique des 4, 12 ou 24 dernières heures de fréquence cardiaque, Body Battery, stress, pression ou altitude, avec son maximum et son minimum. En dessous, la météo actuelle et l'heure de la prochaine pluie, ou le prochain lever ou coucher du soleil. En haut, la batterie, les notifications et la date dans la langue de votre montre. Les secondes s'affichent en petit sous les minutes, et un repère sur le bord allume chacune pendant que vous regardez ; un réglage éteint les deux.",
+      "Chaque donnée peut afficher l'une des vingt sources : score de sommeil, oxymètre de pouls, temps de récupération, VO2 max, respiration, calories, distance et plus encore. Sur un écran tactile, maintenez une donnée pour ouvrir l'écran correspondant de la montre. Cinq thèmes : Glacier, Or, Violet, Océan et Argent. Le mode Toujours activé garde l'heure en pleine taille, dans une graisse légère."
+    ]
+  },
+  "rad": {
+    "name": "Rad",
+    "subtitle": "Grands chiffres & données",
+    "full": [
+      "Rad affiche l'heure sur une seule ligne, aussi large que l'écran rond le permet, en chiffres étroits inspirés des panneaux routiers : un lettrage conçu pour se lire de loin et en mouvement. Les heures sont blanches, les deux-points et les minutes de la couleur de votre thème.",
+      "Autour, tout ce que vous consultez chaque jour est grand aussi. La date est au-dessus de l'heure, dans la langue de votre montre, avec la batterie et les alertes au-dessus d'elle. Sous l'heure, deux pastilles arrondies affichent chacune une donnée et son icône : la fréquence cardiaque et les pas pour commencer, ou encore la météo, Body Battery, les calories, la distance, le lever et le coucher du soleil, parmi vingt sources. Les pastilles s'ajustent à leur contenu. En dessous, une courte barre se remplit à mesure que vos pas approchent de leur objectif, ou vos étages, vos minutes intensives, Body Battery, la batterie ou le stress.",
+      "Six thèmes aux couleurs des panneaux routiers : Jaune, Vert, Bleu, Orange, Blanc et Papier, des chiffres sombres sur fond blanc pour qui lit mieux ainsi. Format 12 ou 24 heures, sans zéro initial en 12 heures. En mode Toujours activé, l'heure garde la même taille, dans une graisse légère."
+    ]
+  },
+  "stor": {
+    "name": "Stor",
+    "subtitle": "Chiffres extra-grands",
+    "full": [
+      "Stor affiche l'heure dans les plus grands chiffres qu'un écran rond puisse contenir : les heures sur une ligne, les minutes sur la suivante, chacune presque un tiers de la hauteur de l'écran. Des chiffres épais et ouverts dans une linéale moderne, blancs sur noir, les minutes dans la couleur de votre choix, lisibles d'un coup d'œil à travers une pièce, en voiture ou au réveil avant d'avoir mis vos lunettes.",
+      "Tout le reste se fait discret. Une fine barre entre les deux lignes se remplit à mesure que vous approchez de votre objectif de pas, si bien que la progression n'a même pas besoin d'être lue ; elle peut aussi suivre les étages, les minutes intensives, Body Battery, la batterie ou le stress, ou être désactivée. Batterie et alertes en haut. En bas, la date dans la langue de votre montre, ou à la place une donnée : fréquence cardiaque, météo, pas ou l'une des vingt sources.",
+      "Six thèmes : Corail, Ambre, Menthe, Bleu ciel, Mono et Papier, des chiffres sombres sur fond blanc pour qui lit mieux ainsi, et pour une journée lumineuse sur un écran memory-in-pixel. Format 12 ou 24 heures, sans zéro initial en 12 heures. Le mode Toujours activé garde les mêmes chiffres à la même taille en graisse filaire, assez grands pour être lus dans le noir."
+    ]
+  },
+  "vila": {
+    "name": "Vila",
+    "subtitle": "Écran de veille e-ink",
+    "full": [
+      "Vila est l'écran qu'affiche une liseuse au repos : une gravure d'une seule encre sur papier, et l'heure au-dessus dans un caractère de livre. La gravure est un sablier, chaque partie dessinée en traits comme un graveur l'aurait taillée : deux plateaux cernés et ombrés, des montants tournés hachurés d'un côté, le verre en fins contours avec son ombrage, et le sable en hachures serrées.",
+      "Le sable est la progression. Le matin, il remplit le bulbe du haut ; à mesure que vos pas remplissent leur objectif, il s'écoule dans celui du bas en un mince filet, jusqu'à ce que le haut soit vide et qu'un tas se forme en bas. Il peut aussi suivre les étages, les minutes intensives, Body Battery, la batterie ou le stress.",
+      "L'heure est composée en grand en EB Garamond, avec la date en dessous dans la langue de votre montre, et la batterie et les alertes au-dessus. Deux données se tiennent de chaque côté de la taille du sablier, la fréquence cardiaque et la météo pour commencer, ou l'une des quinze sources.",
+      "Cinq papiers : Papier, Lumière chaude, Sépia, Nuit (traits blancs sur noir) et Indigo. Un écran memory-in-pixel est déjà réflectif, comme l'encre électronique. Le mode Toujours activé garde l'heure et le contour du sablier."
+    ]
+  },
+  "vik": {
+    "name": "Vik",
+    "subtitle": "Baie nordique au crépuscule",
+    "full": [
+      "Vik est une baie du Grand Nord à la fin du jour. Des montagnes lointaines se dressent dans la brume, du brouillard à leur pied, les collines proches sont sombres, l'eau est calme, striée de lumière, et dans tout le ciel s'étendent les branches de l'arbre du monde, d'une nuance plus pâle que le crépuscule.",
+      "Sur l'eau, un drakkar à la voile rayée, des boucliers le long du bord, rame de la rive ouest à la rive est à mesure que vos pas remplissent leur objectif : il part le matin et accoste à l'objectif. Il peut aussi suivre les étages, les minutes intensives, Body Battery, la batterie ou le stress.",
+      "L'heure se tient au-dessus du ciel en Kurale, une police à empattements au tranchant taillé à la main, la date en dessous dans la langue de votre montre et la batterie et les alertes au-dessus. Deux données sont posées sur l'eau, chacune l'une des quinze sources, la fréquence cardiaque et la météo pour commencer. En bas, une barre de vie rouge et une barre d'endurance jaune, Body Battery et batterie par défaut.",
+      "Cinq thèmes : Prairie, Nuit, Brume, Braise et Givre. Sur les écrans memory-in-pixel, le ciel est tramé dans les 64 couleurs. Le mode Toujours activé garde l'heure, le rivage et le drakkar en traits fins.",
+      "Un appui long sur une donnée ou une barre ouvre son aperçu sur la montre, sur le drakkar celui de son objectif, sur la date votre calendrier. Les secondes défilent sur une plaque après la date, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "skold": {
+    "name": "Sköld",
+    "subtitle": "Bouclier viking analogique",
+    "full": [
+      "Sköld est un bouclier rond, fait pour une montre ronde. Sept planches de bois sombre avec leur veinage, leurs nœuds et leurs joints ; un cerclage de fer dont la lèvre accroche la lumière ; une tête de clou à chaque heure ; un umbo de fer au centre ; et deux aiguilles d'acier, chacune une lame cernée de noir.",
+      "Gravées dans le cerclage, les 24 runes du vieux futhark, dans leur ordre, chacune dessinée avec les traits droits qui l'ont taillée. Elles sont la progression : une à une, elles rougeoient comme des braises à mesure que vos pas remplissent leur objectif, depuis midi dans le sens horaire, jusqu'à ce que tout le cerclage s'embrase. Elles peuvent aussi suivre les étages, les minutes intensives, Body Battery, la batterie ou le stress.",
+      "Trois données sont sculptées dans les planches à neuf, trois et six heures, chacune l'une des quinze sources : fréquence cardiaque, météo et Body Battery pour commencer, ou pas, calories, distance, étages, minutes intensives, stress, pression, altitude, prochain lever ou coucher du soleil, notifications ou batterie. La date, dans la langue de votre montre, la batterie et les alertes sont sous midi.",
+      "Cinq peintures : Chêne (bois nu), Sang, Corbeau, Givre (avec une lueur glacée) et Mousse, chacune peignant une planche sur deux. Le mode Toujours activé garde les runes allumées en traits fins, le contour des aiguilles et l'umbo.",
+      "Un appui long sur une donnée ouvre son aperçu sur la montre, sur le cercle de runes celui de son objectif, sur la date votre calendrier. Une trotteuse dans la couleur d'accent, ou désactivez-la. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "stad": {
+    "name": "Stad",
+    "subtitle": "HUD avec plan de ville",
+    "full": [
+      "Stad transforme votre montre en affichage tête haute d'un jeu en monde ouvert. Tout le cadran est le plan d'une ville inventée : des pâtés de maisons entre de larges rues, un parc, un boulevard, une voie rapide qui contourne l'ouest, une plage et la mer.",
+      "Par-dessus, tout ce qu'il vous faut, cerné de noir pour rester lisible sur n'importe quelle rue. Cinq étoiles en haut se remplissent avec votre stress. L'heure est au centre en Big Shoulders Display, avec vos pas en dessous en guise d'argent : 8 420 pas, c'est $8,420. Deux arcs en bas sont votre santé et votre armure, Body Battery et batterie par défaut. La flèche du joueur est sous le centre et tourne pour pointer la minute, et deux repères sur la carte portent les données de votre choix.",
+      "Chaque jauge peut être changée : les étoiles et les barres suivent les pas, les étages, les minutes intensives, Body Battery, la batterie ou le stress ; l'argent, ce sont les pas, les calories, les étages ou les minutes intensives ; les repères prennent l'une des quinze sources, la météo et la fréquence cardiaque pour commencer. La date est dans la langue de votre montre, la batterie et les alertes sous la flèche.",
+      "Cinq thèmes : Rue, Nuit, Coucher de soleil, Atlas (un plan clair) et Mono. Le mode Toujours activé garde l'heure en graisse légère et le contour de la flèche.",
+      "Un appui long sur un point de la carte, l'argent, les étoiles ou une barre ouvre sur la montre l'aperçu de ce qu'ils montrent, sur la date votre calendrier. Les secondes défilent sur une plaque à côté de l'heure, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "kust": {
+    "name": "Kust",
+    "subtitle": "Côte néon au coucher du soleil",
+    "full": [
+      "Kust met une côte néon à votre poignet. Le ciel passe du violet au rose puis à l'orange, un soleil à lamelles est posé sur l'horizon, la mer s'étend sombre en dessous avec le soleil brisé sur l'eau, et deux palmiers se penchent depuis le bord.",
+      "L'heure brille en haut en Tilt Neon, un cœur clair dans un halo coloré, comme l'enseigne d'un hôtel de bord de mer. Le soleil est la progression : le matin il se tient bien au-dessus de la mer et s'y enfonce à mesure que vos pas remplissent leur objectif, jusqu'à ce que seul son sommet dépasse de l'eau. Il peut aussi suivre les étages, les minutes intensives, Body Battery, la batterie ou le stress.",
+      "Trois données se dressent sur la mer comme des enseignes au néon, chacune l'une des quinze sources : fréquence cardiaque, pas et météo pour commencer, ou calories, distance, étages, minutes intensives, Body Battery, stress, pression, altitude, prochain lever ou coucher du soleil, notifications ou batterie. La date est au-dessus de l'heure, dans la langue de votre montre, sous la batterie et les alertes.",
+      "Cinq thèmes : Coucher de soleil, Crépuscule, Minuit, Flamant et Tropique. Sur les écrans memory-in-pixel, le ciel est tramé dans les 64 couleurs. Le mode Toujours activé garde l'heure dans sa couleur de halo, l'horizon et le contour du soleil.",
+      "Un appui long sur une enseigne ouvre son aperçu sur la montre, sur le coucher de soleil celui de son objectif, sur la date votre calendrier. Les secondes brillent en petit sur la mer, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "dack": {
+    "name": "Däck",
+    "subtitle": "Pneu analogique",
+    "full": [
+      "Däck est un cadran analogique dessiné comme une roue de course vue de côté. Le pneu s'étend jusqu'au bord du verre, et sa bande de couleur se remplit depuis midi à mesure que vos pas remplissent leur objectif ; elle peut aussi suivre les étages, les minutes intensives, Body Battery, la batterie ou le stress. La date, dans la langue de votre montre, est moulée dans le flanc à six heures.",
+      "Dans la jante, l'enjoliveur est le cadran : index des heures, deux aiguilles cernées pour rester lisibles sur tout, et un écrou central hexagonal cerclé de la couleur de la gomme. Trois données à neuf, trois et six heures, chacune l'une des quinze sources : fréquence cardiaque, météo et Body Battery pour commencer, ou pas, calories, distance, étages, minutes intensives, stress, pression, altitude, prochain lever ou coucher du soleil, notifications ou batterie. Batterie et alertes à midi.",
+      "Les cinq thèmes sont les cinq gommes : Tendre (rouge), Medium (jaune), Dure (blanc), Intermédiaire (vert) et Pluie (bleu). Le mode Toujours activé garde la bande allumée en trait fin, les index des heures et le contour des aiguilles.",
+      "Un appui long sur une donnée ouvre son aperçu sur la montre, sur la bande celui de son objectif, sur la date votre calendrier. Une trotteuse à la couleur de la gomme, ou désactivez-la. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "bana": {
+    "name": "Bana",
+    "subtitle": "Plan du circuit",
+    "full": [
+      "Bana dessine un circuit autour de votre cadran, avec une longue ligne droite en haut, des S à droite, une chicane en bas et des vibreurs dans les virages. Une voiture en fait le tour une fois par heure : elle est sur la ligne en damier à chaque heure pile, au quart du tour à et quart, et le tour parcouru s'allume derrière elle. Le circuit est inventé, ce n'est aucun vrai tracé.",
+      "L'heure est au centre du circuit en Tomorrow, avec trois données en dessous, chacune l'une des quinze sources : fréquence cardiaque, pas et météo pour commencer, ou calories, distance, étages, minutes intensives, Body Battery, stress, pression, altitude, prochain lever ou coucher du soleil, notifications ou batterie. Quand une donnée est trop longue, toute la ligne descend d'une taille. Batterie et alertes au-dessus du circuit, et la date, dans la langue de votre montre, en dessous.",
+      "Cinq thèmes : Nuit, Gazon, Jour (clair), Néon et Mono. Le mode Toujours activé garde le circuit en trait fin, la voiture et l'heure en graisse légère.",
+      "Un appui long sur une donnée ouvre son aperçu sur la montre, sur la date votre calendrier. Les secondes défilent après la date, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "varv": {
+    "name": "Varv",
+    "subtitle": "Écran de chronométrage",
+    "full": [
+      "Varv se lit comme l'écran de chronométrage d'une retransmission de course. L'heure est sur un panneau incliné en Exo 2 Italic, une bande dans la couleur du thème à son extrémité. Au-dessus, le tour : le jour de l'année sur le nombre de jours qu'elle compte, LAP 276/365 le 3 octobre, comme sur l'habillage télé.",
+      "Sous l'heure, trois secteurs, un pour chacun de vos objectifs : par défaut les pas, les étages et les minutes intensives. Un secteur passe au violet quand son objectif est atteint, au vert tant que vous êtes en avance sur le rythme qui l'atteint à 22 h, et au jaune quand vous êtes en retard ; les minutes intensives sont réparties sur la semaine. L'icône de chaque secteur, de la même couleur, est au-dessus de sa valeur. Deux données de plus en dessous, chacune l'une des quinze sources : fréquence cardiaque et météo pour commencer, ou calories, distance, étages, Body Battery, stress, pression, altitude, prochain lever ou coucher du soleil, notifications ou batterie. La date, dans la langue de votre montre, est sur une étiquette inclinée en bas.",
+      "Cinq thèmes : Studio, Carbone, Jour (clair), Bleu canard et Néon. Le mode Toujours activé garde l'heure en graisse légère et les secteurs en contours de leur couleur.",
+      "Un appui long sur un secteur ouvre sur la montre l'aperçu de son objectif, sur une donnée le sien, sur la date votre calendrier. Les secondes défilent sur l'étiquette de la date, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "ratt": {
+    "name": "Ratt",
+    "subtitle": "Volant de course",
+    "full": [
+      "Ratt met le centre d'un volant de course à votre poignet. En haut, quinze témoins de passage de rapport, cinq verts, cinq rouges et cinq bleus, s'allument un à un à mesure que vos pas remplissent leur objectif ; à l'objectif, les quinze sont allumés. Ils peuvent aussi suivre les étages, les minutes intensives, Body Battery, la batterie ou le stress.",
+      "Au milieu, l'écran du volant : l'heure en grand en Oxanium, avec deux données au-dessus et deux en dessous, séparées par de fins traits comme sur un vrai écran. Chaque donnée est l'une des quinze sources : fréquence cardiaque, météo, pas et Body Battery pour commencer, ou calories, distance, étages, minutes intensives, stress, pression, altitude, prochain lever ou coucher du soleil, notifications ou batterie. Autour de l'écran, le tissage carbone et le caoutchouc des poignées, surpiqués dans la couleur du thème. Sous l'écran, la date dans la langue de votre montre, puis la batterie et les alertes.",
+      "Cinq thèmes : Carbone, Volt, Cobalt, Braise et Mono, qui allume les témoins en blanc. Sur les écrans memory-in-pixel, le carbone est dessiné en hachures dans les 64 couleurs. Le mode Toujours activé garde l'heure en graisse légère et les témoins allumés en anneaux.",
+      "Un appui long sur une donnée ouvre son aperçu sur la montre, sur les voyants de passage celui de leur objectif, sur la date votre calendrier. Les secondes défilent sur un petit écran après la date, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "glimt": {
+    "name": "Glimt",
+    "subtitle": "Salut en dégradé",
+    "full": [
+      "Glimt vous salue. Bonjour, bon après-midi, bonsoir ou bonne nuit, selon l'heure, et en dessous l'heure en Plus Jakarta Sans, les deux dans un dégradé qui va du bleu au rose en passant par le violet.",
+      "Autour du bord, vos pas remplissent un arc du même dégradé depuis midi, un peu plus de couleur à chaque pas ; il peut aussi suivre les étages, les minutes intensives, Body Battery ou la batterie. Quatre données dans des pastilles arrondies, chacune l'une des quinze sources : fréquence cardiaque, pas, Body Battery et météo pour commencer, ou calories, distance, étages, minutes intensives, stress, pression, altitude, prochain lever ou coucher du soleil, notifications ou batterie. La date, dans la langue de votre montre, est dans une pilule en bas, avec un petit scintillement à côté.",
+      "Cinq thèmes : Nuit, Jour (clair), Aurore, Coucher de soleil et Givre, chacun avec son dégradé. Sur les écrans memory-in-pixel, le dégradé est dessiné en trois paliers parmi les 64 couleurs. Le mode Toujours activé garde l'heure dans un dégradé doux et atténué. Le message d'accueil peut être désactivé.",
+      "Un appui long sur une donnée ouvre son aperçu sur la montre, sur l'anneau celui de son objectif, sur la date votre calendrier. Les secondes s'affichent en petit à côté de l'heure, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "kod": {
+    "name": "Kod",
+    "subtitle": "La minute en diff",
+    "full": [
+      "Kod affiche l'heure comme un développeur lit des modifications : en diff. Sous un en-tête de bloc portant la date, la minute qui vient de passer est retirée sur une ligne rouge et l'actuelle est ajoutée sur une ligne verte, plus grande, en Geist Mono. Il suit votre réglage 12 ou 24 heures : à l'heure pile, 11:00 retire 10:59.",
+      "En dessous, trois lignes à puce, chacune l'une des quinze sources : fréquence cardiaque, pas et météo pour commencer, ou calories, distance, étages, minutes intensives, Body Battery, stress, pression, altitude, prochain lever ou coucher du soleil, notifications ou batterie. Une source avec un objectif ajoute un indicateur de cinq cases en signes plus et moins, et sa puce passe au vert quand l'objectif est atteint.",
+      "Sous une invite au curseur fixe, votre Body Battery se lit comme le contexte qu'il vous reste : ou la batterie, les pas, les étages, les minutes intensives ou le stress, ou rien. Batterie et alertes en haut.",
+      "Cinq thèmes : Graphite, Papier (un éditeur clair), Minuit, Mono et Néon. Sur les écrans memory-in-pixel, chaque thème est dessiné en 64 couleurs. Le mode Toujours activé garde la minute ajoutée et l'invite.",
+      "Un appui long sur une ligne ouvre son aperçu sur la montre, sur le contexte restant celui de sa source, sur l'en-tête daté votre calendrier. Les secondes défilent à l'invite, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "tanke": {
+    "name": "Tanke",
+    "subtitle": "Terminal qui réfléchit",
+    "full": [
+      "Tanke est une session de terminal à votre poignet, où quelque chose réfléchit toujours. L'heure est dans un cadre arrondi avec la date, en Red Hat Mono, sur un noir chaud avec un accent terre cuite.",
+      "En dessous, une étoile tourne d'un cran par minute à côté d'un verbe : Méditer, Brasser, Bricoler, Percoler, vingt-quatre en tout, un nouveau chaque minute et jamais deux fois de suite le même.",
+      "Vos objectifs y sont accrochés comme une liste de tâches. Chaque ligne est une case à cocher, une icône, votre progression et l'objectif que garde votre montre : pas, étages et minutes intensives de la semaine pour commencer, ou Body Battery, batterie ou stress. Un objectif atteint est coché et barré ; la première tâche encore ouverte est celle en cours. En bas, une invite avec un curseur fixe, et en haut la batterie et les alertes.",
+      "Cinq thèmes : Argile, Ivoire (un terminal clair), Sauge, Iris et Mono. Sur les écrans memory-in-pixel, chaque thème est dessiné en 64 couleurs. Le mode Toujours activé garde l'heure et la ligne de réflexion. Le curseur ne clignote pas, car un clignotement réveillerait la montre chaque seconde.",
+      "Un appui long sur une tâche ouvre son aperçu sur la montre, sur le cadre de l'heure votre calendrier. Les secondes défilent à l'invite, ou désactivez-les."
+    ]
+  },
+  "horisont": {
+    "name": "Horisont",
+    "subtitle": "Horizon planétaire minimaliste",
+    "full": [
+      "Horisont met le bord d'un monde à votre poignet. Une planète sombre s'élève du bas du cadran et son horizon est un fin trait de lumière, qui brille sur l'espace noir et une poussière d'étoiles.",
+      "L'horizon est votre progression. Il s'allume depuis la gauche à mesure que vos pas s'additionnent, halo compris, avec un éclat à son extrémité comme le soleil qui se lève sur une planète vue depuis l'orbite. Atteignez votre objectif, et il brille d'un bout à l'autre. Il peut aussi suivre les étages, les minutes intensives, Body Battery ou la batterie.",
+      "Au-dessus, l'heure en Unbounded, une police large et grasse, avec la date dans la langue de votre montre, la batterie et les alertes. Sur la face sombre de la planète, trois données au choix parmi quinze : fréquence cardiaque, Body Battery et météo pour commencer, ou pas, calories, distance, étages, minutes intensives, stress, pression, altitude, prochain lever ou coucher du soleil, notifications ou batterie.",
+      "Cinq thèmes : Vide, en noir et blanc, et Solaire, Glace, Nébuleuse et Mars, qui teintent la lumière. Sur les écrans memory-in-pixel, chaque thème est dessiné en 64 couleurs. Le mode Toujours activé garde l'heure et l'horizon allumé en un trait fin.",
+      "Un appui long sur une donnée ouvre son aperçu sur la montre, sur l'horizon celui de son objectif, sur la date votre calendrier. Les secondes s'affichent en petit sous l'heure, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "logg": {
+    "name": "Logg",
+    "subtitle": "Données façon terminal",
+    "full": [
+      "Logg transforme votre montre en terminal. Sept lignes descendent sur une colonne, chacune avec une clé de trois lettres, une valeur et de quoi la lire : une barre de dix cases pour tout ce qui a un objectif, qui se remplit au fil de la journée, ou les deux dernières heures en mini-graphique pour la fréquence cardiaque, la pression barométrique et l'altitude.",
+      "Chaque ligne peut afficher l'une des quinze sources : fréquence cardiaque, pas, Body Battery, stress, pression, altitude, météo, calories, distance, étages, minutes intensives, prochain lever ou coucher du soleil, notifications ou batterie, ou rien du tout. Les lignes du bas ont moins de cases, pour que rien ne déborde de l'écran rond.",
+      "Au-dessus, l'heure en JetBrains Mono, le jour dans la langue de votre montre avec la date écrite à la manière ISO 8601, la batterie et les alertes. En dessous, une invite et un curseur bloc fixe ; il ne clignote pas, car un clignotement réveillerait la montre chaque seconde.",
+      "Cinq thèmes : Phosphore, Ambre, Glace, Papier et Plasma. Sur les écrans memory-in-pixel, chaque thème est dessiné en 64 couleurs. Le mode Toujours activé garde l'heure et l'invite.",
+      "Un appui long sur une ligne ouvre l'aperçu de sa donnée sur la montre, sur la date votre calendrier. Les secondes s'affichent en petit à côté de l'heure, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "matare": {
+    "name": "Mätare",
+    "subtitle": "Chronographe tableau de bord",
+    "full": [
+      "Mätare est un cadran analogique construit comme un tableau de bord. Trois jauges sont placées à neuf, trois et six heures, chacune avec son échelle, un arc rempli, une aiguille, une icône et la valeur : par défaut Body Battery, les pas et les minutes intensives, ou le stress, le score de sommeil, le temps de récupération, la batterie et les étages. L'aiguille va du vide jusqu'à un objectif ou au bout de l'échelle : une jauge a donc toujours un sens.",
+      "Quatre données dans les coins, une icône au-dessus de sa valeur, parmi vingt sources : par défaut la fréquence cardiaque, la météo, les calories et le prochain lever ou coucher du soleil, ou Body Battery, le stress, le max. et le min. du jour, la respiration, l'oxymètre de pouls, le temps de récupération, la VO2 max, le score de sommeil, les pas, la distance, l'altitude, la pression, les notifications et plus encore. À midi, la batterie et les alertes, et le jour et la date dans un guichet, dans la langue de votre montre. La VO2 max et le score de sommeil s'affichent sur les montres qui les fournissent.",
+      "Maintenez le doigt sur une jauge ou une donnée pour ouvrir l'aperçu de la montre correspondant : Body Battery, stress, fréquence cardiaque, pas, météo et le reste. Maintenez la date pour votre agenda. Sur les montres à écran tactile avec un logiciel à jour.",
+      "Les aiguilles des heures et des minutes sont cernées de la couleur du cadran pour rester lisibles sur une jauge. Activez les aiguilles adaptatives, et une aiguille devient un contour partout où elle croise une jauge ou une donnée, pour laisser voir l'aiguille et le chiffre en dessous. Les aiguilles prennent la couleur du thème, son accent ou une teinte luminescente, avec un contour épais pour plus de contraste, et une trotteuse peut avancer par sauts ou en continu. Une minuterie fait le tour du bord. Chaque chiffre est composé en Saira.",
+      "Cinq thèmes : Carbone, Acier, Bleu marine, Course et Arctique, un cadran blanc. Sur les écrans memory-in-pixel, chaque thème est dessiné en 64 couleurs. Le mode Toujours activé garde les aiguilles en contour, les index des heures et la date."
+    ]
+  },
+  "vecka": {
+    "name": "Vecka",
+    "subtitle": "Activité de la semaine",
+    "full": [
+      "Vecka montre votre semaine telle que votre montre l'enregistre : sept barres, une par jour, à partir du premier jour de la semaine réglé sur votre montre. Un jour à l'objectif s'allume dans la couleur d'accent, un jour en deçà reste terne, et aujourd'hui est vif et grandit encore. Une ligne pointillée marque l'objectif.",
+      "Les jours à venir montrent en contour les mêmes jours de la semaine dernière : il y a toujours quelque chose à battre. Sous les barres, l'initiale de chaque jour dans la langue de votre montre ; en dessous, le total de la semaine, la moyenne quotidienne et le nombre de jours à l'objectif jusqu'ici.",
+      "Au-dessus du graphique, le chiffre du jour face à son objectif, l'heure en Space Grotesk et la date avec le numéro de semaine ISO. Autour du bord, vos minutes intensives de la semaine face à l'objectif hebdomadaire de Garmin, avec le chiffre au départ de l'anneau. Batterie et alertes en haut.",
+      "Les barres peuvent afficher les pas, les calories, la distance, les étages ou les minutes intensives du jour. Cinq thèmes : Encre, Corail, Forêt, Mono et Papier. Sur les écrans memory-in-pixel, chaque thème est dessiné en 64 couleurs. Le mode Toujours activé garde l'heure et les barres de la semaine en contour.",
+      "Un appui long sur l'anneau ouvre l'aperçu des minutes d'intensité sur la montre, sur la semaine celui de sa mesure, sur la date votre calendrier. Les secondes défilent à côté de l'heure, ou désactivez-les."
+    ]
+  },
+  "kurva": {
+    "name": "Kurva",
+    "subtitle": "Historique des capteurs",
+    "full": [
+      "Kurva affiche sur le cadran l'historique que votre montre enregistre en permanence. Quatre lignes, un capteur chacune : son icône, sa valeur actuelle, ses dernières heures tracées en aire sous une courbe, et le maximum et le minimum de cette période.",
+      "Tous les graphiques partagent les mêmes colonnes, donc la même échelle de temps. Une course matinale, c'est un pic de fréquence cardiaque, une marche descendante de Body Battery et un trou dans le stress, l'un au-dessus de l'autre. Là où la montre n'a rien mesuré, le graphique laisse un trou ; il ne dessine jamais une supposition comme un zéro.",
+      "Chaque ligne peut afficher la fréquence cardiaque, Body Battery, le stress, la pression barométrique ou l'altitude, et les graphiques remontent sur 2, 4, 8 ou 12 heures. Deux données de plus en bas, parmi quinze sources : pas, calories, distance, étages, minutes intensives, météo, prochain lever ou coucher du soleil et plus encore. L'heure est composée en grand en Inter Tight, avec la date dans la langue de votre montre, et la batterie et les alertes en haut.",
+      "Chaque capteur garde sa couleur sur toutes les lignes. Cinq thèmes : Nuit, Ardoise, Papier, Mono et Ambre. Sur les écrans memory-in-pixel, chaque thème est dessiné en 64 couleurs. Le mode Toujours activé garde l'heure et les quatre courbes.",
+      "Un appui long sur un graphique ouvre l'aperçu de son capteur sur la montre, sur une donnée celui de sa source, sur la date votre calendrier. Les secondes défilent à côté de l'heure, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "klotter": {
+    "name": "Klotter",
+    "subtitle": "Cahier de gribouillis",
+    "full": [
+      "Klotter, c'est une page de cahier d'écolier sur votre montre : papier quadrillé, marge rouge, un smiley et une spirale griffonnés dans les coins, et l'heure écrite en grand au marqueur sur une bande de surligneur jaune.",
+      "Sous l'heure, trois gribouillis tracés au stylo, et ce sont vos objectifs. L'étoile, ce sont vos pas, l'éclair votre Body Battery et la flamme vos minutes intensives. Chacun se colorie au marqueur de bas en haut à mesure que son objectif se remplit, et quand un objectif est atteint le gribouillis devient un autocollant : colorié en plein, bordé de blanc, avec une petite étincelle. La valeur de chaque gribouillis est écrite en dessous.",
+      "La date est au-dessus de l'heure, dans la langue de votre montre, soulignée à la main, avec la batterie et les alertes en haut.",
+      "Cinq papiers : un cahier blanc au stylo bleu, du papier kraft au marqueur noir, un tableau noir, un plan d'architecte et une page de minuit aux marqueurs fluo. Chaque gribouillis peut suivre les pas, Body Battery, les minutes intensives, les étages, la batterie ou le stress.",
+      "Sur les écrans memory-in-pixel, le cahier est en papier blanc, qui se lit mieux au soleil, et chaque page est dessinée en 64 couleurs. Le mode Toujours activé garde le contour des trois gribouillis et l'heure.",
+      "Un appui long sur un gribouillis ouvre sur la montre l'aperçu de ce qu'il mesure, sur la date votre calendrier. Les secondes défilent en petit sous les gribouillis, ou désactivez-les."
+    ]
+  },
+  "hoppa": {
+    "name": "Hoppa",
+    "subtitle": "Jeu de plateforme pixel",
+    "full": [
+      "Hoppa transforme votre journée en niveau de jeu en pixel art. Le bas du cadran est le niveau : de l'herbe sur des briques, une colline, une rangée de pièces d'or et un drapeau tout au bout. Le héros est un chat roux en écharpe rouge, et il court grâce à vos pas. Chaque matin, il part de la gauche ; à mesure que vous marchez, il court vers la droite en ramassant chaque pièce sur son passage, et quand votre objectif de pas est atteint il touche le drapeau, le drapeau monte et le chat saute.",
+      "Au-dessus du niveau, cinq cœurs sont votre Body Battery, comme la barre de vie d'un jeu, remplis d'un demi-cœur à la fois. L'heure est dessinée en grands chiffres pixelisés, construits bloc par bloc pour chaque écran afin de rester parfaitement nets, avec une ombre portée comme un score de jeu. Deux données en dessous, fréquence cardiaque et pas pour commencer, et la date et la batterie en haut.",
+      "Cinq mondes : une prairie sous un ciel bleu, une nuit étoilée, un désert au coucher du soleil, la neige et la lave. Le chat peut courir grâce aux pas, à Body Battery, aux minutes intensives, aux étages ou à la batterie, et les cœurs peuvent afficher n'importe laquelle de ces sources sauf le stress.",
+      "Sur les écrans memory-in-pixel, chaque monde est dessiné en pixel art en aplats de 64 couleurs, comme une console le dessinerait. Le mode Toujours activé garde les chiffres en points, la ligne du sol, le contour du chat et le mât du drapeau.",
+      "Un appui long sur une donnée ouvre son aperçu sur la montre, sur les cœurs le leur, sur le niveau celui de la course du chat, sur la date votre calendrier. Les secondes défilent au bout de la ligne de date, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "raket": {
+    "name": "Raket",
+    "subtitle": "Fusée pour la Lune",
+    "full": [
+      "Raket est une mission spatiale sur votre montre. La Terre est en bas à gauche du cadran et la Lune en haut à droite, et une petite fusée vole de l'une à l'autre le long du bord : ce vol est votre objectif de pas. Chaque matin, la fusée attend sur son pas de tir ; à mesure que vous marchez, elle monte par le haut du cadran, une traînée de fumée derrière elle et un chemin en pointillés devant, et quand l'objectif est atteint elle se pose près de la Lune dans une gerbe d'étincelles.",
+      "La Lune est dessinée dans sa phase réelle, celle de ce soir, calculée sur la montre. Des étoiles et une planète à anneaux remplissent le reste du ciel.",
+      "L'heure est composée en grand en Bungee, une police d'enseigne bien grasse, avec la date au-dessus dans la langue de votre montre. Deux données sous l'heure, fréquence cardiaque et pas pour commencer, puis la batterie et les alertes.",
+      "Cinq missions : bleu marine classique avec une fusée rouge, bleu canard rétro, violet galaxie, rouille martienne et noir de nuit. La fusée peut aussi voler grâce à Body Battery, aux minutes intensives, aux étages ou à la batterie.",
+      "Sur les écrans memory-in-pixel, chaque mission est dessinée en 64 couleurs ; sur AMOLED, tout est lissé. Le mode Toujours activé garde le chemin à venir en pointillés, le contour de la fusée, la Terre et la Lune, et l'heure.",
+      "Un appui long sur une donnée ouvre son aperçu sur la montre, sur le ciel l'objectif du vol, sur la date votre calendrier. Les secondes défilent en petit parmi les étoiles en bas, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "kompis": {
+    "name": "Kompis",
+    "subtitle": "Compagnon de poche",
+    "full": [
+      "Kompis est un petit personnage rond aux oreilles pointues, avec une pousse sur la tête, et il vit sur votre montre. Cinq cœurs sont sous lui, et ils sont votre objectif de pas : chaque cœur vaut un cinquième de l'objectif et se remplit d'un demi-cœur à la fois. Quand les cinq sont pleins, Kompis lève les bras et des confettis tombent.",
+      "Son humeur, c'est votre Body Battery. Reposé, il bondit, les yeux bien fermés et la bouche grande ouverte ; au fil de la journée, il est heureux, puis fatigué, les paupières lourdes, et épuisé, avec une goutte de sueur, quand votre batterie s'épuise. Le soir, il s'endort, de l'heure de coucher de votre profil Garmin à votre heure de réveil, et se réveille avec vous. Le sommeil peut être désactivé.",
+      "L'heure est composée en grand en Baloo 2, une police ronde et sympathique, avec la date au-dessus dans la langue de votre montre. Deux données à côté du compagnon, fréquence cardiaque et pas pour commencer, et la batterie et les alertes en bas.",
+      "Cinq couleurs de Kompis : menthe, pêche, baie, bleu ciel et citron. Les cœurs peuvent aussi se remplir avec Body Battery, les minutes intensives, les étages ou la batterie, et l'humeur peut suivre n'importe laquelle de ces sources sauf le stress.",
+      "Sur les écrans memory-in-pixel, Kompis est dessiné en 64 couleurs ; sur AMOLED, il est lissé. Le mode Toujours activé montre Kompis endormi, en fin contour, et l'heure.",
+      "Un appui long sur une donnée ouvre son aperçu sur la montre, sur ton compagnon celui de son humeur, sur les cœurs le leur, sur la date ton calendrier. Les secondes défilent au bout de la ligne de date, ou désactive-les. Les températures suivent la montre, ou choisis °C ou °F."
+    ]
+  },
+  "parla": {
+    "name": "Pärla",
+    "subtitle": "Perle & or rose",
+    "full": [
+      "Pärla est une montre habillée pour tous les jours. Le cadran est en nacre, posée en anneaux doux de perle, rose poudré et bleu pâle ; autour court un rehaut avec minuterie en or rose, une pierre taillée à chaque heure et une couronne de trois à midi. Les aiguilles dauphine sont facettées le long de leur arête, si bien qu'un côté accroche la lumière et l'autre tombe dans l'ombre, et elles tournent sur une perle sertie d'or rose.",
+      "À six heures, un sous-cadran fait avancer une perle sur son arc vers votre objectif de pas, avec le compte au centre ; à trois heures, un petit guichet affiche la fréquence cardiaque, ou la donnée de votre choix. Sous la couronne, la date dans la langue de votre montre, la batterie et les alertes.",
+      "Cinq cadrans : perle, rose poudré, champagne avec or jaune, une perle noire de Tahiti, et saphir avec or blanc. Le sous-cadran peut suivre les pas, Body Battery, le stress, les minutes intensives, les étages ou la batterie.",
+      "Les lettres sont en Cormorant Garamond. Sur les écrans memory-in-pixel, les cadrans clairs sont dessinés comme des plaques nettes blanches, roses et crème qui se lisent mieux au soleil ; sur AMOLED, la nacre et les aiguilles sont lissées. Le mode Toujours activé garde les aiguilles et une pierre à chaque quart.",
+      "Un appui long sur le guichet ouvre l'aperçu de sa donnée sur la montre, sur le sous-cadran celui de son objectif, sur la date votre calendrier. Une aiguille des secondes dans la couleur d'accent, ou désactivez-la. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "stjarna": {
+    "name": "Stjärna",
+    "subtitle": "Étoiles du zodiaque",
+    "full": [
+      "Stjärna met votre signe dans le ciel. Sa constellation est tracée d'après les vraies étoiles, chacune à sa place et à son éclat réels, sous un fin anneau du zodiaque où le douzième de votre signe est mis en valeur. Le signe suit le soleil au fil de l'année, ou gardez le vôtre toute l'année dans les réglages.",
+      "Les étoiles sont votre Body Battery. Au réveil, toute la figure est allumée et reliée d'or ; à mesure que la journée use votre énergie, les étoiles pâlissent une à une, dans l'ordre du tracé de la figure. Les plus brillantes sont les plus grandes, et la plus brillante de toutes porte un petit éclat.",
+      "À côté de la date, dans la langue de votre montre, la lune montre sa phase réelle, du croissant à la pleine lune et retour. Batterie et alertes en dessous, l'heure en Josefin Sans, et deux données en bas : fréquence cardiaque et pas pour commencer.",
+      "Cinq ciels : bleu nuit et or, améthyste, bois de rose, onyx et argent, et lagon. Les étoiles peuvent suivre Body Battery, les pas, le stress, les minutes intensives, les étages ou la batterie.",
+      "Sur les écrans memory-in-pixel, chaque ciel est dessiné en 64 couleurs ; sur AMOLED, les étoiles sont lissées. Le mode Toujours activé garde les lignes de la figure, ses étoiles allumées, le bord éclairé de la lune et l'heure.",
+      "Un appui long sur une donnée ouvre son aperçu sur la montre, sur la constellation celui de sa jauge, sur la date votre calendrier. Les secondes s'affichent en petit à côté de l'heure, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "fjaril": {
+    "name": "Fjäril",
+    "subtitle": "Papillon",
+    "full": [
+      "Fjäril est un papillon au-dessus de l'heure, aux ailes faites comme un vitrail : des panneaux de couleur entre des nervures sombres, des points blancs le long de la bordure. Les panneaux sont votre Body Battery. Au réveil, chacun est allumé ; à mesure que la journée use votre énergie, ils s'éteignent depuis la pointe des ailes antérieures vers le bas, de la même façon des deux côtés, jusqu'à ce que seul le verre près du corps brille encore. Vous le lisez d'un coup d'œil.",
+      "L'heure est composée en grand en Quicksand, une police douce et arrondie. En dessous, la date, dans la langue de votre montre, partage une ligne avec la batterie et les alertes, et trois données sont en bas : fréquence cardiaque, pas et stress pour commencer.",
+      "Cinq papillons : l'orange d'un monarque, le bleu d'un morpho, rose, lilas et le citrine d'un machaon, chacun sur un cadran sombre d'une couleur que l'aile n'a pas. Les ailes peuvent suivre Body Battery, les pas, le stress, les minutes intensives, les étages ou la batterie.",
+      "Sur les écrans memory-in-pixel, chaque papillon est dessiné en 64 couleurs ; sur AMOLED, chaque panneau est lissé. Le mode Toujours activé garde le contour des ailes, les panneaux allumés en fins contours et l'heure."
+    ]
+  },
+  "krans": {
+    "name": "Krans",
+    "subtitle": "Couronne de fleurs",
+    "full": [
+      "Krans est une couronne de fleurs autour du bord de votre montre. Une tige de feuilles porte douze fleurs, une par heure : des roses à midi, trois, six et neuf heures, de plus petites fleurs entre elles. Elles sont votre objectif de pas. Chaque matin la couronne commence en boutons ; à mesure que vous marchez, les fleurs s'ouvrent une à une, dans le sens horaire depuis midi, et la couronne est en pleine floraison quand l'objectif est atteint.",
+      "Dans la couronne, l'heure est composée en grand en Bodoni Moda, une police à empattements classique et contrastée, avec la date au-dessus dans la langue de votre montre. Trois données sous l'heure, fréquence cardiaque, pas et Body Battery pour commencer, et la batterie et les alertes en bas.",
+      "Cinq couronnes : roses poudrées sur prune, vieux rose sur ivoire, roses blanches sur sauge, champagne sur bleu nuit, et un mélange vif de fleurs des champs. Les fleurs peuvent aussi suivre Body Battery, les minutes intensives, les étages ou la batterie.",
+      "Sur les écrans memory-in-pixel, chaque couronne est dessinée en 64 couleurs, et l'ivoire devient un cadran blanc qui se lit mieux au soleil ; sur AMOLED, chaque pétale est lissé. Le mode Toujours activé garde la tige, les fleurs ouvertes en fins contours et l'heure.",
+      "Un appui long sur une donnée ouvre son aperçu sur la montre, sur la couronne celui de sa jauge, sur la date votre calendrier. Les secondes défilent au bout de la ligne de date, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "lov": {
+    "name": "Löv",
+    "subtitle": "Feuilles d'automne",
+    "full": [
+      "Löv est une branche d'érable sur un ciel d'automne. Ses feuilles sont votre Body Battery : au réveil, les dix-huit sont sur la branche, en rouge, orange et or ; à mesure que la journée use votre énergie, elles tombent des extrémités vers l'intérieur, et chaque feuille qui tombe descend en planant vers la colline. Vous la lisez d'un coup d'œil, et une petite légende en dessous indique ce que mesurent les feuilles et où elles en sont.",
+      "La colline accueille quatre données : stress, fréquence cardiaque, météo et prochain lever ou coucher du soleil, chacune avec son icône. Batterie et alertes sont en haut avec la date.",
+      "Le ciel suit le soleil : une aube brumeuse, un jour bleu et vif, un crépuscule ambré et une nuit étoilée, où les feuilles prennent les couleurs du clair de lune. Ou gardez l'un des cinq ciels : aube, jour, crépuscule, nuit ou heure dorée.",
+      "Les chiffres sont en Fraunces, une police à empattements tout en douceur. Sur les écrans memory-in-pixel, chaque ciel est dessiné en 64 couleurs, tramé à la main ; sur AMOLED, c'est un dégradé fluide. Le mode Toujours activé garde la branche, ses feuilles et l'heure.",
+      "Un appui long sur une donnée ouvre son aperçu sur la montre, sur la légende celui de la jauge, sur la date votre calendrier. Les secondes défilent au bout de la légende, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "natt": {
+    "name": "Natt",
+    "subtitle": "Lune gothique",
+    "full": [
+      "Natt est un cadran gothique pour les longues nuits. Des aiguilles blanc d'os glissent sur un cadran sombre : une courte aiguille des heures à pointe en pique, une longue aiguille des minutes avec une chauve-souris en contrepoids. XII, III et IX sont composés en gothique, les autres heures sont de fins index en lancette, et à six heures une fenêtre en demi-lune montre le ciel nocturne avec la lune dans sa phase réelle, du croissant à la pleine lune et retour.",
+      "Sous XII, la date dans la langue de votre montre, la batterie et les alertes ; au-dessus de la fenêtre, une donnée, la fréquence cardiaque pour commencer.",
+      "Cinq cadrans : os sur noir, sang, braise, améthyste et argent. Né pour Halloween, il est fait pour être porté bien après.",
+      "Les chiffres et la date sont en Grenze Gotisch, une écriture gothique. Sur les écrans memory-in-pixel, chaque cadran est dessiné en 64 couleurs ; sur AMOLED, les aiguilles sont lissées. Le mode Toujours activé garde les aiguilles, trois index et le bord éclairé de la lune.",
+      "Un appui long sur la donnée ouvre son aperçu sur la montre, sur la date votre calendrier. Une aiguille des secondes dans la couleur d'accent, ou désactivez-la. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "lykt": {
+    "name": "Lykt",
+    "subtitle": "Citrouille d'Halloween",
+    "full": [
+      "Lykt est une citrouille d'Halloween, et la montre est la lumière à l'intérieur. L'heure est le sourire : ses chiffres sont les dents laissées intactes, sombres contre la bougie. Chaque œil porte une donnée, fréquence cardiaque et pas pour commencer, et le nez est votre Body Battery : la bougie le remplit par le bas, un nez sombre quand vous êtes à plat et un nez plein de lumière quand vous êtes en forme. Batterie et alertes sont sous le couvercle ; la date est sur l'écorce sous le sourire.",
+      "Cinq citrouilles : orange classique, une citrouille fantôme blanche à la lueur bleue et froide, rouge braise, vert poison et une citrouille noire minuit à la lueur orange.",
+      "Les chiffres sont en Oswald, hauts et étroits comme des dents sculptées. Sur les écrans memory-in-pixel, chaque citrouille est dessinée en 64 couleurs ; sur AMOLED, la lueur est la plus vive en son cœur. Le mode Toujours activé garde les contours sculptés, le niveau de la bougie et l'heure, allumés dans le noir."
+    ]
+  },
+  "dimma": {
+    "name": "Dimma",
+    "subtitle": "Cimetière d'Halloween",
+    "full": [
+      "Dimma est un cimetière sur une colline, la nuit. Un chêne nu se penche sur sept pierres tombales, des chauves-souris passent devant la lune, et un banc de brouillard s'étend sur les tombes. Le brouillard, c'est votre Body Battery : quand votre énergie est au plus bas, il engloutit chaque pierre ; à mesure qu'elle revient, il se dissipe, jusqu'à ne plus couvrir que le pied de la colline, chaque tombe bien visible. Une petite légende indique ce que mesure le brouillard et à quel point il s'est levé.",
+      "Le premier plan accueille quatre données : pas, fréquence cardiaque, météo et prochain lever ou coucher du soleil, chacune avec son icône. Batterie et alertes sont en haut avec la date.",
+      "Choisissez la nuit : une nuit claire, une lune de sang, l'heure des sorcières, la brume ou l'heure bleue. La lune montre sa phase réelle.",
+      "Les chiffres sont en Creepster, les lettres dégoulinantes d'une vieille affiche d'horreur. Sur les écrans memory-in-pixel, chaque ciel est dessiné en 64 couleurs, tramé à la main ; sur AMOLED, c'est un dégradé fluide. Le mode Toujours activé garde l'heure, la colline, le bord éclairé de la lune et le haut du brouillard."
+    ]
+  },
+  "pumpa": {
+    "name": "Pumpa",
+    "subtitle": "Champ de citrouilles d'Halloween",
+    "full": [
+      "Pumpa est un champ de citrouilles à la fin d'une journée d'octobre. Sept citrouilles reposent dans le champ sous une clôture de travers et une lune des moissons, et elles s'allument une à une à mesure que vos pas s'additionnent : un visage sculpté pour chaque septième de votre objectif, et une flaque de lumière de bougie sur la terre en dessous. Une petite légende indique ce que comptent les lanternes et où vous en êtes.",
+      "Le premier plan accueille quatre données : fréquence cardiaque, Body Battery, météo et prochain lever ou coucher du soleil, chacune avec son icône. Batterie et alertes sont en haut avec la date.",
+      "Gardez le champ au crépuscule, ou choisissez le givre, l'or des moissons, la nuit ou une lune de sang, ou laissez le ciel suivre le soleil. La lune montre sa phase réelle.",
+      "Les chiffres sont en Jolly Lodger, une police espiègle et effrayante. Sur les écrans memory-in-pixel, chaque ciel est dessiné en 64 couleurs, tramé à la main ; sur AMOLED, c'est un dégradé fluide. Le mode Toujours activé garde l'heure, une ligne de sol et les visages allumés, qui brillent dans le noir."
+    ]
+  },
+  "eng": {
+    "name": "Eng",
+    "subtitle": "",
+    "full": [
+      "Eng est un champ de lavande qui court jusqu'aux collines. Sa floraison est votre Body Battery : au réveil, les rangs sont en fleurs jusqu'à l'horizon ; à mesure que la journée use votre énergie, la couleur redescend le champ et les rangs reviennent en boutons. Vous le lisez comme un vrai champ, et une petite légende en dessous indique ce que mesure la floraison et où elle en est.",
+      "Le premier plan accueille quatre données pour une journée plus calme : stress, fréquence cardiaque, météo et prochain lever ou coucher du soleil, chacune avec son icône. Batterie et alertes sont en haut avec la date.",
+      "Le ciel suit le soleil : l'aube après le lever, un jour bleu et clair, l'heure lavande avant le coucher, et une nuit de lucioles sur le champ. Ou gardez l'un des cinq ciels : aube, jour, crépuscule, nuit ou heure dorée.",
+      "Les chiffres sont en Fraunces, une police à empattements tout en douceur. Sur les écrans memory-in-pixel, chaque ciel est dessiné en 64 couleurs, tramé à la main ; sur AMOLED, c'est un dégradé fluide. Le mode Toujours activé garde la crête du champ, la limite de la floraison et l'heure.",
+      "Un appui long sur une donnée ouvre son aperçu sur la montre, sur la légende celui de la jauge, sur la date votre calendrier. Les secondes défilent au bout de la légende, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "blom": {
+    "name": "Blom",
+    "subtitle": "",
+    "full": [
+      "Blom est une branche de cerisier en fleurs sur le ciel. Ses fleurs sont votre Body Battery : au réveil, les dix-huit sont ouvertes ; à mesure que la journée use votre énergie, elles se ferment des extrémités vers l'intérieur, et chacune qui se ferme laisse tomber un pétale sur l'herbe. Vous la lisez d'un coup d'œil, et une petite légende en dessous indique ce que mesure la floraison et où elle en est.",
+      "Le jardin accueille quatre données pour une journée plus calme : stress, fréquence cardiaque, météo et prochain lever ou coucher du soleil, chacune avec son icône. Batterie et alertes sont en haut avec la date.",
+      "Le ciel suit le soleil : l'aube après le lever, un jour d'un bleu doux, le crépuscule avant le coucher et une nuit étoilée ensuite, où les fleurs deviennent argentées. Ou gardez l'un des cinq ciels : aube, jour, crépuscule, nuit ou rose poudré.",
+      "Les chiffres sont en Fraunces, une police à empattements tout en douceur. Sur les écrans memory-in-pixel, chaque ciel est dessiné en 64 couleurs, tramé à la main ; sur AMOLED, c'est un dégradé fluide. Le mode Toujours activé garde la branche, ses fleurs ouvertes et l'heure.",
+      "Un appui long sur une donnée ouvre son aperçu sur la montre, sur la légende celui de la jauge, sur la date votre calendrier. Les secondes défilent au bout de la légende, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "hav": {
+    "name": "Hav",
+    "subtitle": "",
+    "full": [
+      "Hav est une crique au bord du jour. La marée sur sa plage, c'est votre Body Battery : après une bonne nuit, la mer monte jusqu'au pied de la dune ; à mesure que la journée use votre énergie, l'eau se retire et la plage s'élargit. Vous la lisez comme un vrai rivage, et une petite légende en dessous indique ce que mesure la marée et jusqu'où elle est montée.",
+      "La dune accueille quatre données pour une journée plus calme : stress, fréquence cardiaque, météo et prochain lever ou coucher du soleil, chacune avec son icône. Batterie et alertes sont en haut avec la date.",
+      "Le ciel suit le soleil : l'aube après le lever, un jour d'un bleu doux, le crépuscule avant le coucher, et à la nuit tombée Måne, la lune sur l'eau dans sa phase réelle, avec son chemin de lumière sur la mer. Ou gardez l'un des cinq ciels : aube, jour, crépuscule, Måne ou perle.",
+      "Les chiffres sont en Fraunces, une police à empattements tout en douceur. Sur les écrans memory-in-pixel, chaque ciel est dessiné en 64 couleurs, tramé à la main ; sur AMOLED, c'est un dégradé fluide. Le mode Toujours activé garde l'horizon, la ligne de marée et l'heure.",
+      "Un appui long sur une donnée ouvre son aperçu sur la montre, sur la légende celui de la jauge, sur la date votre calendrier. Les secondes défilent au bout de la légende, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "fjell": {
+    "name": "Fjell",
+    "subtitle": "",
+    "full": [
+      "Au petit-déjeuner, les sommets ne sont que roche nue. À mesure que votre objectif de pas se remplit, la limite des neiges descend la montagne ; un objectif atteint, c'est une chaîne sous la neige. Vous la lisez comme une vraie montagne, à la hauteur où descend le blanc, et une petite légende en dessous indique ce que mesure la neige et où vous en êtes.",
+      "La vallée accueille les quatre données qu'une journée dehors demande : altitude, fréquence cardiaque, météo et prochain lever ou coucher du soleil, chacune avec son icône. Batterie et alertes sont en haut avec la date.",
+      "Le ciel suit le soleil : l'aube après le lever, le bleu toute la journée, le crépuscule avant le coucher et une nuit étoilée ensuite. Ou gardez l'un des six ciels : crépuscule, aube, jour, nuit, lueur alpine, ou un ciel arctique avec l'aurore basse sur les crêtes.",
+      "Sur les écrans memory-in-pixel, chaque ciel est dessiné en 64 couleurs, tramé à la main plutôt qu'arrondi ; sur AMOLED, c'est un dégradé fluide. Le mode Toujours activé garde la ligne des crêtes et l'heure, avec 3 % des pixels allumés.",
+      "Un appui long sur une donnée ouvre son aperçu sur la montre, sur la légende celui de la jauge, sur la date votre calendrier. Les secondes défilent au bout de la légende, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "klar": {
+    "name": "Klar",
+    "subtitle": "",
+    "full": [
+      "Klar superpose les heures aux minutes pour que les chiffres puissent être deux fois plus grands qu'une seule ligne ne le permet : des chiffres épais et nets, lisibles à bout de bras, en mouvement, sans lunettes.",
+      "Colorez les minutes dans l'une des cinq couleurs, ou gardez tout d'une seule couleur. De chaque côté de l'heure, une donnée avec son icône : pas et fréquence cardiaque pour commencer, ou l'une des quinze sources. Batterie et alertes en haut, date et météo en bas, et rien d'autre.",
+      "Sur les écrans memory-in-pixel, Klar est noir sur blanc : un écran réflectif se lit mieux sur fond clair en plein jour. Sur AMOLED, il est blanc sur noir. Le mode Toujours activé garde les chiffres, plus petits, avec 4 % des pixels allumés.",
+      "Un appui long sur une donnée latérale ouvre son aperçu sur la montre, sur la date votre calendrier. Les secondes défilent au bout de la ligne de date, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "artefact": {
+    "name": "Artefact",
+    "subtitle": "",
+    "full": [
+      "Quatre tubes Nixie se dressent sur leurs supports dans un boîtier en laiton usiné. Chaque chiffre est un fil courbé qui rayonne depuis la cathode, avec les neuf cathodes éteintes visibles derrière, exactement comme dans un vrai tube. Les deux-points au néon entre eux battent chaque seconde.",
+      "Sous les tubes, un vumètre qui fonctionne : une échelle rétroéclairée de 0 à 100 avec une zone rouge, et une aiguille qui suit votre objectif de pas, ou Body Battery, le stress, les étages, les minutes intensives ou la batterie. De chaque côté, quatre voyants au néon s'allument quand votre téléphone est connecté, que des messages attendent, qu'une alarme est réglée ou que Ne pas déranger est activé. La date est gravée sur une plaque de laiton au-dessus des tubes, et une seconde plaque en dessous affiche la valeur de votre choix : batterie, fréquence cardiaque, météo, coucher du soleil et plus encore.",
+      "Cinq couleurs de tubes (orange néon, vert œil magique, bleu argon, violet et blanc) et trois finitions de boîtier (laiton, acier noirci et cuivre), au choix indépendamment. Le mode Toujours activé garde les chiffres en fil fin, avec 1 % des pixels allumés.",
+      "Un appui long sur le vumètre ouvre l'aperçu de sa source sur la montre, sur la plaque du bas celui de sa donnée, sur la date votre calendrier. Les secondes sont gravées sur la plaque du bas, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "ringar": {
+    "name": "Ringar",
+    "subtitle": "",
+    "full": [
+      "Trois anneaux d'objectifs encadrent une heure grande et calme. Choisissez ce que suit chaque anneau : pas, minutes intensives, étages, Body Battery, stress ou batterie. Chaque anneau est légendé : son icône et sa valeur, dans sa propre couleur, juste sous l'heure, pour savoir toujours quel anneau est lequel.",
+      "Au-dessus de l'heure : la date et la météo de votre téléphone. En dessous : la batterie, et vos notifications, Ne pas déranger et alarme, affichées seulement quand elles ont quelque chose à dire.",
+      "Huit thèmes de couleurs, du calme nordique au Vif. Le mode Toujours activé est conçu pour l'écran, pas simplement assombri : votre progression et l'heure, avec 8 % des pixels allumés.",
+      "Les chiffres sont dessinés pour chaque taille d'écran, jamais mis à l'échelle.",
+      "La légende des anneaux peut afficher ses propres données : fréquence cardiaque, météo, score de sommeil ou toute autre source, pour compléter les anneaux au lieu de les répéter. Un appui long sur un anneau ou une donnée de la légende ouvre son aperçu sur la montre, sur la date votre calendrier. Les secondes s'affichent en petit sous l'heure, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "datum": {
+    "name": "Datum",
+    "subtitle": "",
+    "full": [
+      "Tout d'un coup d'œil, et rien de décoratif. Une grande heure étroite, les heures en blanc et les minutes dans votre couleur d'accent, avec la date et les secondes en direct en dessous. Autour, six champs de données au choix, chacun avec son icône, et deux arcs de lunette pour vos pas, la batterie, Body Battery, les étages, les minutes intensives ou le stress, avec leur valeur sous chaque arc.",
+      "La météo et le prochain lever ou coucher du soleil font partie des sources. Batterie, notifications, Ne pas déranger et alarme sont en bas, affichés seulement quand ils ont quelque chose à dire.",
+      "Six couleurs d'accent. Le mode Toujours activé garde l'heure et la date.",
+      "Les chiffres sont taillés pour chaque taille d'écran, jamais mis à l'échelle.",
+      "Un appui long sur un champ ou une jauge de lunette ouvre son aperçu sur la montre, sur la date votre calendrier. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "blackline": {
+    "name": "Blackline",
+    "subtitle": "",
+    "full": [
+      "Un cadran d'instrument. En haut, une bande de cap en direct, un affichage à sept segments au pochoir découpé dans des polygones, et six champs de données au choix, chacun avec son icône : fréquence cardiaque, pas, altitude, Body Battery, météo, prochain lever ou coucher du soleil, et plus encore.",
+      "Le long du bord inférieur, un arc du jour va du lever au coucher du soleil et se remplit au fil de la journée : vous voyez d'un coup d'œil combien de lumière il reste. Sous les données : la batterie, et vos notifications, Ne pas déranger et alarme, affichées seulement quand elles ont quelque chose à dire.",
+      "Les segments éteints sont dessinés, à peine visibles, comme sur un vrai afficheur. Six couleurs d'affichage, dont un vert vision nocturne et un rouge qui préserve votre vision de nuit. Le mode Toujours activé ne garde que l'affichage et la date.",
+      "Chaque couleur est réglée à la main pour les écrans memory-in-pixel et affichée en couleur complète sur AMOLED.",
+      "Un appui long sur un champ ouvre son aperçu sur la montre, sur la date votre calendrier. Les secondes défilent après la date, ou désactivez-les. Les températures suivent la montre, ou choisissez °C ou °F."
+    ]
+  },
+  "atelier": {
+    "name": "Atelier",
+    "subtitle": "",
+    "full": [
+      "Une montre habillée, dessinée pour une montre connectée. Un cadran guilloché soleillé, des index rhodiés appliqués sur une minuterie chemin de fer, des aiguilles dauphine polies et trois compteurs : vos pas (ou n'importe quel objectif) à neuf heures, une réserve de marche pour votre batterie à trois heures, et la petite seconde à six heures.",
+      "Sous midi, votre nom ou vos initiales en capitales gravées, et un guichet jour-date au cadre biseauté.",
+      "Six couleurs de cadran : Bleu nuit, Gris ardoise, Champagne, Vert anglais, Saumon et Glacier. En mode Toujours activé, les aiguilles et quatre index restent en contour, avec 1 % des pixels allumés.",
+      "Sur les écrans memory-in-pixel, chaque couleur est choisie parmi les 64 que l'écran peut afficher ; sur AMOLED, c'est la couleur complète.",
+      "Un appui long sur un compteur ouvre sur la montre l'aperçu de ce qu'il mesure, sur le guichet de date votre calendrier."
+    ]
+  },
+  "one-more-step": {
+    "name": "One More Step",
+    "subtitle": "Succès : le tour du monde",
+    "full": [
+      "One More Step ajoute la distance que votre montre mesure chaque jour à un voyage autour de l'équateur : 40 075 km (24 901 mi). Le voyage commence la première fois que vous l'ouvrez. Quand un tour est fini, le suivant commence ; rien n'est jamais remis à zéro.",
+      "Le glance montre votre tour et où vous en êtes. L'application montre la distance restante comme un anneau autour du bord de l'écran, et le mois où vous ferez le tour à votre rythme actuel. Les détails donnent votre total, vos tours, votre journée moyenne, la date de départ et la distance jusqu'au prochain objectif.",
+      "En chemin vous attendent 33 longueurs célèbres, du pont du Golden Gate (2,7 km) le premier jour au canal de Suez, au chemin de Compostelle, au Nil et à toute la Grande Muraille de Chine, jusqu'aux vingt mille lieues de Verne : deux fois le tour du monde. Quand votre total en atteint une, l'application s'ouvre sur une carte qui le dit : « Vous avez parcouru le canal de Suez, 193 km ». Depuis les détails, balayez vers le haut ou appuyez vers le bas pour la liste complète : ce que vous avez fait, ce qui vient et à quelle distance, et ce qui reste à venir.",
+      "Elle compte la distance quotidienne que votre montre calcule déjà à partir de vos pas. Les marches et courses enregistrées en font partie, donc rien ne compte deux fois, et seul ce que vous marchez depuis la première ouverture compte. L'arrivée demande d'abord une journée complète ; d'ici là elle affiche « Arrivée : calcul » et le nombre d'heures restantes. La distance est en km ou en mi, selon le réglage de votre montre.",
+      "La montre garde 7 jours d'historique, et l'application le lit toutes les 6 heures. Si elle ne le peut pas pendant plus de 7 jours (montre éteinte), ces jours sont perdus ; rien n'est deviné à leur place. Seuls les pas comptent : le vélo et la natation non. Supprimer l'application efface le voyage ; les applications de montre n'ont pas de sauvegarde. Tout reste sur votre montre : pas de compte, pas d'application sur le téléphone, rien n'est envoyé nulle part.",
+      "Un tour à 7 km par jour, c'est environ 15 ans. L'anneau est la vue lointaine, les objectifs les semaines et les mois entre les deux, et la marche du jour la vue proche.",
+      "En français, anglais, polonais, allemand, espagnol, italien, néerlandais, portugais, slovaque et tchèque."
+    ]
+  },
+  "stargazing": {
+    "name": "Stargazing Forecast",
+    "subtitle": "Ciel nocturne",
+    "full": [
+      "Stargazing Forecast répond à une seule question : vaut-il la peine de sortir ce soir, et quand ? La météo de Garmin dit « partiellement nuageux ». Un observateur a besoin de plus : fait-il noir, la Lune gêne-t-elle, l’air est-il limpide et calme, et à quelles heures tout cela coïncide-t-il ?",
+      "Le glance donne l’avis pour votre ciel préféré : Sortir, Peut-être ou Rester, et la meilleure plage horaire. C’est l’avis que l’application a calculé en dernier, avec son heure s’il date de plusieurs heures : ouvrir l’application le met à jour. Ouvrez l’application pour cette nuit et les deux suivantes, chacune avec trois avis côte à côte :",
+      "Ciel prof. (ciel profond) : galaxies, nébuleuses et champs d’étoiles. Il faut la nuit astronomique, la Lune couchée ou fine, un ciel dégagé et transparent. Voie lactée : les mêmes conditions, et le centre galactique au-dessus de l’horizon. Planètes : un air limpide et calme. La Lune gêne à peine, une nuit claire peut donc rester bonne.",
+      "Une frise court du crépuscule à l’aube avec les nuages, la Lune et les heures sombres, et la meilleure plage de chaque mode y est marquée. La page de détails ajoute le lever et le coucher de la Lune et sa phase, la température, le vent et la probabilité de rosée sur l’optique.",
+      "Le ciel est calculé sur la montre : le Soleil, la Lune et le centre de la Voie lactée pour l’endroit où vous êtes. La météo vient d’un modèle de prévision pour votre lieu, récupéré par le téléphone toutes les trois heures, et la dernière prévision est conservée : l’application n’est donc jamais vide une fois chargée.",
+      "Elle est prudente par conception. Un « Sortir » demande au moins une heure de bonnes conditions ; quand la prévision manque, est ancienne ou incomplète, l’application le dit et ne devine pas. Soleil de minuit, nuit polaire et centre galactique qui ne se lève pas sont signalés pour ce qu’ils sont.",
+      "Une connexion au téléphone est nécessaire pour la prévision. L’app lit votre position dans la météo de la montre et, si la montre n’en connaît aucune, la détermine une fois par GPS. Pas de publicité, pas d’abonnement. En anglais, polonais, allemand, français, espagnol, italien, néerlandais, portugais, slovaque et tchèque.",
+      "Forecast: 7Timer!"
+    ]
+  },
+  "ring-match": {
+    "name": "Gem Crush",
+    "subtitle": "Jeu de réflexion",
+    "full": [
+      "Gem Crush est un puzzle à trois identiques pensé pour une montre ronde. Les gemmes sont posées sur quatre anneaux autour du centre du cadran, et un coup fait tourner un anneau, du doigt ou avec les boutons. Alignez trois gemmes identiques, autour d'un anneau ou en ligne droite depuis le centre, et elles disparaissent ; les gemmes de l'extérieur tombent vers le centre, et chaque cascade rapporte plus que la précédente. Quatre alignées laissent une gemme qui vide tout son rayon, cinq une gemme qui vide tout son anneau.",
+      "Votre marche l'alimente. Tous les 1000 pas du jour donnent une charge, jusqu'à dix par jour, et une charge vide un anneau entier d'un coup. Le trajet jusqu'à l'arrêt de bus rend l'attente plus amusante.",
+      "Un plateau par jour, le même pour tout le monde, avec 25 coups et une série à tenir. À côté, la partie libre : 30 coups par manche, autant de manches que vous voulez. Une manche dure une minute ou deux et s'arrête quand vous voulez : fermez-la en plein coup, elle vous attend.",
+      "Pas de vies, pas d'énergie, pas de publicité, rien à acheter. Cinq formes de gemmes, chacune de sa couleur, pour un plateau lisible au soleil et par les daltoniens. Une vibration quand une cascade s'enchaîne. En français, anglais, polonais, allemand, espagnol, italien, néerlandais, portugais, slovaque et tchèque."
+    ]
+  }
+}

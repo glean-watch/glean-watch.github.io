@@ -172,7 +172,7 @@ class BuildTest(unittest.TestCase):
     def test_coming_soon_names_nothing(self):
         for section in ("apps", "games"):
             p = self.pages["%s/index.html" % section]
-            self.assertIn("<title>%s</title>" % build.esc(build.INTRO[section][2]), p)
+            self.assertIn("<title>%s</title>" % build.esc(build.i18n.t("en", section + "_title")), p)
             self.assertIn("<h1>%s</h1>" % section.capitalize(), p)
             self.assertIn("<p>The first Glean %s are on their way.</p>" % section, p)
             self.assertIn("to hear when they land.", p)
@@ -582,6 +582,163 @@ class UnlockTest(unittest.TestCase):
                                                       encoding="utf-8")
             with self.assertRaises(SystemExit, msg=bad):
                 build.build(site)
+
+
+# Lykt's German listing: a title, and a description whose first paragraph
+# is the page's lead and description. Stjärna has none.
+DE = {"lykt": {"name": "Lykt <b>", "subtitle": "Kürbislaterne",
+               "full": ["Ein „geschnitzter“ Kürbis & eine Kerze.", "Zweiter Absatz."]}}
+
+
+def with_german(site):
+    (site / "data" / "tr").mkdir()
+    (site / "data" / "tr" / "de.json").write_text(json.dumps(DE, ensure_ascii=False), encoding="utf-8")
+
+
+class LanguagesTest(unittest.TestCase):
+    """A translated listing gets its pages under /<code>/, each naming the
+    other languages; what has no translation stays English only."""
+
+    def setUp(self):
+        self.site, self.data = make_site()
+        with_german(self.site)
+        self.paths = build.build(self.site)
+        self.pages = pages(self.site)
+
+    def test_the_translated_face_page(self):
+        p = self.pages["de/faces/lykt/index.html"]
+        self.assertIn('<html lang="de">', p)
+        self.assertIn("<title>Lykt &lt;b&gt; – Kürbislaterne · Garmin-Zifferblatt · Glean</title>", p)
+        self.assertIn('<p class="lead">Ein „geschnitzter“ Kürbis &amp; eine Kerze.</p>', p)
+        self.assertIn('content="Ein „geschnitzter“ Kürbis &amp; eine Kerze."', p)
+        self.assertIn("<p>Zweiter Absatz.</p>", p)
+        self.assertIn("Im Connect IQ Store laden", p)
+        self.assertIn("Läuft auf 3 Uhren", p)
+        self.assertIn('href="/de/">', p)  # back to the German faces
+        self.assertIn('<a href="/de/" aria-current="page">Zifferblätter</a>', p)
+        # The settings' names are English only: the description names them.
+        self.assertNotIn('class="settings"', p)
+        self.assertNotIn("the five pumpkins", p)  # nor an English caption
+        app = ld(p)["@graph"][0]
+        self.assertEqual((app["name"], app["inLanguage"]), ("Lykt <b>", "de"))
+
+    def test_every_language_of_a_page_is_named(self):
+        for page_ in ("faces/lykt/index.html", "de/faces/lykt/index.html"):
+            p = self.pages[page_]
+            self.assertIn('<link rel="alternate" hreflang="en" href="%sfaces/lykt/">' % build.BASE, p)
+            self.assertIn('<link rel="alternate" hreflang="de" href="%sde/faces/lykt/">' % build.BASE, p)
+            self.assertIn('<link rel="alternate" hreflang="x-default" href="%sfaces/lykt/">'
+                          % build.BASE, p)
+            self.assertIn('<a href="/de/faces/lykt/" hreflang="de" lang="de"', p)
+        # A face with no translation has one language, so it names none.
+        self.assertNotIn("hreflang", self.pages["faces/stjarna/index.html"])
+        self.assertNotIn("de/faces/stjarna/index.html", self.pages)
+
+    def test_the_translated_home_lists_what_it_has(self):
+        home = self.pages["de/index.html"]
+        self.assertIn("<h1>Zifferblätter, die einen zweiten Blick wert sind.</h1>", home)
+        self.assertIn('href="/de/faces/lykt/"', home)
+        self.assertNotIn("stjarna", home.split("<main")[1].split("</main>")[0])
+        self.assertIn('<span class="cat">Lustig</span>', home)
+        self.assertIn('<span class="pitch">Kürbislaterne</span>', home)
+        self.assertIn('hreflang="de" href="%sde/">' % build.BASE, self.pages["index.html"])
+        # No German apps or games, so no German tab for them.
+        self.assertNotIn("de/apps/index.html", self.pages)
+
+    def test_the_sitemap_lists_every_language(self):
+        xml = (self.site / "sitemap.xml").read_text(encoding="utf-8")
+        for p in ("de/", "de/faces/lykt/"):
+            self.assertIn("<loc>%s%s</loc>" % (build.BASE, p), xml)
+
+    def test_help_and_privacy_stay_english(self):
+        self.assertNotIn("de/help/index.html", self.pages)
+        self.assertIn('<a href="/help/">Hilfe</a>', self.pages["de/index.html"])
+
+    def test_a_language_folder_is_the_builds(self):
+        stray = self.site / "de" / "faces" / "gone" / "index.html"
+        stray.parent.mkdir(parents=True)
+        stray.write_text("x", encoding="utf-8")
+        build.build(self.site)
+        self.assertFalse(stray.exists())
+
+    def test_a_translation_of_what_the_site_does_not_list_is_refused(self):
+        (self.site / "data" / "tr" / "de.json").write_text(
+            json.dumps({"kompis": DE["lykt"]}), encoding="utf-8")
+        with self.assertRaises(SystemExit):
+            build.build(self.site)
+
+    def test_a_language_without_words_is_refused(self):
+        (self.site / "data" / "tr" / "xx.json").write_text(json.dumps(DE), encoding="utf-8")
+        with self.assertRaises(SystemExit):
+            build.build(self.site)
+
+    def test_internal_links_resolve(self):
+        for name, text in self.pages.items():
+            for url in re.findall(r'(?:href|src)="(/[^"]*)"', text):
+                self.assertTrue(resolve(self.site, url.split("#")[0]).exists(), (name, url))
+
+
+class CategoryTest(unittest.TestCase):
+    """A category with enough faces gets a page, in every language that
+    has its faces, linked from the home page and from each of its faces."""
+
+    def setUp(self):
+        self.old, build.CATEGORY_MIN = build.CATEGORY_MIN, 1
+        self.site, self.data = make_site()
+        with_german(self.site)
+        build.build(self.site)
+        self.pages = pages(self.site)
+
+    def tearDown(self):
+        build.CATEGORY_MIN = self.old
+
+    def test_the_category_page(self):
+        p = self.pages["faces/fun/index.html"]
+        self.assertIn("<title>Fun Garmin Watch Faces · Glean</title>", p)
+        self.assertIn("<h1>Fun watch faces</h1>", p)
+        self.assertIn("<p>1 fun watch faces for Garmin", p)
+        self.assertIn('href="/faces/lykt/"', p)
+        self.assertNotIn('href="/faces/stjarna/"', p.split('class="grid"')[1])
+        self.assertIn('<a href="/faces/fun/" aria-current="page">Fun</a>', p)
+        de = self.pages["de/faces/fun/index.html"]
+        self.assertIn("<h1>Zifferblätter: Lustig</h1>", de)
+        # Stylish has no German face, so no German page.
+        self.assertNotIn("de/faces/stylish/index.html", self.pages)
+
+    def test_the_home_page_and_the_face_link_it(self):
+        self.assertIn('<a href="/faces/fun/">Fun</a>', self.pages["index.html"])
+        self.assertIn('<p class="cat"><a href="/faces/fun/">Fun</a></p>',
+                      self.pages["faces/lykt/index.html"])
+        self.assertIn('<p class="cat"><a href="/de/faces/fun/">Lustig</a></p>',
+                      self.pages["de/faces/lykt/index.html"])
+
+    def test_a_thin_category_has_no_page(self):
+        build.CATEGORY_MIN = 2
+        build.build(self.site)
+        self.assertFalse((self.site / "faces" / "fun").exists())
+        self.assertNotIn("/faces/fun/", (self.site / "index.html").read_text(encoding="utf-8"))
+
+    def test_a_category_cannot_take_a_faces_folder(self):
+        data = json.loads((self.site / "data" / "faces.json").read_text(encoding="utf-8"))
+        data["faces"][1]["category"] = "Stjarna"
+        (self.site / "data" / "faces.json").write_text(json.dumps(data), encoding="utf-8")
+        with self.assertRaises(SystemExit):
+            build.build(self.site)
+
+
+class WordsTest(unittest.TestCase):
+    """Every language has every word English has."""
+
+    def test_every_key(self):
+        for lang in build.i18n.CODES:
+            self.assertEqual(set(build.i18n.T[lang]), set(build.i18n.T["en"]), lang)
+            self.assertEqual(set(build.i18n.NOUN[lang]), set(build.i18n.NOUN["en"]), lang)
+        for english, words in build.i18n.WORD.items():
+            self.assertEqual(len(words), len(build.i18n.CODES) - 1, english)
+
+    def test_the_languages_are_the_listings(self):
+        # The store's listing languages, as the main repo's languages.py names them.
+        self.assertEqual(build.i18n.CODES[1:], ("pl", "de", "fr", "es", "it", "nl", "pt", "sk", "cs"))
 
 
 class PaletteTest(unittest.TestCase):
