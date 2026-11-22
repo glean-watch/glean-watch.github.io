@@ -62,7 +62,7 @@ NOUN = {"faces": "watch face", "games": "watch game"}  # an app says its kind
 # The search engines' site-ownership tags, each written on the home page once
 # its value is filled in (Search Console, Bing Webmaster Tools). The values
 # are public by design: each only proves who may read the site's reports.
-VERIFY = {"google-site-verification": "", "msvalidate.01": ""}
+VERIFY = {"google-site-verification": "4PEZzT9MYKGHM9pmV8waqmkdYDirJownE4EssRq56Mc", "msvalidate.01": ""}
 # Glean elsewhere, for the structured data's sameAs.
 SAME_AS = ("https://www.facebook.com/gleanwatchfaces", "https://www.instagram.com/gleanwatchfaces/",
            "https://ko-fi.com/glean")
