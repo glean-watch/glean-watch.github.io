@@ -162,7 +162,9 @@ class BuildTest(unittest.TestCase):
         graph = {n["@type"]: n for n in ld(home)["@graph"]}
         self.assertEqual(graph["WebSite"]["url"], build.BASE)
         self.assertIn("https://www.facebook.com/gleanwatchfaces", graph["Organization"]["sameAs"])
-        self.assertNotIn("site-verification", home)  # no tag until its value is filled in
+        # An ownership tag for each search engine whose value is filled in, no other.
+        for k, v in build.VERIFY.items():
+            (self.assertIn if v else self.assertNotIn)('<meta name="%s"' % k, home)
         self.assertLess(home.index("/faces/stjarna/"), home.index("/faces/lykt/"))
         self.assertIn("Your sign, written in real stars.", home)
         self.assertEqual(home.count('<li class="card">'), 2)  # every face
