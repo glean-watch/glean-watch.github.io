@@ -1,0 +1,38 @@
+<article class="prose">
+<h1>Unlock a trial</h1>
+<p class="lead">A Glean face's free trial edition runs in full for $days days. An unlock code keeps it running for good, on your watch.</p>
+
+<form class="unlock" id="unlock" data-env="$env" data-token="$token" data-server="$server" novalidate>
+  <label for="unlock-face">Face</label>
+  <select id="unlock-face" name="face">
+$options
+  </select>
+  <label for="unlock-watch">Watch ID</label>
+  <input id="unlock-watch" name="watch" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="11" placeholder="K7Q2-9MXA" aria-describedby="unlock-hint">
+  <p class="hint" id="unlock-hint">Eight letters and digits. The face shows its ID once the trial is over, and always under Watch ID in its settings (Garmin Connect app: the face, then Settings).</p>
+  <button type="submit" id="unlock-go">Continue to payment</button>
+  <p class="status" id="unlock-status" role="status" aria-live="polite"></p>
+  <div class="code" id="unlock-code" hidden>
+    <p>Your unlock code</p>
+    <p class="the-code" id="unlock-the-code"></p>
+    <p>The face unlocks by itself the next time your watch syncs with your phone. Or type the code into the face's settings, under Unlock code.</p>
+  </div>
+  <noscript><p class="status">This page needs JavaScript for the checkout.</p></noscript>
+</form>
+
+<h2>Prices</h2>
+<ul>
+$prices
+</ul>
+<p>One code unlocks one face on one watch. Local sales tax or VAT is added at checkout where it applies.</p>
+
+<h2>How it works</h2>
+<ol>
+  <li>Install the face's free trial edition from the Connect IQ Store and try it for $days days.</li>
+  <li>Type its watch ID here and pay. The checkout is run by Paddle, our reseller.</li>
+  <li>Your code appears on this page, and Paddle emails your receipt.</li>
+  <li>The face unlocks at the watch's next sync. It never needs to go online again after that.</li>
+</ol>
+<p>Already paid? Type the watch ID above: if it is unlocked, its code is shown again. A new watch has a new ID; the <a href="/refunds/">refunds page</a> says what to do.</p>
+<p>Prefer to pay on the Connect IQ Store? Every face is also sold there; buying it there needs no code.</p>
+</article>

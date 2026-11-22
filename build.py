@@ -14,6 +14,11 @@ may leave apps and games out; a section with nothing in it says its first
 are on the way, and names nothing. An app or game also carries its kind
 ("Data field") and its own watches; a face carries its own watches only
 when it runs on fewer than the help page lists.
+
+When faces.json carries an "unlock" block (the export writes it once a
+trial edition sells through Paddle), the site also gets /unlock/, where a
+code for a face's trial edition is bought, and the terms and refund pages
+Paddle's review asks for, linked from every page's footer.
 """
 import html
 import json
@@ -27,6 +32,11 @@ HERE = Path(__file__).resolve().parent
 EAGER = 3  # the cards above the fold load at once, the rest lazily
 # The item pages' gallery: the site's one script, its own file, nothing inline.
 GALLERY_JS = '<script src="/assets/gallery.js" defer></script>'
+# The unlock page's scripts: Paddle's checkout, then the page's own.
+PADDLE_JS = "https://cdn.paddle.com/paddle/v2/paddle.js"
+UNLOCK_JS = ('<script src="%s" defer></script>\n<script src="/assets/unlock.js" defer></script>'
+             % PADDLE_JS)
+ENVS = ("live", "sandbox")
 SECTIONS = ("faces", "apps", "games")
 TAB = {"faces": "", "apps": "apps/", "games": "games/"}  # each tab's page; the faces' is home
 SLUG = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
@@ -55,14 +65,49 @@ def template(site, name):
     return Template((Path(site) / "templates" / (name + ".html")).read_text(encoding="utf-8"))
 
 
-def page(site, current, title, description, path, og_image, main, scripts=""):
+def page(site, current, title, description, path, og_image, main, scripts="", legal=""):
     """A whole page around `main`; `path` and `og_image` are relative to BASE.
-    `current` is what to mark: a section's tab, "help", "privacy" or None."""
+    `current` is what to mark: a section's tab, "help", "privacy" or None.
+    `legal` is the footer's line of sales pages, empty while nothing sells."""
     nav = {("tab_" if k in SECTIONS else "nav_") + k:
            (' aria-current="page"' if k == current else "") for k in SECTIONS + ("help", "privacy")}
     return template(site, "base").substitute(
         title=esc(title), description=esc(description), canonical=esc(BASE + path),
-        og_image=esc(BASE + og_image), main=main, scripts=scripts, **nav)
+        og_image=esc(BASE + og_image), main=main, scripts=scripts, legal=legal, **nav)
+
+
+def legal_line(data):
+    """The footer's links to the sales pages, once the site sells codes."""
+    if "unlock" not in data:
+        return ""
+    return ('\n  <p class="fine"><a href="/unlock/">Unlock a trial</a> · <a href="/terms/">Terms</a>'
+            ' · <a href="/refunds/">Refunds</a> · <a href="/privacy/">Privacy</a></p>')
+
+
+def usd(amount):
+    return "US$%s" % amount
+
+
+def unlock_page(site, data):
+    u = data["unlock"]
+    options = "\n".join(
+        '<option value="%s" data-price="%s">%s · %s</option>'
+        % (esc(f["slug"]), esc(f["price"]), esc(f["name"]), esc(usd(f["usd"])))
+        for f in u["faces"])
+    prices = "\n".join("<li>%s: %s</li>" % (esc(f["name"]), esc(usd(f["usd"]))) for f in u["faces"])
+    main = template(site, "unlock").substitute(
+        env=esc(u["env"]), token=esc(u["token"]), server=esc(u["server"]),
+        options=options, prices=prices, days=int(u["days"]))
+    return page(site, None, "Unlock a trial · Glean",
+                "Buy the code that unlocks a Glean face's free trial edition on your watch, for good.",
+                "unlock/", data["faces"][0]["hero"]["file"], main, UNLOCK_JS, legal_line(data))
+
+
+def legal_page(site, data, name, title, description):
+    main = template(site, name).substitute(seller=esc(data["unlock"]["seller"]),
+                                           days=int(data["unlock"]["days"]))
+    return page(site, None, "%s · Glean" % title, description, name + "/",
+                data["faces"][0]["hero"]["file"], main, "", legal_line(data))
 
 
 def img(pic, alt, lazy, cls=None):
@@ -116,7 +161,7 @@ def section_page(site, data, section):
         description = "Glean's first %s for Garmin watches are on their way." % section
         main = template(site, "soon").substitute(heading=esc(heading), soon=soon(section))
     return page(site, section, title, description, TAB[section],
-                data["faces"][0]["hero"]["file"], main)
+                data["faces"][0]["hero"]["file"], main, legal=legal_line(data))
 
 
 def watch_count(lines):
@@ -183,7 +228,7 @@ def item_page(site, data, section, item):
         short=esc(item["short"]), full="\n".join("<p>%s</p>" % esc(p) for p in item["full"]),
         settings=settings_html(item), works=works(section, item, data))
     return page(site, section, "%s · Glean" % full_title(item), item["short"],
-                "%s/%s/" % (section, item["slug"]), item["hero"]["file"], main, GALLERY_JS)
+                "%s/%s/" % (section, item["slug"]), item["hero"]["file"], main, GALLERY_JS, legal_line(data))
 
 
 def watches_html(lines):
@@ -197,18 +242,18 @@ def help_page(site, data):
                                              watch_count=watch_count(data["watches"]))
     return page(site, "help", "Help · Glean",
                 "Installing a Glean watch face, changing its settings, and the watches it runs on.",
-                "help/", data["faces"][0]["hero"]["file"], main)
+                "help/", data["faces"][0]["hero"]["file"], main, legal=legal_line(data))
 
 
 def privacy_page(site, data):
     return page(site, "privacy", "Privacy · Glean",
-                "What Glean's faces, apps and this site do with your data: nothing leaves your watch but a rounded place for the stargazing forecast.",
-                "privacy/", data["faces"][0]["hero"]["file"], template(site, "privacy").substitute())
+                "What Glean's faces, apps and this site do with your data: nothing leaves your watch but a rounded place for the stargazing forecast, and a trial edition's watch ID.",
+                "privacy/", data["faces"][0]["hero"]["file"], template(site, "privacy").substitute(), "", legal_line(data))
 
 
 def not_found(site, data):
     return page(site, None, "Not found · Glean", "This page does not exist.", "404.html",
-                data["faces"][0]["hero"]["file"], template(site, "404").substitute())
+                data["faces"][0]["hero"]["file"], template(site, "404").substitute(), "", legal_line(data))
 
 
 def sitemap(paths):
@@ -227,6 +272,24 @@ def check(site, data):
     an app can do what no face does."""
     if not data["faces"]:
         raise SystemExit("build: faces.json lists no face")
+    u = data.get("unlock")
+    if u is not None:
+        if u.get("env") not in ENVS:
+            raise SystemExit("build: unlock.env must be one of %s" % ", ".join(ENVS))
+        if not str(u.get("seller", "")).strip():
+            raise SystemExit("build: unlock.seller, the legal name Paddle knows, is empty")
+        if not str(u.get("server", "")).startswith("https://"):
+            raise SystemExit("build: unlock.server is not an https address")
+        if not u.get("faces"):
+            raise SystemExit("build: unlock lists no face")
+        live = {r["slug"] for r in data["faces"]}
+        for f in u["faces"]:
+            if f["slug"] not in live:
+                raise SystemExit("build: unlock sells %s, which the site does not list" % f["slug"])
+            if not re.fullmatch(r"pri_[a-z0-9]+", str(f["price"])):
+                raise SystemExit("build: %s's price id %r is not Paddle's" % (f["slug"], f["price"]))
+            if not re.fullmatch(r"\d+\.\d\d", str(f["usd"])):
+                raise SystemExit("build: %s's usd %r is not N.NN" % (f["slug"], f["usd"]))
     seen = set()
     for section in SECTIONS:
         for r in items(data, section):
@@ -278,6 +341,17 @@ def build(site=HERE):
     _write(site / "privacy" / "index.html", privacy_page(site, data))
     _write(site / "404.html", not_found(site, data))
     paths += ["help/", "privacy/"]
+    sales = (("unlock", None, None),
+             ("terms", "Terms of sale", "The terms on which Glean sells unlock codes for its faces' trial editions."),
+             ("refunds", "Refunds", "Glean's refund policy for unlock codes."))
+    for name, title, description in sales:
+        if "unlock" in data:
+            text = (unlock_page(site, data) if name == "unlock"
+                    else legal_page(site, data, name, title, description))
+            _write(site / name / "index.html", text)
+            paths.append(name + "/")
+        elif (site / name).exists():
+            shutil.rmtree(site / name)
     _write(site / "sitemap.xml", sitemap(paths))
     _write(site / "robots.txt", ROBOTS)
     return paths

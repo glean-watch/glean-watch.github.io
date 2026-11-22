@@ -466,6 +466,77 @@ def contrast(a, b):
     return (hi + 0.05) / (lo + 0.05)
 
 
+class UnlockTest(unittest.TestCase):
+    """The unlock, terms and refund pages: built only while faces.json
+    carries an "unlock" block, with Paddle's script on the unlock page only."""
+
+    def unlock(self, data, **over):
+        u = {"env": "sandbox", "token": "test_abc", "server": "https://keys.example.dev",
+             "seller": "A. Seller", "days": 7,
+             "faces": [{"slug": data["faces"][0]["slug"], "name": data["faces"][0]["name"],
+                        "price": "pri_01abc", "usd": "2.00"}]}
+        u.update(over)
+        return dict(data, unlock=u)
+
+    def test_no_unlock_block_no_sales_pages(self):
+        site, _ = make_site()
+        self.addCleanup(shutil.rmtree, site, ignore_errors=True)
+        paths = build.build(site)
+        for name in ("unlock/", "terms/", "refunds/"):
+            self.assertNotIn(name, paths)
+            self.assertFalse((site / name).exists())
+        self.assertNotIn("/terms/", pages(site)["index.html"])
+
+    def test_the_pages_and_their_links(self):
+        site, data = make_site()
+        self.addCleanup(shutil.rmtree, site, ignore_errors=True)
+        (site / "data" / "faces.json").write_text(json.dumps(self.unlock(data)), encoding="utf-8")
+        paths = build.build(site)
+        for name in ("unlock/", "terms/", "refunds/"):
+            self.assertIn(name, paths)
+        got = pages(site)
+        u = got["unlock/index.html"]
+        self.assertIn('data-env="sandbox"', u)
+        self.assertIn('data-token="test_abc"', u)
+        self.assertIn('data-price="pri_01abc"', u)
+        self.assertIn("US$2.00", u)
+        self.assertIn(build.PADDLE_JS, u)
+        self.assertIn("/assets/unlock.js", u)
+        self.assertIn("A. Seller", got["terms/index.html"])
+        self.assertIn("Merchant of Record", got["terms/index.html"])
+        for path, text in got.items():
+            self.assertIn('href="/terms/"', text, path)
+            self.assertIn('href="/refunds/"', text, path)
+            if path != "unlock/index.html":
+                self.assertNotIn(build.PADDLE_JS, text, path)
+        # Taken away again, the pages go.
+        (site / "data" / "faces.json").write_text(json.dumps(data), encoding="utf-8")
+        build.build(site)
+        self.assertFalse((site / "unlock").exists())
+
+    def test_values_are_escaped(self):
+        site, data = make_site()
+        self.addCleanup(shutil.rmtree, site, ignore_errors=True)
+        (site / "data" / "faces.json").write_text(
+            json.dumps(self.unlock(data, seller='<b>"x"</b>', token='t"><script>')), encoding="utf-8")
+        build.build(site)
+        got = pages(site)
+        self.assertNotIn("<b>", got["terms/index.html"])
+        self.assertNotIn('"><script>', got["unlock/index.html"])
+
+    def test_bad_unlock_data_is_refused(self):
+        site, data = make_site()
+        self.addCleanup(shutil.rmtree, site, ignore_errors=True)
+        f0 = self.unlock(data)["unlock"]["faces"][0]
+        for bad in ({"env": "test"}, {"seller": " "}, {"server": "http://x"}, {"faces": []},
+                    {"faces": [dict(f0, slug="nope")]}, {"faces": [dict(f0, price="price_1")]},
+                    {"faces": [dict(f0, usd="2")]}):
+            (site / "data" / "faces.json").write_text(json.dumps(self.unlock(data, **bad)),
+                                                      encoding="utf-8")
+            with self.assertRaises(SystemExit, msg=bad):
+                build.build(site)
+
+
 class PaletteTest(unittest.TestCase):
     def test_text_meets_aa(self):
         css = (SITE / "assets" / "site.css").read_text(encoding="utf-8")

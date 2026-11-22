@@ -114,6 +114,21 @@ details.works .watches { margin-top: .25rem; }
 .watches ul { list-style: none; padding: 0; margin: 0; font-size: .9rem; }
 .watches li { padding: .2rem 0; border-top: 1px solid var(--rule); }
 
+.unlock { display: grid; gap: .35rem; max-width: 28rem; margin: 1.5rem 0 1rem; padding: 1.25rem; background: var(--card); border-radius: 12px; box-shadow: 0 1px 2px rgba(31, 28, 24, .08); }
+.unlock label { margin-top: .5rem; color: var(--ink); font-weight: 600; }
+.unlock select, .unlock input { width: 100%; font: inherit; color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 8px; padding: .6rem .7rem; }
+.unlock input { font-family: var(--display); letter-spacing: .1em; text-transform: uppercase; }
+.unlock select:focus-visible, .unlock input:focus-visible, .unlock button:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+.unlock .hint { margin: .15rem 0 .5rem; font-size: .85rem; color: var(--muted); }
+.unlock button { justify-self: start; border: 0; cursor: pointer; background: var(--ink); color: var(--paper); font: 600 .95rem/1.2 var(--text); padding: .8rem 1.3rem; border-radius: 999px; }
+.unlock button:hover { background: #000; }
+.unlock button:disabled { opacity: .5; cursor: default; }
+.unlock .status { margin: .25rem 0 0; color: var(--ink); }
+.unlock .status:empty { display: none; }
+.unlock .code { margin-top: .5rem; padding-top: .75rem; border-top: 1px solid var(--rule); }
+.unlock .code p { margin: .25rem 0; }
+.the-code { font: 600 2rem/1.2 var(--display); letter-spacing: .12em; color: var(--ink); user-select: all; }
+
 .foot { padding-top: 2rem; padding-bottom: 2.5rem; border-top: 1px solid var(--rule); font-size: .9rem; color: var(--muted); }
 .foot p { margin: .25rem 0; }
 .foot .fine { font-size: .8rem; }
