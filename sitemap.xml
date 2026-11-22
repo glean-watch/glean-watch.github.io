@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://glean-watch.github.io/</loc></url>
+  <url><loc>https://glean-watch.github.io/faces/julnatt/</loc></url>
+  <url><loc>https://glean-watch.github.io/faces/snemand/</loc></url>
+  <url><loc>https://glean-watch.github.io/faces/tomte/</loc></url>
+  <url><loc>https://glean-watch.github.io/faces/knut/</loc></url>
   <url><loc>https://glean-watch.github.io/faces/norrsken/</loc></url>
   <url><loc>https://glean-watch.github.io/faces/ormbunke/</loc></url>
   <url><loc>https://glean-watch.github.io/faces/dyning/</loc></url>
@@ -66,4 +70,7 @@
   <url><loc>https://glean-watch.github.io/games/ring-match/</loc></url>
   <url><loc>https://glean-watch.github.io/help/</loc></url>
   <url><loc>https://glean-watch.github.io/privacy/</loc></url>
+  <url><loc>https://glean-watch.github.io/unlock/</loc></url>
+  <url><loc>https://glean-watch.github.io/terms/</loc></url>
+  <url><loc>https://glean-watch.github.io/refunds/</loc></url>
 </urlset>

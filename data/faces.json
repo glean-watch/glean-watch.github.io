@@ -1,6 +1,919 @@
 {
   "faces": [
     {
+      "slug": "julnatt",
+      "name": "Christmas Tree Countdown, Big Numbers",
+      "subtitle": "Julnatt",
+      "category": "Fun",
+      "pitch": "Christmas Eve, at a glance.",
+      "short": "Big, easy-to-read numbers over a magical Christmas Eve: a giant lit Christmas tree in a snowy town square, a countdown to Christmas, a reading and a goal bar.",
+      "full": [
+        "Christmas tree watch face with big numbers and an Xmas countdown: a snowy town square on Christmas Eve, a giant Christmas tree glowing with golden lights, old houses with warm windows all around, behind a large, easy-to- read time, the date and the data you check every day.",
+        "The time sits on a single line, as wide as the round screen allows, in condensed figures made to be read at a glance: the hours white, the colon and the minutes the colour of your theme. Every figure is drawn over a dark outline, so it stays sharp on the lights and the snow.",
+        "Above the time, the date in your watch's own language with the seconds ticking beside it, and battery and alerts at the top. Under it, two readings in rounded chips: a countdown to Christmas, a little parcel and the days left, and your heart rate to start. Or choose the weather, the day's high and low, steps, Body Battery, stress, calories, distance, floors, sunrise and sunset, elevation, VO2 max, sleep score and more, twenty sources in all. A short bar fills as you meet your steps goal, or floors, intensity minutes, Body Battery, battery or stress.",
+        "Four themes from the night: Gold, Red, Green and Ice, or switch the picture off for a plain black dial. 12-hour or 24-hour time or as your watch is set. On memory-in-pixel screens the seconds keep running with your wrist down; the always-on mode keeps the time at the same size in a light weight, on black.",
+        "Touch and hold a reading or the goal bar to open its glance on your watch, the date or the countdown for your calendar. Temperatures follow your watch, or pick °C or °F."
+      ],
+      "settings": [
+        {
+          "name": "Theme",
+          "values": "Gold, Red, Green, Ice"
+        },
+        {
+          "name": "Show the Christmas night",
+          "values": "on / off"
+        },
+        {
+          "name": "Minutes in the theme colour",
+          "values": "on / off"
+        },
+        {
+          "name": "Left reading, right reading",
+          "values": "the Christmas countdown, any of twenty sources, or off"
+        },
+        {
+          "name": "Goal bar",
+          "values": "steps, floors, intensity minutes, Body Battery, battery, stress, off"
+        },
+        {
+          "name": "Show date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        },
+        {
+          "name": "Seconds",
+          "values": "on / off"
+        },
+        {
+          "name": "Temperature",
+          "values": "as the watch, °C, °F"
+        },
+        {
+          "name": "Time format",
+          "values": "as the watch, 12-hour, 24-hour"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/ad165dea-7903-48b1-97f2-e92d728e2d63",
+      "images": [
+        {
+          "file": "img/julnatt/01_hero.jpg",
+          "alt": "Christmas Tree Countdown, Big Numbers: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/julnatt/02_features.jpg",
+          "alt": "Christmas Tree Countdown, Big Numbers: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/julnatt/03_themes.jpg",
+          "alt": "Christmas Tree Countdown, Big Numbers: the four themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/julnatt/04_devices.jpg",
+          "alt": "Christmas Tree Countdown, Big Numbers: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/julnatt/05_detail.jpg",
+          "alt": "Christmas Tree Countdown, Big Numbers: the countdown and the goal bar",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/julnatt/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/julnatt/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      },
+      "watches": [
+        {
+          "line": "fēnix",
+          "names": [
+            "fēnix® 7 / quatix® 7",
+            "fēnix® 7 Pro",
+            "fēnix® 7 Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 7S",
+            "fēnix® 7S Pro",
+            "fēnix® 7X / tactix® 7 / quatix® 7X Solar / Enduro™ 2",
+            "fēnix® 7X Pro",
+            "fēnix® 7X Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 8 43mm",
+            "fēnix® 8 47mm / 51mm / tactix® 8 47mm / 51mm / quatix® 8 47mm / 51mm",
+            "fēnix® 8 Pro 47mm / 51mm / MicroLED / quatix® 8 Pro 47mm / 51mm",
+            "fēnix® 8 Solar 47mm",
+            "fēnix® 8 Solar 51mm / tactix® 8 Solar 51mm",
+            "fēnix® 9 43mm",
+            "fēnix® 9 47mm / 51mm",
+            "fēnix® 9 Pro 43mm",
+            "fēnix® 9 Pro 47mm",
+            "fēnix® 9 Pro 51mm",
+            "fēnix® 9 Pro Solar 47mm",
+            "fēnix® 9 Pro Solar 51mm",
+            "fēnix® E"
+          ]
+        },
+        {
+          "line": "epix",
+          "names": [
+            "epix™ (Gen 2) / quatix® 7 Sapphire",
+            "epix™ Pro (Gen 2) 42mm",
+            "epix™ Pro (Gen 2) 47mm / quatix® 7 Pro",
+            "epix™ Pro (Gen 2) 51mm / D2™ Mach 1 Pro / tactix® 7 – AMOLED Edition"
+          ]
+        },
+        {
+          "line": "Forerunner",
+          "names": [
+            "Forerunner® 70",
+            "Forerunner® 165",
+            "Forerunner® 165 Music",
+            "Forerunner® 170",
+            "Forerunner® 170 Music",
+            "Forerunner® 255",
+            "Forerunner® 255 Music",
+            "Forerunner® 255s",
+            "Forerunner® 255s Music",
+            "Forerunner® 265",
+            "Forerunner® 265s",
+            "Forerunner® 570 42mm",
+            "Forerunner® 570 47mm",
+            "Forerunner® 955 / Solar",
+            "Forerunner® 965",
+            "Forerunner® 970"
+          ]
+        },
+        {
+          "line": "Venu",
+          "names": [
+            "Venu® 2",
+            "Venu® 2 Plus",
+            "Venu® 2S",
+            "Venu® 3",
+            "Venu® 3S",
+            "Venu® 4 41mm",
+            "Venu® 4 45mm / D2™ Air X15"
+          ]
+        },
+        {
+          "line": "vívoactive",
+          "names": [
+            "vívoactive® 5",
+            "vívoactive® 6"
+          ]
+        },
+        {
+          "line": "Enduro",
+          "names": [
+            "Enduro™ 3",
+            "Enduro™ 4"
+          ]
+        },
+        {
+          "line": "Approach",
+          "names": [
+            "Approach® S50",
+            "Approach® S70 42mm",
+            "Approach® S70 47mm",
+            "Approach® S72 43mm",
+            "Approach® S72 47mm"
+          ]
+        },
+        {
+          "line": "D2",
+          "names": [
+            "D2™ Air X10",
+            "D2™ Mach 1",
+            "D2™ Mach 2",
+            "D2™ Mach 2 Pro"
+          ]
+        },
+        {
+          "line": "Descent",
+          "names": [
+            "Descent™ G2",
+            "Descent™ Mk3 43mm / Mk3i 43mm",
+            "Descent™ Mk3i 51mm"
+          ]
+        },
+        {
+          "line": "MARQ",
+          "names": [
+            "MARQ® (Gen 2) Athlete / Adventurer / Captain / Golfer / Carbon Edition / Commander - Carbon Edition",
+            "MARQ® (Gen 2) Aviator",
+            "MARQ® (Gen 3) Athlete / Adventurer / Aviator / Commander / Golfer / Diver"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "snemand",
+      "name": "Snowman Christmas Countdown, Winter Xmas",
+      "subtitle": "Snemand",
+      "category": "Fun",
+      "pitch": "A snowman family, on your wrist.",
+      "short": "A snowman family in red scarves beside a big, easy-to-read time, the days to Christmas by a little parcel, and four readings of your choice.",
+      "full": [
+        "Snowman Christmas watch face for winter and the holidays, with an Xmas countdown: a snowman family stands in the snow at the lower right of your dial, a tall snowman in a top hat between two little ones in red knitted hats and scarves, beside a large, clear time and the data you check every day.",
+        "The time stands in bold italic figures with the seconds beside it, the minutes in the colour of your theme, and the date under it in your watch's own language. Every line is drawn over a dark outline, so it stays sharp beside the picture.",
+        "Four readings, each with its icon: the weather and heart rate at the top, steps and a countdown to Christmas below to start, a little parcel and the days left. Count down to Christmas Day, Christmas Eve or New Year's Eve, or put any of twenty sources in its place: Body Battery, stress, calories, distance, floors, sunrise and sunset, elevation, the day's high and low, VO2 max, sleep score and more. A gauge along the left edge fills with Body Battery, steps or another goal.",
+        "Three themes, Ice, Red and White, or hide the snowmen for a plain black dial. 12-hour or 24-hour time or as your watch is set, with or without a leading zero. On memory-in-pixel screens the seconds keep running with your wrist down; in always-on mode a dim line drawing of the snowman stays beside the time.",
+        "Touch and hold a reading or the gauge to open its glance on your watch, the date or the countdown for your calendar. Temperatures follow your watch, or pick °C or °F."
+      ],
+      "settings": [
+        {
+          "name": "Theme",
+          "values": "Ice, Red, White"
+        },
+        {
+          "name": "Show the snowman",
+          "values": "on / off"
+        },
+        {
+          "name": "Count down to",
+          "values": "Christmas Day, Christmas Eve, New Year's Eve"
+        },
+        {
+          "name": "Time format",
+          "values": "as the watch, 12-hour, 24-hour"
+        },
+        {
+          "name": "Leading zero",
+          "values": "on / off"
+        },
+        {
+          "name": "Seconds",
+          "values": "on / off"
+        },
+        {
+          "name": "Reading at the top, left",
+          "values": "the Christmas countdown, any of twenty sources, or off"
+        },
+        {
+          "name": "Reading at the top, right",
+          "values": "the Christmas countdown, any of twenty sources, or off"
+        },
+        {
+          "name": "First reading",
+          "values": "the Christmas countdown, any of twenty sources, or off"
+        },
+        {
+          "name": "Second reading",
+          "values": "the Christmas countdown, any of twenty sources, or off"
+        },
+        {
+          "name": "Gauge along the edge",
+          "values": "Body Battery, steps, battery, floors, active minutes, stress, recovery, sleep score, or off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        },
+        {
+          "name": "Temperature",
+          "values": "as the watch, °C, °F"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/2dc3d80e-bd96-4cb2-a00d-32a66561c33e",
+      "images": [
+        {
+          "file": "img/snemand/01_hero.jpg",
+          "alt": "Snowman Christmas Countdown, Winter Xmas: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/snemand/02_features.jpg",
+          "alt": "Snowman Christmas Countdown, Winter Xmas: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/snemand/03_themes.jpg",
+          "alt": "Snowman Christmas Countdown, Winter Xmas: the three themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/snemand/04_devices.jpg",
+          "alt": "Snowman Christmas Countdown, Winter Xmas: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/snemand/05_detail.jpg",
+          "alt": "Snowman Christmas Countdown, Winter Xmas: the countdown and the readings",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/snemand/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/snemand/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      },
+      "watches": [
+        {
+          "line": "fēnix",
+          "names": [
+            "fēnix® 7 / quatix® 7",
+            "fēnix® 7 Pro",
+            "fēnix® 7 Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 7S",
+            "fēnix® 7S Pro",
+            "fēnix® 7X / tactix® 7 / quatix® 7X Solar / Enduro™ 2",
+            "fēnix® 7X Pro",
+            "fēnix® 7X Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 8 43mm",
+            "fēnix® 8 47mm / 51mm / tactix® 8 47mm / 51mm / quatix® 8 47mm / 51mm",
+            "fēnix® 8 Pro 47mm / 51mm / MicroLED / quatix® 8 Pro 47mm / 51mm",
+            "fēnix® 8 Solar 47mm",
+            "fēnix® 8 Solar 51mm / tactix® 8 Solar 51mm",
+            "fēnix® 9 43mm",
+            "fēnix® 9 47mm / 51mm",
+            "fēnix® 9 Pro 43mm",
+            "fēnix® 9 Pro 47mm",
+            "fēnix® 9 Pro 51mm",
+            "fēnix® 9 Pro Solar 47mm",
+            "fēnix® 9 Pro Solar 51mm",
+            "fēnix® E"
+          ]
+        },
+        {
+          "line": "epix",
+          "names": [
+            "epix™ (Gen 2) / quatix® 7 Sapphire",
+            "epix™ Pro (Gen 2) 42mm",
+            "epix™ Pro (Gen 2) 47mm / quatix® 7 Pro",
+            "epix™ Pro (Gen 2) 51mm / D2™ Mach 1 Pro / tactix® 7 – AMOLED Edition"
+          ]
+        },
+        {
+          "line": "Forerunner",
+          "names": [
+            "Forerunner® 70",
+            "Forerunner® 165",
+            "Forerunner® 165 Music",
+            "Forerunner® 170",
+            "Forerunner® 170 Music",
+            "Forerunner® 255",
+            "Forerunner® 255 Music",
+            "Forerunner® 255s",
+            "Forerunner® 255s Music",
+            "Forerunner® 265",
+            "Forerunner® 265s",
+            "Forerunner® 570 42mm",
+            "Forerunner® 570 47mm",
+            "Forerunner® 955 / Solar",
+            "Forerunner® 965",
+            "Forerunner® 970"
+          ]
+        },
+        {
+          "line": "Venu",
+          "names": [
+            "Venu® 2",
+            "Venu® 2 Plus",
+            "Venu® 2S",
+            "Venu® 3",
+            "Venu® 3S",
+            "Venu® 4 41mm",
+            "Venu® 4 45mm / D2™ Air X15"
+          ]
+        },
+        {
+          "line": "vívoactive",
+          "names": [
+            "vívoactive® 5",
+            "vívoactive® 6"
+          ]
+        },
+        {
+          "line": "Enduro",
+          "names": [
+            "Enduro™ 3",
+            "Enduro™ 4"
+          ]
+        },
+        {
+          "line": "Approach",
+          "names": [
+            "Approach® S50",
+            "Approach® S70 42mm",
+            "Approach® S70 47mm",
+            "Approach® S72 43mm",
+            "Approach® S72 47mm"
+          ]
+        },
+        {
+          "line": "D2",
+          "names": [
+            "D2™ Air X10",
+            "D2™ Mach 1",
+            "D2™ Mach 2",
+            "D2™ Mach 2 Pro"
+          ]
+        },
+        {
+          "line": "Descent",
+          "names": [
+            "Descent™ G2",
+            "Descent™ Mk3 43mm / Mk3i 43mm",
+            "Descent™ Mk3i 51mm"
+          ]
+        },
+        {
+          "line": "MARQ",
+          "names": [
+            "MARQ® (Gen 2) Athlete / Adventurer / Captain / Golfer / Carbon Edition / Commander - Carbon Edition",
+            "MARQ® (Gen 2) Aviator",
+            "MARQ® (Gen 3) Athlete / Adventurer / Aviator / Commander / Golfer / Diver"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tomte",
+      "name": "Santa Claus Christmas Countdown, Xmas",
+      "subtitle": "Tomte",
+      "category": "Fun",
+      "pitch": "Santa Claus, on your wrist.",
+      "short": "Santa Claus laughs on your watch: a big, easy-to-read time, the days to Christmas by a little parcel, and four readings of your choice.",
+      "full": [
+        "Santa Claus Christmas watch face with an Xmas countdown: a jolly Santa laughs from the lower right of your dial, rosy-cheeked under his red hat, beside a large, clear time and the data you check every day.",
+        "The time stands in bold italic figures with the seconds beside it, the minutes in the colour of your theme, and the date under it in your watch's own language. Every line is drawn over a dark outline, so it stays sharp beside the picture.",
+        "Four readings, each with its icon: the weather and heart rate at the top, steps and a countdown to Christmas below to start, a little parcel and the days left. Count down to Christmas Day, Christmas Eve or New Year's Eve, or put any of twenty sources in its place: Body Battery, stress, calories, distance, floors, sunrise and sunset, elevation, the day's high and low, VO2 max, sleep score and more. A gauge along the left edge fills with Body Battery, steps or another goal.",
+        "Three themes, Red, Gold and Green, or hide Santa for a plain black dial. 12-hour or 24-hour time or as your watch is set, with or without a leading zero. On memory-in-pixel screens the seconds keep running with your wrist down; in always-on mode a dim line drawing of Santa's hat stays beside the time.",
+        "Touch and hold a reading or the gauge to open its glance on your watch, the date or the countdown for your calendar. Temperatures follow your watch, or pick °C or °F."
+      ],
+      "settings": [
+        {
+          "name": "Theme",
+          "values": "Red, Gold, Green"
+        },
+        {
+          "name": "Show Santa",
+          "values": "on / off"
+        },
+        {
+          "name": "Count down to",
+          "values": "Christmas Day, Christmas Eve, New Year's Eve"
+        },
+        {
+          "name": "Time format",
+          "values": "as the watch, 12-hour, 24-hour"
+        },
+        {
+          "name": "Leading zero",
+          "values": "on / off"
+        },
+        {
+          "name": "Seconds",
+          "values": "on / off"
+        },
+        {
+          "name": "Reading at the top, left",
+          "values": "the Christmas countdown, any of twenty sources, or off"
+        },
+        {
+          "name": "Reading at the top, right",
+          "values": "the Christmas countdown, any of twenty sources, or off"
+        },
+        {
+          "name": "First reading",
+          "values": "the Christmas countdown, any of twenty sources, or off"
+        },
+        {
+          "name": "Second reading",
+          "values": "the Christmas countdown, any of twenty sources, or off"
+        },
+        {
+          "name": "Gauge along the edge",
+          "values": "Body Battery, steps, battery, floors, active minutes, stress, recovery, sleep score, or off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        },
+        {
+          "name": "Temperature",
+          "values": "as the watch, °C, °F"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/56dfa31a-038e-4d91-bf43-95f9bcf05b48",
+      "images": [
+        {
+          "file": "img/tomte/01_hero.jpg",
+          "alt": "Santa Claus Christmas Countdown, Xmas: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/tomte/02_features.jpg",
+          "alt": "Santa Claus Christmas Countdown, Xmas: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/tomte/03_themes.jpg",
+          "alt": "Santa Claus Christmas Countdown, Xmas: the three themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/tomte/04_devices.jpg",
+          "alt": "Santa Claus Christmas Countdown, Xmas: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/tomte/05_detail.jpg",
+          "alt": "Santa Claus Christmas Countdown, Xmas: the countdown and the readings",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/tomte/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/tomte/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      },
+      "watches": [
+        {
+          "line": "fēnix",
+          "names": [
+            "fēnix® 7 / quatix® 7",
+            "fēnix® 7 Pro",
+            "fēnix® 7 Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 7S",
+            "fēnix® 7S Pro",
+            "fēnix® 7X / tactix® 7 / quatix® 7X Solar / Enduro™ 2",
+            "fēnix® 7X Pro",
+            "fēnix® 7X Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 8 43mm",
+            "fēnix® 8 47mm / 51mm / tactix® 8 47mm / 51mm / quatix® 8 47mm / 51mm",
+            "fēnix® 8 Pro 47mm / 51mm / MicroLED / quatix® 8 Pro 47mm / 51mm",
+            "fēnix® 8 Solar 47mm",
+            "fēnix® 8 Solar 51mm / tactix® 8 Solar 51mm",
+            "fēnix® 9 43mm",
+            "fēnix® 9 47mm / 51mm",
+            "fēnix® 9 Pro 43mm",
+            "fēnix® 9 Pro 47mm",
+            "fēnix® 9 Pro 51mm",
+            "fēnix® 9 Pro Solar 47mm",
+            "fēnix® 9 Pro Solar 51mm",
+            "fēnix® E"
+          ]
+        },
+        {
+          "line": "epix",
+          "names": [
+            "epix™ (Gen 2) / quatix® 7 Sapphire",
+            "epix™ Pro (Gen 2) 42mm",
+            "epix™ Pro (Gen 2) 47mm / quatix® 7 Pro",
+            "epix™ Pro (Gen 2) 51mm / D2™ Mach 1 Pro / tactix® 7 – AMOLED Edition"
+          ]
+        },
+        {
+          "line": "Forerunner",
+          "names": [
+            "Forerunner® 70",
+            "Forerunner® 165",
+            "Forerunner® 165 Music",
+            "Forerunner® 170",
+            "Forerunner® 170 Music",
+            "Forerunner® 255",
+            "Forerunner® 255 Music",
+            "Forerunner® 255s",
+            "Forerunner® 255s Music",
+            "Forerunner® 265",
+            "Forerunner® 265s",
+            "Forerunner® 570 42mm",
+            "Forerunner® 570 47mm",
+            "Forerunner® 955 / Solar",
+            "Forerunner® 965",
+            "Forerunner® 970"
+          ]
+        },
+        {
+          "line": "Venu",
+          "names": [
+            "Venu® 2",
+            "Venu® 2 Plus",
+            "Venu® 2S",
+            "Venu® 3",
+            "Venu® 3S",
+            "Venu® 4 41mm",
+            "Venu® 4 45mm / D2™ Air X15"
+          ]
+        },
+        {
+          "line": "vívoactive",
+          "names": [
+            "vívoactive® 5",
+            "vívoactive® 6"
+          ]
+        },
+        {
+          "line": "Enduro",
+          "names": [
+            "Enduro™ 3",
+            "Enduro™ 4"
+          ]
+        },
+        {
+          "line": "Approach",
+          "names": [
+            "Approach® S50",
+            "Approach® S70 42mm",
+            "Approach® S70 47mm",
+            "Approach® S72 43mm",
+            "Approach® S72 47mm"
+          ]
+        },
+        {
+          "line": "D2",
+          "names": [
+            "D2™ Air X10",
+            "D2™ Mach 1",
+            "D2™ Mach 2",
+            "D2™ Mach 2 Pro"
+          ]
+        },
+        {
+          "line": "Descent",
+          "names": [
+            "Descent™ G2",
+            "Descent™ Mk3 43mm / Mk3i 43mm",
+            "Descent™ Mk3i 51mm"
+          ]
+        },
+        {
+          "line": "MARQ",
+          "names": [
+            "MARQ® (Gen 2) Athlete / Adventurer / Captain / Golfer / Carbon Edition / Commander - Carbon Edition",
+            "MARQ® (Gen 2) Aviator",
+            "MARQ® (Gen 3) Athlete / Adventurer / Aviator / Commander / Golfer / Diver"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "knut",
+      "name": "Knut",
+      "subtitle": "Data Watch Face, Big Time, Gauges & Week",
+      "category": "Digital",
+      "pitch": "Every number, one glance.",
+      "short": "A data-rich watch face that stays easy to read: big time, six readings of your choice, two goal gauges, the week number, seconds and yesterday, today and tomorrow, inside a braided cord.",
+      "full": [
+        "Data watch face with big, easy-to-read numbers: everything you check in a day on one dial, laid out like an instrument panel and tied round with a braided cord at the rim.",
+        "A large time in crisp, squared figures, with the ISO week number on its left and the seconds ticking on its right. Above it, yesterday, today and tomorrow, today boxed in your theme's colour; below it, the month and the year, or a few words of your own.",
+        "Six readings, each with its icon, each your choice from twenty sources: steps, heart rate and the weather to start, Body Battery, calories and floors below, or distance, intensity minutes, stress, the day's high and low, sunrise and sunset, elevation, pressure, notifications, respiration, Pulse Ox, recovery time, VO2 max and sleep score. Two gauges inside the cord fill with your goals: steps at the top with its percent beside it, the battery at the bottom, or floors, intensity minutes, Body Battery, stress, recovery or sleep score.",
+        "Eight themes: Teal, Lime, Amber, Coral, Violet, Ice, Rose and Steel. The hours and the minutes each in white, the theme colour, grey or dark grey. 12-hour or 24-hour time or as your watch is set; temperatures as your watch is set, or °C or °F. Turn the cord off for a plain black dial.",
+        "Always-on in three levels: the time alone, the time with the date and the battery, or the readings too, always under a tenth of the screen lit. On memory-in-pixel screens the seconds keep running with your wrist down.",
+        "Touch and hold a reading or a gauge to open its glance on your watch, or the days for your calendar."
+      ],
+      "settings": [
+        {
+          "name": "Theme",
+          "values": "Teal, Lime, Amber, Coral, Violet, Ice, Rose, Steel"
+        },
+        {
+          "name": "Hours colour, minutes colour",
+          "values": "white, theme colour, grey, dark grey"
+        },
+        {
+          "name": "Show the cord round the rim",
+          "values": "on / off"
+        },
+        {
+          "name": "Six readings",
+          "values": "any of twenty sources, or off"
+        },
+        {
+          "name": "Top gauge, bottom gauge",
+          "values": "steps, floors, intensity minutes, Body Battery, battery, stress, recovery, sleep score, off"
+        },
+        {
+          "name": "Week number",
+          "values": "on / off"
+        },
+        {
+          "name": "Seconds",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        },
+        {
+          "name": "Line under the time",
+          "values": "month and year, my own text, nothing"
+        },
+        {
+          "name": "My own text",
+          "values": "up to 16 letters"
+        },
+        {
+          "name": "Always-on display",
+          "values": "time only; time, date and battery; time, date and readings"
+        },
+        {
+          "name": "Time format",
+          "values": "as the watch, 12-hour, 24-hour"
+        },
+        {
+          "name": "Temperature",
+          "values": "as the watch, °C, °F"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/13d08482-5341-40a6-9d50-fc004b3f6a42",
+      "images": [
+        {
+          "file": "img/knut/01_hero.jpg",
+          "alt": "Knut: on the wrist: the name and what it shows",
+          "w": 1600,
+          "h": 820
+        },
+        {
+          "file": "img/knut/02_features.jpg",
+          "alt": "Knut: the dial and its twenty sources",
+          "w": 1600,
+          "h": 820
+        },
+        {
+          "file": "img/knut/03_themes.jpg",
+          "alt": "Knut: the themes and the time's own colours",
+          "w": 1600,
+          "h": 820
+        },
+        {
+          "file": "img/knut/04_devices.jpg",
+          "alt": "Knut: outdoors: on the wrist, in daylight",
+          "w": 1600,
+          "h": 820
+        },
+        {
+          "file": "img/knut/05_detail.jpg",
+          "alt": "Knut: always-on in three levels",
+          "w": 1600,
+          "h": 820
+        }
+      ],
+      "icon": {
+        "file": "img/knut/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/knut/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      },
+      "watches": [
+        {
+          "line": "fēnix",
+          "names": [
+            "fēnix® 7 / quatix® 7",
+            "fēnix® 7 Pro",
+            "fēnix® 7 Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 7S",
+            "fēnix® 7S Pro",
+            "fēnix® 7X / tactix® 7 / quatix® 7X Solar / Enduro™ 2",
+            "fēnix® 7X Pro",
+            "fēnix® 7X Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 8 43mm",
+            "fēnix® 8 47mm / 51mm / tactix® 8 47mm / 51mm / quatix® 8 47mm / 51mm",
+            "fēnix® 8 Pro 47mm / 51mm / MicroLED / quatix® 8 Pro 47mm / 51mm",
+            "fēnix® 8 Solar 47mm",
+            "fēnix® 8 Solar 51mm / tactix® 8 Solar 51mm",
+            "fēnix® 9 43mm",
+            "fēnix® 9 47mm / 51mm",
+            "fēnix® 9 Pro 43mm",
+            "fēnix® 9 Pro 47mm",
+            "fēnix® 9 Pro 51mm",
+            "fēnix® 9 Pro Solar 47mm",
+            "fēnix® 9 Pro Solar 51mm",
+            "fēnix® E"
+          ]
+        },
+        {
+          "line": "epix",
+          "names": [
+            "epix™ (Gen 2) / quatix® 7 Sapphire",
+            "epix™ Pro (Gen 2) 42mm",
+            "epix™ Pro (Gen 2) 47mm / quatix® 7 Pro",
+            "epix™ Pro (Gen 2) 51mm / D2™ Mach 1 Pro / tactix® 7 – AMOLED Edition"
+          ]
+        },
+        {
+          "line": "Forerunner",
+          "names": [
+            "Forerunner® 70",
+            "Forerunner® 165",
+            "Forerunner® 165 Music",
+            "Forerunner® 170",
+            "Forerunner® 170 Music",
+            "Forerunner® 255",
+            "Forerunner® 255 Music",
+            "Forerunner® 255s",
+            "Forerunner® 255s Music",
+            "Forerunner® 265",
+            "Forerunner® 265s",
+            "Forerunner® 570 42mm",
+            "Forerunner® 570 47mm",
+            "Forerunner® 955 / Solar",
+            "Forerunner® 965",
+            "Forerunner® 970"
+          ]
+        },
+        {
+          "line": "Venu",
+          "names": [
+            "Venu® 2",
+            "Venu® 2 Plus",
+            "Venu® 2S",
+            "Venu® 3",
+            "Venu® 3S",
+            "Venu® 4 41mm",
+            "Venu® 4 45mm / D2™ Air X15"
+          ]
+        },
+        {
+          "line": "vívoactive",
+          "names": [
+            "vívoactive® 5",
+            "vívoactive® 6"
+          ]
+        },
+        {
+          "line": "Enduro",
+          "names": [
+            "Enduro™ 3",
+            "Enduro™ 4"
+          ]
+        },
+        {
+          "line": "Approach",
+          "names": [
+            "Approach® S50",
+            "Approach® S70 42mm",
+            "Approach® S70 47mm",
+            "Approach® S72 43mm",
+            "Approach® S72 47mm"
+          ]
+        },
+        {
+          "line": "D2",
+          "names": [
+            "D2™ Air X10",
+            "D2™ Mach 1",
+            "D2™ Mach 2",
+            "D2™ Mach 2 Pro"
+          ]
+        },
+        {
+          "line": "Descent",
+          "names": [
+            "Descent™ G2",
+            "Descent™ Mk3 43mm / Mk3i 43mm",
+            "Descent™ Mk3i 51mm"
+          ]
+        },
+        {
+          "line": "MARQ",
+          "names": [
+            "MARQ® (Gen 2) Athlete / Adventurer / Captain / Golfer / Carbon Edition / Commander - Carbon Edition",
+            "MARQ® (Gen 2) Aviator",
+            "MARQ® (Gen 3) Athlete / Adventurer / Aviator / Commander / Golfer / Diver"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "norrsken",
       "name": "Norrsken",
       "subtitle": "Aurora & Northern Lights, Big Numbers",
@@ -13018,5 +13931,20 @@
         }
       ]
     }
-  ]
+  ],
+  "unlock": {
+    "env": "live",
+    "token": "live_fc8fde21cf13abb9867d495e672",
+    "server": "https://glean-keys.glean-watch.workers.dev",
+    "seller": "Glean",
+    "days": 7,
+    "faces": [
+      {
+        "slug": "lage",
+        "name": "Lage",
+        "price": "pri_01m82kdev4a5xskzq98fy4r76e",
+        "usd": "2.00"
+      }
+    ]
+  }
 }
