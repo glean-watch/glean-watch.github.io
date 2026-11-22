@@ -755,32 +755,32 @@
         {
           "file": "img/knut/01_hero.jpg",
           "alt": "Knut: on the wrist: the name and what it shows",
-          "w": 1600,
-          "h": 820
+          "w": 720,
+          "h": 720
         },
         {
           "file": "img/knut/02_features.jpg",
           "alt": "Knut: the dial and its twenty sources",
-          "w": 1600,
-          "h": 820
+          "w": 720,
+          "h": 720
         },
         {
           "file": "img/knut/03_themes.jpg",
           "alt": "Knut: the themes and the time's own colours",
-          "w": 1600,
-          "h": 820
+          "w": 720,
+          "h": 720
         },
         {
           "file": "img/knut/04_devices.jpg",
           "alt": "Knut: outdoors: on the wrist, in daylight",
-          "w": 1600,
-          "h": 820
+          "w": 720,
+          "h": 720
         },
         {
           "file": "img/knut/05_detail.jpg",
           "alt": "Knut: always-on in three levels",
-          "w": 1600,
-          "h": 820
+          "w": 720,
+          "h": 720
         }
       ],
       "icon": {
