@@ -85,7 +85,8 @@ def legal_line(data):
 
 
 def usd(amount):
-    return "US$%s" % amount
+    """A price before tax: Paddle adds the buyer's VAT or sales tax at checkout."""
+    return "US$%s + tax" % amount
 
 
 def unlock_page(site, data):
