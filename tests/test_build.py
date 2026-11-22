@@ -631,8 +631,30 @@ class LanguagesTest(unittest.TestCase):
                           % build.BASE, p)
             self.assertIn('<a href="/de/faces/lykt/" hreflang="de" lang="de"', p)
         # A face with no translation has one language, so it names none.
-        self.assertNotIn("hreflang", self.pages["faces/stjarna/index.html"])
+        self.assertNotIn('rel="alternate"', self.pages["faces/stjarna/index.html"])
+        self.assertNotIn('class="langs"', self.pages["faces/stjarna/index.html"])
         self.assertNotIn("de/faces/stjarna/index.html", self.pages)
+
+    def test_the_header_menu_offers_every_language(self):
+        def menu(name):
+            return re.search(r'<details class="lang">(.*?)</details>', self.pages[name], re.S).group(1)
+        # The page in each language it has...
+        self.assertIn('<a href="/de/faces/lykt/" hreflang="de" lang="de">Deutsch</a>',
+                      menu("faces/lykt/index.html"))
+        self.assertIn('<a href="/faces/lykt/" hreflang="en" lang="en">English</a>',
+                      menu("de/faces/lykt/index.html"))
+        self.assertIn('aria-current="true">Deutsch</a>', menu("de/faces/lykt/index.html"))
+        self.assertIn('<summary aria-label="Sprache: Deutsch">', menu("de/faces/lykt/index.html"))
+        # ...else the language's home page, as on help and an English-only face.
+        for name in ("faces/stjarna/index.html", "help/index.html", "404.html"):
+            self.assertIn('<a href="/de/" hreflang="de" lang="de">Deutsch</a>', menu(name), name)
+        # Only the languages the site has: no French face, no French link.
+        self.assertNotIn('hreflang="fr"', menu("index.html"))
+
+    def test_one_language_has_no_menu(self):
+        site, _ = make_site()
+        build.build(site)
+        self.assertNotIn('class="lang"', (site / "index.html").read_text(encoding="utf-8"))
 
     def test_the_translated_home_lists_what_it_has(self):
         home = self.pages["de/index.html"]

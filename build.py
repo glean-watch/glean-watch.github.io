@@ -111,14 +111,45 @@ def language_line(lang, alternates):
     return '\n  <nav class="langs" aria-label="%s">%s</nav>' % (esc(i18n.t(lang, "language")), links)
 
 
+# The header's language menu: a globe, then the language's code.
+GLOBE = ('<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/>'
+         '<path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg>')
+
+
+def homes(data):
+    """The languages with a home page: English, and each with a face in it."""
+    if data is None:
+        return ("en",)
+    return tuple(c for c in i18n.CODES if c == "en" or items(data, "faces", c))
+
+
+def language_menu(lang, alternates, data):
+    """The header's menu of languages: each opens this page in it, or that
+    language's home page where this page is English only. No script: a
+    <details> opens and closes it."""
+    links = []
+    for c in homes(data):
+        href = (alternates or {}).get(c, pre(c))
+        links.append('<li><a href="/%s" hreflang="%s" lang="%s"%s>%s</a></li>'
+                     % (esc(href), c, c, ' aria-current="true"' if c == lang else "",
+                        esc(i18n.NAME[c])))
+    if len(links) < 2:
+        return ""
+    return ('<details class="lang">\n  <summary aria-label="%s: %s">%s<span>%s</span></summary>\n'
+            '  <ul role="list">\n  %s\n  </ul>\n</details>'
+            % (esc(i18n.t(lang, "language")), esc(i18n.NAME[lang]), GLOBE, lang.upper(),
+               "\n  ".join(links)))
+
+
 def page(site, current, title, description, path, og_image, main, scripts="", legal="", head="",
-         lang="en", alternates=None, tabs=None):
+         lang="en", alternates=None, tabs=None, data=None):
     """A whole page around `main`; `path` and `og_image` are relative to BASE.
     `current` is what to mark: a section's tab, "help", "privacy" or None.
     `legal` is the footer's line of sales pages, empty while nothing sells.
     `head` is more of the head: structured data, a robots or ownership tag.
     `alternates` is {code: path} of the page in every language it has;
-    `tabs` the sections' hrefs, tab_hrefs(), English's when not given."""
+    `tabs` the sections' hrefs, tab_hrefs(), English's when not given;
+    `data` names the languages the header's menu offers."""
     nav = {("tab_" if k in SECTIONS else "nav_") + k:
            (' aria-current="page"' if k == current else "") for k in SECTIONS + ("help", "privacy")}
     words = {"t_" + k: esc(i18n.t(lang, k)) for k in
@@ -129,6 +160,7 @@ def page(site, current, title, description, path, og_image, main, scripts="", le
         lang=lang, title=esc(title), description=esc(description), canonical=esc(BASE + path),
         og_image=esc(BASE + og_image), main=main, scripts=scripts, legal=legal,
         head=head + alternate_links(alternates), languages=language_line(lang, alternates),
+        menu=language_menu(lang, alternates, data),
         **nav, **words, **hrefs)
 
 
@@ -191,14 +223,15 @@ def unlock_page(site, data):
         options=options, prices=prices, days=int(u["days"]))
     return page(site, None, "Unlock a trial · Glean",
                 "Buy the code that unlocks a Glean face's free trial edition on your watch, for good.",
-                "unlock/", data["faces"][0]["hero"]["file"], main, UNLOCK_JS, legal_line(data))
+                "unlock/", data["faces"][0]["hero"]["file"], main, UNLOCK_JS, legal_line(data),
+                data=data)
 
 
 def legal_page(site, data, name, title, description):
     main = template(site, name).substitute(seller=esc(data["unlock"]["seller"]),
                                            days=int(data["unlock"]["days"]))
     return page(site, None, "%s · Glean" % title, description, name + "/",
-                data["faces"][0]["hero"]["file"], main, "", legal_line(data))
+                data["faces"][0]["hero"]["file"], main, "", legal_line(data), data=data)
 
 
 def img(pic, alt, lazy, cls=None):
@@ -322,7 +355,8 @@ def section_page(site, data, section, lang="en"):
         main = template(site, "soon").substitute(heading=esc(heading), soon=soon(section))
     return page(site, section, title, description, pre(lang) + TAB[section],
                 data["faces"][0]["hero"]["file"], main, legal=legal_line(data), head=head,
-                lang=lang, alternates=section_langs(data, section), tabs=tab_hrefs(data, lang))
+                lang=lang, alternates=section_langs(data, section), tabs=tab_hrefs(data, lang),
+                data=data)
 
 
 def cat_langs(data, slug, name):
@@ -346,7 +380,7 @@ def category_page(site, data, slug, name, lang="en"):
         grid=grid("faces", records, lang=lang))
     return page(site, "faces", title, description, path, records[0]["hero"]["file"], main,
                 legal=legal_line(data), head=crumbs, lang=lang, alternates=cat_langs(data, slug, name),
-                tabs=tab_hrefs(data, lang))
+                tabs=tab_hrefs(data, lang), data=data)
 
 
 def watch_count(lines):
@@ -502,7 +536,7 @@ def item_page(site, data, section, item, lang="en"):
     return page(site, section, "%s · %s · Glean" % (full_title(item), what), description,
                 path, item["hero"]["file"], main, GALLERY_JS, legal_line(data),
                 item_head(section, item, path, lang, description), lang=lang,
-                alternates=item_langs(data, section, item), tabs=tab_hrefs(data, lang))
+                alternates=item_langs(data, section, item), tabs=tab_hrefs(data, lang), data=data)
 
 
 def watches_html(lines):
@@ -516,19 +550,20 @@ def help_page(site, data):
                                              watch_count=watch_count(data["watches"]))
     return page(site, "help", "Help · Glean",
                 "Installing a Glean watch face, changing its settings, and the watches it runs on.",
-                "help/", data["faces"][0]["hero"]["file"], main, legal=legal_line(data))
+                "help/", data["faces"][0]["hero"]["file"], main, legal=legal_line(data), data=data)
 
 
 def privacy_page(site, data):
     return page(site, "privacy", "Privacy · Glean",
                 "What Glean's faces, apps and this site do with your data: nothing leaves your watch but a rounded place for the stargazing forecast, and a trial edition's watch ID.",
-                "privacy/", data["faces"][0]["hero"]["file"], template(site, "privacy").substitute(), "", legal_line(data))
+                "privacy/", data["faces"][0]["hero"]["file"], template(site, "privacy").substitute(), "",
+                legal_line(data), data=data)
 
 
 def not_found(site, data):
     return page(site, None, "Not found · Glean", "This page does not exist.", "404.html",
                 data["faces"][0]["hero"]["file"], template(site, "404").substitute(), "", legal_line(data),
-                '<meta name="robots" content="noindex">')
+                '<meta name="robots" content="noindex">', data=data)
 
 
 def sitemap(paths, images=None):
