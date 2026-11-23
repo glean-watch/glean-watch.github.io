@@ -212,8 +212,15 @@ def usd(amount):
 
 
 def unlock_page(site, data):
+    """The checkout, or, while no trial edition is on the store yet, the page
+    saying the first are coming (the terms and refunds stay up beside it)."""
     u = data["unlock"]
-    options = "\n".join(
+    if not u["faces"]:
+        main = template(site, "unlock_soon").substitute(days=int(u["days"]))
+        return page(site, None, "Unlock a trial · Glean",
+                    "Glean's faces are getting free trial editions; their unlock codes will be sold here.",
+                    "unlock/", data["faces"][0]["hero"]["file"], main, "", legal_line(data), data=data)
+    options ="\n".join(
         '<option value="%s" data-price="%s">%s · %s</option>'
         % (esc(f["slug"]), esc(f["price"]), esc(f["name"]), esc(usd(f["usd"])))
         for f in u["faces"])
@@ -599,8 +606,8 @@ def check(site, data):
             raise SystemExit("build: unlock.seller, the legal name Paddle knows, is empty")
         if not str(u.get("server", "")).startswith("https://"):
             raise SystemExit("build: unlock.server is not an https address")
-        if not u.get("faces"):
-            raise SystemExit("build: unlock lists no face")
+        if not isinstance(u.get("faces"), list):
+            raise SystemExit("build: unlock.faces is not a list")
         live = {r["slug"] for r in data["faces"]}
         for f in u["faces"]:
             if f["slug"] not in live:

@@ -13938,13 +13938,6 @@
     "server": "https://glean-keys.glean-watch.workers.dev",
     "seller": "Glean",
     "days": 2,
-    "faces": [
-      {
-        "slug": "lage",
-        "name": "Lage",
-        "price": "pri_01m82kdev4a5xskzq98fy4r76e",
-        "usd": "2.00"
-      }
-    ]
+    "faces": []
   }
 }

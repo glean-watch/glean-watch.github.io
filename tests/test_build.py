@@ -561,6 +561,18 @@ class UnlockTest(unittest.TestCase):
         build.build(site)
         self.assertFalse((site / "unlock").exists())
 
+    def test_no_trial_on_the_store_yet(self):
+        site, data = make_site()
+        self.addCleanup(shutil.rmtree, site, ignore_errors=True)
+        (site / "data" / "faces.json").write_text(json.dumps(self.unlock(data, faces=[])), encoding="utf-8")
+        paths = build.build(site)
+        for name in ("unlock/", "terms/", "refunds/"):
+            self.assertIn(name, paths)
+        u = pages(site)["unlock/index.html"]
+        self.assertIn("Coming soon", u)
+        self.assertNotIn(build.PADDLE_JS, u)
+        self.assertNotIn('id="unlock"', u)
+
     def test_values_are_escaped(self):
         site, data = make_site()
         self.addCleanup(shutil.rmtree, site, ignore_errors=True)
@@ -575,7 +587,7 @@ class UnlockTest(unittest.TestCase):
         site, data = make_site()
         self.addCleanup(shutil.rmtree, site, ignore_errors=True)
         f0 = self.unlock(data)["unlock"]["faces"][0]
-        for bad in ({"env": "test"}, {"seller": " "}, {"server": "http://x"}, {"faces": []},
+        for bad in ({"env": "test"}, {"seller": " "}, {"server": "http://x"}, {"faces": None},
                     {"faces": [dict(f0, slug="nope")]}, {"faces": [dict(f0, price="price_1")]},
                     {"faces": [dict(f0, usd="2")]}):
             (site / "data" / "faces.json").write_text(json.dumps(self.unlock(data, **bad)),
