@@ -1,4 +1,15 @@
 {
+  "glob": {
+    "name": "Glob",
+    "subtitle": "Bola de nieve, cuenta atrás Navidad",
+    "full": [
+      "Esfera de bola de nieve con cuenta atrás para Navidad: dentro del cristal, una casita nevada con ventanas cálidas, un abeto escarchado y el diminuto trineo de Papá Noel, con purpurina dorada y luces arremolinándose encima. Delante, una hora grande y fácil de leer, la fecha y los datos que miras cada día.",
+      "La hora está arriba, en la purpurina, en cifras suaves y redondeadas: las horas en blanco, los dos puntos y los minutos del color del tema. Cada cifra lleva un contorno oscuro, así se mantiene nítida sobre las luces y la nieve, y no se dibuja nada sobre la casita.",
+      "Encima de la hora, la fecha en el idioma de tu reloj con los segundos al lado, y la batería y los avisos arriba del todo. En la nieve, dos lecturas en píldoras redondeadas: para empezar, una cuenta atrás hasta Navidad, un pequeño regalo y los días que faltan, y tu frecuencia cardíaca. O elige el tiempo, la máxima y la mínima del día, pasos, Body Battery, estrés, calorías, distancia, pisos, salida y puesta del sol, altitud, VO2 máx., puntuación de sueño y más, veinte fuentes en total. Una barra corta se llena con tu objetivo de pasos, o de pisos, minutos de intensidad, Body Battery, batería o estrés.",
+      "Cuatro temas: Oro, Rojo, Verde y Hielo, o apaga la bola de nieve para una esfera negra y sencilla. Hora de 12 o 24 horas o como esté el reloj. En las pantallas MIP los segundos siguen con la muñeca bajada; el modo siempre activo mantiene la hora del mismo tamaño, en un trazo fino, sobre negro.",
+      "Mantén pulsada una lectura o la barra de objetivo para abrir su vista en el reloj, la fecha o la cuenta atrás para tu calendario. Temperaturas como el reloj, o en °C o °F."
+    ]
+  },
   "julnatt": {
     "name": "Julnatt",
     "subtitle": "Árbol de Navidad, cuenta atrás",

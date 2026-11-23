@@ -1,4 +1,15 @@
 {
+  "glob": {
+    "name": "Glob",
+    "subtitle": "Boule à neige, compte à rebours Noël",
+    "full": [
+      "Cadran boule à neige avec compte à rebours de Noël : sous le verre, une petite maison enneigée aux fenêtres chaudes, un sapin givré et le minuscule traîneau du Père Noël, avec des paillettes dorées et des lumières qui tourbillonnent au-dessus. Devant, une grande heure bien lisible, la date et les données que vous consultez chaque jour.",
+      "L'heure se tient haut dans les paillettes, en chiffres doux et arrondis : les heures en blanc, les deux-points et les minutes à la couleur du thème. Chaque chiffre est tracé sur un contour sombre, pour rester net sur les lumières et la neige, et rien n'est dessiné sur la maison.",
+      "Au-dessus de l'heure, la date dans la langue de votre montre avec les secondes à côté, et la batterie et les alertes tout en haut. Dans la neige, deux mesures dans des pastilles arrondies : pour commencer, un compte à rebours jusqu'à Noël, un petit paquet et les jours restants, et votre fréquence cardiaque. Ou choisissez la météo, les maximales et minimales du jour, les pas, Body Battery, le stress, les calories, la distance, les étages, le lever et le coucher du soleil, l'altitude, la VO2 max, le score de sommeil et plus encore, vingt sources en tout. Une courte barre se remplit avec votre objectif de pas, ou d'étages, de minutes intensives, de Body Battery, de batterie ou de stress.",
+      "Quatre thèmes : Or, Rouge, Vert et Glace, ou désactivez la boule à neige pour un cadran noir et sobre. Heure sur 12 ou 24 heures ou selon la montre. Sur les écrans MIP, les secondes continuent poignet baissé ; le mode toujours actif garde l'heure à la même taille, en graisse légère, sur fond noir.",
+      "Maintenez une mesure ou la barre d'objectif pour ouvrir son aperçu sur la montre, la date ou le compte à rebours pour votre calendrier. Températures comme la montre, ou en °C ou °F."
+    ]
+  },
   "julnatt": {
     "name": "Julnatt",
     "subtitle": "Sapin de Noël, compte à rebours",

@@ -1,4 +1,15 @@
 {
+  "glob": {
+    "name": "Glob",
+    "subtitle": "Snehová guľa, odpočet do Vianoc",
+    "full": [
+      "Ciferník so snehovou guľou a odpočtom do Vianoc: pod sklom malý zasnežený domček s teplými oknami, ojínený stromček a maličké sane Mikuláša, nad nimi víriace zlaté trblietky a svetielka. Pred nimi veľký, dobre čitateľný čas, dátum a údaje, ktoré si pozeráš každý deň.",
+      "Čas stojí vysoko v trblietkach, v mäkkých zaoblených čísliciach: hodiny biele, dvojbodka a minúty vo farbe témy. Každá číslica má tmavý obrys, aby zostala ostrá na svetlách aj na snehu, a cez domček sa nekreslí nič.",
+      "Nad časom dátum v jazyku hodiniek so sekundami vedľa, úplne hore batéria a upozornenia. Na snehu dve hodnoty v zaoblených políčkach: na začiatok odpočet do Vianoc, malý darček a počet dní, a tep. Alebo si vyber počasie, najvyššiu a najnižšiu teplotu dňa, kroky, Body Battery, stres, kalórie, vzdialenosť, poschodia, východ a západ slnka, nadmorskú výšku, VO2 max, skóre spánku a ďalšie, spolu dvadsať zdrojov. Krátky pruh sa plní s tvojím cieľom krokov, alebo poschodí, minút intenzity, Body Battery, batérie či stresu.",
+      "Štyri témy: zlatá, červená, zelená a ľadová, alebo vypni snehovú guľu pre jednoduchý čierny ciferník. Čas 12- alebo 24-hodinový alebo podľa hodiniek. Na displejoch MIP bežia sekundy aj so spusteným zápästím; režim vždy zapnuté ukazuje čas v rovnakej veľkosti, tenkým písmom, na čiernej.",
+      "Podrž hodnotu alebo pruh cieľa a otvorí sa jej prehľad v hodinkách, dátum alebo odpočet otvoria kalendár. Teploty podľa hodiniek, alebo v °C či °F."
+    ]
+  },
   "julnatt": {
     "name": "Julnatt",
     "subtitle": "Vianočný stromček, odpočítavanie",

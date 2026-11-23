@@ -4,21 +4,22 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Unlock a trial · Glean</title>
-<meta name="description" content="Glean&#x27;s faces are getting free trial editions; their unlock codes will be sold here.">
+<meta name="description" content="Buy the code that unlocks a Glean face&#x27;s free trial edition on your watch, for good.">
 <link rel="canonical" href="https://glean-watch.github.io/unlock/">
 <link rel="icon" href="/favicon.ico">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Glean">
 <meta property="og:title" content="Unlock a trial · Glean">
-<meta property="og:description" content="Glean&#x27;s faces are getting free trial editions; their unlock codes will be sold here.">
+<meta property="og:description" content="Buy the code that unlocks a Glean face&#x27;s free trial edition on your watch, for good.">
 <meta property="og:url" content="https://glean-watch.github.io/unlock/">
-<meta property="og:image" content="https://glean-watch.github.io/img/julnatt/hero_1440x720.jpg">
+<meta property="og:image" content="https://glean-watch.github.io/img/glob/hero_1440x720.jpg">
 <meta name="twitter:card" content="summary_large_image">
 
 <link rel="preload" href="/assets/fonts/space-grotesk.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="stylesheet" href="/assets/site.css">
-
+<script src="https://cdn.paddle.com/paddle/v2/paddle.js" defer></script>
+<script src="/assets/unlock.js" defer></script>
 </head>
 <body>
 <header class="top">
@@ -56,19 +57,42 @@
 <main id="main">
 <article class="prose">
 <h1>Unlock a trial</h1>
-<p class="lead">Glean's faces are getting free trial editions: the whole face for 2 days on your own watch, then an unlock code keeps it running for good.</p>
+<p class="lead">A Glean face's free trial edition runs in full for 2 days. An unlock code keeps it running for good, on your watch.</p>
 
-<h2>Coming soon</h2>
-<p>The first trial editions are on their way to the Connect IQ Store. When one is there, its unlock code is sold on this page: you type the watch ID the face shows, pay, and the face unlocks at your watch's next sync.</p>
-<p>Until then, every Glean face is on the Connect IQ Store, where buying it needs no code.</p>
+<form class="unlock" id="unlock" data-env="live" data-token="live_fc8fde21cf13abb9867d495e672" data-server="https://glean-keys.glean-watch.workers.dev" novalidate>
+  <label for="unlock-face">Face</label>
+  <select id="unlock-face" name="face">
+<option value="glob" data-price="pri_01m84ywp0774x9gthkj71mfb66">Glob · US$2.00 + tax</option>
+  </select>
+  <label for="unlock-watch">Watch ID</label>
+  <input id="unlock-watch" name="watch" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="11" placeholder="K7Q2-9MXA" aria-describedby="unlock-hint">
+  <p class="hint" id="unlock-hint">Eight letters and digits. The face shows its ID once the trial is over, and always under Watch ID in its settings (Garmin Connect app: the face, then Settings).</p>
+  <button type="submit" id="unlock-go">Continue to payment</button>
+  <p class="status" id="unlock-status" role="status" aria-live="polite"></p>
+  <div class="code" id="unlock-code" hidden>
+    <p>Your unlock code</p>
+    <p class="the-code" id="unlock-the-code"></p>
+    <p>The face unlocks by itself the next time your watch syncs with your phone. Or type the code into the face's settings, under Unlock code.</p>
+  </div>
+  <noscript><p class="status">This page needs JavaScript for the checkout.</p></noscript>
+</form>
 
-<h2>How it will work</h2>
+<h2>Prices</h2>
+<ul>
+<li>Glob: US$2.00 + tax</li>
+</ul>
+<p>One code unlocks one face on one watch. Prices are before tax: the VAT or sales tax where you live is added at checkout.</p>
+<p>Codes are not refundable once delivered, so try the face first: that is what the free trial is for. See <a href="/refunds/">refunds</a>.</p>
+
+<h2>How it works</h2>
 <ol>
-  <li>Install a face's free trial edition from the Connect IQ Store and try it for 2 days.</li>
-  <li>Type its watch ID here and pay. The checkout is run by Paddle, our reseller. Prices are before tax: the VAT or sales tax where you live is added at checkout.</li>
+  <li>Install the face's free trial edition from the Connect IQ Store and try it for 2 days.</li>
+  <li>Type its watch ID here and pay. The checkout is run by Paddle, our reseller.</li>
   <li>Your code appears on this page, and Paddle emails your receipt.</li>
-  <li>The face unlocks at the watch's next sync. Codes are not refundable once delivered, so try the face first: see <a href="/refunds/">refunds</a>.</li>
+  <li>The face unlocks at the watch's next sync. It never needs to go online again after that.</li>
 </ol>
+<p>Already paid? Type the watch ID above: if it is unlocked, its code is shown again. A new watch has a new ID; the <a href="/refunds/">refunds page</a> says what to do.</p>
+<p>Prefer to pay on the Connect IQ Store? Every face is also sold there; buying it there needs no code.</p>
 </article>
 
 </main>

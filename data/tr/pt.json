@@ -1,4 +1,15 @@
 {
+  "glob": {
+    "name": "Glob",
+    "subtitle": "Globo de neve, contagem para o Natal",
+    "full": [
+      "Mostrador de globo de neve com contagem para o Natal: dentro do vidro, uma casinha nevada com janelas acesas, um pinheiro coberto de geada e o pequenino trenó do Pai Natal, com purpurina dourada e luzes a rodopiar por cima. À frente, uma hora grande e fácil de ler, a data e os dados que vês todos os dias.",
+      "A hora fica no alto, na purpurina, em algarismos suaves e arredondados: as horas em branco, os dois pontos e os minutos na cor do tema. Cada algarismo tem um contorno escuro, para se manter nítido sobre as luzes e a neve, e nada é desenhado sobre a casinha.",
+      "Por cima da hora, a data no idioma do teu relógio com os segundos ao lado, e a bateria e os avisos no topo. Na neve, duas leituras em pastilhas arredondadas: para começar, uma contagem até ao Natal, um pequeno embrulho e os dias que faltam, e a frequência cardíaca. Ou escolhe o tempo, a máxima e a mínima do dia, passos, Body Battery, stress, calorias, distância, pisos, nascer e pôr do sol, altitude, VO2 máx., pontuação do sono e mais, vinte fontes no total. Uma barra curta enche-se com o teu objetivo de passos, ou pisos, minutos de intensidade, Body Battery, bateria ou stress.",
+      "Quatro temas: Ouro, Vermelho, Verde e Gelo, ou desliga o globo de neve para um mostrador preto e simples. Hora de 12 ou 24 horas ou como o relógio. Nos ecrãs MIP os segundos continuam com o pulso em baixo; o modo sempre ligado mantém a hora do mesmo tamanho, num traço leve, sobre preto.",
+      "Mantém premida uma leitura ou a barra do objetivo para abrir a sua vista rápida no relógio, a data ou a contagem para o calendário. Temperaturas como o relógio, ou em °C ou °F."
+    ]
+  },
   "julnatt": {
     "name": "Julnatt",
     "subtitle": "Árvore de Natal, contagem para o Natal",

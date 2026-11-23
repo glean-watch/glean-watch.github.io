@@ -1,4 +1,15 @@
 {
+  "glob": {
+    "name": "Glob",
+    "subtitle": "Palla di neve, conto alla rovescia Natale",
+    "full": [
+      "Quadrante palla di neve con conto alla rovescia per Natale: sotto il vetro una casetta innevata con le finestre calde, un abete brinato e la minuscola slitta di Babbo Natale, con brillantini dorati e luci che turbinano sopra. Davanti, un'ora grande e facile da leggere, la data e i dati che guardi ogni giorno.",
+      "L'ora sta in alto, tra i brillantini, in cifre morbide e arrotondate: le ore in bianco, i due punti e i minuti nel colore del tema. Ogni cifra ha un contorno scuro, così resta nitida sulle luci e sulla neve, e sulla casetta non si disegna nulla.",
+      "Sopra l'ora, la data nella lingua del tuo orologio con i secondi accanto, e batteria e avvisi in cima. Nella neve, due letture in pillole arrotondate: per iniziare, un conto alla rovescia fino a Natale, un pacchetto e i giorni che mancano, e la frequenza cardiaca. Oppure scegli il meteo, la massima e la minima del giorno, passi, Body Battery, stress, calorie, distanza, piani, alba e tramonto, altitudine, VO2 max, punteggio del sonno e altro, venti fonti in tutto. Una breve barra si riempie con il tuo obiettivo di passi, o di piani, minuti di intensità, Body Battery, batteria o stress.",
+      "Quattro temi: Oro, Rosso, Verde e Ghiaccio, oppure spegni la palla di neve per un quadrante nero e semplice. Ora a 12 o 24 ore o come l'orologio. Sui display MIP i secondi continuano a polso abbassato; la modalità sempre attiva mantiene l'ora della stessa grandezza, in un tratto leggero, sul nero.",
+      "Tieni premuta una lettura o la barra dell'obiettivo per aprirne la panoramica sull'orologio, la data o il conto alla rovescia per il calendario. Temperature come l'orologio, oppure in °C o °F."
+    ]
+  },
   "julnatt": {
     "name": "Julnatt",
     "subtitle": "Albero di Natale, countdown Natale",

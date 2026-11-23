@@ -1,4 +1,15 @@
 {
+  "glob": {
+    "name": "Glob",
+    "subtitle": "Sněžítko, odpočet do Vánoc",
+    "full": [
+      "Ciferník se sněžítkem a odpočtem do Vánoc: pod sklem malý zasněžený domeček s teplými okny, ojíněný stromeček a maličké sáně Santy, nad nimi vířící zlaté třpytky a světýlka. Před nimi velký, dobře čitelný čas, datum a údaje, které sleduješ každý den.",
+      "Čas stojí vysoko ve třpytkách, v měkkých zaoblených číslicích: hodiny bílé, dvojtečka a minuty v barvě motivu. Každá číslice má tmavý obrys, aby zůstala ostrá na světlech i na sněhu, a přes domeček se nekreslí nic.",
+      "Nad časem datum v jazyce hodinek se sekundami vedle, úplně nahoře baterie a upozornění. Na sněhu dvě hodnoty v zaoblených políčkách: na začátek odpočet do Vánoc, malý dárek a počet dní, a tep. Nebo si vyber počasí, nejvyšší a nejnižší teplotu dne, kroky, Body Battery, stres, kalorie, vzdálenost, patra, východ a západ slunce, nadmořskou výšku, VO2 max, skóre spánku a další, celkem dvacet zdrojů. Krátký pruh se plní s tvým cílem kroků, nebo pater, minut intenzity, Body Battery, baterie či stresu.",
+      "Čtyři motivy: zlatý, červený, zelený a ledový, nebo vypni sněžítko pro jednoduchý černý ciferník. Čas 12- nebo 24hodinový nebo podle hodinek. Na displejích MIP běží sekundy i se spuštěným zápěstím; režim vždy zapnuto ukazuje čas ve stejné velikosti, tenkým písmem, na černé.",
+      "Podrž hodnotu nebo pruh cíle a otevře se její přehled v hodinkách, datum nebo odpočet otevřou kalendář. Teploty podle hodinek, nebo v °C či °F."
+    ]
+  },
   "julnatt": {
     "name": "Julnatt",
     "subtitle": "Vánoční strom, odpočet, velké číslice",

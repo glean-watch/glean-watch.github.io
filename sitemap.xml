@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url><loc>https://glean-watch.github.io/</loc></url>
+  <url><loc>https://glean-watch.github.io/faces/glob/</loc><image:image><image:loc>https://glean-watch.github.io/img/glob/01_hero.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/glob/02_features.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/glob/03_themes.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/glob/04_devices.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/glob/05_detail.jpg</image:loc></image:image></url>
   <url><loc>https://glean-watch.github.io/faces/julnatt/</loc><image:image><image:loc>https://glean-watch.github.io/img/julnatt/01_hero.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/julnatt/02_features.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/julnatt/03_themes.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/julnatt/04_devices.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/julnatt/05_detail.jpg</image:loc></image:image></url>
   <url><loc>https://glean-watch.github.io/faces/snemand/</loc><image:image><image:loc>https://glean-watch.github.io/img/snemand/01_hero.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/snemand/02_features.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/snemand/03_themes.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/snemand/04_devices.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/snemand/05_detail.jpg</image:loc></image:image></url>
   <url><loc>https://glean-watch.github.io/faces/tomte/</loc><image:image><image:loc>https://glean-watch.github.io/img/tomte/01_hero.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/tomte/02_features.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/tomte/03_themes.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/tomte/04_devices.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/tomte/05_detail.jpg</image:loc></image:image></url>
@@ -78,6 +79,7 @@
   <url><loc>https://glean-watch.github.io/faces/fantasy/</loc></url>
   <url><loc>https://glean-watch.github.io/faces/retro/</loc></url>
   <url><loc>https://glean-watch.github.io/pl/</loc></url>
+  <url><loc>https://glean-watch.github.io/pl/faces/glob/</loc></url>
   <url><loc>https://glean-watch.github.io/pl/faces/julnatt/</loc></url>
   <url><loc>https://glean-watch.github.io/pl/faces/snemand/</loc></url>
   <url><loc>https://glean-watch.github.io/pl/faces/tomte/</loc></url>
@@ -154,6 +156,7 @@
   <url><loc>https://glean-watch.github.io/pl/faces/fantasy/</loc></url>
   <url><loc>https://glean-watch.github.io/pl/faces/retro/</loc></url>
   <url><loc>https://glean-watch.github.io/de/</loc></url>
+  <url><loc>https://glean-watch.github.io/de/faces/glob/</loc></url>
   <url><loc>https://glean-watch.github.io/de/faces/julnatt/</loc></url>
   <url><loc>https://glean-watch.github.io/de/faces/snemand/</loc></url>
   <url><loc>https://glean-watch.github.io/de/faces/tomte/</loc></url>
@@ -230,6 +233,7 @@
   <url><loc>https://glean-watch.github.io/de/faces/fantasy/</loc></url>
   <url><loc>https://glean-watch.github.io/de/faces/retro/</loc></url>
   <url><loc>https://glean-watch.github.io/fr/</loc></url>
+  <url><loc>https://glean-watch.github.io/fr/faces/glob/</loc></url>
   <url><loc>https://glean-watch.github.io/fr/faces/julnatt/</loc></url>
   <url><loc>https://glean-watch.github.io/fr/faces/snemand/</loc></url>
   <url><loc>https://glean-watch.github.io/fr/faces/tomte/</loc></url>
@@ -306,6 +310,7 @@
   <url><loc>https://glean-watch.github.io/fr/faces/fantasy/</loc></url>
   <url><loc>https://glean-watch.github.io/fr/faces/retro/</loc></url>
   <url><loc>https://glean-watch.github.io/es/</loc></url>
+  <url><loc>https://glean-watch.github.io/es/faces/glob/</loc></url>
   <url><loc>https://glean-watch.github.io/es/faces/julnatt/</loc></url>
   <url><loc>https://glean-watch.github.io/es/faces/snemand/</loc></url>
   <url><loc>https://glean-watch.github.io/es/faces/tomte/</loc></url>
@@ -382,6 +387,7 @@
   <url><loc>https://glean-watch.github.io/es/faces/fantasy/</loc></url>
   <url><loc>https://glean-watch.github.io/es/faces/retro/</loc></url>
   <url><loc>https://glean-watch.github.io/it/</loc></url>
+  <url><loc>https://glean-watch.github.io/it/faces/glob/</loc></url>
   <url><loc>https://glean-watch.github.io/it/faces/julnatt/</loc></url>
   <url><loc>https://glean-watch.github.io/it/faces/snemand/</loc></url>
   <url><loc>https://glean-watch.github.io/it/faces/tomte/</loc></url>
@@ -458,6 +464,7 @@
   <url><loc>https://glean-watch.github.io/it/faces/fantasy/</loc></url>
   <url><loc>https://glean-watch.github.io/it/faces/retro/</loc></url>
   <url><loc>https://glean-watch.github.io/nl/</loc></url>
+  <url><loc>https://glean-watch.github.io/nl/faces/glob/</loc></url>
   <url><loc>https://glean-watch.github.io/nl/faces/julnatt/</loc></url>
   <url><loc>https://glean-watch.github.io/nl/faces/snemand/</loc></url>
   <url><loc>https://glean-watch.github.io/nl/faces/tomte/</loc></url>
@@ -534,6 +541,7 @@
   <url><loc>https://glean-watch.github.io/nl/faces/fantasy/</loc></url>
   <url><loc>https://glean-watch.github.io/nl/faces/retro/</loc></url>
   <url><loc>https://glean-watch.github.io/pt/</loc></url>
+  <url><loc>https://glean-watch.github.io/pt/faces/glob/</loc></url>
   <url><loc>https://glean-watch.github.io/pt/faces/julnatt/</loc></url>
   <url><loc>https://glean-watch.github.io/pt/faces/snemand/</loc></url>
   <url><loc>https://glean-watch.github.io/pt/faces/tomte/</loc></url>
@@ -610,6 +618,7 @@
   <url><loc>https://glean-watch.github.io/pt/faces/fantasy/</loc></url>
   <url><loc>https://glean-watch.github.io/pt/faces/retro/</loc></url>
   <url><loc>https://glean-watch.github.io/sk/</loc></url>
+  <url><loc>https://glean-watch.github.io/sk/faces/glob/</loc></url>
   <url><loc>https://glean-watch.github.io/sk/faces/julnatt/</loc></url>
   <url><loc>https://glean-watch.github.io/sk/faces/snemand/</loc></url>
   <url><loc>https://glean-watch.github.io/sk/faces/tomte/</loc></url>
@@ -686,6 +695,7 @@
   <url><loc>https://glean-watch.github.io/sk/faces/fantasy/</loc></url>
   <url><loc>https://glean-watch.github.io/sk/faces/retro/</loc></url>
   <url><loc>https://glean-watch.github.io/cs/</loc></url>
+  <url><loc>https://glean-watch.github.io/cs/faces/glob/</loc></url>
   <url><loc>https://glean-watch.github.io/cs/faces/julnatt/</loc></url>
   <url><loc>https://glean-watch.github.io/cs/faces/snemand/</loc></url>
   <url><loc>https://glean-watch.github.io/cs/faces/tomte/</loc></url>

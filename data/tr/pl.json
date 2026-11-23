@@ -1,4 +1,15 @@
 {
+  "glob": {
+    "name": "Glob",
+    "subtitle": "Śnieżna kula, odliczanie do świąt",
+    "full": [
+      "Świąteczna tarcza ze śnieżną kulą: pod szkłem mały zaśnieżony domek z ciepłym światłem w oknach, oszroniona choinka i maleńkie sanie Mikołaja, a nad nimi wirujący złoty brokat i światełka. Przed nimi duża, czytelna godzina, data i dane, które sprawdzasz co dzień.",
+      "Godzina stoi wysoko w brokacie, w miękkich, zaokrąglonych cyfrach: godziny białe, dwukropek i minuty w kolorze motywu. Każda cyfra ma ciemny kontur, więc pozostaje ostra na tle świateł i śniegu, a domek zostaje odsłonięty.",
+      "Nad godziną data w języku zegarka z sekundami obok, a na samej górze bateria i powiadomienia. Na śniegu dwa pola w zaokrąglonych plakietkach: na początek odliczanie do świąt, mały prezent i liczba dni, oraz tętno. Albo wybierz pogodę, najwyższą i najniższą temperaturę dnia, kroki, Body Battery, stres, kalorie, dystans, piętra, wschód i zachód słońca, wysokość, VO2max, ocenę snu i inne, w sumie dwadzieścia źródeł. Krótki pasek wypełnia się z celem kroków albo pięter, minut intensywności, Body Battery, baterii lub stresu.",
+      "Cztery motywy: złoty, czerwony, zielony i lodowy, albo wyłącz kulę dla czarnej tarczy. Czas 12- lub 24-godzinny albo jak w zegarku. Na ekranach MIP sekundy biegną także przy opuszczonym nadgarstku; tryb zawsze włączony pokazuje godzinę w tej samej wielkości, cienkim krojem, na czerni.",
+      "Przytrzymaj pole lub pasek celu, by otworzyć jego podgląd w zegarku, a datę lub odliczanie, by otworzyć kalendarz. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
   "julnatt": {
     "name": "Julnatt",
     "subtitle": "Choinka, odliczanie do świąt, duże cyfry",

@@ -1,4 +1,15 @@
 {
+  "glob": {
+    "name": "Glob",
+    "subtitle": "Schneekugel Weihnachts-Countdown, Xmas",
+    "full": [
+      "Schneekugel-Zifferblatt mit Weihnachts-Countdown: im Glas ein kleines verschneites Häuschen mit warm leuchtenden Fenstern, ein bereifter Tannenbaum und der winzige Schlitten des Weihnachtsmanns, darüber wirbelnder Goldglitter und Lichter. Davor eine große, gut lesbare Uhrzeit, das Datum und die Daten, die du jeden Tag brauchst.",
+      "Die Uhrzeit steht hoch im Glitter, in weichen, runden Ziffern: die Stunden weiß, Doppelpunkt und Minuten in der Farbe deines Themas. Jede Ziffer hat eine dunkle Kontur und bleibt auf Lichtern und Schnee scharf, und über das Häuschen wird nichts gezeichnet.",
+      "Über der Uhrzeit das Datum in der Sprache deiner Uhr mit den Sekunden daneben, ganz oben Akku und Meldungen. Im Schnee zwei Werte in runden Feldern: zum Start ein Countdown bis Weihnachten, ein kleines Päckchen und die verbleibenden Tage, und dein Puls. Oder wähle das Wetter, Tageshoch und -tief, Schritte, Body Battery, Stress, Kalorien, Distanz, Stockwerke, Sonnenauf- und -untergang, Höhe, VO2max, Schlafwert und mehr, zwanzig Quellen insgesamt. Ein kurzer Balken füllt sich mit deinem Schrittziel oder Stockwerken, Intensitätsminuten, Body Battery, Akku oder Stress.",
+      "Vier Themen: Gold, Rot, Grün und Eis, oder schalte die Schneekugel aus für ein schlichtes schwarzes Zifferblatt. 12- oder 24-Stunden-Format oder wie an der Uhr eingestellt. Auf MIP-Displays laufen die Sekunden auch mit gesenktem Handgelenk weiter; der Always-on-Modus zeigt die Uhrzeit in gleicher Größe in einem leichten Schnitt auf Schwarz.",
+      "Halte einen Wert oder den Zielbalken gedrückt, um seinen Glance auf der Uhr zu öffnen, das Datum oder den Countdown für deinen Kalender. Temperaturen wie an der Uhr, oder wähle °C oder °F."
+    ]
+  },
   "julnatt": {
     "name": "Julnatt",
     "subtitle": "Weihnachtsbaum, Countdown, große Zahlen",

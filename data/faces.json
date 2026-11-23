@@ -1,6 +1,225 @@
 {
   "faces": [
     {
+      "slug": "glob",
+      "name": "Glob",
+      "subtitle": "Snow Globe Christmas Countdown, Xmas",
+      "category": "Fun",
+      "pitch": "Christmas in a snow globe.",
+      "short": "A magical snow globe on your wrist: a snowy cottage, its Christmas tree and Santa's sledge under golden glitter, a big time, a countdown to Christmas and your data.",
+      "full": [
+        "Snow globe Christmas watch face with an Xmas countdown: inside the glass, a little snowy cottage with warm windows, a frosted Christmas tree and Santa's tiny sledge, with golden glitter and Christmas lights swirling above, behind a large, easy-to-read time, the date and the data you check every day.",
+        "The time sits high in the glitter in soft, rounded figures: the hours white, the colon and the minutes the colour of your theme. Every figure is drawn over a dark outline, so it stays sharp on the lights and the snow, and nothing is drawn over the cottage.",
+        "Above the time, the date in your watch's own language with the seconds ticking beside it, and battery and alerts at the top. In the snow, two readings in rounded chips: a countdown to Christmas, a little parcel and the days left, and your heart rate to start. Or choose the weather, the day's high and low, steps, Body Battery, stress, calories, distance, floors, sunrise and sunset, elevation, VO2 max, sleep score and more, twenty sources in all. A short bar fills as you meet your steps goal, or floors, intensity minutes, Body Battery, battery or stress.",
+        "Four themes: Gold, Red, Green and Ice, or switch the snow globe off for a plain black dial. 12-hour or 24-hour time or as your watch is set. On memory-in-pixel screens the seconds keep running with your wrist down; the always-on mode keeps the time at the same size in a light weight, on black.",
+        "Touch and hold a reading or the goal bar to open its glance on your watch, the date or the countdown for your calendar. Temperatures follow your watch, or pick °C or °F."
+      ],
+      "settings": [
+        {
+          "name": "Theme",
+          "values": "Gold, Red, Green, Ice"
+        },
+        {
+          "name": "Show the snow globe",
+          "values": "on / off"
+        },
+        {
+          "name": "Minutes in the theme colour",
+          "values": "on / off"
+        },
+        {
+          "name": "Left reading, right reading",
+          "values": "the Christmas countdown, any of twenty sources, or off"
+        },
+        {
+          "name": "Goal bar",
+          "values": "steps, floors, intensity minutes, Body Battery, battery, stress, off"
+        },
+        {
+          "name": "Show date",
+          "values": "on / off"
+        },
+        {
+          "name": "Battery and status",
+          "values": "on / off"
+        },
+        {
+          "name": "Seconds",
+          "values": "on / off"
+        },
+        {
+          "name": "Temperature",
+          "values": "as the watch, °C, °F"
+        },
+        {
+          "name": "Time format",
+          "values": "as the watch, 12-hour, 24-hour"
+        }
+      ],
+      "store_url": "https://apps.garmin.com/apps/b6956e31-7a35-45ef-b096-4777d1804b3d",
+      "images": [
+        {
+          "file": "img/glob/01_hero.jpg",
+          "alt": "Glob: the face on the watch",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/glob/02_features.jpg",
+          "alt": "Glob: what every part of the dial shows",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/glob/03_themes.jpg",
+          "alt": "Glob: the four themes",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/glob/04_devices.jpg",
+          "alt": "Glob: both kinds of screen and always-on",
+          "w": 720,
+          "h": 720
+        },
+        {
+          "file": "img/glob/05_detail.jpg",
+          "alt": "Glob: the countdown and the goal bar",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "icon": {
+        "file": "img/glob/icon_500.jpg",
+        "w": 500,
+        "h": 500
+      },
+      "hero": {
+        "file": "img/glob/hero_1440x720.jpg",
+        "w": 1440,
+        "h": 720
+      },
+      "watches": [
+        {
+          "line": "fēnix",
+          "names": [
+            "fēnix® 7 / quatix® 7",
+            "fēnix® 7 Pro",
+            "fēnix® 7 Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 7S",
+            "fēnix® 7S Pro",
+            "fēnix® 7X / tactix® 7 / quatix® 7X Solar / Enduro™ 2",
+            "fēnix® 7X Pro",
+            "fēnix® 7X Pro - Solar Edition (no Wi-Fi)",
+            "fēnix® 8 43mm",
+            "fēnix® 8 47mm / 51mm / tactix® 8 47mm / 51mm / quatix® 8 47mm / 51mm",
+            "fēnix® 8 Pro 47mm / 51mm / MicroLED / quatix® 8 Pro 47mm / 51mm",
+            "fēnix® 8 Solar 47mm",
+            "fēnix® 8 Solar 51mm / tactix® 8 Solar 51mm",
+            "fēnix® 9 43mm",
+            "fēnix® 9 47mm / 51mm",
+            "fēnix® 9 Pro 43mm",
+            "fēnix® 9 Pro 47mm",
+            "fēnix® 9 Pro 51mm",
+            "fēnix® 9 Pro Solar 47mm",
+            "fēnix® 9 Pro Solar 51mm",
+            "fēnix® E"
+          ]
+        },
+        {
+          "line": "epix",
+          "names": [
+            "epix™ (Gen 2) / quatix® 7 Sapphire",
+            "epix™ Pro (Gen 2) 42mm",
+            "epix™ Pro (Gen 2) 47mm / quatix® 7 Pro",
+            "epix™ Pro (Gen 2) 51mm / D2™ Mach 1 Pro / tactix® 7 – AMOLED Edition"
+          ]
+        },
+        {
+          "line": "Forerunner",
+          "names": [
+            "Forerunner® 70",
+            "Forerunner® 165",
+            "Forerunner® 165 Music",
+            "Forerunner® 170",
+            "Forerunner® 170 Music",
+            "Forerunner® 255",
+            "Forerunner® 255 Music",
+            "Forerunner® 255s",
+            "Forerunner® 255s Music",
+            "Forerunner® 265",
+            "Forerunner® 265s",
+            "Forerunner® 570 42mm",
+            "Forerunner® 570 47mm",
+            "Forerunner® 955 / Solar",
+            "Forerunner® 965",
+            "Forerunner® 970"
+          ]
+        },
+        {
+          "line": "Venu",
+          "names": [
+            "Venu® 2",
+            "Venu® 2 Plus",
+            "Venu® 2S",
+            "Venu® 3",
+            "Venu® 3S",
+            "Venu® 4 41mm",
+            "Venu® 4 45mm / D2™ Air X15"
+          ]
+        },
+        {
+          "line": "vívoactive",
+          "names": [
+            "vívoactive® 5",
+            "vívoactive® 6"
+          ]
+        },
+        {
+          "line": "Enduro",
+          "names": [
+            "Enduro™ 3",
+            "Enduro™ 4"
+          ]
+        },
+        {
+          "line": "Approach",
+          "names": [
+            "Approach® S50",
+            "Approach® S70 42mm",
+            "Approach® S70 47mm",
+            "Approach® S72 43mm",
+            "Approach® S72 47mm"
+          ]
+        },
+        {
+          "line": "D2",
+          "names": [
+            "D2™ Air X10",
+            "D2™ Mach 1",
+            "D2™ Mach 2",
+            "D2™ Mach 2 Pro"
+          ]
+        },
+        {
+          "line": "Descent",
+          "names": [
+            "Descent™ G2",
+            "Descent™ Mk3 43mm / Mk3i 43mm",
+            "Descent™ Mk3i 51mm"
+          ]
+        },
+        {
+          "line": "MARQ",
+          "names": [
+            "MARQ® (Gen 2) Athlete / Adventurer / Captain / Golfer / Carbon Edition / Commander - Carbon Edition",
+            "MARQ® (Gen 2) Aviator",
+            "MARQ® (Gen 3) Athlete / Adventurer / Aviator / Commander / Golfer / Diver"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "julnatt",
       "name": "Julnatt",
       "subtitle": "Christmas Tree Countdown, Big Numbers",
@@ -13938,6 +14157,13 @@
     "server": "https://glean-keys.glean-watch.workers.dev",
     "seller": "Glean",
     "days": 2,
-    "faces": []
+    "faces": [
+      {
+        "slug": "glob",
+        "name": "Glob",
+        "price": "pri_01m84ywp0774x9gthkj71mfb66",
+        "usd": "2.00"
+      }
+    ]
   }
 }
