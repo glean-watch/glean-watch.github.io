@@ -96,6 +96,9 @@ details.works .watches { margin-top: .25rem; }
 .face-id .cat { margin: .15rem 0 0; font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
 .store { display: inline-block; background: var(--ink); color: var(--paper); text-decoration: none; font-weight: 600; font-size: .95rem; padding: .8rem 1.3rem; border-radius: 999px; white-space: nowrap; }
 .store:hover { background: #000; }
+.buy { display: flex; flex-direction: column; gap: .5rem; align-items: stretch; text-align: center; }
+.store.alt { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 2px var(--ink); }
+.store.alt:hover { background: var(--ink); color: var(--paper); }
 
 .gallery { max-width: 560px; margin: 1.25rem 0 1.5rem; }
 .stage { position: relative; }
@@ -161,6 +164,7 @@ details.works .watches { margin-top: .25rem; }
   .top nav { gap: .6rem 1rem; }
   .grid { grid-template-columns: 1fr; }
   .face-head { flex-wrap: wrap; }
+  .buy { width: 100%; }
   .store { width: 100%; text-align: center; }
   .thumbs { gap: .35rem; }
   .thumbs li { flex: 1 1 0; }

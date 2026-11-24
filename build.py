@@ -483,6 +483,16 @@ def cut(text, n=DESCRIPTION_MAX):
     return text[:n - 1].rsplit(" ", 1)[0].rstrip(",;:–-") + "…"
 
 
+def unlock_button(data, section, item, lang="en"):
+    """Beside the store's button, a face whose trial edition sells its
+    unlock code through Paddle links the unlock page, that face chosen."""
+    sold = [f["slug"] for f in (data.get("unlock") or {}).get("faces") or []]
+    if section != "faces" or item["slug"] not in sold:
+        return ""
+    return ('\n    <a class="store alt" href="/unlock/?face=%s">%s</a>'
+            % (esc(item["slug"]), esc(i18n.t(lang, "unlock"))))
+
+
 def item_page(site, data, section, item, lang="en"):
     shots, n = item["images"], len(item["images"])
     what = noun(lang, section, item)
@@ -525,7 +535,8 @@ def item_page(site, data, section, item, lang="en"):
         name=esc(item["name"]), label=lab,
         subtitle=('<p class="sub">%s</p>' % esc(item["subtitle"])) if item["subtitle"] else "",
         store=esc(i18n.t(lang, "store")),
-        store_url=esc(item["store_url"]), icon=img(item["icon"], "", False, "icon"),
+        store_url=esc(item["store_url"]), unlock=unlock_button(data, section, item, lang),
+        icon=img(item["icon"], "", False, "icon"),
         pictures_of=esc(i18n.t(lang, "pictures_of", name=item["name"])),
         prev=esc(i18n.t(lang, "prev")), next=esc(i18n.t(lang, "next")),
         slides=slides, count=n, caption=esc(cap(0, shots[0])),

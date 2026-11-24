@@ -573,6 +573,25 @@ class UnlockTest(unittest.TestCase):
         self.assertNotIn(build.PADDLE_JS, u)
         self.assertNotIn('id="unlock"', u)
 
+    def test_a_sold_face_links_its_unlock_code(self):
+        """A face whose code the unlock page sells has a second button beside
+        the store's, in every language, naming that face; the rest do not."""
+        site, data = make_site()
+        self.addCleanup(shutil.rmtree, site, ignore_errors=True)
+        sold, other = data["faces"][0]["slug"], data["faces"][1]["slug"]
+        link = 'href="/unlock/?face=%s"' % sold
+        build.build(site)
+        self.assertNotIn(link, pages(site)["faces/%s/index.html" % sold])
+        (site / "data" / "faces.json").write_text(json.dumps(self.unlock(data)), encoding="utf-8")
+        build.build(site)
+        got = pages(site)
+        self.assertIn(link, got["faces/%s/index.html" % sold])
+        self.assertIn("Buy an unlock code", got["faces/%s/index.html" % sold])
+        self.assertNotIn("/unlock/?face=", got["faces/%s/index.html" % other])
+        for path, text in got.items():
+            if path.endswith("faces/%s/index.html" % sold) and path != "faces/%s/index.html" % sold:
+                self.assertIn(link, text, path)
+
     def test_values_are_escaped(self):
         site, data = make_site()
         self.addCleanup(shutil.rmtree, site, ignore_errors=True)

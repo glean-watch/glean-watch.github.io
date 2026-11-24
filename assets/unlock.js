@@ -15,6 +15,14 @@
   var box = document.getElementById("unlock-code");
   var theCode = document.getElementById("unlock-the-code");
   var ID = /^[0-9A-HJKMNP-TV-Z]{8}$/;
+
+  // A face's page links here as /unlock/?face=<slug>: that face is chosen.
+  var asked = (/[?&]face=([a-z0-9-]+)/.exec(location.search) || [])[1];
+  if (asked) {
+    for (var i = 0; i < face.options.length; i++) {
+      if (face.options[i].value === asked) { face.selectedIndex = i; break; }
+    }
+  }
   var confirmed = ""; // a face|watch the buyer says is right though the server never saw it
   var ready = false;
 
