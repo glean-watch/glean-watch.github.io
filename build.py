@@ -156,7 +156,13 @@ def page(site, current, title, description, path, og_image, main, scripts="", le
              ("faces", "apps", "games", "help", "privacy", "coffee", "kofi", "on_facebook",
               "on_instagram", "trademark")}
     hrefs = {"href_" + s: (tabs or {}).get(s, "/" + TAB[s]) for s in SECTIONS}
+    # The unlock page's tab, beside the sections, once the site sells codes.
+    unlock_tab = ""
+    if data is not None and "unlock" in data:
+        unlock_tab = chr(10) + '  <a href="/unlock/"%s>%s</a>' % (
+            ' aria-current="page"' if current == "unlock" else "", esc(i18n.t(lang, "unlock_tab")))
     return template(site, "base").substitute(
+        unlock_tab=unlock_tab,
         lang=lang, title=esc(title), description=esc(description), canonical=esc(BASE + path),
         og_image=esc(BASE + og_image), main=main, scripts=scripts, legal=legal,
         head=head + alternate_links(alternates), languages=language_line(lang, alternates),
@@ -217,7 +223,7 @@ def unlock_page(site, data):
     u = data["unlock"]
     if not u["faces"]:
         main = template(site, "unlock_soon").substitute(days=int(u["days"]))
-        return page(site, None, "Unlock a trial · Glean",
+        return page(site, "unlock", "Unlock a trial · Glean",
                     "Glean's faces are getting free trial editions; their unlock codes will be sold here.",
                     "unlock/", data["faces"][0]["hero"]["file"], main, "", legal_line(data), data=data)
     options ="\n".join(
@@ -228,7 +234,7 @@ def unlock_page(site, data):
     main = template(site, "unlock").substitute(
         env=esc(u["env"]), token=esc(u["token"]), server=esc(u["server"]),
         options=options, prices=prices, days=int(u["days"]))
-    return page(site, None, "Unlock a trial · Glean",
+    return page(site, "unlock", "Unlock a trial · Glean",
                 "Buy the code that unlocks a Glean face's free trial edition on your watch, for good.",
                 "unlock/", data["faces"][0]["hero"]["file"], main, UNLOCK_JS, legal_line(data),
                 data=data)

@@ -43,7 +43,8 @@ h1, h2, h3 { font-family: var(--display); color: var(--ink); line-height: 1.15; 
 .kofi .heart { fill: #ff5e5b; }
 
 .bar { display: flex; align-items: flex-end; justify-content: space-between; gap: 1rem; border-bottom: 1px solid var(--rule); }
-.tabs { display: flex; gap: 1.75rem; min-width: 0; }
+.tabs { display: flex; flex-wrap: wrap; column-gap: 1.75rem; min-width: 0; }
+@media (max-width: 30rem) { .tabs { column-gap: 1.1rem; } .tabs a { font-size: 1rem; } }
 .tabs a { padding: .55rem 0; margin-bottom: -1px; border-bottom: 3px solid transparent; color: var(--muted); text-decoration: none; font: 500 1.1rem/1.2 var(--display); }
 .tabs a:hover { color: var(--ink); }
 .tabs a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--ink); }
