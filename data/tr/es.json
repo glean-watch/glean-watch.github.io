@@ -1,4 +1,33 @@
 {
+  "flyg": {
+    "name": "Flyg",
+    "subtitle": "Altímetro de piloto, esfera de cabina",
+    "full": [
+      "Esfera de altímetro de piloto: la esfera de un altímetro de avión en la muñeca. Cincuenta marcas y las cifras del 0 al 9 en el borde, anchas agujas blancas para las horas y los minutos, y una marca naranja que recorre el borde con los segundos.",
+      "Dos ventanas negras a ambos lados del eje, como en el instrumento: tu altitud a la izquierda y la presión a la derecha, la ventana Kollsman, cada una con su etiqueta. Bajo el eje, el día de la semana, el día y el dato que elijas. Cada ventana admite cualquiera de veinte fuentes: pasos, frecuencia cardiaca, tiempo, máxima y mínima del día, calorías, distancia, pisos, minutos de intensidad, salida y puesta del sol, Body Battery, estrés, respiración, Pulse Ox, tiempo de recuperación, VO2 máx., puntuación de sueño, batería y notificaciones.",
+      "Tres esferas: negra, grafito y oliva; la marca en naranja, amarillo o blanco. En un reloj en blanco y negro con ventana redonda, el altímetro se sitúa al lado y la ventana se convierte en el tambor de altitud, claro sobre negro u oscuro sobre claro. En pantallas MIP la marca sigue con la muñeca bajada; en AMOLED el modo siempre activo muestra las cifras y las agujas en gris. Mantén pulsada una ventana para abrir su vista, y la línea de la fecha para tu calendario. Temperaturas como el reloj, o en °C o °F."
+    ]
+  },
+  "gitter": {
+    "name": "Gitter",
+    "subtitle": "Cuadrícula suiza minimal, hora grande",
+    "full": [
+      "Esfera minimalista con cuadrícula suiza: el estilo tipográfico internacional en la muñeca. Seis columnas, las horas sobre los minutos en una grotesca muy gruesa, los minutos en tu color de acento y tres datos colocados en las celdas de la cuadrícula.",
+      "El día de la semana y la fecha van en la fila superior, en el idioma de tu reloj; al lado, los segundos en el cuadrado de acento. A la derecha, tres datos, cada uno con su nombre sobre su valor: pasos, frecuencia cardiaca y batería para empezar, o cualquiera de veinte fuentes: tiempo, máxima y mínima del día, calorías, distancia, pisos, minutos de intensidad, salida y puesta del sol, altitud, presión, Body Battery, estrés, respiración, Pulse Ox, tiempo de recuperación, VO2 máx., puntuación de sueño y notificaciones.",
+      "Papel o negro, y seis acentos: rojo, azul, naranja, verde, magenta y verde azulado. En un reloj en blanco y negro con ventana redonda, los minutos se recortan de un bloque negro y los segundos de la ventana, oscuro sobre claro o claro sobre negro. Hora de 12 o 24 horas o como esté el reloj; temperaturas en °C o °F o como el reloj. En pantallas MIP los segundos siguen con la muñeca bajada; en AMOLED el modo siempre activo muestra las horas en gris y los minutos en tu acento, sobre negro. Mantén pulsado un dato para abrir su vista en el reloj, y la fecha para tu calendario."
+    ]
+  },
+  "kol": {
+    "name": "Kol",
+    "subtitle": "Esfera táctica de carbono, datos",
+    "full": [
+      "Esfera táctica de carbono con una hora muy grande y los datos que consultas todo el día, creada para relojes redondos y para los de blanco y negro.",
+      "En un reloj redondo, la hora aparece enorme y blanca en el centro de un carbono tejido, con los segundos a su lado en el color de la combinación. Dos arcos recorren el borde y se llenan desde abajo: la frecuencia cardiaca a la izquierda y la Body Battery a la derecha para empezar, cada uno con su icono y su valor justo al lado. Sobre la hora, dos datos a ambos lados de la fecha en el idioma de tu reloj; debajo, tres más y una barra de objetivo para tus pasos.",
+      "En un reloj en blanco y negro con ventana redonda, Kol es un panel hecho para su pantalla: tu frecuencia cardiaca en un anillo en la ventana redonda, la fecha y una barra de Body Battery a su lado, una franja de sarga de carbono, la hora grande con sus segundos, una barra de pasos y tres datos con sus etiquetas. Oscuro sobre claro, o claro sobre negro.",
+      "Cada dato lo eliges entre veinte fuentes: pasos, frecuencia cardiaca, tiempo, máxima y mínima del día, calorías, distancia, pisos, minutos de intensidad, salida y puesta del sol, altitud, presión, Body Battery, estrés, respiración, Pulse Ox, tiempo de recuperación, VO2 máx., puntuación de sueño, batería y notificaciones. Cada indicador muestra la frecuencia cardiaca o cualquier fuente con objetivo.",
+      "Seis combinaciones: Señal, Brasa, Tóxico, Ártico, Explorador y Grafito. Hora de 12 o 24 horas o como esté el reloj; temperaturas en °C o °F o como el reloj. En pantallas MIP los segundos siguen con la muñeca bajada; en AMOLED el modo siempre activo muestra la hora y la fecha en gris. Mantén pulsado un dato o un indicador para abrir su vista en el reloj, y la fecha para tu calendario."
+    ]
+  },
   "glob": {
     "name": "Glob",
     "subtitle": "Bola de nieve, cuenta atrás Navidad",
@@ -566,7 +595,7 @@
   },
   "eng": {
     "name": "Eng",
-    "subtitle": "",
+    "subtitle": "Paisaje de campo de lavanda",
     "full": [
       "Eng es un campo de lavanda que se extiende hasta las colinas. Su floración es tu Body Battery: al despertar, las hileras están en flor hasta el horizonte; a medida que el día gasta tu energía, el color baja por el campo y las hileras vuelven a ser capullos. Lo lees como un campo real, y una pequeña leyenda debajo dice qué mide la floración y cuánto ha avanzado.",
       "El primer plano guarda cuatro datos para un día más tranquilo: estrés, frecuencia cardiaca, tiempo y la próxima salida o puesta del sol, cada uno con su icono. La batería y los avisos están arriba con la fecha.",
@@ -577,7 +606,7 @@
   },
   "blom": {
     "name": "Blom",
-    "subtitle": "",
+    "subtitle": "Flor de cerezo, sakura",
     "full": [
       "Blom es una rama de cerezo en flor sobre el cielo. Sus flores son tu Body Battery: al despertar, las dieciocho están abiertas; a medida que el día gasta tu energía, se cierran desde las puntas hacia dentro, y cada una que se cierra deja caer un pétalo sobre la hierba. La lees de un vistazo, y una pequeña leyenda debajo dice qué mide la floración y cuánto lleva.",
       "El jardín guarda cuatro datos para un día más tranquilo: estrés, frecuencia cardiaca, tiempo y la próxima salida o puesta del sol, cada uno con su icono. La batería y los avisos están arriba con la fecha.",
@@ -588,7 +617,7 @@
   },
   "hav": {
     "name": "Hav",
-    "subtitle": "",
+    "subtitle": "Paisaje de playa y marea",
     "full": [
       "Hav es una cala al borde del día. La marea en su playa es tu Body Battery: tras una buena noche, el mar llega al pie de la duna; a medida que el día gasta tu energía, el agua se retira y la arena se ensancha. La lees como una orilla real, y una pequeña leyenda debajo dice qué mide la marea y cuánto ha subido.",
       "La duna guarda cuatro datos para un día más tranquilo: estrés, frecuencia cardiaca, tiempo y la próxima salida o puesta del sol, cada uno con su icono. La batería y los avisos están arriba con la fecha.",
@@ -599,7 +628,7 @@
   },
   "fjell": {
     "name": "Fjell",
-    "subtitle": "",
+    "subtitle": "Paisaje de montaña, meta de pasos",
     "full": [
       "En el desayuno, las cumbres son roca desnuda. A medida que se llena tu objetivo de pasos, la línea de nieve baja por la montaña; un objetivo cumplido es una cordillera nevada. La lees como una montaña real, por lo bajo que llega el blanco, y una pequeña leyenda debajo dice qué mide la nieve y cuánto llevas.",
       "El valle guarda los cuatro datos que pide un día al aire libre: altitud, frecuencia cardiaca, tiempo y la próxima salida o puesta del sol, cada uno con su icono. La batería y los avisos están arriba con la fecha.",
@@ -610,7 +639,7 @@
   },
   "klar": {
     "name": "Klar",
-    "subtitle": "",
+    "subtitle": "Números gigantes, fácil lectura",
     "full": [
       "Klar apila las horas sobre los minutos para que las cifras puedan ser el doble de altas de lo que permite una sola línea: dígitos gruesos y claros que puedes leer con el brazo extendido, en movimiento y sin gafas.",
       "Colorea los minutos con uno de cinco colores o deja todo en uno solo. A cada lado de la hora, un dato con su icono: pasos y frecuencia cardiaca para empezar, o cualquiera de quince fuentes. Batería y avisos arriba, fecha y tiempo abajo, y nada más.",
@@ -620,7 +649,7 @@
   },
   "artefact": {
     "name": "Artefact",
-    "subtitle": "",
+    "subtitle": "Reloj de tubos Nixie, vintage retro",
     "full": [
       "Cuatro tubos nixie se alzan en sus zócalos dentro de una caja de latón mecanizado. Cada cifra es un alambre doblado que brilla desde el cátodo, con los nueve cátodos apagados visibles detrás, igual que dentro de un tubo real. Los dos puntos de neón entre ellos laten cada segundo.",
       "Bajo los tubos, un vúmetro que funciona: una escala retroiluminada de 0 a 100 con zona roja y una aguja que sigue tu objetivo de pasos, o Body Battery, estrés, pisos, minutos de intensidad o batería. A cada lado, cuatro pilotos de neón se encienden cuando tu teléfono está conectado, hay mensajes esperando, hay una alarma puesta o No molestar está activado. La fecha va grabada en una placa de latón sobre los tubos, y una segunda placa debajo muestra el dato que elijas: batería, frecuencia cardiaca, tiempo, puesta del sol y más.",
@@ -630,7 +659,7 @@
   },
   "ringar": {
     "name": "Ringar",
-    "subtitle": "",
+    "subtitle": "Anillos de actividad, hora grande",
     "full": [
       "Tres anillos de objetivos enmarcan una hora grande y tranquila. Elige qué sigue cada anillo: pasos, minutos de intensidad, pisos, Body Battery, estrés o batería. Cada anillo lleva su leyenda: su icono y su valor, en su propio color, justo debajo de la hora, para que siempre sepas cuál es cuál.",
       "Sobre la hora: la fecha y el tiempo de tu teléfono. Debajo: la batería y tus notificaciones, No molestar y alarma, que solo aparecen cuando tienen algo que decir.",
@@ -641,7 +670,7 @@
   },
   "datum": {
     "name": "Datum",
-    "subtitle": "",
+    "subtitle": "12 datos, hora grande y clara",
     "full": [
       "Todo de un vistazo y nada decorativo. Una hora grande y estrecha, las horas en blanco y los minutos en tu color de acento, con la fecha y los segundos en vivo debajo. Alrededor, seis campos de datos a tu elección, cada uno con su icono, y dos arcos en el bisel para tus pasos, batería, Body Battery, pisos, minutos de intensidad o estrés, con su valor bajo cada arco.",
       "El tiempo y la próxima salida o puesta del sol están entre las fuentes. La batería, las notificaciones, No molestar y la alarma están abajo, y solo aparecen cuando tienen algo que decir.",
@@ -652,7 +681,7 @@
   },
   "blackline": {
     "name": "Blackline",
-    "subtitle": "",
+    "subtitle": "Brújula táctica, 6 datos",
     "full": [
       "Una esfera de instrumento. Arriba, una cinta de rumbo en vivo, una lectura de siete segmentos estilo plantilla recortada en polígonos y seis campos de datos a tu elección, cada uno con su icono: frecuencia cardiaca, pasos, altitud, Body Battery, tiempo, la próxima salida o puesta del sol y más.",
       "En el borde inferior, un arco de luz diurna va de la salida a la puesta del sol y se llena a lo largo del día, para que veas de un vistazo cuánta luz queda. Bajo las lecturas: la batería y tus notificaciones, No molestar y alarma, que solo aparecen cuando tienen algo que decir.",
@@ -663,7 +692,7 @@
   },
   "atelier": {
     "name": "Atelier",
-    "subtitle": "",
+    "subtitle": "Esfera analógica clásica y elegante",
     "full": [
       "Un reloj de vestir, dibujado para un smartwatch. Una esfera guilloché con acabado rayos de sol, índices rodiados aplicados sobre una minutería de ferrocarril, agujas dauphine pulidas y tres subesferas: tus pasos (o cualquier objetivo) a las nueve, una reserva de marcha para tu batería a las tres y el segundero pequeño a las seis.",
       "Bajo las doce, tu nombre o tus iniciales en mayúsculas grabadas, y una ventana de día y fecha con marco biselado.",

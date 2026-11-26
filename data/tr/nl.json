@@ -1,4 +1,33 @@
 {
+  "flyg": {
+    "name": "Flyg",
+    "subtitle": "Hoogtemeter voor piloten, cockpitplaat",
+    "full": [
+      "Wijzerplaat als hoogtemeter voor piloten: de wijzerplaat van een vliegtuighoogtemeter om je pols. Vijftig streepjes en de cijfers 0 tot 9 langs de rand, brede witte wijzers voor de uren en minuten, en een oranje referentiemarkering die met de seconden de rand rondloopt.",
+      "Twee zwarte vensters aan weerszijden van de as, zoals op het instrument: je hoogte links en de luchtdruk rechts, het Kollsman-venster, elk met bijschrift. Onder de as de weekdag, de dag en een gegeven naar keuze. Elk venster toont een van twintig bronnen: stappen, hartslag, weer, de hoogste en laagste temperatuur van de dag, calorieën, afstand, trappen, intensiteitsminuten, zonsopkomst en -ondergang, Body Battery, stress, ademhaling, Pulse Ox, hersteltijd, VO2 max, slaapscore, batterij en meldingen.",
+      "Drie wijzerplaten: zwart, grafiet en olijf; de markering oranje, geel of wit. Op een zwart-wit horloge met rond venster staat de hoogtemeter ernaast en wordt het venster de hoogtetrommel, licht op zwart of donker op licht. Op MIP-schermen loopt de markering door met je pols omlaag; op AMOLED toont de altijd-aan-modus cijfers en wijzers in grijs. Houd een venster ingedrukt om de glance te openen, de datumregel voor je agenda. Temperaturen zoals het horloge, of in °C of °F."
+    ]
+  },
+  "gitter": {
+    "name": "Gitter",
+    "subtitle": "Zwitsers raster minimal, grote tijd",
+    "full": [
+      "Minimalistische wijzerplaat met een Zwitsers raster: de Internationale Typografische Stijl om je pols. Zes kolommen, de uren boven de minuten in een heel vette schreefloze letter, de minuten in je accentkleur en drie gegevens in de cellen van het raster.",
+      "De weekdag en de datum staan in de bovenste rij, in de taal van je horloge; ernaast tikken de seconden in het accentvierkant. Rechts drie gegevens, elk met de naam boven de waarde: eerst stappen, hartslag en batterij, of een van twintig bronnen: weer, de hoogste en laagste temperatuur van de dag, calorieën, afstand, trappen, intensiteitsminuten, zonsopkomst en -ondergang, hoogte, luchtdruk, Body Battery, stress, ademhaling, Pulse Ox, hersteltijd, VO2 max, slaapscore en meldingen.",
+      "Papier of zwart, en zes accenten: rood, blauw, oranje, groen, magenta en petrol. Op een zwart-wit horloge met rond venster zijn de minuten uitgespaard in een zwart blok en de seconden in het venster, donker op licht of licht op zwart. 12- of 24-uursnotatie of zoals het horloge is ingesteld; temperaturen in °C of °F of zoals het horloge. Op MIP-schermen lopen de seconden door met je pols omlaag; op AMOLED toont de altijd-aan- modus de uren in grijs en de minuten in je accent, op zwart. Houd een gegeven ingedrukt om de glance op je horloge te openen, de datum voor je agenda."
+    ]
+  },
+  "kol": {
+    "name": "Kol",
+    "subtitle": "Tactische carbon wijzerplaat, data",
+    "full": [
+      "Tactische carbon wijzerplaat met een heel grote tijd en de gegevens die je de hele dag bekijkt, gemaakt voor ronde en zwart-witte horloges.",
+      "Op een rond horloge staat de tijd groot en wit midden op geweven carbon, met de seconden ernaast in de kleur van de kleurstelling. Twee bogen lopen langs de rand en vullen zich van onderaf: eerst je hartslag links en Body Battery rechts, elk met zijn pictogram en waarde er vlak naast. Boven de tijd twee gegevens aan weerszijden van de datum in de taal van je horloge; eronder nog drie en een doelbalk voor je stappen.",
+      "Op een zwart-wit horloge met rond venster is Kol een paneel gemaakt voor zijn scherm: je hartslag op een ring in het ronde venster, de datum en een Body Battery- balk ernaast, een band van carbon keperweefsel, de grote tijd met seconden, een stappenbalk en drie gegevens met hun bijschrift. Donker op licht, of licht op zwart.",
+      "Elk gegeven kies je zelf uit twintig bronnen: stappen, hartslag, weer, de hoogste en laagste temperatuur van de dag, calorieën, afstand, trappen, intensiteitsminuten, zonsopkomst en -ondergang, hoogte, luchtdruk, Body Battery, stress, ademhaling, Pulse Ox, hersteltijd, VO2 max, slaapscore, batterij en meldingen. Elke meter toont je hartslag of een bron met een doel.",
+      "Zes kleurstellingen: Signaal, Gloed, Toxisch, Arctisch, Ranger en Grafiet. 12- of 24-uursnotatie of zoals het horloge is ingesteld; temperaturen in °C of °F of zoals het horloge. Op MIP-schermen lopen de seconden door met je pols omlaag; op AMOLED toont de altijd-aan-modus de tijd en de datum in grijs. Houd een gegeven of meter ingedrukt om de glance op je horloge te openen, de datum voor je agenda."
+    ]
+  },
   "glob": {
     "name": "Glob",
     "subtitle": "Sneeuwbol kerst-countdown, Xmas",
@@ -565,7 +594,7 @@
   },
   "eng": {
     "name": "Eng",
-    "subtitle": "",
+    "subtitle": "Lavendelveld-landschap",
     "full": [
       "Eng is een lavendelveld dat doorloopt tot de heuvels. De bloei is je Body Battery: uitgerust staan de rijen in bloei tot aan de horizon; naarmate de dag je energie verbruikt trekt de kleur terug over het veld en gaan de rijen weer in knop. Je leest het zoals je een echt veld leest, en een kleine legenda eronder zegt wat de bloei meet en hoe ver hij is.",
       "De voorgrond houdt vier waarden voor een rustiger dag: stress, hartslag, het weer en de volgende zonsopkomst of zonsondergang, elk gemarkeerd met een pictogram. Batterij en meldingen staan bij de datum bovenaan.",
@@ -576,7 +605,7 @@
   },
   "blom": {
     "name": "Blom",
-    "subtitle": "",
+    "subtitle": "Kersenbloesem, sakura",
     "full": [
       "Blom is een tak kersenbloesem langs de hemel. De bloemen zijn je Body Battery: uitgerust staan alle achttien open; naarmate de dag je energie verbruikt sluiten ze van de punten naar binnen, en elke bloem die sluit laat een blaadje op het gras vallen. Je leest het in één oogopslag, en een kleine legenda eronder zegt wat de bloesem meet en hoe ver hij is.",
       "De tuin houdt vier waarden voor een rustiger dag: stress, hartslag, het weer en de volgende zonsopkomst of zonsondergang, elk gemarkeerd met een pictogram. Batterij en meldingen staan bij de datum bovenaan.",
@@ -587,7 +616,7 @@
   },
   "hav": {
     "name": "Hav",
-    "subtitle": "",
+    "subtitle": "Strand- en getijdenlandschap",
     "full": [
       "Hav is een baai aan de rand van de dag. Het tij op het strand is je Body Battery: na een goede nacht staat de zee tot aan de voet van het duin; naarmate de dag je energie verbruikt trekt het water zich terug en wordt het strand breder. Je leest het zoals je een echte kust leest, en een kleine legenda eronder zegt wat het tij meet en hoe ver het is opgekomen.",
       "Het duin houdt vier waarden voor een rustiger dag: stress, hartslag, het weer en de volgende zonsopkomst of zonsondergang, elk gemarkeerd met een pictogram. Batterij en meldingen staan bij de datum bovenaan.",
@@ -598,7 +627,7 @@
   },
   "fjell": {
     "name": "Fjell",
-    "subtitle": "",
+    "subtitle": "Berglandschap, stappendoel",
     "full": [
       "Bij het ontbijt zijn de toppen kale rots. Naarmate je stappendoel zich vult, komt de sneeuwgrens de berg af; een gehaald doel is een keten vol sneeuw. Je leest het zoals je een echte berg leest, aan hoe ver het wit naar beneden komt, en een kleine legenda eronder zegt wat de sneeuw meet en hoe ver je bent.",
       "Het dal houdt de vier waarden die een dag buiten vraagt: hoogte, hartslag, het weer en de volgende zonsopkomst of zonsondergang, elk gemarkeerd met een pictogram. Batterij en meldingen staan bij de datum bovenaan.",
@@ -609,7 +638,7 @@
   },
   "klar": {
     "name": "Klar",
-    "subtitle": "",
+    "subtitle": "Reuzecijfers, makkelijk leesbaar",
     "full": [
       "Klar stapelt de uren boven de minuten, zodat de cijfers twee keer zo hoog kunnen zijn als één regel toelaat: zware, duidelijke cijfers die je op armlengte leest, onderweg, zonder bril.",
       "Kleur de minuten in een van vijf kleuren, of houd de stapel in één kleur. Aan weerszijden van de tijd elk één waarde, gemarkeerd met een pictogram: stappen en hartslag om mee te beginnen, of een van vijftien bronnen. Batterij en meldingen bovenaan, datum en weer onderaan, en verder niets.",
@@ -619,7 +648,7 @@
   },
   "artefact": {
     "name": "Artefact",
-    "subtitle": "",
+    "subtitle": "Nixiebuizenklok, vintage retro",
     "full": [
       "Vier nixiebuizen staan in hun voetjes in een gefreesde messing kast. Elk cijfer is gebogen draad dat vanuit de kathode naar buiten gloeit, met de negen gedoofde kathodes zichtbaar erachter, precies zoals in een echte buis. De neon dubbele punt ertussen pulseert elke seconde.",
       "Onder de buizen een werkende VU-meter: een verlichte schaal van 0 tot 100 met een rode zone, en een naald die je stappendoel volgt, of Body Battery, stress, trappen, intensiteitsminuten of batterij. Aan weerszijden lichten vier neonlampjes op als je telefoon verbonden is, er berichten wachten, een wekker staat of niet storen aan is. De datum is gegraveerd op een messing plaatje boven de buizen, en een tweede plaatje eronder draagt de waarde van je keuze: batterij, hartslag, weer, zonsondergang en meer.",
@@ -629,7 +658,7 @@
   },
   "ringar": {
     "name": "Ringar",
-    "subtitle": "",
+    "subtitle": "Activiteitsringen, grote tijd",
     "full": [
       "Drie doelringen omlijsten een grote, rustige tijd. Kies wat elke ring volgt: stappen, intensiteitsminuten, trappen, Body Battery, stress of batterij. Elke ring heeft een label: zijn pictogram en waarde staan in de eigen kleur van de ring, net onder de tijd, zodat je altijd weet welke ring welke is.",
       "Boven de tijd: de datum en het weer van je telefoon. Eronder: batterij, en je meldingen, niet storen en wekker, alleen getoond als ze iets te melden hebben.",
@@ -640,7 +669,7 @@
   },
   "datum": {
     "name": "Datum",
-    "subtitle": "",
+    "subtitle": "12 gegevens, grote duidelijke tijd",
     "full": [
       "Alles in één oogopslag, niets decoratiefs. Een grote, smalle tijd, uren in wit en minuten in je accentkleur, met de datum en live seconden eronder. Eromheen zes gegevensvelden naar keuze, elk gemarkeerd met een pictogram, en twee randmeters voor je stappen, batterij, Body Battery, trappen, intensiteitsminuten of stress, met hun waarden onder elke boog.",
       "Het weer en de volgende zonsopkomst of zonsondergang horen bij de bronnen. Batterij, meldingen, niet storen en wekker staan onderaan, alleen getoond als ze iets te melden hebben.",
@@ -651,7 +680,7 @@
   },
   "blackline": {
     "name": "Blackline",
-    "subtitle": "",
+    "subtitle": "Tactisch kompas, 6 gegevens",
     "full": [
       "Een instrumentwijzerplaat. Een live koersband bovenaan, een zevensegmentenuitlezing in stencilstijl, uit polygonen gesneden, en zes gegevensvelden naar keuze, elk gemarkeerd met een pictogram: hartslag, stappen, hoogte, Body Battery, weer, de volgende zonsopkomst of zonsondergang en meer.",
       "Langs de onderrand loopt een daglichtboog van zonsopkomst tot zonsondergang die zich vult naarmate de dag vordert, zodat je in één oogopslag ziet hoeveel licht er nog is. Onder de waarden: batterij, en je meldingen, niet storen en wekker, alleen getoond als ze iets te melden hebben.",
@@ -662,7 +691,7 @@
   },
   "atelier": {
     "name": "Atelier",
-    "subtitle": "",
+    "subtitle": "Klassieke analoge wijzerplaat",
     "full": [
       "Een klassiek dresshorloge, getekend voor een smartwatch. Een guilloché wijzerplaat met zonnestraalmotief, opgezette gerhodineerde indexen op een minutenspoor, gepolijste dauphine-wijzers en drie tellers: je stappen (of een ander doel) op negen uur, een gangreserve voor je batterij op drie uur en een kleine seconde op zes uur.",
       "Onder de twaalf je naam of initialen in gegraveerde hoofdletters, en een dag-datumvenster met een afgeschuinde rand.",

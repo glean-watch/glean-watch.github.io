@@ -1,4 +1,33 @@
 {
+  "flyg": {
+    "name": "Flyg",
+    "subtitle": "Piloten-Höhenmesser, Cockpit-Zifferblatt",
+    "full": [
+      "Piloten-Höhenmesser als Zifferblatt: das Ziffernblatt eines Flugzeug-Höhenmessers am Handgelenk. Fünfzig Striche und die Ziffern 0 bis 9 am Rand, breite weiße Zeiger für Stunden und Minuten und eine orange Referenzmarke, die mit den Sekunden den Rand entlangwandert.",
+      "Zwei schwarze Fenster links und rechts der Achse, wie am Instrument: deine Höhe links und der Luftdruck rechts, das Kollsman-Fenster, jeweils mit Beschriftung. Unter der Achse Wochentag, Tag und ein Wert deiner Wahl. Jedes Fenster zeigt jede von zwanzig Quellen: Schritte, Puls, Wetter, Tageshöchst- und -tiefstwert, Kalorien, Distanz, Etagen, Intensitätsminuten, Sonnenauf- und -untergang, Body Battery, Stress, Atmung, Pulse Ox, Erholungszeit, VO2max, Schlafwert, Akku und Benachrichtigungen.",
+      "Drei Zifferblätter: Schwarz, Graphit und Oliv; die Marke in Orange, Gelb oder Weiß. Auf einer Schwarz-Weiß-Uhr mit rundem Fenster steht der Höhenmesser daneben und das Fenster wird zur Höhentrommel, hell auf Schwarz oder dunkel auf hell. Auf MIP-Displays wandert die Marke auch bei gesenktem Handgelenk weiter; auf AMOLED zeigt der Always-on-Modus Ziffern und Zeiger in Grau. Halte ein Fenster gedrückt, um seinen Glance zu öffnen, die Datumszeile für deinen Kalender. Temperaturen wie die Uhr oder in °C oder °F."
+    ]
+  },
+  "gitter": {
+    "name": "Gitter",
+    "subtitle": "Schweizer Raster, minimal, große Uhrzeit",
+    "full": [
+      "Minimalistisches Zifferblatt im Schweizer Raster: der Internationale Typografische Stil am Handgelenk. Sechs Spalten, die Stunden über den Minuten in einer sehr fetten Grotesk, die Minuten in deiner Akzentfarbe und drei Werte in den Zellen des Rasters.",
+      "Wochentag und Datum stehen in der obersten Zeile in der Sprache deiner Uhr; daneben ticken die Sekunden im Quadrat der Akzentfarbe. Rechts drei Werte, jeweils Name über Wert: zu Beginn Schritte, Puls und Akku, oder jede von zwanzig Quellen: Wetter, Tageshöchst- und -tiefstwert, Kalorien, Distanz, Etagen, Intensitätsminuten, Sonnenauf- und -untergang, Höhe, Luftdruck, Body Battery, Stress, Atmung, Pulse Ox, Erholungszeit, VO2max, Schlafwert und Benachrichtigungen.",
+      "Papier oder Schwarz und sechs Akzente: Rot, Blau, Orange, Grün, Magenta und Petrol. Auf einer Schwarz-Weiß-Uhr mit rundem Fenster sind die Minuten aus einem schwarzen Block ausgespart und die Sekunden aus dem Fenster, dunkel auf hell oder hell auf Schwarz. 12- oder 24-Stunden- Format oder wie die Uhr eingestellt ist; Temperaturen in °C oder °F oder wie die Uhr. Auf MIP-Displays laufen die Sekunden auch bei gesenktem Handgelenk weiter; auf AMOLED zeigt der Always-on-Modus die Stunden in Grau und die Minuten in der Akzentfarbe, auf Schwarz. Halte einen Wert gedrückt, um seinen Glance auf der Uhr zu öffnen, das Datum für deinen Kalender."
+    ]
+  },
+  "kol": {
+    "name": "Kol",
+    "subtitle": "Taktik Carbon Zifferblatt, Daten",
+    "full": [
+      "Taktisches Carbon-Zifferblatt mit einer sehr großen Uhrzeit und den Daten, die du den ganzen Tag prüfst, gemacht für runde Uhren und für schwarz-weiße.",
+      "Auf einer runden Uhr steht die Uhrzeit groß und weiß mitten auf gewebtem Carbon, daneben ticken die Sekunden in der Farbe des Farbschemas. Zwei Bögen laufen am Rand entlang und füllen sich von unten: zu Beginn links der Puls, rechts die Body Battery, jeweils mit Symbol und Wert direkt daneben. Über der Uhrzeit zwei Werte links und rechts vom Datum in der Sprache deiner Uhr; darunter drei weitere und ein Zielbalken für deine Schritte.",
+      "Auf einer Schwarz-Weiß-Uhr mit rundem Fenster ist Kol ein Panel für ihr Display: dein Puls auf einem Ring im runden Fenster, daneben das Datum und ein Body- Battery-Balken, ein Band aus Carbon-Köper, die große Uhrzeit mit Sekunden, ein Schrittbalken und drei Werte mit Beschriftung. Dunkel auf hell oder hell auf Schwarz.",
+      "Jeden Wert wählst du selbst aus zwanzig Quellen: Schritte, Puls, Wetter, Tageshöchst- und -tiefstwert, Kalorien, Distanz, Etagen, Intensitätsminuten, Sonnenauf- und -untergang, Höhe, Luftdruck, Body Battery, Stress, Atmung, Pulse Ox, Erholungszeit, VO2max, Schlafwert, Akku und Benachrichtigungen. Jede Anzeige zeigt den Puls oder eine beliebige Quelle mit Ziel.",
+      "Sechs Farbschemata: Signal, Glut, Toxisch, Arktis, Ranger und Graphit. 12- oder 24-Stunden-Format oder wie die Uhr eingestellt ist; Temperaturen in °C oder °F oder wie die Uhr. Auf MIP-Displays laufen die Sekunden auch bei gesenktem Handgelenk weiter; auf AMOLED zeigt der Always-on-Modus Uhrzeit und Datum in Grau. Halte einen Wert oder eine Anzeige gedrückt, um ihren Glance auf der Uhr zu öffnen, das Datum für deinen Kalender."
+    ]
+  },
   "glob": {
     "name": "Glob",
     "subtitle": "Schneekugel Weihnachts-Countdown, Xmas",
@@ -566,7 +595,7 @@
   },
   "eng": {
     "name": "Eng",
-    "subtitle": "",
+    "subtitle": "Lavendelfeld-Landschaft",
     "full": [
       "Eng ist eine Lavendelwiese, die bis zu den Hügeln reicht. Ihre Blüte ist deine Body Battery: Ausgeruht blühen die Reihen bis zum Horizont; während der Tag deine Energie verbraucht, weicht die Farbe das Feld hinab zurück, und die Reihen werden wieder zu Knospen. Du liest es wie ein echtes Feld, und eine kleine Legende darunter sagt, was die Blüte misst und wie weit sie gekommen ist.",
       "Der Vordergrund hält vier Werte für einen ruhigeren Tag: Stress, Herzfrequenz, Wetter und den nächsten Sonnenauf- oder -untergang, jeder mit seinem Symbol. Akku und Benachrichtigungen stehen mit dem Datum oben.",
@@ -577,7 +606,7 @@
   },
   "blom": {
     "name": "Blom",
-    "subtitle": "",
+    "subtitle": "Kirschblüten-Landschaft, Sakura",
     "full": [
       "Blom ist ein Zweig Kirschblüten vor dem Himmel. Seine Blüten sind deine Body Battery: Ausgeruht sind alle achtzehn offen; während der Tag deine Energie verbraucht, schließen sie sich von den Spitzen nach innen, und jede, die sich schließt, lässt ein Blütenblatt ins Gras fallen. Du liest es auf einen Blick, und eine kleine Legende darunter sagt, was die Blüte misst und wie weit sie ist.",
       "Der Garten hält vier Werte für einen ruhigeren Tag: Stress, Herzfrequenz, Wetter und den nächsten Sonnenauf- oder -untergang, jeder mit seinem Symbol. Akku und Benachrichtigungen stehen mit dem Datum oben.",
@@ -588,7 +617,7 @@
   },
   "hav": {
     "name": "Hav",
-    "subtitle": "",
+    "subtitle": "Strand- und Gezeitenlandschaft",
     "full": [
       "Hav ist eine Bucht am Rand des Tages. Die Flut an ihrem Strand ist deine Body Battery: Nach einer guten Nacht steht das Meer am Fuß der Düne; während der Tag deine Energie verbraucht, zieht sich das Wasser zurück und der Strand wird breiter. Du liest es wie ein echtes Ufer, und eine kleine Legende darunter sagt, was die Flut misst und wie weit sie gekommen ist.",
       "Die Düne hält vier Werte für einen ruhigeren Tag: Stress, Herzfrequenz, Wetter und den nächsten Sonnenauf- oder -untergang, jeder mit seinem Symbol. Akku und Benachrichtigungen stehen mit dem Datum oben.",
@@ -599,7 +628,7 @@
   },
   "fjell": {
     "name": "Fjell",
-    "subtitle": "",
+    "subtitle": "Berglandschaft, Schrittziel als Schnee",
     "full": [
       "Beim Frühstück sind die Gipfel nackter Fels. Während sich dein Schrittziel füllt, kommt die Schneegrenze den Berg herab; ein erreichtes Ziel ist ein Gebirge unter vollem Schnee. Du liest es wie einen echten Berg, daran, wie weit das Weiß herunterreicht, und eine kleine Legende darunter sagt, was der Schnee misst und wie weit du bist.",
       "Das Tal hält die vier Werte, die ein Tag draußen braucht: Höhe, Herzfrequenz, Wetter und den nächsten Sonnenauf- oder -untergang, jeder mit seinem Symbol. Akku und Benachrichtigungen stehen mit dem Datum oben.",
@@ -610,7 +639,7 @@
   },
   "klar": {
     "name": "Klar",
-    "subtitle": "",
+    "subtitle": "Riesige Ziffern, leicht lesbar",
     "full": [
       "Klar stapelt die Stunden über die Minuten, damit die Ziffern doppelt so hoch sein können, wie eine einzelne Zeile erlaubt: kräftige, klare Ziffern, die du auf Armlänge, in Bewegung und ohne Brille lesen kannst.",
       "Färbe die Minuten in einer von fünf Farben oder halte alles einfarbig. Links und rechts der Uhrzeit je ein Datenfeld mit seinem Symbol: zu Beginn Schritte und Herzfrequenz, wahlweise eine von fünfzehn Quellen. Akku und Benachrichtigungen oben, Datum und Wetter unten, und sonst nichts.",
@@ -620,7 +649,7 @@
   },
   "artefact": {
     "name": "Artefact",
-    "subtitle": "",
+    "subtitle": "Nixie-Röhren-Uhr, Vintage Retro",
     "full": [
       "Vier Nixie-Röhren stehen in ihren Fassungen in einem gefrästen Messinggehäuse. Jede Ziffer ist gebogener Draht, der von der Kathode aus nach außen glüht, dahinter die neun unbeleuchteten Kathoden, genau wie in einer echten Röhre. Der Neon-Doppelpunkt dazwischen pulsiert im Sekundentakt.",
       "Unter den Röhren ein funktionierendes VU-Meter: eine hinterleuchtete Skala von 0 bis 100 mit rotem Bereich und eine Nadel, die dein Schrittziel verfolgt, oder Body Battery, Stress, Etagen, Intensitätsminuten oder Akku. Seitlich leuchten vier Neonlampen, wenn dein Smartphone verbunden ist, Nachrichten warten, ein Wecker gestellt oder Nicht stören aktiv ist. Das Datum ist in eine Messingplakette über den Röhren graviert, und eine zweite Plakette darunter zeigt den Wert deiner Wahl: Akku, Herzfrequenz, Wetter, Sonnenuntergang und mehr.",
@@ -630,7 +659,7 @@
   },
   "ringar": {
     "name": "Ringar",
-    "subtitle": "",
+    "subtitle": "Aktivitätsringe, große Uhrzeit",
     "full": [
       "Drei Zielringe rahmen eine große, ruhige Uhrzeit. Wähle, was jeder Ring zeigt: Schritte, Intensitätsminuten, Etagen, Body Battery, Stress oder Akku. Jeder Ring ist beschriftet: Symbol und Wert stehen in der Farbe des Rings direkt unter der Uhrzeit, so weißt du immer, welcher Ring welcher ist.",
       "Über der Uhrzeit: Datum und Wetter von deinem Smartphone. Darunter: Akku sowie Benachrichtigungen, Nicht stören und Wecker, nur wenn es etwas zu melden gibt.",
@@ -641,7 +670,7 @@
   },
   "datum": {
     "name": "Datum",
-    "subtitle": "",
+    "subtitle": "12 Datenfelder, große klare Uhrzeit",
     "full": [
       "Alles auf einen Blick und nichts zur Zierde. Eine große, schmale Uhrzeit, Stunden in Weiß und Minuten in deiner Akzentfarbe, darunter Datum und laufende Sekunden. Rundherum sechs Datenfelder deiner Wahl, jedes mit seinem Symbol, und zwei Lünettenbögen für Schritte, Akku, Body Battery, Etagen, Intensitätsminuten oder Stress, mit ihren Werten unter jedem Bogen.",
       "Wetter und der nächste Sonnenauf- oder -untergang gehören zu den Quellen. Akku, Benachrichtigungen, Nicht stören und Wecker stehen unten, nur wenn es etwas zu melden gibt.",
@@ -652,7 +681,7 @@
   },
   "blackline": {
     "name": "Blackline",
-    "subtitle": "",
+    "subtitle": "Taktischer Kompass, 6 Datenfelder",
     "full": [
       "Ein Instrumenten-Zifferblatt. Oben ein live mitlaufendes Kursband, eine Sieben-Segment-Anzeige in Schablonenschrift aus Polygonen und sechs Datenfelder deiner Wahl, jedes mit seinem Symbol: Herzfrequenz, Schritte, Höhe, Body Battery, Wetter, der nächste Sonnenauf- oder -untergang und mehr.",
       "Am unteren Rand läuft ein Tageslichtbogen von Sonnenaufgang bis Sonnenuntergang und füllt sich im Lauf des Tages, so siehst du auf einen Blick, wie viel Licht noch bleibt. Unter den Werten: Akku sowie Benachrichtigungen, Nicht stören und Wecker, nur wenn es etwas zu melden gibt.",
@@ -663,7 +692,7 @@
   },
   "atelier": {
     "name": "Atelier",
-    "subtitle": "",
+    "subtitle": "Klassisches Analog-Zifferblatt",
     "full": [
       "Eine elegante Dresswatch, gezeichnet für eine Smartwatch. Ein guillochiertes Zifferblatt mit Sonnenschliff, aufgesetzte rhodinierte Indizes auf einer Railroad-Minuterie, polierte Dauphine-Zeiger und drei Hilfszifferblätter: deine Schritte (oder ein beliebiges Ziel) bei neun Uhr, eine Gangreserve für deinen Akku bei drei Uhr und die kleine Sekunde bei sechs Uhr.",
       "Unter der Zwölf dein Name oder deine Initialen in gravierten Großbuchstaben und ein Tag-Datum-Fenster mit facettiertem Rahmen.",

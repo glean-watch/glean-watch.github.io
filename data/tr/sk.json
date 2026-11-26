@@ -1,4 +1,33 @@
 {
+  "flyg": {
+    "name": "Flyg",
+    "subtitle": "Výškomer pilota, kokpitový ciferník",
+    "full": [
+      "Ciferník výškomera pilota: ciferník leteckého výškomera na zápästí. Päťdesiat značiek a číslice od 0 do 9 po obvode, široké biele ručičky hodín a minút a oranžová referenčná značka, ktorá obchádza obvod so sekundami.",
+      "Dve čierne okienka po oboch stranách osi, ako na prístroji: vaša výška vľavo a tlak vpravo, Kollsmanovo okienko, každé s popisom. Pod osou deň v týždni, deň a údaj podľa vašej voľby. Každé okienko ukáže ktorýkoľvek z dvadsiatich zdrojov: kroky, tep, počasie, najvyššiu a najnižšiu teplotu dňa, kalórie, vzdialenosť, poschodia, minúty intenzity, východ a západ slnka, Body Battery, stres, dýchanie, Pulse Ox, čas regenerácie, VO2 max, skóre spánku, batériu a upozornenia.",
+      "Tri ciferníky: čierny, grafitový a olivový; značka oranžová, žltá alebo biela. Na čiernobielych hodinkách s okrúhlym okienkom stojí výškomer vedľa a okienko sa stáva bubnom výšky, svetlé na čiernej alebo tmavé na svetlom. Na displejoch MIP značka beží aj so spusteným zápästím; na AMOLED režim vždy zapnutého displeja ukazuje číslice a ručičky v sivej. Podržte okienko a otvorí sa jeho prehľad, riadok dátumu pre kalendár. Teplota podľa hodiniek alebo v °C či °F."
+    ]
+  },
+  "gitter": {
+    "name": "Gitter",
+    "subtitle": "Švajčiarska mriežka minimal, veľký čas",
+    "full": [
+      "Minimalistický ciferník so švajčiarskou mriežkou: Medzinárodný typografický štýl na zápästí. Šesť stĺpcov, hodiny nad minútami vo veľmi tučnom groteskovom písme, minúty vo farbe akcentu a tri údaje v bunkách mriežky.",
+      "Deň v týždni a dátum sú v hornom rade v jazyku vašich hodiniek; vedľa tikajú sekundy v štvorci akcentu. Vpravo tri údaje, každý s názvom nad hodnotou: na začiatok kroky, tep a batéria, alebo ktorýkoľvek z dvadsiatich zdrojov: počasie, najvyššia a najnižšia teplota dňa, kalórie, vzdialenosť, poschodia, minúty intenzity, východ a západ slnka, nadmorská výška, tlak, Body Battery, stres, dýchanie, Pulse Ox, čas regenerácie, VO2 max, skóre spánku a upozornenia.",
+      "Papier alebo čierna a šesť akcentov: červená, modrá, oranžová, zelená, purpurová a petrolejová. Na čiernobielych hodinkách s okrúhlym okienkom sú minúty vyrezané z čierneho bloku a sekundy z okienka, tmavé na svetlom alebo svetlé na čiernom. Čas 12- alebo 24-hodinový alebo podľa hodiniek; teplota v °C alebo °F alebo podľa hodiniek. Na displejoch MIP bežia sekundy aj so spusteným zápästím; na AMOLED režim vždy zapnutého displeja ukazuje hodiny v sivej a minúty v akcente, na čiernej. Podržte údaj a otvorí sa jeho prehľad v hodinkách, dátum pre kalendár."
+    ]
+  },
+  "kol": {
+    "name": "Kol",
+    "subtitle": "Taktický karbónový ciferník, údaje",
+    "full": [
+      "Taktický karbónový ciferník s veľmi veľkým časom a údajmi, ktoré sledujete celý deň, vytvorený pre okrúhle aj čiernobiele hodinky.",
+      "Na okrúhlych hodinkách stojí čas veľký a biely uprostred tkaného karbónu, vedľa tikajú sekundy vo farbe farebnej kombinácie. Po okraji vedú dva oblúky, ktoré sa plnia zdola: na začiatok tep vľavo a Body Battery vpravo, každý so svojou ikonou a hodnotou hneď vedľa. Nad časom dva údaje po oboch stranách dátumu v jazyku vašich hodiniek; pod ním ďalšie tri a pruh cieľa krokov.",
+      "Na čiernobielych hodinkách s okrúhlym okienkom je Kol panel vytvorený pre ich displej: tep na krúžku v okrúhlom okienku, vedľa dátum a pruh Body Battery, pás karbónového kepru, veľký čas so sekundami, pruh krokov a tri údaje s popismi. Tmavé na svetlom alebo svetlé na čiernom.",
+      "Každý údaj si vyberiete z dvadsiatich zdrojov: kroky, tep, počasie, najvyššia a najnižšia teplota dňa, kalórie, vzdialenosť, poschodia, minúty intenzity, východ a západ slnka, nadmorská výška, tlak, Body Battery, stres, dýchanie, Pulse Ox, čas regenerácie, VO2 max, skóre spánku, batéria a upozornenia. Každý ukazovateľ ukáže tep alebo ľubovoľný zdroj s cieľom.",
+      "Šesť farebných kombinácií: Signál, Žeravé uhlíky, Toxická, Arktída, Ranger a Grafit. Čas 12- alebo 24-hodinový alebo podľa hodiniek; teplota v °C alebo °F alebo podľa hodiniek. Na displejoch MIP bežia sekundy aj so spusteným zápästím; na AMOLED režim vždy zapnutého displeja ukazuje čas a dátum v sivej. Podržte údaj alebo ukazovateľ a otvorí sa jeho prehľad v hodinkách, dátum pre kalendár."
+    ]
+  },
   "glob": {
     "name": "Glob",
     "subtitle": "Snehová guľa, odpočet do Vianoc",
@@ -565,7 +594,7 @@
   },
   "eng": {
     "name": "Eng",
-    "subtitle": "",
+    "subtitle": "Krajina levanduľového poľa",
     "full": [
       "Eng je levanduľová lúka, ktorá siaha až k vrchom. Jej kvitnutie je tvoja Body Battery: keď si oddýchnutý, riadky kvitnú až po horizont; ako deň míňa tvoju energiu, farba ustupuje dolu poľom a riadky sa vracajú do púčikov. Čítaš to ako skutočné pole a malá legenda pod tým hovorí, čo kvitnutie meria a kde práve je.",
       "Popredie drží štyri údaje pre pokojnejší deň: stres, srdcový tep, počasie a najbližší východ alebo západ slnka, každý označený ikonou. Batéria a upozornenia sú hore pri dátume.",
@@ -576,7 +605,7 @@
   },
   "blom": {
     "name": "Blom",
-    "subtitle": "",
+    "subtitle": "Čerešňový kvet, sakura",
     "full": [
       "Blom je vetva rozkvitnutej čerešne naprieč oblohou. Jej kvety sú tvoja Body Battery: keď si oddýchnutý, je otvorených všetkých osemnásť; ako deň míňa tvoju energiu, zatvárajú sa od špičiek dovnútra a každý, ktorý sa zavrie, pustí lupeň do trávy. Prečítaš to na prvý pohľad a malá legenda pod tým hovorí, čo kvety merajú a kde práve sú.",
       "Záhrada drží štyri údaje pre pokojnejší deň: stres, srdcový tep, počasie a najbližší východ alebo západ slnka, každý označený ikonou. Batéria a upozornenia sú hore pri dátume.",
@@ -587,7 +616,7 @@
   },
   "hav": {
     "name": "Hav",
-    "subtitle": "",
+    "subtitle": "Krajina pláže a prílivu",
     "full": [
       "Hav je zátoka na okraji dňa. Príliv na pláži je tvoja Body Battery: po dobrej noci siaha more až k úpätiu duny; ako deň míňa tvoju energiu, voda ustupuje a piesok sa rozširuje. Čítaš to ako skutočné pobrežie a malá legenda pod tým hovorí, čo príliv meria a ako vysoko už vystúpil.",
       "Duna drží štyri údaje pre pokojnejší deň: stres, srdcový tep, počasie a najbližší východ alebo západ slnka, každý označený ikonou. Batéria a upozornenia sú hore pri dátume.",
@@ -598,7 +627,7 @@
   },
   "fjell": {
     "name": "Fjell",
-    "subtitle": "",
+    "subtitle": "Horská krajina, cieľ krokov",
     "full": [
       "Pri raňajkách sú vrcholy holá skala. Ako sa plní tvoj cieľ krokov, snežná čiara schádza z hory; splnený cieľ je hrebeň celý pod snehom. Čítaš to ako skutočnú horu, podľa toho, ako nízko siaha biela, a malá legenda pod tým hovorí, čo sneh meria a kde práve si.",
       "Údolie drží štyri údaje, ktoré si žiada deň vonku: nadmorskú výšku, srdcový tep, počasie a najbližší východ alebo západ slnka, každý označený ikonou. Batéria a upozornenia sú hore pri dátume.",
@@ -609,7 +638,7 @@
   },
   "klar": {
     "name": "Klar",
-    "subtitle": "",
+    "subtitle": "Obrovské číslice, ľahko čitateľné",
     "full": [
       "Klar ukladá hodiny nad minúty, takže číslice môžu byť dvakrát vyššie, než dovolí jeden riadok: hrubé, jasné číslice, ktoré prečítaš na dĺžku paže, v pohybe aj bez okuliarov.",
       "Minúty vyfarbi jednou z piatich farieb, alebo nechaj všetko v jednej. Po oboch stranách času po jednom údaji, označenom ikonou: na začiatok kroky a srdcový tep, alebo ktorýkoľvek z pätnástich zdrojov. Batéria a upozornenia hore, dátum a počasie dole a nič iné.",
@@ -619,7 +648,7 @@
   },
   "artefact": {
     "name": "Artefact",
-    "subtitle": "",
+    "subtitle": "Nixie hodiny, vintage retro",
     "full": [
       "Štyri nixie trubice stoja v päticiach v mosadznom frézovanom puzdre. Každá číslica je ohnutý drôtik, ktorý žiari od katódy von, a za ním vidno deväť nesvietiacich katód, presne ako vo vnútri skutočnej trubice. Neónová dvojbodka medzi nimi pulzuje každú sekundu.",
       "Pod trubicami funkčný VU merač: podsvietená stupnica od 0 do 100 s červenou zónou a ručička, ktorá sleduje tvoj cieľ krokov, alebo Body Battery, stres, poschodia, minúty intenzívnej aktivity či batériu. Po stranách sa rozsvietia štyri neónové kontrolky, keď je telefón pripojený, čakajú správy, je nastavený budík alebo je zapnuté nerušiť. Dátum je vyrytý na mosadznom štítku nad trubicami a druhý štítok dole nesie údaj podľa tvojho výberu: batériu, srdcový tep, počasie, západ slnka a ďalšie.",
@@ -629,7 +658,7 @@
   },
   "ringar": {
     "name": "Ringar",
-    "subtitle": "",
+    "subtitle": "Kruhy aktivity, veľký čas",
     "full": [
       "Tri kruhy cieľov rámujú veľký, pokojný čas. Vyber, čo sleduje každý kruh: kroky, minúty intenzívnej aktivity, poschodia, Body Battery, stres alebo batériu. Každý kruh je označený: jeho ikona a hodnota sú vo farbe kruhu, tesne pod časom, takže vždy vieš, ktorý kruh je ktorý.",
       "Nad časom: dátum a počasie z telefónu. Pod ním: batéria a tvoje upozornenia, nerušiť a budík, zobrazené len vtedy, keď majú čo povedať.",
@@ -640,7 +669,7 @@
   },
   "datum": {
     "name": "Datum",
-    "subtitle": "",
+    "subtitle": "12 údajov, veľký čitateľný čas",
     "full": [
       "Všetko na prvý pohľad a nič ozdobné. Veľký zúžený čas, hodiny bielou a minúty tvojou farbou zvýraznenia, pod ním dátum a živé sekundy. Okolo šesť dátových polí podľa tvojho výberu, každé označené ikonou, a dva ukazovatele na lunete pre kroky, batériu, Body Battery, poschodia, minúty intenzívnej aktivity alebo stres, s hodnotami pod každým oblúkom.",
       "Medzi zdrojmi je aj počasie a najbližší východ alebo západ slnka. Batéria, upozornenia, nerušiť a budík sú dole, zobrazené len vtedy, keď majú čo povedať.",
@@ -651,7 +680,7 @@
   },
   "blackline": {
     "name": "Blackline",
-    "subtitle": "",
+    "subtitle": "Taktický kompas, 6 údajov",
     "full": [
       "Ciferník ako prístroj. Živý pás kurzu hore, sedemsegmentový displej v štýle šablóny vyrezaný z polygónov a šesť dátových polí podľa tvojho výberu, každé označené ikonou: srdcový tep, kroky, nadmorská výška, Body Battery, počasie, najbližší východ alebo západ slnka a ďalšie.",
       "Pozdĺž spodného okraja vedie oblúk denného svetla od východu po západ slnka a počas dňa sa plní, takže na prvý pohľad vidíš, koľko svetla ešte zostáva. Pod údajmi: batéria a tvoje upozornenia, nerušiť a budík, zobrazené len vtedy, keď majú čo povedať.",
@@ -662,7 +691,7 @@
   },
   "atelier": {
     "name": "Atelier",
-    "subtitle": "",
+    "subtitle": "Klasický elegantný analógový ciferník",
     "full": [
       "Elegantné spoločenské hodinky, nakreslené pre smart hodinky. Gilošovaný ciferník so slnečným lúčovaním, aplikované ródiované indexy na minútovej koľajničke, leštené ručičky dauphine a tri počítadlá: tvoje kroky (alebo akýkoľvek cieľ) na deviatej, rezerva chodu pre batériu na tretej a malé sekundy na šiestej.",
       "Pod dvanástkou tvoje meno alebo iniciály vygravírované veľkými písmenami a okienko dňa a dátumu so skoseným rámikom.",

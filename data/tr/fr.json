@@ -1,4 +1,33 @@
 {
+  "flyg": {
+    "name": "Flyg",
+    "subtitle": "Altimètre de pilote, cadran de cockpit",
+    "full": [
+      "Cadran altimètre de pilote : le cadran d'un altimètre d'avion au poignet. Cinquante index et les chiffres de 0 à 9 sur le pourtour, de larges aiguilles blanches pour les heures et les minutes, et un repère orange qui fait le tour avec les secondes.",
+      "Deux fenêtres noires de part et d'autre de l'axe, comme sur l'instrument : votre altitude à gauche et la pression à droite, la fenêtre de Kollsman, chacune avec sa légende. Sous l'axe, le jour, la date et la donnée de votre choix. Chaque fenêtre accepte l'une des vingt sources : pas, fréquence cardiaque, météo, maximum et minimum du jour, calories, distance, étages, minutes d'intensité, lever et coucher du soleil, Body Battery, stress, respiration, Pulse Ox, temps de récupération, VO2 max, score de sommeil, batterie et notifications.",
+      "Trois cadrans : noir, graphite et olive ; le repère en orange, jaune ou blanc. Sur une montre noir et blanc à fenêtre ronde, l'altimètre se place à côté et la fenêtre devient le tambour d'altitude, clair sur noir ou sombre sur clair. Sur les écrans MIP, le repère continue poignet baissé ; sur AMOLED, le mode toujours actif affiche les chiffres et les aiguilles en gris. Maintenez une fenêtre pour ouvrir son aperçu, la ligne de date pour votre calendrier. Températures comme la montre, ou en °C ou °F."
+    ]
+  },
+  "gitter": {
+    "name": "Gitter",
+    "subtitle": "Grille suisse minimaliste, grande heure",
+    "full": [
+      "Cadran minimaliste à grille suisse : le style typographique international au poignet. Six colonnes, les heures au-dessus des minutes dans une linéale très grasse, les minutes dans votre couleur d'accent, et trois données posées dans les cellules de la grille.",
+      "Le jour et la date occupent la rangée du haut, dans la langue de votre montre ; les secondes défilent à côté dans le carré d'accent. À droite, trois données, chacune son nom au-dessus de sa valeur : pas, fréquence cardiaque et batterie pour commencer, ou l'une des vingt sources : météo, maximum et minimum du jour, calories, distance, étages, minutes d'intensité, lever et coucher du soleil, altitude, pression, Body Battery, stress, respiration, Pulse Ox, temps de récupération, VO2 max, score de sommeil et notifications.",
+      "Papier ou noir, et six accents : rouge, bleu, orange, vert, magenta et bleu canard. Sur une montre noir et blanc à fenêtre ronde, les minutes se découpent en réserve dans un bloc noir et les secondes dans la fenêtre, sombre sur clair ou clair sur noir. Heure sur 12 ou 24 heures ou comme la montre ; températures en °C ou °F ou comme la montre. Sur les écrans MIP, les secondes continuent poignet baissé ; sur AMOLED, le mode toujours actif affiche les heures en gris et les minutes dans votre accent, sur noir. Maintenez une donnée pour ouvrir son aperçu sur la montre, la date pour votre calendrier."
+    ]
+  },
+  "kol": {
+    "name": "Kol",
+    "subtitle": "Cadran tactique carbone, données",
+    "full": [
+      "Cadran tactique en carbone avec une très grande heure et les données que vous consultez toute la journée, conçu pour les montres rondes et pour les montres noir et blanc.",
+      "Sur une montre ronde, l'heure s'affiche en très grand et en blanc au centre d'un carbone tissé, les secondes défilant à côté dans la couleur du coloris. Deux arcs suivent le bord et se remplissent par le bas : la fréquence cardiaque à gauche et la Body Battery à droite pour commencer, chacun avec son icône et sa valeur juste à côté. Au-dessus de l'heure, deux données de part et d'autre de la date dans la langue de votre montre ; en dessous, trois autres et une barre d'objectif pour vos pas.",
+      "Sur une montre noir et blanc à fenêtre ronde, Kol est un panneau conçu pour son écran : votre fréquence cardiaque sur un anneau dans la fenêtre ronde, la date et une barre Body Battery à côté, une bande de sergé de carbone, la grande heure avec ses secondes, une barre de pas et trois données avec leurs légendes. Sombre sur clair, ou clair sur noir.",
+      "Chaque donnée se choisit parmi vingt sources : pas, fréquence cardiaque, météo, maximum et minimum du jour, calories, distance, étages, minutes d'intensité, lever et coucher du soleil, altitude, pression, Body Battery, stress, respiration, Pulse Ox, temps de récupération, VO2 max, score de sommeil, batterie et notifications. Chaque jauge affiche la fréquence cardiaque ou toute source avec un objectif.",
+      "Six coloris : Signal, Braise, Toxique, Arctique, Ranger et Graphite. Heure sur 12 ou 24 heures ou comme la montre ; températures en °C ou °F ou comme la montre. Sur les écrans MIP, les secondes continuent poignet baissé ; sur AMOLED, le mode toujours actif affiche l'heure et la date en gris. Maintenez une donnée ou une jauge pour ouvrir son aperçu sur la montre, la date pour votre calendrier."
+    ]
+  },
   "glob": {
     "name": "Glob",
     "subtitle": "Boule à neige, compte à rebours Noël",
@@ -566,7 +595,7 @@
   },
   "eng": {
     "name": "Eng",
-    "subtitle": "",
+    "subtitle": "Paysage de champ de lavande",
     "full": [
       "Eng est un champ de lavande qui court jusqu'aux collines. Sa floraison est votre Body Battery : au réveil, les rangs sont en fleurs jusqu'à l'horizon ; à mesure que la journée use votre énergie, la couleur redescend le champ et les rangs reviennent en boutons. Vous le lisez comme un vrai champ, et une petite légende en dessous indique ce que mesure la floraison et où elle en est.",
       "Le premier plan accueille quatre données pour une journée plus calme : stress, fréquence cardiaque, météo et prochain lever ou coucher du soleil, chacune avec son icône. Batterie et alertes sont en haut avec la date.",
@@ -577,7 +606,7 @@
   },
   "blom": {
     "name": "Blom",
-    "subtitle": "",
+    "subtitle": "Fleurs de cerisier, sakura",
     "full": [
       "Blom est une branche de cerisier en fleurs sur le ciel. Ses fleurs sont votre Body Battery : au réveil, les dix-huit sont ouvertes ; à mesure que la journée use votre énergie, elles se ferment des extrémités vers l'intérieur, et chacune qui se ferme laisse tomber un pétale sur l'herbe. Vous la lisez d'un coup d'œil, et une petite légende en dessous indique ce que mesure la floraison et où elle en est.",
       "Le jardin accueille quatre données pour une journée plus calme : stress, fréquence cardiaque, météo et prochain lever ou coucher du soleil, chacune avec son icône. Batterie et alertes sont en haut avec la date.",
@@ -588,7 +617,7 @@
   },
   "hav": {
     "name": "Hav",
-    "subtitle": "",
+    "subtitle": "Paysage de plage et marée",
     "full": [
       "Hav est une crique au bord du jour. La marée sur sa plage, c'est votre Body Battery : après une bonne nuit, la mer monte jusqu'au pied de la dune ; à mesure que la journée use votre énergie, l'eau se retire et la plage s'élargit. Vous la lisez comme un vrai rivage, et une petite légende en dessous indique ce que mesure la marée et jusqu'où elle est montée.",
       "La dune accueille quatre données pour une journée plus calme : stress, fréquence cardiaque, météo et prochain lever ou coucher du soleil, chacune avec son icône. Batterie et alertes sont en haut avec la date.",
@@ -599,7 +628,7 @@
   },
   "fjell": {
     "name": "Fjell",
-    "subtitle": "",
+    "subtitle": "Paysage de montagne, objectif de pas",
     "full": [
       "Au petit-déjeuner, les sommets ne sont que roche nue. À mesure que votre objectif de pas se remplit, la limite des neiges descend la montagne ; un objectif atteint, c'est une chaîne sous la neige. Vous la lisez comme une vraie montagne, à la hauteur où descend le blanc, et une petite légende en dessous indique ce que mesure la neige et où vous en êtes.",
       "La vallée accueille les quatre données qu'une journée dehors demande : altitude, fréquence cardiaque, météo et prochain lever ou coucher du soleil, chacune avec son icône. Batterie et alertes sont en haut avec la date.",
@@ -610,7 +639,7 @@
   },
   "klar": {
     "name": "Klar",
-    "subtitle": "",
+    "subtitle": "Chiffres géants, lecture facile",
     "full": [
       "Klar superpose les heures aux minutes pour que les chiffres puissent être deux fois plus grands qu'une seule ligne ne le permet : des chiffres épais et nets, lisibles à bout de bras, en mouvement, sans lunettes.",
       "Colorez les minutes dans l'une des cinq couleurs, ou gardez tout d'une seule couleur. De chaque côté de l'heure, une donnée avec son icône : pas et fréquence cardiaque pour commencer, ou l'une des quinze sources. Batterie et alertes en haut, date et météo en bas, et rien d'autre.",
@@ -620,7 +649,7 @@
   },
   "artefact": {
     "name": "Artefact",
-    "subtitle": "",
+    "subtitle": "Horloge à tubes Nixie, vintage rétro",
     "full": [
       "Quatre tubes Nixie se dressent sur leurs supports dans un boîtier en laiton usiné. Chaque chiffre est un fil courbé qui rayonne depuis la cathode, avec les neuf cathodes éteintes visibles derrière, exactement comme dans un vrai tube. Les deux-points au néon entre eux battent chaque seconde.",
       "Sous les tubes, un vumètre qui fonctionne : une échelle rétroéclairée de 0 à 100 avec une zone rouge, et une aiguille qui suit votre objectif de pas, ou Body Battery, le stress, les étages, les minutes intensives ou la batterie. De chaque côté, quatre voyants au néon s'allument quand votre téléphone est connecté, que des messages attendent, qu'une alarme est réglée ou que Ne pas déranger est activé. La date est gravée sur une plaque de laiton au-dessus des tubes, et une seconde plaque en dessous affiche la valeur de votre choix : batterie, fréquence cardiaque, météo, coucher du soleil et plus encore.",
@@ -630,7 +659,7 @@
   },
   "ringar": {
     "name": "Ringar",
-    "subtitle": "",
+    "subtitle": "Anneaux d'activité, grande heure",
     "full": [
       "Trois anneaux d'objectifs encadrent une heure grande et calme. Choisissez ce que suit chaque anneau : pas, minutes intensives, étages, Body Battery, stress ou batterie. Chaque anneau est légendé : son icône et sa valeur, dans sa propre couleur, juste sous l'heure, pour savoir toujours quel anneau est lequel.",
       "Au-dessus de l'heure : la date et la météo de votre téléphone. En dessous : la batterie, et vos notifications, Ne pas déranger et alarme, affichées seulement quand elles ont quelque chose à dire.",
@@ -641,7 +670,7 @@
   },
   "datum": {
     "name": "Datum",
-    "subtitle": "",
+    "subtitle": "12 données, grande heure lisible",
     "full": [
       "Tout d'un coup d'œil, et rien de décoratif. Une grande heure étroite, les heures en blanc et les minutes dans votre couleur d'accent, avec la date et les secondes en direct en dessous. Autour, six champs de données au choix, chacun avec son icône, et deux arcs de lunette pour vos pas, la batterie, Body Battery, les étages, les minutes intensives ou le stress, avec leur valeur sous chaque arc.",
       "La météo et le prochain lever ou coucher du soleil font partie des sources. Batterie, notifications, Ne pas déranger et alarme sont en bas, affichés seulement quand ils ont quelque chose à dire.",
@@ -652,7 +681,7 @@
   },
   "blackline": {
     "name": "Blackline",
-    "subtitle": "",
+    "subtitle": "Boussole tactique, 6 données",
     "full": [
       "Un cadran d'instrument. En haut, une bande de cap en direct, un affichage à sept segments au pochoir découpé dans des polygones, et six champs de données au choix, chacun avec son icône : fréquence cardiaque, pas, altitude, Body Battery, météo, prochain lever ou coucher du soleil, et plus encore.",
       "Le long du bord inférieur, un arc du jour va du lever au coucher du soleil et se remplit au fil de la journée : vous voyez d'un coup d'œil combien de lumière il reste. Sous les données : la batterie, et vos notifications, Ne pas déranger et alarme, affichées seulement quand elles ont quelque chose à dire.",
@@ -663,7 +692,7 @@
   },
   "atelier": {
     "name": "Atelier",
-    "subtitle": "",
+    "subtitle": "Cadran analogique classique élégant",
     "full": [
       "Une montre habillée, dessinée pour une montre connectée. Un cadran guilloché soleillé, des index rhodiés appliqués sur une minuterie chemin de fer, des aiguilles dauphine polies et trois compteurs : vos pas (ou n'importe quel objectif) à neuf heures, une réserve de marche pour votre batterie à trois heures, et la petite seconde à six heures.",
       "Sous midi, votre nom ou vos initiales en capitales gravées, et un guichet jour-date au cadre biseauté.",

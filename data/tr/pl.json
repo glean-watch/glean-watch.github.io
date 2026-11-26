@@ -1,4 +1,33 @@
 {
+  "flyg": {
+    "name": "Flyg",
+    "subtitle": "Wysokościomierz pilota, lotnicza tarcza",
+    "full": [
+      "Tarcza wysokościomierza pilota: tarcza lotniczego wysokościomierza na nadgarstku. Pięćdziesiąt kresek i cyfry od 0 do 9 wokół krawędzi, szerokie białe wskazówki godzin i minut oraz pomarańczowy znacznik, który obchodzi krawędź wraz z sekundami.",
+      "Po obu stronach osi dwa czarne okienka, jak w przyrządzie: wysokość z lewej i ciśnienie z prawej, okienko Kollsmana, każde z podpisem. Pod osią dzień tygodnia, dzień i wybrany odczyt. Każde okienko pokaże dowolne z dwudziestu źródeł: kroki, tętno, pogodę, najwyższą i najniższą temperaturę dnia, kalorie, dystans, piętra, minuty intensywności, wschód i zachód słońca, Body Battery, stres, oddech, Pulse Ox, czas regeneracji, VO2max, ocenę snu, baterię i powiadomienia.",
+      "Trzy tarcze: czarna, grafitowa i oliwkowa; znacznik pomarańczowy, żółty lub biały. Na czarno-białym zegarku z okrągłym okienkiem wysokościomierz stoi obok, a okienko staje się bębnem wysokości, jasne na czarnym albo ciemne na jasnym. Na ekranach MIP znacznik chodzi także przy opuszczonym nadgarstku; na AMOLED tryb zawsze włączony pokazuje cyfry i wskazówki na szaro. Przytrzymaj okienko, by otworzyć jego podgląd w zegarku, a linię daty, by otworzyć kalendarz. Temperatura jak w zegarku albo w °C lub °F."
+    ]
+  },
+  "gitter": {
+    "name": "Gitter",
+    "subtitle": "Szwajcarska siatka, minimalizm",
+    "full": [
+      "Minimalistyczna tarcza ze szwajcarską siatką: Międzynarodowy Styl Typograficzny na nadgarstku. Sześć kolumn, godziny nad minutami w bardzo grubym groteskowym kroju, minuty w kolorze akcentu i trzy odczyty w komórkach siatki.",
+      "Dzień tygodnia i data w górnym rzędzie, w języku zegarka; obok w kwadracie akcentu tykają sekundy. Z prawej trzy odczyty, każdy z nazwą nad wartością: na początek kroki, tętno i bateria, albo dowolne z dwudziestu źródeł: pogoda, najwyższa i najniższa temperatura dnia, kalorie, dystans, piętra, minuty intensywności, wschód i zachód słońca, wysokość, ciśnienie, Body Battery, stres, oddech, Pulse Ox, czas regeneracji, VO2max, ocena snu i powiadomienia.",
+      "Papier lub czerń i sześć akcentów: czerwony, niebieski, pomarańczowy, zielony, magenta i morski. Na czarno-białym zegarku z okrągłym okienkiem minuty są wybite z czarnego bloku, a sekundy z okienka, ciemne na jasnym albo jasne na czarnym. Czas 12- lub 24-godzinny albo jak w zegarku; temperatura w °C lub °F albo jak w zegarku. Na ekranach MIP sekundy biegną także przy opuszczonym nadgarstku; na AMOLED tryb zawsze włączony pokazuje godziny na szaro, a minuty w kolorze akcentu, na czerni. Przytrzymaj odczyt, by otworzyć jego podgląd w zegarku, a datę, by otworzyć kalendarz."
+    ]
+  },
+  "kol": {
+    "name": "Kol",
+    "subtitle": "Taktyczna tarcza z danymi, karbon",
+    "full": [
+      "Taktyczna tarcza z karbonem, bardzo dużą godziną i danymi, które sprawdzasz cały dzień, stworzona dla okrągłych zegarków i dla czarno-białych.",
+      "Na okrągłym zegarku godzina stoi ogromna i biała pośrodku tkanego karbonu, a obok tykają sekundy w kolorze wybranej kolorystyki. Wokół krawędzi biegną dwa łuki wypełniające się od dołu: na początek tętno z lewej i Body Battery z prawej, każdy z ikoną i wartością tuż obok. Nad godziną dwa odczyty po obu stronach daty w języku zegarka; pod nią trzy kolejne i pasek celu kroków.",
+      "Na czarno-białym zegarku z okrągłym okienkiem Kol to panel stworzony dla jego ekranu: tętno na pierścieniu w okrągłym okienku, obok data i pasek Body Battery, pas karbonowego splotu, duża godzina z sekundami, pasek kroków i trzy odczyty z podpisami. Ciemne na jasnym albo jasne na czarnym.",
+      "Każdy odczyt wybierasz sam spośród dwudziestu źródeł: kroki, tętno, pogoda, najwyższa i najniższa temperatura dnia, kalorie, dystans, piętra, minuty intensywności, wschód i zachód słońca, wysokość, ciśnienie, Body Battery, stres, oddech, Pulse Ox, czas regeneracji, VO2max, ocena snu, bateria i powiadomienia. Każdy wskaźnik pokaże tętno albo dowolne źródło z celem.",
+      "Sześć kolorystyk: Sygnał, Żar, Toksyczny, Arktyka, Zwiadowca i Grafit. Czas 12- lub 24-godzinny albo jak w zegarku; temperatura w °C lub °F albo jak w zegarku. Na ekranach MIP sekundy biegną także przy opuszczonym nadgarstku; na AMOLED tryb zawsze włączony pokazuje godzinę i datę na szaro. Przytrzymaj odczyt lub wskaźnik, by otworzyć jego podgląd w zegarku, a datę, by otworzyć kalendarz."
+    ]
+  },
   "glob": {
     "name": "Glob",
     "subtitle": "Śnieżna kula, odliczanie do świąt",
@@ -566,7 +595,7 @@
   },
   "eng": {
     "name": "Eng",
-    "subtitle": "",
+    "subtitle": "Krajobraz pola lawendy",
     "full": [
       "Eng to łąka lawendy ciągnąca się aż po wzgórza. Jej kwitnienie to Twoje Body Battery: po odpoczynku rzędy kwitną aż po horyzont; w miarę jak dzień zużywa Twoją energię, kolor cofa się w dół pola, a rzędy wracają do pąków. Czytasz to jak prawdziwe pole, a mała legenda pod spodem mówi, co mierzy kwitnienie i jak daleko już zaszło.",
       "Pierwszy plan mieści cztery odczyty na spokojniejszy dzień: stres, tętno, pogodę i najbliższy wschód lub zachód słońca, każdy ze swoją ikoną. Bateria i powiadomienia są razem z datą u góry.",
@@ -577,7 +606,7 @@
   },
   "blom": {
     "name": "Blom",
-    "subtitle": "",
+    "subtitle": "Kwiat wiśni, sakura",
     "full": [
       "Blom to gałąź kwitnącej wiśni na tle nieba. Jej kwiaty to Twoje Body Battery: po odpoczynku wszystkie osiemnaście są otwarte; w miarę jak dzień zużywa Twoją energię, zamykają się od końców ku środkowi, a każdy zamykający się kwiat zrzuca płatek na trawę. Czytasz to jednym spojrzeniem, a mała legenda pod spodem mówi, co mierzy kwitnienie i jak daleko już zaszło.",
       "Ogród mieści cztery odczyty na spokojniejszy dzień: stres, tętno, pogodę i najbliższy wschód lub zachód słońca, każdy ze swoją ikoną. Bateria i powiadomienia są razem z datą u góry.",
@@ -588,7 +617,7 @@
   },
   "hav": {
     "name": "Hav",
-    "subtitle": "",
+    "subtitle": "Krajobraz plaży i przypływu",
     "full": [
       "Hav to zatoczka na skraju dnia. Przypływ na jej plaży to Twoje Body Battery: po dobrej nocy morze sięga stóp wydmy; w miarę jak dzień zużywa Twoją energię, woda się cofa, a plaża robi się szersza. Czytasz to jak prawdziwy brzeg, a mała legenda pod spodem mówi, co mierzy przypływ i jak daleko już doszedł.",
       "Wydma mieści cztery odczyty na spokojniejszy dzień: stres, tętno, pogodę i najbliższy wschód lub zachód słońca, każdy ze swoją ikoną. Bateria i powiadomienia są razem z datą u góry.",
@@ -599,7 +628,7 @@
   },
   "fjell": {
     "name": "Fjell",
-    "subtitle": "",
+    "subtitle": "Górski krajobraz, cel kroków",
     "full": [
       "Przy śniadaniu szczyty to nagie skały. W miarę jak wypełnia się Twój cel kroków, linia śniegu schodzi po zboczach; osiągnięty cel to góry całe w śniegu. Czytasz to jak prawdziwe góry, po tym, jak nisko sięga biel, a mała legenda pod spodem mówi, co mierzy śnieg i ile już masz.",
       "W dolinie są cztery odczyty, których potrzebuje dzień w terenie: wysokość, tętno, pogoda i najbliższy wschód lub zachód słońca, każdy ze swoją ikoną. Bateria i powiadomienia są razem z datą u góry.",
@@ -610,7 +639,7 @@
   },
   "klar": {
     "name": "Klar",
-    "subtitle": "",
+    "subtitle": "Ogromne cyfry, łatwe do odczytu",
     "full": [
       "Klar układa godziny nad minutami, dzięki czemu cyfry mogą być dwa razy wyższe, niż pozwala jeden wiersz: grube, wyraźne cyfry, które przeczytasz z odległości wyciągniętej ręki, w ruchu i bez okularów.",
       "Pokoloruj minuty jednym z pięciu kolorów albo zostaw całość w jednym. Po obu stronach godziny po jednym polu danych, każde ze swoją ikoną: na początek kroki i tętno, a do wyboru piętnaście źródeł. Bateria i powiadomienia u góry, data i pogoda na dole, i nic więcej.",
@@ -620,7 +649,7 @@
   },
   "artefact": {
     "name": "Artefact",
-    "subtitle": "",
+    "subtitle": "Zegar lampowy Nixie, vintage retro",
     "full": [
       "Cztery lampy nixie stoją w podstawkach w toczonej mosiężnej obudowie. Każda cyfra to wygięty drut świecący od katody, a za nią widać dziewięć wygaszonych katod, dokładnie jak w prawdziwej lampie. Neonowy dwukropek między nimi pulsuje co sekundę.",
       "Pod lampami działający wskaźnik wychyłowy: podświetlana skala od 0 do 100 z czerwonym polem i wskazówka, która śledzi Twój cel kroków albo Body Battery, stres, piętra, minuty intensywnej aktywności lub baterię. Po bokach cztery neonowe lampki zapalają się, gdy telefon jest połączony, czekają wiadomości, alarm jest ustawiony albo włączony jest tryb Nie przeszkadzać. Data jest wygrawerowana na mosiężnej tabliczce nad lampami, a druga tabliczka pod nimi pokazuje wybraną wartość: baterię, tętno, pogodę, zachód słońca i więcej.",
@@ -630,7 +659,7 @@
   },
   "ringar": {
     "name": "Ringar",
-    "subtitle": "",
+    "subtitle": "Pierścienie aktywności, duża godzina",
     "full": [
       "Trzy pierścienie celów otaczają dużą, spokojną godzinę. Wybierz, co pokazuje każdy z nich: kroki, minuty intensywnej aktywności, piętra, Body Battery, stres lub baterię. Każdy pierścień jest opisany: jego ikona i wartość stoją w jego własnym kolorze tuż pod godziną, więc zawsze wiesz, który jest który.",
       "Nad godziną: data i pogoda z telefonu. Pod nią: bateria oraz powiadomienia, tryb Nie przeszkadzać i alarm, widoczne tylko wtedy, gdy mają coś do powiedzenia.",
@@ -641,7 +670,7 @@
   },
   "datum": {
     "name": "Datum",
-    "subtitle": "",
+    "subtitle": "12 pól danych, duża czytelna godzina",
     "full": [
       "Wszystko na pierwszy rzut oka i nic dla ozdoby. Duża, wąska godzina: godziny na biało, minuty w kolorze akcentu, a pod nią data i bieżące sekundy. Wokół sześć wybranych przez Ciebie pól danych, każde ze swoją ikoną, i dwa łuki na obrzeżu dla kroków, baterii, Body Battery, pięter, minut intensywnej aktywności lub stresu, z wartościami pod każdym łukiem.",
       "Wśród źródeł są pogoda i najbliższy wschód lub zachód słońca. Bateria, powiadomienia, tryb Nie przeszkadzać i alarm są na dole, widoczne tylko wtedy, gdy mają coś do powiedzenia.",
@@ -652,7 +681,7 @@
   },
   "blackline": {
     "name": "Blackline",
-    "subtitle": "",
+    "subtitle": "Taktyczny kompas, 6 pól danych",
     "full": [
       "Tarcza jak przyrząd pokładowy. U góry żywa taśma kursu, siedmiosegmentowy odczyt w stylu szablonu wycięty z wielokątów i sześć wybranych przez Ciebie pól danych, każde ze swoją ikoną: tętno, kroki, wysokość, Body Battery, pogoda, najbliższy wschód lub zachód słońca i więcej.",
       "Wzdłuż dolnej krawędzi łuk dnia biegnie od wschodu do zachodu słońca i wypełnia się w miarę upływu dnia, więc jednym spojrzeniem widzisz, ile zostało światła. Pod odczytami: bateria oraz powiadomienia, tryb Nie przeszkadzać i alarm, widoczne tylko wtedy, gdy mają coś do powiedzenia.",
@@ -663,7 +692,7 @@
   },
   "atelier": {
     "name": "Atelier",
-    "subtitle": "",
+    "subtitle": "Klasyczna elegancka tarcza analogowa",
     "full": [
       "Elegancki zegarek wizytowy, narysowany dla smartwatcha. Giloszowana tarcza typu sunburst, nakładane rodowane indeksy na minutowej skali typu railroad, polerowane wskazówki dauphine i trzy liczniki: kroki (albo dowolny cel) na dziewiątej, rezerwa chodu pokazująca baterię na trzeciej i mały sekundnik na szóstej.",
       "Pod dwunastką Twoje imię lub inicjały wygrawerowane wielkimi literami oraz okienko dnia i daty w fazowanej ramce.",

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url><loc>https://glean-watch.github.io/</loc></url>
+  <url><loc>https://glean-watch.github.io/faces/flyg/</loc><image:image><image:loc>https://glean-watch.github.io/img/flyg/01_hero.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/flyg/02_features.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/flyg/03_themes.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/flyg/04_devices.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/flyg/05_detail.jpg</image:loc></image:image></url>
+  <url><loc>https://glean-watch.github.io/faces/gitter/</loc><image:image><image:loc>https://glean-watch.github.io/img/gitter/01_hero.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/gitter/02_features.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/gitter/03_themes.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/gitter/04_devices.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/gitter/05_detail.jpg</image:loc></image:image></url>
+  <url><loc>https://glean-watch.github.io/faces/kol/</loc><image:image><image:loc>https://glean-watch.github.io/img/kol/01_hero.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/kol/02_features.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/kol/03_themes.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/kol/04_devices.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/kol/05_detail.jpg</image:loc></image:image></url>
   <url><loc>https://glean-watch.github.io/faces/glob/</loc><image:image><image:loc>https://glean-watch.github.io/img/glob/01_hero.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/glob/02_features.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/glob/03_themes.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/glob/04_devices.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/glob/05_detail.jpg</image:loc></image:image></url>
   <url><loc>https://glean-watch.github.io/faces/julnatt/</loc><image:image><image:loc>https://glean-watch.github.io/img/julnatt/01_hero.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/julnatt/02_features.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/julnatt/03_themes.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/julnatt/04_devices.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/julnatt/05_detail.jpg</image:loc></image:image></url>
   <url><loc>https://glean-watch.github.io/faces/snemand/</loc><image:image><image:loc>https://glean-watch.github.io/img/snemand/01_hero.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/snemand/02_features.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/snemand/03_themes.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/snemand/04_devices.jpg</image:loc></image:image><image:image><image:loc>https://glean-watch.github.io/img/snemand/05_detail.jpg</image:loc></image:image></url>
@@ -73,12 +76,15 @@
   <url><loc>https://glean-watch.github.io/faces/fun/</loc></url>
   <url><loc>https://glean-watch.github.io/faces/nature/</loc></url>
   <url><loc>https://glean-watch.github.io/faces/analog/</loc></url>
-  <url><loc>https://glean-watch.github.io/faces/geek/</loc></url>
   <url><loc>https://glean-watch.github.io/faces/simple/</loc></url>
+  <url><loc>https://glean-watch.github.io/faces/geek/</loc></url>
   <url><loc>https://glean-watch.github.io/faces/stylish/</loc></url>
   <url><loc>https://glean-watch.github.io/faces/fantasy/</loc></url>
   <url><loc>https://glean-watch.github.io/faces/retro/</loc></url>
   <url><loc>https://glean-watch.github.io/pl/</loc></url>
+  <url><loc>https://glean-watch.github.io/pl/faces/flyg/</loc></url>
+  <url><loc>https://glean-watch.github.io/pl/faces/gitter/</loc></url>
+  <url><loc>https://glean-watch.github.io/pl/faces/kol/</loc></url>
   <url><loc>https://glean-watch.github.io/pl/faces/glob/</loc></url>
   <url><loc>https://glean-watch.github.io/pl/faces/julnatt/</loc></url>
   <url><loc>https://glean-watch.github.io/pl/faces/snemand/</loc></url>
@@ -150,12 +156,15 @@
   <url><loc>https://glean-watch.github.io/pl/faces/fun/</loc></url>
   <url><loc>https://glean-watch.github.io/pl/faces/nature/</loc></url>
   <url><loc>https://glean-watch.github.io/pl/faces/analog/</loc></url>
-  <url><loc>https://glean-watch.github.io/pl/faces/geek/</loc></url>
   <url><loc>https://glean-watch.github.io/pl/faces/simple/</loc></url>
+  <url><loc>https://glean-watch.github.io/pl/faces/geek/</loc></url>
   <url><loc>https://glean-watch.github.io/pl/faces/stylish/</loc></url>
   <url><loc>https://glean-watch.github.io/pl/faces/fantasy/</loc></url>
   <url><loc>https://glean-watch.github.io/pl/faces/retro/</loc></url>
   <url><loc>https://glean-watch.github.io/de/</loc></url>
+  <url><loc>https://glean-watch.github.io/de/faces/flyg/</loc></url>
+  <url><loc>https://glean-watch.github.io/de/faces/gitter/</loc></url>
+  <url><loc>https://glean-watch.github.io/de/faces/kol/</loc></url>
   <url><loc>https://glean-watch.github.io/de/faces/glob/</loc></url>
   <url><loc>https://glean-watch.github.io/de/faces/julnatt/</loc></url>
   <url><loc>https://glean-watch.github.io/de/faces/snemand/</loc></url>
@@ -227,12 +236,15 @@
   <url><loc>https://glean-watch.github.io/de/faces/fun/</loc></url>
   <url><loc>https://glean-watch.github.io/de/faces/nature/</loc></url>
   <url><loc>https://glean-watch.github.io/de/faces/analog/</loc></url>
-  <url><loc>https://glean-watch.github.io/de/faces/geek/</loc></url>
   <url><loc>https://glean-watch.github.io/de/faces/simple/</loc></url>
+  <url><loc>https://glean-watch.github.io/de/faces/geek/</loc></url>
   <url><loc>https://glean-watch.github.io/de/faces/stylish/</loc></url>
   <url><loc>https://glean-watch.github.io/de/faces/fantasy/</loc></url>
   <url><loc>https://glean-watch.github.io/de/faces/retro/</loc></url>
   <url><loc>https://glean-watch.github.io/fr/</loc></url>
+  <url><loc>https://glean-watch.github.io/fr/faces/flyg/</loc></url>
+  <url><loc>https://glean-watch.github.io/fr/faces/gitter/</loc></url>
+  <url><loc>https://glean-watch.github.io/fr/faces/kol/</loc></url>
   <url><loc>https://glean-watch.github.io/fr/faces/glob/</loc></url>
   <url><loc>https://glean-watch.github.io/fr/faces/julnatt/</loc></url>
   <url><loc>https://glean-watch.github.io/fr/faces/snemand/</loc></url>
@@ -304,12 +316,15 @@
   <url><loc>https://glean-watch.github.io/fr/faces/fun/</loc></url>
   <url><loc>https://glean-watch.github.io/fr/faces/nature/</loc></url>
   <url><loc>https://glean-watch.github.io/fr/faces/analog/</loc></url>
-  <url><loc>https://glean-watch.github.io/fr/faces/geek/</loc></url>
   <url><loc>https://glean-watch.github.io/fr/faces/simple/</loc></url>
+  <url><loc>https://glean-watch.github.io/fr/faces/geek/</loc></url>
   <url><loc>https://glean-watch.github.io/fr/faces/stylish/</loc></url>
   <url><loc>https://glean-watch.github.io/fr/faces/fantasy/</loc></url>
   <url><loc>https://glean-watch.github.io/fr/faces/retro/</loc></url>
   <url><loc>https://glean-watch.github.io/es/</loc></url>
+  <url><loc>https://glean-watch.github.io/es/faces/flyg/</loc></url>
+  <url><loc>https://glean-watch.github.io/es/faces/gitter/</loc></url>
+  <url><loc>https://glean-watch.github.io/es/faces/kol/</loc></url>
   <url><loc>https://glean-watch.github.io/es/faces/glob/</loc></url>
   <url><loc>https://glean-watch.github.io/es/faces/julnatt/</loc></url>
   <url><loc>https://glean-watch.github.io/es/faces/snemand/</loc></url>
@@ -381,12 +396,15 @@
   <url><loc>https://glean-watch.github.io/es/faces/fun/</loc></url>
   <url><loc>https://glean-watch.github.io/es/faces/nature/</loc></url>
   <url><loc>https://glean-watch.github.io/es/faces/analog/</loc></url>
-  <url><loc>https://glean-watch.github.io/es/faces/geek/</loc></url>
   <url><loc>https://glean-watch.github.io/es/faces/simple/</loc></url>
+  <url><loc>https://glean-watch.github.io/es/faces/geek/</loc></url>
   <url><loc>https://glean-watch.github.io/es/faces/stylish/</loc></url>
   <url><loc>https://glean-watch.github.io/es/faces/fantasy/</loc></url>
   <url><loc>https://glean-watch.github.io/es/faces/retro/</loc></url>
   <url><loc>https://glean-watch.github.io/it/</loc></url>
+  <url><loc>https://glean-watch.github.io/it/faces/flyg/</loc></url>
+  <url><loc>https://glean-watch.github.io/it/faces/gitter/</loc></url>
+  <url><loc>https://glean-watch.github.io/it/faces/kol/</loc></url>
   <url><loc>https://glean-watch.github.io/it/faces/glob/</loc></url>
   <url><loc>https://glean-watch.github.io/it/faces/julnatt/</loc></url>
   <url><loc>https://glean-watch.github.io/it/faces/snemand/</loc></url>
@@ -458,12 +476,15 @@
   <url><loc>https://glean-watch.github.io/it/faces/fun/</loc></url>
   <url><loc>https://glean-watch.github.io/it/faces/nature/</loc></url>
   <url><loc>https://glean-watch.github.io/it/faces/analog/</loc></url>
-  <url><loc>https://glean-watch.github.io/it/faces/geek/</loc></url>
   <url><loc>https://glean-watch.github.io/it/faces/simple/</loc></url>
+  <url><loc>https://glean-watch.github.io/it/faces/geek/</loc></url>
   <url><loc>https://glean-watch.github.io/it/faces/stylish/</loc></url>
   <url><loc>https://glean-watch.github.io/it/faces/fantasy/</loc></url>
   <url><loc>https://glean-watch.github.io/it/faces/retro/</loc></url>
   <url><loc>https://glean-watch.github.io/nl/</loc></url>
+  <url><loc>https://glean-watch.github.io/nl/faces/flyg/</loc></url>
+  <url><loc>https://glean-watch.github.io/nl/faces/gitter/</loc></url>
+  <url><loc>https://glean-watch.github.io/nl/faces/kol/</loc></url>
   <url><loc>https://glean-watch.github.io/nl/faces/glob/</loc></url>
   <url><loc>https://glean-watch.github.io/nl/faces/julnatt/</loc></url>
   <url><loc>https://glean-watch.github.io/nl/faces/snemand/</loc></url>
@@ -535,12 +556,15 @@
   <url><loc>https://glean-watch.github.io/nl/faces/fun/</loc></url>
   <url><loc>https://glean-watch.github.io/nl/faces/nature/</loc></url>
   <url><loc>https://glean-watch.github.io/nl/faces/analog/</loc></url>
-  <url><loc>https://glean-watch.github.io/nl/faces/geek/</loc></url>
   <url><loc>https://glean-watch.github.io/nl/faces/simple/</loc></url>
+  <url><loc>https://glean-watch.github.io/nl/faces/geek/</loc></url>
   <url><loc>https://glean-watch.github.io/nl/faces/stylish/</loc></url>
   <url><loc>https://glean-watch.github.io/nl/faces/fantasy/</loc></url>
   <url><loc>https://glean-watch.github.io/nl/faces/retro/</loc></url>
   <url><loc>https://glean-watch.github.io/pt/</loc></url>
+  <url><loc>https://glean-watch.github.io/pt/faces/flyg/</loc></url>
+  <url><loc>https://glean-watch.github.io/pt/faces/gitter/</loc></url>
+  <url><loc>https://glean-watch.github.io/pt/faces/kol/</loc></url>
   <url><loc>https://glean-watch.github.io/pt/faces/glob/</loc></url>
   <url><loc>https://glean-watch.github.io/pt/faces/julnatt/</loc></url>
   <url><loc>https://glean-watch.github.io/pt/faces/snemand/</loc></url>
@@ -612,12 +636,15 @@
   <url><loc>https://glean-watch.github.io/pt/faces/fun/</loc></url>
   <url><loc>https://glean-watch.github.io/pt/faces/nature/</loc></url>
   <url><loc>https://glean-watch.github.io/pt/faces/analog/</loc></url>
-  <url><loc>https://glean-watch.github.io/pt/faces/geek/</loc></url>
   <url><loc>https://glean-watch.github.io/pt/faces/simple/</loc></url>
+  <url><loc>https://glean-watch.github.io/pt/faces/geek/</loc></url>
   <url><loc>https://glean-watch.github.io/pt/faces/stylish/</loc></url>
   <url><loc>https://glean-watch.github.io/pt/faces/fantasy/</loc></url>
   <url><loc>https://glean-watch.github.io/pt/faces/retro/</loc></url>
   <url><loc>https://glean-watch.github.io/sk/</loc></url>
+  <url><loc>https://glean-watch.github.io/sk/faces/flyg/</loc></url>
+  <url><loc>https://glean-watch.github.io/sk/faces/gitter/</loc></url>
+  <url><loc>https://glean-watch.github.io/sk/faces/kol/</loc></url>
   <url><loc>https://glean-watch.github.io/sk/faces/glob/</loc></url>
   <url><loc>https://glean-watch.github.io/sk/faces/julnatt/</loc></url>
   <url><loc>https://glean-watch.github.io/sk/faces/snemand/</loc></url>
@@ -689,12 +716,15 @@
   <url><loc>https://glean-watch.github.io/sk/faces/fun/</loc></url>
   <url><loc>https://glean-watch.github.io/sk/faces/nature/</loc></url>
   <url><loc>https://glean-watch.github.io/sk/faces/analog/</loc></url>
-  <url><loc>https://glean-watch.github.io/sk/faces/geek/</loc></url>
   <url><loc>https://glean-watch.github.io/sk/faces/simple/</loc></url>
+  <url><loc>https://glean-watch.github.io/sk/faces/geek/</loc></url>
   <url><loc>https://glean-watch.github.io/sk/faces/stylish/</loc></url>
   <url><loc>https://glean-watch.github.io/sk/faces/fantasy/</loc></url>
   <url><loc>https://glean-watch.github.io/sk/faces/retro/</loc></url>
   <url><loc>https://glean-watch.github.io/cs/</loc></url>
+  <url><loc>https://glean-watch.github.io/cs/faces/flyg/</loc></url>
+  <url><loc>https://glean-watch.github.io/cs/faces/gitter/</loc></url>
+  <url><loc>https://glean-watch.github.io/cs/faces/kol/</loc></url>
   <url><loc>https://glean-watch.github.io/cs/faces/glob/</loc></url>
   <url><loc>https://glean-watch.github.io/cs/faces/julnatt/</loc></url>
   <url><loc>https://glean-watch.github.io/cs/faces/snemand/</loc></url>
@@ -766,8 +796,8 @@
   <url><loc>https://glean-watch.github.io/cs/faces/fun/</loc></url>
   <url><loc>https://glean-watch.github.io/cs/faces/nature/</loc></url>
   <url><loc>https://glean-watch.github.io/cs/faces/analog/</loc></url>
-  <url><loc>https://glean-watch.github.io/cs/faces/geek/</loc></url>
   <url><loc>https://glean-watch.github.io/cs/faces/simple/</loc></url>
+  <url><loc>https://glean-watch.github.io/cs/faces/geek/</loc></url>
   <url><loc>https://glean-watch.github.io/cs/faces/stylish/</loc></url>
   <url><loc>https://glean-watch.github.io/cs/faces/fantasy/</loc></url>
   <url><loc>https://glean-watch.github.io/cs/faces/retro/</loc></url>
